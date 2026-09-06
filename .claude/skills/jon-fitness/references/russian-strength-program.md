@@ -118,7 +118,8 @@ Keeps the block flexible without leaving what the course supports.
 
 - **Target load = `round(pct × 1RM, 2.5 kg)`** — the same arithmetic as the source spreadsheet.
   `scripts/russian_block.py` generates the whole block from entered 1RMs (or from an RPE-
-  anchored top set → estimated 1RM).
+  anchored top set → estimated 1RM). `--taper-weeks N` appends N light taper microcycles;
+  `--meet` appends a 3-attempt meet/retest week and drops the wave's own in-block 1×1 test.
 - **RPE / RIR check (General knowledge, aligned with the course's use of RPE as an intensity
   metric — *Wk05 Ch8 p15–20* — and its double-progression / 2-for-2 logic — *Wk07 Ch11 p7,
   p20*):** if the progression-day load hits RPE ≥ 9 (≈ 0–1 reps in reserve) two sessions
@@ -218,7 +219,11 @@ Set the method in the plan's **Retest Plan** section, chosen by client type:
   **spotting** with a stable base and neutral spine, rack and safeties set (*Wk06 Ch10 p69,
   p72, p74*). Pre-test rules: 6–8 h sleep, no vigorous exercise 24 h prior, hydrated (*Wk04
   Ch8 p70*). Stop-test criteria apply (*Wk04 Ch8 p71*). Time it to the competition / testing
-  date for a competitive athlete — the sport calendar drives the macrocycle.
+  date for a competitive athlete — the sport calendar drives the macrocycle. For a dated meet,
+  generate with `--meet --taper-weeks 1` (or 2): the wave stops one week early, a light taper
+  microcycle is added, then a 3-attempt (opener ~92% / second ~100% / third ~105%) meet day.
+  The taper %s and attempt selection are **General knowledge** layered on the course skeleton —
+  label them, and adjust attempts live off how the openers move.
 - **General population:** **no true 1-RM.** Retest with the **same rep-max** used at baseline
   (e.g. 5RM), convert to estimated 1RM (Table 10-25), and report the **start → end delta** and
   the loads carried each week. This is the course's sub-maximal strength assessment, *"appropriate
@@ -241,8 +246,9 @@ In `B4 — Design the program`, after step 1 (Program strategy):
 6. Set **autoregulation rules** (§4) and the **retest method** (§7).
 7. Write the Markdown using `templates/strength_block_plan.md` sections in addition to the
    standard `client_fitness_plan.md` structure. Generate the CSV with
-   `scripts/russian_block.py` (see `templates/strength_block.csv` for the shape), then add the
-   warm-up (Movement-phase), cool-down (Flexibility FITT-VP, Table 11-7) and conditioning rows.
+   `scripts/russian_block.py` (see `templates/strength_block.csv` for the shape) — pass
+   `--fat-loss` for the concurrent-deficit case, `--meet --taper-weeks N` for a dated meet.
+   The script already emits warm-up, cool-down and conditioning rows; review and adjust them.
 8. Validate (B7) — `validate_plan.py` runs extra checks when it sees a strength block (gate
    recorded, retest date present, accessories not on the wave, deficit + peak not both
    aggressive).

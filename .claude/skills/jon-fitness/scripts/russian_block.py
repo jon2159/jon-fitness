@@ -15,6 +15,10 @@ Usage
     python scripts/russian_block.py --variant classic --focus squat \
         --oneRM "squat=180,bench=120,deadlift=220" --units kg
 
+    # peak into a meet: wave, then a taper week, then a 3-attempt meet day
+    python scripts/russian_block.py --variant v5 --meet --taper-weeks 1 \
+        --oneRM "squat=180,bench=120,deadlift=220" --wave-lifts "squat,bench,deadlift"
+
     python scripts/russian_block.py --variant masters --fat-loss \
         --oneRM "squat=110,bench=80,deadlift=140,press=55" \
         --wave-lifts "squat,deadlift"
@@ -139,24 +143,88 @@ def cooldown_row(week, day, session) -> list[str]:
               "5 min", "-", "Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)")
 
 
-def conditioning_rows(week, unit) -> list[list[str]]:
+CARDIO_NOTE = ("Fat-loss conditioning - dose to the deficit + recovery headroom, NOT to a "
+               "fixed minute target. The Ch 12 '150-250 min/wk' figure is obesity-population "
+               "guidance (see russian-strength-program.md sec 5). Off heavy lower-body days.")
+
+
+def conditioning_rows(week, unit, peak: bool = False) -> list[list[str]]:
+    if peak:
+        # intensification / peak: pull conditioning right back, protect the wave
+        return [
+            row(week, "Wed", "cond", "conditioning",
+                "Easy Zone 1 cardio or a brisk walk", 1, "-", "< VT1 / RPE 3", "-", "-",
+                "15-20 min", "cut entirely if recovery is tight",
+                "Peak weeks: recovery first. " + CARDIO_NOTE),
+        ]
     return [
         row(week, "Wed", "cond", "conditioning",
             "Zone 1-2 low-impact cardio (bike / brisk walk / row)",
-            1, "-", "< VT1 / RPE 3-4", "-", "-", "30-40 min", "+<=10%/wk",
-            "Fat-loss: Wk09 Ch12 p32 (150-250 min/wk). Kept off heavy lower-body days."),
+            1, "-", "< VT1 / RPE 3-4", "-", "-", "20-35 min", "steps first; add time only if recovering well",
+            CARDIO_NOTE),
         row(week, "Sat", "cond", "conditioning",
-            "Zone 1-2 low-impact cardio + easy accessory circuit",
-            1, "-", "< VT1 / RPE 3-4", "-", "-", "30-45 min", "+<=10%/wk",
-            "Fat-loss: energy expenditure toward the weekly target."),
+            "Zone 1-2 low-impact cardio + optional easy accessory circuit",
+            1, "-", "< VT1 / RPE 3-4", "-", "-", "20-35 min", "steps first",
+            CARDIO_NOTE),
     ]
 
 
-def emit_v5(one_rm, wave_lifts, step, unit, fat_loss) -> list[list[str]]:
+TAPER_SCHEME = [(2, 2, 0.85), (3, 2, 0.72), (3, 2, 0.65)]  # per taper week
+
+
+def taper_week_rows(week, taper_idx, wave_lifts, one_rm, step, unit) -> list[list[str]]:
+    sets, reps, pct = TAPER_SCHEME[min(taper_idx, len(TAPER_SCHEME) - 1)]
+    out = [warmup_row(week, "Mon", "taper")]
+    for k in wave_lifts:
+        if k not in one_rm:
+            continue
+        out.append(row(
+            week, "Mon", "taper", "strength", LIFTS[k]["name"], sets, reps,
+            intensity_cell(pct, one_rm[k], step, unit, False),
+            "2-3 min", "2-0-1", "", "taper - light and fast, stop while it feels easy",
+            f"taper week {taper_idx + 1} - shed fatigue, hold sharpness (Wk07 Ch11 p47-48)"))
+    out.append(cooldown_row(week, "Mon", "taper"))
+    out.append(row(week, "Thu", "taper", "conditioning", "Easy walk + mobility",
+                   1, "-", "very easy", "-", "-", "20-30 min", "-",
+                   "taper week - keep moving, no training stress"))
+    return out
+
+
+def meet_week_rows(week, wave_lifts, one_rm, step, unit) -> list[list[str]]:
+    out = [row(week, "Mon", "meet", "strength", "Light technique primer (wave lifts)",
+               2, 3, "~60% 1RM", "2-3 min", "2-0-1", "", "-",
+               "meet week: prime only. Wed-Fri full rest, sleep 7-9h, eat & hydrate normally (Wk04 Ch8 p70)"),
+           warmup_row(week, "Sat", "meet")]
+    for k in wave_lifts:
+        if k not in one_rm:
+            continue
+        nm = LIFTS[k]["name"]
+        for label, pct in (("opener ~92%", 0.92), ("second ~100%", 1.00), ("third / PB ~105%", 1.05)):
+            out.append(row(
+                week, "Sat", "meet", "test", f"{nm} - {label}", 1, 1,
+                intensity_cell(pct, one_rm[k], step, unit, False),
+                "3-5 min", "controlled", "", "call 3rd attempt live off how the openers move",
+                "MEET / retest - spotters & loaders, stable base, neutral spine, rack safeties set "
+                "(Wk06 Ch10 p74); stop-test criteria in effect (Wk04 Ch8 p71)"))
+    return out
+
+
+def append_taper_and_meet(rows, wave_end, taper_weeks, meet, wave_lifts, one_rm, step, unit):
+    wk = wave_end
+    for i in range(taper_weeks):
+        wk += 1
+        rows.extend(taper_week_rows(wk, i, wave_lifts, one_rm, step, unit))
+    if meet:
+        wk += 1
+        rows.extend(meet_week_rows(wk, wave_lifts, one_rm, step, unit))
+
+
+def emit_v5(one_rm, wave_lifts, step, unit, fat_loss, taper_weeks=0, meet=False) -> list[list[str]]:
     rows: list[list[str]] = []
     day_map = [("Mon", "A", True), ("Tue", "B", True),
                ("Thu", "A", False), ("Fri", "B", False)]
-    for wk in range(1, 10):
+    wave_end = 8 if meet else 9  # meet replaces the in-wave 1x1 retest week
+    for wk in range(1, wave_end + 1):
         p_sets, p_reps, p_pct = V5_WAVE[wk - 1]
         for day, grp, is_anchor in day_map:
             rows.append(warmup_row(wk, day, grp))
@@ -188,17 +256,19 @@ def emit_v5(one_rm, wave_lifts, step, unit, fat_loss) -> list[list[str]]:
                                 "RPE 7-8", "60-90s", "2-0-1", "", ACC_PROG, ""))
             rows.append(cooldown_row(wk, day, grp))
         if fat_loss:
-            rows.extend(conditioning_rows(wk, unit))
+            rows.extend(conditioning_rows(wk, unit, peak=wk >= 6))
+    append_taper_and_meet(rows, wave_end, taper_weeks, meet, wave_lifts, one_rm, step, unit)
     return rows
 
 
-def emit_classic(one_rm, focus, step, unit, fat_loss) -> list[list[str]]:
+def emit_classic(one_rm, focus, step, unit, fat_loss, taper_weeks=0, meet=False) -> list[list[str]]:
     rows: list[list[str]] = []
     if focus not in one_rm:
         sys.exit(f"error: --focus {focus!r} has no --oneRM value")
     days = ["Mon", "Wed", "Fri"]
     others = [k for k in one_rm if k != focus]
-    for wk in range(1, 7):
+    wave_end = 5 if meet else 6
+    for wk in range(1, wave_end + 1):
         for di, day in enumerate(days):
             sets, reps, pct = CLASSIC_WAVE[wk - 1][di]
             is_anchor = (sets, reps) == (6, 2)
@@ -222,14 +292,16 @@ def emit_classic(one_rm, focus, step, unit, fat_loss) -> list[list[str]]:
                                 "RPE 7-8", "60-90s", "2-0-1", "", ACC_PROG, ""))
             rows.append(cooldown_row(wk, day, "full"))
         if fat_loss:
-            rows.extend(conditioning_rows(wk, unit))
+            rows.extend(conditioning_rows(wk, unit, peak=wk >= 4))
+    append_taper_and_meet(rows, wave_end, taper_weeks, meet, [focus], one_rm, step, unit)
     return rows
 
 
-def emit_masters(one_rm, wave_lifts, step, unit, fat_loss) -> list[list[str]]:
+def emit_masters(one_rm, wave_lifts, step, unit, fat_loss, taper_weeks=0, meet=False) -> list[list[str]]:
     rows: list[list[str]] = []
     day_map = [("Mon", "A", True), ("Thu", "B", False)]
-    for wk in range(1, 9):
+    wave_end = 7 if meet else 8
+    for wk in range(1, wave_end + 1):
         p_sets, p_reps, p_pct = MASTERS_WAVE[wk - 1]
         for day, grp, is_anchor in day_map:
             rows.append(warmup_row(wk, day, grp))
@@ -257,7 +329,8 @@ def emit_masters(one_rm, wave_lifts, step, unit, fat_loss) -> list[list[str]]:
                                 "RPE 7", "60-90s", "2-0-1", "", ACC_PROG, ""))
             rows.append(cooldown_row(wk, day, grp))
         if fat_loss:
-            rows.extend(conditioning_rows(wk, unit))
+            rows.extend(conditioning_rows(wk, unit, peak=wk >= 6))
+    append_taper_and_meet(rows, wave_end, taper_weeks, meet, wave_lifts, one_rm, step, unit)
     return rows
 
 
@@ -273,10 +346,18 @@ def main(argv: list[str] | None = None) -> int:
                     help="classic variant only: the single lift on the wave")
     ap.add_argument("--units", choices=["kg", "lb"], default="kg")
     ap.add_argument("--fat-loss", action="store_true",
-                    help="add Zone 1-2 conditioning rows on non-lower-body days")
+                    help="add Zone 1-2 conditioning rows on non-lower-body days "
+                         "(dosed to recovery, pulled back in the peak weeks)")
+    ap.add_argument("--taper-weeks", type=int, default=0, metavar="N",
+                    help="append N light taper microcycles after the wave (shed fatigue)")
+    ap.add_argument("--meet", action="store_true",
+                    help="append a meet / retest week (3 attempts per wave lift); "
+                         "also drops the wave's own in-block retest week since the meet replaces it")
     ap.add_argument("--out", default="-",
                     help="output CSV path (default: stdout)")
     args = ap.parse_args(argv)
+    if args.taper_weeks < 0:
+        sys.exit("error: --taper-weeks must be >= 0")
 
     one_rm = parse_one_rm(args.oneRM)
     step = 2.5 if args.units == "kg" else 5.0
@@ -286,12 +367,13 @@ def main(argv: list[str] | None = None) -> int:
         if w not in LIFTS:
             sys.exit(f"error: unknown wave lift {w!r}")
 
+    tw, meet = args.taper_weeks, args.meet
     if args.variant == "v5":
-        rows = emit_v5(one_rm, wave_lifts, step, args.units, args.fat_loss)
+        rows = emit_v5(one_rm, wave_lifts, step, args.units, args.fat_loss, tw, meet)
     elif args.variant == "classic":
-        rows = emit_classic(one_rm, args.focus.lower(), step, args.units, args.fat_loss)
+        rows = emit_classic(one_rm, args.focus.lower(), step, args.units, args.fat_loss, tw, meet)
     else:
-        rows = emit_masters(one_rm, wave_lifts, step, args.units, args.fat_loss)
+        rows = emit_masters(one_rm, wave_lifts, step, args.units, args.fat_loss, tw, meet)
 
     out = sys.stdout if args.out == "-" else open(args.out, "w", newline="")
     try:

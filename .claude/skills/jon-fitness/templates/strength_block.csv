@@ -9,4 +9,4 @@ week,day,session,block,exercise,sets,reps,intensity,rest,tempo,duration,progress
 5,Thu,A,strength,Back Squat,5,5,85% 1RM (120 kg),3-5 min,2-0-1,,linear wave; autoregulate per RPE,wave lift - intensification begins
 8,Thu,A,strength,Back Squat,2,2,100% 1RM (140 kg),3-5 min,2-0-1,,linear wave; autoregulate per RPE,wave lift - hold deficit at maintenance this week
 9,Thu,A,strength,Back Squat,1,1,105% 1RM (147.5 kg),3-5 min,2-0-1,,retest,RETEST week - Retest Plan (Wk06 Ch10 p69-74); spotting p74
-2,Wed,cond,conditioning,Zone 1-2 low-impact cardio (bike / walk / row),1,-,< VT1 / RPE 3-4,-,-,30-40 min,+<=10%/wk,Fat-loss option: Wk09 Ch12 p32 (150-250 min/wk); kept off heavy lower-body days
+2,Wed,cond,conditioning,Zone 1-2 low-impact cardio (bike / walk / row),1,-,< VT1 / RPE 3-4,-,-,20-35 min,steps first; dose to recovery not a minute target,"Fat-loss option: conditioning dosed to the deficit + recovery, NOT the Ch 12 150-250 min/wk figure (obesity-population guidance). Off heavy lower-body days. See russian-strength-program.md sec 5"
