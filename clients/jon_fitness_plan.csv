@@ -1,0 +1,325 @@
+week,day,session,block,exercise,sets,reps,intensity,rest,tempo,duration,progression,notes
+1,Mon,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+1,Mon,A,strength,Back Squat,6,2,80% 1RM (102.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Mon,A,strength,Bench Press,6,2,80% 1RM (115 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+1,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+1,Mon,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+1,Tue,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+1,Tue,B,strength,Deadlift,6,2,80% 1RM (125 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Tue,B,strength,Military Press,6,2,80% 1RM (65 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Tue,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Tue,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+1,Tue,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+1,Tue,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+1,Wed,C,warm-up,"Movement warm-up + shoulder mobility (band pull-aparts, face pull, arm circles)",1,-,bodyweight / light band,-,controlled,10 min,-,Session components Wk07 Ch11 p18
+1,Wed,C,hypertrophy,Incline Dumbbell Press,4,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7 p20),push pattern; upper chest emphasis (Wk02 Ch2 p12); multi-joint first (Wk07 Ch11 p13)
+1,Wed,C,hypertrophy,Cable Row (Seated or Single-arm),4,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,pull pattern; agonist/antagonist balance with pressing (Wk07 Ch11 p13)
+1,Wed,C,hypertrophy,Dumbbell Shoulder Press (Seated),3,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,push pattern - vertical; hypertrophy dose (Wk07 Ch11 Table 9-12 p16)
+1,Wed,C,hypertrophy,Cable Lateral Raise,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,shoulder width; single-joint after multi-joint (Wk07 Ch11 p13)
+1,Wed,C,hypertrophy,Cable Rear Delt Fly,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,scapular stabilizer / posterior shoulder health (Wk10 Ch15 p92)
+1,Wed,C,hypertrophy,EZ-Bar or Dumbbell Curl,3,10-12,RPE 7-8,60s,2-0-1,,double progression 8-12; 2-for-2 then +5%,biceps hypertrophy; single-joint isolation (Wk07 Ch11 p13)
+1,Wed,C,hypertrophy,Tricep Rope Pushdown,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,triceps hypertrophy; single-joint isolation
+1,Wed,C,hypertrophy,Cable Pull-Through or Hamstring Curl,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,posterior chain flush on pump day; does not compete with DL recovery (Wk07 Ch11 p47-48)
+1,Wed,C,cool-down,Static stretch: pecs / front delts / lats / biceps / hamstrings,1,2/side,to slight discomfort,-,hold 20-30s,8 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+1,Thu,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+1,Thu,A,strength,Back Squat,6,2,80% 1RM (102.5 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Thu,A,strength,Bench Press,6,2,80% 1RM (115 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Thu,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+1,Thu,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+1,Thu,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+1,Fri,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+1,Fri,B,strength,Deadlift,6,2,80% 1RM (125 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Fri,B,strength,Military Press,6,2,80% 1RM (65 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Fri,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+1,Fri,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+1,Fri,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+1,Fri,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+2,Mon,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+2,Mon,A,strength,Back Squat,6,2,80% 1RM (102.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Mon,A,strength,Bench Press,6,2,80% 1RM (115 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+2,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+2,Mon,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+2,Tue,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+2,Tue,B,strength,Deadlift,6,2,80% 1RM (125 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Tue,B,strength,Military Press,6,2,80% 1RM (65 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Tue,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Tue,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+2,Tue,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+2,Tue,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+2,Wed,C,warm-up,"Movement warm-up + shoulder mobility (band pull-aparts, face pull, arm circles)",1,-,bodyweight / light band,-,controlled,10 min,-,Session components Wk07 Ch11 p18
+2,Wed,C,hypertrophy,Incline Dumbbell Press,4,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7 p20),push pattern; upper chest emphasis (Wk02 Ch2 p12); multi-joint first (Wk07 Ch11 p13)
+2,Wed,C,hypertrophy,Cable Row (Seated or Single-arm),4,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,pull pattern; agonist/antagonist balance with pressing (Wk07 Ch11 p13)
+2,Wed,C,hypertrophy,Dumbbell Shoulder Press (Seated),3,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,push pattern - vertical; hypertrophy dose (Wk07 Ch11 Table 9-12 p16)
+2,Wed,C,hypertrophy,Cable Lateral Raise,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,shoulder width; single-joint after multi-joint (Wk07 Ch11 p13)
+2,Wed,C,hypertrophy,Cable Rear Delt Fly,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,scapular stabilizer / posterior shoulder health (Wk10 Ch15 p92)
+2,Wed,C,hypertrophy,EZ-Bar or Dumbbell Curl,3,10-12,RPE 7-8,60s,2-0-1,,double progression 8-12; 2-for-2 then +5%,biceps hypertrophy; single-joint isolation (Wk07 Ch11 p13)
+2,Wed,C,hypertrophy,Tricep Rope Pushdown,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,triceps hypertrophy; single-joint isolation
+2,Wed,C,hypertrophy,Cable Pull-Through or Hamstring Curl,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,posterior chain flush on pump day; does not compete with DL recovery (Wk07 Ch11 p47-48)
+2,Wed,C,cool-down,Static stretch: pecs / front delts / lats / biceps / hamstrings,1,2/side,to slight discomfort,-,hold 20-30s,8 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+2,Thu,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+2,Thu,A,strength,Back Squat,6,4,80% 1RM (102.5 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Thu,A,strength,Bench Press,6,4,80% 1RM (115 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Thu,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+2,Thu,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+2,Thu,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+2,Fri,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+2,Fri,B,strength,Deadlift,6,4,80% 1RM (125 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Fri,B,strength,Military Press,6,4,80% 1RM (65 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Fri,B,strength,Weighted Pull-up,6,4,80% 1RM (32.5 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+2,Fri,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+2,Fri,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+2,Fri,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+3,Mon,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+3,Mon,A,strength,Back Squat,6,2,80% 1RM (102.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Mon,A,strength,Bench Press,6,2,80% 1RM (115 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+3,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+3,Mon,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+3,Tue,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+3,Tue,B,strength,Deadlift,6,2,80% 1RM (125 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Tue,B,strength,Military Press,6,2,80% 1RM (65 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Tue,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Tue,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+3,Tue,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+3,Tue,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+3,Wed,C,warm-up,"Movement warm-up + shoulder mobility (band pull-aparts, face pull, arm circles)",1,-,bodyweight / light band,-,controlled,10 min,-,Session components Wk07 Ch11 p18
+3,Wed,C,hypertrophy,Incline Dumbbell Press,4,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7 p20),push pattern; upper chest emphasis (Wk02 Ch2 p12); multi-joint first (Wk07 Ch11 p13)
+3,Wed,C,hypertrophy,Cable Row (Seated or Single-arm),4,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,pull pattern; agonist/antagonist balance with pressing (Wk07 Ch11 p13)
+3,Wed,C,hypertrophy,Dumbbell Shoulder Press (Seated),3,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,push pattern - vertical; hypertrophy dose (Wk07 Ch11 Table 9-12 p16)
+3,Wed,C,hypertrophy,Cable Lateral Raise,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,shoulder width; single-joint after multi-joint (Wk07 Ch11 p13)
+3,Wed,C,hypertrophy,Cable Rear Delt Fly,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,scapular stabilizer / posterior shoulder health (Wk10 Ch15 p92)
+3,Wed,C,hypertrophy,EZ-Bar or Dumbbell Curl,3,10-12,RPE 7-8,60s,2-0-1,,double progression 8-12; 2-for-2 then +5%,biceps hypertrophy; single-joint isolation (Wk07 Ch11 p13)
+3,Wed,C,hypertrophy,Tricep Rope Pushdown,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,triceps hypertrophy; single-joint isolation
+3,Wed,C,hypertrophy,Cable Pull-Through or Hamstring Curl,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,posterior chain flush on pump day; does not compete with DL recovery (Wk07 Ch11 p47-48)
+3,Wed,C,cool-down,Static stretch: pecs / front delts / lats / biceps / hamstrings,1,2/side,to slight discomfort,-,hold 20-30s,8 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+3,Thu,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+3,Thu,A,strength,Back Squat,6,5,80% 1RM (102.5 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Thu,A,strength,Bench Press,6,5,80% 1RM (115 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Thu,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+3,Thu,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+3,Thu,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+3,Fri,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+3,Fri,B,strength,Deadlift,6,5,80% 1RM (125 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Fri,B,strength,Military Press,6,5,80% 1RM (65 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Fri,B,strength,Weighted Pull-up,6,5,80% 1RM (32.5 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+3,Fri,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+3,Fri,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+3,Fri,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+4,Mon,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+4,Mon,A,strength,Back Squat,6,2,80% 1RM (102.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Mon,A,strength,Bench Press,6,2,80% 1RM (115 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+4,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+4,Mon,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+4,Tue,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+4,Tue,B,strength,Deadlift,6,2,80% 1RM (125 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Tue,B,strength,Military Press,6,2,80% 1RM (65 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Tue,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Tue,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+4,Tue,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+4,Tue,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+4,Wed,C,warm-up,"Movement warm-up + shoulder mobility (band pull-aparts, face pull, arm circles)",1,-,bodyweight / light band,-,controlled,10 min,-,Session components Wk07 Ch11 p18
+4,Wed,C,hypertrophy,Incline Dumbbell Press,4,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7 p20),push pattern; upper chest emphasis (Wk02 Ch2 p12); multi-joint first (Wk07 Ch11 p13)
+4,Wed,C,hypertrophy,Cable Row (Seated or Single-arm),4,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,pull pattern; agonist/antagonist balance with pressing (Wk07 Ch11 p13)
+4,Wed,C,hypertrophy,Dumbbell Shoulder Press (Seated),3,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,push pattern - vertical; hypertrophy dose (Wk07 Ch11 Table 9-12 p16)
+4,Wed,C,hypertrophy,Cable Lateral Raise,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,shoulder width; single-joint after multi-joint (Wk07 Ch11 p13)
+4,Wed,C,hypertrophy,Cable Rear Delt Fly,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,scapular stabilizer / posterior shoulder health (Wk10 Ch15 p92)
+4,Wed,C,hypertrophy,EZ-Bar or Dumbbell Curl,3,10-12,RPE 7-8,60s,2-0-1,,double progression 8-12; 2-for-2 then +5%,biceps hypertrophy; single-joint isolation (Wk07 Ch11 p13)
+4,Wed,C,hypertrophy,Tricep Rope Pushdown,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,triceps hypertrophy; single-joint isolation
+4,Wed,C,hypertrophy,Cable Pull-Through or Hamstring Curl,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,posterior chain flush on pump day; does not compete with DL recovery (Wk07 Ch11 p47-48)
+4,Wed,C,cool-down,Static stretch: pecs / front delts / lats / biceps / hamstrings,1,2/side,to slight discomfort,-,hold 20-30s,8 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+4,Thu,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+4,Thu,A,strength,Back Squat,6,6,80% 1RM (102.5 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Thu,A,strength,Bench Press,6,6,80% 1RM (115 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Thu,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+4,Thu,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+4,Thu,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+4,Fri,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+4,Fri,B,strength,Deadlift,6,6,80% 1RM (125 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Fri,B,strength,Military Press,6,6,80% 1RM (65 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Fri,B,strength,Weighted Pull-up,6,6,80% 1RM (32.5 kg),2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+4,Fri,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+4,Fri,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+4,Fri,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+5,Mon,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+5,Mon,A,strength,Back Squat,6,2,80% 1RM (102.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Mon,A,strength,Bench Press,6,2,80% 1RM (115 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+5,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+5,Mon,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+5,Tue,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+5,Tue,B,strength,Deadlift,6,2,80% 1RM (125 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Tue,B,strength,Military Press,6,2,80% 1RM (65 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Tue,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Tue,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+5,Tue,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+5,Tue,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+5,Wed,C,warm-up,"Movement warm-up + shoulder mobility (band pull-aparts, face pull, arm circles)",1,-,bodyweight / light band,-,controlled,10 min,-,Session components Wk07 Ch11 p18
+5,Wed,C,hypertrophy,Incline Dumbbell Press,4,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7 p20),push pattern; upper chest emphasis (Wk02 Ch2 p12); multi-joint first (Wk07 Ch11 p13)
+5,Wed,C,hypertrophy,Cable Row (Seated or Single-arm),4,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,pull pattern; agonist/antagonist balance with pressing (Wk07 Ch11 p13)
+5,Wed,C,hypertrophy,Dumbbell Shoulder Press (Seated),3,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,push pattern - vertical; hypertrophy dose (Wk07 Ch11 Table 9-12 p16)
+5,Wed,C,hypertrophy,Cable Lateral Raise,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,shoulder width; single-joint after multi-joint (Wk07 Ch11 p13)
+5,Wed,C,hypertrophy,Cable Rear Delt Fly,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,scapular stabilizer / posterior shoulder health (Wk10 Ch15 p92)
+5,Wed,C,hypertrophy,EZ-Bar or Dumbbell Curl,3,10-12,RPE 7-8,60s,2-0-1,,double progression 8-12; 2-for-2 then +5%,biceps hypertrophy; single-joint isolation (Wk07 Ch11 p13)
+5,Wed,C,hypertrophy,Tricep Rope Pushdown,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,triceps hypertrophy; single-joint isolation
+5,Wed,C,hypertrophy,Cable Pull-Through or Hamstring Curl,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,posterior chain flush on pump day; does not compete with DL recovery (Wk07 Ch11 p47-48)
+5,Wed,C,cool-down,Static stretch: pecs / front delts / lats / biceps / hamstrings,1,2/side,to slight discomfort,-,hold 20-30s,8 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+5,Thu,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+5,Thu,A,strength,Back Squat,5,5,85% 1RM (107.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Thu,A,strength,Bench Press,5,5,85% 1RM (120 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Thu,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+5,Thu,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+5,Thu,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+5,Fri,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+5,Fri,B,strength,Deadlift,5,5,85% 1RM (132.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Fri,B,strength,Military Press,5,5,85% 1RM (67.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Fri,B,strength,Weighted Pull-up,5,5,85% 1RM (35 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+5,Fri,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+5,Fri,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+5,Fri,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+6,Mon,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+6,Mon,A,strength,Back Squat,6,2,80% 1RM (102.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Mon,A,strength,Bench Press,6,2,80% 1RM (115 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+6,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+6,Mon,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+6,Tue,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+6,Tue,B,strength,Deadlift,6,2,80% 1RM (125 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Tue,B,strength,Military Press,6,2,80% 1RM (65 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Tue,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Tue,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+6,Tue,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+6,Tue,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+6,Wed,C,warm-up,"Movement warm-up + shoulder mobility (band pull-aparts, face pull, arm circles)",1,-,bodyweight / light band,-,controlled,10 min,-,Session components Wk07 Ch11 p18
+6,Wed,C,hypertrophy,Incline Dumbbell Press,4,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7 p20),push pattern; upper chest emphasis (Wk02 Ch2 p12); multi-joint first (Wk07 Ch11 p13)
+6,Wed,C,hypertrophy,Cable Row (Seated or Single-arm),4,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,pull pattern; agonist/antagonist balance with pressing (Wk07 Ch11 p13)
+6,Wed,C,hypertrophy,Dumbbell Shoulder Press (Seated),3,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,push pattern - vertical; hypertrophy dose (Wk07 Ch11 Table 9-12 p16)
+6,Wed,C,hypertrophy,Cable Lateral Raise,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,shoulder width; single-joint after multi-joint (Wk07 Ch11 p13)
+6,Wed,C,hypertrophy,Cable Rear Delt Fly,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,scapular stabilizer / posterior shoulder health (Wk10 Ch15 p92)
+6,Wed,C,hypertrophy,EZ-Bar or Dumbbell Curl,3,10-12,RPE 7-8,60s,2-0-1,,double progression 8-12; 2-for-2 then +5%,biceps hypertrophy; single-joint isolation (Wk07 Ch11 p13)
+6,Wed,C,hypertrophy,Tricep Rope Pushdown,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,triceps hypertrophy; single-joint isolation
+6,Wed,C,hypertrophy,Cable Pull-Through or Hamstring Curl,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,posterior chain flush on pump day; does not compete with DL recovery (Wk07 Ch11 p47-48)
+6,Wed,C,cool-down,Static stretch: pecs / front delts / lats / biceps / hamstrings,1,2/side,to slight discomfort,-,hold 20-30s,8 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+6,Thu,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+6,Thu,A,strength,Back Squat,4,4,90% 1RM (115 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Thu,A,strength,Bench Press,4,4,90% 1RM (127.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Thu,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+6,Thu,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+6,Thu,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+6,Fri,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+6,Fri,B,strength,Deadlift,4,4,90% 1RM (140 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Fri,B,strength,Military Press,4,4,90% 1RM (72.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Fri,B,strength,Weighted Pull-up,4,4,90% 1RM (35 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+6,Fri,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+6,Fri,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+6,Fri,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+7,Mon,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+7,Mon,A,strength,Back Squat,6,2,80% 1RM (102.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Mon,A,strength,Bench Press,6,2,80% 1RM (115 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+7,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+7,Mon,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+7,Tue,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+7,Tue,B,strength,Deadlift,6,2,80% 1RM (125 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Tue,B,strength,Military Press,6,2,80% 1RM (65 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Tue,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Tue,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+7,Tue,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+7,Tue,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+7,Wed,C,warm-up,"Movement warm-up + shoulder mobility (band pull-aparts, face pull, arm circles)",1,-,bodyweight / light band,-,controlled,10 min,-,Session components Wk07 Ch11 p18
+7,Wed,C,hypertrophy,Incline Dumbbell Press,4,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7 p20),push pattern; upper chest emphasis (Wk02 Ch2 p12); multi-joint first (Wk07 Ch11 p13)
+7,Wed,C,hypertrophy,Cable Row (Seated or Single-arm),4,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,pull pattern; agonist/antagonist balance with pressing (Wk07 Ch11 p13)
+7,Wed,C,hypertrophy,Dumbbell Shoulder Press (Seated),3,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,push pattern - vertical; hypertrophy dose (Wk07 Ch11 Table 9-12 p16)
+7,Wed,C,hypertrophy,Cable Lateral Raise,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,shoulder width; single-joint after multi-joint (Wk07 Ch11 p13)
+7,Wed,C,hypertrophy,Cable Rear Delt Fly,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,scapular stabilizer / posterior shoulder health (Wk10 Ch15 p92)
+7,Wed,C,hypertrophy,EZ-Bar or Dumbbell Curl,3,10-12,RPE 7-8,60s,2-0-1,,double progression 8-12; 2-for-2 then +5%,biceps hypertrophy; single-joint isolation (Wk07 Ch11 p13)
+7,Wed,C,hypertrophy,Tricep Rope Pushdown,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,triceps hypertrophy; single-joint isolation
+7,Wed,C,hypertrophy,Cable Pull-Through or Hamstring Curl,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,posterior chain flush on pump day; does not compete with DL recovery (Wk07 Ch11 p47-48)
+7,Wed,C,cool-down,Static stretch: pecs / front delts / lats / biceps / hamstrings,1,2/side,to slight discomfort,-,hold 20-30s,8 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+7,Thu,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+7,Thu,A,strength,Back Squat,3,3,95% 1RM (120 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Thu,A,strength,Bench Press,3,3,95% 1RM (135 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Thu,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+7,Thu,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+7,Thu,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+7,Fri,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+7,Fri,B,strength,Deadlift,3,3,95% 1RM (147.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Fri,B,strength,Military Press,3,3,95% 1RM (75 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Fri,B,strength,Weighted Pull-up,3,3,95% 1RM (37.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+7,Fri,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+7,Fri,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+7,Fri,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+8,Mon,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+8,Mon,A,strength,Back Squat,6,2,80% 1RM (102.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Mon,A,strength,Bench Press,6,2,80% 1RM (115 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+8,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+8,Mon,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+8,Tue,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+8,Tue,B,strength,Deadlift,6,2,80% 1RM (125 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Tue,B,strength,Military Press,6,2,80% 1RM (65 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Tue,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Tue,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+8,Tue,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+8,Tue,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+8,Wed,C,warm-up,"Movement warm-up + shoulder mobility (band pull-aparts, face pull, arm circles)",1,-,bodyweight / light band,-,controlled,10 min,-,Session components Wk07 Ch11 p18
+8,Wed,C,hypertrophy,Incline Dumbbell Press,4,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7 p20),push pattern; upper chest emphasis (Wk02 Ch2 p12); multi-joint first (Wk07 Ch11 p13)
+8,Wed,C,hypertrophy,Cable Row (Seated or Single-arm),4,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,pull pattern; agonist/antagonist balance with pressing (Wk07 Ch11 p13)
+8,Wed,C,hypertrophy,Dumbbell Shoulder Press (Seated),3,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,push pattern - vertical; hypertrophy dose (Wk07 Ch11 Table 9-12 p16)
+8,Wed,C,hypertrophy,Cable Lateral Raise,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,shoulder width; single-joint after multi-joint (Wk07 Ch11 p13)
+8,Wed,C,hypertrophy,Cable Rear Delt Fly,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,scapular stabilizer / posterior shoulder health (Wk10 Ch15 p92)
+8,Wed,C,hypertrophy,EZ-Bar or Dumbbell Curl,3,10-12,RPE 7-8,60s,2-0-1,,double progression 8-12; 2-for-2 then +5%,biceps hypertrophy; single-joint isolation (Wk07 Ch11 p13)
+8,Wed,C,hypertrophy,Tricep Rope Pushdown,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,triceps hypertrophy; single-joint isolation
+8,Wed,C,hypertrophy,Cable Pull-Through or Hamstring Curl,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,posterior chain flush on pump day; does not compete with DL recovery (Wk07 Ch11 p47-48)
+8,Wed,C,cool-down,Static stretch: pecs / front delts / lats / biceps / hamstrings,1,2/side,to slight discomfort,-,hold 20-30s,8 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+8,Thu,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+8,Thu,A,strength,Back Squat,2,2,100% 1RM (127.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Thu,A,strength,Bench Press,2,2,100% 1RM (142.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Thu,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+8,Thu,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+8,Thu,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+8,Fri,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+8,Fri,B,strength,Deadlift,2,2,100% 1RM (155 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Fri,B,strength,Military Press,2,2,100% 1RM (80 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Fri,B,strength,Weighted Pull-up,2,2,100% 1RM (40 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+8,Fri,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+8,Fri,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+8,Fri,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+9,Mon,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+9,Mon,A,strength,Back Squat,6,2,80% 1RM (102.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+9,Mon,A,strength,Bench Press,6,2,80% 1RM (115 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+9,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+9,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+9,Mon,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+9,Tue,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+9,Tue,B,strength,Deadlift,6,2,80% 1RM (125 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+9,Tue,B,strength,Military Press,6,2,80% 1RM (65 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+9,Tue,B,strength,Weighted Pull-up,6,2,80% 1RM (32.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),wave lift
+9,Tue,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+9,Tue,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+9,Tue,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+9,Wed,C,warm-up,"Movement warm-up + shoulder mobility (band pull-aparts, face pull, arm circles)",1,-,bodyweight / light band,-,controlled,10 min,-,Session components Wk07 Ch11 p18
+9,Wed,C,hypertrophy,Incline Dumbbell Press,4,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7 p20),push pattern; upper chest emphasis (Wk02 Ch2 p12); multi-joint first (Wk07 Ch11 p13)
+9,Wed,C,hypertrophy,Cable Row (Seated or Single-arm),4,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,pull pattern; agonist/antagonist balance with pressing (Wk07 Ch11 p13)
+9,Wed,C,hypertrophy,Dumbbell Shoulder Press (Seated),3,10-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,push pattern - vertical; hypertrophy dose (Wk07 Ch11 Table 9-12 p16)
+9,Wed,C,hypertrophy,Cable Lateral Raise,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,shoulder width; single-joint after multi-joint (Wk07 Ch11 p13)
+9,Wed,C,hypertrophy,Cable Rear Delt Fly,3,12-15,RPE 7-8,45-60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,scapular stabilizer / posterior shoulder health (Wk10 Ch15 p92)
+9,Wed,C,hypertrophy,EZ-Bar or Dumbbell Curl,3,10-12,RPE 7-8,60s,2-0-1,,double progression 8-12; 2-for-2 then +5%,biceps hypertrophy; single-joint isolation (Wk07 Ch11 p13)
+9,Wed,C,hypertrophy,Tricep Rope Pushdown,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,triceps hypertrophy; single-joint isolation
+9,Wed,C,hypertrophy,Cable Pull-Through or Hamstring Curl,3,12-15,RPE 7-8,60s,2-0-1,,double progression 12-15; 2-for-2 then +5%,posterior chain flush on pump day; does not compete with DL recovery (Wk07 Ch11 p47-48)
+9,Wed,C,cool-down,Static stretch: pecs / front delts / lats / biceps / hamstrings,1,2/side,to slight discomfort,-,hold 20-30s,8 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+9,Thu,A,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+9,Thu,A,strength,Back Squat,1,1,105% 1RM (135 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),RETEST week - see Retest Plan (Wk06 Ch10 p69-74)
+9,Thu,A,strength,Bench Press,1,1,105% 1RM (150 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),RETEST week - see Retest Plan (Wk06 Ch10 p69-74)
+9,Thu,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+9,Thu,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+9,Thu,A,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+9,Fri,B,warm-up,Movement-phase warm-up: 5 patterns + ramp sets to first work load,1,-,bodyweight -> light,-,controlled,8-10 min,-,Session components Wk07 Ch11 p18
+9,Fri,B,strength,Deadlift,1,1,105% 1RM (162.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),RETEST week - see Retest Plan (Wk06 Ch10 p69-74)
+9,Fri,B,strength,Military Press,1,1,105% 1RM (85 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),RETEST week - see Retest Plan (Wk06 Ch10 p69-74)
+9,Fri,B,strength,Weighted Pull-up,1,1,105% 1RM (42.5 kg),3-5 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation),RETEST week - see Retest Plan (Wk06 Ch10 p69-74)
+9,Fri,B,accessory,Romanian Deadlift,3,10,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+9,Fri,B,accessory,Face Pull,3,15,RPE 7-8,60-90s,2-0-1,,"double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)",
+9,Fri,B,cool-down,"Static stretch: hip flexors, hamstrings, pecs, lats",1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
