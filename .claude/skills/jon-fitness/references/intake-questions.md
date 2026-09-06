@@ -115,6 +115,39 @@ Which sport, position, season phase, and key physical demands (power, endurance,
 
 ---
 
+**P13–P16 apply only when P1 = B (strength) or the client asks for a max-strength /
+powerlifting-style / "Russian" block.** See `references/russian-strength-program.md`.
+
+### P13. Barbell training background *(BLOCKING for the strength-block archetype — gate G2/G3)*
+A. 2+ yr consistent barbell training, confident under load — can state recent working weights
+B. 6 mo – 2 yr, still grooving the main lifts
+C. < 6 mo / never trained the barbell lifts
+D. Trained before, detrained now
+*(B/C → scaled entry, not the archetype. Also do the movement screens in B3.)*
+
+### P14. Complex-lift competence *(IMPORTANT — separates the athlete branch from general population)*
+Can you perform these with sound technique under moderate load?
+A. Power clean / clean  B. Push press / push jerk  C. Front squat / overhead squat
+D. None of these — I want basic barbell strength
+*(A–C → athlete branch: SAQ / plyometrics / power add-ons available. D → general-population branch.)*
+
+### P15. Current 1-RMs or recent top sets *(BLOCKING to build the wave — drives every load)*
+For squat, bench, deadlift, overhead press, weighted pull-up — give either a tested 1-RM or a
+recent best set (e.g. "100 kg × 5"). If none: we run a sub-maximal rep test to estimate them
+(Table 10-25) — no true 1-RM for a general-population client.
+
+### P16. Retest preference *(IMPORTANT — sets the end-of-block assessment)*
+A. Test a true 1-RM / 3-RM at the end (athletes / experienced, no testing contraindications)
+B. Just record where I started and retest the same rep-max at the end to see the gain
+C. No formal retest — track weekly loads only
+
+### P17. Fat loss alongside the strength block? *(IMPORTANT if P1 = B and P2/goal includes C)*
+A. No — strength only  B. Yes, gradual (hold the course's ~1–2 lb/wk)  C. Yes, and I want it faster
+*(C → give the trade-offs; a larger deficit is a client/RD nutrition decision, outside the
+course's 500–1000 kcal/day band. Nutrition stays general-information only — refer to an RD.)*
+
+---
+
 ## Stage 3 — Personalization
 
 ### X1. Exercises you dislike or want to avoid *(OPTIONAL — adherence)* — open.
@@ -141,7 +174,8 @@ known info → CPT screening/assessment/programming requirements → list missin
    → classify BLOCKING / IMPORTANT / OPTIONAL
    → ask prioritized MCQs (BLOCKING first; batch 3–6 at a time)
    → update Client Profile + Outstanding Information in the .md
-   → re-derive newly relevant questions (e.g. P12 only if P1=F; Ch 14 questions if S7≠A)
+   → re-derive newly relevant questions (e.g. P12 only if P1=F; P13–P17 only if P1=B
+     or a strength-block request; Ch 14 questions if S7≠A)
    → repeat until no BLOCKING gaps remain
    → design the program; leave IMPORTANT/OPTIONAL gaps noted in the plan
 ```

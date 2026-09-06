@@ -67,7 +67,8 @@ programming uses **ACSM/ACE FITT-VP** guidelines. 12 lesson files, one per deck,
 - **Tempo** — Week 07 Ch 11 p17 (1–3 s concentric, 2–4 s eccentric; 4–8 s for strength; ~6 s reps for new exercisers).
 - **Progression** — Week 07 Ch 11 p19–20 (bodyweight→machine→free weight; uniplanar→multiplanar; supported→unsupported; isolation→multi-joint; bilateral→unilateral); **2-for-2 rule** & **double progression** p20.
 - **Session components** — Week 07 Ch 11 p18 (warm-up with Functional/Movement-phase exercises; conditioning; cool-down).
-- **Periodization** — Week 07 Ch 11 p42–46 (macro/meso/microcycle; linear vs undulating; Tables 10-20/10-21; usually only core exercises are periodized).
+- **Periodization** — Week 07 Ch 11 p42–46 (macro/meso/microcycle; linear vs undulating; Tables 10-20/10-21; usually only core exercises are periodized). The course's linear example ramps microcycles 12 → 8 → 4 → … → 1 rep and ends with a "goal assessment" week (p45).
+- **Strength-block archetype (Russian Strength Program)** — `references/russian-strength-program.md`. A linear-periodization mesocycle for max-strength / PBs on the barbell lifts; maps to **Load/Speed** stage; includes the eligibility gate, the V5 / Classic / Masters variants, fat-loss integration, the scaled entry for beginners, and the retest protocol. Anchored on Ch 11 p42–46, Table 9-12 (p16), Table 11-10 (p29–31), and 1-RM assessment (Ch 10 p69–74).
 
 ### ACE IFT Model — phase selection
 - **Overview** — Week 02 Ch 2 p7 (the model), Table 2-2 (cardio phases), Table 2-3 (muscular phases).
@@ -78,7 +79,7 @@ programming uses **ACSM/ACE FITT-VP** guidelines. 12 lesson files, one per deck,
 - **Muscular: Functional → Movement → Load/Speed** — Week 02 Ch 2 p10–14; Week 07 Ch 11 p21–32.
   Functional: re-establish postural stability & kinetic-chain mobility; bodyweight, core, balance; stabilize lumbar region first, then distal segments.
   Movement: the 5 primary movement patterns (push, pull, bend-and-lift, single-leg, rotation) in varied planes; reps over intensity; light load 50–60% 1RM.
-  Load/Speed: external load for force/speed; strength/hypertrophy/endurance goals per the resistance guidelines; add power/speed/agility for athletes.
+  Load/Speed: external load for force/speed; strength/hypertrophy/endurance goals per the resistance guidelines; add power/speed/agility for athletes. Course names its methods as including *"HIIT, plyometrics and power lifting"* (Week 02 Ch 2 p14) — a max-strength block (`references/russian-strength-program.md`) lives here.
 
 ### Cardiorespiratory Program Design
 - **Evidence-based FITT-VP** — Week 05 Ch 8 **p10** (frequency ≥5 d/wk moderate or ≥3 d/wk vigorous; time 30–60 min moderate / 20–60 min vigorous; volume ≥500–1000 MET-min/wk or ≥150 min/wk or ≥7000 steps/day; pattern continuous or intervals or ≥10-min bouts; progression "start low, go slow").
@@ -183,3 +184,11 @@ These show the *shape* of retrieval — the actual pages are above.
 2. Re-check frequency guidance (Ch 11 p11; per-muscle-group Table 11-10) and cardio frequency (Ch 8 p10).
 3. Re-derive weekly structure (fewer days → consolidate; consider full-body or upper/lower).
 4. Update .md strategy + decision log, restructure .csv, re-validate weekly volume against the goal table.
+
+**"I want to run a Russian squat program / peak my lifts / hit a squat PB in 10 weeks."**
+1. Screen (Ch 5) — near-maximal lifting is vigorous; flag medical clearance if the algorithm calls for it.
+2. Open `references/russian-strength-program.md`; run the **eligibility gate** (§2) — experienced lifter, movement-screen competence (Ch 10 p45–59), loaded-testing contraindications (Ch 10 p69/p72), equipment, recovery.
+3. Gate fails (e.g. bare-minimum training background) → **scaled entry** (§6): Movement phase → 60–70% Load/Speed block → re-assess. Don't hand over the archetype.
+4. Gate passes → pick variant + wave lifts; goal-band check against Table 9-12 (p16); linear periodization is course-supported for this horizon (Ch 11 p42–46).
+5. Fat loss too? → §5: deficit periodisation, conditioning placement, RD referral; general nutrition info only.
+6. Retest method (§7): true 1-RM/3-RM (athlete/experienced) vs rep-max → estimated 1-RM (general pop). Generate the CSV with `scripts/russian_block.py`.

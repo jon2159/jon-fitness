@@ -42,7 +42,10 @@ Multi-joint before single-joint · alternate upper/lower · alternate push/pull 
 - **Progression continua:** bodyweight → machine → free weight; uniplanar → multiplanar; supported → unsupported; isolation → multi-joint; bilateral → unilateral; stable → unstable.
 
 ## 6. Periodization *(Wk07 Ch11 p42–46)*
-Macrocycle (whole plan) → mesocycle (training block, ~weeks–months) → microcycle (~1–4 weeks). Linear (volume ↓ / intensity ↑ over time) vs undulating (varies within the week). Typically only core (multi-joint) exercises are periodized. Main benefit: reduced overtraining risk via planned recovery. Use when horizon is ≥~3 months or there's an event date.
+Macrocycle (whole plan) → mesocycle (training block, ~weeks–months) → microcycle (~1–4 weeks). Linear (volume ↓ / intensity ↑ over time) vs undulating (varies within the week). Typically only core (multi-joint) exercises are periodized. Main benefit: reduced overtraining risk via planned recovery. Use when horizon is ≥~3 months or there's an event date. Course's linear example (Table 10-20, p45): microcycles ramp 12→8→4→2→1 reps with a closing "goal assessment" week.
+
+## 6a. Strength-block archetype — Russian Strength Program
+Full framework: `references/russian-strength-program.md`. A linear-periodization **mesocycle** for max-strength / PBs on the barbell lifts (**Load/Speed** stage — *Wk02 Ch2 p14*). Core lifts run a fixed **6×2 @ 80% anchor** day alternating with a progression day that walks volume→intensity: 6×2→6×6 @ 80% (hypertrophy/strength band, Table 9-12), then 5×5 @ 85% → 1×1 @ 105% (strength/max band), ending in a **1-RM assessment** (*Wk06 Ch10 p69–74*). Accessories stay off the wave at 2–3×8–12. **Gate first** (§2 of the reference): the ≥80% entry load is a FITT-VP *experienced*-lifter value (*Table 11-10*) — beginners get the scaled entry (Movement phase → 60–70% block), not the archetype. Variants: V5 (9 wk/4 d), Classic (6 wk/3 d), Masters (8 wk/2 d). Fat loss concurrent → periodise the deficit out of the peak weeks; nutrition stays general-information + RD referral (*Wk09 Ch12 p29–33*).
 
 ---
 

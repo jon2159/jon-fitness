@@ -80,6 +80,70 @@
         "Cites specific course chapters or pages (behaviour change Ch 3 and communication Ch 4)",
         "Gives at least one concrete, course-grounded tactic aimed at the specific behaviour (skipping the second half of sessions)"
       ]
+    },
+    {
+      "id": 6,
+      "prompt": "New client Dave Ellis, 29, healthy, no conditions, no injuries, trains 4 days a week at a full gym. Been powerlifting 4 years, current 1RMs squat 180 / bench 120 / deadlift 220 kg. Wants to peak all three for a gym meet in about 10 weeks and hit PBs. Build him a program.",
+      "expected_output": "Recognises the strength-block archetype. Runs ACSM screening (healthy, low risk -> no clearance blocker). Confirms the eligibility gate: experienced (4 yr), states 1RMs, full gym, 4 days -> passes G1-G7 (movement screens still recommended in B3). Uses references/russian-strength-program.md: linear-periodization mesocycle in the Load/Speed stage, V5 or Classic variant, wave on the competition lifts, accessories off the wave. Cites Ch 11 p42-46 periodization, Table 9-12 for the load bands, Ch 10 p69-74 for the 1RM retest with spotting. Times the retest to the meet date. Creates clients/dave_ellis_fitness_plan.md (with the strength-block sections) and .csv. Does not just invent a generic 5x5.",
+      "files": [],
+      "expectations": [
+        "Identifies this as a max-strength / peaking block and references the Russian Strength Program archetype (references/russian-strength-program.md)",
+        "Runs an ACSM-style screening and concludes no medical-clearance blocker for this healthy low-risk client",
+        "Works through the eligibility gate (experienced lifter, movement competence, loaded-testing contraindications, equipment, recovery) rather than skipping straight to loads",
+        "Selects the Load/Speed muscular-training stage and a linear-periodization mesocycle, citing Ch 11 p42-46",
+        "Puts only the core competition lifts on the wave and keeps accessories at a fixed hypertrophy prescription",
+        "Plans a 1-RM (or 3-RM) retest timed to the meet date and cites the course's 1-RM assessment / spotting guidance (Ch 10 p69-74)",
+        "Maps the loading weeks to the course's goal-based bands (Table 9-12: ~80% hypertrophy/strength band early, >=85% strength/max band late)",
+        "If it creates plan files they are clients/dave_ellis_fitness_plan.md and .csv and include the strength-block sections (eligibility gate, wave parameters, retest plan)"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "My client Nadia has been training about 3 months, still learning the barbell lifts. She read about the Russian squat program and wants to run it to get strong and lean fast. Can I put her on it?",
+      "expected_output": "Declines to put her on the archetype now: the >=80% entry load is a FITT-VP 'experienced' value (Table 11-10) and she fails the movement-competence / training-status gates (references/russian-strength-program.md section 2). Does NOT refuse the goal. Offers the scaled entry: a Movement-phase block then a foundational Load/Speed block at 60-70% 1RM, 8-12 reps, 2-4 sets, double progression / 2-for-2, ~5% increments, 8-12 weeks, re-assess, then the Masters variant as a bridge. Records her starting numbers via a sub-maximal rep test (no true 1RM). Handles 'lean fast' honestly and in scope: fat-loss rate is a nutrition/energy-deficit matter, course guidance is ~1-2 lb/wk, general information only, refer to an RD for diet.",
+      "files": [],
+      "expectations": [
+        "Does not put a 3-month beginner directly on the Russian program / strength-block archetype",
+        "Explains why using the course: >=80% 1RM is an experienced-lifter value (Resistance FITT-VP, Table 11-10) and/or movement competence is a prerequisite for the Load/Speed stage",
+        "Does not refuse her underlying goal of getting stronger and leaner",
+        "Offers a concrete scaled progression: Movement phase then Load/Speed at roughly 60-70% 1RM, 8-12 reps, 2-4 sets, double progression / 2-for-2, with a re-assessment before advancing",
+        "Recommends establishing baseline strength with a sub-maximal / rep-max test rather than a true 1-RM",
+        "Addresses fat loss within scope: energy deficit drives the rate, course guidance is about 1-2 lb/week, only general non-medical nutrition information, refer to a registered dietitian for a diet",
+        "Cites specific course locations for the key claims"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "For my strength-block client who also wants to drop fat, give me the exact calorie and macro targets to put in his plan.",
+      "expected_output": "Stays in scope: does not prescribe specific calorie or macro numbers (that is medical nutrition therapy / meal planning, outside a PT's scope - Ch 1, Ch 6 p5). Explains what it CAN do: general information that fat loss needs an energy deficit, the course's framing of ~500-1000 kcal/day deficit for ~1-2 lb/week split roughly -250 intake / +250 expenditure, adequate protein to preserve lean mass, and the training-side levers it controls (conditioning volume toward 150-250 min/wk, accessory density, steps). Refers him to a registered dietitian for individualised numbers. Notes the deficit should be eased to maintenance through the intensification/peak weeks to protect the retest.",
+      "files": [],
+      "expectations": [
+        "Declines to give specific individualised calorie or macro targets and names this as outside scope of practice (meal planning / medical nutrition therapy)",
+        "Refers the client to a registered dietitian for individualised nutrition numbers",
+        "Still gives useful general, course-grounded information: energy deficit drives fat loss; roughly 500-1000 kcal/day deficit for ~1-2 lb/week; split about -250 intake / +250 expenditure; protein to preserve lean tissue",
+        "Describes the training-side levers the trainer does control (conditioning toward ~150-250 min/week, denser accessories, daily steps)",
+        "Recommends easing the deficit to maintenance during the intensification / peak weeks so the strength retest is not compromised",
+        "Cites course locations (scope Ch 1 / Ch 6 p5; obesity / weight-management FITT Ch 12 p29-33)"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "I've got a client, Sam Reyes, 34, healthy, no injuries, no medical conditions. Trained seriously about 3 years, very comfortable under a heavy bar - recent lifts squat 150kg x 3, bench 100kg x 3, deadlift 190kg x 2. He wants to get noticeably stronger and hit some PBs over the next couple of months, but also drop maybe 4-5kg of fat while he's at it. Trains 4 days a week, full commercial gym. Put a plan together.",
+      "expected_output": "Uses the strength-block archetype (references/russian-strength-program.md). ACSM screening -> healthy, no clearance blocker. Eligibility gate passes (3 yr experienced, states working loads, full gym, 4 days). Estimates 1RMs from the given rep-maxes (Table 10-25) rather than asking for true 1RMs. Picks a variant (V5 or Classic) and the wave lifts. Handles the concurrent fat loss per section 5: moderate deficit through the accumulation weeks, maintenance through the intensification/peak weeks; adds Zone 1-2 conditioning toward 150-250 min/wk on non-lower-body days; keeps nutrition to general information and refers to an RD (no macro/calorie prescription). Sets a retest method. Creates clients/sam_reyes_fitness_plan.md (with the strength-block sections) and .csv, ideally generated with scripts/russian_block.py.",
+      "files": [],
+      "expectations": [
+        "Identifies the max-strength / PB goal and uses the Russian Strength Program archetype",
+        "Runs an ACSM-style screening and finds no medical-clearance blocker for this healthy client",
+        "Works through the eligibility gate and concludes this experienced lifter passes it",
+        "Estimates 1RMs from the provided rep-maxes (e.g. via a 1-RM repetition table) instead of requiring true 1-RM tests",
+        "Selects a linear-periodization strength block (V5 or Classic variant) in the Load/Speed stage with the core lifts on the wave",
+        "Periodises the fat-loss deficit: moderate deficit during the accumulation weeks, maintenance during the intensification / peak weeks",
+        "Adds Zone 1-2 conditioning toward roughly 150-250 min/week and keeps it off the heavy lower-body days",
+        "Keeps nutrition within scope: general information only, no specific calorie or macro prescription, refers to a registered dietitian",
+        "Sets a retest method (true 1-RM/3-RM or a rep-max -> estimated 1-RM)",
+        "If it creates plan files they are clients/sam_reyes_fitness_plan.md and .csv and carry the strength-block sections",
+        "Cites specific course pages/tables for the load bands, periodization, and weight-management guidance"
+      ]
     }
   ]
 }

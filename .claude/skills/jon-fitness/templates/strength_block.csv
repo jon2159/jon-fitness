@@ -1,0 +1,12 @@
+week,day,session,block,exercise,sets,reps,intensity,rest,tempo,duration,progression,notes
+1,Mon,A,warm-up,Movement-phase warm-up (5 patterns + ramp sets),1,-,bodyweight -> light,-,controlled,8-10 min,-,"Worked example only. Generate the full block with scripts/russian_block.py --variant v5 --oneRM ""squat=140,bench=100,deadlift=180,press=70,pullup=25"". Session components Wk07 Ch11 p18"
+1,Mon,A,strength,Back Squat,6,2,80% 1RM (112.5 kg) - anchor/speed,2-3 min,2-0-1,,linear wave (plan: Strength Block); autoregulate per RPE,wave lift - week 1 anchor
+1,Mon,A,strength,Bench Press,6,2,80% 1RM (80 kg) - anchor/speed,2-3 min,2-0-1,,linear wave; autoregulate per RPE,wave lift
+1,Mon,A,accessory,Bulgarian Split Squat,3,10/side,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7),not on the wave
+1,Mon,A,accessory,Dips,3,8-12,RPE 7-8,60-90s,2-0-1,,double progression 8-12; 2-for-2 then +5%,not on the wave
+1,Mon,A,cool-down,Static stretch - hip flexors / hamstrings / pecs / lats,1,2/side,to slight discomfort,-,hold 20-30s,5 min,-,Flexibility FITT-VP Table 11-7 (Wk07 Ch11 p25)
+4,Thu,A,strength,Back Squat,6,6,80% 1RM (112.5 kg),3-5 min,2-0-1,,linear wave; autoregulate per RPE,wave lift - peak accumulation volume
+5,Thu,A,strength,Back Squat,5,5,85% 1RM (120 kg),3-5 min,2-0-1,,linear wave; autoregulate per RPE,wave lift - intensification begins
+8,Thu,A,strength,Back Squat,2,2,100% 1RM (140 kg),3-5 min,2-0-1,,linear wave; autoregulate per RPE,wave lift - hold deficit at maintenance this week
+9,Thu,A,strength,Back Squat,1,1,105% 1RM (147.5 kg),3-5 min,2-0-1,,retest,RETEST week - Retest Plan (Wk06 Ch10 p69-74); spotting p74
+2,Wed,cond,conditioning,Zone 1-2 low-impact cardio (bike / walk / row),1,-,< VT1 / RPE 3-4,-,-,30-40 min,+<=10%/wk,Fat-loss option: Wk09 Ch12 p32 (150-250 min/wk); kept off heavy lower-body days

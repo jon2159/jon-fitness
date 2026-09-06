@@ -12,9 +12,12 @@ description: >-
   plan created, reviewed, or updated for a named client — even if they never
   mention "ISA", "CPT", "ACE", or "the course". Also use it for training
   questions about special populations (youth, older adults, pregnancy/postpartum,
-  obesity, chronic disease, injuries/musculoskeletal issues) and for creating or
-  keeping <client_name>_fitness_plan.md and <client_name>_fitness_plan.csv in
-  sync. Prefer this skill over answering fitness questions from general knowledge.
+  obesity, chronic disease, injuries/musculoskeletal issues), for max-strength or
+  powerlifting-style blocks and hitting PBs (the Russian Strength Program
+  archetype — athletes and general population, with optional fat-loss
+  integration), and for creating or keeping <client_name>_fitness_plan.md and
+  <client_name>_fitness_plan.csv in sync. Prefer this skill over answering fitness
+  questions from general knowledge.
 ---
 
 # Jon Fitness — Evidence-Grounded CPT
@@ -96,6 +99,7 @@ Fast routing rules (COURSE_MAP has the page numbers):
 | Cardio: frequency, duration, intensity zones, HR methods | Cardiorespiratory programming (Ch 8) + CT evidence-based recs (Ch 8 p10) + Karvonen/zones |
 | Which cardio phase / endurance events | ACE IFT Cardio: Base → Fitness → Performance (Ch 2, Ch 8) |
 | Progression, overload, plateau, periodization | Training principles (Ch 9 p7–8, Ch 8 SPORD) + progression rules (Ch 11) + periodization (Ch 11) |
+| A max-strength peak / hitting PBs / a powerlifting or "Russian" cycle | Strength-block archetype (`references/russian-strength-program.md`) + periodization (Ch 11 p42–46) + Table 9-12 (Ch 11 p16) + 1-RM assessment (Ch 10 p69–74) |
 | A single exercise / technique / regression | Muscular training (Ch 9 muscles & movement), assessments (Ch 10), MSK program-design steps (Ch 15) |
 | Flexibility / mobility / warm-up / cool-down | Flexibility FITT-VP (Ch 11 Table 11-7), session components (Ch 8 p41, Ch 11 p18) |
 | Youth / older adult / pregnancy / postpartum | Exercise across the lifespan (Ch 14) |
@@ -259,6 +263,34 @@ Work through, using COURSE_MAP + `programming-reference.md` + the cited pages:
 7. **Monitoring & reassessment** — what to track, when to retest, stop/refer
    signals.
 
+### B4a — Program archetypes (optional)
+
+Some goals have a well-defined program shape the course can back. When one fits,
+use it instead of assembling every variable from scratch — but still run the
+screening, the eligibility check, and the traceability chain.
+
+- **Strength block (Russian Strength Program)** — goal is maximal strength / PBs
+  on the barbell lifts (athlete *or* general population). See
+  `references/russian-strength-program.md`. Before offering it:
+  1. Run the **eligibility gate** in that file (§2): medical clearance, experienced
+     lifter, movement-screen competence, loaded-testing contraindications, barbell
+     equipment, recovery context, special-population overrides.
+  2. **Any gate unmet → the scaled entry (§6), not the archetype.** Don't refuse
+     the client's goal — build the Movement-phase / foundational Load-Speed on-ramp.
+  3. Branch **athlete** (sport / season → macrocycle timing; add SAQ / plyometrics
+     / power) vs **general population** (physique / PBs / fat loss).
+  4. Pick the variant (V5 9-wk / Classic 6-wk / Masters 8-wk) and the wave lifts.
+  5. If **fat loss** is concurrent (§5): choose deficit-within-block or sequential
+     blocks; set conditioning and accessory density; keep nutrition to general
+     information + RD referral (a faster "aggressive" rate is a client/RD nutrition
+     decision — give the trade-offs, label anything past the course's
+     500–1000 kcal/day band as general knowledge).
+  6. Set autoregulation rules (§4) and the retest method (§7 — true 1-RM/3-RM for
+     athletes/experienced; rep-max → estimated 1-RM for general population).
+  7. Add the `templates/strength_block_plan.md` sections to the `.md`; generate the
+     `.csv` with `scripts/russian_block.py`, then add warm-up / cool-down /
+     conditioning rows.
+
 ### B5 — Write the Markdown, then derive the CSV
 
 Update `<client_name>_fitness_plan.md` (see `templates/client_fitness_plan.md`).
@@ -326,9 +358,13 @@ strategy in the .md → the Week-1 rows in the .csv.*
 |---|---|
 | `references/COURSE_MAP.md` | Navigation: topic → lesson/page/related sections, with routing examples. Start here for "where do I look?" |
 | `references/programming-reference.md` | Condensed cited digest of the key tables (variables by goal, FITT-VP, IFT phases, special-pop / chronic / MSK adjustments, progression). Work aid — verify load-bearing claims against the source pages. |
+| `references/russian-strength-program.md` | The strength-block archetype: Russian Strength Program (V5 / Classic / Masters), its CPT mapping, the eligibility gate, fat-loss integration, the scaled entry, and the retest protocol. |
 | `references/intake-questions.md` | Staged MCQ bank derived from the course's screening/assessment/programming requirements; gap classification. |
 | `references/isa-cpt/*.md` | The source of truth. 12 lesson files, `## Page N` per slide. Always the final check. |
 | `templates/client_fitness_plan.md` | Structure for the canonical client state / reasoning artifact. |
 | `templates/client_fitness_plan.csv` | Structure for the derived training schedule. |
+| `templates/strength_block_plan.md` | Extra `.md` sections for a Russian Strength Program block (eligibility gate, wave parameters, deficit periodisation, autoregulation, retest plan). |
+| `templates/strength_block.csv` | Worked CSV example for the strength-block archetype. |
 | `scripts/new_client.py` | Scaffold a `<client>_fitness_plan.{md,csv}` pair with a normalized name. |
+| `scripts/russian_block.py` | Generate the strength-block CSV from entered 1-RMs (variant / wave-lifts / units / fat-loss flags). |
 | `scripts/validate_plan.py` | Check md/csv consistency, filename convention, and that evidence citations are present. |

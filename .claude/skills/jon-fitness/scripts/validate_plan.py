@@ -20,6 +20,10 @@ Checks (heuristic — this backs up human review, it does not replace it):
   7. Placeholder leakage: no unfilled "{{...}}" tokens remain in the .md.
   8. Cross-check: exercises named in the CSV appear somewhere in the .md
      (warn only — the .md may summarise rather than list every accessory).
+  9. Strength-block archetype (only if the plan uses it — detected from the .md
+     "Strength Block" sections or a CSV "wave lift" note): eligibility gate and
+     retest plan recorded; no accessory row placed on the linear wave; a fat-loss
+     "aggressive" note is paired with a maintenance-in-peak statement.
 
 Exit code 0 = no errors (warnings allowed), 1 = errors found, 2 = bad usage.
 """
@@ -72,6 +76,8 @@ def check_pair(slug: str, directory: Path) -> None:
     csv_rows = _check_csv(slug, csv_path) if csv_path.exists() else []
     if md.exists() and csv_rows:
         _cross_check(slug, md.read_text(), csv_rows)
+    if md.exists():
+        _check_strength_block(slug, md.read_text(), csv_rows)
 
 
 def _check_md(slug: str, path: Path) -> None:
@@ -161,6 +167,42 @@ def _cross_check(slug: str, md_text: str, csv_rows: list[dict]) -> None:
         key = " ".join(re.findall(r"[a-z]+", ex.lower())[:2])
         if key and key not in md_low:
             warn(f"[{slug}] CSV exercise '{ex}' not mentioned in the .md reasoning")
+
+
+def _check_strength_block(slug: str, md_text: str, csv_rows: list[dict]) -> None:
+    md_low = md_text.lower()
+    wave_rows = [
+        r for r in csv_rows
+        if "linear wave" in (r.get("progression", "") + r.get("notes", "")).lower()
+    ]
+    uses_block = (
+        "russian strength" in md_low
+        or "strength block — eligibility gate" in md_low
+        or "wave parameters" in md_low
+        or bool(wave_rows)
+    )
+    if not uses_block:
+        return
+
+    if "eligibility gate" not in md_low:
+        err(f"[{slug}] strength block: no 'Eligibility Gate' section in the .md "
+            f"(see templates/strength_block_plan.md)")
+    elif "clear" not in md_low:  # medical clearance G1
+        warn(f"[{slug}] strength block: eligibility gate should record the medical-"
+             f"clearance status (G1)")
+
+    if "retest" not in md_low:
+        err(f"[{slug}] strength block: no 'Retest Plan' / retest method recorded in the .md")
+
+    for r in wave_rows:
+        if (r.get("block", "").strip().lower() in {"accessory", "assistance"}):
+            err(f"[{slug}] strength block: accessory '{r.get('exercise')}' is on the "
+                f"linear wave — only core lifts are periodized (Wk07 Ch11 p42)")
+
+    if "aggressive" in md_low and "maintenance" not in md_low:
+        warn(f"[{slug}] strength block: an 'aggressive' fat-loss note but no "
+             f"'maintenance' statement — confirm the deficit is held to maintenance "
+             f"through the intensification/peak weeks")
 
 
 def main(argv: list[str]) -> int:
