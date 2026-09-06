@@ -1,0 +1,85 @@
+{
+  "skill_name": "jon-fitness",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "According to my CPT course material, how many sets, reps, and what rest interval and intensity should I prescribe for a client whose main goal is muscular hypertrophy? And where does the course say this?",
+      "expected_output": "Answers from Table 9-12 (Wk07 Ch11 p16): 3-6 sets, 6-12 reps, 30-90s rest, 67-85% 1RM. Cites the lesson/page. Does not invent numbers. May add the Resistance FITT-VP context (Table 11-10) with a citation.",
+      "files": [],
+      "expectations": [
+        "States the hypertrophy set range as 3-6 sets",
+        "States the hypertrophy rep range as 6-12 reps",
+        "States the hypertrophy rest interval as 30-90 seconds",
+        "States the hypertrophy intensity as 67-85% 1RM",
+        "Cites a specific course location for the numbers (e.g. Table 9-12, or Week 07 / Ch 11 / page 16)",
+        "Does not attribute to the course any hypertrophy set/rep/rest/intensity number that conflicts with Table 9-12",
+        "Ties the numbers to the user's own course material rather than presenting them only as generic industry hypertrophy guidelines"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I have a new client, Marcus Chen, 46, wants to lose body fat and get generally fitter. He's been walking a couple times a week but hasn't done structured training in years. Has high blood pressure, on a beta blocker. Can train 3 days a week, ~45 min, at a commercial gym. Build him a program.",
+      "expected_output": "Runs ACSM screening: HTN + beta blocker -> flags medical clearance as a BLOCKING gap and notes HR-based targets are unreliable (use RPE/talk test). Asks prioritized MCQ intake for remaining BLOCKING gaps rather than guessing. If it proceeds, uses Base cardio phase + Functional/Movement muscular phase, applies the Ch 13 hypertension FITT table (below VT1, avoid isometrics/inverted, stop-BP limits) as an override, cites pages, and creates clients/marcus_chen_fitness_plan.md and .csv with a traceability chain. Does not prescribe vigorous intensity before clearance.",
+      "files": [],
+      "expectations": [
+        "Works through an ACSM-style preparticipation screening (regular exercise, known CV/metabolic/renal disease, signs/symptoms, desired intensity)",
+        "Flags that medical clearance is needed and treats it as a BLOCKING gap given the hypertension",
+        "Notes the beta blocker makes heart-rate-based intensity targets unreliable and recommends RPE or the talk test instead",
+        "Applies hypertension-specific guidance as an override: intensity below VT1 / roughly 40-60% HRR, avoid isometric and inverted positions, prolonged cool-down, and stop-exercise BP limits",
+        "Asks prioritized multiple-choice intake questions for the remaining blocking gaps instead of fabricating client details",
+        "Does not prescribe vigorous-intensity exercise before clearance is obtained",
+        "Selects a Base cardio phase and a Functional or Movement muscular-training phase for this deconditioned client",
+        "If it produces plan files, they are named clients/marcus_chen_fitness_plan.md and clients/marcus_chen_fitness_plan.csv",
+        "Cites specific course pages or tables for the key screening and prescription decisions",
+        "Includes an evidence/traceability chain linking a client fact to course guidance to a program decision"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Update Priya's plan - she messaged to say her right knee has been aching during squats and lunges for the past week, sharp on the outside of the knee. She still wants to keep training.",
+      "expected_output": "Loads priya_* plan pair, records the feedback, asks MCQ follow-ups (pain location/severity via the Ch 15 pain scale, onset, history) before changing exercises. Routes to Ch 15 knee section (ITBS pattern for lateral knee pain) + healing-phase contraindication (no pain-causing movement) + post-rehab table. Considers regression (partial-ROM squat) / substitution / load reduction per what the notes support, not an automatic swap. Advises referral if pain persists/worsens (scope). Updates the .md decision log and only changes the .csv if the prescription changed. Does not touch other clients' files.",
+      "files": [],
+      "expectations": [
+        "Reads the existing priya_nair plan pair (.md and .csv) before proposing changes",
+        "Records the knee-pain report in the plan (Client Feedback / Observations and/or Decision Log) rather than silently editing exercises",
+        "Asks multiple-choice follow-up questions about the pain (severity/pain-scale, onset, history, other symptoms) before swapping exercises",
+        "Routes to the course's knee / musculoskeletal guidance for lateral knee pain and cites it (Ch 15 knee section and/or healing phases / post-rehab table)",
+        "Applies the contraindication that pain-causing movement should be avoided, rather than telling her to train through it",
+        "Does not do an automatic wholesale exercise swap; presents regression / reduced ROM / load reduction as course-supported options",
+        "Advises referral to a physician or physical therapist if the pain persists or worsens, citing scope of practice",
+        "Changes the .csv only if the prescription actually changed, and keeps the .md and .csv describing the same program",
+        "Does not create or modify any other client's files and keeps the priya_nair filename prefix"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "What does my course say about whether it's safe for a 30-weeks-pregnant client who was already a regular runner to keep running, and how should I adjust her training?",
+      "expected_output": "Routes to Ch 14 pregnancy section. Previously active women may continue as tolerated; use talk test / stay below VT1; avoid supine after ~20 weeks, contact sports, fall risk, extreme heat; know contraindications and termination signs; use PARmed-X; FITT from Table 14-3. Cites pages. Notes medical clearance / working within scope. Flags anything not covered as general knowledge.",
+      "files": [],
+      "expectations": [
+        "States that a previously active / regular-runner client may generally continue running as tolerated during pregnancy",
+        "Recommends controlling intensity with the talk test / staying below VT1 (moderate intensity, roughly RPE 12-13 of 20 or 3-5.9 METs)",
+        "Lists the key things to avoid: supine position after ~20 weeks, contact sports, fall-risk activities, and extreme heat",
+        "Mentions PARmed-X and/or the need for medical clearance and working within scope of practice",
+        "Mentions knowing the pregnancy exercise contraindications and the warning / termination signs to stop exercise",
+        "Cites a specific course location (Ch 14 pregnancy section and/or Table 14-3)",
+        "Draws the adjustments from the course framework rather than only citing generic outside guidance, and labels any outside-the-course content as general knowledge"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "My client keeps skipping the second half of his workouts and says he's 'not a gym person'. What does the course suggest I do?",
+      "expected_output": "Routes to behaviour-change / communication chapters (Ch 3, Ch 4): stage of change, self-determination theory (autonomy/competence/relatedness), adherence factors, evaluating and modifying the program when adherence falters, motivational interviewing/OARS. Cites pages. Frames as coaching within scope, not psychological counseling.",
+      "files": [],
+      "expectations": [
+        "Routes to the course's behaviour-change / communication material (stages of change / transtheoretical model)",
+        "Mentions self-determination theory or the autonomy / competence / relatedness needs and connects it to the 'not a gym person' identity",
+        "Recommends evaluating and modifying the program itself when adherence falters (e.g. shorten the session, reduce to what he will actually do)",
+        "Mentions motivational interviewing / OARS / open questions / reflective listening as the coaching approach",
+        "Frames the work as coaching within scope, explicitly not psychological counseling",
+        "Cites specific course chapters or pages (behaviour change Ch 3 and communication Ch 4)",
+        "Gives at least one concrete, course-grounded tactic aimed at the specific behaviour (skipping the second half of sessions)"
+      ]
+    }
+  ]
+}
