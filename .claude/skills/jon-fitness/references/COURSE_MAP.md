@@ -68,7 +68,8 @@ programming uses **ACSM/ACE FITT-VP** guidelines. 12 lesson files, one per deck,
 - **Progression** — Week 07 Ch 11 p19–20 (bodyweight→machine→free weight; uniplanar→multiplanar; supported→unsupported; isolation→multi-joint; bilateral→unilateral); **2-for-2 rule** & **double progression** p20.
 - **Session components** — Week 07 Ch 11 p18 (warm-up with Functional/Movement-phase exercises; conditioning; cool-down).
 - **Periodization** — Week 07 Ch 11 p42–46 (macro/meso/microcycle; linear vs undulating; Tables 10-20/10-21; usually only core exercises are periodized). The course's linear example ramps microcycles 12 → 8 → 4 → … → 1 rep and ends with a "goal assessment" week (p45).
-- **Strength-block archetype (Russian Strength Program)** — `references/russian-strength-program.md`. A linear-periodization mesocycle for max-strength / PBs on the barbell lifts; maps to **Load/Speed** stage; includes the eligibility gate, the V5 / Classic / Masters variants, fat-loss integration, the scaled entry for beginners, and the retest protocol. Anchored on Ch 11 p42–46, Table 9-12 (p16), Table 11-10 (p29–31), and 1-RM assessment (Ch 10 p69–74).
+- **Strength-block archetype — the Russian protocols** — `references/russian-strength-program.md`. A linear-periodization mesocycle for max-strength / PBs on the barbell lifts; maps to **Load/Speed** stage; includes the eligibility gate, the V5 / Classic / Masters variants, fat-loss integration, the scaled entry for beginners, and the retest protocol. Anchored on Ch 11 p42–46, Table 9-12 (p16), Table 11-10 (p29–31), and 1-RM assessment (Ch 10 p69–74).
+- **REVL class integration** — `references/revl-class-integration.md`. For a client who already trains at **REVL** (a 13-week block: Volume / Build / Deload / Peak / Rebuild). Explains the REVL stimulus and how to program 1-on-1 PT around it — identify the phase, map accumulated muscular/neural stress, complement rather than duplicate, and the decision rules for when/how to dose (or replace, or omit) a **Russian protocol** alongside REVL. **Consult whenever the client mentions REVL, REVL classes/programming/training, or a REVL phase.** Use together with `russian-strength-program.md` when a Russian protocol is on the table — never either program in isolation, never two strength peaks stacked. Reference hierarchy: (1) `russian-strength-program.md` for the protocol methodology, (2) `revl-class-integration.md` for the REVL stimulus and the dosing decision, (3) client context decides how the two apply.
 
 ### ACE IFT Model — phase selection
 - **Overview** — Week 02 Ch 2 p7 (the model), Table 2-2 (cardio phases), Table 2-3 (muscular phases).
@@ -185,10 +186,19 @@ These show the *shape* of retrieval — the actual pages are above.
 3. Re-derive weekly structure (fewer days → consolidate; consider full-body or upper/lower).
 4. Update .md strategy + decision log, restructure .csv, re-validate weekly volume against the goal table.
 
-**"I want to run a Russian squat program / peak my lifts / hit a squat PB in 10 weeks."**
+**"I want to peak my lifts / hit a squat PB in 10 weeks / run a Russian protocol."**
 1. Screen (Ch 5) — near-maximal lifting is vigorous; flag medical clearance if the algorithm calls for it.
 2. Open `references/russian-strength-program.md`; run the **eligibility gate** (§2) — experienced lifter, movement-screen competence (Ch 10 p45–59), loaded-testing contraindications (Ch 10 p69/p72), equipment, recovery.
 3. Gate fails (e.g. bare-minimum training background) → **scaled entry** (§6): Movement phase → 60–70% Load/Speed block → re-assess. Don't hand over the archetype.
 4. Gate passes → pick variant + wave lifts; goal-band check against Table 9-12 (p16); linear periodization is course-supported for this horizon (Ch 11 p42–46).
 5. Fat loss too? → §5: deficit periodisation, conditioning placement, RD referral; general nutrition info only.
 6. Retest method (§7): true 1-RM/3-RM (athlete/experienced) vs rep-max → estimated 1-RM (general pop). Generate the CSV with `scripts/russian_block.py`.
+
+**"My client does REVL classes / is in REVL Build phase / does REVL — build their PT sessions."**
+1. Open `references/revl-class-integration.md`. Screen (Ch 5) — REVL attendance is not clearance.
+2. **Step 1** — identify the REVL block, phase (Volume / Build / Deload / Peak / Rebuild) and week; Perform or Move on strength days; what the last week actually was. Ask; don't assume the template.
+3. **Steps 2–3** — map the patterns/qualities REVL trained this week and the accumulated muscular + neural stress for the phase (48–72 h spacing, Table 11-10; periodization recovery, Ch 11 p42).
+4. **Step 4** — pick the single highest-value need for the PT session (assessment / weak point / mobility / technique / offload — usually not more of what REVL already does).
+5. **Steps 5–7** — complementary exercise selection; dose volume/intensity on top of REVL's weekly totals against the combined FITT-VP ceiling; sequence to least collide with REVL Perform days.
+6. **Russian protocol on the table?** → also open `references/russian-strength-program.md`, run its §2 gate, then apply the revl-class-integration.md §4 decision rules (appropriate alongside REVL? reduce volume/intensity/frequency? replace vs supplement a REVL stimulus? prioritise another quality?). Never stack two strength peaks; Masters (§3c) is usually the only variant that fits alongside full REVL.
+7. **Step 8** — screen readiness every session (soreness / sleep / fatigue / performance / stress); modify load → volume → exercise → session type.

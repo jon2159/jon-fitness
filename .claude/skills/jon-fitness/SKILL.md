@@ -100,6 +100,7 @@ Fast routing rules (COURSE_MAP has the page numbers):
 | Which cardio phase / endurance events | ACE IFT Cardio: Base → Fitness → Performance (Ch 2, Ch 8) |
 | Progression, overload, plateau, periodization | Training principles (Ch 9 p7–8, Ch 8 SPORD) + progression rules (Ch 11) + periodization (Ch 11) |
 | A max-strength peak / hitting PBs / a powerlifting or "Russian" cycle | Strength-block archetype (`references/russian-strength-program.md`) + periodization (Ch 11 p42–46) + Table 9-12 (Ch 11 p16) + 1-RM assessment (Ch 10 p69–74) |
+| A client who trains at **REVL** / mentions REVL classes, REVL programming, REVL training, or a REVL phase (**Volume, Build, Deload, Peak, Rebuild**) | `references/revl-class-integration.md` **first** — understand the stimulus REVL is already delivering and how to dose PT work around it. Then, only if a Russian protocol is being considered, **also** `references/russian-strength-program.md`. Use the two together to set the dose. |
 | A single exercise / technique / regression | Muscular training (Ch 9 muscles & movement), assessments (Ch 10), MSK program-design steps (Ch 15) |
 | Flexibility / mobility / warm-up / cool-down | Flexibility FITT-VP (Ch 11 Table 11-7), session components (Ch 8 p41, Ch 11 p18) |
 | Youth / older adult / pregnancy / postpartum | Exercise across the lifespan (Ch 14) |
@@ -112,6 +113,15 @@ Fast routing rules (COURSE_MAP has the page numbers):
 usually needs several sections at once — e.g. screening **+** assessment **+**
 goal-specific training variables **+** IFT phase **+** progression **+**
 special-population or injury overrides. Retrieve all the relevant ones.
+
+**REVL trigger.** Whenever the client mentions **REVL**, REVL classes, REVL
+programming, REVL training, or a REVL phase (**Volume / Build / Deload / Peak /
+Rebuild**), consult `references/revl-class-integration.md` — it explains the REVL
+training stimulus and how PT programming must be adjusted for someone already doing
+it. If you then consider applying a **Russian protocol**, additionally consult
+`references/russian-strength-program.md`, and use the two references **together** to
+decide the appropriate dose rather than treating either program in isolation. Never
+blindly stack the two.
 
 `references/programming-reference.md` is a condensed, cited digest of the most-used
 tables (training variables by goal, FITT-VP grids, IFT phase selection,
@@ -291,6 +301,30 @@ screening, the eligibility check, and the traceability chain.
      `.csv` with `scripts/russian_block.py`, then add warm-up / cool-down /
      conditioning rows.
 
+- **Client already trains at REVL** — the client does REVL classes (a 13-week block
+  of Volume / Build / Deload / Peak / Rebuild) and wants 1-on-1 PT around it. See
+  `references/revl-class-integration.md`. Before designing anything:
+  1. **Identify the current REVL phase and week**, whether they do Perform or Move on
+     strength days, and what their recent sessions actually were — ask, don't assume
+     the template.
+  2. **Map what REVL has already trained this week** (movement patterns × qualities)
+     and estimate the accumulated muscular and neural stress for the phase.
+  3. **Determine the single highest-value need** the PT session should deliver (often
+     assessment / weak-point / mobility / technique / offload — *not* more of what
+     REVL already does).
+  4. **Select complementary work**, and dose volume/intensity **on top of** REVL's
+     weekly totals against the combined FITT-VP ceiling — not in isolation.
+  5. If a **Russian protocol** is being considered, cross-reference
+     `references/russian-strength-program.md` and apply the REVL decision rules
+     (revl-class-integration.md §4): when it's appropriate alongside REVL, when to
+     reduce its volume / intensity / frequency, when it should **replace** rather than
+     supplement a REVL stimulus, and when to prioritise another quality instead.
+     Never stack two strength peaks. The Masters variant is usually the only Russian
+     option that fits alongside full REVL participation.
+  6. Screen readiness at the start of **every** session (soreness / sleep / fatigue /
+     performance / stress) and modify load → volume → exercise → session type in that
+     order.
+
 ### B5 — Write the Markdown, then derive the CSV
 
 Update `<client_name>_fitness_plan.md` (see `templates/client_fitness_plan.md`).
@@ -358,7 +392,8 @@ strategy in the .md → the Week-1 rows in the .csv.*
 |---|---|
 | `references/COURSE_MAP.md` | Navigation: topic → lesson/page/related sections, with routing examples. Start here for "where do I look?" |
 | `references/programming-reference.md` | Condensed cited digest of the key tables (variables by goal, FITT-VP, IFT phases, special-pop / chronic / MSK adjustments, progression). Work aid — verify load-bearing claims against the source pages. |
-| `references/russian-strength-program.md` | The strength-block archetype: Russian Strength Program (V5 / Classic / Masters), its CPT mapping, the eligibility gate, fat-loss integration, the scaled entry, and the retest protocol. |
+| `references/russian-strength-program.md` | Authoritative for the **Russian protocols** — the strength-block archetype (V5 / Classic / Masters), its CPT mapping, the eligibility gate, fat-loss integration, the scaled entry, and the retest protocol. |
+| `references/revl-class-integration.md` | Authoritative for the **REVL** training stimulus and how to program 1-on-1 PT around a client who does REVL classes: identify their phase, map accumulated stress, complement rather than duplicate, and the decision rules for dosing (or replacing, or omitting) a Russian protocol alongside REVL. Consult whenever the client mentions REVL or a REVL phase; use with `russian-strength-program.md`, never either in isolation. |
 | `references/intake-questions.md` | Staged MCQ bank derived from the course's screening/assessment/programming requirements; gap classification. |
 | `references/isa-cpt/*.md` | The source of truth. 12 lesson files, `## Page N` per slide. Always the final check. |
 | `templates/client_fitness_plan.md` | Structure for the canonical client state / reasoning artifact. |

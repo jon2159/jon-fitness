@@ -7,3 +7,7 @@ __pycache__/
 # REVL workout-screenshot reference libraries — large binary asset folders,
 # kept local only (each has its own INDEX.md + analysis inside).
 REVL Block*/
+
+# extract_revl.py working files (the committed output is source/revl_raw_data.md)
+source/.revl_ocr_cache/
+source/.revl_extract.log

@@ -1,4 +1,6 @@
-# ISA CPT course notes — source & extraction
+# `source/` — raw material & extraction scripts
+
+## ISA CPT course notes
 
 The 12 original course PDFs live in `isa-cpt-pdfs/`.
 
@@ -52,4 +54,26 @@ python strip_images.py     # drop the per-slide images/ folders (skill uses text
 
 `build.py` reads `isa-cpt-pdfs/` (path is set near the top of the file) and needs
 `PyMuPDF` (`fitz`). The image folders it emits are intentionally discarded — nothing
-references them.
+references them. `image-audit.md` records the check that confirmed this.
+
+---
+
+## REVL programming — screenshot extraction
+
+`extract_revl.py` OCRs the two REVL workout-screenshot libraries
+(`../REVL Block 1 2026/` and `../REVL Block 2 programming 2026/`, git-ignored, local
+only) into **`revl_raw_data.md`** — every session's text, grouped block → phase-week →
+session. It uses `rapidocr-onnxruntime` and caches per-image results under
+`.revl_ocr_cache/` (git-ignored).
+
+```
+python extract_revl.py                # full run (264 screenshots)
+python extract_revl.py --limit 6      # quick smoke test (writes a partial file)
+python extract_revl.py --blocks 1     # one block only
+```
+
+`revl_raw_data.md` is the raw evidence layer behind
+`../.claude/skills/jon-fitness/references/revl-class-integration.md` (which teaches the
+`jon-fitness` skill how to program 1-on-1 PT around REVL). **OCR of the stylised posters
+is approximate** — that reference file must never present a specific REVL load, rep or
+percentage as fact.
