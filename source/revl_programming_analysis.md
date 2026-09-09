@@ -21,12 +21,27 @@ tempo or time cap in this file should be quoted as fact** — they are indicativ
 number mattered, it was confirmed by opening the image directly; those are marked
 *(image-checked)*.
 
-### One correction to the brief
+### Two facts confirmed by the studio (2026-09-09) that govern how everything below is read
 
-The brief describes the macrocycle as *Volume 3 → Build 3 → Deload 1 → **Peak 1** →
-Rebuild 3*. The captured folders show **Peak as three weeks** (`Peak Wk 1/2/3`) in both
-blocks, giving **3 + 3 + 1 + 3 + 3 = 13**, which matches the stated 13-week block. This
-analysis uses the observed 3-week Peak. **[Observed]**
+**1. Team-format rep totals are SHARED, not per person.** Any session marked *In Pairs*,
+*YGIG*, or *Teams of N* lists the **team's** total reps/calories. Per-person volume is
+roughly the printed number **÷ team size**, and the format carries a built-in work:rest
+ratio (**1:1** in pairs, **1:2** in teams of 3, lower still in teams of 4–6). These sessions
+are therefore **interval work with substantial rest**, not continuous grinds. Every rep
+total quoted for *Complete* and *Sweat Team* below is a **team total** unless stated.
+*(Confirmed by the studio; the posters themselves do not say so.)*
+
+**2. Peak is three weeks, and weeks 2 and 3 are testing weeks.** **[Observed + confirmed]**
+- **Peak Wk 1** (programme wk 8) — the heavy wave.
+- **Peak Wk 2** (wk 9) — **1RM & 3RM strength testing.** *(image-checked: Monday Perform
+  Total = `S1. 30:00 Cap — 0:00–18:00 1RM BB Deadlift; 18:00–30:00 1RM BB Push Press/Jerk`,
+  with example builds `60-70-80-90-100-100+% of goal 1RM` and High/Moderate/Low volume
+  paths.)*
+- **Peak Wk 3** (wk 10) — **Sweat Engine and Sweat Sprint baseline testing.**
+  *(file-confirmed: `tuesday sweat engine baseline`, `thursday sweat sprint baseline`.)*
+
+3 + 3 + 1 + 3 + 3 = 13. The brief's "Peak (1 week)" refers to the peak *effort*, not the
+phase length.
 
 ---
 
@@ -102,8 +117,10 @@ corrective work, and a **poor** window for adding more high-rep metabolic volume
 |---|---|---|---|
 | 1–3 | Volume | 8–14 reps @ ~40–65%, 3 s eccentrics, short rest | Muscular / metabolic |
 | 4–6 | Build | 5–10 reps, waves reaching ~85–90%, RIR tightens (4–5 → 2–3) *(image-checked)* | Mixed muscular + rising neural |
-| 7 | Deload | ~8 reps @ 40–50%, few sets, long rest — **but Sunday stays high-volume** | Metabolic only |
-| 8–10 | Peak | 1–5 reps, waves to ~90–95%, `:45`+ rest; wk 9–10 add **Baseline re-test** sessions (`tuesday sweat sprint baseline`, `thursday sweat engine baseline`) | Neural |
+| 7 | Deload | ~8 reps @ 40–50%, few sets, long rest — **but Sunday keeps its volume** (shared, so ~100 barbell reps/person) | Metabolic only |
+| **8** | Peak Wk 1 | The heavy wave: 1–5 reps, to ~90–95%, `:45`+ rest | Neural |
+| **9** | **Peak Wk 2 — 1RM & 3RM TESTING** | *image-checked:* `30:00 Cap — 0:00–18:00 1RM BB Deadlift; 18:00–30:00 1RM BB Push Press/Jerk`; builds `60-70-80-90-100-100+%` of goal 1RM | **Maximal — the highest-stakes week in the block** |
+| **10** | **Peak Wk 3 — conditioning baseline testing** | Sweat Engine and Sweat Sprint **baseline** sessions (file-confirmed); strength days return to normal loading | Maximal metabolic |
 | 11–13 | Rebuild | Moderate loads, %-prescription largely replaced by RPE/RIR | Muscular / metabolic |
 
 **[Pattern]** Both blocks follow this shape; Block 2 tops its Peak deadlift wave at ~92.5%
@@ -245,21 +262,29 @@ than rotated. A PT session that adds more loaded spinal flexion/extension or ano
 axial lift is duplicating the most-saturated stimulus in the programme. Unloaded, offset or
 horizontally-supported alternatives complement better.
 
-## C4. "Complete" and "Sweat Team" are **work-capacity sessions, not recovery**
+## C4. "Complete" and "Sweat Team" — high work-capacity, but **shared and interval-paced**
 
-**[Observed, image-checked]**
-- *Volume Wk 1 Complete* — In Pairs YGIG, Every 2:30 × 16 (≈40 min): 25/20/15 **unbroken**
-  BB bench, 24/18/12 cal ski AFAP, 25/20/15 **unbroken** BB front squat, 20/16/12 unbroken
-  toes-to-bar.
-- *Peak Wk 1 Complete* — Teams of 3, **40:00 cap**: 120 power cleans, 140 wall balls,
-  140 cal bike, 1000 m run; then 120 floor press/row, 140 KB sumo deadlift, 140 cal ski,
-  1000 m run.
-- *Volume Wk 1 Sweat Team* — Teams of 4–6, **3 × 15:00 caps**: 400/300/200 cal erg per block
-  plus 40/30 BB deadlift, DB front-rack squats, DB snatches, plate overhead carries.
+**[Observed, image-checked]** — remember every number here is a **team total** (see the
+confirmed facts at the top):
+- *Volume Wk 1 Complete* — **In Pairs YGIG**, Every 2:30 × 16 (≈40 min): 25/20/15 unbroken
+  BB bench, 24/18/12 cal ski AFAP, 25/20/15 unbroken BB front squat, 20/16/12 toes-to-bar.
+  **Per person ≈ half, with ~1:1 work:rest.**
+- *Peak Wk 1 Complete* — **Teams of 3 (1:2)**, 40:00 cap: 120 power cleans, 140 wall balls,
+  140 cal bike, 1000 m run; then a second equal block.
+  **Per person ≈ 40 cleans / ~47 wall balls, working ~1/3 of the 40 min.**
+- *Volume Wk 1 Sweat Team* — **Teams of 4–6**, 3 × 15:00 caps: 400/300/200 cal erg per block
+  plus BB deadlifts, DB front-rack squats, DB snatches, plate overhead carries.
+  **Per person ≈ 67–100 cal per block.**
 
-**[Inference]** Saturday and Sunday are among the **highest total-work sessions of the week**.
-Any assumption that "the weekend is easy" is wrong, and the PT should not treat Monday as a
-fresh start after them.
+**[Inference]** These are **extensive interval sessions**, not continuous grinds. The
+per-person work is real but the 1:1–1:2 rest makes them **moderate-to-high**, not the biggest
+sessions of the week — Wednesday (Perform Lower) and Peak-week Mondays are heavier.
+The practical reading for a PT: Saturday and Sunday are **glycolytic/aerobic volume with
+built-in recovery**, so they are *not* a reason to write off Monday, but they do mean the
+client arrives at Monday with metabolic (not neural) fatigue.
+
+**Do not** convert a printed team total into an individual's workload without dividing by
+team size — the raw posters read far heavier than the session actually is.
 
 ## C5. High-neural / near-maximal exposure — **concentrated in Build and Peak**
 
@@ -325,8 +350,8 @@ Dominant stress by day, for a member attending the full week. Sessions a member 
 | **Wed** | Perform Lower / Move Total | **Highest mixed day — high muscular + high neural** | BB hinge 71%, BB squat 50%, BB power clean 67%, unilateral 85% |
 | **Thu** | Sweat Engine *or* Sprint | **Conditioning-dominant** (aerobic if Engine) | erg 100%, running 92%, BB squat 0% |
 | **Fri** | Perform Upper / Move Total | **Upper-dominant; the lower-body offload day** (Perform track) | BB bench 63%, horiz. pull 67%, BB squat 8% on the Perform track |
-| **Sat** | Sweat Team | **High-volume mixed conditioning**, partner format | erg 100%, 3 × 15:00 caps, loaded BB/DB reps inside the blocks |
-| **Sun** | Complete | **High total work — full-body barbell + conditioning** | BB hinge 73%, BB squat 62%, BB press 62%, horiz. pull 85%, erg 100%, 40:00 caps |
+| **Sat** | Sweat Team | **Moderate–high mixed conditioning**, team format with 1:3–1:5 rest | erg 100%, 3 × 15:00 caps, reps shared across teams of 4–6 |
+| **Sun** | Complete | **Moderate–high full-body work capacity** — reps shared in pairs / teams of 3 (1:1–1:2 rest) | BB hinge 73%, BB squat 62%, BB press 62%, horiz. pull 85%, erg 100%, 40:00 caps |
 
 ## D1. Favourable windows for a 1-on-1 PT session **[Inference]**
 
@@ -344,8 +369,22 @@ Dominant stress by day, for a member attending the full week. Sessions a member 
 | **Within ~24 h either side of Wednesday** | densest mixed day: BB squat + hinge + power clean |
 | **Monday, for anything hinge-loaded** | BB hinge on 100% of Mondays |
 | **Build and Peak phases, for a second heavy exposure** | waves already at 85–95% |
-| **Sat–Sun**, for anything metabolic | two of the highest total-work sessions back-to-back |
-| **Deload week, for high-rep metabolic volume** | Sunday Complete stays high-volume even in the deload |
+| **Peak Wk 2 — the 1RM/3RM testing week** | genuine maximal singles; protect the test, add nothing load-bearing near it |
+| **Peak Wk 3 — conditioning baseline testing** | maximal metabolic efforts; don't blunt them with added conditioning |
+| **Sat–Sun**, for *additional* metabolic volume | already 2 conditioning sessions, albeit interval-paced with shared reps |
+| **Deload week, for high-rep metabolic volume** | Sunday keeps its volume even in the deload |
+
+## D3. The testing weeks are an **opportunity**, not just a hazard **[Inference]**
+
+Peak Wk 2 hands the PT something the group format usually withholds: a **current, validated
+1RM** on the deadlift and an overhead lift (and 3RMs), obtained under coaching. Peak Wk 3
+does the same for conditioning benchmarks.
+
+Two practical consequences:
+1. **Protect those two weeks** — no added load-bearing or maximal work.
+2. **Use the numbers afterwards.** A PT strength block that needs a real 1RM
+   (`russian-strength-program.md` gate G4 / retest §7) is best started in **Rebuild**, driven
+   by the freshly-tested maxes, rather than testing the client again.
 
 ---
 
