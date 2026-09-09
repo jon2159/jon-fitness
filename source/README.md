@@ -60,20 +60,41 @@ references them. `image-audit.md` records the check that confirmed this.
 
 ## REVL programming — screenshot extraction
 
-`extract_revl.py` OCRs the two REVL workout-screenshot libraries
-(`../REVL Block 1 2026/` and `../REVL Block 2 programming 2026/`, git-ignored, local
-only) into **`revl_raw_data.md`** — every session's text, grouped block → phase-week →
-session. It uses `rapidocr-onnxruntime` and caches per-image results under
-`.revl_ocr_cache/` (git-ignored).
+Three-step pipeline, screenshots → skill reference:
+
+**Step 1 — `extract_revl.py` → `revl_raw_data.md`**
+Reads the two REVL screenshot libraries (`../REVL Block 1 2026/` and
+`../REVL Block 2 programming 2026/`, git-ignored, local only) with **two independent OCR
+engines** — `rapidocr-onnxruntime` and Apple Vision (a Swift helper the script compiles on
+first run; skipped gracefully if `swiftc` is absent). Per screenshot it writes the merged
+reading with `[?]` on every line the engines disagree on, a LOW-CONFIDENCE structured parse
+(sections / exercise-looking lines / prescription tokens), and each engine's raw output.
+Phase / week / day / session headers are inferred from folder and file names and flagged
+`[inferred]`. Per-image results cache under `.revl_ocr_cache/` (git-ignored).
 
 ```
-python extract_revl.py                # full run (264 screenshots)
-python extract_revl.py --limit 6      # quick smoke test (writes a partial file)
+python extract_revl.py                # full run (264 screenshots, both engines)
+python extract_revl.py --limit 6      # smoke test (writes a partial file)
 python extract_revl.py --blocks 1     # one block only
+python extract_revl.py --no-vision    # rapidocr only
 ```
 
-`revl_raw_data.md` is the raw evidence layer behind
-`../.claude/skills/jon-fitness/references/revl-class-integration.md` (which teaches the
-`jon-fitness` skill how to program 1-on-1 PT around REVL). **OCR of the stylised posters
-is approximate** — that reference file must never present a specific REVL load, rep or
-percentage as fact.
+**Step 2 — `analyze_revl.py` → `revl_programming_analysis.md`**
+`analyze_revl.py` quantifies movement-pattern and prescription-style exposure across all 264
+sessions (by session type, phase and weekday) so the written analysis rests on counts rather
+than impressions. `revl_programming_analysis.md` is the reverse-engineered programming matrix:
+macrocycle map, movement-pattern architecture, stimulus/recovery footprint and weekly stress
+map, with every claim labelled **[Observed] / [Pattern] / [Inference]**.
+
+```
+python analyze_revl.py               # frequency tables
+python analyze_revl.py --show-keys   # the exact keyword lists behind the counts
+```
+
+**Step 3 — the skill reference**
+`../.claude/skills/jon-fitness/references/revl-class-integration.md` teaches the
+`jon-fitness` skill how to program 1-on-1 PT around a REVL client.
+
+**OCR of the stylised posters is approximate.** Neither the analysis nor the skill reference
+may present a specific REVL load, rep count or percentage as fact — they are indicative, and
+the agent is told to ask the client what their sessions actually were.

@@ -1,505 +1,545 @@
-# REVL class integration — programming 1-on-1 PT around REVL participation
+# REVL class integration — programming 1-on-1 PT for a client who trains at REVL
 
-Use this when a client **already trains at REVL** and wants 1-on-1 PT sessions built
-around that. REVL is the client's existing training stimulus; the PT session's job is
-to **complement it, address the individual's needs, and create progression without
-duplicating training stress**.
-
-## What this file is / is not
-
-- **It IS** the reference for *understanding the REVL stimulus* and *deciding how PT
-  programming should be adjusted* when a client does REVL.
-- **It is NOT** a rewrite of any training methodology. For the **Russian protocols**
-  (linear-periodization strength blocks: V5 / Classic / Masters), the authoritative
-  source is **`references/russian-strength-program.md`** — its eligibility gate (§2),
-  variants (§3), autoregulation (§4), fat-loss integration (§5), scaled entry (§6) and
-  retest protocol (§7). This file only says *whether, when and how much* of that
-  methodology belongs alongside REVL. Do not restate the wave tables or the gate here.
-
-## Reference hierarchy (use all three, in this order of authority)
-
-1. **`references/russian-strength-program.md`** — authoritative for the methodology,
-   structure, progression and application of the **Russian protocols**.
-2. **`references/revl-class-integration.md`** (this file) — authoritative for
-   understanding the REVL stimulus and adjusting PT programming for a REVL client.
-3. **Client context** — goals, history, current REVL phase, what their recent REVL
-   sessions actually were, recovery status, soreness, performance, life load. This
-   decides how references 1 and 2 are applied.
-
-Never blindly combine REVL and a Russian protocol. Use this file to work out what
-stress REVL is already delivering, then use `russian-strength-program.md` to decide
-whether and how that methodology can be added on the **smallest effective dose**.
-
-## Labelling (this file's version of the skill's rule)
-
-REVL programming is **not** ISA CPT course material, so claims are labelled:
-
-- **[Observed]** — read off the captured REVL Block 1 & Block 2 screenshots
-  (`source/revl_raw_data.md`, extracted 2026-09-09). **The OCR is approximate** —
-  stylised poster type over photos; word spacing, small print and numbers are
-  unreliable. Treat every specific load, rep count, percentage or cap as *indicative*,
-  never quote one as fact.
-- **[Course]** — an ISA CPT principle, cited *(WkNN Ch## pN)*, applied to the REVL
-  situation.
-- **[Judgment]** — coaching inference / general knowledge, kept minimal and flagged.
-
-**Always confirm the client's actual recent REVL sessions before programming.** REVL
-rewrites its block every ~13 weeks, members self-select Perform vs Move, scale their
-own loads, and miss sessions. The template below is the *starting hypothesis*, not the
-client's week.
+> **REVL is the client's existing training stimulus. The PT session should intelligently
+> complement that stimulus, address individual needs, and create progression without
+> unnecessary duplication of training stress.**
 
 ---
 
-## 1. What REVL is — the training stimulus
+## 1. Purpose
 
-**[Observed]** from Block 1 (2026) and Block 2 (2026), which share the same structure.
+Use this file whenever a client mentions **REVL**, REVL classes/programming/training, or a
+REVL phase (**Volume, Build, Deload, Peak, Rebuild**).
 
-### 1a. The macrocycle — a 13-week block, linear intensity ramp
+It answers two questions:
+1. **What training stimulus has this client already received this week?**
+2. **What is the smallest, highest-value dose the PT session can add on top of it?**
 
-| Weeks | Phase | Intent (as programmed) | Main-lift character |
-|------|-------|------------------------|---------------------|
-| 1–3 | **Volume** | Accumulate work capacity + muscle | Sub-maximal (roughly 40–55% 1RM read off posters), 8–14 reps, high density (EMOM/E2MOM), short rest, lots of superset accessory volume |
-| 4–6 | **Build** | Convert volume to strength | Reps fall toward 6–10, loads climb, tempo / pause work, rest lengthens |
-| 7 | **Deload** | Shed fatigue before the heavy weeks | Low load, ~8 reps, few working sets, long rest; conditioning volume also cut |
-| 8–10 | **Peak** | Express maximal strength | Main lifts wave up to roughly 90–95%+ 1RM, 1–5 reps, heavy singles/doubles; weeks 9–10 include benchmark **re-test** ("Baseline") sessions |
-| 11–13 | **Rebuild** | Re-accumulate, bridge to next block | Back to moderate reps/loads — a lighter Volume phase |
+It does **not** restate any training methodology. For the **Russian protocols** (the
+linear-periodization strength blocks — V5 / Classic / Masters) the authoritative source
+stays `references/russian-strength-program.md`: its eligibility gate (§2), variants (§3),
+autoregulation (§4), fat-loss integration (§5), scaled entry (§6), retest protocol (§7).
+This file only decides **whether, when and how much** of that methodology belongs alongside
+REVL.
 
-**[Judgment]** In ISA/ACE terms this is block periodization with a linear volume→
-intensity swing and a mid-block deload — **[Course]** consistent with periodization =
-planned variation of volume & intensity over macro→meso→micro cycles *(Wk07 Ch11
-p42–46)*.
+**Reference hierarchy**
+1. `references/russian-strength-program.md` — the Russian protocols' methodology.
+2. `references/revl-class-integration.md` (this file) — the REVL stimulus and the dosing
+   decision.
+3. **Client context** — goals, history, current phase, what they *actually* did, recovery
+   state. This decides how 1 and 2 are applied.
 
-### 1b. The weekly template (each week of every phase)
+**Evidence labelling used below**
+- **[Observed]** — read off the captured screenshots (Block 1 & Block 2, 2026; see
+  `source/revl_raw_data.md` and `source/revl_programming_analysis.md`).
+- **[Pattern]** — repeated across many sessions; backed by the counts in the analysis file.
+- **[Course]** — an ISA CPT principle, cited *(WkNN Ch## pN)*.
+- **[Inference]** — a reasonable reading of intent, not stated by REVL.
+
+**Evidence quality — read this before quoting anything.** The posters are stylised type over
+photos; two OCR engines still lose spacing and misread digits. **Never present a specific
+REVL load, %1RM, rep count, tempo or time cap as fact.** Say "the captured programming
+indicates roughly…", and **ask the client what their sessions actually were**. REVL rewrites
+the block roughly every 13 weeks, members self-select Perform vs Move, scale their own loads,
+and miss sessions.
+
+---
+
+## 2. REVL program overview
+
+**[Observed]** A 13-week block delivered as coached group classes. Two parallel strength
+tracks and three conditioning formats.
 
 | Day | Strength option A — **Perform** | Strength option B — **Move** | Conditioning |
-|-----|--------------------------------|------------------------------|--------------|
-| Mon | Perform Total — **deadlift/hinge** primary | Move Total — deadlift/hinge primary | — |
+|---|---|---|---|
+| Mon | **Perform Total** — hinge-led | **Move Total** — hinge-led | — |
 | Tue | — | — | **Sweat** (Sprint or Engine) |
-| Wed | Perform Lower — **squat/lower** primary | Move Total — **bench/push** primary | — |
+| Wed | **Perform Lower** | **Move Total** — bench-led | — |
 | Thu | — | — | **Sweat** (the other of Engine/Sprint) |
-| Fri | Perform Upper — **press/pull** primary | Move Total — **squat** primary | — |
-| Sat | — | — | **Sweat Team** (partner) |
-| Sun | — | — | **Complete** (mobility / low-intensity flush) |
+| Fri | **Perform Upper** | **Move Total** — squat-led | — |
+| Sat | — | — | **Sweat Team** (partner, 3 × 15:00 caps) |
+| Sun | — | — | **Complete** (40:00 team format) |
 
-- On Mon/Wed/Fri the member does **one** class — Perform *or* Move — not both.
-- **Perform** = strength-led: barbell main lift on a %1RM prescription (especially in
-  Build/Peak), lower reps, defined rest, EMOM/E2MOM/"capped rounds" structure,
-  targeted accessories.
-- **Move** = hybrid: same day's movement emphasis but **RIR-based** (e.g. "@4–5 RIR"),
-  higher reps, more supersets/AMRAP, more conditioning bleed.
-- The **primary barbell pattern rotates by day** — hinge (Mon), squat/lower (Wed),
-  press/pull (Fri) — a powerlifting-style rotation under the class packaging. Exact
-  day-to-pattern mapping drifts between weeks; **confirm with the client**.
+- Members do **one** class on Mon/Wed/Fri — Perform *or* Move, not both.
+- **Perform** = strength-led; barbell main lift on a %1RM prescription, lower reps, defined
+  rest, EMOM/E2MOM or capped-rounds structure.
+- **Move** = hybrid; same day's emphasis but **RIR-based** (RIR tightens across the block —
+  ~4–5 in Volume, ~2–3 in Build *(image-checked)*), higher reps, more AMRAP/superset work.
+- **Session shape [Pattern]:** 4:00-capped warm-up that ramps the day's main pattern at
+  ~40% → **S1** density block holding the main lift + accessories → **S2** two 7–8 min
+  AMRAP/cap blocks → **S3** partner finisher.
+- **Every session in all 264 screenshots is time-capped.** There is no untimed, self-paced
+  work anywhere in the programme. **[Observed]**
 
-### 1c. The three "Sweat" conditioning formats
+### Two corrections to common assumptions
 
-| Format | Energy system it targets | Shape **[Observed]** |
-|--------|--------------------------|----------------------|
-| **Sweat Sprint** | Anaerobic / glycolytic power | very short work intervals (≈ :20 caps), hard erg + barbell bursts, partner buy-ins |
-| **Sweat Engine** | Aerobic power / threshold | longer intervals (≈ 2:00 caps), sustained erg pieces + moderate accessory |
-| **Sweat Team** | Mixed, social | partner "you-go-I-go", shared targets |
-
-Tue and Thu alternate Sprint↔Engine week to week, so across a fortnight the member gets
-both energy systems.
-
-### 1d. What REVL already covers well (so the PT session usually shouldn't)
-
-- 3 barbell strength exposures/week rotating hinge / squat / press-pull.
-- A full linear strength progression in Build + Peak (the member is *already peaking*
-  in weeks 8–10).
-- 2–3 conditioning sessions/week spanning anaerobic and aerobic.
-- General flexibility / recovery (warm-ups, Sunday Complete).
-- High weekly training volume overall.
-
-### 1e. What REVL does *not* reliably deliver to an individual
-
-- **Screening / assessment** — it is group programming; no PAR-Q+, no movement screen,
-  no individual 1RM validation.
-- **Individualised regressions** for injuries, older adults, pregnancy/postpartum,
-  hypertension, disc- or shoulder-sensitive clients — it gives scaling *ranges*, not
-  population-specific overrides. **[Course]** Ch 12–15 overrides are the PT's job.
-- **Targeted weak-point / imbalance work** (e.g. left–right asymmetry, weak posterior
-  chain, poor single-leg stability, limited hip/ankle/T-spine ROM, low core
-  endurance).
-- **Technique coaching** under load for a specific lift.
-- **Sport-specific power / SAQ / plyometrics** for an athlete.
-- **A dedicated, individually-loaded peak on ONE lift** timed to the client's own
-  event/date rather than the studio calendar.
-- **Deliberate low-training-stress phases** matched to *this* client's recovery, work
-  and life — beyond the one studio-wide deload.
-
-The PT session's value is almost always in **1e**, not in adding more of **1d**.
+1. **Sunday "Complete" is not a recovery day.** **[Observed, image-checked]** It is a 40-min
+   team session — e.g. Peak Wk 1: 120 power cleans, 140 wall balls, 140 cal bike, 1000 m run,
+   then 120 floor press/row, 140 KB sumo deadlift, 140 cal ski, 1000 m run. It carries the
+   *highest horizontal-pull exposure of any session type* and near-top barbell density.
+2. **Saturday "Sweat Team" is not pure cardio.** **[Observed, image-checked]** Teams of 4–6,
+   3 × 15:00 caps, with 400/300/200 cal erg per block **plus** barbell deadlifts, DB front-rack
+   squats, DB snatches and overhead plate carries.
 
 ---
 
-## 2. The PT programming framework — run these steps in order
+## 3. 13-week macrocycle map
 
-### Step 1 — Identify the client's current REVL phase
+**Volume (wk 1–3) → Build (wk 4–6) → Deload (wk 7) → Peak (wk 8–10) → Rebuild (wk 11–13).**
 
-Ask (don't assume): which block, which phase (**Volume / Build / Deload / Peak /
-Rebuild**), and which **week within the phase**. Also ask whether they do **Perform or
-Move** on strength days, and roughly what loads/RPE their last week looked like.
+> The captured folders show **Peak as three weeks** (`Peak Wk 1/2/3`), giving 3+3+1+3+3 = 13.
 
-Phase sets the **recovery headroom** for anything the PT adds:
+| Wk | Phase | Main-lift character **[Observed]** | Dominant added stress **[Inference]** |
+|---|---|---|---|
+| 1–3 | **Volume** | 8–14 reps at roughly **40–65% 1RM**, 3 s eccentric cues, short rest, high density | Muscular / metabolic |
+| 4–6 | **Build** | 5–10 reps; waves reaching roughly **85–90%**; RIR tightens 4–5 → 2–3 | Mixed muscular + rising neural |
+| 7 | **Deload** | ~8 reps at **40–50%**, few sets, long rest — **strength deload only** (§4) | Metabolic only |
+| 8–10 | **Peak** | 1–5 reps; waves to roughly **90–95%** (Block 1) / **~92.5%** (Block 2); rest protected (`:45`+). Wk 9–10 add **Baseline re-test** sessions | Neural |
+| 11–13 | **Rebuild** | Moderate loads; %-prescription largely replaced by RPE/RIR | Muscular / metabolic |
 
-| REVL phase | Neural + structural cost of REVL right now | Headroom for added heavy/strength work |
+**[Pattern] The single most useful structural fact:** REVL periodises **load and rep-scheme,
+not exercise menu**. Barbell squat exposure sits at 23–32% of sessions and barbell hinge at
+44–55% in *every* phase. **No phase gives a movement pattern a rest** — only the intensity
+changes. Never assume "they're in Volume so their squat is fresh."
+
+---
+
+## 4. Phase-by-phase training characteristics
+
+| | **Volume** (1–3) | **Build** (4–6) | **Deload** (7) | **Peak** (8–10) | **Rebuild** (11–13) |
+|---|---|---|---|---|---|
+| Intent **[Inference]** | accumulate work capacity + muscle | convert volume to force | shed fatigue before the heavy weeks | express max strength, re-test | re-accumulate, bridge to next block |
+| Load **[Observed]** | ~40–65% | ~50–90% | ~30–55% | up to ~90–95% | mostly RPE/RIR, few % |
+| Reps | 8–14 | 5–10 | ~8 | 1–5 | moderate |
+| Tempo/eccentric cues | 52% of sessions | 30% | 40% | 41% | 50% |
+| Density (EMOM-style) | 72% | 67% | **90%** | **49%** (rest protected) | 80% |
+| Partner/team format | 80% | 44% | 85% | 43% | 85% |
+| **Neural headroom for PT** | **most** | **limited** | **strength-only headroom** | **minimal** | moderate |
+
+### The Deload is a *strength* deload, not a whole-body deload
+**[Observed, image-checked]** Deload Monday drops to *8 × BB deadlift @40–50%, Every 3:30 × 4*.
+But the same week's Sunday *Complete* is `In Pairs – E5MOM × 8` with **60 × BB
+shoulder-to-overhead + 40 × BB back/front squat + 60 × BB RDL/sumo deadlift + 40 × BB Pendlay
+row** plus erg intervals — on the order of 200 barbell reps. Density formats actually *peak*
+this week (90% of sessions).
+
+**PT implication.** Deload week is an **excellent** window for assessment, technique,
+mobility, corrective and low-load weak-point work — and a **poor** window for adding more
+high-rep metabolic volume.
+
+---
+
+## 5. Weekly movement-pattern matrix
+
+### 5a. Barbell exposure by weekday — the load that actually matters **[Pattern]**
+
+| Movement | Mon | Tue | Wed | Thu | Fri | Sat | Sun | all |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|
+| BB deadlift / sumo / RDL | **100%** | 12% | **71%** | 8% | 33% | 15% | **73%** | **51%** |
+| BB back/front squat | 8% | 4% | **50%** | 0% | **48%** | 4% | **62%** | 28% |
+| BB bench press | 38% | 0% | 50% | 0% | **63%** | 0% | 54% | 35% |
+| BB strict press / STO / jerk | **65%** | 15% | 19% | 23% | 46% | 23% | **62%** | 38% |
+| BB power clean / snatch | 33% | 31% | **67%** | 27% | 12% | 38% | 15% | 34% |
+| Wall ball / thruster / DBall *(squat-pattern conditioning)* | 56% | **69%** | 44% | **69%** | 48% | **69%** | 31% | 54% |
+| KB swing *(hinge conditioning)* | 15% | **50%** | 35% | 42% | 19% | 38% | 35% | 30% |
+
+**Read this as:**
+- **Barbell hinge is the most repeated heavy pattern in the programme** — 100% of Mondays,
+  71% of Wednesdays, 73% of Sundays, 51% of all sessions.
+- **Tue/Thu/Sat are barbell-light but not lower-body rest** — wall balls / thrusters / DBall
+  on ~69% and KB swings on 38–50% load the squat and hinge *patterns* at high reps.
+- **Sunday is the second-densest barbell day.** **Wednesday is the densest mixed day.**
+- **Friday (Perform track) is the only genuine lower-body offload day.**
+
+### 5b. Overall pattern exposure and the two clear gaps
+
+| Pattern | % of all sessions | | Pattern | % of all sessions |
+|---|--:|---|---|--:|
+| Hinge (any implement) | 76% | | Vertical push | 48% |
+| Squat (any implement) | 74% | | Vertical pull | 42% |
+| Erg / machine cardio | 69% | | Horizontal pull | 39% |
+| Unilateral lower | 61% | | Running | 33% |
+| Core / trunk | 55% | | Burpee / metcon | 30% |
+| Olympic / ballistic | 55% | | **Rotation / anti-rotation** | **15%** |
+| Horizontal push | 53% | | **Carry / loaded hold** | **12%** |
+
+**[Pattern] Carries and rotation/anti-rotation are the two systematically under-trained
+patterns.** Horizontal pulling (39%, concentrated on Fri/Sun) is the third.
+
+### 5c. Exposure by session type **[Pattern]**
+
+- **Perform Lower** — the densest lower-body session: squat, hinge, unilateral and
+  Olympic/ballistic all ≥96%.
+- **Perform Upper** — the only session that leaves the lower body alone (0% squat, 8% hinge).
+- **Perform Total** — 100% hinge, 92% vertical push, 81% unilateral.
+- **Move Total** — true hybrid: 100% hinge *and* 85% erg in the same session.
+- **Sweat Sprint / Engine / Team** — 100% erg; squat-*pattern* 83–93% via conditioning
+  implements; 0–4% rotation.
+- **Complete** — full body: hinge 88%, squat 81%, horizontal pull **85%** (the highest of
+  any session type), erg 100%.
+
+---
+
+## 6. Training stimulus & recovery footprint
+
+*What has the client already received?*
+
+| Stress channel | Footprint from REVL | PT reading **[Inference]** |
 |---|---|---|
-| **Volume** (wk 1–3) | Low–moderate (sub-max loads, high volume/density) | **Most** — but volume is already high, so watch total sets |
-| **Build** (wk 4–6) | Moderate–high (loads climbing, real strength work) | **Limited** — overlaps a strength accumulation block |
-| **Deload** (wk 7) | Deliberately low | **Do not add heavy or high-volume work** — respect the deload |
-| **Peak** (wk 8–10) | **High** (the member is already peaking to ~90–95%+) | **Minimal** — a second peak stacked here is the classic overreach mistake |
-| **Rebuild** (wk 11–13) | Moderate (re-accumulating) | Moderate — similar to Volume |
+| **Lower-body muscular** | Squat 74%, hinge 76%, unilateral 61% of sessions; conditioning days load the pattern too | **No day in a full week leaves the lower body unloaded.** Extra lower-body volume is the easiest way to over-reach. |
+| **Upper-body muscular** | Push 48–53%, pull 39–42%; concentrated on Fri + Sun | More room here than below the waist — especially **horizontal pulling**. |
+| **Axial / spinal loading** | BB hinge 51% of all sessions, 100% of Mondays; BB squat 28%; overhead 38% | The most *repeated* high-cost exposure. Prefer unloaded, offset or supported alternatives. |
+| **High-neural / near-maximal** | Waves to ~85–90% (Build) and ~90–95% (Peak); Olympic/ballistic on 55% of sessions | Volume / Deload / Rebuild leave headroom. **Build and Peak do not.** |
+| **Explosive / ballistic** | Power cleans, snatches, box jumps, DBall power on 55% of sessions | Rarely the missing quality. Adding plyometrics on top needs a real justification. |
+| **Metabolic / conditioning** | Erg 69%, running 33%; **100% of sessions time-capped**; partner/density formats 43–85% | Extra conditioning is rarely the highest-value addition — **except** true easy Zone 1–2 work, which the programme never contains. |
+| **Local fatigue sites** | Grip (deadlift, erg, hangs, KB, carries), anterior shoulder (press 38%, wall ball, burpee), posterior chain | Ask before adding more of either. |
+| **Where recovery is protected** | Wk-7 deload; Peak drops density to 49% and adds rest cues; Perform Upper is a lower offload; the Perform/Move choice lets a member pick the lower-neural option | Work *with* these, don't spend them. |
 
-### Step 2 — Map what the client has already trained this week
+### 6a. Complementary opportunities the data supports
 
-From the weekly template (§1b) + what they report. Build a quick grid:
+| Opportunity | Why |
+|---|---|
+| **Carries / loaded holds** | on only 12% of sessions |
+| **Rotation / anti-rotation** | on only 15%; 0% on Sweat Sprint/Engine |
+| **Horizontal pulling volume** | 39%, concentrated on two days |
+| **Technique / movement quality at sub-maximal load** | 100% of REVL sessions are time-capped — no untimed technique work exists |
+| **True Zone 1–2 aerobic work** | everything is capped and competitive; no easy steady-state observed |
+| **Mobility / tissue work** | appears only inside 4:00 warm-ups |
+| **Unilateral *stability*** (vs unilateral loading) | unilateral is 61% but almost always loaded and timed |
+| **Assessment + individual weak-point work** | group format cannot individualise; no screening in the programme |
+| **Deliberate low-stress / restorative sessions** | nothing in the week is programmed below a cap |
 
-| Pattern / quality | Trained by REVL this week? | Where |
+---
+
+## 7. Typical high / moderate / low stress days
+
+| Day | Session | Dominant stress **[Inference]** |
 |---|---|---|
-| Hinge / deadlift | | Mon Perform/Move; some Sweat |
-| Squat / knee-dominant | | Wed Perform Lower / Fri Move; Sweat |
-| Horizontal + vertical press | | Wed Move (bench); Fri Perform Upper |
-| Horizontal + vertical pull | | Fri Perform Upper; accessories most days |
-| Single-leg | | accessories most Perform/Move days |
-| Rotation / anti-rotation core | | accessories most days |
-| Anaerobic conditioning | | Sweat Sprint (Tue or Thu) |
-| Aerobic conditioning | | Sweat Engine (Tue or Thu), Sweat Team (Sat) |
-| High-neural / near-maximal | | only in Build & Peak Perform |
-| Mobility / recovery | | warm-ups, Sunday Complete |
+| **Mon** | Perform / Move Total | **High muscular + high axial**; high neural in Build/Peak |
+| **Tue** | Sweat Sprint *or* Engine | **Conditioning-dominant**; moderate squat-pattern muscular |
+| **Wed** | Perform Lower / Move Total | **Highest mixed day — high muscular + high neural** |
+| **Thu** | Sweat Engine *or* Sprint | **Conditioning-dominant** |
+| **Fri** | Perform Upper / Move Total | **Upper-dominant; the lower-body offload day** (Perform track) |
+| **Sat** | Sweat Team | **High-volume mixed conditioning** |
+| **Sun** | Complete | **High total work — full-body barbell + conditioning** |
 
-### Step 3 — Estimate the accumulated muscular and neural stress
+**Favourable PT windows [Inference]:** Friday or the day after Perform Upper (lower body
+least loaded) · the day after **Sweat Engine** (least neural residue) · **Deload week** ·
+**Volume / Rebuild** phases.
 
-- **Muscular (structural / metabolic):** high in Volume/Build accumulation weeks —
-  every major pattern is hit 2–4×/week counting accessories and Sweat carry-over.
-- **Neural (CNS / near-maximal):** low in Volume, rising through Build, **high in
-  Peak**. Sweat Sprint adds neural + metabolic fatigue; Sweat Engine adds mostly
-  peripheral/aerobic fatigue.
-- **[Course]** Muscle groups need 48–72 h between hard sessions; program 2–3 d/wk per
-  group *(Wk07 Ch11 Table 11-10, p11)*. REVL frequently already uses that budget.
-- **[Course]** The main benefit of periodization is planned physical **and mental**
-  recovery *(Wk07 Ch11 p42)* — added PT load spends the same recovery account.
+**Windows to avoid adding load [Inference]:** within ~24 h either side of **Wednesday** ·
+**Monday** for anything hinge-loaded · **Build/Peak** for a second heavy exposure · **Sat–Sun**
+for anything metabolic · **Deload week** for high-rep metabolic volume.
 
-### Step 4 — Determine what the PT session actually needs to deliver
+---
 
-Pick the **single highest-value need** from the client's goals + assessment + the §1e
-gap list. Common answers:
+## 8. How REVL changes PT programming decisions
 
-- Fix a movement-quality / mobility limiter that REVL load is exposing.
-- Build a weak point REVL under-trains (posterior chain, single-leg, upper-back, grip,
-  core endurance).
-- Coach technique on a lift the client wants to improve.
-- Add sport-specific power / SAQ for an athlete (Load/Speed stage 3).
-- Run a **focused strength peak on one lift** the client cares about, timed to their
-  own date — this is where a Russian protocol may enter (§4).
-- Add or protect an **aerobic base** the client lacks.
-- Deliberately **offload** — the client's total stress is already at ceiling and the
-  session should be low-intensity / restorative / educational.
+Standard PT design still applies — screening, assessment, IFT phase, FITT-VP, progression —
+but four things change:
 
-If the honest answer is "REVL is covering everything and the client just wants a
-second heavy session," that is usually a reason to **do less**, not more (§2 core
-principles).
+1. **The weekly FITT-VP budget is already partly spent.** **[Course]** Table 9-12 (variables
+   by goal) and Table 11-10 (Resistance FITT-VP) *(Wk07 Ch11 p16, p29–31)* and cardio FITT
+   *(Wk05 Ch8 p10)* are ceilings for **REVL + PT combined**, never for the PT session alone.
+2. **Frequency per muscle group is largely used up.** **[Course]** 2–3 hard sessions/week per
+   muscle group, 48–72 h apart *(Wk07 Ch11 Table 11-10, p11)*. REVL usually spends that on the
+   lower body by itself.
+3. **The PT session's value moves from "more" to "different."** The complementary list in
+   §6a is where the marginal return is.
+4. **Screening is still the PT's job.** **[Course]** REVL attendance is **not** medical
+   clearance. Run the ACSM preparticipation screen and PAR-Q+ *(Wk04 Ch5)* regardless.
 
-### Step 5 — Select exercises that complement, not duplicate, the REVL stimulus
+---
 
-- **Do not** repeat the same primary pattern at a similar or heavier load within 48 h
-  of the matching REVL Perform day. If REVL Wed = heavy squat, the PT session near it
-  should not be heavy squat.
-- **Do** choose a *different expression* of a needed pattern: unilateral vs bilateral,
-  tempo/pause vs grind, DB/KB vs barbell, hip-hinge accessory (RDL, back extension,
-  hip thrust) vs the competition deadlift, sled/carry vs another squat.
-- **Do** use the PT session for what a group class can't individualise: isolated
-  weak-point work, controlled ROM/mobility, corrective/activation, unilateral balance,
-  technique reps at sub-maximal load.
-- Match equipment and respect injuries — **[Course]** MSK region program-design steps
-  *(Wk10 Ch15)*, contraindications, five primary movement patterns, multi-joint before
-  single-joint *(Wk07 Ch11 p12–13; Wk03 Ch9)*.
+## 9. ACE PT + REVL integration
 
-### Step 6 — Dose volume and intensity to recent REVL exposure
+**[Course]** The ISA/ACE **Integrated Fitness Training (IFT) Model** still governs the PT
+session *(Wk02 Ch2 p10–14, Tables 2-2 / 2-3)*.
+
+- **Map REVL to the model, then place the PT work where the individual needs it.**
+  REVL Volume/Rebuild ≈ Movement-phase emphasis; REVL Build/Peak ≈ Load/Speed.
+  **If the client's movement quality is breaking down under REVL's load, the PT session drops
+  back a stage** — Functional / Movement corrective work — even while REVL keeps them in
+  Load/Speed. That is correct use of the model, not a contradiction.
+- **Cardio phases:** Base → Fitness → Performance *(Wk02 Ch2; Wk05 Ch8)*. REVL supplies
+  Fitness/Performance-type work continuously; a client who actually lacks a **Base** may need
+  the PT to add easy Zone 1–2 — the one conditioning gap in the programme.
+- **Assessment is the PT's job** *(Ch 7 anthropometrics; Ch 10 posture / balance / core /
+  movement screens; Ch 10 p69–75 strength testing)*. Only run assessments whose result would
+  change the program.
+- **Session components** *(Wk07 Ch11 p18; Wk05 Ch8 p41)*: warm-up appropriate to the load the
+  client has *already* carried that week → priority work → cool-down / flexibility
+  *(Flexibility FITT-VP, Table 11-7)*.
+- **Progression tools** *(Wk07 Ch11 p7, p20; Wk03 Ch9 p7; Wk05 Ch8 p26)*: 2-for-2 / double
+  progression, ~5% load increments, ≤10%/week cardio progression — applied to the **PT
+  session's own** progression, remembering REVL is already progressing the shared patterns.
+- **Special-population and MSK overrides** *(Ch 12–15)* replace general values where they
+  conflict — check every time. REVL gives scaling *ranges*, not population-specific
+  regressions; that gap is the PT's to fill.
+
+---
+
+## 10. Russian protocols + REVL integration
+
+**Do not assume a Russian protocol should be added on top of REVL.** REVL's Build and Peak
+phases are *themselves* a linear-periodization strength progression on the barbell lifts.
+Stacking a Russian wave onto them means **two concurrent strength peaks** — redundant neural
+and structural load, high over-reach/injury risk, usually a worse result on both.
+
+Read `references/russian-strength-program.md` first (gate §2, variants §3, autoregulation §4).
+Then apply these rules.
+
+### 10a. Is a Russian protocol appropriate alongside REVL at all?
+
+**Consider it only when ALL hold:**
+1. Primary goal is a **maximal-strength PB on barbell lifts** — not general fitness, physique
+   or conditioning.
+2. Client **passes the §2 eligibility gate**, including **G6 recovery context assessed for
+   REVL + the protocol combined**, not the protocol alone.
+3. Current **REVL phase leaves headroom** (10b).
+4. There is a **lift REVL under-serves** for this goal, **or** the client will **replace**
+   overlapping REVL strength work (10d).
+5. Recovery markers support it (10e).
+
+**Route elsewhere when:** the client is a beginner/returning lifter (→ `russian-strength-
+program.md` §6 scaled entry, not stacked on REVL) · a special population the course restricts
+(→ Ch 12–15 override) · REVL is already peaking their target lift well (→ support that peak)
+· the highest-value need is something else (→ 10g).
+
+### 10b. REVL phase → handling
+
+| REVL phase | Handling |
+|---|---|
+| **Volume** (1–3) | Most headroom. A **reduced** wave (10c) on ≤2 focus lifts can supplement. Keep it off the lifts REVL emphasises that week. |
+| **Build** (4–6) | Real overlap. **Reduce volume and frequency hard**, or run the wave on **one** under-served lift, or **replace** the matching Perform day (10d). Never a full wave on top. |
+| **Deload** (7) | **No Russian protocol.** Respect the deload. Technique at light load, mobility, assessment. |
+| **Peak** (8–10) | **Do not stack.** Either (i) the PT supports REVL's peak (technique, activation, recovery), or (ii) the wave **replaces** REVL's Perform strength days and the client keeps only Sweat + Complete. |
+| **Rebuild** (11–13) | As Volume. |
+
+### 10c. Reduce volume / intensity / frequency
+
+- **Reduce VOLUME** when REVL is accumulating on the shared pattern, the client also does
+  2–3 Sweat sessions, or combined weekly sets would exceed the Table 9-12 / 11-10 range.
+  → cut wave sets (e.g. 6×2 → 3–4×2), drop accessories REVL already covers, or run fewer wave
+  lifts (`russian-strength-program.md` §3a subset rule).
+- **Reduce INTENSITY** when REVL is in Build/Peak, recovery markers are marginal, or a
+  fat-loss deficit runs concurrently (§5 of that file). → finish the wave earlier, or use the
+  **Masters** ceiling instead of the V5/Classic top end, and anchor days at the lower %.
+- **Reduce FREQUENCY** when REVL already trains the pattern ≥2×/week — **it almost always
+  does** (§5a: BB hinge on 100% of Mondays). **[Course]** the budget is 2–3 hard
+  sessions/week per muscle group *(Wk07 Ch11 Table 11-10, p11)*.
+  → **The V5 4-day and Classic 3-day variants rarely fit alongside full REVL participation.
+  The Masters 2-day variant is the default Russian option for a REVL client.**
+
+### 10d. Replace rather than supplement
+
+Replace when the client wants a genuine peak on specific lifts and would otherwise duplicate
+heavy work:
+- In **Build or Peak**, run the wave sessions **instead of** REVL Perform/Move on strength
+  days; keep **Sweat** and **Complete**. One coherent peak beats two half-peaks.
+- For a single-lift focus, swap only the REVL day that emphasises that lift.
+- Record which REVL sessions are substituted, for how long, and the plan to return.
+
+### 10e. Running the protocol as written
+
+Only when the client has **dropped to REVL conditioning + Complete for the block** (i.e. a
+replace, 10d), **or** REVL is in **Volume** *and* the client has consistent 7–9 h sleep, low
+life stress, established work capacity, no deficit, and a clean prior block. Otherwise reduce
+(10c) or use Masters.
+
+### 10f. Stacking traps to avoid
+
+- **Never** place a Russian squat or deadlift progression within 48 h of Wednesday
+  (BB squat 50% + BB hinge 71% + power clean 67%) or of Monday (BB hinge 100%).
+- **High-neural stacking:** a Russian ≥95% session + a REVL Peak Perform session + a Sweat
+  Sprint inside 72 h is three near-maximal exposures. Cut to one.
+- **Lower-body accessory pile-up:** Russian accessories + REVL accessories + Sweat leg volume
+  compounds fast. Drop the PT accessories REVL already covers.
+- **Redundant pressing:** a Russian press wave + Friday Perform Upper + Sunday Complete
+  (BB press 62%) = 3–4 pressing sessions/week.
+
+### 10g. Prioritise another quality instead
+
+If the limiter is not maximal strength — restricted ROM, poor single-leg stability, weak
+posterior chain, low core endurance, a shoulder/low-back history, thin aerobic base, low
+tissue tolerance to REVL's volume — address **that**, and defer the Russian protocol to a
+block where the client is in REVL Volume or between blocks.
+
+---
+
+## 11. PT session selection framework
+
+Run these nine steps in order.
+
+1. **Identify the current REVL phase.** Ask: which block, which phase, which week within it,
+   Perform or Move on strength days, and what the last week actually looked like. Phase sets
+   the headroom (§4).
+2. **Map what they've already trained this week.** Use §5a/§5c against the days they attended.
+   Note which patterns are already at 2+ exposures.
+3. **Estimate accumulated muscular and neural stress.** Muscular is high in every phase;
+   neural rises through Build and peaks in weeks 8–10. **[Course]** muscle groups need 48–72 h
+   *(Wk07 Ch11 Table 11-10, p11)*; periodization's benefit is planned physical **and mental**
+   recovery *(Wk07 Ch11 p42)*.
+4. **Determine what the client actually needs** — the single highest-value gap from §6a plus
+   their own goals and assessment results. If the honest answer is "REVL covers it and they
+   just want more," that is a reason to do **less**.
+5. **Select complementary exercises.** Don't repeat the same primary pattern at similar or
+   heavier load within 48 h of the matching REVL day. Choose a different *expression*:
+   unilateral vs bilateral, tempo/pause vs grind, DB/KB vs barbell, supported vs axial,
+   carry/anti-rotation vs another squat.
+6. **Adjust volume and intensity to recent exposure** — see §12.
+7. **Sequence, rest, load.** **[Course]** multi-joint / higher-skill first *(Wk07 Ch11
+   p12–13)*; rest matched to intent — 2–5 min strength, 30–90 s hypertrophy, ≤30 s endurance
+   *(Table 9-12, p16)*, longer if they arrive fatigued; autoregulate with RPE/RIR rather than
+   a fixed % because REVL residual fatigue varies *(RPE as intensity metric, Wk05 Ch8 p15–20)*.
+8. **Modify for client state** — §14, and the order in §15.
+9. **Progress without assuming more is better** — improve quality or specificity, not session
+   count: better positions, a heavier top set at the *same* RIR, a harder unilateral variation,
+   a longer Zone 2 piece. One variable at a time *(2-for-2 / double progression, Wk07 Ch11 p7,
+   p20)*. Stall or regress deliberately during Deload and Peak.
+
+Whenever a Russian protocol enters the conversation, open
+`references/russian-strength-program.md` and apply §10 above.
+
+---
+
+## 12. Volume & intensity adjustment rules
 
 Count the PT session **on top of** REVL's weekly totals, never in isolation.
 
-- **[Course]** Weekly volume, intensity and frequency guidance (Table 9-12 by goal;
-  Resistance FITT-VP Table 11-10; cardio FITT *Wk05 Ch8 p10*) is the ceiling for
-  **REVL + PT combined**, not for the PT session alone.
-- Rough per-phase dosing for the *added* PT strength work:
+| REVL phase | Added PT strength dose (guide) | Added PT conditioning |
+|---|---|---|
+| **Volume** | up to a normal accessory/secondary session; cap added top-set intensity ~80% or RIR ≥ 3 | Zone 1–2 only, if the client lacks a base |
+| **Build** | half a session, or one focused lift; ≤ ~85% / RIR ≥ 2; low set count | Zone 1–2 only |
+| **Deload** | **no heavy or high-volume work** — technique at light load, mobility, assessment | keep it easy; the week is already dense |
+| **Peak** | **none additive** — support work only (activation, one light technique primer, recovery), unless the PT work *replaces* a REVL strength day (§10d) | Zone 1–2 only |
+| **Rebuild** | as Volume | as Volume |
 
-  | REVL phase | Added PT strength dose (guide) |
-  |---|---|
-  | Volume | up to a normal accessory/secondary session; keep added top-set intensity ≤ ~80% or RIR ≥ 3 |
-  | Build | half a normal session, or one focused lift only; ≤ ~85% / RIR ≥ 2, low set count |
-  | Deload | **none** heavy; mobility, technique at light load, or skip |
-  | Peak | **none** additive; support work only (activation, single light technique primer, recovery) unless the PT strength work *replaces* a REVL strength day (§4) |
-  | Rebuild | as Volume |
-
-- **[Course]** Progress cardio ≤ ~10%/week *(Wk05 Ch8 p26)*; load increments ~5%
-  *(Wk03 Ch9 p7)*; double progression / 2-for-2 *(Wk07 Ch11 p7, p20)* — apply these to
-  the PT session's own progression, and remember REVL is already driving progression
-  on the shared patterns.
-
-### Step 7 — Exercise selection, sequencing, rest, loading
-
-- **Sequencing within the week:** put the PT session where it least collides with
-  REVL. Best options: the day after **Sweat Engine** (low neural residue), on
-  **Sunday** in place of / alongside Complete if only mobility/light work, or on a day
-  the client skips a REVL class. Avoid the 24 h before or after a REVL **Perform**
-  day in Build/Peak.
-- **Sequencing within the session:** **[Course]** multi-joint / higher-skill / power
-  before single-joint and isolation; most fatiguing work first *(Wk07 Ch11 p12–13)*.
-  If the session is corrective/mobility-led, that goes first while fresh.
-- **Rest:** match to intent — **[Course]** 2–5 min for strength (≥85%), 30–90 s for
-  hypertrophy, ≤30 s for muscular endurance *(Table 9-12, Wk07 Ch11 p16)*. Longer
-  rests if the client arrives with REVL fatigue.
-- **Loading:** use RPE/RIR to autoregulate against the day's readiness rather than a
-  fixed %, because REVL residual fatigue varies. **[Course]** RPE is a valid intensity
-  metric *(Wk05 Ch8 p15–20)*.
-
-### Step 8 — Modify the session for soreness, fatigue, poor sleep, reduced performance, or unusually high training stress
-
-Screen at the **start of every PT session**. Any of: notable DOMS in the pattern you
-planned, sleep < ~6 h, elevated resting HR / "flat" feeling, a hard/failed recent REVL
-session, a life-stress spike, or self-rated readiness low →
-
-1. **Drop the added load first** (intensity), then **volume**, then swap to a lower-
-   demand exercise variant, then convert the session to mobility / activation /
-   aerobic Zone 1–2 / education.
-2. **Never** add a near-maximal or novel high-eccentric exercise on a low-readiness
-   day.
-3. If fatigue markers persist > ~1 week, that is a **[Course]** overtraining /
-   recovery flag — reduce total load (PT *and* advise scaling REVL), check sleep /
-   nutrition / stress, and if it doesn't resolve, refer to a physician *(recovery &
-   overtraining, Wk07 Ch11 p47–48; scope Wk01 Ch1 p7–8)*.
-4. Record the modification and the trigger in the plan's decision log.
-
-### Step 9 — Progress the client without assuming "more is better"
-
-- Progress by **improving quality or specificity**, not by adding sessions or sets by
-  default: better positions, cleaner reps, a heavier top set at the *same* RIR, a
-  harder unilateral variation, a longer Zone 2 piece — one variable at a time
-  **[Course]** *(2-for-2 / double progression, Wk07 Ch11 p7, p20; SPORD principles)*.
-- The client is **already progressing** on the shared patterns through REVL's block.
-  The PT session's progression should track the *individual need*, and should **stall
-  or regress deliberately** during REVL Deload/Peak.
-- More total training is only better if recovery keeps up. If performance, mood, sleep
-  or adherence dip, **remove** load before adding any.
-
-### Step 10 — Cross-reference `russian-strength-program.md` whenever a Russian protocol is considered
-
-Any time the PT session might use a **Russian protocol** (a linear-periodization
-strength wave — V5 / Classic / Masters), open `references/russian-strength-program.md`
-and run **its §2 eligibility gate** and pick **its §3 variant** — then apply the REVL
-dosing rules in §4 below. Never run a Russian protocol from memory or bolt it on
-without the gate.
+**Additional rules**
+- If a pattern already has **2 exposures** this week, the PT may add **at most one** more, and
+  only as a *different quality* (e.g. tempo/stability rather than another heavy grind).
+- If a pattern already has **3+** exposures, add **none** — pick a different pattern.
+- Lower-body: assume it is loaded on every training day. Treat added lower-body volume as the
+  most expensive thing on the menu.
+- Axial loading: prefer supported/offset/unloaded alternatives; barbell hinge is on 51% of
+  REVL sessions already.
+- Conditioning: only add if the *quality* is missing (easy aerobic), not the quantity.
 
 ---
 
-## 3. Integrating ACE PT protocols alongside REVL
+## 13. Example complementary PT sessions
 
-The ISA/ACE **Integrated Fitness Training (IFT) Model** still governs the PT session.
+Illustrative shapes, not prescriptions — always re-derive from the client's actual week.
 
-- **Place the PT work in the right IFT stage for the individual, given what REVL is
-  already doing:**
-  - Muscular Training: **Functional** (postural stability, kinetic-chain mobility) →
-    **Movement** (5 primary patterns, load management, pattern quality) → **Load/Speed**
-    (external load for force, power, HIIT, plyometrics) *(Wk02 Ch2 p10–14, Table 2-3)*.
-  - Cardiorespiratory: **Base → Fitness → Performance** *(Wk02 Ch2; Wk05 Ch8)*.
-- **REVL Volume/Rebuild** ≈ Movement-phase emphasis on the shared patterns; **REVL
-  Build/Peak** ≈ Load/Speed. If the client's movement quality is breaking down under
-  REVL's load, the PT session drops **back a stage** — Functional/Movement corrective
-  work — even while REVL keeps them in Load/Speed. That is the correct use of the IFT
-  model, not a contradiction.
-- **Assessment is the PT's job** *(Ch 7 anthropometrics; Ch 10 posture/balance/core/
-  movement screens; Ch 10 p69–75 strength testing)*. Use results to choose the Step-4
-  need. Only run assessments whose results would change the program.
-- **FITT-VP is combined:** the PT session's Frequency, Intensity, Time, Type, Volume
-  and Progression are added to REVL's. Check the combined weekly load against Table
-  11-10 (resistance) and *Wk05 Ch8 p10* (cardio), and against special-population
-  overrides *(Ch 12–15)* — those **replace** the general values where they conflict,
-  every time.
-- **Session components** *(Wk07 Ch11 p18; Wk05 Ch8 p41)* still apply to the PT
-  session: warm-up appropriate to the load already carried that week, then the priority
-  work, then cool-down / flexibility *(Flexibility FITT-VP, Table 11-7)*.
-- **Screening first** *(Wk04 Ch5)*: even for an active REVL member, run the ACSM
-  preparticipation screen and PAR-Q+. REVL attendance does **not** substitute for
-  clearance when risk factors or symptoms are present.
+**A. Volume phase, general-fitness client, session on Friday (after Perform Upper).**
+Assessment-led. Ankle/hip mobility → half-kneeling anti-rotation press (Pallof) 3 × 8/side →
+suitcase carry 4 × 30 m → single-leg RDL 3 × 8/side @ RIR 3 (stability, light) → controlled
+horizontal row 3 × 10. *Fills the carry (12%) and rotation (15%) gaps and adds pulling volume,
+adds no axial load.*
 
----
+**B. Build phase, client wants to get stronger, session the day after Sweat Engine.**
+One focused lift only: paused/tempo front squat 4 × 3 @ ~80%, RIR 2 (a *different expression*
+of a pattern REVL trains heavy) → weak-point accessory (e.g. split squat) 3 × 8/side →
+anti-rotation core. Keep total sets low; skip if Wednesday is within 24 h.
 
-## 4. Integrating the Russian protocols alongside REVL — decision rules
+**C. Peak phase, client peaking with REVL.** No added heavy work. Warm-up quality drills,
+technique primer at 60–70% on their weakest of the three lifts, soft-tissue/mobility for the
+restricted joint, breathing/downregulation to close. Purpose: **support the peak**, protect it.
 
-**Do not assume a Russian protocol should be added on top of REVL.** REVL's Build and
-Peak phases are *themselves* a linear-periodization strength progression on the barbell
-lifts. Stacking a Russian wave onto them is running **two concurrent strength peaks** —
-redundant neural and structural load, high overreach/injury risk, and usually a worse
-result on both.
+**D. Deload week.** Full movement screen and any outstanding assessments → corrective work →
+low-load technique reps → mobility. The best assessment window in the block.
 
-First read `references/russian-strength-program.md` (gate §2, variants §3,
-autoregulation §4). Then apply these rules.
+**E. Client wants to build muscle.** Target under-served tissue, not more compound volume:
+horizontal pulling, direct arm/rear-delt/upper-back, controlled tempo, 8–15 reps, 30–90 s rest
+*(hypertrophy band, Table 9-12)*, RIR 1–3. Place away from Wed and Mon.
 
-### 4a. Is a Russian protocol appropriate alongside REVL at all?
-
-**Yes, consider it when ALL of these hold:**
-
-1. The client's **primary goal** is a maximal-strength PB on one or more barbell lifts
-   (not general fitness / physique / conditioning).
-2. They **pass the `russian-strength-program.md` §2 gate** (medically cleared,
-   experienced lifter, movement-competent, no loaded-testing contraindications,
-   barbell access, **realistic recovery context for REVL + the protocol combined**, no
-   population bar).
-3. Their current **REVL phase leaves headroom** — see 4b.
-4. There is a **specific lift REVL is under-serving** for this client's goal, OR the
-   client is willing to **replace** the overlapping REVL strength work (4d).
-5. Recovery markers (sleep, stress, workload, prior-block tolerance) say they can take
-   it — see 4e.
-
-**No / not yet — route elsewhere — when:**
-
-- The client is a **beginner / returning / detrained** lifter → `russian-strength-
-  program.md` §6 scaled entry (Movement + foundational Load/Speed), *not* the
-  archetype, and definitely not stacked on REVL.
-- The client is in a **special population the course restricts** (youth: no 1-RM
-  lifts; pregnancy/postpartum; older adult; chronic disease) → apply the Ch 12–15
-  override; the Russian archetype usually waits.
-- REVL is **already** peaking their target lift well (Build/Peak phase) → the PT
-  session should *support* that peak (technique, activation, recovery), not add a
-  second one.
-- The client's **highest-value need is something else** (mobility, weak point,
-  conditioning quality, tissue tolerance, an injury history) → address that; the
-  Russian protocol waits for a block where the client isn't in REVL Peak (4g).
-
-### 4b. REVL phase → what to do with a Russian protocol
-
-| REVL phase | Recommended handling of a Russian protocol |
-|---|---|
-| **Volume** (wk 1–3) | Most headroom. A **reduced** Russian wave (see 4c) on ≤2 focus lifts *can* supplement, if 4a and 4e pass. Keep it off the lifts REVL is emphasising that week. |
-| **Build** (wk 4–6) | Overlap is real. **Reduce volume and frequency hard**, or run the wave only on **one** focus lift that REVL is under-training, or **replace** the matching REVL Perform day (4d). Never add a full wave on top. |
-| **Deload** (wk 7) | **Do not run a Russian protocol.** Respect the deload. Use the PT session for technique at light load, mobility, or rest. |
-| **Peak** (wk 8–10) | Do **not** stack. Either (i) the PT simply supports REVL's peak, or (ii) if the client's target-lift PB matters more than the REVL peak, the Russian wave **replaces** REVL's Perform strength days for those weeks and the client keeps only REVL's Sweat + Complete sessions. |
-| **Rebuild** (wk 11–13) | As Volume — reduced wave on focus lifts is possible if 4a/4e pass. |
-
-### 4c. When to REDUCE the Russian protocol (vs run it as written in `russian-strength-program.md`)
-
-- **Reduce VOLUME** when: REVL is in Volume/Build/Rebuild and is already accumulating
-  sets on the shared pattern; the client is also doing 2–3 Sweat sessions/week;
-  combined weekly sets for the pattern would exceed the Table 9-12 / 11-10 range for
-  the goal. → cut wave sets (e.g. 6×2 → 3–4×2), drop accessory work that REVL already
-  covers, or run fewer wave lifts (`russian-strength-program.md` §3a subset rule —
-  others to a maintenance dose).
-- **Reduce INTENSITY** when: REVL is in Build/Peak (loads already high); recovery
-  markers are marginal; the client is in a concurrent fat-loss deficit
-  (`russian-strength-program.md` §5). → cap the wave's top end earlier (treat weeks
-  8–9 of the V5 wave as the finish; or use the **Masters** ceiling of ~2×2 @ 95–100%
-  instead of 100–105%), and anchor days at 60–70% not 80%.
-- **Reduce FREQUENCY** when: REVL already trains the lift/pattern ≥2×/week (it usually
-  does). The course spacing budget is 2–3 hard sessions/week per muscle group
-  *(Wk07 Ch11 Table 11-10, p11)*. If REVL supplies 2 squat exposures, the PT may add
-  **at most one** more, and only as a different quality. → **the V5 4-day and
-  Classic 3-day variants rarely fit alongside full REVL participation.** The **Masters
-  2-day variant is the default** Russian option for a REVL client, because it fits the
-  frequency and recovery budget.
-
-### 4d. When a Russian protocol should REPLACE a REVL stimulus rather than supplement it
-
-Replace (don't add) when the client wants a genuine strength peak on specific lifts
-**and** would otherwise be doing overlapping heavy work:
-
-- In **REVL Build or Peak**, the client does the **Russian wave sessions instead of
-  REVL Perform/Move** on strength days, and still attends **Sweat** (conditioning) and
-  **Complete** (recovery). This keeps total load sane and gives one coherent peak
-  instead of two half-peaks.
-- On a single-lift focus (e.g. deadlift PB), the client keeps the two REVL Perform
-  days that *don't* emphasise the deadlift and swaps the deadlift-emphasis day for the
-  Russian progression session.
-- Document in the plan which REVL sessions are being substituted and for how long,
-  and the plan to return to full REVL participation after the retest.
-
-### 4e. When the client has the recovery capacity to run the protocol as written
-
-Only run a Russian variant **as written in `russian-strength-program.md`** (no REVL-
-specific reduction) when the client also **drops to REVL conditioning + Complete only**
-for the block (i.e. it's a replace, 4d), **or** when REVL is in its **Volume** phase
-**and** the client has: consistent 7–9 h sleep, low current life stress, established
-high work capacity, adequate nutrition (not in a deficit), and a clean prior block.
-If any of those is shaky → reduce per 4c, or use Masters, or defer.
-
-### 4f. Avoid stacking similar stimuli — the specific traps
-
-- **Squat + hinge:** never place a Russian squat or deadlift progression day within
-  48 h of a REVL Perform Lower / hinge-emphasis day in Build/Peak. Space by ≥72 h
-  *(Wk07 Ch11 Table 11-10)* or replace (4d).
-- **High-neural stacking:** a Russian week 7–9 session (≥95%) plus a REVL Peak Perform
-  session plus a Sweat Sprint in the same 72 h is three near-maximal / high-CNS
-  exposures — cut to one.
-- **Lower-body strength volume:** Russian accessories (Bulgarian split squat, RDL) +
-  REVL accessories (FFE lunges, split squats, Pendlay rows) + Sweat leg volume
-  compounds fast. Drop the PT accessories REVL already covers; keep only the true
-  weak-point work.
-- **Redundant pressing:** Russian bench/press wave + REVL Wed Move (bench) + Fri
-  Perform Upper = 3–4 pressing sessions/week. Consolidate.
-
-### 4g. When to prioritise another training quality instead of any Russian protocol
-
-If assessment shows the client's limiter is **not** maximal strength — restricted
-hip/ankle/T-spine ROM, poor single-leg stability, weak posterior chain relative to
-quads, low core endurance, a shoulder or low-back history, a thin aerobic base, or
-low tissue tolerance to REVL's volume — the PT session addresses **that**, and the
-Russian protocol is deferred to a future block when the client is in REVL Volume or
-between blocks. Building a weak point now usually raises the eventual PB more than a
-premature wave would.
+**F. Client wants conditioning.** If they already do 3 Sweat sessions, do **not** add
+intervals. Add what's missing: 25–40 min easy Zone 1–2 (nasal-breathing / talk-test pace) on a
+non-REVL day, progressing ≤10%/week *(Wk05 Ch8 p26)*.
 
 ---
 
-## 5. Core principles
+## 14. Client-state decision rules
 
-> **REVL is the client's existing training stimulus. The PT session should
-> intelligently complement that stimulus, address individual needs, and create
-> progression without unnecessary duplication of training stress.**
-
-> **Do not add a protocol simply because the client can tolerate more work. First
-> determine what stimulus REVL has already provided, identify the client's
-> highest-value training need, and then select the smallest effective additional dose
-> from the available protocols.**
-
----
-
-## 6. Worked decision examples (traceability)
-
-**A — general-fitness REVL member, Build phase, wants "a strength session too."**
-Step 1: Build wk 5, does Move on strength days, RIR 3–4. Step 2/3: hinge, squat, press
-all hit 2–3×/week; neural load moderate-rising. Step 4: assessment shows weak posterior
-chain + poor single-leg stability; primary goal is general fitness, *not* a barbell PB
-→ **4a fails item 1** → no Russian protocol. PT session = single-leg / posterior-chain
-weak-point work at RIR 3, tempo RDL + split-squat progressions, 30–60 s rest, one
-variable progressed/week; deliberately eases in REVL Deload. *(Wk10 Ch15 region steps;
-Table 9-12; 2-for-2.)*
-
-**B — experienced lifter, deadlift PB goal, REVL Peak phase, passes the gate.**
-`russian-strength-program.md` §2 gate passes. REVL Peak already peaks the main lifts →
-**4d replace:** for Peak wk 8–10 the client runs a **Classic** single-lift deadlift
-wave (§3b) *instead of* the two REVL Perform days that carry hinge/pull, keeps REVL
-Sweat + Complete, and keeps the one REVL Perform day that emphasises pressing.
-Autoregulate per §4; true 1-RM retest per §7 with spotting *(Wk06 Ch10 p74)*, timed to
-the client's chosen date. Return to full REVL in Rebuild.
-
-**C — busy client, squat PB goal, REVL Volume phase, sleep ~6 h, moderate stress.**
-Goal qualifies (4a-1). Gate: recovery context marginal (G6) → **Masters variant**
-(§3c), **2 days**, anchor at 60–70%, ceiling ~2×2 @ 95–100%. Placement: one session
-72 h from REVL's squat-emphasis day, one on a day the client usually skips a class.
-Reduce per 4c (frequency + intensity). Screen readiness each session (Step 8); if
-sleep stays low > 1 week, pause the wave and cut total load.
+| Client says | Read it as | Do |
+|---|---|---|
+| **"I did REVL yesterday."** | Ask *which* session. Mon/Wed → lower body + axial loaded; Fri → upper loaded; Tue/Thu → conditioning; Sat/Sun → high total work. | Avoid the same primary pattern at similar/heavier load. Choose a complementary pattern or a different expression. If yesterday was Wed or Sun, keep today light. |
+| **"I'm doing REVL tomorrow."** | Tomorrow's stress is about to land. | Leave them fresh. No near-maximal work, no novel high-eccentric work, no exhaustive metabolic finisher. Technique, mobility, activation, light accessory. |
+| **"I'm in the Volume phase."** | Most headroom; loads ~40–65%, volume already high. | The best phase for added strength exposure — but keep added intensity ≤ ~80% / RIR ≥ 3 and watch total sets. Good window for a *reduced* Russian wave if §10a passes. |
+| **"I'm in Build."** | Loads climbing to ~85–90%; overlap with any strength block is real. | Half-doses only. One focused lift. Prefer weak-point / quality work. If a Russian protocol is wanted, reduce hard or replace a REVL day (§10c/d). |
+| **"I'm in Deload."** | Strength is deloaded; metabolic volume is **not** (Sunday stays big). | Best assessment / technique / mobility / corrective window of the block. **Do not** add heavy work **or** extra high-rep metabolic work. |
+| **"I'm in Peak."** | Waves to ~90–95%; highest neural demand of the block. | Support only. No second heavy exposure. If their PB goal outranks the REVL peak, **replace** REVL strength days with the protocol (§10d) rather than adding. |
+| **"I'm in Rebuild."** | Moderate loads, mostly RPE/RIR; re-accumulating. | Similar headroom to Volume. Good time to start a new PT progression or a *reduced* strength block. |
+| **"My legs are sore from REVL."** | Expected — no day leaves the lower body unloaded. | Train upper body, carries, anti-rotation, or do mobility/aerobic. Avoid loaded squat/hinge and high-eccentric lower work. Sore ≠ stop, but it does mean **change the pattern**, not just the load. |
+| **"My upper body is fatigued from REVL."** | Likely Friday (Perform Upper) or Sunday (Complete). | Lower-body *stability* and mobility work, gentle unilateral, Zone 1–2 aerobic. Avoid pressing and heavy pulling. |
+| **"I feel fresh despite doing REVL."** | Genuine headroom **or** under-reporting. Verify: sleep, sessions actually attended, loads used, appetite, mood, last week's performance. | If genuinely fresh **and** in Volume/Rebuild/Deload → this is the window for the highest-value addition (a strength exposure, or starting a reduced protocol). **Freshness is not a reason to add work by default** — still pick the highest-value gap, not the biggest dose. |
+| **"I want to get stronger while continuing REVL."** | Legitimate and achievable — but frequency is the constraint, not willingness. | Run the §10a check. If it passes: **Masters-style low-frequency wave** on 1–2 lifts, placed 72 h from the matching REVL day, in Volume/Rebuild. If it fails: build the weak point first (§10g), or replace REVL strength days in Build/Peak (§10d). |
+| **"I want to build muscle while continuing REVL."** | Compound volume is already saturated; what's missing is targeted, controlled, tissue-specific work. | Hypertrophy-band accessory work *(3–6 × 6–12, 30–90 s rest, 67–85%, Table 9-12)* on under-served tissue: horizontal pull, upper back, arms, rear delts, calves. Controlled tempo, RIR 1–3. Protein/energy sufficiency → general information only, refer to an RD for detail *(Wk01 Ch1 p7–8)*. |
+| **"I want to improve conditioning while continuing REVL."** | They already get 3–4 capped/competitive sessions a week. Adding more of the same has low return. | Add the **missing quality**: true Zone 1–2 steady state (talk-test pace), 25–40 min, on a non-REVL day, ≤10%/week progression *(Wk05 Ch8 p10, p26)*. Only add intervals if a specific test/event needs them **and** something else is removed. |
 
 ---
 
-## 7. Evidence & scope notes
+## 15. Practical Do / Avoid / Modify
 
-- The REVL structure above is **[Observed]** from screenshots captured on 2026-09-09
-  (`source/revl_raw_data.md`); OCR of stylised posters is approximate. **Do not present
-  a specific REVL load, %1RM, rep count, cap or set count as fact** — describe it as
-  "the captured Block 1/2 programming indicates roughly…" and **ask the client what
-  their sessions actually were**.
-- REVL updates its block roughly every 13 weeks; treat block-specific detail as
-  potentially stale and re-confirm.
-- Everything in `references/russian-strength-program.md` about the Russian protocols
-  themselves stands unchanged — this file only governs *dosing them alongside REVL*.
-- Scope is unchanged *(Wk01 Ch1 p7–8)*: screen and refer out for medical clearance,
-  injury/rehab (physical therapist), and detailed nutrition / disordered eating
-  (registered dietitian). REVL membership does not change any of that.
+**DO**
+- Ask which sessions they actually attended and what loads/RIR they actually used.
+- Screen readiness at the start of **every** session (soreness, sleep, energy, last session's
+  performance, life stress).
+- Prefer *different expressions* of a pattern over more of the same.
+- Fill the measured gaps: **carries, anti-rotation, horizontal pulling, easy aerobic,
+  technique at sub-maximal load, mobility, assessment**.
+- Use RPE/RIR to autoregulate against the day rather than a fixed %.
+- Use the **Deload week** for assessment and corrective work.
+- Count PT + REVL together against the FITT-VP ceiling.
+- Write down which REVL sessions the client is skipping or substituting, if any.
+
+**AVOID**
+- Adding a heavy squat or deadlift within 48 h of Monday or Wednesday.
+- Any second near-maximal exposure during Build or Peak.
+- Assuming Saturday/Sunday were easy, or that Sunday "Complete" is recovery.
+- Assuming a phase rests a movement pattern — none of them do.
+- Adding conditioning volume to a client already doing 3 Sweat sessions.
+- Adding high-rep metabolic work during Deload week.
+- Quoting a specific REVL %, load or rep count as fact.
+- Stacking a full Russian protocol on top of REVL.
+
+**MODIFY — in this order** when the client reports soreness, poor sleep, fatigue, reduced
+performance, or a stress spike:
+1. Drop the **intensity** of the added work.
+2. Drop the **volume** (sets first).
+3. Swap to a **lower-demand variant** (unilateral→supported, barbell→DB/KB, loaded→bodyweight).
+4. Change the **session type** entirely — mobility, activation, Zone 1–2, or education.
+5. If markers persist beyond ~1 week: reduce total load, advise scaling REVL too, review
+   sleep/nutrition/stress, and refer to a physician if unresolved *(recovery & overtraining,
+   Wk07 Ch11 p47–48; scope Wk01 Ch1 p7–8)*.
+Record the trigger and the modification in the plan's decision log.
+
+---
+
+## 16. Key principles for the jon-fitness agent
+
+1. **REVL is the client's existing training stimulus. The PT session should intelligently
+   complement that stimulus, address individual needs, and create progression without
+   unnecessary duplication of training stress.**
+2. **Do not add a protocol simply because the client can tolerate more work.** First determine
+   what stimulus REVL has already provided, identify the highest-value training need, then
+   select the **smallest effective additional dose**.
+3. **Ask, don't assume.** The template is a hypothesis; the client's actual week is the data.
+4. **No REVL number is a fact.** Everything here is OCR of stylised posters — indicative only.
+5. **No phase rests a movement pattern.** REVL periodises load, not exercise selection.
+6. **Never stack two strength peaks.** In Build/Peak, replace rather than supplement.
+7. **Scope is unchanged** *(Wk01 Ch1 p7–8)*: screen, refer out for medical clearance, injury /
+   rehab (physical therapist), and detailed nutrition or disordered eating (registered
+   dietitian). REVL membership changes none of that.
+8. **When Russian protocols are considered, open `references/russian-strength-program.md`**
+   and use it *with* this file — never either in isolation.
+
+---
+
+### Provenance
+
+- Raw extraction: `source/extract_revl.py` → `source/revl_raw_data.md` (264 screenshots,
+  Block 1 + Block 2 2026, two OCR engines, disagreements flagged).
+- Analysis + all counts quoted here: `source/analyze_revl.py` →
+  `source/revl_programming_analysis.md`.
+- Percentages describe the **programme as written**, not any individual's week.

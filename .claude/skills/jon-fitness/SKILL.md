@@ -316,14 +316,22 @@ screening, the eligibility check, and the traceability chain.
      weekly totals against the combined FITT-VP ceiling — not in isolation.
   5. If a **Russian protocol** is being considered, cross-reference
      `references/russian-strength-program.md` and apply the REVL decision rules
-     (revl-class-integration.md §4): when it's appropriate alongside REVL, when to
+     (revl-class-integration.md **§10**): when it's appropriate alongside REVL, when to
      reduce its volume / intensity / frequency, when it should **replace** rather than
      supplement a REVL stimulus, and when to prioritise another quality instead.
      Never stack two strength peaks. The Masters variant is usually the only Russian
      option that fits alongside full REVL participation.
   6. Screen readiness at the start of **every** session (soreness / sleep / fatigue /
-     performance / stress) and modify load → volume → exercise → session type in that
-     order.
+     performance / stress) and modify intensity → volume → exercise variant → session
+     type in that order (revl-class-integration.md §15).
+
+  Four facts that change the usual assumptions (all evidenced in
+  `source/revl_programming_analysis.md`): **(a)** no REVL phase rests a movement pattern —
+  the block periodises load, not exercise selection; **(b)** barbell hinge is on ~100% of
+  Mondays and ~51% of all sessions, so no day leaves the lower body unloaded; **(c)** Sunday
+  "Complete" and Saturday "Sweat Team" are high-total-work sessions, **not** recovery;
+  **(d)** the week-7 "Deload" deloads *strength only* — metabolic volume stays high, which
+  makes it the best assessment/technique window and a poor window for extra conditioning.
 
 ### B5 — Write the Markdown, then derive the CSV
 
