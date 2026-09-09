@@ -29,7 +29,9 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 SRC = Path(__file__).resolve().parent
 CACHE = SRC / ".revl_ocr_cache"
-BLOCK_DIRS = {1: REPO / "REVL Block 1 2026", 2: REPO / "REVL Block 2 programming 2026"}
+BLOCK_DIRS = {1: REPO / "REVL Block 1 2026",
+              2: REPO / "REVL Block 2 programming 2026",
+              3: REPO / "REVL Block 3 programming 2026"}
 PHASE_ORDER = ["Volume Wk 1", "Volume Wk 2", "Volume Wk 3",
                "Build Wk 1", "Build Wk 2", "Build Wk 3", "Deload Wk 1",
                "Peak Wk 1", "Peak Wk 2", "Peak Wk 3",
@@ -134,8 +136,10 @@ def main(argv=None) -> int:
     n = len(sessions)
     out = []
     P = out.append
-    P(f"Sessions analysed: {n}  (Block 1: {sum(1 for s in sessions if s['block']==1)}, "
-      f"Block 2: {sum(1 for s in sessions if s['block']==2)})\n")
+    blocks_present = sorted({s["block"] for s in sessions})
+    P("Sessions analysed: %d  (%s)\n" % (
+        n, ", ".join(f"Block {b}: {sum(1 for s in sessions if s['block']==b)}"
+                     for b in blocks_present)))
 
     # --- 1. pattern presence overall
     P("### Movement-pattern presence — share of all sessions\n")
@@ -219,12 +223,12 @@ def main(argv=None) -> int:
 
     # --- 7. weekly session census
     P("### Sessions per phase-week folder\n")
-    P("| Folder | Block 1 | Block 2 |")
-    P("|---|--:|--:|")
+    P("| Folder | " + " | ".join(f"Block {b}" for b in blocks_present) + " |")
+    P("|---" * (len(blocks_present) + 1) + "|")
     for f in PHASE_ORDER:
-        c1 = sum(1 for s in sessions if s["folder"] == f and s["block"] == 1)
-        c2 = sum(1 for s in sessions if s["folder"] == f and s["block"] == 2)
-        P(f"| {f} | {c1} | {c2} |")
+        cells = [str(sum(1 for s in sessions if s["folder"] == f and s["block"] == b))
+                 for b in blocks_present]
+        P(f"| {f} | " + " | ".join(cells) + " |")
     P("")
 
     text = "\n".join(out)

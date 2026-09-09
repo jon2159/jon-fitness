@@ -36736,13 +36736,14203 @@ Goal: Match Ist Round Score
 
 ---
 
+# Block 3  (`REVL Block 3 programming 2026/`)
+
+
+## Block 3 — Volume Wk 1  (programme week 1) [inferred]
+
+- **Phase:** Volume  ·  **Phase-week:** 1  ·  **Overall week:** 1   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Volume Wk 1/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets: I0 x BB Sumo Deadlift'; engines differ near: 'B. In Pairs -YGIG'; engines differ near: 'I4-12-10...'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 10 x BB Sumo Deadlift  [? vision only]
+:40 Plank  [? vision only]
+8.8 x TK SA DB Press  [? vision only]
+8.8 x World's Greatest Stretch  [? vision only]
+4:00 Cap
+I-2 Sets: I0 x BB Sumo Deadlift  [?]
+:40 Plank  [?]
+8.8 xTK SA DB Press  [?]
+8.8 x World's Greatest Stretch  [?]
+sl.  [?]
+E4MOM x 4  [?]
+SI.  [? vision]
+14-12-10-8
+BB Sumo Deadlift @5+ RIR
+*First 2 Reps: Paused Mid-Shin
+Ring Skull Crusher
+KB Pendlay Row
+:40 Rest or :20 Hollow Hold
+E4MOM x 4  [? vision only]
+S2.
+2 x 7:00 AMRAP
+A. 2-3-4...
+Paused Pull Up/Chin Up
+6.6-8.8 x BB Split Squat
+B. In Pairs -YGIG  [?]
+B. In Pairs - YGIG  [? vision]
+100/80m Ski/Row Erg
+I4-12-10...  [?]
+14-12-10...  [? vision]
+DB Push Press
+S3.
+In Pairs - 4:00 Cap
+50/40/30 x BB or DB Thruster
+60/45/30 Cal Ski/Row
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (exercise?) 1-2 Sets: 10 x BB Sumo Deadlift  [? vision only]
+- (prescription?) :40 Plank  [? vision only]
+- (exercise?) 8.8 x TK SA DB Press  [? vision only]
+- (exercise?) 8.8 x World's Greatest Stretch  [? vision only]
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: I0 x BB Sumo Deadlift  [?]
+- (prescription?) :40 Plank  [?]
+- (exercise?) 8.8 xTK SA DB Press  [?]
+- (exercise?) 8.8 x World's Greatest Stretch  [?]
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E4MOM x 4  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 14-12-10-8
+- (exercise? / prescription?) BB Sumo Deadlift @5+ RIR
+- (exercise?) KB Pendlay Row
+- (exercise? / prescription?) :40 Rest or :20 Hollow Hold
+- (SECTION / prescription?) E4MOM x 4  [? vision only]
+- (SECTION) S2.
+- (prescription?) 2 x 7:00 AMRAP
+- (prescription?) A. 2-3-4...
+- (exercise?) Paused Pull Up/Chin Up
+- (exercise?) 6.6-8.8 x BB Split Squat
+- (uncertain) B. In Pairs -YGIG  [?]
+- (uncertain) B. In Pairs - YGIG  [? vision]
+- (exercise?) 100/80m Ski/Row Erg
+- (prescription?) I4-12-10...  [?]
+- (prescription?) 14-12-10...  [? vision]
+- (exercise?) DB Push Press
+- (SECTION) S3.
+- (prescription?) In Pairs - 4:00 Cap
+- (exercise?) 50/40/30 x BB or DB Thruster
+- (exercise?) 60/45/30 Cal Ski/Row
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Sumo Deadlift
+:40 Plank
+8.8 xTK SA DB Press
+8.8 x World's Greatest Stretch
+sl.
+E4MOM x 4
+14-12-10-8
+BB Sumo Deadlift @5+ RIR
+*First 2 Reps: Paused Mid-Shin
+Ring Skull Crusher
+KB Pendlay Row
+:40 Rest or :20 Hollow Hold
+S2.
+2 x 7:00 AMRAP
+A. 2-3-4...
+Paused Pull Up/Chin Up
+6.6-8.8 x BB Split Squat
+B. In Pairs -YGIG
+100/80m Ski/Row Erg
+I4-12-10...
+DB Push Press
+S3.
+In Pairs - 4:00 Cap
+50/40/30 x BB or DB Thruster
+60/45/30 Cal Ski/Row
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 10 x BB Sumo Deadlift
+:40 Plank
+8.8 x TK SA DB Press
+8.8 x World's Greatest Stretch
+4:00 Cap
+SI.
+14-12-10-8
+BB Sumo Deadlift @5+ RIR
+*First 2 Reps: Paused Mid-Shin
+Ring Skull Crusher
+KB Pendlay Row
+:40 Rest or :20 Hollow Hold
+E4MOM x 4
+S2.
+2 x 7:00 AMRAP
+A. 2-3-4...
+Paused Pull Up/Chin Up
+6.6-8.8 x BB Split Squat
+B. In Pairs - YGIG
+100/80m Ski/Row Erg
+14-12-10...
+DB Push Press
+S3.
+In Pairs - 4:00 Cap
+50/40/30 x BB or DB Thruster
+60/45/30 Cal Ski/Row
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Volume Wk 1/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'I-2 Sets: 8-10 x BB Deadlift @40%'; engines differ near: 'sl.'; engines differ near: 'BB Deadlift @45-50-50%'; engines differ near: ':40-I:00 Rest'; engines differ near: '2 Blocks - Every I:l0 x 6'; engines differ near: 'B. 1.12-10-8+'; engines differ near: '*5/3 x Pull Up or I0/6 x Ring Row'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARMUP  [?]
+WARM UP  [? vision]
+4:00 Cap
+I-2 Sets: 8-10 x BB Deadlift @40%  [?]
+1-2 Sets: 8-10 x BB Deadlift @40%  [? vision]
+:30 Hollow Hold
+8.8 x HK SA DB Press
+8.8 x World's Greatest Stretch
+sl.  [?]
+E4MOM x 4  [?]
+SI.  [? vision]
+E4MOM × 4  [? vision]
+12-10-8-8
+BB Deadlift @45-50-50%  [?]
+BB Deadlift (  [? vision]
+@45-50-50%  [? vision]
+*First 3 Reps: Paused Mid-Shin
+DB Seated Shoulder Press
+10-20 x Weighted/BW Hollow Rock
+:40-I:00 Rest  [?]
+:40-1:00 Rest  [? vision]
+S2.
+2 Blocks - Every I:l0 x 6  [?]
+A. I.2-4 x BB Strict + 6 x BB Push Press  [?]
+2 Blocks - Every I:10 x 6  [? vision]
+A. I. 2-4 x BB Strict + 6 x BB Push Press  [? vision]
+2. 6.6-8.8 x Bench Pistol Squat
+B. 1.12-10-8+  [?]
+В. I.12-10-8+  [? vision]
+DBall Glute Bridge Floor Press
+2.6.6 x DB Staggered Stance RDL
+In Pairs - 4:00 AMRAP  [? vision only]
+S3.
+In Pairs - 4:00 AMRAP  [? rapid only]
+Max DBall Squat
+*5/3 x Pull Up or I0/6 x Ring Row  [?]
+*5/3 x Pull Up or 10/6 x Ring Row  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 8-10 x BB Deadlift @40%  [?]
+- (exercise? / prescription?) 1-2 Sets: 8-10 x BB Deadlift @40%  [? vision]
+- (exercise? / prescription?) :30 Hollow Hold
+- (exercise?) 8.8 x HK SA DB Press
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E4MOM x 4  [?]
+- (uncertain) SI.  [? vision]
+- (SECTION / prescription?) E4MOM × 4  [? vision]
+- (prescription?) 12-10-8-8
+- (exercise? / prescription?) BB Deadlift @45-50-50%  [?]
+- (exercise?) BB Deadlift (  [? vision]
+- (prescription?) @45-50-50%  [? vision]
+- (exercise?) DB Seated Shoulder Press
+- (prescription?) :40-I:00 Rest  [?]
+- (prescription?) :40-1:00 Rest  [? vision]
+- (SECTION) S2.
+- (prescription?) 2 Blocks - Every I:l0 x 6  [?]
+- (exercise?) A. I.2-4 x BB Strict + 6 x BB Push Press  [?]
+- (prescription?) 2 Blocks - Every I:10 x 6  [? vision]
+- (exercise?) A. I. 2-4 x BB Strict + 6 x BB Push Press  [? vision]
+- (exercise?) 2. 6.6-8.8 x Bench Pistol Squat
+- (prescription?) B. 1.12-10-8+  [?]
+- (prescription?) В. I.12-10-8+  [? vision]
+- (exercise?) DBall Glute Bridge Floor Press
+- (exercise?) 2.6.6 x DB Staggered Stance RDL
+- (prescription?) In Pairs - 4:00 AMRAP  [? vision only]
+- (SECTION) S3.
+- (prescription?) In Pairs - 4:00 AMRAP  [? rapid only]
+- (exercise?) Max DBall Squat
+- (exercise?) *5/3 x Pull Up or I0/6 x Ring Row  [?]
+- (exercise?) *5/3 x Pull Up or 10/6 x Ring Row  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARMUP
+4:00 Cap
+I-2 Sets: 8-10 x BB Deadlift @40%
+:30 Hollow Hold
+8.8 x HK SA DB Press
+8.8 x World's Greatest Stretch
+sl.
+E4MOM x 4
+12-10-8-8
+BB Deadlift @45-50-50%
+*First 3 Reps: Paused Mid-Shin
+DB Seated Shoulder Press
+10-20 x Weighted/BW Hollow Rock
+:40-I:00 Rest
+S2.
+2 Blocks - Every I:l0 x 6
+A. I.2-4 x BB Strict + 6 x BB Push Press
+2. 6.6-8.8 x Bench Pistol Squat
+B. 1.12-10-8+
+DBall Glute Bridge Floor Press
+2.6.6 x DB Staggered Stance RDL
+S3.
+In Pairs - 4:00 AMRAP
+Max DBall Squat
+*5/3 x Pull Up or I0/6 x Ring Row
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+1-2 Sets: 8-10 x BB Deadlift @40%
+:30 Hollow Hold
+8.8 x HK SA DB Press
+8.8 x World's Greatest Stretch
+SI.
+E4MOM × 4
+12-10-8-8
+BB Deadlift (
+@45-50-50%
+*First 3 Reps: Paused Mid-Shin
+DB Seated Shoulder Press
+10-20 x Weighted/BW Hollow Rock
+:40-1:00 Rest
+S2.
+2 Blocks - Every I:10 x 6
+A. I. 2-4 x BB Strict + 6 x BB Push Press
+2. 6.6-8.8 x Bench Pistol Squat
+В. I.12-10-8+
+DBall Glute Bridge Floor Press
+2.6.6 x DB Staggered Stance RDL
+In Pairs - 4:00 AMRAP
+S3.
+Max DBall Squat
+*5/3 x Pull Up or 10/6 x Ring Row
+```
+</details>
+
+### tuesday sweat sprint
+`REVL Block 3 programming 2026/Volume Wk 1/tuesday sweat sprint.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Sprint** [inferred]
+
+_Reader notes:_ engines differ near: '2 x :20 Bike/Echo Effort @RPE 8-9'; engines differ near: "8.8xWorld's Greatest Stretch"; engines differ near: '*F: 75-110m M: 90-125m'; engines differ near: '*F: 3-9 Cal M: 6-14 Cal'; engines differ near: '2 Rounds - I2:00 Cap @RPE 7'; engines differ near: '400/300/200m Run 0r 25/20/15 Cal Erg/Echo'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 x :20 Bike/Echo Effort @RPE 8-9  [?]
+2x:20 Bike/Echo Effort @RPE 8-9  [? vision]
+6 x Inchworm + Push Up
+2 x :20 Ski/Row Effort @RPE 8-9
+8.8xWorld's Greatest Stretch  [?]
+Sl.  [?]
+8.8 x World's Greatest Stretch  [? vision]
+SI.  [? vision]
+4 Blocks - E2MOM x 3 @RPE 9.5-10
+A.:20 Max Distance Bike Erg
+*F:160-220m M:190-250m
+B.:20 Max Distance Ski Erg
+*F: 75-110m M: 90-125m  [?]
+*F:75-110m M: 90-125m  [? vision]
+C.:20 Max Cal Echo Bike
+*F: 3-9 Cal M: 6-14 Cal  [?]
+D. :20 Max Distance Row Erg  [?]
+*F: 75-110m M: 90-125m  [?]
+*F: 3-9 Cal M: 6-/4 Cal  [? vision]
+D.:20 Max Distance Row Erg  [? vision]
+*F:75-110m M:90-125m  [? vision]
+*:20 Must Be Set In Erg For Each Effort
+S2.
+2 Rounds - I2:00 Cap @RPE 7  [?]
+2 Rounds - 12:00 Cap  [? vision]
+@RPE 7  [? vision]
+30/24/18 x Burpee
+400/300/200m Run 0r 25/20/15 Cal Erg/Echo  [?]
+30/24/18 x AIt DB Hang Clean + Press  [?]
+400/300/200m Run 0r 25/20/15 Cal Erg/Echo  [?]
+400/300/200m Run or 25/20/15 Cal Erg/Echo  [? vision]
+30/24/18 x Alt DB Hang Clean + Press  [? vision]
+400/300/200m Run or 25/20/15 Cal Erg/Echo  [? vision]
+*Run Pace <3:45/5:00/7:00 Per km
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) 2 x :20 Bike/Echo Effort @RPE 8-9  [?]
+- (exercise? / prescription?) 2x:20 Bike/Echo Effort @RPE 8-9  [? vision]
+- (exercise?) 6 x Inchworm + Push Up
+- (exercise? / prescription?) 2 x :20 Ski/Row Effort @RPE 8-9
+- (exercise?) 8.8xWorld's Greatest Stretch  [?]
+- (uncertain) Sl.  [?]
+- (exercise?) 8.8 x World's Greatest Stretch  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4 Blocks - E2MOM x 3 @RPE 9.5-10
+- (exercise? / prescription?) A.:20 Max Distance Bike Erg
+- (exercise? / prescription?) B.:20 Max Distance Ski Erg
+- (uncertain) *F: 75-110m M: 90-125m  [?]
+- (prescription?) *F:75-110m M: 90-125m  [? vision]
+- (exercise? / prescription?) C.:20 Max Cal Echo Bike
+- (uncertain) *F: 3-9 Cal M: 6-14 Cal  [?]
+- (exercise? / prescription?) D. :20 Max Distance Row Erg  [?]
+- (uncertain) *F: 75-110m M: 90-125m  [?]
+- (uncertain) *F: 3-9 Cal M: 6-/4 Cal  [? vision]
+- (exercise? / prescription?) D.:20 Max Distance Row Erg  [? vision]
+- (prescription?) *F:75-110m M:90-125m  [? vision]
+- (exercise? / prescription?) *:20 Must Be Set In Erg For Each Effort
+- (SECTION) S2.
+- (prescription?) 2 Rounds - I2:00 Cap @RPE 7  [?]
+- (prescription?) 2 Rounds - 12:00 Cap  [? vision]
+- (prescription?) @RPE 7  [? vision]
+- (exercise?) 30/24/18 x Burpee
+- (exercise?) 400/300/200m Run 0r 25/20/15 Cal Erg/Echo  [?]
+- (exercise?) 30/24/18 x AIt DB Hang Clean + Press  [?]
+- (exercise?) 400/300/200m Run 0r 25/20/15 Cal Erg/Echo  [?]
+- (exercise?) 400/300/200m Run or 25/20/15 Cal Erg/Echo  [? vision]
+- (exercise?) 30/24/18 x Alt DB Hang Clean + Press  [? vision]
+- (exercise?) 400/300/200m Run or 25/20/15 Cal Erg/Echo  [? vision]
+- (prescription?) *Run Pace <3:45/5:00/7:00 Per km
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 x :20 Bike/Echo Effort @RPE 8-9
+6 x Inchworm + Push Up
+2 x :20 Ski/Row Effort @RPE 8-9
+8.8xWorld's Greatest Stretch
+Sl.
+4 Blocks - E2MOM x 3 @RPE 9.5-10
+A.:20 Max Distance Bike Erg
+*F:160-220m M:190-250m
+B.:20 Max Distance Ski Erg
+*F: 75-110m M: 90-125m
+C.:20 Max Cal Echo Bike
+*F: 3-9 Cal M: 6-14 Cal
+D. :20 Max Distance Row Erg
+*F: 75-110m M: 90-125m
+*:20 Must Be Set In Erg For Each Effort
+S2.
+2 Rounds - I2:00 Cap @RPE 7
+30/24/18 x Burpee
+400/300/200m Run 0r 25/20/15 Cal Erg/Echo
+30/24/18 x AIt DB Hang Clean + Press
+400/300/200m Run 0r 25/20/15 Cal Erg/Echo
+*Run Pace <3:45/5:00/7:00 Per km
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2x:20 Bike/Echo Effort @RPE 8-9
+6 x Inchworm + Push Up
+2 x :20 Ski/Row Effort @RPE 8-9
+8.8 x World's Greatest Stretch
+SI.
+4 Blocks - E2MOM x 3 @RPE 9.5-10
+A.:20 Max Distance Bike Erg
+*F:160-220m M:190-250m
+B.:20 Max Distance Ski Erg
+*F:75-110m M: 90-125m
+C.:20 Max Cal Echo Bike
+*F: 3-9 Cal M: 6-/4 Cal
+D.:20 Max Distance Row Erg
+*F:75-110m M:90-125m
+*:20 Must Be Set In Erg For Each Effort
+S2.
+2 Rounds - 12:00 Cap
+@RPE 7
+30/24/18 x Burpee
+400/300/200m Run or 25/20/15 Cal Erg/Echo
+30/24/18 x Alt DB Hang Clean + Press
+400/300/200m Run or 25/20/15 Cal Erg/Echo
+*Run Pace <3:45/5:00/7:00 Per km
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Volume Wk 1/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets:8 x BB Bench Press'; engines differ near: '8.8 xT-Opener'; engines differ near: 'BB Bench Press'; engines differ near: '2 Blocks - Every I:l0 x 6'; engines differ near: 'B. I. I0.I0 x SA DB Strict Press'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets:8 x BB Bench Press  [?]
+1-2 Sets: 8 x BB Bench Press  [? vision]
+10.10 x SL Glute Bridge
+:30 Plank
+8.8 xT-Opener  [?]
+sl.  [?]
+8.8 x T-Opener  [? vision]
+SI.  [? vision]
+E4MOM x 4
+14-12-10-8
+BB Bench Press  [?]
+@5+ RIR  [?]
+BB Bench Press @5+ RIR  [? vision]
+SA DB FR Split Squat es (No Lockout)
+:30-:40 Rest or Weighted Plank
+6.6 x KB Chainsaw Row
+S2.
+2 Blocks - Every I:l0 x 6  [?]
+A. 1.8-10 x I+1/2 BB Hip Thrust  [?]
+2. 10+10 x V-Up  [?]
+2 Blocks - Every 1:10 x 6  [? vision]
+A. I.8-10 x 1+1/2 BB Hip Thrust  [? vision]
+2.10+10 xV-Up  [? vision]
+*Cluster Set - :20sec Rest Between
+B. I. I0.I0 x SA DB Strict Press  [?]
+2. 15/12/9 Cal Bike/Echo @RPE 8  [?]
+B. I.10.10 x SA DB Strict Press  [? vision]
+2. 15/12/9 Cal Bike/Echo  [? vision]
+@RPE 8  [? vision]
+In Pairs - 4:00 Cap  [? vision]
+S3.
+In Pairs - 4:00 Cap  [? rapid only]
+80 x BB/DB Curl
+80 x KB Reverse Lunge
+*One Person Each Exercise, Working Simultaneously.
+Switch Exercises When One Person Breaks
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets:8 x BB Bench Press  [?]
+- (exercise?) 1-2 Sets: 8 x BB Bench Press  [? vision]
+- (exercise?) 10.10 x SL Glute Bridge
+- (prescription?) :30 Plank
+- (uncertain) 8.8 xT-Opener  [?]
+- (uncertain) sl.  [?]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (SECTION / prescription?) E4MOM x 4
+- (prescription?) 14-12-10-8
+- (exercise?) BB Bench Press  [?]
+- (prescription?) @5+ RIR  [?]
+- (exercise? / prescription?) BB Bench Press @5+ RIR  [? vision]
+- (exercise?) SA DB FR Split Squat es (No Lockout)
+- (exercise? / prescription?) :30-:40 Rest or Weighted Plank
+- (exercise?) 6.6 x KB Chainsaw Row
+- (SECTION) S2.
+- (prescription?) 2 Blocks - Every I:l0 x 6  [?]
+- (exercise?) A. 1.8-10 x I+1/2 BB Hip Thrust  [?]
+- (uncertain) 2. 10+10 x V-Up  [?]
+- (prescription?) 2 Blocks - Every 1:10 x 6  [? vision]
+- (exercise? / prescription?) A. I.8-10 x 1+1/2 BB Hip Thrust  [? vision]
+- (uncertain) 2.10+10 xV-Up  [? vision]
+- (exercise?) B. I. I0.I0 x SA DB Strict Press  [?]
+- (exercise? / prescription?) 2. 15/12/9 Cal Bike/Echo @RPE 8  [?]
+- (exercise?) B. I.10.10 x SA DB Strict Press  [? vision]
+- (exercise?) 2. 15/12/9 Cal Bike/Echo  [? vision]
+- (prescription?) @RPE 8  [? vision]
+- (prescription?) In Pairs - 4:00 Cap  [? vision]
+- (SECTION) S3.
+- (prescription?) In Pairs - 4:00 Cap  [? rapid only]
+- (exercise?) 80 x BB/DB Curl
+- (exercise?) 80 x KB Reverse Lunge
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets:8 x BB Bench Press
+10.10 x SL Glute Bridge
+:30 Plank
+8.8 xT-Opener
+sl.
+E4MOM x 4
+14-12-10-8
+BB Bench Press 
+@5+ RIR
+SA DB FR Split Squat es (No Lockout)
+:30-:40 Rest or Weighted Plank
+6.6 x KB Chainsaw Row
+S2.
+2 Blocks - Every I:l0 x 6
+A. 1.8-10 x I+1/2 BB Hip Thrust
+2. 10+10 x V-Up
+*Cluster Set - :20sec Rest Between
+B. I. I0.I0 x SA DB Strict Press
+2. 15/12/9 Cal Bike/Echo @RPE 8
+S3.
+In Pairs - 4:00 Cap
+80 x BB/DB Curl
+80 x KB Reverse Lunge
+*One Person Each Exercise, Working Simultaneously.
+Switch Exercises When One Person Breaks
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+1-2 Sets: 8 x BB Bench Press
+10.10 x SL Glute Bridge
+:30 Plank
+8.8 x T-Opener
+SI.
+E4MOM x 4
+14-12-10-8
+BB Bench Press @5+ RIR
+SA DB FR Split Squat es (No Lockout)
+:30-:40 Rest or Weighted Plank
+6.6 x KB Chainsaw Row
+S2.
+2 Blocks - Every 1:10 x 6
+A. I.8-10 x 1+1/2 BB Hip Thrust
+2.10+10 xV-Up
+*Cluster Set - :20sec Rest Between
+B. I.10.10 x SA DB Strict Press
+2. 15/12/9 Cal Bike/Echo
+@RPE 8
+In Pairs - 4:00 Cap
+S3.
+80 x BB/DB Curl
+80 x KB Reverse Lunge
+*One Person Each Exercise, Working Simultaneously.
+Switch Exercises When One Person Breaks
+```
+</details>
+
+### wednesday perform lower
+`REVL Block 3 programming 2026/Volume Wk 1/wednesday perform lower.png`  ·  day **Wednesday** [inferred]  ·  session **Perform Lower** [inferred]
+
+_Reader notes:_ engines differ near: '10-I2 x Banded Glute Bridge'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap  [? rapid only]
+I-2 Sets: 8 x BB Back/Front Squat @40%
+8.8 x Dynamic Pigeon Stretch
+8.8 x BW Box Step Up
+10-I2 x Banded Glute Bridge  [?]
+sl.  [?]
+E4MOM x 4  [?]
+10-12 x Banded Glute Bridge  [? vision]
+SI.  [? vision]
+12-10-8-8
+BB Back/Front Squat @45-50-50%
+*First 3 Reps: Paused
+10.10 x KB Side Bend
+6.6-8.8 x DB Box Step Up
+4:00 Cap  [? vision only]
+E4MOM × 4  [? vision only]
+S2.
+Every 3:30 x 4
+8-6-6-4
+BB Power Clean (For Quality)
+*First 2 Reps: Paused Above Knee
+8.8 x DB RFE Split Squat
+3-5 x Box Jump For Height
+S3.
+In Pairs 4:00 Cap
+80/60 x No Lockout BB/KB FR or BR
+Cyclist Squat
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise? / prescription?) I-2 Sets: 8 x BB Back/Front Squat @40%
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (exercise?) 8.8 x BW Box Step Up
+- (exercise?) 10-I2 x Banded Glute Bridge  [?]
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E4MOM x 4  [?]
+- (exercise?) 10-12 x Banded Glute Bridge  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 12-10-8-8
+- (exercise? / prescription?) BB Back/Front Squat @45-50-50%
+- (exercise?) 10.10 x KB Side Bend
+- (exercise?) 6.6-8.8 x DB Box Step Up
+- (prescription?) 4:00 Cap  [? vision only]
+- (SECTION / prescription?) E4MOM × 4  [? vision only]
+- (SECTION) S2.
+- (prescription?) Every 3:30 x 4
+- (prescription?) 8-6-6-4
+- (exercise?) BB Power Clean (For Quality)
+- (exercise?) 8.8 x DB RFE Split Squat
+- (SECTION) S3.
+- (prescription?) In Pairs 4:00 Cap
+- (exercise?) 80/60 x No Lockout BB/KB FR or BR
+- (exercise?) Cyclist Squat
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Back/Front Squat @40%
+8.8 x Dynamic Pigeon Stretch
+8.8 x BW Box Step Up
+10-I2 x Banded Glute Bridge
+sl.
+E4MOM x 4
+12-10-8-8
+BB Back/Front Squat @45-50-50%
+*First 3 Reps: Paused
+10.10 x KB Side Bend
+6.6-8.8 x DB Box Step Up
+S2.
+Every 3:30 x 4
+8-6-6-4
+BB Power Clean (For Quality)
+*First 2 Reps: Paused Above Knee
+8.8 x DB RFE Split Squat
+3-5 x Box Jump For Height
+S3.
+In Pairs 4:00 Cap
+80/60 x No Lockout BB/KB FR or BR
+Cyclist Squat
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM LOWER
+WARM UP
+I-2 Sets: 8 x BB Back/Front Squat @40%
+8.8 x Dynamic Pigeon Stretch
+8.8 x BW Box Step Up
+10-12 x Banded Glute Bridge
+SI.
+12-10-8-8
+BB Back/Front Squat @45-50-50%
+*First 3 Reps: Paused
+10.10 x KB Side Bend
+6.6-8.8 x DB Box Step Up
+4:00 Cap
+E4MOM × 4
+S2.
+Every 3:30 x 4
+8-6-6-4
+BB Power Clean (For Quality)
+*First 2 Reps: Paused Above Knee
+8.8 x DB RFE Split Squat
+3-5 x Box Jump For Height
+S3.
+In Pairs 4:00 Cap
+80/60 x No Lockout BB/KB FR or BR
+Cyclist Squat
+```
+</details>
+
+### thursday sweat engine
+`REVL Block 3 programming 2026/Volume Wk 1/thursday sweat engine.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Engine** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'I:00 Erg Effort @I:50/2:05/2:20 Split Pace'; engines differ near: 'B. 1. 1100m/950m/850m Bike Erg'; engines differ near: '2. 40/30/20 x Alt DBall Reverse Lunge'; engines differ near: 'Average Erg Pacing: I:50/2:05/2:20'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT ENGINE
+WARMUP  [?]
+WARM UP  [? vision]
+1:00 Erg Effort @1:50/2:05/2:20 Split Pace  [? vision]
+8.8 x Paused SA DB Snatch (Paused Overhead)  [? vision]
+10 x Kip Swing + 10 xTTB/TTH/K2C  [? vision]
+16/12 x Goblet Squat Ankle Stretch  [? vision]
+4:00 Cap
+I:00 Erg Effort @I:50/2:05/2:20 Split Pace  [?]
+8.8 x Paused SA DB Snatch (Paused Overhead)  [?]
+10 x Kip Swing + I0 xTTB/TTH/K2C  [?]
+I6/l2 x Goblet Squat Ankle Stretch  [?]
+2 Blocks - E3MOM x 6  [?]
+A. I. 550/450/400m Row or Ski Erg  [?]
+2. 50/40/30 x AIt SA DB Hang Snatch  [?]
+2 Blocks - ЕЗМОМ × 6  [? vision]
+A. I.550/450/400m Row or Ski Erg  [? vision]
+2.50/40/30 x Alt SA DB Hang Snatch  [? vision]
+3.20 x KB Goblet Squat +
+30/20/10 x Air Squat (For Quality)
+B. 1. 1100m/950m/850m Bike Erg  [?]
+B.I.1100m/950m/850m Bike Erg  [? vision]
+Or 35/20/15 Cal Echo Bike
+2. 40/30/20 x Alt DBall Reverse Lunge  [?]
+3. 40/30/20 xTTB/TTH/K2C  [?]
+2.40/30/20 x Alt DBall Reverse Lunge  [? vision]
+3. 40/30/20 x TTB/TTH/K2C  [? vision]
+*Work Capped at 2:00
+Use Opposite Erg on 2nd Round
+Average Erg Pacing: I:50/2:05/2:20  [?]
+Average Erg Pacing: 1:50/2:05/2:20  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 1:00 Erg Effort @1:50/2:05/2:20 Split Pace  [? vision]
+- (exercise?) 8.8 x Paused SA DB Snatch (Paused Overhead)  [? vision]
+- (exercise?) 10 x Kip Swing + 10 xTTB/TTH/K2C  [? vision]
+- (exercise?) 16/12 x Goblet Squat Ankle Stretch  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I:00 Erg Effort @I:50/2:05/2:20 Split Pace  [?]
+- (exercise?) 8.8 x Paused SA DB Snatch (Paused Overhead)  [?]
+- (exercise?) 10 x Kip Swing + I0 xTTB/TTH/K2C  [?]
+- (exercise?) I6/l2 x Goblet Squat Ankle Stretch  [?]
+- (prescription?) 2 Blocks - E3MOM x 6  [?]
+- (exercise?) A. I. 550/450/400m Row or Ski Erg  [?]
+- (exercise?) 2. 50/40/30 x AIt SA DB Hang Snatch  [?]
+- (uncertain) 2 Blocks - ЕЗМОМ × 6  [? vision]
+- (exercise?) A. I.550/450/400m Row or Ski Erg  [? vision]
+- (exercise?) 2.50/40/30 x Alt SA DB Hang Snatch  [? vision]
+- (exercise?) 3.20 x KB Goblet Squat +
+- (exercise?) 30/20/10 x Air Squat (For Quality)
+- (exercise?) B. 1. 1100m/950m/850m Bike Erg  [?]
+- (SECTION / exercise?) B.I.1100m/950m/850m Bike Erg  [? vision]
+- (exercise?) Or 35/20/15 Cal Echo Bike
+- (exercise?) 2. 40/30/20 x Alt DBall Reverse Lunge  [?]
+- (uncertain) 3. 40/30/20 xTTB/TTH/K2C  [?]
+- (exercise?) 2.40/30/20 x Alt DBall Reverse Lunge  [? vision]
+- (uncertain) 3. 40/30/20 x TTB/TTH/K2C  [? vision]
+- (prescription?) *Work Capped at 2:00
+- (exercise?) Use Opposite Erg on 2nd Round
+- (exercise? / prescription?) Average Erg Pacing: I:50/2:05/2:20  [?]
+- (exercise? / prescription?) Average Erg Pacing: 1:50/2:05/2:20  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT ENGINE
+WARMUP
+4:00 Cap
+I:00 Erg Effort @I:50/2:05/2:20 Split Pace
+8.8 x Paused SA DB Snatch (Paused Overhead)
+10 x Kip Swing + I0 xTTB/TTH/K2C
+I6/l2 x Goblet Squat Ankle Stretch
+2 Blocks - E3MOM x 6
+A. I. 550/450/400m Row or Ski Erg
+2. 50/40/30 x AIt SA DB Hang Snatch
+3.20 x KB Goblet Squat +
+30/20/10 x Air Squat (For Quality)
+B. 1. 1100m/950m/850m Bike Erg
+Or 35/20/15 Cal Echo Bike
+2. 40/30/20 x Alt DBall Reverse Lunge
+3. 40/30/20 xTTB/TTH/K2C
+*Work Capped at 2:00
+Use Opposite Erg on 2nd Round
+Average Erg Pacing: I:50/2:05/2:20
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+1:00 Erg Effort @1:50/2:05/2:20 Split Pace
+8.8 x Paused SA DB Snatch (Paused Overhead)
+10 x Kip Swing + 10 xTTB/TTH/K2C
+16/12 x Goblet Squat Ankle Stretch
+4:00 Cap
+2 Blocks - ЕЗМОМ × 6
+A. I.550/450/400m Row or Ski Erg
+2.50/40/30 x Alt SA DB Hang Snatch
+3.20 x KB Goblet Squat +
+30/20/10 x Air Squat (For Quality)
+B.I.1100m/950m/850m Bike Erg
+Or 35/20/15 Cal Echo Bike
+2.40/30/20 x Alt DBall Reverse Lunge
+3. 40/30/20 x TTB/TTH/K2C
+*Work Capped at 2:00
+Use Opposite Erg on 2nd Round
+Average Erg Pacing: 1:50/2:05/2:20
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Volume Wk 1/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets: I0 x BB Back Squat'; engines differ near: '10 x AIt KB/DB Z Press (Light)'; engines differ near: 'sl.'; engines differ near: 'BB Back Squat'; engines differ near: 'B. I0 x DB Plank Row'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Back Squat  [?]
+1-2 Sets: 10 x BB Back Squat  [? vision]
+8.8 x Dynamic Couch Stretch
+10 x AIt KB/DB Z Press (Light)  [?]
+10 x Alt KB/DB Z Press (Light)  [? vision]
+12-16 x Dead Bug
+sl.  [?]
+SI.  [? vision]
+E4MOM x 4
+14-12-10-8
+BB Back Squat  [?]
+@5+ RIR  [?]
+I6 x AIt KB/DB Z Press  [?]
+BB Back Squat @5+ RIR  [? vision]
+16 x Alt KB/DB Z Press  [? vision]
+5.5 x Lateral Box Step Down (2sec Ecc)
+:40 Rest
+S2.
+In Pairs YGIG - 2 x 7:00 AMRAP  [? rapid only]
+A.5-6-7...
+BB Push Jerk/Press
+3 x BB Front Squat
+B. I0 x DB Plank Row  [?]
+I x Dual DB Devils Press  [?]
+*+I Devils Press Each Round  [?]
+In Pairs YGIG - 2 x 7:00 AMRAP  [? vision]
+B. 10 x DB Plank Row  [? vision]
+1 x Dual DB Devils Press  [? vision]
+*+/ Devils Press Each Round  [? vision]
+S3.
+In Pairs - 4:00 Cap  [? rapid only]
+1000/850/750m Bike Erg
+or 50/35/20 Cal Echo Bike
+60/50/40 x Box Jump Over
+In Pairs - 4:00 Cap  [? vision only]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: I0 x BB Back Squat  [?]
+- (exercise?) 1-2 Sets: 10 x BB Back Squat  [? vision]
+- (exercise?) 8.8 x Dynamic Couch Stretch
+- (exercise?) 10 x AIt KB/DB Z Press (Light)  [?]
+- (exercise?) 10 x Alt KB/DB Z Press (Light)  [? vision]
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (SECTION / prescription?) E4MOM x 4
+- (prescription?) 14-12-10-8
+- (exercise?) BB Back Squat  [?]
+- (prescription?) @5+ RIR  [?]
+- (exercise?) I6 x AIt KB/DB Z Press  [?]
+- (exercise? / prescription?) BB Back Squat @5+ RIR  [? vision]
+- (exercise?) 16 x Alt KB/DB Z Press  [? vision]
+- (exercise? / prescription?) 5.5 x Lateral Box Step Down (2sec Ecc)
+- (prescription?) :40 Rest
+- (SECTION) S2.
+- (prescription?) In Pairs YGIG - 2 x 7:00 AMRAP  [? rapid only]
+- (SECTION / prescription?) A.5-6-7...
+- (exercise?) BB Push Jerk/Press
+- (exercise?) 3 x BB Front Squat
+- (exercise?) B. I0 x DB Plank Row  [?]
+- (exercise?) I x Dual DB Devils Press  [?]
+- (exercise?) *+I Devils Press Each Round  [?]
+- (prescription?) In Pairs YGIG - 2 x 7:00 AMRAP  [? vision]
+- (exercise?) B. 10 x DB Plank Row  [? vision]
+- (exercise?) 1 x Dual DB Devils Press  [? vision]
+- (exercise?) *+/ Devils Press Each Round  [? vision]
+- (SECTION) S3.
+- (prescription?) In Pairs - 4:00 Cap  [? rapid only]
+- (exercise?) 1000/850/750m Bike Erg
+- (exercise?) or 50/35/20 Cal Echo Bike
+- (prescription?) In Pairs - 4:00 Cap  [? vision only]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Back Squat
+8.8 x Dynamic Couch Stretch
+10 x AIt KB/DB Z Press (Light)
+12-16 x Dead Bug
+sl.
+E4MOM x 4
+14-12-10-8
+BB Back Squat
+@5+ RIR
+I6 x AIt KB/DB Z Press
+5.5 x Lateral Box Step Down (2sec Ecc)
+:40 Rest
+S2.
+In Pairs YGIG - 2 x 7:00 AMRAP
+A.5-6-7...
+BB Push Jerk/Press
+3 x BB Front Squat
+B. I0 x DB Plank Row
+I x Dual DB Devils Press
+*+I Devils Press Each Round
+S3.
+In Pairs - 4:00 Cap
+1000/850/750m Bike Erg
+or 50/35/20 Cal Echo Bike
+60/50/40 x Box Jump Over
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+1-2 Sets: 10 x BB Back Squat
+8.8 x Dynamic Couch Stretch
+10 x Alt KB/DB Z Press (Light)
+12-16 x Dead Bug
+SI.
+E4MOM x 4
+14-12-10-8
+BB Back Squat @5+ RIR
+16 x Alt KB/DB Z Press
+5.5 x Lateral Box Step Down (2sec Ecc)
+:40 Rest
+S2.
+A.5-6-7...
+BB Push Jerk/Press
+3 x BB Front Squat
+In Pairs YGIG - 2 x 7:00 AMRAP
+B. 10 x DB Plank Row
+1 x Dual DB Devils Press
+*+/ Devils Press Each Round
+S3.
+1000/850/750m Bike Erg
+or 50/35/20 Cal Echo Bike
+60/50/40 x Box Jump Over
+In Pairs - 4:00 Cap
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Volume Wk 1/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: '8.8 xT-Opener'; engines differ near: '2 Blocks - Every I:l0 x 6'; engines differ near: '*Cluster Set - :20 Rest Between'; engines differ near: '*+2/l Rep Each Round'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: I0 x BB Bench Press @40%  [?]
+I-2 Sets: 10 x BB Bench Press @40%  [? vision]
+8 x Banded Scap Chin Up + 4 x Banded Chin Up
+8.8 x Seated DB External Rotation
+8.8 xT-Opener  [?]
+sl.  [?]
+8.8 x T-Opener  [? vision]
+SI.  [? vision]
+12-10-8-8  [? vision]
+BB Bench Press  [? vision]
+@45-50-50%  [? vision]
+*First 3 Reps: 2 Sec Pause  [? vision]
+10-12 x KB Wide Pendlay Row  [? vision]
+6.6 x SA DB OH Sit Up  [? vision]
+4:00 Cap  [? vision]
+E4MOM x 4
+12-10-8-8  [? rapid only]
+BB Bench Press @45-50-50%  [? rapid only]
+*First 3 Reps: 2 Sec Pause  [? rapid only]
+10-I2 x KB Wide Pendlay Row  [? rapid only]
+6.6 x SA DB OH Sit Up  [? rapid only]
+S2.
+2 Blocks - Every I:l0 x 6  [?]
+2 Blocks - Every I:10 x 6  [? vision]
+A. I.6+2 x BB Strict Press
+2.6+2 x Paused Chin Up
+*Cluster Set - :20 Rest Between  [?]
+B. 1. I2+ x DB Incline Prone Row  [?]
+2. I2+ xTK KB/Plate French Press  [?]
+*Cluster Set - 20 Rest Between  [? vision]
+B. I.12+ x DB Incline Prone Row  [? vision]
+2.12+ x TK KB/Plate French Press  [? vision]
+S3.
+Every :30 x 8  [? rapid only]
+1. 8 x BB/DB Bicep Curl
+2. 8 x Bar Dip or 12 x Bench Dip
+*+2/l Rep Each Round  [?]
+*+2/1 Rep Each Round  [? vision]
+Every:30 x 8  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I-2 Sets: I0 x BB Bench Press @40%  [?]
+- (exercise? / prescription?) I-2 Sets: 10 x BB Bench Press @40%  [? vision]
+- (exercise?) 8 x Banded Scap Chin Up + 4 x Banded Chin Up
+- (exercise?) 8.8 x Seated DB External Rotation
+- (uncertain) 8.8 xT-Opener  [?]
+- (uncertain) sl.  [?]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 12-10-8-8  [? vision]
+- (exercise?) BB Bench Press  [? vision]
+- (prescription?) @45-50-50%  [? vision]
+- (uncertain) *First 3 Reps: 2 Sec Pause  [? vision]
+- (exercise?) 10-12 x KB Wide Pendlay Row  [? vision]
+- (exercise?) 6.6 x SA DB OH Sit Up  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (SECTION / prescription?) E4MOM x 4
+- (prescription?) 12-10-8-8  [? rapid only]
+- (exercise? / prescription?) BB Bench Press @45-50-50%  [? rapid only]
+- (uncertain) *First 3 Reps: 2 Sec Pause  [? rapid only]
+- (exercise?) 10-I2 x KB Wide Pendlay Row  [? rapid only]
+- (exercise?) 6.6 x SA DB OH Sit Up  [? rapid only]
+- (SECTION) S2.
+- (prescription?) 2 Blocks - Every I:l0 x 6  [?]
+- (prescription?) 2 Blocks - Every I:10 x 6  [? vision]
+- (exercise?) A. I.6+2 x BB Strict Press
+- (exercise?) 2.6+2 x Paused Chin Up
+- (prescription?) *Cluster Set - :20 Rest Between  [?]
+- (exercise?) B. 1. I2+ x DB Incline Prone Row  [?]
+- (exercise?) 2. I2+ xTK KB/Plate French Press  [?]
+- (uncertain) *Cluster Set - 20 Rest Between  [? vision]
+- (exercise?) B. I.12+ x DB Incline Prone Row  [? vision]
+- (exercise?) 2.12+ x TK KB/Plate French Press  [? vision]
+- (SECTION) S3.
+- (prescription?) Every :30 x 8  [? rapid only]
+- (exercise?) 1. 8 x BB/DB Bicep Curl
+- (exercise?) 2. 8 x Bar Dip or 12 x Bench Dip
+- (uncertain) *+2/l Rep Each Round  [?]
+- (uncertain) *+2/1 Rep Each Round  [? vision]
+- (prescription?) Every:30 x 8  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Bench Press @40%
+8 x Banded Scap Chin Up + 4 x Banded Chin Up
+8.8 x Seated DB External Rotation
+8.8 xT-Opener
+sl.
+E4MOM x 4
+12-10-8-8
+BB Bench Press @45-50-50%
+*First 3 Reps: 2 Sec Pause
+10-I2 x KB Wide Pendlay Row
+6.6 x SA DB OH Sit Up
+S2.
+2 Blocks - Every I:l0 x 6
+A. I.6+2 x BB Strict Press
+2.6+2 x Paused Chin Up
+*Cluster Set - :20 Rest Between
+B. 1. I2+ x DB Incline Prone Row
+2. I2+ xTK KB/Plate French Press
+S3.
+Every :30 x 8
+1. 8 x BB/DB Bicep Curl
+2. 8 x Bar Dip or 12 x Bench Dip
+*+2/l Rep Each Round
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+I-2 Sets: 10 x BB Bench Press @40%
+8 x Banded Scap Chin Up + 4 x Banded Chin Up
+8.8 x Seated DB External Rotation
+8.8 x T-Opener
+SI.
+12-10-8-8
+BB Bench Press
+@45-50-50%
+*First 3 Reps: 2 Sec Pause
+10-12 x KB Wide Pendlay Row
+6.6 x SA DB OH Sit Up
+4:00 Cap
+E4MOM x 4
+S2.
+2 Blocks - Every I:10 x 6
+A. I.6+2 x BB Strict Press
+2.6+2 x Paused Chin Up
+*Cluster Set - 20 Rest Between
+B. I.12+ x DB Incline Prone Row
+2.12+ x TK KB/Plate French Press
+S3.
+1. 8 x BB/DB Bicep Curl
+2. 8 x Bar Dip or 12 x Bench Dip
+*+2/1 Rep Each Round
+Every:30 x 8
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Volume Wk 1/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATTEAM'; engines differ near: 'I2-I6 xAlt BW Cossack Squat'; engines differ near: 'E3MOM (inc 0:00): 2 People'; engines differ near: 'E3MOM (inc 0:00): 2 People'; engines differ near: '*Average Erg Pacing: >1500/1200/800 cal/hr'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATTEAM  [?]
+WARMUP  [?]
+SWEAT TEAM  [? vision]
+WARM UP  [? vision]
+4:00 Cap
+1-2 Sets: :40 Row/Ski/Bike Effort or 200m Run
+12 x Burpee
+I2-I6 xAlt BW Cossack Squat  [?]
+I2 x Dual DB Snatch  [?]
+Teams of 4 - 3 x I5:00 Cap  [?]
+1. 350/270/200 Cal Bike Erg  [?]
+E3MOM (inc 0:00): 2 People  [?]
+40/30 x BB Deadlift (l:I)  [?]
+20/l6 x Burpee Over Bar (l:l)  [?]
+12-16 x Alt BW Cossack Squat  [? vision]
+12 x Dual DB Snatch  [? vision]
+Teams of 4 - 3 x 15:00 Cap  [? vision]
+1.350/270/200 Cal Bike Erg  [? vision]
+ЕЗМОМ (inc 0:00): 2 People  [? vision]
+40/30 x BB Deadlift (1:1)  [? vision]
+20/16 x Burpee Over Bar (1:I)  [? vision]
+2.350/270/200 Cal Ski Erg
+E3MOM (inc 0:00): 2 People  [?]
+30/24 x DB FR Squat (l:I)  [?]
+ЕЗМОМ (inc 0:00): 2 People  [? vision]
+30/24 x DB FR Squat (I:I)  [? vision]
+24/20 x Dual DB Snatch (I:I)
+3.350/270/200 Cal Row Erg
+E3MOM (inc 0:00): 2 People  [?]
+400/300m Team Run 0r 60/50 x  [?]
+ЕЗМОM (inc 0:00): 2 People  [? vision]
+400/300m Team Run or 60/50 x  [? vision]
+Synchro Reverse Lunge
+*Average Erg Pacing: >1500/1200/800 cal/hr  [?]
+*Average Erg Pacing: >|500/1200/800 cal/hr  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATTEAM  [?]
+- (SECTION) WARMUP  [?]
+- (uncertain) SWEAT TEAM  [? vision]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) 1-2 Sets: :40 Row/Ski/Bike Effort or 200m Run
+- (exercise?) 12 x Burpee
+- (exercise?) I2-I6 xAlt BW Cossack Squat  [?]
+- (exercise?) I2 x Dual DB Snatch  [?]
+- (prescription?) Teams of 4 - 3 x I5:00 Cap  [?]
+- (exercise?) 1. 350/270/200 Cal Bike Erg  [?]
+- (SECTION / prescription?) E3MOM (inc 0:00): 2 People  [?]
+- (exercise?) 40/30 x BB Deadlift (l:I)  [?]
+- (exercise?) 20/l6 x Burpee Over Bar (l:l)  [?]
+- (exercise?) 12-16 x Alt BW Cossack Squat  [? vision]
+- (exercise?) 12 x Dual DB Snatch  [? vision]
+- (prescription?) Teams of 4 - 3 x 15:00 Cap  [? vision]
+- (exercise?) 1.350/270/200 Cal Bike Erg  [? vision]
+- (prescription?) ЕЗМОМ (inc 0:00): 2 People  [? vision]
+- (exercise?) 40/30 x BB Deadlift (1:1)  [? vision]
+- (exercise?) 20/16 x Burpee Over Bar (1:I)  [? vision]
+- (exercise?) 2.350/270/200 Cal Ski Erg
+- (SECTION / prescription?) E3MOM (inc 0:00): 2 People  [?]
+- (exercise?) 30/24 x DB FR Squat (l:I)  [?]
+- (prescription?) ЕЗМОМ (inc 0:00): 2 People  [? vision]
+- (exercise?) 30/24 x DB FR Squat (I:I)  [? vision]
+- (exercise?) 24/20 x Dual DB Snatch (I:I)
+- (exercise?) 3.350/270/200 Cal Row Erg
+- (SECTION / prescription?) E3MOM (inc 0:00): 2 People  [?]
+- (exercise?) 400/300m Team Run 0r 60/50 x  [?]
+- (prescription?) ЕЗМОM (inc 0:00): 2 People  [? vision]
+- (exercise?) 400/300m Team Run or 60/50 x  [? vision]
+- (exercise?) Synchro Reverse Lunge
+- (exercise?) *Average Erg Pacing: >1500/1200/800 cal/hr  [?]
+- (exercise?) *Average Erg Pacing: >|500/1200/800 cal/hr  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATTEAM
+WARMUP
+4:00 Cap
+1-2 Sets: :40 Row/Ski/Bike Effort or 200m Run
+12 x Burpee
+I2-I6 xAlt BW Cossack Squat
+I2 x Dual DB Snatch
+Teams of 4 - 3 x I5:00 Cap
+1. 350/270/200 Cal Bike Erg
+E3MOM (inc 0:00): 2 People
+40/30 x BB Deadlift (l:I)
+20/l6 x Burpee Over Bar (l:l)
+2.350/270/200 Cal Ski Erg
+E3MOM (inc 0:00): 2 People
+30/24 x DB FR Squat (l:I)
+24/20 x Dual DB Snatch (I:I)
+3.350/270/200 Cal Row Erg
+E3MOM (inc 0:00): 2 People
+400/300m Team Run 0r 60/50 x
+Synchro Reverse Lunge
+*Average Erg Pacing: >1500/1200/800 cal/hr
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+1-2 Sets: :40 Row/Ski/Bike Effort or 200m Run
+12 x Burpee
+12-16 x Alt BW Cossack Squat
+12 x Dual DB Snatch
+Teams of 4 - 3 x 15:00 Cap
+1.350/270/200 Cal Bike Erg
+ЕЗМОМ (inc 0:00): 2 People
+40/30 x BB Deadlift (1:1)
+20/16 x Burpee Over Bar (1:I)
+2.350/270/200 Cal Ski Erg
+ЕЗМОМ (inc 0:00): 2 People
+30/24 x DB FR Squat (I:I)
+24/20 x Dual DB Snatch (I:I)
+3.350/270/200 Cal Row Erg
+ЕЗМОM (inc 0:00): 2 People
+400/300m Team Run or 60/50 x
+Synchro Reverse Lunge
+*Average Erg Pacing: >|500/1200/800 cal/hr
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Volume Wk 1/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: '1.YGIG'; engines differ near: '2. I20/90/60 Cal Ski Erg'; engines differ near: '4. 100/75/50 Cal Echo Bike'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARM UP
+4:00 Cap  [? rapid only]
+10-12 x BB Front Squat or Alt BB Rev Lunge
+10-12 x Kip Swing or BB Incline Bench Press
+:30-:40 Ski or Echo Bike Effort
+8.8 x Weighted Hip Opener
+In Pairs - E5MOM x 8
+1.YGIG  [?]
+4:00 Cap  [? vision]
+L.YGIG  [? vision]
+20-16-12-8
+BB Incline Bench Press
+Or
+20-16-12
+TTB/TTH/K2C
+2. I20/90/60 Cal Ski Erg  [?]
+2. 120/90/60 Cal Ski Erg  [? vision]
+Or 1000/800/600m Pair Run
+3.YGIG
+20-16-12
+BB Front Squat
+Or
+24-20-16
+Alt BB Reverse Lunge
+4. 100/75/50 Cal Echo Bike  [?]
+4.100/75/50 Cal Echo Bike  [? vision]
+Or 1000/800/600m Run
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise?) 10-12 x BB Front Squat or Alt BB Rev Lunge
+- (exercise?) 10-12 x Kip Swing or BB Incline Bench Press
+- (exercise? / prescription?) :30-:40 Ski or Echo Bike Effort
+- (prescription?) In Pairs - E5MOM x 8
+- (uncertain) 1.YGIG  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) L.YGIG  [? vision]
+- (prescription?) 20-16-12-8
+- (exercise?) BB Incline Bench Press
+- (prescription?) 20-16-12
+- (exercise?) 2. I20/90/60 Cal Ski Erg  [?]
+- (exercise?) 2. 120/90/60 Cal Ski Erg  [? vision]
+- (exercise?) Or 1000/800/600m Pair Run
+- (prescription?) 20-16-12
+- (exercise?) BB Front Squat
+- (prescription?) 24-20-16
+- (exercise?) Alt BB Reverse Lunge
+- (exercise?) 4. 100/75/50 Cal Echo Bike  [?]
+- (exercise?) 4.100/75/50 Cal Echo Bike  [? vision]
+- (exercise?) Or 1000/800/600m Run
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+10-12 x BB Front Squat or Alt BB Rev Lunge
+10-12 x Kip Swing or BB Incline Bench Press
+:30-:40 Ski or Echo Bike Effort
+8.8 x Weighted Hip Opener
+In Pairs - E5MOM x 8
+1.YGIG
+20-16-12-8
+BB Incline Bench Press
+Or
+20-16-12
+TTB/TTH/K2C
+2. I20/90/60 Cal Ski Erg
+Or 1000/800/600m Pair Run
+3.YGIG
+20-16-12
+BB Front Squat
+Or
+24-20-16
+Alt BB Reverse Lunge
+4. 100/75/50 Cal Echo Bike
+Or 1000/800/600m Run
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+10-12 x BB Front Squat or Alt BB Rev Lunge
+10-12 x Kip Swing or BB Incline Bench Press
+:30-:40 Ski or Echo Bike Effort
+8.8 x Weighted Hip Opener
+In Pairs - E5MOM x 8
+4:00 Cap
+L.YGIG
+20-16-12-8
+BB Incline Bench Press
+Or
+20-16-12
+TTB/TTH/K2C
+2. 120/90/60 Cal Ski Erg
+Or 1000/800/600m Pair Run
+3.YGIG
+20-16-12
+BB Front Squat
+Or
+24-20-16
+Alt BB Reverse Lunge
+4.100/75/50 Cal Echo Bike
+Or 1000/800/600m Run
+```
+</details>
+
+
+## Block 3 — Volume Wk 2  (programme week 2) [inferred]
+
+- **Phase:** Volume  ·  **Phase-week:** 2  ·  **Overall week:** 2   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Volume Wk 2/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'Optional: 8.8 x KB Side Bend'; engines differ near: '8-I2 x WTD Sit Up'; engines differ near: '2 Blocks - Every I:40 x 4'; engines differ near: 'B. 8 x AIt TK DB Press'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: I0 x BB Deadlift  [?]
+1-2 Sets: 10 x BB Deadlift  [? vision]
+8.8 x SA DB Bench Press (Light)
+12-16 x Banded Glute Bridge
+12-16 x 90/90 Hip Rotations
+sl.  [?]
+E2MOM x 8  [?]
+SI.  [? vision]
+1. 12-10-10-8
+BB Deadlift
+@3+ RIR
+*First 3 Reps: Deadstop (Reset)
+Optional: 8.8 x KB Side Bend  [?]
+Optional: 8.8 × KB Side Bend  [? vision]
+4:00 Cap  [? vision]
+E2MOM × 8  [? vision]
+2. 6.6-8.8 x SA DB Bench Press
+8-I2 x WTD Sit Up  [?]
+8-12 x WTD Sit Up  [? vision]
+S2.
+2 Blocks - Every I:40 x 4  [?]
+2 Blocks - Every 1:40 x 4  [? vision]
+A. 8 x Alt BB Rev Lunge
+8 x KB Bent Over Row
+B. 8 x AIt TK DB Press  [?]
+B. 8 x Alt TK DB Press  [? vision]
+8 x DB Goblet Squat
+*+2 Reps Each Round or Maintain
+S3.
+30/20 x Alt DB Hang Snatch  [? vision only]
+200/150m Run or 15/10 x Burpee  [? vision only]
+4:00 Cap - 2 Rounds
+30/20 x AIt DB Hang Snatch  [? rapid only]
+200/150m Run or I5/10 x Burpee  [? rapid only]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets: I0 x BB Deadlift  [?]
+- (exercise?) 1-2 Sets: 10 x BB Deadlift  [? vision]
+- (exercise?) 8.8 x SA DB Bench Press (Light)
+- (exercise?) 12-16 x Banded Glute Bridge
+- (prescription?) 12-16 x 90/90 Hip Rotations
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E2MOM x 8  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 1. 12-10-10-8
+- (exercise?) BB Deadlift
+- (prescription?) @3+ RIR
+- (prescription?) *First 3 Reps: Deadstop (Reset)
+- (exercise?) Optional: 8.8 x KB Side Bend  [?]
+- (exercise?) Optional: 8.8 × KB Side Bend  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (SECTION / prescription?) E2MOM × 8  [? vision]
+- (exercise?) 2. 6.6-8.8 x SA DB Bench Press
+- (uncertain) 8-I2 x WTD Sit Up  [?]
+- (uncertain) 8-12 x WTD Sit Up  [? vision]
+- (SECTION) S2.
+- (prescription?) 2 Blocks - Every I:40 x 4  [?]
+- (prescription?) 2 Blocks - Every 1:40 x 4  [? vision]
+- (exercise?) A. 8 x Alt BB Rev Lunge
+- (exercise?) 8 x KB Bent Over Row
+- (exercise?) B. 8 x AIt TK DB Press  [?]
+- (exercise?) B. 8 x Alt TK DB Press  [? vision]
+- (exercise?) 8 x DB Goblet Squat
+- (SECTION) S3.
+- (exercise?) 30/20 x Alt DB Hang Snatch  [? vision only]
+- (exercise?) 200/150m Run or 15/10 x Burpee  [? vision only]
+- (prescription?) 4:00 Cap - 2 Rounds
+- (exercise?) 30/20 x AIt DB Hang Snatch  [? rapid only]
+- (exercise?) 200/150m Run or I5/10 x Burpee  [? rapid only]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Deadlift
+8.8 x SA DB Bench Press (Light)
+12-16 x Banded Glute Bridge
+12-16 x 90/90 Hip Rotations
+sl.
+E2MOM x 8
+1. 12-10-10-8
+BB Deadlift
+@3+ RIR
+*First 3 Reps: Deadstop (Reset)
+Optional: 8.8 x KB Side Bend
+2. 6.6-8.8 x SA DB Bench Press
+8-I2 x WTD Sit Up
+S2.
+2 Blocks - Every I:40 x 4
+A. 8 x Alt BB Rev Lunge
+8 x KB Bent Over Row
+B. 8 x AIt TK DB Press
+8 x DB Goblet Squat
+*+2 Reps Each Round or Maintain
+S3.
+4:00 Cap - 2 Rounds
+30/20 x AIt DB Hang Snatch
+200/150m Run or I5/10 x Burpee
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 10 x BB Deadlift
+8.8 x SA DB Bench Press (Light)
+12-16 x Banded Glute Bridge
+12-16 x 90/90 Hip Rotations
+SI.
+1. 12-10-10-8
+BB Deadlift
+@3+ RIR
+*First 3 Reps: Deadstop (Reset)
+Optional: 8.8 × KB Side Bend
+4:00 Cap
+E2MOM × 8
+2. 6.6-8.8 x SA DB Bench Press
+8-12 x WTD Sit Up
+S2.
+2 Blocks - Every 1:40 x 4
+A. 8 x Alt BB Rev Lunge
+8 x KB Bent Over Row
+B. 8 x Alt TK DB Press
+8 x DB Goblet Squat
+*+2 Reps Each Round or Maintain
+S3.
+30/20 x Alt DB Hang Snatch
+200/150m Run or 15/10 x Burpee
+4:00 Cap - 2 Rounds
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Volume Wk 2/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'sl.'; engines differ near: '1. 3+5 x BB TNG Deadlift @50-60%'; engines differ near: 'B. 14-12-10-8'; engines differ near: '*:30-:40 Rest or Hollow Hold'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARMUP  [?]
+4:00 Cap  [?]
+I-2 Sets: I0 x BB TNG Deadlift @40-50%  [?]
+WARM UP  [? vision]
+1-2 Sets: 10 x BB TNG Deadlift @40-50%  [? vision]
+10 x Scap Pull Up (2s Pause)
+6.6 x BW Split Squat
+8.8 x World's Greatest Stretch
+sl.  [?]
+4:00 Cap  [? vision]
+SI.  [? vision]
+1.3+5 x BB TNG Deadlift @50-60%  [? vision]
+*First 3 Reps: 3 Sec Ecc  [? vision]
+:40-1:00 Rest  [? vision]
+E2MOM x 8
+1. 3+5 x BB TNG Deadlift @50-60%  [?]
+*First 3 Reps: 3 Sec Ecc  [?]
+:40-I:00 Rest  [?]
+2. 6.6-8.8 x DBall Supp SA DB Press  [?]
+2.6.6-8.8 x DBall Supp SA DB Press  [? vision]
+10+ xTTB/K2C or V-Up
+2 x 7:00 Blocks - 3+ Rounds  [? vision only]
+S2.
+2 x 7:00 Blocks - 3+ Rounds  [? rapid only]
+A. 10-8-6-4+
+BB Strict Press
+6-8 x Paused DBall Squat
+B. 14-12-10-8  [?]
+В. 14-12-10-8  [? vision]
+Alt FFE KB Rev Lunge
+Alt DB Plank Row
+S3.
+4:00 Cap  [? rapid only]
+Build To A Heavy:
+3.3 x SA DB/KB Thruster
+*:30-:40 Rest or Hollow Hold  [?]
+*.30-:40 Rest or Hollow Hold  [? vision]
+4:00 Cap  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I-2 Sets: I0 x BB TNG Deadlift @40-50%  [?]
+- (SECTION) WARM UP  [? vision]
+- (exercise? / prescription?) 1-2 Sets: 10 x BB TNG Deadlift @40-50%  [? vision]
+- (exercise?) 10 x Scap Pull Up (2s Pause)
+- (exercise?) 6.6 x BW Split Squat
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) SI.  [? vision]
+- (exercise? / prescription?) 1.3+5 x BB TNG Deadlift @50-60%  [? vision]
+- (prescription?) *First 3 Reps: 3 Sec Ecc  [? vision]
+- (prescription?) :40-1:00 Rest  [? vision]
+- (SECTION / prescription?) E2MOM x 8
+- (exercise? / prescription?) 1. 3+5 x BB TNG Deadlift @50-60%  [?]
+- (prescription?) *First 3 Reps: 3 Sec Ecc  [?]
+- (prescription?) :40-I:00 Rest  [?]
+- (exercise?) 2. 6.6-8.8 x DBall Supp SA DB Press  [?]
+- (exercise?) 2.6.6-8.8 x DBall Supp SA DB Press  [? vision]
+- (prescription?) 2 x 7:00 Blocks - 3+ Rounds  [? vision only]
+- (SECTION) S2.
+- (prescription?) 2 x 7:00 Blocks - 3+ Rounds  [? rapid only]
+- (prescription?) A. 10-8-6-4+
+- (exercise?) BB Strict Press
+- (exercise?) 6-8 x Paused DBall Squat
+- (prescription?) B. 14-12-10-8  [?]
+- (prescription?) В. 14-12-10-8  [? vision]
+- (exercise?) Alt FFE KB Rev Lunge
+- (exercise?) Alt DB Plank Row
+- (SECTION) S3.
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise?) 3.3 x SA DB/KB Thruster
+- (exercise? / prescription?) *:30-:40 Rest or Hollow Hold  [?]
+- (exercise? / prescription?) *.30-:40 Rest or Hollow Hold  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARMUP
+4:00 Cap
+I-2 Sets: I0 x BB TNG Deadlift @40-50%
+10 x Scap Pull Up (2s Pause)
+6.6 x BW Split Squat
+8.8 x World's Greatest Stretch
+sl.
+E2MOM x 8
+1. 3+5 x BB TNG Deadlift @50-60%
+*First 3 Reps: 3 Sec Ecc
+:40-I:00 Rest
+2. 6.6-8.8 x DBall Supp SA DB Press
+10+ xTTB/K2C or V-Up
+S2.
+2 x 7:00 Blocks - 3+ Rounds
+A. 10-8-6-4+
+BB Strict Press
+6-8 x Paused DBall Squat
+B. 14-12-10-8
+Alt FFE KB Rev Lunge
+Alt DB Plank Row
+S3.
+4:00 Cap
+Build To A Heavy:
+3.3 x SA DB/KB Thruster
+*:30-:40 Rest or Hollow Hold
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+1-2 Sets: 10 x BB TNG Deadlift @40-50%
+10 x Scap Pull Up (2s Pause)
+6.6 x BW Split Squat
+8.8 x World's Greatest Stretch
+4:00 Cap
+SI.
+1.3+5 x BB TNG Deadlift @50-60%
+*First 3 Reps: 3 Sec Ecc
+:40-1:00 Rest
+E2MOM x 8
+2.6.6-8.8 x DBall Supp SA DB Press
+10+ xTTB/K2C or V-Up
+2 x 7:00 Blocks - 3+ Rounds
+S2.
+A. 10-8-6-4+
+BB Strict Press
+6-8 x Paused DBall Squat
+В. 14-12-10-8
+Alt FFE KB Rev Lunge
+Alt DB Plank Row
+S3.
+Build To A Heavy:
+3.3 x SA DB/KB Thruster
+*.30-:40 Rest or Hollow Hold
+4:00 Cap
+```
+</details>
+
+### tuesday sweat engine
+`REVL Block 3 programming 2026/Volume Wk 2/tuesday sweat engine.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Engine** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'I2-15 x Dual DB Snatch (Light)'; engines differ near: '1. I100/950/800m Ski/Row Erg'; engines differ near: '2200/1900/l600m Bike Erg'; engines differ near: '12/l0/8 x Dual DB Hang Snatch'; engines differ near: '*Avg Split Pace: I:50/2:05/2:20'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap  [?]
+I:00 Erg Effort @RPE 6-7  [?]
+1:00 Erg Effort @RPE 6-7  [? vision]
+12-15 x Kip Swing
+6 x Inchworm + Push Up
+I2-15 x Dual DB Snatch (Light)  [?]
+12-15 x Dual DB Snatch (Light)  [? vision]
+E6MOM x 6
+1. I100/950/800m Ski/Row Erg  [?]
+4:00 Cap  [? vision]
+I.1100/950/800m Ski/Row Erg  [? vision]
+or
+2200/1900/l600m Bike Erg  [?]
+2200/1900/1600m Bike Erg  [? vision]
+2.2 Rounds
+20/16/12 x Wall Ball
+12/l0/8 x Dual DB Hang Snatch  [?]
+12/10/8 x Dual DB Hang Snatch  [? vision]
+20/16/12 x DB Walking/Rev Lunge
+3.3 Rounds
+12/10/8 xTTB/K2C
+12/10/8 x Burpee
+*Goal = Finish in 4:00-4:30 Max.
+*Avg Split Pace: I:50/2:05/2:20  [?]
+1/2197 =  / 8/0111 =  : **  [?]
+*Avg Split Pace: 1:50/2:05/2:20  [? vision]
+**DB Weight: F = 15/10/8kg | M = 22.5/17.5/12.5  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I:00 Erg Effort @RPE 6-7  [?]
+- (prescription?) 1:00 Erg Effort @RPE 6-7  [? vision]
+- (exercise?) 12-15 x Kip Swing
+- (exercise?) 6 x Inchworm + Push Up
+- (exercise?) I2-15 x Dual DB Snatch (Light)  [?]
+- (exercise?) 12-15 x Dual DB Snatch (Light)  [? vision]
+- (SECTION / prescription?) E6MOM x 6
+- (exercise?) 1. I100/950/800m Ski/Row Erg  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (exercise?) I.1100/950/800m Ski/Row Erg  [? vision]
+- (exercise?) 2200/1900/l600m Bike Erg  [?]
+- (exercise?) 2200/1900/1600m Bike Erg  [? vision]
+- (exercise?) 20/16/12 x Wall Ball
+- (exercise?) 12/l0/8 x Dual DB Hang Snatch  [?]
+- (exercise?) 12/10/8 x Dual DB Hang Snatch  [? vision]
+- (exercise?) 20/16/12 x DB Walking/Rev Lunge
+- (exercise?) 12/10/8 x Burpee
+- (prescription?) *Goal = Finish in 4:00-4:30 Max.
+- (prescription?) *Avg Split Pace: I:50/2:05/2:20  [?]
+- (uncertain) 1/2197 =  / 8/0111 =  : **  [?]
+- (prescription?) *Avg Split Pace: 1:50/2:05/2:20  [? vision]
+- (uncertain) **DB Weight: F = 15/10/8kg | M = 22.5/17.5/12.5  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap
+I:00 Erg Effort @RPE 6-7
+12-15 x Kip Swing
+6 x Inchworm + Push Up
+I2-15 x Dual DB Snatch (Light)
+E6MOM x 6
+1. I100/950/800m Ski/Row Erg
+or
+2200/1900/l600m Bike Erg
+2.2 Rounds
+20/16/12 x Wall Ball
+12/l0/8 x Dual DB Hang Snatch
+20/16/12 x DB Walking/Rev Lunge
+3.3 Rounds
+12/10/8 xTTB/K2C
+12/10/8 x Burpee
+*Goal = Finish in 4:00-4:30 Max.
+*Avg Split Pace: I:50/2:05/2:20
+1/2197 =  / 8/0111 =  : **
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+1:00 Erg Effort @RPE 6-7
+12-15 x Kip Swing
+6 x Inchworm + Push Up
+12-15 x Dual DB Snatch (Light)
+E6MOM x 6
+4:00 Cap
+I.1100/950/800m Ski/Row Erg
+or
+2200/1900/1600m Bike Erg
+2.2 Rounds
+20/16/12 x Wall Ball
+12/10/8 x Dual DB Hang Snatch
+20/16/12 x DB Walking/Rev Lunge
+3.3 Rounds
+12/10/8 xTTB/K2C
+12/10/8 x Burpee
+*Goal = Finish in 4:00-4:30 Max.
+*Avg Split Pace: 1:50/2:05/2:20
+**DB Weight: F = 15/10/8kg | M = 22.5/17.5/12.5
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Volume Wk 2/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'MOVETOTAL'; engines differ near: 'I-2 Sets: I0 x BB Bench Press'; engines differ near: 'I2 x Alt DB Bent Over Row (Standing)'; engines differ near: 'sl.'; engines differ near: 'BB Incline Bench Press'; engines differ near: 'I2 x AIt DB Plank Row'; engines differ near: 'I6-20 x Plate Russian Twist'; engines differ near: 'or 8-I0 x BB Power Clean'; engines differ near: 'Every :40 x 6'; engines differ near: 'Or :20 Max Cal Row/Ski Erg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVETOTAL  [?]
+WARMUP  [?]
+MOVE TOTAL  [? vision]
+WARM UP  [? vision]
+4:00 Cap
+I-2 Sets: I0 x BB Bench Press  [?]
+1-2 Sets: 10 x BB Bench Press  [? vision]
+6.6 x SA KB Staggered Stance RDL
+I2 x Alt DB Bent Over Row (Standing)  [?]
+12 x Alt DB Bent Over Row (Standing)  [? vision]
+:20-:30 Hollow Hold
+sl.  [?]
+SI.  [? vision]
+E2MOM x 8
+1. 12-10-10-8
+BB Incline Bench Press  [?]
+s @3+ RIR  [?]
+BB Incline Bench Press @3+ RIR  [? vision]
+First 3 Reps: 2 Sec Pause
+I2 x AIt DB Plank Row  [?]
+12 x Alt DB Plank Row  [? vision]
+2. 6.6-8.8 x KB Staggered Stance RDL
+I6-20 x Plate Russian Twist  [?]
+16-20 x Plate Russian Twist  [? vision]
+S2.
+2 Blocks of Every 2:20 x 3
+A. 10-12 x BB Hip Thrust
+or 8-I0 x BB Power Clean  [?]
+150/l25/l00m Ski/Row Erg For Time  [?]
+B.6-8 x Pull Up For Quality  [?]
+I2-16 xAlt Single DB BR Reverse Lunge  [?]
+or 8-10 x BB Power Clean  [? vision]
+150/125/100m Ski/Row Erg For Time  [? vision]
+B. 6-8 x Pull Up For Quality  [? vision]
+12-16 x Alt Single DB BR Reverse Lunge  [? vision]
+S3.
+Every :40 x 6  [?]
+Every :40x 6  [? vision]
+1. 16/12 x DB/BB Bicep Curl
+Or :20 Max Cal Row/Ski Erg  [?]
+Or:20 Max Cal Row/Ski Erg  [? vision]
+2. 16/12 x Bench Dip
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) MOVETOTAL  [?]
+- (SECTION) WARMUP  [?]
+- (uncertain) MOVE TOTAL  [? vision]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: I0 x BB Bench Press  [?]
+- (exercise?) 1-2 Sets: 10 x BB Bench Press  [? vision]
+- (exercise?) 6.6 x SA KB Staggered Stance RDL
+- (exercise?) I2 x Alt DB Bent Over Row (Standing)  [?]
+- (exercise?) 12 x Alt DB Bent Over Row (Standing)  [? vision]
+- (exercise? / prescription?) :20-:30 Hollow Hold
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (SECTION / prescription?) E2MOM x 8
+- (prescription?) 1. 12-10-10-8
+- (exercise?) BB Incline Bench Press  [?]
+- (prescription?) s @3+ RIR  [?]
+- (exercise? / prescription?) BB Incline Bench Press @3+ RIR  [? vision]
+- (exercise?) I2 x AIt DB Plank Row  [?]
+- (exercise?) 12 x Alt DB Plank Row  [? vision]
+- (exercise?) 2. 6.6-8.8 x KB Staggered Stance RDL
+- (uncertain) I6-20 x Plate Russian Twist  [?]
+- (uncertain) 16-20 x Plate Russian Twist  [? vision]
+- (SECTION) S2.
+- (prescription?) 2 Blocks of Every 2:20 x 3
+- (exercise?) A. 10-12 x BB Hip Thrust
+- (exercise?) or 8-I0 x BB Power Clean  [?]
+- (exercise?) 150/l25/l00m Ski/Row Erg For Time  [?]
+- (SECTION / exercise?) B.6-8 x Pull Up For Quality  [?]
+- (exercise?) I2-16 xAlt Single DB BR Reverse Lunge  [?]
+- (exercise?) or 8-10 x BB Power Clean  [? vision]
+- (exercise?) 150/125/100m Ski/Row Erg For Time  [? vision]
+- (exercise?) B. 6-8 x Pull Up For Quality  [? vision]
+- (exercise?) 12-16 x Alt Single DB BR Reverse Lunge  [? vision]
+- (SECTION) S3.
+- (prescription?) Every :40 x 6  [?]
+- (prescription?) Every :40x 6  [? vision]
+- (exercise?) 1. 16/12 x DB/BB Bicep Curl
+- (exercise? / prescription?) Or :20 Max Cal Row/Ski Erg  [?]
+- (exercise? / prescription?) Or:20 Max Cal Row/Ski Erg  [? vision]
+- (exercise?) 2. 16/12 x Bench Dip
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVETOTAL
+WARMUP
+4:00 Cap
+I-2 Sets: I0 x BB Bench Press
+6.6 x SA KB Staggered Stance RDL
+I2 x Alt DB Bent Over Row (Standing)
+:20-:30 Hollow Hold
+sl.
+E2MOM x 8
+1. 12-10-10-8
+BB Incline Bench Press
+s @3+ RIR
+First 3 Reps: 2 Sec Pause
+I2 x AIt DB Plank Row
+2. 6.6-8.8 x KB Staggered Stance RDL
+I6-20 x Plate Russian Twist
+S2.
+2 Blocks of Every 2:20 x 3
+A. 10-12 x BB Hip Thrust
+or 8-I0 x BB Power Clean
+150/l25/l00m Ski/Row Erg For Time
+B.6-8 x Pull Up For Quality
+I2-16 xAlt Single DB BR Reverse Lunge
+S3.
+Every :40 x 6
+1. 16/12 x DB/BB Bicep Curl
+Or :20 Max Cal Row/Ski Erg
+2. 16/12 x Bench Dip
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+1-2 Sets: 10 x BB Bench Press
+6.6 x SA KB Staggered Stance RDL
+12 x Alt DB Bent Over Row (Standing)
+:20-:30 Hollow Hold
+SI.
+E2MOM x 8
+1. 12-10-10-8
+BB Incline Bench Press @3+ RIR
+First 3 Reps: 2 Sec Pause
+12 x Alt DB Plank Row
+2. 6.6-8.8 x KB Staggered Stance RDL
+16-20 x Plate Russian Twist
+S2.
+2 Blocks of Every 2:20 x 3
+A. 10-12 x BB Hip Thrust
+or 8-10 x BB Power Clean
+150/125/100m Ski/Row Erg For Time
+B. 6-8 x Pull Up For Quality
+12-16 x Alt Single DB BR Reverse Lunge
+S3.
+Every :40x 6
+1. 16/12 x DB/BB Bicep Curl
+Or:20 Max Cal Row/Ski Erg
+2. 16/12 x Bench Dip
+```
+</details>
+
+### thursday sweat sprint
+`REVL Block 3 programming 2026/Volume Wk 2/thursday sweat sprint.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Sprint** [inferred]
+
+_Reader notes:_ engines differ near: 'I6/12 x Dual DB Hang Clean + Press (Light)'; engines differ near: 'A. Ski/Row Erg Cal F = 9/7/5 M = I2/9/6'; engines differ near: 'D.AIt DB Snatch x I0 or'; engines differ near: 'Round I Work Capped at :20'; engines differ near: '1. 600/500/400m Ski/Row Erg'; engines differ near: '15.15-I0.10 x Synchro SA DB Push Press'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+3 Sets - :20 Erg Effort @RPE 7-8-9
+12 x Plank to Pike
+12/10 x Burpee
+I6/12 x Dual DB Hang Clean + Press (Light)  [?]
+Sl.  [?]
+16/12 x Dual DB Hang Clean + Press (Light)  [? vision]
+SI.  [? vision]
+4 Blocks of E2MOM x 3 @RPE 8-9
+A. Ski/Row Erg Cal F = 9/7/5 M = I2/9/6  [?]
+A. Ski/Row Erg Cal F = 9/7/5 M = 12/9/6  [? vision]
+B. Burpee Bar Touch x 8/6/4
+C. Bike Erg/Echo Bike Cal F = 9/7/5 M = 12/9/6
+D.AIt DB Snatch x I0 or  [?]
+D.Alt DB Snatch x 10 or  [? vision]
+Box Jump Over x 10/8/6
+*+4/3/2 Reps/Cals Every Round
+Round I Work Capped at :20  [?]
+Round / Work Capped at:20  [? vision]
+Round 2 Work Capped at :30
+Round 3 Work Capped at :40
+S2.
+In Pairs - Every 2:30 x 4
+1. 600/500/400m Ski/Row Erg  [?]
+or I200/1000/800m Bike Erg  [?]
+I. 600/500/400m Ski/Row Erg  [? vision]
+or 1200/1000/800m Bike Erg  [? vision]
+2. 300/200m Pair Run
+15.15-I0.10 x Synchro SA DB Push Press  [?]
+15.15-10.10 x Synchro SA DB Push Press  [? vision]
+*Run Alternative: 40/30 x Synchro Air Squat
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) 3 Sets - :20 Erg Effort @RPE 7-8-9
+- (exercise?) 12 x Plank to Pike
+- (exercise?) 12/10 x Burpee
+- (exercise?) I6/12 x Dual DB Hang Clean + Press (Light)  [?]
+- (uncertain) Sl.  [?]
+- (exercise?) 16/12 x Dual DB Hang Clean + Press (Light)  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4 Blocks of E2MOM x 3 @RPE 8-9
+- (exercise?) A. Ski/Row Erg Cal F = 9/7/5 M = I2/9/6  [?]
+- (exercise?) A. Ski/Row Erg Cal F = 9/7/5 M = 12/9/6  [? vision]
+- (exercise? / prescription?) B. Burpee Bar Touch x 8/6/4
+- (exercise?) C. Bike Erg/Echo Bike Cal F = 9/7/5 M = 12/9/6
+- (exercise?) D.AIt DB Snatch x I0 or  [?]
+- (exercise? / prescription?) D.Alt DB Snatch x 10 or  [? vision]
+- (prescription?) Box Jump Over x 10/8/6
+- (prescription?) Round I Work Capped at :20  [?]
+- (prescription?) Round / Work Capped at:20  [? vision]
+- (prescription?) Round 2 Work Capped at :30
+- (prescription?) Round 3 Work Capped at :40
+- (SECTION) S2.
+- (prescription?) In Pairs - Every 2:30 x 4
+- (exercise?) 1. 600/500/400m Ski/Row Erg  [?]
+- (exercise?) or I200/1000/800m Bike Erg  [?]
+- (exercise?) I. 600/500/400m Ski/Row Erg  [? vision]
+- (exercise?) or 1200/1000/800m Bike Erg  [? vision]
+- (exercise?) 2. 300/200m Pair Run
+- (exercise?) 15.15-I0.10 x Synchro SA DB Push Press  [?]
+- (exercise?) 15.15-10.10 x Synchro SA DB Push Press  [? vision]
+- (exercise?) *Run Alternative: 40/30 x Synchro Air Squat
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+3 Sets - :20 Erg Effort @RPE 7-8-9
+12 x Plank to Pike
+12/10 x Burpee
+I6/12 x Dual DB Hang Clean + Press (Light)
+Sl.
+4 Blocks of E2MOM x 3 @RPE 8-9
+A. Ski/Row Erg Cal F = 9/7/5 M = I2/9/6
+B. Burpee Bar Touch x 8/6/4
+C. Bike Erg/Echo Bike Cal F = 9/7/5 M = 12/9/6
+D.AIt DB Snatch x I0 or
+Box Jump Over x 10/8/6
+*+4/3/2 Reps/Cals Every Round
+Round I Work Capped at :20
+Round 2 Work Capped at :30
+Round 3 Work Capped at :40
+S2.
+In Pairs - Every 2:30 x 4
+1. 600/500/400m Ski/Row Erg
+or I200/1000/800m Bike Erg
+2. 300/200m Pair Run
+15.15-I0.10 x Synchro SA DB Push Press
+*Run Alternative: 40/30 x Synchro Air Squat
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+3 Sets - :20 Erg Effort @RPE 7-8-9
+12 x Plank to Pike
+12/10 x Burpee
+16/12 x Dual DB Hang Clean + Press (Light)
+SI.
+4 Blocks of E2MOM x 3 @RPE 8-9
+A. Ski/Row Erg Cal F = 9/7/5 M = 12/9/6
+B. Burpee Bar Touch x 8/6/4
+C. Bike Erg/Echo Bike Cal F = 9/7/5 M = 12/9/6
+D.Alt DB Snatch x 10 or
+Box Jump Over x 10/8/6
+*+4/3/2 Reps/Cals Every Round
+Round / Work Capped at:20
+Round 2 Work Capped at :30
+Round 3 Work Capped at :40
+S2.
+In Pairs - Every 2:30 x 4
+I. 600/500/400m Ski/Row Erg
+or 1200/1000/800m Bike Erg
+2. 300/200m Pair Run
+15.15-10.10 x Synchro SA DB Push Press
+*Run Alternative: 40/30 x Synchro Air Squat
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Volume Wk 2/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'I2 x Plank To Pike'; engines differ near: '2. I2 x DB Floor Press'; engines differ near: '2 Blocks of Every I:l0 x 6'; engines differ near: '2. 20/l5 x Atomic Sit Up'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: I0 x BB Back/Front Squat  [?]
+1-2 Sets: 10 x BB Back/Front Squat  [? vision]
+8.8 x Dynamic Pigeon Stretch
+12 x Deadbug
+I2 x Plank To Pike  [?]
+sl.  [?]
+E2MOM x 8  [?]
+1. 12-10-10-8  [?]
+BB Back/Front Squat  [?]
+@3+ RIR  [?]
+12 x Plank To Pike  [? vision]
+SI.  [? vision]
+1.12-10-10-8  [? vision]
+BB Back/Front Squat @3+ RIR  [? vision]
+*First 3 Reps: 2 Sec Pause
+KB Side Bend (e/s) Or Rest
+2. I2 x DB Floor Press  [?]
+4:00 Cap  [? vision]
+E2MOM x 8  [? vision]
+2.12 x DB Floor Press  [? vision]
+6.6-8.8 x DBall Forward Lunge
+2 Blocks of Every 1:10 x 6  [? vision only]
+S2.
+2 Blocks of Every I:l0 x 6  [?]
+A. 1. 12-10-8  [?]
+A.I.12-10-8  [? vision]
+BB Push Jerk (Building Weight)
+2. 20/l5 x Atomic Sit Up  [?]
+B. 1. 15/12/9 Cal Bike Erg/Echo Bike AFAP  [?]
+2. 15/12 x DB Deadlift  [?]
+2.20/15 x Atomic Sit Up  [? vision]
+B. I. 15/12/9 Cal Bike Erg/Echo Bike AFAP  [? vision]
+2.15/12 x DB Deadlift  [? vision]
+S3.
+In Pairs - 4:00 Cap
+40 x BB/DB Thruster
+500/400/300m Run or
+60/50/40 x Synchro BW Rev Lunge
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets: I0 x BB Back/Front Squat  [?]
+- (exercise?) 1-2 Sets: 10 x BB Back/Front Squat  [? vision]
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (exercise?) 12 x Deadbug
+- (exercise?) I2 x Plank To Pike  [?]
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E2MOM x 8  [?]
+- (prescription?) 1. 12-10-10-8  [?]
+- (exercise?) BB Back/Front Squat  [?]
+- (prescription?) @3+ RIR  [?]
+- (exercise?) 12 x Plank To Pike  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 1.12-10-10-8  [? vision]
+- (exercise? / prescription?) BB Back/Front Squat @3+ RIR  [? vision]
+- (exercise?) 2. I2 x DB Floor Press  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (SECTION / prescription?) E2MOM x 8  [? vision]
+- (exercise?) 2.12 x DB Floor Press  [? vision]
+- (exercise?) 6.6-8.8 x DBall Forward Lunge
+- (prescription?) 2 Blocks of Every 1:10 x 6  [? vision only]
+- (SECTION) S2.
+- (prescription?) 2 Blocks of Every I:l0 x 6  [?]
+- (prescription?) A. 1. 12-10-8  [?]
+- (SECTION / prescription?) A.I.12-10-8  [? vision]
+- (exercise?) BB Push Jerk (Building Weight)
+- (uncertain) 2. 20/l5 x Atomic Sit Up  [?]
+- (exercise? / prescription?) B. 1. 15/12/9 Cal Bike Erg/Echo Bike AFAP  [?]
+- (exercise?) 2. 15/12 x DB Deadlift  [?]
+- (uncertain) 2.20/15 x Atomic Sit Up  [? vision]
+- (exercise? / prescription?) B. I. 15/12/9 Cal Bike Erg/Echo Bike AFAP  [? vision]
+- (exercise?) 2.15/12 x DB Deadlift  [? vision]
+- (SECTION) S3.
+- (prescription?) In Pairs - 4:00 Cap
+- (exercise?) 40 x BB/DB Thruster
+- (exercise?) 500/400/300m Run or
+- (exercise?) 60/50/40 x Synchro BW Rev Lunge
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Back/Front Squat
+8.8 x Dynamic Pigeon Stretch
+12 x Deadbug
+I2 x Plank To Pike
+sl.
+E2MOM x 8
+1. 12-10-10-8
+BB Back/Front Squat
+@3+ RIR
+*First 3 Reps: 2 Sec Pause
+KB Side Bend (e/s) Or Rest
+2. I2 x DB Floor Press
+6.6-8.8 x DBall Forward Lunge
+S2.
+2 Blocks of Every I:l0 x 6
+A. 1. 12-10-8
+BB Push Jerk (Building Weight)
+2. 20/l5 x Atomic Sit Up
+B. 1. 15/12/9 Cal Bike Erg/Echo Bike AFAP
+2. 15/12 x DB Deadlift
+S3.
+In Pairs - 4:00 Cap
+40 x BB/DB Thruster
+500/400/300m Run or
+60/50/40 x Synchro BW Rev Lunge
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 10 x BB Back/Front Squat
+8.8 x Dynamic Pigeon Stretch
+12 x Deadbug
+12 x Plank To Pike
+SI.
+1.12-10-10-8
+BB Back/Front Squat @3+ RIR
+*First 3 Reps: 2 Sec Pause
+KB Side Bend (e/s) Or Rest
+4:00 Cap
+E2MOM x 8
+2.12 x DB Floor Press
+6.6-8.8 x DBall Forward Lunge
+2 Blocks of Every 1:10 x 6
+S2.
+A.I.12-10-8
+BB Push Jerk (Building Weight)
+2.20/15 x Atomic Sit Up
+B. I. 15/12/9 Cal Bike Erg/Echo Bike AFAP
+2.15/12 x DB Deadlift
+S3.
+In Pairs - 4:00 Cap
+40 x BB/DB Thruster
+500/400/300m Run or
+60/50/40 x Synchro BW Rev Lunge
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Volume Wk 2/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: '8.8 xTOpener'; engines differ near: 'I.3+5 x BB Bench Press'; engines differ near: 'Every I:l0 x 12'; engines differ near: '*+I Rep Each Round or Maintain'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: I0 x BB Bench Press @40-50%  [?]
+1-2 Sets: 10 x BB Bench Press @40-50%  [? vision]
+10 x Wide Grip Scap Pull Up
+8.8 x Seated DB/Plate External Rotation
+8.8 xTOpener  [?]
+sl.  [?]
+8.8 x T-Opener  [? vision]
+SI.  [? vision]
+1.3+5 x BB Bench Press @50-60%  [? vision]
+*First 3 Reps: 3 Sec Ecc  [? vision]
+16 x Alt KB Gorilla Row  [? vision]
+4:00 Cap  [? vision]
+E2MOM x 8
+I.3+5 x BB Bench Press  [?]
+@50-60%  [?]
+*First 3 Reps: 3 Sec Ecc  [?]
+I6 x Alt KB Gorilla Row  [?]
+2. 10-I2 x DB Hammer Curl  [?]
+2.10-12 x DB Hammer Curl  [? vision]
+:30-:40 Plank
+S2.
+Every I:l0 x 12  [?]
+I.8-I0 x BB UH Bent Over Row  [?]
+2. 8-I0 x DB Incline Bench Press  [?]
+Every 1:10 x 12  [? vision]
+1.8-10 x BB UH Bent Over Row  [? vision]
+2.8-10 x DB Incline Bench Press  [? vision]
+3.8+ x Banded Wide Grip Pull Up
+(No Lockout)
+4. Max Ab Mat Butterfly Sit Up
+S3.
+4:00 AMRAP
+8 x Ring Skull Crusher/Bar Dip
+8 x BB/DB No Lockout Curl
+*+I Rep Each Round or Maintain  [?]
+*+1 Rep Each Round or Maintain  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I-2 Sets: I0 x BB Bench Press @40-50%  [?]
+- (exercise? / prescription?) 1-2 Sets: 10 x BB Bench Press @40-50%  [? vision]
+- (exercise?) 10 x Wide Grip Scap Pull Up
+- (exercise?) 8.8 x Seated DB/Plate External Rotation
+- (uncertain) 8.8 xTOpener  [?]
+- (uncertain) sl.  [?]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (exercise? / prescription?) 1.3+5 x BB Bench Press @50-60%  [? vision]
+- (prescription?) *First 3 Reps: 3 Sec Ecc  [? vision]
+- (exercise?) 16 x Alt KB Gorilla Row  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (SECTION / prescription?) E2MOM x 8
+- (exercise?) I.3+5 x BB Bench Press  [?]
+- (prescription?) @50-60%  [?]
+- (prescription?) *First 3 Reps: 3 Sec Ecc  [?]
+- (exercise?) I6 x Alt KB Gorilla Row  [?]
+- (exercise?) 2. 10-I2 x DB Hammer Curl  [?]
+- (exercise?) 2.10-12 x DB Hammer Curl  [? vision]
+- (prescription?) :30-:40 Plank
+- (SECTION) S2.
+- (prescription?) Every I:l0 x 12  [?]
+- (exercise?) I.8-I0 x BB UH Bent Over Row  [?]
+- (exercise?) 2. 8-I0 x DB Incline Bench Press  [?]
+- (prescription?) Every 1:10 x 12  [? vision]
+- (exercise?) 1.8-10 x BB UH Bent Over Row  [? vision]
+- (exercise?) 2.8-10 x DB Incline Bench Press  [? vision]
+- (exercise?) 3.8+ x Banded Wide Grip Pull Up
+- (exercise?) 4. Max Ab Mat Butterfly Sit Up
+- (SECTION) S3.
+- (prescription?) 4:00 AMRAP
+- (exercise?) 8 x Ring Skull Crusher/Bar Dip
+- (exercise?) 8 x BB/DB No Lockout Curl
+- (uncertain) *+I Rep Each Round or Maintain  [?]
+- (uncertain) *+1 Rep Each Round or Maintain  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Bench Press @40-50%
+10 x Wide Grip Scap Pull Up
+8.8 x Seated DB/Plate External Rotation
+8.8 xTOpener
+sl.
+E2MOM x 8
+I.3+5 x BB Bench Press 
+@50-60%
+*First 3 Reps: 3 Sec Ecc
+I6 x Alt KB Gorilla Row
+2. 10-I2 x DB Hammer Curl
+:30-:40 Plank
+S2.
+Every I:l0 x 12
+I.8-I0 x BB UH Bent Over Row
+2. 8-I0 x DB Incline Bench Press
+3.8+ x Banded Wide Grip Pull Up
+(No Lockout)
+4. Max Ab Mat Butterfly Sit Up
+S3.
+4:00 AMRAP
+8 x Ring Skull Crusher/Bar Dip
+8 x BB/DB No Lockout Curl
+*+I Rep Each Round or Maintain
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+1-2 Sets: 10 x BB Bench Press @40-50%
+10 x Wide Grip Scap Pull Up
+8.8 x Seated DB/Plate External Rotation
+8.8 x T-Opener
+SI.
+1.3+5 x BB Bench Press @50-60%
+*First 3 Reps: 3 Sec Ecc
+16 x Alt KB Gorilla Row
+4:00 Cap
+E2MOM x 8
+2.10-12 x DB Hammer Curl
+:30-:40 Plank
+S2.
+Every 1:10 x 12
+1.8-10 x BB UH Bent Over Row
+2.8-10 x DB Incline Bench Press
+3.8+ x Banded Wide Grip Pull Up
+(No Lockout)
+4. Max Ab Mat Butterfly Sit Up
+S3.
+4:00 AMRAP
+8 x Ring Skull Crusher/Bar Dip
+8 x BB/DB No Lockout Curl
+*+1 Rep Each Round or Maintain
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Volume Wk 2/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATTEAM'; engines differ near: '12000/l 1000/10000m Ski/Row Erg'; engines differ near: '12 x AIt DB Hang Snatch'; engines differ near: 'E3MOM (Including 0:0o) IP:'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATTEAM  [?]
+SWEAT TEAM  [? vision]
+WARM UP
+1:00 Erg/Echo Effort or 200m Run  [? vision only]
+12 x Burpee  [? vision only]
+12-16 x Alt BW Cossack Squat  [? vision only]
+12-16 x Alt DB Snatch (Light)  [? vision only]
+Teams of 4/5 - 45:00 Cap  [? vision only]
+4:00 Cap
+I:00 Erg/Echo Effort or 200m Run  [? rapid only]
+12 x Burpee  [? rapid only]
+I2-I6 x AIt BW Cossack Squat  [? rapid only]
+I2-I6 x AIt DB Snatch (Light)  [? rapid only]
+Teams of 4/5 - 45:00 Cap  [? rapid only]
+25000/23000/21000m Bike Erg or
+500/350/250 Cal Echo Bike
+12000/l 1000/10000m Ski/Row Erg  [?]
+I2000/11000/10000m Ski/Row Erg  [? vision]
+*After Effort: Complete I of the following
+Ski/Row Erg:
+20 x Push Up
+20 x Air Squat
+Bike Erg/Echo Bike:
+12 x AIt DB Hang Snatch  [?]
+12 x Alt DB Hang Snatch  [? vision]
+12 x DBall Squat
+E3MOM (Including 0:0o) IP:  [?]
+ЕЗМОМ (Including 0:00) IP:  [? vision]
+300m Run or 24 x Wall Ball
+*:30-:40 Erg Efforts
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATTEAM  [?]
+- (uncertain) SWEAT TEAM  [? vision]
+- (SECTION) WARM UP
+- (exercise? / prescription?) 1:00 Erg/Echo Effort or 200m Run  [? vision only]
+- (exercise?) 12 x Burpee  [? vision only]
+- (exercise?) 12-16 x Alt BW Cossack Squat  [? vision only]
+- (exercise?) 12-16 x Alt DB Snatch (Light)  [? vision only]
+- (prescription?) Teams of 4/5 - 45:00 Cap  [? vision only]
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I:00 Erg/Echo Effort or 200m Run  [? rapid only]
+- (exercise?) 12 x Burpee  [? rapid only]
+- (exercise?) I2-I6 x AIt BW Cossack Squat  [? rapid only]
+- (exercise?) I2-I6 x AIt DB Snatch (Light)  [? rapid only]
+- (prescription?) Teams of 4/5 - 45:00 Cap  [? rapid only]
+- (exercise?) 25000/23000/21000m Bike Erg or
+- (exercise?) 500/350/250 Cal Echo Bike
+- (exercise?) 12000/l 1000/10000m Ski/Row Erg  [?]
+- (exercise?) I2000/11000/10000m Ski/Row Erg  [? vision]
+- (exercise?) Ski/Row Erg:
+- (exercise?) 20 x Push Up
+- (exercise?) 20 x Air Squat
+- (exercise?) Bike Erg/Echo Bike:
+- (exercise?) 12 x AIt DB Hang Snatch  [?]
+- (exercise?) 12 x Alt DB Hang Snatch  [? vision]
+- (exercise?) 12 x DBall Squat
+- (SECTION / prescription?) E3MOM (Including 0:0o) IP:  [?]
+- (prescription?) ЕЗМОМ (Including 0:00) IP:  [? vision]
+- (exercise?) 300m Run or 24 x Wall Ball
+- (prescription?) *:30-:40 Erg Efforts
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATTEAM
+WARM UP
+4:00 Cap
+I:00 Erg/Echo Effort or 200m Run
+12 x Burpee
+I2-I6 x AIt BW Cossack Squat
+I2-I6 x AIt DB Snatch (Light)
+Teams of 4/5 - 45:00 Cap
+25000/23000/21000m Bike Erg or
+500/350/250 Cal Echo Bike
+12000/l 1000/10000m Ski/Row Erg
+*After Effort: Complete I of the following
+Ski/Row Erg:
+20 x Push Up
+20 x Air Squat
+Bike Erg/Echo Bike:
+12 x AIt DB Hang Snatch
+12 x DBall Squat
+E3MOM (Including 0:0o) IP:
+300m Run or 24 x Wall Ball
+*:30-:40 Erg Efforts
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+1:00 Erg/Echo Effort or 200m Run
+12 x Burpee
+12-16 x Alt BW Cossack Squat
+12-16 x Alt DB Snatch (Light)
+Teams of 4/5 - 45:00 Cap
+4:00 Cap
+25000/23000/21000m Bike Erg or
+500/350/250 Cal Echo Bike
+I2000/11000/10000m Ski/Row Erg
+*After Effort: Complete I of the following
+Ski/Row Erg:
+20 x Push Up
+20 x Air Squat
+Bike Erg/Echo Bike:
+12 x Alt DB Hang Snatch
+12 x DBall Squat
+ЕЗМОМ (Including 0:00) IP:
+300m Run or 24 x Wall Ball
+*:30-:40 Erg Efforts
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Volume Wk 2/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'I0-I2 x BB Front Squat or Push Press'; engines differ near: 'In Pairs - 2 Blocks of E3MOM x 6'; engines differ near: 'B. 1.60/40 x BB Front Squat or'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARMUP  [?]
+WARM UP  [? vision]
+4:00 Cap
+I0-I2 x BB Front Squat or Push Press  [?]
+10-I2 x DB RDL  [?]
+I:00 Ski/Bike Erg Effort  [?]
+10-12 x BB Front Squat or Push Press  [? vision]
+10-12 x DB RDL  [? vision]
+1:00 Ski/Bike Erg Effort  [? vision]
+8.8 x World's Greatest Stretch
+In Pairs - 2 Blocks of E3MOM x 6  [?]
+A. 1.60/40 x BB Bench Press or  [?]
+BB Hip Thrust (l0 Rep Efforts)  [?]
+2. 500/400/300m Team Run or  [?]
+600/500/400m Ski Erg I:I  [?]
+In Pairs - 2 Blocks of ЕЗМОМ x 6  [? vision]
+A. I. 60/40 x BB Bench Press or  [? vision]
+BB Hip Thrust (10 Rep Efforts)  [? vision]
+2.500/400/300m Team Run or  [? vision]
+600/500/400m Ski Erg I:1  [? vision]
+*2:00 Between Blocks
+B. 1.60/40 x BB Front Squat or  [?]
+BB Alt Rev Lunge (l0 Rep Efforts)  [?]
+2. 500/400/300m Team Run or  [?]
+1200/1000/800m Bike Erg I:I  [?]
+B. I.60/40 x BB Front Squat or  [? vision]
+BB Alt Rev Lunge (10 Rep Efforts)  [? vision]
+2.500/400/300m Team Run or  [? vision]
+1200/1000/800m Bike Erg 1:l  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise?) I0-I2 x BB Front Squat or Push Press  [?]
+- (exercise?) 10-I2 x DB RDL  [?]
+- (exercise? / prescription?) I:00 Ski/Bike Erg Effort  [?]
+- (exercise?) 10-12 x BB Front Squat or Push Press  [? vision]
+- (exercise?) 10-12 x DB RDL  [? vision]
+- (exercise? / prescription?) 1:00 Ski/Bike Erg Effort  [? vision]
+- (exercise?) 8.8 x World's Greatest Stretch
+- (prescription?) In Pairs - 2 Blocks of E3MOM x 6  [?]
+- (exercise?) A. 1.60/40 x BB Bench Press or  [?]
+- (uncertain) BB Hip Thrust (l0 Rep Efforts)  [?]
+- (exercise?) 2. 500/400/300m Team Run or  [?]
+- (exercise?) 600/500/400m Ski Erg I:I  [?]
+- (prescription?) In Pairs - 2 Blocks of ЕЗМОМ x 6  [? vision]
+- (exercise?) A. I. 60/40 x BB Bench Press or  [? vision]
+- (uncertain) BB Hip Thrust (10 Rep Efforts)  [? vision]
+- (exercise?) 2.500/400/300m Team Run or  [? vision]
+- (exercise?) 600/500/400m Ski Erg I:1  [? vision]
+- (prescription?) *2:00 Between Blocks
+- (exercise?) B. 1.60/40 x BB Front Squat or  [?]
+- (exercise?) BB Alt Rev Lunge (l0 Rep Efforts)  [?]
+- (exercise?) 2. 500/400/300m Team Run or  [?]
+- (exercise?) 1200/1000/800m Bike Erg I:I  [?]
+- (exercise?) B. I.60/40 x BB Front Squat or  [? vision]
+- (exercise?) BB Alt Rev Lunge (10 Rep Efforts)  [? vision]
+- (exercise?) 2.500/400/300m Team Run or  [? vision]
+- (exercise?) 1200/1000/800m Bike Erg 1:l  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARMUP
+4:00 Cap
+I0-I2 x BB Front Squat or Push Press
+10-I2 x DB RDL
+I:00 Ski/Bike Erg Effort
+8.8 x World's Greatest Stretch
+In Pairs - 2 Blocks of E3MOM x 6
+A. 1.60/40 x BB Bench Press or
+BB Hip Thrust (l0 Rep Efforts)
+2. 500/400/300m Team Run or
+600/500/400m Ski Erg I:I
+*2:00 Between Blocks
+B. 1.60/40 x BB Front Squat or
+BB Alt Rev Lunge (l0 Rep Efforts)
+2. 500/400/300m Team Run or
+1200/1000/800m Bike Erg I:I
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+10-12 x BB Front Squat or Push Press
+10-12 x DB RDL
+1:00 Ski/Bike Erg Effort
+8.8 x World's Greatest Stretch
+In Pairs - 2 Blocks of ЕЗМОМ x 6
+A. I. 60/40 x BB Bench Press or
+BB Hip Thrust (10 Rep Efforts)
+2.500/400/300m Team Run or
+600/500/400m Ski Erg I:1
+*2:00 Between Blocks
+B. I.60/40 x BB Front Squat or
+BB Alt Rev Lunge (10 Rep Efforts)
+2.500/400/300m Team Run or
+1200/1000/800m Bike Erg 1:l
+```
+</details>
+
+
+## Block 3 — Volume Wk 3  (programme week 3) [inferred]
+
+- **Phase:** Volume  ·  **Phase-week:** 3  ·  **Overall week:** 3   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Volume Wk 3/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'A. 8-I0 x BB Bent Over Row'; engines differ near: 'Score = Total Team Cals'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: 8-I0 x BB Deadlift  [?]
+I2 x Banded Scap Pull Up (2-3s Ecc)  [?]
+1-2 Sets: 8-10 x BB Deadlift  [? vision]
+12 x Banded Scap Pull Up (2-3s Ecc)  [? vision]
+12 x Deadbug
+8.8 x World's Greatest Stretch
+sl.  [?]
+I4:00 Cap - 4 Rounds  [?]
+4:00 Cap  [? vision]
+SI.  [? vision]
+14:00 Cap - 4 Rounds  [? vision]
+12-10-8-6
+BB Conventional Deadlift @3-4 RIR
+DB Bench Press
+Banded Pull Up
+12-16 x Alt V-Up
+S2.
+2 Blocks - Every 2:20 x 3
+A. 8-I0 x BB Bent Over Row  [?]
+A. 8-10 x BB Bent Over Row  [? vision]
+6.6-8.8 x SA KB FR Squat
+B. 12.12-10.10-8.8
+SA DB Bulgarian Split Squat
+*Reps Only Decrease If the Weight Increases
+S3.
+Teams of 4 - 6:00 Cap
+Follow the Leader
+:20 Max Cal Echo Bike/Ski Erg
+4 x BB/DB Push Press
+Score = Total Team Cals  [?]
+Score =Total Team Cals  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets: 8-I0 x BB Deadlift  [?]
+- (exercise? / prescription?) I2 x Banded Scap Pull Up (2-3s Ecc)  [?]
+- (exercise?) 1-2 Sets: 8-10 x BB Deadlift  [? vision]
+- (exercise? / prescription?) 12 x Banded Scap Pull Up (2-3s Ecc)  [? vision]
+- (exercise?) 12 x Deadbug
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (prescription?) I4:00 Cap - 4 Rounds  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 14:00 Cap - 4 Rounds  [? vision]
+- (prescription?) 12-10-8-6
+- (exercise? / prescription?) BB Conventional Deadlift @3-4 RIR
+- (exercise?) DB Bench Press
+- (exercise?) Banded Pull Up
+- (SECTION) S2.
+- (prescription?) 2 Blocks - Every 2:20 x 3
+- (exercise?) A. 8-I0 x BB Bent Over Row  [?]
+- (exercise?) A. 8-10 x BB Bent Over Row  [? vision]
+- (exercise?) 6.6-8.8 x SA KB FR Squat
+- (exercise?) SA DB Bulgarian Split Squat
+- (SECTION) S3.
+- (prescription?) Teams of 4 - 6:00 Cap
+- (exercise? / prescription?) :20 Max Cal Echo Bike/Ski Erg
+- (exercise?) 4 x BB/DB Push Press
+- (SECTION) Score = Total Team Cals  [?]
+- (SECTION) Score =Total Team Cals  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8-I0 x BB Deadlift
+I2 x Banded Scap Pull Up (2-3s Ecc)
+12 x Deadbug
+8.8 x World's Greatest Stretch
+sl.
+I4:00 Cap - 4 Rounds
+12-10-8-6
+BB Conventional Deadlift @3-4 RIR
+DB Bench Press
+Banded Pull Up
+12-16 x Alt V-Up
+S2.
+2 Blocks - Every 2:20 x 3
+A. 8-I0 x BB Bent Over Row
+6.6-8.8 x SA KB FR Squat
+B. 12.12-10.10-8.8
+SA DB Bulgarian Split Squat
+*Reps Only Decrease If the Weight Increases
+S3.
+Teams of 4 - 6:00 Cap
+Follow the Leader
+:20 Max Cal Echo Bike/Ski Erg
+4 x BB/DB Push Press
+Score = Total Team Cals
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8-10 x BB Deadlift
+12 x Banded Scap Pull Up (2-3s Ecc)
+12 x Deadbug
+8.8 x World's Greatest Stretch
+4:00 Cap
+SI.
+14:00 Cap - 4 Rounds
+12-10-8-6
+BB Conventional Deadlift @3-4 RIR
+DB Bench Press
+Banded Pull Up
+12-16 x Alt V-Up
+S2.
+2 Blocks - Every 2:20 x 3
+A. 8-10 x BB Bent Over Row
+6.6-8.8 x SA KB FR Squat
+B. 12.12-10.10-8.8
+SA DB Bulgarian Split Squat
+*Reps Only Decrease If the Weight Increases
+S3.
+Teams of 4 - 6:00 Cap
+Follow the Leader
+:20 Max Cal Echo Bike/Ski Erg
+4 x BB/DB Push Press
+Score =Total Team Cals
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Volume Wk 3/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: '8 x PlankTo Pike (2s Pause)'; engines differ near: 'sl.'; engines differ near: 'B. 7.7-6.6-5.5...'; engines differ near: 'In Pairs I:l - 6:00 Cap ForTime'; engines differ near: '60/50 xTTB/TTH or V-Up'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Deadlift @40-50%
+8 x PlankTo Pike (2s Pause)  [?]
+8 x Plank To Pike (2s Pause)  [? vision]
+12 x Scap Chin Up
+8.8 x World's Greatest Stretch
+sl.  [?]
+I4:00 Cap - 4+ Rounds  [?]
+6 x BB Deadlift  [?]
+t @50-70%  [?]
+SI.  [? vision]
+14:00 Cap - 4+ Rounds  [? vision]
+6 x BB Deadlift @50-70%  [? vision]
+*First 2 Reps: 3 Sec Con
+:40 Rest or 10-12 x Deadbug
+10.10-8.8-6.6-4.4...
+SA KB/DB Strict Press
+:40 Rest
+S2.
+2 x 7:00 Blocks
+A. 12-10-8...
+BB Push Jerk
+DB RDL
+B. 7.7-6.6-5.5...  [?]
+В. 7.7-6.6-5.5...  [? vision]
+DBall Shoulder Reverse Lunge
+8+ x Banded Chin Up For Quality
+S3.
+In Pairs I:l - 6:00 Cap ForTime  [?]
+In Pairs I:1 - 6:00 Cap For Time  [? vision]
+60/50 x BB Thruster
+*Optional: From The Floor
+60/50 xTTB/TTH or V-Up  [?]
+60/50 x TTB/TTH or V-Up  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 8 x BB Deadlift @40-50%
+- (exercise?) 8 x PlankTo Pike (2s Pause)  [?]
+- (exercise?) 8 x Plank To Pike (2s Pause)  [? vision]
+- (exercise?) 12 x Scap Chin Up
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (prescription?) I4:00 Cap - 4+ Rounds  [?]
+- (exercise?) 6 x BB Deadlift  [?]
+- (prescription?) t @50-70%  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 14:00 Cap - 4+ Rounds  [? vision]
+- (exercise? / prescription?) 6 x BB Deadlift @50-70%  [? vision]
+- (exercise? / prescription?) :40 Rest or 10-12 x Deadbug
+- (exercise?) SA KB/DB Strict Press
+- (prescription?) :40 Rest
+- (SECTION) S2.
+- (prescription?) 2 x 7:00 Blocks
+- (prescription?) A. 12-10-8...
+- (exercise?) BB Push Jerk
+- (exercise?) DB RDL
+- (uncertain) B. 7.7-6.6-5.5...  [?]
+- (uncertain) В. 7.7-6.6-5.5...  [? vision]
+- (exercise?) DBall Shoulder Reverse Lunge
+- (exercise?) 8+ x Banded Chin Up For Quality
+- (SECTION) S3.
+- (prescription?) In Pairs I:l - 6:00 Cap ForTime  [?]
+- (prescription?) In Pairs I:1 - 6:00 Cap For Time  [? vision]
+- (exercise?) 60/50 x BB Thruster
+- (uncertain) 60/50 xTTB/TTH or V-Up  [?]
+- (uncertain) 60/50 x TTB/TTH or V-Up  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Deadlift @40-50%
+8 x PlankTo Pike (2s Pause)
+12 x Scap Chin Up
+8.8 x World's Greatest Stretch
+sl.
+I4:00 Cap - 4+ Rounds
+6 x BB Deadlift 
+t @50-70%
+*First 2 Reps: 3 Sec Con
+:40 Rest or 10-12 x Deadbug
+10.10-8.8-6.6-4.4...
+SA KB/DB Strict Press
+:40 Rest
+S2.
+2 x 7:00 Blocks
+A. 12-10-8...
+BB Push Jerk
+DB RDL
+B. 7.7-6.6-5.5...
+DBall Shoulder Reverse Lunge
+8+ x Banded Chin Up For Quality
+S3.
+In Pairs I:l - 6:00 Cap ForTime
+60/50 x BB Thruster
+*Optional: From The Floor
+60/50 xTTB/TTH or V-Up
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Deadlift @40-50%
+8 x Plank To Pike (2s Pause)
+12 x Scap Chin Up
+8.8 x World's Greatest Stretch
+SI.
+14:00 Cap - 4+ Rounds
+6 x BB Deadlift @50-70%
+*First 2 Reps: 3 Sec Con
+:40 Rest or 10-12 x Deadbug
+10.10-8.8-6.6-4.4...
+SA KB/DB Strict Press
+:40 Rest
+S2.
+2 x 7:00 Blocks
+A. 12-10-8...
+BB Push Jerk
+DB RDL
+В. 7.7-6.6-5.5...
+DBall Shoulder Reverse Lunge
+8+ x Banded Chin Up For Quality
+S3.
+In Pairs I:1 - 6:00 Cap For Time
+60/50 x BB Thruster
+*Optional: From The Floor
+60/50 x TTB/TTH or V-Up
+```
+</details>
+
+### tuesday sweat sprint
+`REVL Block 3 programming 2026/Volume Wk 3/tuesday sweat sprint.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Sprint** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATSPRINT'; engines differ near: '2 Sets - :30 Erg/Echo Effort @RPE 8'; engines differ near: '4 Blocks of Every :30 x I5'; engines differ near: '2.Rest'; engines differ near: '2.Rest'; engines differ near: '3.Rest'; engines differ near: '2.Rest'; engines differ near: 'DBall: F = 35/30/25kg / M = 55/45/35kg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATSPRINT  [?]
+SWEAT SPRINT  [? vision]
+WARM UP
+4:00 Cap
+2 Sets - :30 Erg/Echo Effort @RPE 8  [?]
+2 Sets -:30 Erg/Echo Effort @RPE 8  [? vision]
+10 x Dual DB Snatch (Light)
+12 x Plank to Pike
+10 x BB Thruster (Light)
+4 Blocks of Every :30 x I5  [?]
+A. I.6 x DBall Alt Forward Lunge  [?]
+4 Blocks of Every :30 x 15  [? vision]
+A. 1.6 x DBall Alt Forward Lunge  [? vision]
+Max Cal Ski Erg Until :30
+2.Rest  [?]
+3.Rest  [?]
+B. I.6 x Dual DB Snatch  [?]
+2. Rest  [? vision]
+3. Rest  [? vision]
+B. 1.6 x Dual DB Snatch  [? vision]
+Max Cal Bike Erg Until :30
+2.Rest  [?]
+3.Rest  [?]
+C. 1.5/3 x Burpee  [?]
+2. Rest  [? vision]
+3. Rest  [? vision]
+C. I.5/3 x Burpee  [? vision]
+Max Cal Row Erg Until :30
+2. Rest
+3.Rest  [?]
+3. Rest  [? vision]
+D. 1.6 x BB Thruster
+Max Cal Echo Bike Until :30
+2.Rest  [?]
+3.Rest  [?]
+2. Rest  [? vision]
+3. Rest  [? vision]
+Score:Total Cal Accumulated Individually
+*2:00 Between Blocks
+DBall: F = 35/30/25kg / M = 55/45/35kg  [?]
+DB:  [?]
+F = 15/10/8kg / M = 22.5/17.5/12.5kg  [?]
+BB:  [?]
+F = 35/30/25kg / M = 55/45/35kg  [?]
+DBall: F = 35/30/25kg | M = 55/45/35kg  [? vision]
+DB: F= 15/10/8kg / M = 22.5/17.5/12.5kg  [? vision]
+BB: F = 35/30/25kg / M = 55/45/35kg  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATSPRINT  [?]
+- (uncertain) SWEAT SPRINT  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) 2 Sets - :30 Erg/Echo Effort @RPE 8  [?]
+- (exercise? / prescription?) 2 Sets -:30 Erg/Echo Effort @RPE 8  [? vision]
+- (exercise?) 10 x Dual DB Snatch (Light)
+- (exercise?) 12 x Plank to Pike
+- (exercise?) 10 x BB Thruster (Light)
+- (prescription?) 4 Blocks of Every :30 x I5  [?]
+- (exercise?) A. I.6 x DBall Alt Forward Lunge  [?]
+- (prescription?) 4 Blocks of Every :30 x 15  [? vision]
+- (exercise?) A. 1.6 x DBall Alt Forward Lunge  [? vision]
+- (exercise? / prescription?) Max Cal Ski Erg Until :30
+- (uncertain) 2.Rest  [?]
+- (uncertain) 3.Rest  [?]
+- (exercise?) B. I.6 x Dual DB Snatch  [?]
+- (uncertain) 2. Rest  [? vision]
+- (uncertain) 3. Rest  [? vision]
+- (exercise?) B. 1.6 x Dual DB Snatch  [? vision]
+- (exercise? / prescription?) Max Cal Bike Erg Until :30
+- (uncertain) 2.Rest  [?]
+- (uncertain) 3.Rest  [?]
+- (exercise?) C. 1.5/3 x Burpee  [?]
+- (uncertain) 2. Rest  [? vision]
+- (uncertain) 3. Rest  [? vision]
+- (exercise?) C. I.5/3 x Burpee  [? vision]
+- (exercise? / prescription?) Max Cal Row Erg Until :30
+- (uncertain) 3.Rest  [?]
+- (uncertain) 3. Rest  [? vision]
+- (exercise?) D. 1.6 x BB Thruster
+- (exercise? / prescription?) Max Cal Echo Bike Until :30
+- (uncertain) 2.Rest  [?]
+- (uncertain) 3.Rest  [?]
+- (uncertain) 2. Rest  [? vision]
+- (uncertain) 3. Rest  [? vision]
+- (SECTION) Score:Total Cal Accumulated Individually
+- (prescription?) *2:00 Between Blocks
+- (uncertain) DBall: F = 35/30/25kg / M = 55/45/35kg  [?]
+- (uncertain) DB:  [?]
+- (uncertain) F = 15/10/8kg / M = 22.5/17.5/12.5kg  [?]
+- (uncertain) BB:  [?]
+- (uncertain) F = 35/30/25kg / M = 55/45/35kg  [?]
+- (uncertain) DBall: F = 35/30/25kg | M = 55/45/35kg  [? vision]
+- (uncertain) DB: F= 15/10/8kg / M = 22.5/17.5/12.5kg  [? vision]
+- (uncertain) BB: F = 35/30/25kg / M = 55/45/35kg  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATSPRINT
+WARM UP
+4:00 Cap
+2 Sets - :30 Erg/Echo Effort @RPE 8
+10 x Dual DB Snatch (Light)
+12 x Plank to Pike
+10 x BB Thruster (Light)
+4 Blocks of Every :30 x I5
+A. I.6 x DBall Alt Forward Lunge
+Max Cal Ski Erg Until :30
+2.Rest
+3.Rest
+B. I.6 x Dual DB Snatch
+Max Cal Bike Erg Until :30
+2.Rest
+3.Rest
+C. 1.5/3 x Burpee
+Max Cal Row Erg Until :30
+2. Rest
+3.Rest
+D. 1.6 x BB Thruster
+Max Cal Echo Bike Until :30
+2.Rest
+3.Rest
+Score:Total Cal Accumulated Individually
+*2:00 Between Blocks
+DBall: F = 35/30/25kg / M = 55/45/35kg
+DB:
+F = 15/10/8kg / M = 22.5/17.5/12.5kg
+BB:
+F = 35/30/25kg / M = 55/45/35kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 Sets -:30 Erg/Echo Effort @RPE 8
+10 x Dual DB Snatch (Light)
+12 x Plank to Pike
+10 x BB Thruster (Light)
+4 Blocks of Every :30 x 15
+A. 1.6 x DBall Alt Forward Lunge
+Max Cal Ski Erg Until :30
+2. Rest
+3. Rest
+B. 1.6 x Dual DB Snatch
+Max Cal Bike Erg Until :30
+2. Rest
+3. Rest
+C. I.5/3 x Burpee
+Max Cal Row Erg Until :30
+2. Rest
+3. Rest
+D. 1.6 x BB Thruster
+Max Cal Echo Bike Until :30
+2. Rest
+3. Rest
+Score:Total Cal Accumulated Individually
+*2:00 Between Blocks
+DBall: F = 35/30/25kg | M = 55/45/35kg
+DB: F= 15/10/8kg / M = 22.5/17.5/12.5kg
+BB: F = 35/30/25kg / M = 55/45/35kg
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Volume Wk 3/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'Every 3:30 x 4'; engines differ near: '*+I Rep Each Round'; engines differ near: 'In Pairs - Every I:30 x 4'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: 8-I0 x BB Bench Press  [?]
+I0 x DB Goblet Cyclist Squat  [?]
+1-2 Sets: 8-10 x BB Bench Press  [? vision]
+10 x DB Goblet Cyclist Squat  [? vision]
+10 x Band Pull Apart
+12 x Plank To Pike
+sl.  [?]
+I4:00 Cap - 4 Rounds  [?]
+SI.  [? vision]
+4:00 Cap  [? vision]
+14:00 Cap - 4 Rounds  [? vision]
+12-10-8-6
+BB Bench Press @3-4 RIR
+Paused DB Goblet Cyclist Squat
+SA KB Gorilla Row (e/s)
+Plate OH Sit Up
+S2.
+Every 3:30 x 4  [?]
+I.2 Rounds  [?]
+1.2 Rounds  [? vision]
+7 x BB Push Press or BB Good
+Morning
+10/5 Cal Bike/Ski Erg AFAP
+Every 3:30 x 4  [? vision only]
+2.2 Rounds
+9 x DB Incline Prone Row
+9.9 x KB Split Squat
+*+I Rep Each Round  [?]
+*+/ Rep Each Round  [? vision]
+S3.
+In Pairs - Every I:30 x 4  [?]
+1. 10+I0 x Synchro BB/DB Thruster  [?]
+*I Person: BB I Person: DB  [?]
+2. 36/26/16 Cal Bike/Ski Erg (:30 Each)  [?]
+In Pairs - Every 1:30 x 4  [? vision]
+1.10+10 x Synchro BB/DB Thruster  [? vision]
+*/ Person: BB I Person: DB  [? vision]
+2.36/26/16 Cal Bike/Ski Erg (:30 Each)  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets: 8-I0 x BB Bench Press  [?]
+- (exercise?) I0 x DB Goblet Cyclist Squat  [?]
+- (exercise?) 1-2 Sets: 8-10 x BB Bench Press  [? vision]
+- (exercise?) 10 x DB Goblet Cyclist Squat  [? vision]
+- (exercise?) 12 x Plank To Pike
+- (uncertain) sl.  [?]
+- (prescription?) I4:00 Cap - 4 Rounds  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) 14:00 Cap - 4 Rounds  [? vision]
+- (prescription?) 12-10-8-6
+- (exercise? / prescription?) BB Bench Press @3-4 RIR
+- (exercise?) Paused DB Goblet Cyclist Squat
+- (exercise?) SA KB Gorilla Row (e/s)
+- (SECTION) S2.
+- (prescription?) Every 3:30 x 4  [?]
+- (uncertain) I.2 Rounds  [?]
+- (uncertain) 1.2 Rounds  [? vision]
+- (exercise?) 7 x BB Push Press or BB Good
+- (exercise? / prescription?) 10/5 Cal Bike/Ski Erg AFAP
+- (prescription?) Every 3:30 x 4  [? vision only]
+- (exercise?) 9 x DB Incline Prone Row
+- (exercise?) 9.9 x KB Split Squat
+- (uncertain) *+I Rep Each Round  [?]
+- (uncertain) *+/ Rep Each Round  [? vision]
+- (SECTION) S3.
+- (prescription?) In Pairs - Every I:30 x 4  [?]
+- (exercise?) 1. 10+I0 x Synchro BB/DB Thruster  [?]
+- (exercise?) *I Person: BB I Person: DB  [?]
+- (exercise? / prescription?) 2. 36/26/16 Cal Bike/Ski Erg (:30 Each)  [?]
+- (prescription?) In Pairs - Every 1:30 x 4  [? vision]
+- (exercise?) 1.10+10 x Synchro BB/DB Thruster  [? vision]
+- (exercise?) */ Person: BB I Person: DB  [? vision]
+- (exercise? / prescription?) 2.36/26/16 Cal Bike/Ski Erg (:30 Each)  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8-I0 x BB Bench Press
+I0 x DB Goblet Cyclist Squat
+10 x Band Pull Apart
+12 x Plank To Pike
+sl.
+I4:00 Cap - 4 Rounds
+12-10-8-6
+BB Bench Press @3-4 RIR
+Paused DB Goblet Cyclist Squat
+SA KB Gorilla Row (e/s)
+Plate OH Sit Up
+S2.
+Every 3:30 x 4
+I.2 Rounds
+7 x BB Push Press or BB Good
+Morning
+10/5 Cal Bike/Ski Erg AFAP
+2.2 Rounds
+9 x DB Incline Prone Row
+9.9 x KB Split Squat
+*+I Rep Each Round
+S3.
+In Pairs - Every I:30 x 4
+1. 10+I0 x Synchro BB/DB Thruster
+*I Person: BB I Person: DB
+2. 36/26/16 Cal Bike/Ski Erg (:30 Each)
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8-10 x BB Bench Press
+10 x DB Goblet Cyclist Squat
+10 x Band Pull Apart
+12 x Plank To Pike
+SI.
+4:00 Cap
+14:00 Cap - 4 Rounds
+12-10-8-6
+BB Bench Press @3-4 RIR
+Paused DB Goblet Cyclist Squat
+SA KB Gorilla Row (e/s)
+Plate OH Sit Up
+S2.
+1.2 Rounds
+7 x BB Push Press or BB Good
+Morning
+10/5 Cal Bike/Ski Erg AFAP
+Every 3:30 x 4
+2.2 Rounds
+9 x DB Incline Prone Row
+9.9 x KB Split Squat
+*+/ Rep Each Round
+S3.
+In Pairs - Every 1:30 x 4
+1.10+10 x Synchro BB/DB Thruster
+*/ Person: BB I Person: DB
+2.36/26/16 Cal Bike/Ski Erg (:30 Each)
+```
+</details>
+
+### wednesday perform lower
+`REVL Block 3 programming 2026/Volume Wk 3/wednesday perform lower.png`  ·  day **Wednesday** [inferred]  ·  session **Perform Lower** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'sl.'; engines differ near: 'B. 6.6-5.5-4.4-3.3'; engines differ near: 'EMOM x 6'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM LOWER
+WARMUP  [?]
+WARM UP  [? vision]
+4:00 Cap
+I-2 Sets: 6-8 x BB Back/Front Squat @40-50%
+8 x 90/90 Hip Rotation
+4.4 x FFE KOT Split Squat
+:30 Hollow Hold
+sl.  [?]
+I4:00 Cap - 4+ Rounds  [?]
+6 x BB Back/Front Squat  [?]
+@50-70%  [?]
+SI.  [? vision]
+14:00 Cap - 4+ Rounds  [? vision]
+6 x BB Back/Front Squat @50-70%  [? vision]
+*First 2 Reps: 3 Sec Con
+4.4-6.6 x DB FFE KOT Split Squat
+6-8 x Strict TTB/K2C
+:40 Rest
+S2.
+2 x 7:00 Blocks
+A. 4-5 Rounds - Building Weight
+3 x BB Power Clean +
+3 x BB Hang Power Clean
+:40 Rest
+B. 6.6-5.5-4.4-3.3  [?]
+В. 6.6-5.5-4.4-3.3  [? vision]
+DBall Shoulder Squat
+4-6 x Roller Hamstring Curl (3 Sec Ecc)
+OR :20 SL Hamstring Bridge e/s
+EMOM x 6  [? vision only]
+S3.
+EMOM x 6  [?]
+1. 12/8 x BB/DB Reverse Lunge  [?]
+2. I5/I2 x KB Swing (Heavy)  [?]
+1.12/8 x BB/DB Reverse Lunge  [? vision]
+2. 15/12 x KB Swing (Heavy)  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 6-8 x BB Back/Front Squat @40-50%
+- (prescription?) 8 x 90/90 Hip Rotation
+- (exercise?) 4.4 x FFE KOT Split Squat
+- (exercise? / prescription?) :30 Hollow Hold
+- (uncertain) sl.  [?]
+- (prescription?) I4:00 Cap - 4+ Rounds  [?]
+- (exercise?) 6 x BB Back/Front Squat  [?]
+- (prescription?) @50-70%  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 14:00 Cap - 4+ Rounds  [? vision]
+- (exercise? / prescription?) 6 x BB Back/Front Squat @50-70%  [? vision]
+- (exercise?) 4.4-6.6 x DB FFE KOT Split Squat
+- (prescription?) :40 Rest
+- (SECTION) S2.
+- (prescription?) 2 x 7:00 Blocks
+- (exercise?) 3 x BB Power Clean +
+- (exercise?) 3 x BB Hang Power Clean
+- (prescription?) :40 Rest
+- (uncertain) B. 6.6-5.5-4.4-3.3  [?]
+- (uncertain) В. 6.6-5.5-4.4-3.3  [? vision]
+- (exercise?) DBall Shoulder Squat
+- (exercise? / prescription?) 4-6 x Roller Hamstring Curl (3 Sec Ecc)
+- (exercise? / prescription?) OR :20 SL Hamstring Bridge e/s
+- (SECTION / prescription?) EMOM x 6  [? vision only]
+- (SECTION) S3.
+- (SECTION / prescription?) EMOM x 6  [?]
+- (exercise?) 1. 12/8 x BB/DB Reverse Lunge  [?]
+- (exercise?) 2. I5/I2 x KB Swing (Heavy)  [?]
+- (exercise?) 1.12/8 x BB/DB Reverse Lunge  [? vision]
+- (exercise?) 2. 15/12 x KB Swing (Heavy)  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM LOWER
+WARMUP
+4:00 Cap
+I-2 Sets: 6-8 x BB Back/Front Squat @40-50%
+8 x 90/90 Hip Rotation
+4.4 x FFE KOT Split Squat
+:30 Hollow Hold
+sl.
+I4:00 Cap - 4+ Rounds
+6 x BB Back/Front Squat
+@50-70%
+*First 2 Reps: 3 Sec Con
+4.4-6.6 x DB FFE KOT Split Squat
+6-8 x Strict TTB/K2C
+:40 Rest
+S2.
+2 x 7:00 Blocks
+A. 4-5 Rounds - Building Weight
+3 x BB Power Clean +
+3 x BB Hang Power Clean
+:40 Rest
+B. 6.6-5.5-4.4-3.3
+DBall Shoulder Squat
+4-6 x Roller Hamstring Curl (3 Sec Ecc)
+OR :20 SL Hamstring Bridge e/s
+S3.
+EMOM x 6
+1. 12/8 x BB/DB Reverse Lunge
+2. I5/I2 x KB Swing (Heavy)
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 6-8 x BB Back/Front Squat @40-50%
+8 x 90/90 Hip Rotation
+4.4 x FFE KOT Split Squat
+:30 Hollow Hold
+SI.
+14:00 Cap - 4+ Rounds
+6 x BB Back/Front Squat @50-70%
+*First 2 Reps: 3 Sec Con
+4.4-6.6 x DB FFE KOT Split Squat
+6-8 x Strict TTB/K2C
+:40 Rest
+S2.
+2 x 7:00 Blocks
+A. 4-5 Rounds - Building Weight
+3 x BB Power Clean +
+3 x BB Hang Power Clean
+:40 Rest
+В. 6.6-5.5-4.4-3.3
+DBall Shoulder Squat
+4-6 x Roller Hamstring Curl (3 Sec Ecc)
+OR :20 SL Hamstring Bridge e/s
+EMOM x 6
+S3.
+1.12/8 x BB/DB Reverse Lunge
+2. 15/12 x KB Swing (Heavy)
+```
+</details>
+
+### thursday sweat engine
+`REVL Block 3 programming 2026/Volume Wk 3/thursday sweat engine.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Engine** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATENGINE'; engines differ near: '4:00 Cap'; engines differ near: 'E9MOM x 4'; engines differ near: 'TTB/TTH or 20 x V-Up'; engines differ near: 'I2/l0/8 x Alt DB Devils Press'; engines differ near: '*Erg Pacing: I:50/2:05/2:20'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATENGINE  [?]
+SWEAT ENGINE  [? vision]
+WARM UP
+4:00 Cap  [?]
+I:00 Erg Effort @RPE 6-7  [?]
+1:00 Erg Effort @RPE 6-7  [? vision]
+8 x DBall Power GTS
+15/10 x Kip Swing
+6 x Inchworm + Push Up
+E9MOM x 4  [?]
+1. 900/800/700m Ski/Row Erg  [?]
+E9MOM x4  [? vision]
+4:00 Cap  [? vision]
+I. 900/800/700m Ski/Row Erg  [? vision]
+60/50/40 x Box Jump Over/Step Over
+2.3 Rounds
+18/15/12
+DBall Power GTS
+TTB/TTH or 20 x V-Up  [?]
+3. 1800/l600/1400m Bike Erg or  [?]
+TTB/TTH or 20 xV-Up  [? vision]
+3.1800/1600/1400m Bike Erg or  [? vision]
+55/40/25 Cal Echo Bike
+40.40/30.30 x SA KB Push Press
+4.3 Rounds
+I2/l0/8 x Alt DB Devils Press  [?]
+12/10/8 x Alt DB Devils Press  [? vision]
+300/200/150m Run or
+30/20 x Air Squat
+Goal Working time: 7:00-7:30
+*Erg Pacing: I:50/2:05/2:20  [?]
+*Erg Pacing: 1:50/2:05/2:20  [? vision]
+Echo Cadence: 66/58/54
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATENGINE  [?]
+- (uncertain) SWEAT ENGINE  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I:00 Erg Effort @RPE 6-7  [?]
+- (prescription?) 1:00 Erg Effort @RPE 6-7  [? vision]
+- (exercise?) 8 x DBall Power GTS
+- (exercise?) 15/10 x Kip Swing
+- (exercise?) 6 x Inchworm + Push Up
+- (SECTION / prescription?) E9MOM x 4  [?]
+- (exercise?) 1. 900/800/700m Ski/Row Erg  [?]
+- (SECTION / prescription?) E9MOM x4  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (exercise?) I. 900/800/700m Ski/Row Erg  [? vision]
+- (exercise?) 60/50/40 x Box Jump Over/Step Over
+- (uncertain) TTB/TTH or 20 x V-Up  [?]
+- (exercise?) 3. 1800/l600/1400m Bike Erg or  [?]
+- (uncertain) TTB/TTH or 20 xV-Up  [? vision]
+- (exercise?) 3.1800/1600/1400m Bike Erg or  [? vision]
+- (exercise?) 55/40/25 Cal Echo Bike
+- (exercise?) 40.40/30.30 x SA KB Push Press
+- (exercise?) I2/l0/8 x Alt DB Devils Press  [?]
+- (exercise?) 12/10/8 x Alt DB Devils Press  [? vision]
+- (exercise?) 300/200/150m Run or
+- (exercise?) 30/20 x Air Squat
+- (prescription?) Goal Working time: 7:00-7:30
+- (prescription?) *Erg Pacing: I:50/2:05/2:20  [?]
+- (prescription?) *Erg Pacing: 1:50/2:05/2:20  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATENGINE
+WARM UP
+4:00 Cap
+I:00 Erg Effort @RPE 6-7
+8 x DBall Power GTS
+15/10 x Kip Swing
+6 x Inchworm + Push Up
+E9MOM x 4
+1. 900/800/700m Ski/Row Erg
+60/50/40 x Box Jump Over/Step Over
+2.3 Rounds
+18/15/12
+DBall Power GTS
+TTB/TTH or 20 x V-Up
+3. 1800/l600/1400m Bike Erg or
+55/40/25 Cal Echo Bike
+40.40/30.30 x SA KB Push Press
+4.3 Rounds
+I2/l0/8 x Alt DB Devils Press
+300/200/150m Run or
+30/20 x Air Squat
+Goal Working time: 7:00-7:30
+*Erg Pacing: I:50/2:05/2:20
+Echo Cadence: 66/58/54
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+1:00 Erg Effort @RPE 6-7
+8 x DBall Power GTS
+15/10 x Kip Swing
+6 x Inchworm + Push Up
+E9MOM x4
+4:00 Cap
+I. 900/800/700m Ski/Row Erg
+60/50/40 x Box Jump Over/Step Over
+2.3 Rounds
+18/15/12
+DBall Power GTS
+TTB/TTH or 20 xV-Up
+3.1800/1600/1400m Bike Erg or
+55/40/25 Cal Echo Bike
+40.40/30.30 x SA KB Push Press
+4.3 Rounds
+12/10/8 x Alt DB Devils Press
+300/200/150m Run or
+30/20 x Air Squat
+Goal Working time: 7:00-7:30
+*Erg Pacing: 1:50/2:05/2:20
+Echo Cadence: 66/58/54
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Volume Wk 3/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets: I0 x BB Back/Front Squat'; engines differ near: 'sl.'; engines differ near: ':40 Rest or I2 x Atomic Sit Up'; engines differ near: 'In Pairs YGlG - 2 x 7:00 AMRAP'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Back/Front Squat  [?]
+1-2 Sets: 10 x BB Back/Front Squat  [? vision]
+12 x Alt Goblet Squat Ankle Stretch
+6.6 x SA DB Overhead Reverse Lunge
+8.8 x Paused SL Glute Bridge
+sl.  [?]
+I4:00 Cap - 4 Rounds  [?]
+SI.  [? vision]
+14:00 Cap - 4 Rounds  [? vision]
+12-10-8-6
+BB Front/Back Squat
+Chin Up
+SA DB Press - Half Strict + Half Push e/s
+:40 Rest or I2 x Atomic Sit Up  [?]
+:40 Rest or 12 x Atomic Sit Up  [? vision]
+S2.
+In Pairs YGlG - 2 x 7:00 AMRAP  [?]
+1. Building Weight  [?]
+In Pairs YGIG - 2 x 7:00 AMRAP  [? vision]
+I. Building Weight  [? vision]
+6 x BB Power Clean or
+10 x BB Hip Thrust
+2.3.3-4.4-5.5...
+SA DB Overhead Reverse Lunge
+80m Ski/Row Erg AFAP
+S3.
+In Pairs - 6:00 Cap  [? rapid only]
+700/600/500m Ski/Row Erg
+YGIG
+12-10-8-6
+Alt DB Hang Clean + Press
+In Pairs - 6:00 Cap  [? vision only]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: I0 x BB Back/Front Squat  [?]
+- (exercise?) 1-2 Sets: 10 x BB Back/Front Squat  [? vision]
+- (exercise?) 12 x Alt Goblet Squat Ankle Stretch
+- (exercise?) 6.6 x SA DB Overhead Reverse Lunge
+- (exercise?) 8.8 x Paused SL Glute Bridge
+- (uncertain) sl.  [?]
+- (prescription?) I4:00 Cap - 4 Rounds  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 14:00 Cap - 4 Rounds  [? vision]
+- (prescription?) 12-10-8-6
+- (exercise?) BB Front/Back Squat
+- (exercise?) SA DB Press - Half Strict + Half Push e/s
+- (prescription?) :40 Rest or I2 x Atomic Sit Up  [?]
+- (prescription?) :40 Rest or 12 x Atomic Sit Up  [? vision]
+- (SECTION) S2.
+- (prescription?) In Pairs YGlG - 2 x 7:00 AMRAP  [?]
+- (uncertain) 1. Building Weight  [?]
+- (prescription?) In Pairs YGIG - 2 x 7:00 AMRAP  [? vision]
+- (uncertain) I. Building Weight  [? vision]
+- (exercise?) 6 x BB Power Clean or
+- (exercise?) 10 x BB Hip Thrust
+- (exercise?) SA DB Overhead Reverse Lunge
+- (exercise? / prescription?) 80m Ski/Row Erg AFAP
+- (SECTION) S3.
+- (prescription?) In Pairs - 6:00 Cap  [? rapid only]
+- (exercise?) 700/600/500m Ski/Row Erg
+- (prescription?) 12-10-8-6
+- (exercise?) Alt DB Hang Clean + Press
+- (prescription?) In Pairs - 6:00 Cap  [? vision only]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Back/Front Squat
+12 x Alt Goblet Squat Ankle Stretch
+6.6 x SA DB Overhead Reverse Lunge
+8.8 x Paused SL Glute Bridge
+sl.
+I4:00 Cap - 4 Rounds
+12-10-8-6
+BB Front/Back Squat
+Chin Up
+SA DB Press - Half Strict + Half Push e/s
+:40 Rest or I2 x Atomic Sit Up
+S2.
+In Pairs YGlG - 2 x 7:00 AMRAP
+1. Building Weight
+6 x BB Power Clean or
+10 x BB Hip Thrust
+2.3.3-4.4-5.5...
+SA DB Overhead Reverse Lunge
+80m Ski/Row Erg AFAP
+S3.
+In Pairs - 6:00 Cap
+700/600/500m Ski/Row Erg
+YGIG
+12-10-8-6
+Alt DB Hang Clean + Press
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+1-2 Sets: 10 x BB Back/Front Squat
+12 x Alt Goblet Squat Ankle Stretch
+6.6 x SA DB Overhead Reverse Lunge
+8.8 x Paused SL Glute Bridge
+SI.
+14:00 Cap - 4 Rounds
+12-10-8-6
+BB Front/Back Squat
+Chin Up
+SA DB Press - Half Strict + Half Push e/s
+:40 Rest or 12 x Atomic Sit Up
+S2.
+In Pairs YGIG - 2 x 7:00 AMRAP
+I. Building Weight
+6 x BB Power Clean or
+10 x BB Hip Thrust
+2.3.3-4.4-5.5...
+SA DB Overhead Reverse Lunge
+80m Ski/Row Erg AFAP
+S3.
+700/600/500m Ski/Row Erg
+YGIG
+12-10-8-6
+Alt DB Hang Clean + Press
+In Pairs - 6:00 Cap
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Volume Wk 3/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'I0-I2 x Paused Band External Rotation'; engines differ near: '8-I0 x Paused Band Pull Apart'; engines differ near: 'A.3 Rounds:'; engines differ near: '10-I2 x DBall Glute Bridge Floor Press'; engines differ near: '6:00 Cap - In Pairs I:I'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM UPPER
+WARMUP  [?]
+4:00 Cap  [?]
+WARM UP  [? vision]
+I-2 Sets: 8 x BB Bench Press @40-50%
+8-10 x Scap Pull Up
+I0-I2 x Paused Band External Rotation  [?]
+I0 x KB Bent Over Row  [?]
+sl.  [?]
+I4:00 Cap - 4+ Rounds  [?]
+6 x BB Bench Press  [?]
+@50-70%  [?]
+10-12 x Paused Band External Rotation  [? vision]
+10 x KB Bent Over Row  [? vision]
+SI.  [? vision]
+4:00 Cap  [? vision]
+14:00 Cap - 4+ Rounds  [? vision]
+6 x BB Bench Press @50-70%  [? vision]
+*First 2 Reps: 3 Sec Con
+6+4 x KB Bent Over Row
+6.6-8.8 x HK SA DB Press
+8-I0 x Paused Band Pull Apart  [?]
+8-10 x Paused Band Pull Apart  [? vision]
+*Cluster = 15-20s Rest Between
+S2.
+2 x 7:00 Cap
+A.3 Rounds:  [?]
+A. 3 Rounds:  [? vision]
+6+4 x BB Pendlay Row
+10-I2 x DBall Glute Bridge Floor Press  [?]
+10-12 x DBall Glute Bridge Floor Press  [? vision]
+B. 10-8-6-6+
+DB Seated Shoulder Press
+6+ x Banded C2B Pull Up
+S3.
+6:00 Cap - In Pairs I:I  [?]
+6:00 Cap - In Pairs I:l  [? vision]
+100/80 x BB/DB Bicep Curl
+Every 20 Reps: 10/5 x Synchro Push Up
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (prescription?) 4:00 Cap  [?]
+- (SECTION) WARM UP  [? vision]
+- (exercise? / prescription?) I-2 Sets: 8 x BB Bench Press @40-50%
+- (exercise?) 8-10 x Scap Pull Up
+- (uncertain) I0-I2 x Paused Band External Rotation  [?]
+- (exercise?) I0 x KB Bent Over Row  [?]
+- (uncertain) sl.  [?]
+- (prescription?) I4:00 Cap - 4+ Rounds  [?]
+- (exercise?) 6 x BB Bench Press  [?]
+- (prescription?) @50-70%  [?]
+- (uncertain) 10-12 x Paused Band External Rotation  [? vision]
+- (exercise?) 10 x KB Bent Over Row  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) 14:00 Cap - 4+ Rounds  [? vision]
+- (exercise? / prescription?) 6 x BB Bench Press @50-70%  [? vision]
+- (exercise?) 6+4 x KB Bent Over Row
+- (exercise?) 6.6-8.8 x HK SA DB Press
+- (uncertain) 8-I0 x Paused Band Pull Apart  [?]
+- (uncertain) 8-10 x Paused Band Pull Apart  [? vision]
+- (SECTION) S2.
+- (prescription?) 2 x 7:00 Cap
+- (SECTION) A.3 Rounds:  [?]
+- (uncertain) A. 3 Rounds:  [? vision]
+- (exercise?) 6+4 x BB Pendlay Row
+- (exercise?) 10-I2 x DBall Glute Bridge Floor Press  [?]
+- (exercise?) 10-12 x DBall Glute Bridge Floor Press  [? vision]
+- (prescription?) B. 10-8-6-6+
+- (exercise?) DB Seated Shoulder Press
+- (exercise?) 6+ x Banded C2B Pull Up
+- (SECTION) S3.
+- (prescription?) 6:00 Cap - In Pairs I:I  [?]
+- (prescription?) 6:00 Cap - In Pairs I:l  [? vision]
+- (exercise?) 100/80 x BB/DB Bicep Curl
+- (exercise?) Every 20 Reps: 10/5 x Synchro Push Up
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM UPPER
+WARMUP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press @40-50%
+8-10 x Scap Pull Up
+I0-I2 x Paused Band External Rotation
+I0 x KB Bent Over Row
+sl.
+I4:00 Cap - 4+ Rounds
+6 x BB Bench Press
+@50-70%
+*First 2 Reps: 3 Sec Con
+6+4 x KB Bent Over Row
+6.6-8.8 x HK SA DB Press
+8-I0 x Paused Band Pull Apart
+*Cluster = 15-20s Rest Between
+S2.
+2 x 7:00 Cap
+A.3 Rounds:
+6+4 x BB Pendlay Row
+10-I2 x DBall Glute Bridge Floor Press
+B. 10-8-6-6+
+DB Seated Shoulder Press
+6+ x Banded C2B Pull Up
+S3.
+6:00 Cap - In Pairs I:I
+100/80 x BB/DB Bicep Curl
+Every 20 Reps: 10/5 x Synchro Push Up
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+I-2 Sets: 8 x BB Bench Press @40-50%
+8-10 x Scap Pull Up
+10-12 x Paused Band External Rotation
+10 x KB Bent Over Row
+SI.
+4:00 Cap
+14:00 Cap - 4+ Rounds
+6 x BB Bench Press @50-70%
+*First 2 Reps: 3 Sec Con
+6+4 x KB Bent Over Row
+6.6-8.8 x HK SA DB Press
+8-10 x Paused Band Pull Apart
+*Cluster = 15-20s Rest Between
+S2.
+2 x 7:00 Cap
+A. 3 Rounds:
+6+4 x BB Pendlay Row
+10-12 x DBall Glute Bridge Floor Press
+B. 10-8-6-6+
+DB Seated Shoulder Press
+6+ x Banded C2B Pull Up
+S3.
+6:00 Cap - In Pairs I:l
+100/80 x BB/DB Bicep Curl
+Every 20 Reps: 10/5 x Synchro Push Up
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Volume Wk 3/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: 'I2 x Alt Cossack Squat (Paused)'; engines differ near: 'I1000/10000/9000m Ski Erg'; engines differ near: 'I 1000/10000/9000m Row Erg'; engines differ near: "YGlG - 2 Rounds Each'Cindy'"; engines differ near: 'Erg Pacing: I:55/2:10/2:25'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap  [? rapid only]
+1:00 Erg Effort or 200m Run
+I2 x Alt Cossack Squat (Paused)  [?]
+12 x Alt Cossack Squat (Paused)  [? vision]
+10 x Dual DB Hang Snatch
+I Round:'Cindy'
+Teams of 8 - 45:00 Cap
+I1000/10000/9000m Ski Erg  [?]
+11000/10000/9000m Ski Erg  [? vision]
+*6 x Box Jump Over
+I 1000/10000/9000m Row Erg  [?]
++  [? vision]
+11000/10000/9000m Row Erg  [? vision]
+*6 x KB Push Press
++  [? vision only]
+23000/21000/19000m Bike Erg
+*6 x Dual DB Hang Snatch
+4:00 Cap  [? vision only]
+2 People Always Completing:
+400/300m Pair Run Into
+YGlG - 2 Rounds Each'Cindy'  [?]
+5 x Pull Up or I0 x Ring Row  [?]
+YGIG - 2 Rounds Each 'Cindy'  [? vision]
+5 x Pull Up or 10 x Ring Row  [? vision]
+10 x Push Up
+15 x Air Squat
+Run Alternative: 20/16 x Synchro Burpee
+*Change Pair Upon YGIG Completion
+Erg Pacing: I:55/2:10/2:25  [?]
+Erg Pacing: 1:55/2:10/2:25  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise? / prescription?) 1:00 Erg Effort or 200m Run
+- (exercise?) I2 x Alt Cossack Squat (Paused)  [?]
+- (exercise?) 12 x Alt Cossack Squat (Paused)  [? vision]
+- (exercise?) 10 x Dual DB Hang Snatch
+- (prescription?) Teams of 8 - 45:00 Cap
+- (exercise?) I1000/10000/9000m Ski Erg  [?]
+- (exercise?) 11000/10000/9000m Ski Erg  [? vision]
+- (exercise?) I 1000/10000/9000m Row Erg  [?]
+- (uncertain) +  [? vision]
+- (exercise?) 11000/10000/9000m Row Erg  [? vision]
+- (exercise?) *6 x KB Push Press
+- (uncertain) +  [? vision only]
+- (exercise?) 23000/21000/19000m Bike Erg
+- (exercise?) *6 x Dual DB Hang Snatch
+- (prescription?) 4:00 Cap  [? vision only]
+- (exercise?) 400/300m Pair Run Into
+- (uncertain) YGlG - 2 Rounds Each'Cindy'  [?]
+- (exercise?) 5 x Pull Up or I0 x Ring Row  [?]
+- (uncertain) YGIG - 2 Rounds Each 'Cindy'  [? vision]
+- (exercise?) 5 x Pull Up or 10 x Ring Row  [? vision]
+- (exercise?) 10 x Push Up
+- (exercise?) 15 x Air Squat
+- (exercise?) Run Alternative: 20/16 x Synchro Burpee
+- (prescription?) Erg Pacing: I:55/2:10/2:25  [?]
+- (prescription?) Erg Pacing: 1:55/2:10/2:25  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+1:00 Erg Effort or 200m Run
+I2 x Alt Cossack Squat (Paused)
+10 x Dual DB Hang Snatch
+I Round:'Cindy'
+Teams of 8 - 45:00 Cap
+I1000/10000/9000m Ski Erg
+*6 x Box Jump Over
+I 1000/10000/9000m Row Erg
+*6 x KB Push Press
+23000/21000/19000m Bike Erg
+*6 x Dual DB Hang Snatch
+2 People Always Completing:
+400/300m Pair Run Into
+YGlG - 2 Rounds Each'Cindy'
+5 x Pull Up or I0 x Ring Row
+10 x Push Up
+15 x Air Squat
+Run Alternative: 20/16 x Synchro Burpee
+*Change Pair Upon YGIG Completion
+Erg Pacing: I:55/2:10/2:25
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+1:00 Erg Effort or 200m Run
+12 x Alt Cossack Squat (Paused)
+10 x Dual DB Hang Snatch
+I Round:'Cindy'
+Teams of 8 - 45:00 Cap
+11000/10000/9000m Ski Erg
+*6 x Box Jump Over
++
+11000/10000/9000m Row Erg
+*6 x KB Push Press
++
+23000/21000/19000m Bike Erg
+*6 x Dual DB Hang Snatch
+4:00 Cap
+2 People Always Completing:
+400/300m Pair Run Into
+YGIG - 2 Rounds Each 'Cindy'
+5 x Pull Up or 10 x Ring Row
+10 x Push Up
+15 x Air Squat
+Run Alternative: 20/16 x Synchro Burpee
+*Change Pair Upon YGIG Completion
+Erg Pacing: 1:55/2:10/2:25
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Volume Wk 3/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: 'I0-I2 x BB Close Grip Bench Press or BB RDL'; engines differ near: 'I. I20/l00 x BB Close Grip Bench Press'; engines differ near: '2.60-I40 Cal Echo Bike (:30 Efforts)'; engines differ near: '4. I20/l00 x BB Front Squat or'; engines differ near: '5.60-I60 Cal Row Erg (:45 Efforts)'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+I0-I2 x BB Close Grip Bench Press or BB RDL  [?]
+I0-I2 x Dual DB Clean + Press  [?]
+2 x :30 Echo or Row Erg Effort  [?]
+10-12 x BB Close Grip Bench Press or BB RDL  [? vision]
+10-12 x Dual DB Clean + Press  [? vision]
+2x:30 Echo or Row Erg Effort  [? vision]
+8.8 x World's Greatest Stretch
+In Pairs - E7MOM x 6
+I. I20/l00 x BB Close Grip Bench Press  [?]
+1.120/100 x BB Close Grip Bench Press  [? vision]
+or BB RDL
+*10 Rep Efforts
+2.60-I40 Cal Echo Bike (:30 Efforts)  [?]
+3.YGlG x 3-4 Rounds Each  [?]
+2.60-140 Cal Echo Bike (:30 Efforts)  [? vision]
+3.YGIG x 3-4 Rounds Each  [? vision]
+20/16 x Dual DB Clean + Press
+4. I20/l00 x BB Front Squat or  [?]
+I40/l20 x BB Strict/Push Press  [?]
+4.120/100 x BB Front Squat or  [? vision]
+140/120 x BB Strict/Push Press  [? vision]
+*10 Rep Efforts
+5.60-I60 Cal Row Erg (:45 Efforts)  [?]
+6.YGlG x 3-4 Rounds Each  [?]
+5.60-160 Cal Row Erg (:45 Efforts)  [? vision]
+6.YGIG x 3-4 Rounds Each  [? vision]
+10.10 x KB Mixed Grip Reverse Lunge
+(FR + Suitcase)
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I0-I2 x BB Close Grip Bench Press or BB RDL  [?]
+- (exercise?) I0-I2 x Dual DB Clean + Press  [?]
+- (exercise? / prescription?) 2 x :30 Echo or Row Erg Effort  [?]
+- (exercise?) 10-12 x BB Close Grip Bench Press or BB RDL  [? vision]
+- (exercise?) 10-12 x Dual DB Clean + Press  [? vision]
+- (exercise? / prescription?) 2x:30 Echo or Row Erg Effort  [? vision]
+- (exercise?) 8.8 x World's Greatest Stretch
+- (prescription?) In Pairs - E7MOM x 6
+- (exercise?) I. I20/l00 x BB Close Grip Bench Press  [?]
+- (exercise?) 1.120/100 x BB Close Grip Bench Press  [? vision]
+- (exercise?) or BB RDL
+- (exercise? / prescription?) 2.60-I40 Cal Echo Bike (:30 Efforts)  [?]
+- (prescription?) 3.YGlG x 3-4 Rounds Each  [?]
+- (exercise? / prescription?) 2.60-140 Cal Echo Bike (:30 Efforts)  [? vision]
+- (prescription?) 3.YGIG x 3-4 Rounds Each  [? vision]
+- (exercise?) 20/16 x Dual DB Clean + Press
+- (exercise?) 4. I20/l00 x BB Front Squat or  [?]
+- (exercise?) I40/l20 x BB Strict/Push Press  [?]
+- (exercise?) 4.120/100 x BB Front Squat or  [? vision]
+- (exercise?) 140/120 x BB Strict/Push Press  [? vision]
+- (exercise? / prescription?) 5.60-I60 Cal Row Erg (:45 Efforts)  [?]
+- (prescription?) 6.YGlG x 3-4 Rounds Each  [?]
+- (exercise? / prescription?) 5.60-160 Cal Row Erg (:45 Efforts)  [? vision]
+- (prescription?) 6.YGIG x 3-4 Rounds Each  [? vision]
+- (exercise?) 10.10 x KB Mixed Grip Reverse Lunge
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+I0-I2 x BB Close Grip Bench Press or BB RDL
+I0-I2 x Dual DB Clean + Press
+2 x :30 Echo or Row Erg Effort
+8.8 x World's Greatest Stretch
+In Pairs - E7MOM x 6
+I. I20/l00 x BB Close Grip Bench Press
+or BB RDL
+*10 Rep Efforts
+2.60-I40 Cal Echo Bike (:30 Efforts)
+3.YGlG x 3-4 Rounds Each
+20/16 x Dual DB Clean + Press
+4. I20/l00 x BB Front Squat or
+I40/l20 x BB Strict/Push Press
+*10 Rep Efforts
+5.60-I60 Cal Row Erg (:45 Efforts)
+6.YGlG x 3-4 Rounds Each
+10.10 x KB Mixed Grip Reverse Lunge
+(FR + Suitcase)
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+10-12 x BB Close Grip Bench Press or BB RDL
+10-12 x Dual DB Clean + Press
+2x:30 Echo or Row Erg Effort
+8.8 x World's Greatest Stretch
+In Pairs - E7MOM x 6
+1.120/100 x BB Close Grip Bench Press
+or BB RDL
+*10 Rep Efforts
+2.60-140 Cal Echo Bike (:30 Efforts)
+3.YGIG x 3-4 Rounds Each
+20/16 x Dual DB Clean + Press
+4.120/100 x BB Front Squat or
+140/120 x BB Strict/Push Press
+*10 Rep Efforts
+5.60-160 Cal Row Erg (:45 Efforts)
+6.YGIG x 3-4 Rounds Each
+10.10 x KB Mixed Grip Reverse Lunge
+(FR + Suitcase)
+```
+</details>
+
+
+## Block 3 — Build Wk 1  (programme week 4) [inferred]
+
+- **Phase:** Build  ·  **Phase-week:** 1  ·  **Overall week:** 4   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Build Wk 1/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'sl.'; engines differ near: 'A. 1.9-8-7-6'; engines differ near: '2. 6-8 x Ring Roll Out'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [? rapid only]
+10 x BB Deadlift
+12 x Scap Pull/Chin Up
+:30 Hollow Hold
+8.8 x World's Greatest Stretch
+sl.  [?]
+4:00 Cap  [? vision]
+SI.  [? vision]
+2 Blocks of EMOM x 8
+A. 1.9-8-7-6  [?]
+A. I.9-8-7-6  [? vision]
+BB Deadlift @2-3 RIR
+2. 6-8 x Ring Roll Out  [?]
+2.6-8 x Ring Roll Out  [? vision]
+B. I. 6.6 x SA DB HK Press
+2. 6-8 x Deastop KB Swing (AHAP)
+S2.
+14:00 Cap  [? rapid only]
+7.7-6.6-5.5-4.4
+BB FFE Split Squat
+5+3 x Pull Up/Chin Up
+8-12 x Single KB RDL
+:30 For Distance Bike/Row Erg
+S3.
+4:00 Cap - ForTime  [? rapid only]
+800/600m Run or
+4/3 Rounds 'DB/KB DT'
+12 x Deadlift
+9 x Hang Clean
+6 x Push Press
+14:00 Cap  [? vision only]
+4:00 Cap - For Time  [? vision only]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise?) 10 x BB Deadlift
+- (exercise?) 12 x Scap Pull/Chin Up
+- (exercise? / prescription?) :30 Hollow Hold
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 2 Blocks of EMOM x 8
+- (prescription?) A. 1.9-8-7-6  [?]
+- (prescription?) A. I.9-8-7-6  [? vision]
+- (exercise? / prescription?) BB Deadlift @2-3 RIR
+- (uncertain) 2. 6-8 x Ring Roll Out  [?]
+- (uncertain) 2.6-8 x Ring Roll Out  [? vision]
+- (exercise?) B. I. 6.6 x SA DB HK Press
+- (exercise? / prescription?) 2. 6-8 x Deastop KB Swing (AHAP)
+- (SECTION) S2.
+- (prescription?) 14:00 Cap  [? rapid only]
+- (exercise?) BB FFE Split Squat
+- (exercise?) 5+3 x Pull Up/Chin Up
+- (exercise?) 8-12 x Single KB RDL
+- (exercise? / prescription?) :30 For Distance Bike/Row Erg
+- (SECTION) S3.
+- (prescription?) 4:00 Cap - ForTime  [? rapid only]
+- (exercise?) 800/600m Run or
+- (exercise?) 4/3 Rounds 'DB/KB DT'
+- (exercise?) 12 x Deadlift
+- (exercise?) 9 x Hang Clean
+- (exercise?) 6 x Push Press
+- (prescription?) 14:00 Cap  [? vision only]
+- (prescription?) 4:00 Cap - For Time  [? vision only]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+10 x BB Deadlift
+12 x Scap Pull/Chin Up
+:30 Hollow Hold
+8.8 x World's Greatest Stretch
+sl.
+2 Blocks of EMOM x 8
+A. 1.9-8-7-6
+BB Deadlift @2-3 RIR
+2. 6-8 x Ring Roll Out
+B. I. 6.6 x SA DB HK Press
+2. 6-8 x Deastop KB Swing (AHAP)
+S2.
+14:00 Cap
+7.7-6.6-5.5-4.4
+BB FFE Split Squat
+5+3 x Pull Up/Chin Up
+8-12 x Single KB RDL
+:30 For Distance Bike/Row Erg
+S3.
+4:00 Cap - ForTime
+800/600m Run or
+4/3 Rounds 'DB/KB DT'
+12 x Deadlift
+9 x Hang Clean
+6 x Push Press
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+10 x BB Deadlift
+12 x Scap Pull/Chin Up
+:30 Hollow Hold
+8.8 x World's Greatest Stretch
+4:00 Cap
+SI.
+2 Blocks of EMOM x 8
+A. I.9-8-7-6
+BB Deadlift @2-3 RIR
+2.6-8 x Ring Roll Out
+B. I. 6.6 x SA DB HK Press
+2. 6-8 x Deastop KB Swing (AHAP)
+S2.
+7.7-6.6-5.5-4.4
+BB FFE Split Squat
+5+3 x Pull Up/Chin Up
+8-12 x Single KB RDL
+:30 For Distance Bike/Row Erg
+S3.
+800/600m Run or
+4/3 Rounds 'DB/KB DT'
+12 x Deadlift
+9 x Hang Clean
+6 x Push Press
+14:00 Cap
+4:00 Cap - For Time
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Build Wk 1/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets: 6 x BB Deadlift @50-55%'; engines differ near: 'I2 x DB Bench Press (Light)'; engines differ near: 'sl.'; engines differ near: '2 x 7:00 Blocks'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Deadlift @50-55%  [?]
+1-2 Sets: 6 × BB Deadlift @50-55%  [? vision]
+:30-:40 Plate OH Hold
+I2 x DB Bench Press (Light)  [?]
+12 x DB Bench Press (Light)  [? vision]
+8.8 x World's Greatest Stretch
+sl.  [?]
+SI.  [? vision]
+E2MOM x 8
+1.6-5-4-2+2
+BB Deadlift @60-70-75-80%
+2. 7.7-6.6-5.5-4.4
+KB/DB Chainsaw Row
+6-8 x DB Bench Press
+*Reps Only Decrease if Weight Increases
+2 x 7:00 Blocks  [? vision only]
+S2.
+2 x 7:00 Blocks  [?]
+A. In Pairs -YGIG  [?]
+A. In Pairs - YGIG  [? vision]
+8-7-6...
+BB Push Press/Jerk
+B. 6.6-5.5-4.4+
+DB Bulgarian Split Squat
+:30 KB FR Hold (Heavy)
+S3.
+4:00 Cap  [? rapid only]
+Build To A Heavy:
+2 x SA DB Snatch
+2 x SA DB OH Reverse Lunge or
+Push Press/Jerk
+*Repeat Other Side
+4:00 Cap  [? vision only]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 6 x BB Deadlift @50-55%  [?]
+- (exercise? / prescription?) 1-2 Sets: 6 × BB Deadlift @50-55%  [? vision]
+- (exercise? / prescription?) :30-:40 Plate OH Hold
+- (exercise?) I2 x DB Bench Press (Light)  [?]
+- (exercise?) 12 x DB Bench Press (Light)  [? vision]
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (SECTION / prescription?) E2MOM x 8
+- (prescription?) 1.6-5-4-2+2
+- (exercise? / prescription?) BB Deadlift @60-70-75-80%
+- (exercise?) KB/DB Chainsaw Row
+- (exercise?) 6-8 x DB Bench Press
+- (prescription?) 2 x 7:00 Blocks  [? vision only]
+- (SECTION) S2.
+- (prescription?) 2 x 7:00 Blocks  [?]
+- (uncertain) A. In Pairs -YGIG  [?]
+- (uncertain) A. In Pairs - YGIG  [? vision]
+- (prescription?) 8-7-6...
+- (exercise?) BB Push Press/Jerk
+- (exercise?) DB Bulgarian Split Squat
+- (exercise? / prescription?) :30 KB FR Hold (Heavy)
+- (SECTION) S3.
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise?) 2 x SA DB Snatch
+- (exercise?) 2 x SA DB OH Reverse Lunge or
+- (exercise?) Push Press/Jerk
+- (prescription?) 4:00 Cap  [? vision only]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Deadlift @50-55%
+:30-:40 Plate OH Hold
+I2 x DB Bench Press (Light)
+8.8 x World's Greatest Stretch
+sl.
+E2MOM x 8
+1.6-5-4-2+2
+BB Deadlift @60-70-75-80%
+2. 7.7-6.6-5.5-4.4
+KB/DB Chainsaw Row
+6-8 x DB Bench Press
+*Reps Only Decrease if Weight Increases
+S2.
+2 x 7:00 Blocks
+A. In Pairs -YGIG
+8-7-6...
+BB Push Press/Jerk
+B. 6.6-5.5-4.4+
+DB Bulgarian Split Squat
+:30 KB FR Hold (Heavy)
+S3.
+4:00 Cap
+Build To A Heavy:
+2 x SA DB Snatch
+2 x SA DB OH Reverse Lunge or
+Push Press/Jerk
+*Repeat Other Side
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+1-2 Sets: 6 × BB Deadlift @50-55%
+:30-:40 Plate OH Hold
+12 x DB Bench Press (Light)
+8.8 x World's Greatest Stretch
+SI.
+E2MOM x 8
+1.6-5-4-2+2
+BB Deadlift @60-70-75-80%
+2. 7.7-6.6-5.5-4.4
+KB/DB Chainsaw Row
+6-8 x DB Bench Press
+*Reps Only Decrease if Weight Increases
+2 x 7:00 Blocks
+S2.
+A. In Pairs - YGIG
+8-7-6...
+BB Push Press/Jerk
+B. 6.6-5.5-4.4+
+DB Bulgarian Split Squat
+:30 KB FR Hold (Heavy)
+S3.
+Build To A Heavy:
+2 x SA DB Snatch
+2 x SA DB OH Reverse Lunge or
+Push Press/Jerk
+*Repeat Other Side
+4:00 Cap
+```
+</details>
+
+### tuesday sweat engine
+`REVL Block 3 programming 2026/Build Wk 1/tuesday sweat engine.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Engine** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: '20/l6 x Alt KB Goblet Reverse Lunge'; engines differ near: 'Burpee Over DB x 24/18/I2'; engines differ near: 'Wall Ball: F = I4/8lb / M = 20/14lb'; engines differ near: 'Score = Scale +Time/Rounds + Reps'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT ENGINE
+WARMUP  [?]
+4:00 Cap  [?]
+WARM UP  [? vision]
+:45 Row/Echo Effort
+20/16 x Wall Ball
+:45 Ski/Bike Effort
+20/l6 x Alt KB Goblet Reverse Lunge  [?]
+20/16 x Alt KB Goblet Reverse Lunge  [? vision]
+36:00 Cap
+4:00 Cap  [? vision only]
+3 Rounds for Time
+Wall Ball x 30/24/18
+Alt DB Clean x 30
+Burpee Over DB x 24/18/I2  [?]
+Burpee Over DB x 24/18/12  [? vision]
+Bike Erg 30/24/18 Cal
+Or Echo Bike 24/18/12 Cal
+Alt KB Goblet Rev Lunge x 30
+SA KB FR Box Step Up x 24/18/12
+Row/Ski Erg 30/24/18 Cal
+Wall Ball: F = I4/8lb / M = 20/14lb  [?]
+DB: F = 17.5//2.5/10kg I M = 22.5/17.5/12.5kg  [?]
+Wall Ball: F = 14/81b | M = 20/14lb  [? vision]
+DB: F = 17.5/12.5/10kg / M = 22.5/17.5/12.5kg  [? vision]
+KB: F = 16/12/8kg / M = 24/20/16kg
+Score = Scale +Time/Rounds + Reps  [?]
+Score = Scale + Time/Rounds + Reps  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (prescription?) 4:00 Cap  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) :45 Row/Echo Effort
+- (exercise?) 20/16 x Wall Ball
+- (exercise? / prescription?) :45 Ski/Bike Effort
+- (exercise?) 20/l6 x Alt KB Goblet Reverse Lunge  [?]
+- (exercise?) 20/16 x Alt KB Goblet Reverse Lunge  [? vision]
+- (prescription?) 36:00 Cap
+- (prescription?) 4:00 Cap  [? vision only]
+- (prescription?) Wall Ball x 30/24/18
+- (exercise? / prescription?) Alt DB Clean x 30
+- (exercise? / prescription?) Burpee Over DB x 24/18/I2  [?]
+- (exercise? / prescription?) Burpee Over DB x 24/18/12  [? vision]
+- (exercise?) Bike Erg 30/24/18 Cal
+- (exercise?) Or Echo Bike 24/18/12 Cal
+- (exercise? / prescription?) Alt KB Goblet Rev Lunge x 30
+- (exercise? / prescription?) SA KB FR Box Step Up x 24/18/12
+- (exercise?) Row/Ski Erg 30/24/18 Cal
+- (uncertain) Wall Ball: F = I4/8lb / M = 20/14lb  [?]
+- (uncertain) DB: F = 17.5//2.5/10kg I M = 22.5/17.5/12.5kg  [?]
+- (uncertain) Wall Ball: F = 14/81b | M = 20/14lb  [? vision]
+- (uncertain) DB: F = 17.5/12.5/10kg / M = 22.5/17.5/12.5kg  [? vision]
+- (SECTION) Score = Scale +Time/Rounds + Reps  [?]
+- (SECTION) Score = Scale + Time/Rounds + Reps  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT ENGINE
+WARMUP
+4:00 Cap
+:45 Row/Echo Effort
+20/16 x Wall Ball
+:45 Ski/Bike Effort
+20/l6 x Alt KB Goblet Reverse Lunge
+36:00 Cap
+3 Rounds for Time
+Wall Ball x 30/24/18
+Alt DB Clean x 30
+Burpee Over DB x 24/18/I2
+Bike Erg 30/24/18 Cal
+Or Echo Bike 24/18/12 Cal
+Alt KB Goblet Rev Lunge x 30
+SA KB FR Box Step Up x 24/18/12
+Row/Ski Erg 30/24/18 Cal
+Wall Ball: F = I4/8lb / M = 20/14lb
+DB: F = 17.5//2.5/10kg I M = 22.5/17.5/12.5kg
+KB: F = 16/12/8kg / M = 24/20/16kg
+Score = Scale +Time/Rounds + Reps
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+:45 Row/Echo Effort
+20/16 x Wall Ball
+:45 Ski/Bike Effort
+20/16 x Alt KB Goblet Reverse Lunge
+36:00 Cap
+4:00 Cap
+3 Rounds for Time
+Wall Ball x 30/24/18
+Alt DB Clean x 30
+Burpee Over DB x 24/18/12
+Bike Erg 30/24/18 Cal
+Or Echo Bike 24/18/12 Cal
+Alt KB Goblet Rev Lunge x 30
+SA KB FR Box Step Up x 24/18/12
+Row/Ski Erg 30/24/18 Cal
+Wall Ball: F = 14/81b | M = 20/14lb
+DB: F = 17.5/12.5/10kg / M = 22.5/17.5/12.5kg
+KB: F = 16/12/8kg / M = 24/20/16kg
+Score = Scale + Time/Rounds + Reps
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Build Wk 1/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: '16 x AIt V-Up'; engines differ near: '2. 16-14-12-10'; engines differ near: 'S2.'; engines differ near: '1. 50/35/20 Cal Row/Ski Erg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets:8 x BB Bench Press  [?]
+1-2 Sets: 8 x BB Bench Press  [? vision]
+15 x BW Cyclist Squat
+16 x AIt V-Up  [?]
+8.8 xT-Opener  [?]
+sl.  [?]
+E2MOM x 8  [?]
+16 x AltV-Up  [? vision]
+8.8 x T-Opener  [? vision]
+SI.  [? vision]
+1. 9-8-7-6
+BB Bench Press @2-3 RIR
+Optional: DBall Cyclist Squat
+2. 16-14-12-10  [?]
+4:00 Cap  [? vision]
+E2MOM x 8  [? vision]
+2.16-14-12-10  [? vision]
+Alt DB Reverse Lunge or Curl
+V-Up
+S2.  [? vision only]
+*Reps Only Decrease if Weight Increases
+S2.  [?]
+2 Blocks of Every I:45 x 4  [?]
+2 Blocks of Every 1:45 x 4  [? vision]
+A. 6 x BB Hang Power Clean or RDL
+6 x Weighted Sit Up
+B. 6 x DB Seated Shoulder Press
+6 x KB Bent Over Row (For Quality)
+*+2 Reps Each Round or Maintain
+S3.
+In Pairs - E2MOM x 2
+1. 50/35/20 Cal Row/Ski Erg  [?]
+1.50/35/20 Cal Row/Ski Erg  [? vision]
+2. 25.25/20.20/15.15 x Synchro SA DB/KB
+STOH
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets:8 x BB Bench Press  [?]
+- (exercise?) 1-2 Sets: 8 x BB Bench Press  [? vision]
+- (exercise?) 15 x BW Cyclist Squat
+- (uncertain) 16 x AIt V-Up  [?]
+- (uncertain) 8.8 xT-Opener  [?]
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E2MOM x 8  [?]
+- (uncertain) 16 x AltV-Up  [? vision]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 1. 9-8-7-6
+- (exercise? / prescription?) BB Bench Press @2-3 RIR
+- (exercise?) Optional: DBall Cyclist Squat
+- (prescription?) 2. 16-14-12-10  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (SECTION / prescription?) E2MOM x 8  [? vision]
+- (prescription?) 2.16-14-12-10  [? vision]
+- (exercise?) Alt DB Reverse Lunge or Curl
+- (SECTION) S2.  [? vision only]
+- (SECTION) S2.  [?]
+- (prescription?) 2 Blocks of Every I:45 x 4  [?]
+- (prescription?) 2 Blocks of Every 1:45 x 4  [? vision]
+- (exercise?) A. 6 x BB Hang Power Clean or RDL
+- (exercise?) B. 6 x DB Seated Shoulder Press
+- (exercise?) 6 x KB Bent Over Row (For Quality)
+- (SECTION) S3.
+- (prescription?) In Pairs - E2MOM x 2
+- (exercise?) 1. 50/35/20 Cal Row/Ski Erg  [?]
+- (exercise?) 1.50/35/20 Cal Row/Ski Erg  [? vision]
+- (exercise?) 2. 25.25/20.20/15.15 x Synchro SA DB/KB
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets:8 x BB Bench Press
+15 x BW Cyclist Squat
+16 x AIt V-Up
+8.8 xT-Opener
+sl.
+E2MOM x 8
+1. 9-8-7-6
+BB Bench Press @2-3 RIR
+Optional: DBall Cyclist Squat
+2. 16-14-12-10
+Alt DB Reverse Lunge or Curl
+V-Up
+*Reps Only Decrease if Weight Increases
+S2.
+2 Blocks of Every I:45 x 4
+A. 6 x BB Hang Power Clean or RDL
+6 x Weighted Sit Up
+B. 6 x DB Seated Shoulder Press
+6 x KB Bent Over Row (For Quality)
+*+2 Reps Each Round or Maintain
+S3.
+In Pairs - E2MOM x 2
+1. 50/35/20 Cal Row/Ski Erg
+2. 25.25/20.20/15.15 x Synchro SA DB/KB
+STOH
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8 x BB Bench Press
+15 x BW Cyclist Squat
+16 x AltV-Up
+8.8 x T-Opener
+SI.
+1. 9-8-7-6
+BB Bench Press @2-3 RIR
+Optional: DBall Cyclist Squat
+4:00 Cap
+E2MOM x 8
+2.16-14-12-10
+Alt DB Reverse Lunge or Curl
+V-Up
+S2.
+*Reps Only Decrease if Weight Increases
+2 Blocks of Every 1:45 x 4
+A. 6 x BB Hang Power Clean or RDL
+6 x Weighted Sit Up
+B. 6 x DB Seated Shoulder Press
+6 x KB Bent Over Row (For Quality)
+*+2 Reps Each Round or Maintain
+S3.
+In Pairs - E2MOM x 2
+1.50/35/20 Cal Row/Ski Erg
+2. 25.25/20.20/15.15 x Synchro SA DB/KB
+STOH
+```
+</details>
+
+### wednesday perform lower
+`REVL Block 3 programming 2026/Build Wk 1/wednesday perform lower.png`  ·  day **Wednesday** [inferred]  ·  session **Perform Lower** [inferred]
+
+_Reader notes:_ engines differ near: 'sl.'; engines differ near: 'BB Back/Front Squat @60-70-75-80%'; engines differ near: 'I:00 Rest'; engines differ near: '12+ xTTB/TTH For Quality'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap  [? rapid only]
+I-2 Sets: 6 x BB Back/Front Squat @50-55%
+6.6 x SL DB RDL
+16 x Goblet Squat Ankle Stretch
+12 x Banded Glute Bridge
+sl.  [?]
+E4MOM x 4  [?]
+SI.  [? vision]
+6-5-4-2+2
+BB Back/Front Squat @60-70-75-80%  [?]
+BB Back/Front Squat (  [? vision]
+@60-70-75-80%  [? vision]
+10-8-6-4
+DB/KB RDL (Heavy)
+6 x Roller Hamstring Curl
+or :20 SL Hamstring Bridge e/s
+I:00 Rest  [?]
+1:00 Rest  [? vision]
+4:00 Cap  [? vision]
+E4MOM x 4  [? vision]
+S2.
+Every 3:30 x 4
+1.2-3 Rounds
+3-5 x BB Power Clean (Building)
+2.2 Rounds
+4.4-6.6 x DBall Shoulder Reverse Lunge
+12+ xTTB/TTH For Quality  [?]
+12+ ×TTB/TTH For Quality  [? vision]
+or Hollow Rock
+S3.
+In Pairs - 4:00 Cap
+80/60 x BB/KB Back/Front No Lockout
+Squat (Opp SI.)
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise? / prescription?) I-2 Sets: 6 x BB Back/Front Squat @50-55%
+- (exercise?) 6.6 x SL DB RDL
+- (exercise?) 16 x Goblet Squat Ankle Stretch
+- (exercise?) 12 x Banded Glute Bridge
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E4MOM x 4  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 6-5-4-2+2
+- (exercise? / prescription?) BB Back/Front Squat @60-70-75-80%  [?]
+- (exercise?) BB Back/Front Squat (  [? vision]
+- (prescription?) @60-70-75-80%  [? vision]
+- (prescription?) 10-8-6-4
+- (exercise?) DB/KB RDL (Heavy)
+- (exercise?) 6 x Roller Hamstring Curl
+- (exercise? / prescription?) or :20 SL Hamstring Bridge e/s
+- (prescription?) I:00 Rest  [?]
+- (prescription?) 1:00 Rest  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (SECTION / prescription?) E4MOM x 4  [? vision]
+- (SECTION) S2.
+- (prescription?) Every 3:30 x 4
+- (exercise?) 3-5 x BB Power Clean (Building)
+- (exercise?) 4.4-6.6 x DBall Shoulder Reverse Lunge
+- (uncertain) 12+ xTTB/TTH For Quality  [?]
+- (uncertain) 12+ ×TTB/TTH For Quality  [? vision]
+- (SECTION) S3.
+- (prescription?) In Pairs - 4:00 Cap
+- (exercise?) 80/60 x BB/KB Back/Front No Lockout
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Back/Front Squat @50-55%
+6.6 x SL DB RDL
+16 x Goblet Squat Ankle Stretch
+12 x Banded Glute Bridge
+sl.
+E4MOM x 4
+6-5-4-2+2
+BB Back/Front Squat @60-70-75-80%
+10-8-6-4
+DB/KB RDL (Heavy)
+6 x Roller Hamstring Curl
+or :20 SL Hamstring Bridge e/s
+I:00 Rest
+S2.
+Every 3:30 x 4
+1.2-3 Rounds
+3-5 x BB Power Clean (Building)
+2.2 Rounds
+4.4-6.6 x DBall Shoulder Reverse Lunge
+12+ xTTB/TTH For Quality
+or Hollow Rock
+S3.
+In Pairs - 4:00 Cap
+80/60 x BB/KB Back/Front No Lockout
+Squat (Opp SI.)
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM LOWER
+WARM UP
+I-2 Sets: 6 x BB Back/Front Squat @50-55%
+6.6 x SL DB RDL
+16 x Goblet Squat Ankle Stretch
+12 x Banded Glute Bridge
+SI.
+6-5-4-2+2
+BB Back/Front Squat (
+@60-70-75-80%
+10-8-6-4
+DB/KB RDL (Heavy)
+6 x Roller Hamstring Curl
+or :20 SL Hamstring Bridge e/s
+1:00 Rest
+4:00 Cap
+E4MOM x 4
+S2.
+Every 3:30 x 4
+1.2-3 Rounds
+3-5 x BB Power Clean (Building)
+2.2 Rounds
+4.4-6.6 x DBall Shoulder Reverse Lunge
+12+ ×TTB/TTH For Quality
+or Hollow Rock
+S3.
+In Pairs - 4:00 Cap
+80/60 x BB/KB Back/Front No Lockout
+Squat (Opp SI.)
+```
+</details>
+
+### thursday sweat sprint
+`REVL Block 3 programming 2026/Build Wk 1/thursday sweat sprint.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Sprint** [inferred]
+
+_Reader notes:_ engines differ near: '2 Sets - :20 Erg or Echo Sprint @RPE 8'; engines differ near: 'Teams of 3 (l:2) - 3 x I0:00 Cap'; engines differ near: 'Box Jump Over or Step Over x I2/9/6'; engines differ near: '**Goal = I Round Each Every 2:00'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 Sets - :20 Erg or Echo Sprint @RPE 8  [?]
+I2 x Box Step/Jump Over or Alt Cossack Squat  [?]
+2 Sets -:20 Erg or Echo Sprint @RPE 8  [? vision]
+12 x Box Step/Jump Over or Alt Cossack Squat  [? vision]
+12/8 x Burpee Bar Touch
+8.8 x Weighted Hip Opener
+Teams of 3 (l:2) - 3 x I0:00 Cap  [?]
+Teams of 3 (1:2) - 3 x 10:00 Cap  [? vision]
+A. 15 Rounds (5 Each)
+Echo Bike Cal F: 7/5/3 M: 9/7/5
+Ski Erg Cal F: 7/5/3 M: 9/7/5
+B. 15 Rounds (5 Each)
+Burpee Bar Touch x 6/4
+Bike Erg F: 8/6/4 M: 10/8/6
+C. 15 Rounds (5 Each)
+Row Erg Cal F: 8/6/4 M: 10/8/6
+Box Jump Over or Step Over x I2/9/6  [?]
+Box Jump Over or Step Over x 12/9/6  [? vision]
+*2:00 Between Blocks
+**Goal = I Round Each Every 2:00  [?]
+**Goal = 1 Round Each Every 2:00  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) 2 Sets - :20 Erg or Echo Sprint @RPE 8  [?]
+- (exercise?) I2 x Box Step/Jump Over or Alt Cossack Squat  [?]
+- (exercise? / prescription?) 2 Sets -:20 Erg or Echo Sprint @RPE 8  [? vision]
+- (exercise?) 12 x Box Step/Jump Over or Alt Cossack Squat  [? vision]
+- (exercise?) 12/8 x Burpee Bar Touch
+- (prescription?) Teams of 3 (l:2) - 3 x I0:00 Cap  [?]
+- (prescription?) Teams of 3 (1:2) - 3 x 10:00 Cap  [? vision]
+- (exercise?) Echo Bike Cal F: 7/5/3 M: 9/7/5
+- (exercise?) Ski Erg Cal F: 7/5/3 M: 9/7/5
+- (prescription?) Burpee Bar Touch x 6/4
+- (exercise?) Bike Erg F: 8/6/4 M: 10/8/6
+- (exercise?) Row Erg Cal F: 8/6/4 M: 10/8/6
+- (exercise?) Box Jump Over or Step Over x I2/9/6  [?]
+- (exercise? / prescription?) Box Jump Over or Step Over x 12/9/6  [? vision]
+- (prescription?) *2:00 Between Blocks
+- (prescription?) **Goal = I Round Each Every 2:00  [?]
+- (prescription?) **Goal = 1 Round Each Every 2:00  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 Sets - :20 Erg or Echo Sprint @RPE 8
+I2 x Box Step/Jump Over or Alt Cossack Squat
+12/8 x Burpee Bar Touch
+8.8 x Weighted Hip Opener
+Teams of 3 (l:2) - 3 x I0:00 Cap
+A. 15 Rounds (5 Each)
+Echo Bike Cal F: 7/5/3 M: 9/7/5
+Ski Erg Cal F: 7/5/3 M: 9/7/5
+B. 15 Rounds (5 Each)
+Burpee Bar Touch x 6/4
+Bike Erg F: 8/6/4 M: 10/8/6
+C. 15 Rounds (5 Each)
+Row Erg Cal F: 8/6/4 M: 10/8/6
+Box Jump Over or Step Over x I2/9/6
+*2:00 Between Blocks
+**Goal = I Round Each Every 2:00
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 Sets -:20 Erg or Echo Sprint @RPE 8
+12 x Box Step/Jump Over or Alt Cossack Squat
+12/8 x Burpee Bar Touch
+8.8 x Weighted Hip Opener
+Teams of 3 (1:2) - 3 x 10:00 Cap
+A. 15 Rounds (5 Each)
+Echo Bike Cal F: 7/5/3 M: 9/7/5
+Ski Erg Cal F: 7/5/3 M: 9/7/5
+B. 15 Rounds (5 Each)
+Burpee Bar Touch x 6/4
+Bike Erg F: 8/6/4 M: 10/8/6
+C. 15 Rounds (5 Each)
+Row Erg Cal F: 8/6/4 M: 10/8/6
+Box Jump Over or Step Over x 12/9/6
+*2:00 Between Blocks
+**Goal = 1 Round Each Every 2:00
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Build Wk 1/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: '8-I0 x DBall Supp DB Press'; engines differ near: '*+I Push Press Every Round'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: I0 x BB Back Squat  [?]
+1-2 Sets: 10 x BB Back Squat  [? vision]
+8.8 x Dynamic Pigeon Stretch
+8.8 x SA KB OH Split Squat
+12 x Scap Chin Up
+sl.  [?]
+E2MOM x 8  [?]
+1. 9-8-7-6  [?]
+SI.  [? vision]
+1.9-8-7-6  [? vision]
+BB Back Squat @2-3 RIR
+6-8 x Paused Chin Up
+4:00 Cap  [? vision only]
+E2MOM x 8  [? vision only]
+2. 8.8-7.7-6.6.5.5
+SA KB OH Split Squat
+8-I0 x DBall Supp DB Press  [?]
+8-10 x DBall Supp DB Press  [? vision]
+*Reps Only Reduce If Weight Increases
+S2.
+In Pairs YGIG - 2 x 7:00 AMRAP
+A. 3 x BB Strict Press + 4 x BB Push Press
+*+I Push Press Every Round  [?]
+4-6 x DBallTNG Power GTS  [?]
+*+/ Push Press Every Round  [? vision]
+4-6 x DBall TNG Power GTS  [? vision]
+B.5-6-7...
+DB Deadlift (Heavy)
+300/200m Bike Erg or
+10/8/6 Cal Echo Bike
+S3.
+4:00 Cap
+For Time:
+80/60 x KB/DB Walking or Forward Lunge
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets: I0 x BB Back Squat  [?]
+- (exercise?) 1-2 Sets: 10 x BB Back Squat  [? vision]
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (exercise?) 8.8 x SA KB OH Split Squat
+- (exercise?) 12 x Scap Chin Up
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E2MOM x 8  [?]
+- (prescription?) 1. 9-8-7-6  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 1.9-8-7-6  [? vision]
+- (exercise? / prescription?) BB Back Squat @2-3 RIR
+- (exercise?) 6-8 x Paused Chin Up
+- (prescription?) 4:00 Cap  [? vision only]
+- (SECTION / prescription?) E2MOM x 8  [? vision only]
+- (exercise?) SA KB OH Split Squat
+- (exercise?) 8-I0 x DBall Supp DB Press  [?]
+- (exercise?) 8-10 x DBall Supp DB Press  [? vision]
+- (SECTION) S2.
+- (prescription?) In Pairs YGIG - 2 x 7:00 AMRAP
+- (exercise?) A. 3 x BB Strict Press + 4 x BB Push Press
+- (exercise?) *+I Push Press Every Round  [?]
+- (exercise? / prescription?) 4-6 x DBallTNG Power GTS  [?]
+- (exercise?) *+/ Push Press Every Round  [? vision]
+- (exercise? / prescription?) 4-6 x DBall TNG Power GTS  [? vision]
+- (SECTION / prescription?) B.5-6-7...
+- (exercise?) DB Deadlift (Heavy)
+- (exercise?) 300/200m Bike Erg or
+- (exercise?) 10/8/6 Cal Echo Bike
+- (SECTION) S3.
+- (prescription?) 4:00 Cap
+- (SECTION) For Time:
+- (exercise?) 80/60 x KB/DB Walking or Forward Lunge
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Back Squat
+8.8 x Dynamic Pigeon Stretch
+8.8 x SA KB OH Split Squat
+12 x Scap Chin Up
+sl.
+E2MOM x 8
+1. 9-8-7-6
+BB Back Squat @2-3 RIR
+6-8 x Paused Chin Up
+2. 8.8-7.7-6.6.5.5
+SA KB OH Split Squat
+8-I0 x DBall Supp DB Press
+*Reps Only Reduce If Weight Increases
+S2.
+In Pairs YGIG - 2 x 7:00 AMRAP
+A. 3 x BB Strict Press + 4 x BB Push Press
+*+I Push Press Every Round
+4-6 x DBallTNG Power GTS
+B.5-6-7...
+DB Deadlift (Heavy)
+300/200m Bike Erg or
+10/8/6 Cal Echo Bike
+S3.
+4:00 Cap
+For Time:
+80/60 x KB/DB Walking or Forward Lunge
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 10 x BB Back Squat
+8.8 x Dynamic Pigeon Stretch
+8.8 x SA KB OH Split Squat
+12 x Scap Chin Up
+SI.
+1.9-8-7-6
+BB Back Squat @2-3 RIR
+6-8 x Paused Chin Up
+4:00 Cap
+E2MOM x 8
+2. 8.8-7.7-6.6.5.5
+SA KB OH Split Squat
+8-10 x DBall Supp DB Press
+*Reps Only Reduce If Weight Increases
+S2.
+In Pairs YGIG - 2 x 7:00 AMRAP
+A. 3 x BB Strict Press + 4 x BB Push Press
+*+/ Push Press Every Round
+4-6 x DBall TNG Power GTS
+B.5-6-7...
+DB Deadlift (Heavy)
+300/200m Bike Erg or
+10/8/6 Cal Echo Bike
+S3.
+4:00 Cap
+For Time:
+80/60 x KB/DB Walking or Forward Lunge
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Build Wk 1/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'I0-I5 x Bent Over Banded Pull Apart'; engines differ near: 'BB Bench Press @'; engines differ near: 'Every I:l0 x 12'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap  [?]
+I-2 Sets:6 x BB Bench Press @50-55%  [?]
+I-2 Sets: 6 x BB Bench Press @50-55%  [? vision]
+5.5 x Mixed Grip Scap Pull Up
+I0-I5 x Bent Over Banded Pull Apart  [?]
+8.8 xT-Opener  [?]
+sl.  [?]
+E4MOM x 4  [?]
+10-15 x Bent Over Banded Pull Apart  [? vision]
+8.8 x T-Opener  [? vision]
+SI.  [? vision]
+6-5-4-2+2
+BB Bench Press @  [?]
+@60-70-75-80%  [?]
+BB Bench Press @60-70-75-80%  [? vision]
+6.6-8.8 x SA KB Gorilla Row
+8+6 x DB Lateral Raise
+:40 Rest or Hollow Hold
+4:00 Cap  [? vision only]
+E4MOM x 4  [? vision only]
+*Cluster Set: 15-20s Rest Between
+S2.
+Every I:l0 x 12  [?]
+1. 4+2 xTNG BB Pendlay Row  [?]
+2.4-6 x DB Incline Bench Press  [?]
+3. 4-6 x Pull/Chin Up or I2 x AIt DB Curl  [?]
+4. Rest or I5 x Band Tricep Pushdown  [?]
+Every |:10 x 12  [? vision]
+1.4+2 x TNG BB Pendlay Row  [? vision]
+2. 4-6 x DB Incline Bench Press  [? vision]
+3. 4-6 x Pull/Chin Up or 12 x Alt DB Curl  [? vision]
+4. Rest or 15 x Band Tricep Pushdown  [? vision]
+S3.
+In Pairs - 4:00 Cap
+100/80 x Bench or 80/60 x Bar Dip
+*Person In Background:
+Max BB Curl or DB Reverse Fly
+*Switch When Dip Member Breaks
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I-2 Sets:6 x BB Bench Press @50-55%  [?]
+- (exercise? / prescription?) I-2 Sets: 6 x BB Bench Press @50-55%  [? vision]
+- (exercise?) 5.5 x Mixed Grip Scap Pull Up
+- (uncertain) I0-I5 x Bent Over Banded Pull Apart  [?]
+- (uncertain) 8.8 xT-Opener  [?]
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E4MOM x 4  [?]
+- (uncertain) 10-15 x Bent Over Banded Pull Apart  [? vision]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 6-5-4-2+2
+- (exercise?) BB Bench Press @  [?]
+- (prescription?) @60-70-75-80%  [?]
+- (exercise? / prescription?) BB Bench Press @60-70-75-80%  [? vision]
+- (exercise?) 6.6-8.8 x SA KB Gorilla Row
+- (exercise?) 8+6 x DB Lateral Raise
+- (exercise? / prescription?) :40 Rest or Hollow Hold
+- (prescription?) 4:00 Cap  [? vision only]
+- (SECTION / prescription?) E4MOM x 4  [? vision only]
+- (SECTION) S2.
+- (prescription?) Every I:l0 x 12  [?]
+- (exercise? / prescription?) 1. 4+2 xTNG BB Pendlay Row  [?]
+- (exercise?) 2.4-6 x DB Incline Bench Press  [?]
+- (exercise?) 3. 4-6 x Pull/Chin Up or I2 x AIt DB Curl  [?]
+- (uncertain) 4. Rest or I5 x Band Tricep Pushdown  [?]
+- (prescription?) Every |:10 x 12  [? vision]
+- (exercise? / prescription?) 1.4+2 x TNG BB Pendlay Row  [? vision]
+- (exercise?) 2. 4-6 x DB Incline Bench Press  [? vision]
+- (exercise?) 3. 4-6 x Pull/Chin Up or 12 x Alt DB Curl  [? vision]
+- (uncertain) 4. Rest or 15 x Band Tricep Pushdown  [? vision]
+- (SECTION) S3.
+- (prescription?) In Pairs - 4:00 Cap
+- (exercise?) 100/80 x Bench or 80/60 x Bar Dip
+- (exercise?) Max BB Curl or DB Reverse Fly
+- (exercise?) *Switch When Dip Member Breaks
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+I-2 Sets:6 x BB Bench Press @50-55%
+5.5 x Mixed Grip Scap Pull Up
+I0-I5 x Bent Over Banded Pull Apart
+8.8 xT-Opener
+sl.
+E4MOM x 4
+6-5-4-2+2
+BB Bench Press @
+@60-70-75-80%
+6.6-8.8 x SA KB Gorilla Row
+8+6 x DB Lateral Raise
+:40 Rest or Hollow Hold
+*Cluster Set: 15-20s Rest Between
+S2.
+Every I:l0 x 12
+1. 4+2 xTNG BB Pendlay Row
+2.4-6 x DB Incline Bench Press
+3. 4-6 x Pull/Chin Up or I2 x AIt DB Curl
+4. Rest or I5 x Band Tricep Pushdown
+S3.
+In Pairs - 4:00 Cap
+100/80 x Bench or 80/60 x Bar Dip
+*Person In Background:
+Max BB Curl or DB Reverse Fly
+*Switch When Dip Member Breaks
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+I-2 Sets: 6 x BB Bench Press @50-55%
+5.5 x Mixed Grip Scap Pull Up
+10-15 x Bent Over Banded Pull Apart
+8.8 x T-Opener
+SI.
+6-5-4-2+2
+BB Bench Press @60-70-75-80%
+6.6-8.8 x SA KB Gorilla Row
+8+6 x DB Lateral Raise
+:40 Rest or Hollow Hold
+4:00 Cap
+E4MOM x 4
+*Cluster Set: 15-20s Rest Between
+S2.
+Every |:10 x 12
+1.4+2 x TNG BB Pendlay Row
+2. 4-6 x DB Incline Bench Press
+3. 4-6 x Pull/Chin Up or 12 x Alt DB Curl
+4. Rest or 15 x Band Tricep Pushdown
+S3.
+In Pairs - 4:00 Cap
+100/80 x Bench or 80/60 x Bar Dip
+*Person In Background:
+Max BB Curl or DB Reverse Fly
+*Switch When Dip Member Breaks
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Build Wk 1/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATTEAM'; engines differ near: '200m Ski/Row or 400m Bike or I6/12/8 Cal Echo'; engines differ near: 'I6/l2 x Alt DB Goblet Reverse Lunge'; engines differ near: 'A. 1. 40 x Synchro KB Swing'; engines differ near: '2. 40 x Synchro Push Up'; engines differ near: 'B. 1.32 x Synchro Burpee'; engines differ near: 'IP Drop Off Every I0 Lunges'; engines differ near: 'Erg Pacing: I:50/2:00/2:10'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATTEAM  [?]
+SWEAT TEAM  [? vision]
+WARM UP
+4:00 Cap
+200m Ski/Row or 400m Bike or I6/12/8 Cal Echo  [?]
+200m Ski/Row or 400m Bike or |6/|2/8 Cal Echo  [? vision]
+16/12 x Single KB RDL
+16/12 x Push Up
+I6/l2 x Alt DB Goblet Reverse Lunge  [?]
+16/12 x Alt DB Goblet Reverse Lunge  [? vision]
+Teams of 4 - 2 Blocks Every E5MOM x 4
+A. 1. 40 x Synchro KB Swing  [?]
+A. I. 40 x Synchro KB Swing  [? vision]
+IP Drop Off Every 10 Swings
+2200/2000/1800m Bike Erg
+2. 40 x Synchro Push Up  [?]
+2.40 x Synchro Push Up  [? vision]
+IP Drop Off Every 10 Push Ups
+1000/800/700m Row Erg
+*2:00 Between Blocks
+B. 1.32 x Synchro Burpee  [?]
+B. I.32 x Synchro Burpee  [? vision]
+IP Drop Off Every 8 Burpees
+80/60/40 Cal Echo Bike
+2. 40 x Synchro DB Goblet Reverse Lunge
+IP Drop Off Every I0 Lunges  [?]
+I100/l000/900m Ski Erg  [?]
+IP Drop Off Every 10 Lunges  [? vision]
+1100/1000/900m Ski Erg  [? vision]
+*Work Capped at 4:30
+Erg Pacing: I:50/2:00/2:10  [?]
+Erg Pacing: 1:50/2:00/2:10  [? vision]
+Echo Cadence: 72/66/57
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATTEAM  [?]
+- (uncertain) SWEAT TEAM  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) 200m Ski/Row or 400m Bike or I6/12/8 Cal Echo  [?]
+- (exercise?) 200m Ski/Row or 400m Bike or |6/|2/8 Cal Echo  [? vision]
+- (exercise?) 16/12 x Single KB RDL
+- (exercise?) 16/12 x Push Up
+- (exercise?) I6/l2 x Alt DB Goblet Reverse Lunge  [?]
+- (exercise?) 16/12 x Alt DB Goblet Reverse Lunge  [? vision]
+- (prescription?) Teams of 4 - 2 Blocks Every E5MOM x 4
+- (exercise?) A. 1. 40 x Synchro KB Swing  [?]
+- (exercise?) A. I. 40 x Synchro KB Swing  [? vision]
+- (exercise?) IP Drop Off Every 10 Swings
+- (exercise?) 2200/2000/1800m Bike Erg
+- (exercise?) 2. 40 x Synchro Push Up  [?]
+- (exercise?) 2.40 x Synchro Push Up  [? vision]
+- (exercise?) IP Drop Off Every 10 Push Ups
+- (exercise?) 1000/800/700m Row Erg
+- (prescription?) *2:00 Between Blocks
+- (exercise?) B. 1.32 x Synchro Burpee  [?]
+- (exercise?) B. I.32 x Synchro Burpee  [? vision]
+- (exercise?) IP Drop Off Every 8 Burpees
+- (exercise?) 80/60/40 Cal Echo Bike
+- (exercise?) 2. 40 x Synchro DB Goblet Reverse Lunge
+- (exercise?) IP Drop Off Every I0 Lunges  [?]
+- (exercise?) I100/l000/900m Ski Erg  [?]
+- (exercise?) IP Drop Off Every 10 Lunges  [? vision]
+- (exercise?) 1100/1000/900m Ski Erg  [? vision]
+- (prescription?) *Work Capped at 4:30
+- (prescription?) Erg Pacing: I:50/2:00/2:10  [?]
+- (prescription?) Erg Pacing: 1:50/2:00/2:10  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATTEAM
+WARM UP
+4:00 Cap
+200m Ski/Row or 400m Bike or I6/12/8 Cal Echo
+16/12 x Single KB RDL
+16/12 x Push Up
+I6/l2 x Alt DB Goblet Reverse Lunge
+Teams of 4 - 2 Blocks Every E5MOM x 4
+A. 1. 40 x Synchro KB Swing
+IP Drop Off Every 10 Swings
+2200/2000/1800m Bike Erg
+2. 40 x Synchro Push Up
+IP Drop Off Every 10 Push Ups
+1000/800/700m Row Erg
+*2:00 Between Blocks
+B. 1.32 x Synchro Burpee
+IP Drop Off Every 8 Burpees
+80/60/40 Cal Echo Bike
+2. 40 x Synchro DB Goblet Reverse Lunge
+IP Drop Off Every I0 Lunges
+I100/l000/900m Ski Erg
+*Work Capped at 4:30
+Erg Pacing: I:50/2:00/2:10
+Echo Cadence: 72/66/57
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+200m Ski/Row or 400m Bike or |6/|2/8 Cal Echo
+16/12 x Single KB RDL
+16/12 x Push Up
+16/12 x Alt DB Goblet Reverse Lunge
+Teams of 4 - 2 Blocks Every E5MOM x 4
+A. I. 40 x Synchro KB Swing
+IP Drop Off Every 10 Swings
+2200/2000/1800m Bike Erg
+2.40 x Synchro Push Up
+IP Drop Off Every 10 Push Ups
+1000/800/700m Row Erg
+*2:00 Between Blocks
+B. I.32 x Synchro Burpee
+IP Drop Off Every 8 Burpees
+80/60/40 Cal Echo Bike
+2. 40 x Synchro DB Goblet Reverse Lunge
+IP Drop Off Every 10 Lunges
+1100/1000/900m Ski Erg
+*Work Capped at 4:30
+Erg Pacing: 1:50/2:00/2:10
+Echo Cadence: 72/66/57
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Build Wk 1/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'In Pairs (l:I) - 4 x I0:00 AMRAP'; engines differ near: '*I:00 Between Blocks'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARM UP
+4:00 Cap  [?]
+I0 x BB Reverse Lunge or Push Press  [?]
+10 x BB Reverse Lunge or Push Press  [? vision]
+10 x Ring Row
+15/10 Cal Ski/Bike Erg Effort
+10.10 x Weighted Hip Opener
+In Pairs (l:I) - 4 x I0:00 AMRAP  [?]
+A  [?]
+In Pairs (I:I) - 4 x 10:00 AMRAP  [? vision]
+4:00 Cap  [? vision]
+A.  [? vision]
+20-30-40...
+BB Alt Reverse Lunge or Push Press
+30/20 x Ring Row
+B.
+20-30-40...
+DB Thruster or Hammer Curl
+30/20 Cal Ski Erg
+C.  [? vision only]
+20-30-40...
+BB Hip Thrust or Hang Power Clean
+25/15 Synchro Push Up
+D.
+20-30-40...
+KB Sumo Deadlift or Dual Gorilla Row
+30/20 Cal Bike Erg
+*I:00 Between Blocks  [?]
+*1:00 Between Blocks  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I0 x BB Reverse Lunge or Push Press  [?]
+- (exercise?) 10 x BB Reverse Lunge or Push Press  [? vision]
+- (exercise?) 10 x Ring Row
+- (exercise?) 15/10 Cal Ski/Bike Erg Effort
+- (prescription?) In Pairs (l:I) - 4 x I0:00 AMRAP  [?]
+- (uncertain) A  [?]
+- (prescription?) In Pairs (I:I) - 4 x 10:00 AMRAP  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) A.  [? vision]
+- (prescription?) 20-30-40...
+- (exercise?) BB Alt Reverse Lunge or Push Press
+- (exercise?) 30/20 x Ring Row
+- (prescription?) 20-30-40...
+- (exercise?) DB Thruster or Hammer Curl
+- (exercise?) 30/20 Cal Ski Erg
+- (uncertain) C.  [? vision only]
+- (prescription?) 20-30-40...
+- (exercise?) BB Hip Thrust or Hang Power Clean
+- (exercise?) 25/15 Synchro Push Up
+- (prescription?) 20-30-40...
+- (exercise?) KB Sumo Deadlift or Dual Gorilla Row
+- (exercise?) 30/20 Cal Bike Erg
+- (prescription?) *I:00 Between Blocks  [?]
+- (prescription?) *1:00 Between Blocks  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+I0 x BB Reverse Lunge or Push Press
+10 x Ring Row
+15/10 Cal Ski/Bike Erg Effort
+10.10 x Weighted Hip Opener
+In Pairs (l:I) - 4 x I0:00 AMRAP
+A
+20-30-40...
+BB Alt Reverse Lunge or Push Press
+30/20 x Ring Row
+B.
+20-30-40...
+DB Thruster or Hammer Curl
+30/20 Cal Ski Erg
+20-30-40...
+BB Hip Thrust or Hang Power Clean
+25/15 Synchro Push Up
+D.
+20-30-40...
+KB Sumo Deadlift or Dual Gorilla Row
+30/20 Cal Bike Erg
+*I:00 Between Blocks
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+10 x BB Reverse Lunge or Push Press
+10 x Ring Row
+15/10 Cal Ski/Bike Erg Effort
+10.10 x Weighted Hip Opener
+In Pairs (I:I) - 4 x 10:00 AMRAP
+4:00 Cap
+A.
+20-30-40...
+BB Alt Reverse Lunge or Push Press
+30/20 x Ring Row
+B.
+20-30-40...
+DB Thruster or Hammer Curl
+30/20 Cal Ski Erg
+C.
+20-30-40...
+BB Hip Thrust or Hang Power Clean
+25/15 Synchro Push Up
+D.
+20-30-40...
+KB Sumo Deadlift or Dual Gorilla Row
+30/20 Cal Bike Erg
+*1:00 Between Blocks
+```
+</details>
+
+
+## Block 3 — Build Wk 2  (programme week 5) [inferred]
+
+- **Phase:** Build  ·  **Phase-week:** 2  ·  **Overall week:** 5   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Build Wk 2/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'BB TNG Deadlift @2 RIR'; engines differ near: 'I. YGlG 2-3 Rounds Each'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+1-2 Sets:8 x BB Deadlift  [?]
+1-2 Sets: 8 x BB Deadlift  [? vision]
+12 x Plank to Pike
+12 x Kip Swing
+8.8 x World's Greatest Stretch
+sl.  [?]
+In Pairs YGlG - 2 x 9:00 Blocks  [?]
+SI.  [? vision]
+4:00 Cap  [? vision]
+In Pairs YGIG - 2 x 9:00 Blocks  [? vision]
+A. 8-7-6...
+BB TNG Deadlift @2 RIR  [?]
+BBTNG Deadlift @2 RIR  [? vision]
+6.6 x SA KB Push Press
+B. 14-12-10...
+Alt DB Plank Row
+TTB/K2C
+*Reps Only Decrease IfWeight Increases
+S2.
+In Pairs - E4MOM x 4
+I. YGlG 2-3 Rounds Each  [?]
+I. YGIG 2-3 Rounds Each  [? vision]
+3-4 x BB Push Press
+6-8 x BB Push Jerk
+2. 2 Rounds
+8.8 x Synchro SA DB FR Reverse Lunge
+30/24/18 Cal Bike/Ski Erg
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) 1-2 Sets:8 x BB Deadlift  [?]
+- (exercise?) 1-2 Sets: 8 x BB Deadlift  [? vision]
+- (exercise?) 12 x Plank to Pike
+- (exercise?) 12 x Kip Swing
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (prescription?) In Pairs YGlG - 2 x 9:00 Blocks  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) In Pairs YGIG - 2 x 9:00 Blocks  [? vision]
+- (prescription?) A. 8-7-6...
+- (exercise? / prescription?) BB TNG Deadlift @2 RIR  [?]
+- (exercise? / prescription?) BBTNG Deadlift @2 RIR  [? vision]
+- (exercise?) 6.6 x SA KB Push Press
+- (prescription?) B. 14-12-10...
+- (exercise?) Alt DB Plank Row
+- (SECTION) S2.
+- (prescription?) In Pairs - E4MOM x 4
+- (uncertain) I. YGlG 2-3 Rounds Each  [?]
+- (uncertain) I. YGIG 2-3 Rounds Each  [? vision]
+- (exercise?) 3-4 x BB Push Press
+- (exercise?) 6-8 x BB Push Jerk
+- (exercise?) 8.8 x Synchro SA DB FR Reverse Lunge
+- (exercise?) 30/24/18 Cal Bike/Ski Erg
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+1-2 Sets:8 x BB Deadlift
+12 x Plank to Pike
+12 x Kip Swing
+8.8 x World's Greatest Stretch
+sl.
+In Pairs YGlG - 2 x 9:00 Blocks
+A. 8-7-6...
+BB TNG Deadlift @2 RIR
+6.6 x SA KB Push Press
+B. 14-12-10...
+Alt DB Plank Row
+TTB/K2C
+*Reps Only Decrease IfWeight Increases
+S2.
+In Pairs - E4MOM x 4
+I. YGlG 2-3 Rounds Each
+3-4 x BB Push Press
+6-8 x BB Push Jerk
+2. 2 Rounds
+8.8 x Synchro SA DB FR Reverse Lunge
+30/24/18 Cal Bike/Ski Erg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8 x BB Deadlift
+12 x Plank to Pike
+12 x Kip Swing
+8.8 x World's Greatest Stretch
+SI.
+4:00 Cap
+In Pairs YGIG - 2 x 9:00 Blocks
+A. 8-7-6...
+BBTNG Deadlift @2 RIR
+6.6 x SA KB Push Press
+B. 14-12-10...
+Alt DB Plank Row
+TTB/K2C
+*Reps Only Decrease IfWeight Increases
+S2.
+In Pairs - E4MOM x 4
+I. YGIG 2-3 Rounds Each
+3-4 x BB Push Press
+6-8 x BB Push Jerk
+2. 2 Rounds
+8.8 x Synchro SA DB FR Reverse Lunge
+30/24/18 Cal Bike/Ski Erg
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Build Wk 2/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: '12 xAIt DB Bench Press (Light)'; engines differ near: 'sl.'; engines differ near: 'BB Deadlift @60-65-75-80-85%'; engines differ near: 'I:00 Rest'; engines differ near: '*Reps Only Decrease IfWeight Increases'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARMUP  [?]
+WARM UP  [? vision]
+4:00 Cap
+I-2 Sets: 6 x BB Deadlift @50-55%
+:30-:40 Plate OH Hold
+12 xAIt DB Bench Press (Light)  [?]
+12 x Alt DB Bench Press (Light)  [? vision]
+8.8 x World's Greatest Stretch
+sl.  [?]
+SI.  [? vision]
+18:00 Cap
+5-4-3-2-1+1
+BB Deadlift @60-65-75-80-85%  [?]
+*Sets I-3: First 2 Reps Paused (Mid Shin)  [?]
+6-I0 x Alt DB Bench Press  [?]
+BB Deadlift  [? vision]
+@60-65-75-80-85%  [? vision]
+*Sets /-3: First 2 Reps Paused (Mid Shin)  [? vision]
+6-10 x Alt DB Bench Press  [? vision]
+Optional: 8.8 x KB Side Bend
+I:00 Rest  [?]
+1:00 Rest  [? vision]
+S2.
+Every 3:15 x 5
+6-5-4-3-2
+BB Push Press/Jerk (2s Pause OH)
+16/12/10 x Unbroken TTB/TTH/K2C
+Alternate Each Round Between:
+6-8 x KB FR Squat or
+6-8 x Deadstop KB Swing (AHAP)
+*Reps Only Decrease IfWeight Increases  [?]
+*Reps Only Decrease If Weight Increases  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 6 x BB Deadlift @50-55%
+- (exercise? / prescription?) :30-:40 Plate OH Hold
+- (exercise?) 12 xAIt DB Bench Press (Light)  [?]
+- (exercise?) 12 x Alt DB Bench Press (Light)  [? vision]
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 18:00 Cap
+- (prescription?) 5-4-3-2-1+1
+- (exercise? / prescription?) BB Deadlift @60-65-75-80-85%  [?]
+- (uncertain) *Sets I-3: First 2 Reps Paused (Mid Shin)  [?]
+- (exercise?) 6-I0 x Alt DB Bench Press  [?]
+- (exercise?) BB Deadlift  [? vision]
+- (prescription?) @60-65-75-80-85%  [? vision]
+- (uncertain) *Sets /-3: First 2 Reps Paused (Mid Shin)  [? vision]
+- (exercise?) 6-10 x Alt DB Bench Press  [? vision]
+- (exercise?) Optional: 8.8 x KB Side Bend
+- (prescription?) I:00 Rest  [?]
+- (prescription?) 1:00 Rest  [? vision]
+- (SECTION) S2.
+- (prescription?) Every 3:15 x 5
+- (prescription?) 6-5-4-3-2
+- (exercise?) BB Push Press/Jerk (2s Pause OH)
+- (exercise?) 6-8 x KB FR Squat or
+- (exercise? / prescription?) 6-8 x Deadstop KB Swing (AHAP)
+- (uncertain) *Reps Only Decrease IfWeight Increases  [?]
+- (uncertain) *Reps Only Decrease If Weight Increases  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARMUP
+4:00 Cap
+I-2 Sets: 6 x BB Deadlift @50-55%
+:30-:40 Plate OH Hold
+12 xAIt DB Bench Press (Light)
+8.8 x World's Greatest Stretch
+sl.
+18:00 Cap
+5-4-3-2-1+1
+BB Deadlift @60-65-75-80-85%
+*Sets I-3: First 2 Reps Paused (Mid Shin)
+6-I0 x Alt DB Bench Press
+Optional: 8.8 x KB Side Bend
+I:00 Rest
+S2.
+Every 3:15 x 5
+6-5-4-3-2
+BB Push Press/Jerk (2s Pause OH)
+16/12/10 x Unbroken TTB/TTH/K2C
+Alternate Each Round Between:
+6-8 x KB FR Squat or
+6-8 x Deadstop KB Swing (AHAP)
+*Reps Only Decrease IfWeight Increases
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Deadlift @50-55%
+:30-:40 Plate OH Hold
+12 x Alt DB Bench Press (Light)
+8.8 x World's Greatest Stretch
+SI.
+18:00 Cap
+5-4-3-2-1+1
+BB Deadlift
+@60-65-75-80-85%
+*Sets /-3: First 2 Reps Paused (Mid Shin)
+6-10 x Alt DB Bench Press
+Optional: 8.8 x KB Side Bend
+1:00 Rest
+S2.
+Every 3:15 x 5
+6-5-4-3-2
+BB Push Press/Jerk (2s Pause OH)
+16/12/10 x Unbroken TTB/TTH/K2C
+Alternate Each Round Between:
+6-8 x KB FR Squat or
+6-8 x Deadstop KB Swing (AHAP)
+*Reps Only Decrease If Weight Increases
+```
+</details>
+
+### tuesday sweat sprint
+`REVL Block 3 programming 2026/Build Wk 2/tuesday sweat sprint.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Sprint** [inferred]
+
+_Reader notes:_ engines differ near: '2 x :30 Erg Effort @RPE 7-8'; engines differ near: 'B. I.Ski Erg'; engines differ near: 'C. I.Echo Bike'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 x :30 Erg Effort @RPE 7-8  [?]
+2x:30 Erg Effort @RPE 7-8  [? vision]
+8.8 x World's Greatest Stretch
+10 x Burpee
+10 x Dual KB Hang Clean or Box Jump Over
+4 Blocks - EMOM x 9
+A. I. Bike Erg
+F: 320/290/260m M: 340/310/280m
+2. Max Burpee to Plate
+3. Rest
+B. I.Ski Erg  [?]
+B. I. Ski Erg  [? vision]
+F: 145/130/115m M: 160/145/130m
+2. Max Box Jump Over OR Step Over
+3. Rest
+C. I.Echo Bike  [?]
+C. I. Echo Bike  [? vision]
+F: 11/8/5 Cal M: 16/12/8 Cal
+2. Max Dual KB Hang Clean
+3. Rest
+D. I. Row Erg
+F: 155/140/125m M: 165/150/135m
+2. Max Dual DB Push Press
+3. Rest
+*All Worked Capped at :30
+Score = Scale + Total Reps
+KB Weights: F = 16/12/ 8kg M = 24/20/16kg
+DB Weights: F = 15/10/8kg M = 22.5/17.5/12.5kg
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) 2 x :30 Erg Effort @RPE 7-8  [?]
+- (exercise? / prescription?) 2x:30 Erg Effort @RPE 7-8  [? vision]
+- (exercise?) 8.8 x World's Greatest Stretch
+- (exercise?) 10 x Burpee
+- (exercise?) 10 x Dual KB Hang Clean or Box Jump Over
+- (prescription?) 4 Blocks - EMOM x 9
+- (exercise?) A. I. Bike Erg
+- (exercise?) 2. Max Burpee to Plate
+- (exercise?) B. I.Ski Erg  [?]
+- (exercise?) B. I. Ski Erg  [? vision]
+- (exercise?) 2. Max Box Jump Over OR Step Over
+- (exercise?) C. I.Echo Bike  [?]
+- (exercise?) C. I. Echo Bike  [? vision]
+- (exercise?) 2. Max Dual KB Hang Clean
+- (exercise?) D. I. Row Erg
+- (exercise?) 2. Max Dual DB Push Press
+- (prescription?) *All Worked Capped at :30
+- (SECTION) Score = Scale + Total Reps
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 x :30 Erg Effort @RPE 7-8
+8.8 x World's Greatest Stretch
+10 x Burpee
+10 x Dual KB Hang Clean or Box Jump Over
+4 Blocks - EMOM x 9
+A. I. Bike Erg
+F: 320/290/260m M: 340/310/280m
+2. Max Burpee to Plate
+3. Rest
+B. I.Ski Erg
+F: 145/130/115m M: 160/145/130m
+2. Max Box Jump Over OR Step Over
+3. Rest
+C. I.Echo Bike
+F: 11/8/5 Cal M: 16/12/8 Cal
+2. Max Dual KB Hang Clean
+3. Rest
+D. I. Row Erg
+F: 155/140/125m M: 165/150/135m
+2. Max Dual DB Push Press
+3. Rest
+*All Worked Capped at :30
+Score = Scale + Total Reps
+KB Weights: F = 16/12/ 8kg M = 24/20/16kg
+DB Weights: F = 15/10/8kg M = 22.5/17.5/12.5kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2x:30 Erg Effort @RPE 7-8
+8.8 x World's Greatest Stretch
+10 x Burpee
+10 x Dual KB Hang Clean or Box Jump Over
+4 Blocks - EMOM x 9
+A. I. Bike Erg
+F: 320/290/260m M: 340/310/280m
+2. Max Burpee to Plate
+3. Rest
+B. I. Ski Erg
+F: 145/130/115m M: 160/145/130m
+2. Max Box Jump Over OR Step Over
+3. Rest
+C. I. Echo Bike
+F: 11/8/5 Cal M: 16/12/8 Cal
+2. Max Dual KB Hang Clean
+3. Rest
+D. I. Row Erg
+F: 155/140/125m M: 165/150/135m
+2. Max Dual DB Push Press
+3. Rest
+*All Worked Capped at :30
+Score = Scale + Total Reps
+KB Weights: F = 16/12/ 8kg M = 24/20/16kg
+DB Weights: F = 15/10/8kg M = 22.5/17.5/12.5kg
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Build Wk 2/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets:8 x BB Bench Press'; engines differ near: '8.8 xT-Opener'; engines differ near: 'BB Bench Press'; engines differ near: 'B. 10-9-8-7-6'; engines differ near: '10 x DB Hammer Curl ORAtomic Sit Up'; engines differ near: 'B.3-4 Rounds'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets:8 x BB Bench Press  [?]
+I-2 Sets: 8 x BB Bench Press  [? vision]
+12 x BW Cyclist Squat
+:40 Tall Plank
+8.8 xT-Opener  [?]
+8.8 x T-Opener  [? vision]
+si.
+2 x 9:00 Cap
+A. 8-7-6-5-4
+BB Bench Press  [?]
+@2 RIR  [?]
+BB Bench Press @2 RIR  [? vision]
+6.6-8.8 x SA KB Staggered Stance RDL
+B. 10-9-8-7-6  [?]
+В. 10-9-8-7-6  [? vision]
+KB Goblet Cyclist Squat (AHAP)
+10 x DB Hammer Curl ORAtomic Sit Up  [?]
+10 x DB Hammer Curl OR Atomic Sit Up  [? vision]
+*Reps Only Decrease IfWeight Increases
+S2.
+2 x 8:00 Cap
+A. 4-5 Rounds
+Build To A Heavy:
+5-6 x BB Power Clean or RDL
+*4.4-6.6 x SA KB Strict Press
+B.3-4 Rounds  [?]
+B. 3-4 Rounds  [? vision]
+8 x DB Renegade Row (Heavy)
+4.4 x Ring Pistol Squat
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets:8 x BB Bench Press  [?]
+- (exercise?) I-2 Sets: 8 x BB Bench Press  [? vision]
+- (exercise?) 12 x BW Cyclist Squat
+- (exercise? / prescription?) :40 Tall Plank
+- (uncertain) 8.8 xT-Opener  [?]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (prescription?) 2 x 9:00 Cap
+- (prescription?) A. 8-7-6-5-4
+- (exercise?) BB Bench Press  [?]
+- (prescription?) @2 RIR  [?]
+- (exercise? / prescription?) BB Bench Press @2 RIR  [? vision]
+- (exercise?) 6.6-8.8 x SA KB Staggered Stance RDL
+- (prescription?) B. 10-9-8-7-6  [?]
+- (prescription?) В. 10-9-8-7-6  [? vision]
+- (exercise? / prescription?) KB Goblet Cyclist Squat (AHAP)
+- (exercise?) 10 x DB Hammer Curl ORAtomic Sit Up  [?]
+- (exercise?) 10 x DB Hammer Curl OR Atomic Sit Up  [? vision]
+- (SECTION) S2.
+- (prescription?) 2 x 8:00 Cap
+- (exercise?) 5-6 x BB Power Clean or RDL
+- (exercise?) *4.4-6.6 x SA KB Strict Press
+- (SECTION) B.3-4 Rounds  [?]
+- (uncertain) B. 3-4 Rounds  [? vision]
+- (exercise?) 8 x DB Renegade Row (Heavy)
+- (exercise?) 4.4 x Ring Pistol Squat
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets:8 x BB Bench Press
+12 x BW Cyclist Squat
+:40 Tall Plank
+8.8 xT-Opener
+si.
+2 x 9:00 Cap
+A. 8-7-6-5-4
+BB Bench Press
+@2 RIR
+6.6-8.8 x SA KB Staggered Stance RDL
+B. 10-9-8-7-6
+KB Goblet Cyclist Squat (AHAP)
+10 x DB Hammer Curl ORAtomic Sit Up
+*Reps Only Decrease IfWeight Increases
+S2.
+2 x 8:00 Cap
+A. 4-5 Rounds
+Build To A Heavy:
+5-6 x BB Power Clean or RDL
+*4.4-6.6 x SA KB Strict Press
+B.3-4 Rounds
+8 x DB Renegade Row (Heavy)
+4.4 x Ring Pistol Squat
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press
+12 x BW Cyclist Squat
+:40 Tall Plank
+8.8 x T-Opener
+SI.
+2 x 9:00 Cap
+A. 8-7-6-5-4
+BB Bench Press @2 RIR
+6.6-8.8 x SA KB Staggered Stance RDL
+В. 10-9-8-7-6
+KB Goblet Cyclist Squat (AHAP)
+10 x DB Hammer Curl OR Atomic Sit Up
+*Reps Only Decrease IfWeight Increases
+S2.
+2 x 8:00 Cap
+A. 4-5 Rounds
+Build To A Heavy:
+5-6 x BB Power Clean or RDL
+*4.4-6.6 x SA KB Strict Press
+B. 3-4 Rounds
+8 x DB Renegade Row (Heavy)
+4.4 x Ring Pistol Squat
+```
+</details>
+
+### wednesday perform lower
+`REVL Block 3 programming 2026/Build Wk 2/wednesday perform lower.png`  ·  day **Wednesday** [inferred]  ·  session **Perform Lower** [inferred]
+
+_Reader notes:_ engines differ near: 'I2 x BW Cossack Squat'; engines differ near: '8-I2 x Alt DB Goblet Cossack Squat'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Back/Front Squat @50-55%
+8.8 x Dynamic Pigeon Stretch
+I2 x BW Cossack Squat  [?]
+I2 x DB RDL  [?]
+12 x BW Cossack Squat  [? vision]
+12 x DB RDL  [? vision]
+Sl.
+18:00 Cap
+5-4-3-2-1+1
+BB Back/Front Squat @60-65-75-80-85%
+Alternate Each Round Between:
+6.6 x DB Staggered Stance RDL
+8-I2 x Alt DB Goblet Cossack Squat  [?]
+8-12 x Alt DB Goblet Cossack Squat  [? vision]
+*:45 Rest Between Each Exercise
+S2.
+2 x 8:00 Blocks
+A. In Pairs YGIG
+4-4-3-3-2-2
+BB Power Clean (Building Weight)
+Or 6-10 x BB RDL
+B.AMRAP
+4.4-6.6 x DB FFE Rev Lunge (AHAP)
+Optional: 6 x Roller Hamstring Curl
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 6 x BB Back/Front Squat @50-55%
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (exercise?) I2 x BW Cossack Squat  [?]
+- (exercise?) I2 x DB RDL  [?]
+- (exercise?) 12 x BW Cossack Squat  [? vision]
+- (exercise?) 12 x DB RDL  [? vision]
+- (prescription?) 18:00 Cap
+- (prescription?) 5-4-3-2-1+1
+- (exercise? / prescription?) BB Back/Front Squat @60-65-75-80-85%
+- (exercise?) 6.6 x DB Staggered Stance RDL
+- (exercise?) 8-I2 x Alt DB Goblet Cossack Squat  [?]
+- (exercise?) 8-12 x Alt DB Goblet Cossack Squat  [? vision]
+- (prescription?) *:45 Rest Between Each Exercise
+- (SECTION) S2.
+- (prescription?) 2 x 8:00 Blocks
+- (prescription?) 4-4-3-3-2-2
+- (exercise?) BB Power Clean (Building Weight)
+- (exercise?) Or 6-10 x BB RDL
+- (SECTION / prescription?) B.AMRAP
+- (exercise? / prescription?) 4.4-6.6 x DB FFE Rev Lunge (AHAP)
+- (exercise?) Optional: 6 x Roller Hamstring Curl
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Back/Front Squat @50-55%
+8.8 x Dynamic Pigeon Stretch
+I2 x BW Cossack Squat
+I2 x DB RDL
+Sl.
+18:00 Cap
+5-4-3-2-1+1
+BB Back/Front Squat @60-65-75-80-85%
+Alternate Each Round Between:
+6.6 x DB Staggered Stance RDL
+8-I2 x Alt DB Goblet Cossack Squat
+*:45 Rest Between Each Exercise
+S2.
+2 x 8:00 Blocks
+A. In Pairs YGIG
+4-4-3-3-2-2
+BB Power Clean (Building Weight)
+Or 6-10 x BB RDL
+B.AMRAP
+4.4-6.6 x DB FFE Rev Lunge (AHAP)
+Optional: 6 x Roller Hamstring Curl
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Back/Front Squat @50-55%
+8.8 x Dynamic Pigeon Stretch
+12 x BW Cossack Squat
+12 x DB RDL
+Sl.
+18:00 Cap
+5-4-3-2-1+1
+BB Back/Front Squat @60-65-75-80-85%
+Alternate Each Round Between:
+6.6 x DB Staggered Stance RDL
+8-12 x Alt DB Goblet Cossack Squat
+*:45 Rest Between Each Exercise
+S2.
+2 x 8:00 Blocks
+A. In Pairs YGIG
+4-4-3-3-2-2
+BB Power Clean (Building Weight)
+Or 6-10 x BB RDL
+B.AMRAP
+4.4-6.6 x DB FFE Rev Lunge (AHAP)
+Optional: 6 x Roller Hamstring Curl
+```
+</details>
+
+### thursday sweat engine
+`REVL Block 3 programming 2026/Build Wk 2/thursday sweat engine.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Engine** [inferred]
+
+_Reader notes:_ engines differ near: '10-I2 xTTH/K2C'; engines differ near: '3 x I2:00 Caps'; engines differ near: 'B.2400/2000/l600m Bike Erg'; engines differ near: '10 x AIt SA DB Hang Cluster'; engines differ near: 'Work Capped at I0:00'; engines differ near: 'Wall Ball Weights: F = I4/8lb / M = 20/14lb'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap  [? rapid only]
+:45 Ski/Row Erg or Echo Bike Effort
+10-I2 xTTH/K2C  [?]
+10-12 x TTH/K2C  [? vision]
+45 Echo/Bike Effort
+8.8 x SA DB OH Reverse Lunge
+3 x I2:00 Caps  [?]
+A. 1200/1000/800m Ski/Row Erg  [?]
+3 x 12:00 Caps  [? vision]
+4:00 Cap  [? vision]
+A. I200/1000/800m Ski/Row Erg  [? vision]
+3 Rounds
+10 xTTB/TTH/K2C
+20/16/12 x Wall Ball
+B.2400/2000/l600m Bike Erg  [?]
+B. 2400/2000/1600m Bike Erg  [? vision]
+or 60/45/30 Cal Echo Bike
+3 Rounds
+10 x AIt SA DB Hang Cluster  [?]
+20/l6/12 x SA DB OH Reverse Lunge  [?]
+C.6 Rounds  [?]
+10 x Alt SA DB Hang Cluster  [? vision]
+20/16/12 x SA DB OH Reverse Lunge  [? vision]
+C. 6 Rounds  [? vision]
+10 x DBall GTS
+10 x DBall STOH
+Work Capped at I0:00  [?]
+Erg Pacing: I:55/2:10/2:25  [?]
+Work Capped at 10:00  [? vision]
+Erg Pacing: 1:55/2:10/2:25  [? vision]
+DBall Weights: F = 15-30kg / M = 25-45kg
+DB Weights: F = 8-15kg / M: 15-22.5kg
+Wall Ball Weights: F = I4/8lb / M = 20/14lb  [?]
+Wall Ball Weights: F = 14/8lb / M = 20/14lb  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise? / prescription?) :45 Ski/Row Erg or Echo Bike Effort
+- (uncertain) 10-I2 xTTH/K2C  [?]
+- (uncertain) 10-12 x TTH/K2C  [? vision]
+- (exercise?) 45 Echo/Bike Effort
+- (exercise?) 8.8 x SA DB OH Reverse Lunge
+- (prescription?) 3 x I2:00 Caps  [?]
+- (exercise?) A. 1200/1000/800m Ski/Row Erg  [?]
+- (prescription?) 3 x 12:00 Caps  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (exercise?) A. I200/1000/800m Ski/Row Erg  [? vision]
+- (exercise?) 20/16/12 x Wall Ball
+- (SECTION / exercise?) B.2400/2000/l600m Bike Erg  [?]
+- (exercise?) B. 2400/2000/1600m Bike Erg  [? vision]
+- (exercise?) or 60/45/30 Cal Echo Bike
+- (exercise?) 10 x AIt SA DB Hang Cluster  [?]
+- (exercise?) 20/l6/12 x SA DB OH Reverse Lunge  [?]
+- (SECTION) C.6 Rounds  [?]
+- (exercise?) 10 x Alt SA DB Hang Cluster  [? vision]
+- (exercise?) 20/16/12 x SA DB OH Reverse Lunge  [? vision]
+- (uncertain) C. 6 Rounds  [? vision]
+- (exercise?) 10 x DBall GTS
+- (exercise?) 10 x DBall STOH
+- (prescription?) Work Capped at I0:00  [?]
+- (prescription?) Erg Pacing: I:55/2:10/2:25  [?]
+- (prescription?) Work Capped at 10:00  [? vision]
+- (prescription?) Erg Pacing: 1:55/2:10/2:25  [? vision]
+- (uncertain) Wall Ball Weights: F = I4/8lb / M = 20/14lb  [?]
+- (uncertain) Wall Ball Weights: F = 14/8lb / M = 20/14lb  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap
+:45 Ski/Row Erg or Echo Bike Effort
+10-I2 xTTH/K2C
+45 Echo/Bike Effort
+8.8 x SA DB OH Reverse Lunge
+3 x I2:00 Caps
+A. 1200/1000/800m Ski/Row Erg
+3 Rounds
+10 xTTB/TTH/K2C
+20/16/12 x Wall Ball
+B.2400/2000/l600m Bike Erg
+or 60/45/30 Cal Echo Bike
+3 Rounds
+10 x AIt SA DB Hang Cluster
+20/l6/12 x SA DB OH Reverse Lunge
+C.6 Rounds
+10 x DBall GTS
+10 x DBall STOH
+Work Capped at I0:00
+Erg Pacing: I:55/2:10/2:25
+DBall Weights: F = 15-30kg / M = 25-45kg
+DB Weights: F = 8-15kg / M: 15-22.5kg
+Wall Ball Weights: F = I4/8lb / M = 20/14lb
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+:45 Ski/Row Erg or Echo Bike Effort
+10-12 x TTH/K2C
+45 Echo/Bike Effort
+8.8 x SA DB OH Reverse Lunge
+3 x 12:00 Caps
+4:00 Cap
+A. I200/1000/800m Ski/Row Erg
+3 Rounds
+10 xTTB/TTH/K2C
+20/16/12 x Wall Ball
+B. 2400/2000/1600m Bike Erg
+or 60/45/30 Cal Echo Bike
+3 Rounds
+10 x Alt SA DB Hang Cluster
+20/16/12 x SA DB OH Reverse Lunge
+C. 6 Rounds
+10 x DBall GTS
+10 x DBall STOH
+Work Capped at 10:00
+Erg Pacing: 1:55/2:10/2:25
+DBall Weights: F = 15-30kg / M = 25-45kg
+DB Weights: F = 8-15kg / M: 15-22.5kg
+Wall Ball Weights: F = 14/8lb / M = 20/14lb
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Build Wk 2/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'MOVETOTAL'; engines differ near: 'sl.'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVETOTAL  [?]
+MOVE TOTAL  [? vision]
+WARM UP
+4:00 Cap  [? rapid only]
+I-2 Sets: 8 x BB Back/Front Squat
+8.8 x Dynamic Pigeon Stretch
+6.6 x Mixed Grip Scap Pull Up
+8 x Push Up (2s Ecc)
+sl.  [?]
+SI.  [? vision]
+4:00 Cap  [? vision]
+2 Blocks - Every 2:15 x 4
+A. 8-7-6-5
+BB Back/Front Squat @2 RIR
+3.3 x Mixed Grip Pull Up
+B. 8-7-6-5
+SA DB FFE Reverse Lunge e/s
+6-8 x Weighted Push Up (2s Ecc)
+S2.
+2 x 8:00 Cap  [? rapid only]
+A. 4-5 Rounds
+Build To A Heavy 5-6
+BB RDL Or Bent Over Row
+SA DB Shoulder To Overhead e/s
+2 x 8:00 Cap  [? vision only]
+B. 12-10-8-6-4
+Dual DB Squat Clean
+15/12/9 Cal Row or
+12/9/6 Cal Echo Bike
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) MOVETOTAL  [?]
+- (uncertain) MOVE TOTAL  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise?) I-2 Sets: 8 x BB Back/Front Squat
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (exercise?) 6.6 x Mixed Grip Scap Pull Up
+- (exercise? / prescription?) 8 x Push Up (2s Ecc)
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) 2 Blocks - Every 2:15 x 4
+- (prescription?) A. 8-7-6-5
+- (exercise? / prescription?) BB Back/Front Squat @2 RIR
+- (exercise?) 3.3 x Mixed Grip Pull Up
+- (prescription?) B. 8-7-6-5
+- (exercise?) SA DB FFE Reverse Lunge e/s
+- (exercise? / prescription?) 6-8 x Weighted Push Up (2s Ecc)
+- (SECTION) S2.
+- (prescription?) 2 x 8:00 Cap  [? rapid only]
+- (exercise?) BB RDL Or Bent Over Row
+- (exercise?) SA DB Shoulder To Overhead e/s
+- (prescription?) 2 x 8:00 Cap  [? vision only]
+- (prescription?) B. 12-10-8-6-4
+- (exercise?) Dual DB Squat Clean
+- (exercise?) 15/12/9 Cal Row or
+- (exercise?) 12/9/6 Cal Echo Bike
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVETOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Back/Front Squat
+8.8 x Dynamic Pigeon Stretch
+6.6 x Mixed Grip Scap Pull Up
+8 x Push Up (2s Ecc)
+sl.
+2 Blocks - Every 2:15 x 4
+A. 8-7-6-5
+BB Back/Front Squat @2 RIR
+3.3 x Mixed Grip Pull Up
+B. 8-7-6-5
+SA DB FFE Reverse Lunge e/s
+6-8 x Weighted Push Up (2s Ecc)
+S2.
+2 x 8:00 Cap
+A. 4-5 Rounds
+Build To A Heavy 5-6
+BB RDL Or Bent Over Row
+SA DB Shoulder To Overhead e/s
+B. 12-10-8-6-4
+Dual DB Squat Clean
+15/12/9 Cal Row or
+12/9/6 Cal Echo Bike
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+I-2 Sets: 8 x BB Back/Front Squat
+8.8 x Dynamic Pigeon Stretch
+6.6 x Mixed Grip Scap Pull Up
+8 x Push Up (2s Ecc)
+SI.
+4:00 Cap
+2 Blocks - Every 2:15 x 4
+A. 8-7-6-5
+BB Back/Front Squat @2 RIR
+3.3 x Mixed Grip Pull Up
+B. 8-7-6-5
+SA DB FFE Reverse Lunge e/s
+6-8 x Weighted Push Up (2s Ecc)
+S2.
+A. 4-5 Rounds
+Build To A Heavy 5-6
+BB RDL Or Bent Over Row
+SA DB Shoulder To Overhead e/s
+2 x 8:00 Cap
+B. 12-10-8-6-4
+Dual DB Squat Clean
+15/12/9 Cal Row or
+12/9/6 Cal Echo Bike
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Build Wk 2/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: 'PERFORMUPPER'; engines differ near: '4:00 Cap'; engines differ near: 'I0-15 x Bent Over Banded Pull Apart'; engines differ near: 'BB Bench Press @60-65-70-75-80-85%'; engines differ near: 'I2+ x DB Reverse Fly OR'; engines differ near: '6-5-4-3-2+1'; engines differ near: '*Reps Only Decrease ifWeight Increases'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORMUPPER  [?]
+PERFORM UPPER  [? vision]
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: 6 x BB Bench Press @50-55%  [?]
+1-2 Sets: 6 x BB Bench Press @50-55%  [? vision]
+6-8 x Scap Chin Up/Pull Up
+I0-15 x Bent Over Banded Pull Apart  [?]
+10-15 x Bent Over Banded Pull Apart  [? vision]
+6.6 x T-Opener
+si.
+4:00 Cap  [? vision only]
+18:00 Cap
+6-5-4-3-2-1+1
+BB Bench Press @60-65-70-75-80-85%  [?]
+Sets I-3: First 2 Reps Paused  [?]
+BB Bench Press (  [? vision]
+@60-65-70-75-80-85%  [? vision]
+Sets /-3: First 2 Reps Paused  [? vision]
+8-10 x DBall Supp Weighted Pull Over
+Alternate Each Round Between:
+I2+ x DB Reverse Fly OR  [?]
+12+ x DB Reverse Fly OR  [? vision]
+8+ x Paused KB Bent Over Row
+S2.
+Every 3:15 x 5
+6-5-4-3-2+1  [?]
+6-5-4-3-2+|  [? vision]
+BB Pendlay Row OR Pull Up/Chin
+12-12-9-9-6
+DB Incline Curl
+4 x KB Strict Press + 4 x KB Push Press
+:40 Rest
+*Reps Only Decrease ifWeight Increases  [?]
+*Reps Only Decrease if Weight Increases  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) PERFORMUPPER  [?]
+- (uncertain) PERFORM UPPER  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I-2 Sets: 6 x BB Bench Press @50-55%  [?]
+- (exercise? / prescription?) 1-2 Sets: 6 x BB Bench Press @50-55%  [? vision]
+- (exercise?) 6-8 x Scap Chin Up/Pull Up
+- (uncertain) I0-15 x Bent Over Banded Pull Apart  [?]
+- (uncertain) 10-15 x Bent Over Banded Pull Apart  [? vision]
+- (prescription?) 4:00 Cap  [? vision only]
+- (prescription?) 18:00 Cap
+- (prescription?) 6-5-4-3-2-1+1
+- (exercise? / prescription?) BB Bench Press @60-65-70-75-80-85%  [?]
+- (uncertain) Sets I-3: First 2 Reps Paused  [?]
+- (exercise?) BB Bench Press (  [? vision]
+- (prescription?) @60-65-70-75-80-85%  [? vision]
+- (uncertain) Sets /-3: First 2 Reps Paused  [? vision]
+- (exercise?) 8-10 x DBall Supp Weighted Pull Over
+- (exercise?) I2+ x DB Reverse Fly OR  [?]
+- (exercise?) 12+ x DB Reverse Fly OR  [? vision]
+- (exercise?) 8+ x Paused KB Bent Over Row
+- (SECTION) S2.
+- (prescription?) Every 3:15 x 5
+- (prescription?) 6-5-4-3-2+1  [?]
+- (prescription?) 6-5-4-3-2+|  [? vision]
+- (exercise?) BB Pendlay Row OR Pull Up/Chin
+- (prescription?) 12-12-9-9-6
+- (exercise?) DB Incline Curl
+- (exercise?) 4 x KB Strict Press + 4 x KB Push Press
+- (prescription?) :40 Rest
+- (uncertain) *Reps Only Decrease ifWeight Increases  [?]
+- (uncertain) *Reps Only Decrease if Weight Increases  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORMUPPER
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Bench Press @50-55%
+6-8 x Scap Chin Up/Pull Up
+I0-15 x Bent Over Banded Pull Apart
+6.6 x T-Opener
+si.
+18:00 Cap
+6-5-4-3-2-1+1
+BB Bench Press @60-65-70-75-80-85%
+Sets I-3: First 2 Reps Paused
+8-10 x DBall Supp Weighted Pull Over
+Alternate Each Round Between:
+I2+ x DB Reverse Fly OR
+8+ x Paused KB Bent Over Row
+S2.
+Every 3:15 x 5
+6-5-4-3-2+1
+BB Pendlay Row OR Pull Up/Chin
+12-12-9-9-6
+DB Incline Curl
+4 x KB Strict Press + 4 x KB Push Press
+:40 Rest
+*Reps Only Decrease ifWeight Increases
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+1-2 Sets: 6 x BB Bench Press @50-55%
+6-8 x Scap Chin Up/Pull Up
+10-15 x Bent Over Banded Pull Apart
+6.6 x T-Opener
+SI.
+4:00 Cap
+18:00 Cap
+6-5-4-3-2-1+1
+BB Bench Press (
+@60-65-70-75-80-85%
+Sets /-3: First 2 Reps Paused
+8-10 x DBall Supp Weighted Pull Over
+Alternate Each Round Between:
+12+ x DB Reverse Fly OR
+8+ x Paused KB Bent Over Row
+S2.
+Every 3:15 x 5
+6-5-4-3-2+|
+BB Pendlay Row OR Pull Up/Chin
+12-12-9-9-6
+DB Incline Curl
+4 x KB Strict Press + 4 x KB Push Press
+:40 Rest
+*Reps Only Decrease if Weight Increases
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Build Wk 2/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATTEAM'; engines differ near: "I0.10 x World's Greatest Stretch"; engines differ near: 'Teams of 4/6 - 2 x 2l:00 Blocks'; engines differ near: 'E3MOM (inc 0:00) 2 People:'; engines differ near: 'DB: M = 22.5/17.5/12.5kg 1 F = 15/10/8kg'; engines differ near: 'E3MOM (inc 0:00) 2 People:'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATTEAM  [?]
+SWEAT TEAM  [? vision]
+WARM UP
+4:00 Cap
+2 Sets: 30-40s Ski Erg or Echo Bike
+I0.10 x World's Greatest Stretch  [?]
+10.10 x World's Greatest Stretch  [? vision]
+4-6 x DB Devils Maker
+20/15 x Air Squat
+Teams of 4/6 - 2 x 2l:00 Blocks  [?]
+Teams of 4/6 - 2 x 21:00 Blocks  [? vision]
+A. 525/375/250 Cal Ski Erg
+E3MOM (inc 0:00) 2 People:  [?]
+YGlG - 3 Rounds Each  [?]
+ЕЗМОМ (inc 0:00) 2 People:  [? vision]
+YGIG - 3 Rounds Each  [? vision]
+3 x DB Devils Maker
+DB: M = 22.5/17.5/12.5kg 1 F = 15/10/8kg  [?]
+DB: M = 22.5/17.5/12.5kg / F = 15/10/8kg  [? vision]
+B. 420/315/210 Cal Echo Bike
+E3MOM (inc 0:00) 2 People:  [?]
+YGlG - 3 Rounds Each  [?]
+ЕЗМОМ (inc 0:00) 2 People:  [? vision]
+YGIG - 3 Rounds Each  [? vision]
+8 x DBall Shoulder Squat
+DBall: M = 55/45/30kg / F = 35/25/20kg
+*3:00 Between Blocks
+**Pacing Targets: Ski = 25/18/12 Cal/Min
+Echo = 20/15/10 Cal/Min
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATTEAM  [?]
+- (uncertain) SWEAT TEAM  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) 2 Sets: 30-40s Ski Erg or Echo Bike
+- (exercise?) I0.10 x World's Greatest Stretch  [?]
+- (exercise?) 10.10 x World's Greatest Stretch  [? vision]
+- (exercise?) 4-6 x DB Devils Maker
+- (exercise?) 20/15 x Air Squat
+- (prescription?) Teams of 4/6 - 2 x 2l:00 Blocks  [?]
+- (prescription?) Teams of 4/6 - 2 x 21:00 Blocks  [? vision]
+- (exercise?) A. 525/375/250 Cal Ski Erg
+- (SECTION / prescription?) E3MOM (inc 0:00) 2 People:  [?]
+- (uncertain) YGlG - 3 Rounds Each  [?]
+- (prescription?) ЕЗМОМ (inc 0:00) 2 People:  [? vision]
+- (uncertain) YGIG - 3 Rounds Each  [? vision]
+- (exercise?) 3 x DB Devils Maker
+- (uncertain) DB: M = 22.5/17.5/12.5kg 1 F = 15/10/8kg  [?]
+- (uncertain) DB: M = 22.5/17.5/12.5kg / F = 15/10/8kg  [? vision]
+- (exercise?) B. 420/315/210 Cal Echo Bike
+- (SECTION / prescription?) E3MOM (inc 0:00) 2 People:  [?]
+- (uncertain) YGlG - 3 Rounds Each  [?]
+- (prescription?) ЕЗМОМ (inc 0:00) 2 People:  [? vision]
+- (uncertain) YGIG - 3 Rounds Each  [? vision]
+- (exercise?) 8 x DBall Shoulder Squat
+- (prescription?) *3:00 Between Blocks
+- (exercise?) **Pacing Targets: Ski = 25/18/12 Cal/Min
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATTEAM
+WARM UP
+4:00 Cap
+2 Sets: 30-40s Ski Erg or Echo Bike
+I0.10 x World's Greatest Stretch
+4-6 x DB Devils Maker
+20/15 x Air Squat
+Teams of 4/6 - 2 x 2l:00 Blocks
+A. 525/375/250 Cal Ski Erg
+E3MOM (inc 0:00) 2 People:
+YGlG - 3 Rounds Each
+3 x DB Devils Maker
+DB: M = 22.5/17.5/12.5kg 1 F = 15/10/8kg
+B. 420/315/210 Cal Echo Bike
+E3MOM (inc 0:00) 2 People:
+YGlG - 3 Rounds Each
+8 x DBall Shoulder Squat
+DBall: M = 55/45/30kg / F = 35/25/20kg
+*3:00 Between Blocks
+**Pacing Targets: Ski = 25/18/12 Cal/Min
+Echo = 20/15/10 Cal/Min
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+2 Sets: 30-40s Ski Erg or Echo Bike
+10.10 x World's Greatest Stretch
+4-6 x DB Devils Maker
+20/15 x Air Squat
+Teams of 4/6 - 2 x 21:00 Blocks
+A. 525/375/250 Cal Ski Erg
+ЕЗМОМ (inc 0:00) 2 People:
+YGIG - 3 Rounds Each
+3 x DB Devils Maker
+DB: M = 22.5/17.5/12.5kg / F = 15/10/8kg
+B. 420/315/210 Cal Echo Bike
+ЕЗМОМ (inc 0:00) 2 People:
+YGIG - 3 Rounds Each
+8 x DBall Shoulder Squat
+DBall: M = 55/45/30kg / F = 35/25/20kg
+*3:00 Between Blocks
+**Pacing Targets: Ski = 25/18/12 Cal/Min
+Echo = 20/15/10 Cal/Min
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Build Wk 2/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: '1. 14/10/6 Cal Row'; engines differ near: 'B.YGlG - 6/5 Rounds Each'; engines differ near: '16/l2/8 x DBall Push Up'; engines differ near: '*+ 2 Reps/Cals Each Round Or Maintain'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARMUP  [?]
+WARM UP  [? vision]
+10 x BB Front Squat Or BB Alt Reverse Lunge  [? vision]
+10 x DB Push Press Or DB Bent Over Row  [? vision]
+14/10 Cal Echo/Row Erg Effort  [? vision]
+6 x Inchworm + Push Up  [? vision]
+4 × 10:00 Blocks  [? vision]
+4:00 Cap
+I0 x BB Front Squat Or BB Alt Reverse Lunge  [? rapid only]
+I0 x DB Push Press Or DB Bent Over Row  [? rapid only]
+14/l0 Cal Echo/Row Erg Effort  [? rapid only]
+6 x Inchworm + Push Up  [? rapid only]
+4 x I0:00 Blocks  [? rapid only]
+A. EMoM x 10
+1. 14/10/6 Cal Row  [?]
+1.14/10/6 Cal Row  [? vision]
+2.6 x BB Front Squat Or 8 x Alt BB
+Reverse Lunge
+*+ 2 Reps/Cals Each Round Or Maintain
+B.YGlG - 6/5 Rounds Each  [?]
+B.YGIG - 6/5 Rounds Each  [? vision]
+8 x DBall GTOS
+16/l2/8 x DBall Push Up  [?]
+*Work Capped At I:00 Each  [?]
+C.Emom x 10  [?]
+1. 14/l0/6 Cal Echo Bike  [?]
+16/12/8 x DBall Push Up  [? vision]
+*Work Capped At 1:00 Each  [? vision]
+C. EMOM x 10  [? vision]
+1.14/10/6 Cal Echo Bike  [? vision]
+2.6 x BB Push Press or BB Bent
+Over Row
+*+ 2 Reps/Cals Each Round Or Maintain  [?]
+D.YGlG - 6/5 Rounds Each  [?]
+I4/12/10 xAlt DB Box Step Up  [?]
+*Work Capped At I:00 Each  [?]
+*+2 Reps/Cals Each Round Or Maintain  [? vision]
+D.YGIG - 6/5 Rounds Each  [? vision]
+14/12/10 x Alt DB Box Step Up  [? vision]
+*Work Capped At 1:00 Each  [? vision]
+1:00 Between Blocks
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (exercise?) 10 x BB Front Squat Or BB Alt Reverse Lunge  [? vision]
+- (exercise?) 10 x DB Push Press Or DB Bent Over Row  [? vision]
+- (exercise?) 14/10 Cal Echo/Row Erg Effort  [? vision]
+- (exercise?) 6 x Inchworm + Push Up  [? vision]
+- (prescription?) 4 × 10:00 Blocks  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise?) I0 x BB Front Squat Or BB Alt Reverse Lunge  [? rapid only]
+- (exercise?) I0 x DB Push Press Or DB Bent Over Row  [? rapid only]
+- (exercise?) 14/l0 Cal Echo/Row Erg Effort  [? rapid only]
+- (exercise?) 6 x Inchworm + Push Up  [? rapid only]
+- (prescription?) 4 x I0:00 Blocks  [? rapid only]
+- (prescription?) A. EMoM x 10
+- (exercise?) 1. 14/10/6 Cal Row  [?]
+- (exercise?) 1.14/10/6 Cal Row  [? vision]
+- (exercise?) 2.6 x BB Front Squat Or 8 x Alt BB
+- (exercise?) Reverse Lunge
+- (SECTION) B.YGlG - 6/5 Rounds Each  [?]
+- (SECTION) B.YGIG - 6/5 Rounds Each  [? vision]
+- (exercise?) 8 x DBall GTOS
+- (exercise?) 16/l2/8 x DBall Push Up  [?]
+- (prescription?) *Work Capped At I:00 Each  [?]
+- (SECTION / prescription?) C.Emom x 10  [?]
+- (exercise?) 1. 14/l0/6 Cal Echo Bike  [?]
+- (exercise?) 16/12/8 x DBall Push Up  [? vision]
+- (prescription?) *Work Capped At 1:00 Each  [? vision]
+- (prescription?) C. EMOM x 10  [? vision]
+- (exercise?) 1.14/10/6 Cal Echo Bike  [? vision]
+- (exercise?) 2.6 x BB Push Press or BB Bent
+- (exercise?) Over Row
+- (uncertain) *+ 2 Reps/Cals Each Round Or Maintain  [?]
+- (uncertain) D.YGlG - 6/5 Rounds Each  [?]
+- (exercise?) I4/12/10 xAlt DB Box Step Up  [?]
+- (prescription?) *Work Capped At I:00 Each  [?]
+- (uncertain) *+2 Reps/Cals Each Round Or Maintain  [? vision]
+- (uncertain) D.YGIG - 6/5 Rounds Each  [? vision]
+- (exercise?) 14/12/10 x Alt DB Box Step Up  [? vision]
+- (prescription?) *Work Capped At 1:00 Each  [? vision]
+- (prescription?) 1:00 Between Blocks
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARMUP
+4:00 Cap
+I0 x BB Front Squat Or BB Alt Reverse Lunge
+I0 x DB Push Press Or DB Bent Over Row
+14/l0 Cal Echo/Row Erg Effort
+6 x Inchworm + Push Up
+4 x I0:00 Blocks
+A. EMoM x 10
+1. 14/10/6 Cal Row
+2.6 x BB Front Squat Or 8 x Alt BB
+Reverse Lunge
+*+ 2 Reps/Cals Each Round Or Maintain
+B.YGlG - 6/5 Rounds Each
+8 x DBall GTOS
+16/l2/8 x DBall Push Up
+*Work Capped At I:00 Each
+C.Emom x 10
+1. 14/l0/6 Cal Echo Bike
+2.6 x BB Push Press or BB Bent
+Over Row
+*+ 2 Reps/Cals Each Round Or Maintain
+D.YGlG - 6/5 Rounds Each
+I4/12/10 xAlt DB Box Step Up
+*Work Capped At I:00 Each
+1:00 Between Blocks
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+10 x BB Front Squat Or BB Alt Reverse Lunge
+10 x DB Push Press Or DB Bent Over Row
+14/10 Cal Echo/Row Erg Effort
+6 x Inchworm + Push Up
+4 × 10:00 Blocks
+4:00 Cap
+A. EMOM x 10
+1.14/10/6 Cal Row
+2.6 x BB Front Squat Or 8 x Alt BB
+Reverse Lunge
+*+ 2 Reps/Cals Each Round Or Maintain
+B.YGIG - 6/5 Rounds Each
+8 x DBall GTOS
+16/12/8 x DBall Push Up
+*Work Capped At 1:00 Each
+C. EMOM x 10
+1.14/10/6 Cal Echo Bike
+2.6 x BB Push Press or BB Bent
+Over Row
+*+2 Reps/Cals Each Round Or Maintain
+D.YGIG - 6/5 Rounds Each
+14/12/10 x Alt DB Box Step Up
+*Work Capped At 1:00 Each
+1:00 Between Blocks
+```
+</details>
+
+
+## Block 3 — Build Wk 3  (programme week 6) [inferred]
+
+- **Phase:** Build  ·  **Phase-week:** 3  ·  **Overall week:** 6   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Build Wk 3/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets:8 x BB Deadlift'; engines differ near: 'B. 9-7-5-3'; engines differ near: '2 Blocks - E2MOM x 4'; engines differ near: 'B. 10-8-6-4'; engines differ near: 'Goal = F: 6- 15 Cal M:10-20'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8 x BB Deadlift  [? vision only]
+8 x Scap Ring Row + 8 x Ring Row  [? vision only]
+10.10 x SA DB Glute Bridge Floor Press e/s  [? vision only]
+8.8 x World's Greatest Stretch  [? vision only]
+4:00 Cap
+I-2 Sets:8 x BB Deadlift  [?]
+8 x Scap Ring Row + 8 x Ring Row  [?]
+10.I0 x SA DB Glute Bridge Floor Press e/s  [?]
+8.8 x World's Greatest Stretch  [?]
+sl.  [?]
+SI.  [? vision]
+2 Blocks - Every 2:15 x 4
+A. 9-7-5-3
+BB Deadlift/Sumo
+SA DB Glute Bridge Floor Press e/s
+B. 9-7-5-3  [?]
+В.9-7-5-3  [? vision]
+SA KB OH Rev Lunge e/s
+8-10 x Ring Row
+*Reps Only Reduce If Weight Increases
+2 Blocks - E2MOM x 4  [? vision only]
+S2.
+2 Blocks - E2MOM x 4  [?]
+A.10-8-6-4  [?]
+A. 10-8-6-4  [? vision]
+BB Push Press/Jerk
+DB Plank Row e/s
+B. 10-8-6-4  [?]
+KB FR Squat (AHAP)  [?]
+В. 10-8-6-4  [? vision]
+KB FR Squat (AHАР)  [? vision]
+:30 Max Cal Bike/Row Erg
+Goal = F: 6- 15 Cal M:10-20  [?]
+Goal = F: 6-15 Cal M: 10-20  [? vision]
+*Reps Only Reduce If Weight Increases
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (exercise?) 1-2 Sets: 8 x BB Deadlift  [? vision only]
+- (exercise?) 8 x Scap Ring Row + 8 x Ring Row  [? vision only]
+- (exercise?) 10.10 x SA DB Glute Bridge Floor Press e/s  [? vision only]
+- (exercise?) 8.8 x World's Greatest Stretch  [? vision only]
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets:8 x BB Deadlift  [?]
+- (exercise?) 8 x Scap Ring Row + 8 x Ring Row  [?]
+- (exercise?) 10.I0 x SA DB Glute Bridge Floor Press e/s  [?]
+- (exercise?) 8.8 x World's Greatest Stretch  [?]
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 2 Blocks - Every 2:15 x 4
+- (prescription?) A. 9-7-5-3
+- (exercise?) BB Deadlift/Sumo
+- (exercise?) SA DB Glute Bridge Floor Press e/s
+- (prescription?) B. 9-7-5-3  [?]
+- (prescription?) В.9-7-5-3  [? vision]
+- (exercise?) SA KB OH Rev Lunge e/s
+- (exercise?) 8-10 x Ring Row
+- (prescription?) 2 Blocks - E2MOM x 4  [? vision only]
+- (SECTION) S2.
+- (prescription?) 2 Blocks - E2MOM x 4  [?]
+- (SECTION / prescription?) A.10-8-6-4  [?]
+- (prescription?) A. 10-8-6-4  [? vision]
+- (exercise?) BB Push Press/Jerk
+- (exercise?) DB Plank Row e/s
+- (prescription?) B. 10-8-6-4  [?]
+- (exercise? / prescription?) KB FR Squat (AHAP)  [?]
+- (prescription?) В. 10-8-6-4  [? vision]
+- (exercise?) KB FR Squat (AHАР)  [? vision]
+- (exercise? / prescription?) :30 Max Cal Bike/Row Erg
+- (prescription?) Goal = F: 6- 15 Cal M:10-20  [?]
+- (uncertain) Goal = F: 6-15 Cal M: 10-20  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets:8 x BB Deadlift
+8 x Scap Ring Row + 8 x Ring Row
+10.I0 x SA DB Glute Bridge Floor Press e/s
+8.8 x World's Greatest Stretch
+sl.
+2 Blocks - Every 2:15 x 4
+A. 9-7-5-3
+BB Deadlift/Sumo
+SA DB Glute Bridge Floor Press e/s
+B. 9-7-5-3
+SA KB OH Rev Lunge e/s
+8-10 x Ring Row
+*Reps Only Reduce If Weight Increases
+S2.
+2 Blocks - E2MOM x 4
+A.10-8-6-4
+BB Push Press/Jerk
+DB Plank Row e/s
+B. 10-8-6-4
+KB FR Squat (AHAP)
+:30 Max Cal Bike/Row Erg
+Goal = F: 6- 15 Cal M:10-20
+*Reps Only Reduce If Weight Increases
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8 x BB Deadlift
+8 x Scap Ring Row + 8 x Ring Row
+10.10 x SA DB Glute Bridge Floor Press e/s
+8.8 x World's Greatest Stretch
+4:00 Cap
+SI.
+2 Blocks - Every 2:15 x 4
+A. 9-7-5-3
+BB Deadlift/Sumo
+SA DB Glute Bridge Floor Press e/s
+В.9-7-5-3
+SA KB OH Rev Lunge e/s
+8-10 x Ring Row
+*Reps Only Reduce If Weight Increases
+2 Blocks - E2MOM x 4
+S2.
+A. 10-8-6-4
+BB Push Press/Jerk
+DB Plank Row e/s
+В. 10-8-6-4
+KB FR Squat (AHАР)
+:30 Max Cal Bike/Row Erg
+Goal = F: 6-15 Cal M: 10-20
+*Reps Only Reduce If Weight Increases
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Build Wk 3/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: 'sl.'; engines differ near: '*Round 4-5: I+1 Cluster Set'; engines differ near: ':45-I:00 Rest'; engines differ near: 'B. 5.5-4.4-3.3-2.2'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Deadlift @50-55%
+12 x Plank To Pike
+8.8 x SA DB Bench Press
+8.8 x World's Greatest Stretch
+sl.  [?]
+SI.  [? vision]
+18:00 Cap
+2-4 x BB Deadlift @60-70-80-85-90%
+*Round 4-5: I+1 Cluster Set  [?]
+*Round 4-5: /+/ Cluster Set  [? vision]
+Alternate Each Round Between:
+8.8 x SA DB Bench Press
+3-5 x Dragon Flag For Quality
+:45-I:00 Rest  [?]
+:45-1:00 Rest  [? vision]
+S2.
+2 x 8:00 Cap
+A. 5-4-3-2-1+
+BB Shoulder To Overhead
+*Optional: :20-:30 Hollow Hold
+:45 Rest
+B. 5.5-4.4-3.3-2.2  [?]
+В. 5.5-4.4-3.3-2.2  [? vision]
+DBall Shoulder Squat
+DB Tripod Row (AHAP)
+*Reps Only Decrease If Weight Increases
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 6 x BB Deadlift @50-55%
+- (exercise?) 12 x Plank To Pike
+- (exercise?) 8.8 x SA DB Bench Press
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 18:00 Cap
+- (exercise? / prescription?) 2-4 x BB Deadlift @60-70-80-85-90%
+- (uncertain) *Round 4-5: I+1 Cluster Set  [?]
+- (uncertain) *Round 4-5: /+/ Cluster Set  [? vision]
+- (exercise?) 8.8 x SA DB Bench Press
+- (prescription?) :45-I:00 Rest  [?]
+- (prescription?) :45-1:00 Rest  [? vision]
+- (SECTION) S2.
+- (prescription?) 2 x 8:00 Cap
+- (prescription?) A. 5-4-3-2-1+
+- (exercise? / prescription?) *Optional: :20-:30 Hollow Hold
+- (prescription?) :45 Rest
+- (uncertain) B. 5.5-4.4-3.3-2.2  [?]
+- (uncertain) В. 5.5-4.4-3.3-2.2  [? vision]
+- (exercise?) DBall Shoulder Squat
+- (exercise? / prescription?) DB Tripod Row (AHAP)
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Deadlift @50-55%
+12 x Plank To Pike
+8.8 x SA DB Bench Press
+8.8 x World's Greatest Stretch
+sl.
+18:00 Cap
+2-4 x BB Deadlift @60-70-80-85-90%
+*Round 4-5: I+1 Cluster Set
+Alternate Each Round Between:
+8.8 x SA DB Bench Press
+3-5 x Dragon Flag For Quality
+:45-I:00 Rest
+S2.
+2 x 8:00 Cap
+A. 5-4-3-2-1+
+BB Shoulder To Overhead
+*Optional: :20-:30 Hollow Hold
+:45 Rest
+B. 5.5-4.4-3.3-2.2
+DBall Shoulder Squat
+DB Tripod Row (AHAP)
+*Reps Only Decrease If Weight Increases
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Deadlift @50-55%
+12 x Plank To Pike
+8.8 x SA DB Bench Press
+8.8 x World's Greatest Stretch
+SI.
+18:00 Cap
+2-4 x BB Deadlift @60-70-80-85-90%
+*Round 4-5: /+/ Cluster Set
+Alternate Each Round Between:
+8.8 x SA DB Bench Press
+3-5 x Dragon Flag For Quality
+:45-1:00 Rest
+S2.
+2 x 8:00 Cap
+A. 5-4-3-2-1+
+BB Shoulder To Overhead
+*Optional: :20-:30 Hollow Hold
+:45 Rest
+В. 5.5-4.4-3.3-2.2
+DBall Shoulder Squat
+DB Tripod Row (AHAP)
+*Reps Only Decrease If Weight Increases
+```
+</details>
+
+### tuesday sweat engine
+`REVL Block 3 programming 2026/Build Wk 3/tuesday sweat engine.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Engine** [inferred]
+
+_Reader notes:_ engines differ near: 'I:00 Erg/Echo Effort'; engines differ near: '300/200m Run Or I6/12/8 x Burpee'; engines differ near: 'Cal Ski F:50/40/30 M: 60/50/40'; engines differ near: 'Cal Bike'; engines differ near: 'Cal Row'; engines differ near: 'Cal Ech0 F: 36/28/20 M: 44/36/28'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap
+I:00 Erg/Echo Effort  [?]
+I6/l2 x SA DB Hang Clean and Press  [?]
+1:00 Erg/Echo Effort  [? vision]
+16/12 x SA DB Hang Clean and Press  [? vision]
+16/12 x SA DB Hang Snatch
+300/200m Run Or I6/12/8 x Burpee  [?]
+300/200m Run Or 16/12/8 x Burpee  [? vision]
+Functional 50 - 40:00 Cap
+50 x SA DB Hang Clean and Press
+Run 500/400/300m Or Burpee 28/22/16
+Cal Ski F:50/40/30 M: 60/50/40  [?]
+50 x Box Jump Over/Step Over  [?]
+@24"/20"  [?]
+Cal Ski F: 50/40/30 M: 60/50/40  [? vision]
+50 x Box Jump Over/Step Over @24"/20"  [? vision]
+Run 500/400/300m Or Burpee 28/22/16
+Cal Bike  [?]
+eF:50/40/30M:60/50/40  [?]
+Cal Bike F:50/40/30 M: 60/50/40  [? vision]
+50 x SA DB Hang Snatch
+Run 500/400/300m Or Burpee 28/22/16
+Cal Row  [?]
+F: 50/40/30 M:60/50/40  [?]
+Cal Row F:50/40/30 M: 60/50/40  [? vision]
+50 x KB Swing
+Run 500/400/300m Or Burpee 28/22/16
+Cal Ech0 F: 36/28/20 M: 44/36/28  [?]
+Cal Echo F: 36/28/20 M: 44/36/28  [? vision]
+Score = Scale (Erg/Run/Weights) + Time
+Example. Black Scale + 35:15
+Dumbbell: F = 15/10/8kg M = 22.5/17.5/12.5kg
+Kettlebell: F = 16/12/8kg M = 24/20/16kg
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I:00 Erg/Echo Effort  [?]
+- (exercise?) I6/l2 x SA DB Hang Clean and Press  [?]
+- (prescription?) 1:00 Erg/Echo Effort  [? vision]
+- (exercise?) 16/12 x SA DB Hang Clean and Press  [? vision]
+- (exercise?) 16/12 x SA DB Hang Snatch
+- (exercise?) 300/200m Run Or I6/12/8 x Burpee  [?]
+- (exercise?) 300/200m Run Or 16/12/8 x Burpee  [? vision]
+- (prescription?) Functional 50 - 40:00 Cap
+- (exercise?) 50 x SA DB Hang Clean and Press
+- (exercise?) Run 500/400/300m Or Burpee 28/22/16
+- (exercise? / prescription?) Cal Ski F:50/40/30 M: 60/50/40  [?]
+- (exercise?) 50 x Box Jump Over/Step Over  [?]
+- (uncertain) @24"/20"  [?]
+- (exercise?) Cal Ski F: 50/40/30 M: 60/50/40  [? vision]
+- (exercise?) 50 x Box Jump Over/Step Over @24"/20"  [? vision]
+- (exercise?) Run 500/400/300m Or Burpee 28/22/16
+- (exercise?) Cal Bike  [?]
+- (prescription?) eF:50/40/30M:60/50/40  [?]
+- (exercise? / prescription?) Cal Bike F:50/40/30 M: 60/50/40  [? vision]
+- (exercise?) 50 x SA DB Hang Snatch
+- (exercise?) Run 500/400/300m Or Burpee 28/22/16
+- (exercise?) Cal Row  [?]
+- (prescription?) F: 50/40/30 M:60/50/40  [?]
+- (exercise? / prescription?) Cal Row F:50/40/30 M: 60/50/40  [? vision]
+- (exercise?) 50 x KB Swing
+- (exercise?) Run 500/400/300m Or Burpee 28/22/16
+- (uncertain) Cal Ech0 F: 36/28/20 M: 44/36/28  [?]
+- (uncertain) Cal Echo F: 36/28/20 M: 44/36/28  [? vision]
+- (SECTION / exercise?) Score = Scale (Erg/Run/Weights) + Time
+- (prescription?) Example. Black Scale + 35:15
+- (exercise?) Dumbbell: F = 15/10/8kg M = 22.5/17.5/12.5kg
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap
+I:00 Erg/Echo Effort
+I6/l2 x SA DB Hang Clean and Press
+16/12 x SA DB Hang Snatch
+300/200m Run Or I6/12/8 x Burpee
+Functional 50 - 40:00 Cap
+50 x SA DB Hang Clean and Press
+Run 500/400/300m Or Burpee 28/22/16
+Cal Ski F:50/40/30 M: 60/50/40
+50 x Box Jump Over/Step Over 
+@24"/20"
+Run 500/400/300m Or Burpee 28/22/16
+Cal Bike
+eF:50/40/30M:60/50/40
+50 x SA DB Hang Snatch
+Run 500/400/300m Or Burpee 28/22/16
+Cal Row
+F: 50/40/30 M:60/50/40
+50 x KB Swing
+Run 500/400/300m Or Burpee 28/22/16
+Cal Ech0 F: 36/28/20 M: 44/36/28
+Score = Scale (Erg/Run/Weights) + Time
+Example. Black Scale + 35:15
+Dumbbell: F = 15/10/8kg M = 22.5/17.5/12.5kg
+Kettlebell: F = 16/12/8kg M = 24/20/16kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap
+1:00 Erg/Echo Effort
+16/12 x SA DB Hang Clean and Press
+16/12 x SA DB Hang Snatch
+300/200m Run Or 16/12/8 x Burpee
+Functional 50 - 40:00 Cap
+50 x SA DB Hang Clean and Press
+Run 500/400/300m Or Burpee 28/22/16
+Cal Ski F: 50/40/30 M: 60/50/40
+50 x Box Jump Over/Step Over @24"/20"
+Run 500/400/300m Or Burpee 28/22/16
+Cal Bike F:50/40/30 M: 60/50/40
+50 x SA DB Hang Snatch
+Run 500/400/300m Or Burpee 28/22/16
+Cal Row F:50/40/30 M: 60/50/40
+50 x KB Swing
+Run 500/400/300m Or Burpee 28/22/16
+Cal Echo F: 36/28/20 M: 44/36/28
+Score = Scale (Erg/Run/Weights) + Time
+Example. Black Scale + 35:15
+Dumbbell: F = 15/10/8kg M = 22.5/17.5/12.5kg
+Kettlebell: F = 16/12/8kg M = 24/20/16kg
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Build Wk 3/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'sl.'; engines differ near: 'B. 9-7-5-3'; engines differ near: 'In Pairs YGlG - 2 Blocks Of E4MOM x 2'; engines differ near: '2. 12-10-8-6-4'; engines differ near: '2. 12-10-8-6-4'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARMUP  [?]
+4:00 Cap  [?]
+I-2 Sets:8 x BB Bench Press  [?]
+WARM UP  [? vision]
+1-2 Sets: 8 x BB Bench Press  [? vision]
+12 x Scap Pull/Chin Up
+10.10 x SL Glute Bridge
+15 x BW Cyclist Squat
+sl.  [?]
+2 Blocks - Every 2:15 x 4  [?]
+SI.  [? vision]
+A. 9-7-5-3
+BB Bench Press @2 RIR
+KB SA OH Split Squat e/s
+B. 9-7-5-3  [?]
+4:00 Cap  [? vision]
+2 Blocks - Every 2:15 x 4  [? vision]
+В. 9-7-5-3  [? vision]
+Pull Up/Chin Up
+8 x DBall Cyclist Squat (AHAP) +
+8 x BW Cyclist Squat
+*Reps Only Decrease If Weight Increases
+S2.
+In Pairs YGlG - 2 Blocks Of E4MOM x 2  [?]
+A. 1. 12-9-6 Building Weight  [?]
+In Pairs YGIG - 2 Blocks Of E4MOM x 2  [? vision]
+A. I. 12-9-6 Building Weight  [? vision]
+BB Hip Thrust Or BB Hang Power
+Clean
+2. 12-10-8-6-4  [?]
+I0 x DB Push Press  [?]
+B. 1. 9-6-3 Building Weight  [?]
+2.12-10-8-6-4  [? vision]
+10 x DB Push Press  [? vision]
+B. I.9-6-3 Building Weight  [? vision]
+BB Hip Thrust Or BB Hang Power
+Clean
+2. 12-10-8-6-4  [?]
+2.12-10-8-6-4  [? vision]
+DB Curl Or Alt DB Reverse Lunge
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets:8 x BB Bench Press  [?]
+- (SECTION) WARM UP  [? vision]
+- (exercise?) 1-2 Sets: 8 x BB Bench Press  [? vision]
+- (exercise?) 12 x Scap Pull/Chin Up
+- (exercise?) 10.10 x SL Glute Bridge
+- (exercise?) 15 x BW Cyclist Squat
+- (uncertain) sl.  [?]
+- (prescription?) 2 Blocks - Every 2:15 x 4  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) A. 9-7-5-3
+- (exercise? / prescription?) BB Bench Press @2 RIR
+- (exercise?) KB SA OH Split Squat e/s
+- (prescription?) B. 9-7-5-3  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) 2 Blocks - Every 2:15 x 4  [? vision]
+- (prescription?) В. 9-7-5-3  [? vision]
+- (exercise?) Pull Up/Chin Up
+- (exercise? / prescription?) 8 x DBall Cyclist Squat (AHAP) +
+- (exercise?) 8 x BW Cyclist Squat
+- (SECTION) S2.
+- (prescription?) In Pairs YGlG - 2 Blocks Of E4MOM x 2  [?]
+- (prescription?) A. 1. 12-9-6 Building Weight  [?]
+- (prescription?) In Pairs YGIG - 2 Blocks Of E4MOM x 2  [? vision]
+- (prescription?) A. I. 12-9-6 Building Weight  [? vision]
+- (exercise?) BB Hip Thrust Or BB Hang Power
+- (prescription?) 2. 12-10-8-6-4  [?]
+- (exercise?) I0 x DB Push Press  [?]
+- (prescription?) B. 1. 9-6-3 Building Weight  [?]
+- (prescription?) 2.12-10-8-6-4  [? vision]
+- (exercise?) 10 x DB Push Press  [? vision]
+- (prescription?) B. I.9-6-3 Building Weight  [? vision]
+- (exercise?) BB Hip Thrust Or BB Hang Power
+- (prescription?) 2. 12-10-8-6-4  [?]
+- (prescription?) 2.12-10-8-6-4  [? vision]
+- (exercise?) DB Curl Or Alt DB Reverse Lunge
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARMUP
+4:00 Cap
+I-2 Sets:8 x BB Bench Press
+12 x Scap Pull/Chin Up
+10.10 x SL Glute Bridge
+15 x BW Cyclist Squat
+sl.
+2 Blocks - Every 2:15 x 4
+A. 9-7-5-3
+BB Bench Press @2 RIR
+KB SA OH Split Squat e/s
+B. 9-7-5-3
+Pull Up/Chin Up
+8 x DBall Cyclist Squat (AHAP) +
+8 x BW Cyclist Squat
+*Reps Only Decrease If Weight Increases
+S2.
+In Pairs YGlG - 2 Blocks Of E4MOM x 2
+A. 1. 12-9-6 Building Weight
+BB Hip Thrust Or BB Hang Power
+Clean
+2. 12-10-8-6-4
+I0 x DB Push Press
+B. 1. 9-6-3 Building Weight
+BB Hip Thrust Or BB Hang Power
+Clean
+2. 12-10-8-6-4
+DB Curl Or Alt DB Reverse Lunge
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8 x BB Bench Press
+12 x Scap Pull/Chin Up
+10.10 x SL Glute Bridge
+15 x BW Cyclist Squat
+SI.
+A. 9-7-5-3
+BB Bench Press @2 RIR
+KB SA OH Split Squat e/s
+4:00 Cap
+2 Blocks - Every 2:15 x 4
+В. 9-7-5-3
+Pull Up/Chin Up
+8 x DBall Cyclist Squat (AHAP) +
+8 x BW Cyclist Squat
+*Reps Only Decrease If Weight Increases
+S2.
+In Pairs YGIG - 2 Blocks Of E4MOM x 2
+A. I. 12-9-6 Building Weight
+BB Hip Thrust Or BB Hang Power
+Clean
+2.12-10-8-6-4
+10 x DB Push Press
+B. I.9-6-3 Building Weight
+BB Hip Thrust Or BB Hang Power
+Clean
+2.12-10-8-6-4
+DB Curl Or Alt DB Reverse Lunge
+```
+</details>
+
+### wednesday perform lower
+`REVL Block 3 programming 2026/Build Wk 3/wednesday perform lower.png`  ·  day **Wednesday** [inferred]  ·  session **Perform Lower** [inferred]
+
+_Reader notes:_ engines differ near: 'I2 x DB RDL'; engines differ near: '*Round 4-5: I+1 Cluster Set'; engines differ near: '*:45 Rest Between Each Exercise'; engines differ near: 'I-2 x BB Power Clean Or 5 x BB RDL'; engines differ near: '6 x StrictTTB/K2C Or I2 xV-Up'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Back/Front Squat @50-55%
+8.8 x Dynamic Pigeon Stretch
+4.4 x BW/DB Box Lateral Step Down
+I2 x DB RDL  [?]
+12 x DB RDL  [? vision]
+Sl.
+18:00 Cap  [? rapid only]
+2-4 x BB Back/Front Squat
+@60-70-80-85-90%
+*Round 4-5: I+1 Cluster Set  [?]
+*Round 4-5: 1 +/ Cluster Set  [? vision]
+18:00 Cap  [? vision]
+Alternate Each Round Between:
+6-8 x Roller Hamstring Curl
+4.4+ x DB Lateral Box Step Down
+*:45 Rest Between Each Exercise  [?]
+*.45 Rest Between Each Exercise  [? vision]
+S2.
+16:00 Cap
+Build To A Heavy:
+I-2 x BB Power Clean Or 5 x BB RDL  [?]
+8 x AIt DB FFE Rev Lunge (AHAP)  [?]
+1-2 x BB Power Clean Or 5 x BB RDL  [? vision]
+8 x Alt DB FFE Rev Lunge (AHAP)  [? vision]
+Alternate Each Round Between:
+3-5 x Box Jump For Height
+6 x StrictTTB/K2C Or I2 xV-Up  [?]
+6 x Strict TTB/K2C Or 12 xV-Up  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 6 x BB Back/Front Squat @50-55%
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (exercise?) 4.4 x BW/DB Box Lateral Step Down
+- (exercise?) I2 x DB RDL  [?]
+- (exercise?) 12 x DB RDL  [? vision]
+- (prescription?) 18:00 Cap  [? rapid only]
+- (exercise?) 2-4 x BB Back/Front Squat
+- (prescription?) @60-70-80-85-90%
+- (uncertain) *Round 4-5: I+1 Cluster Set  [?]
+- (uncertain) *Round 4-5: 1 +/ Cluster Set  [? vision]
+- (prescription?) 18:00 Cap  [? vision]
+- (exercise?) 6-8 x Roller Hamstring Curl
+- (exercise?) 4.4+ x DB Lateral Box Step Down
+- (prescription?) *:45 Rest Between Each Exercise  [?]
+- (uncertain) *.45 Rest Between Each Exercise  [? vision]
+- (SECTION) S2.
+- (prescription?) 16:00 Cap
+- (exercise?) I-2 x BB Power Clean Or 5 x BB RDL  [?]
+- (exercise? / prescription?) 8 x AIt DB FFE Rev Lunge (AHAP)  [?]
+- (exercise?) 1-2 x BB Power Clean Or 5 x BB RDL  [? vision]
+- (exercise? / prescription?) 8 x Alt DB FFE Rev Lunge (AHAP)  [? vision]
+- (uncertain) 6 x StrictTTB/K2C Or I2 xV-Up  [?]
+- (uncertain) 6 x Strict TTB/K2C Or 12 xV-Up  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Back/Front Squat @50-55%
+8.8 x Dynamic Pigeon Stretch
+4.4 x BW/DB Box Lateral Step Down
+I2 x DB RDL
+Sl.
+18:00 Cap
+2-4 x BB Back/Front Squat
+@60-70-80-85-90%
+*Round 4-5: I+1 Cluster Set
+Alternate Each Round Between:
+6-8 x Roller Hamstring Curl
+4.4+ x DB Lateral Box Step Down
+*:45 Rest Between Each Exercise
+S2.
+16:00 Cap
+Build To A Heavy:
+I-2 x BB Power Clean Or 5 x BB RDL
+8 x AIt DB FFE Rev Lunge (AHAP)
+Alternate Each Round Between:
+3-5 x Box Jump For Height
+6 x StrictTTB/K2C Or I2 xV-Up
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 6 x BB Back/Front Squat @50-55%
+8.8 x Dynamic Pigeon Stretch
+4.4 x BW/DB Box Lateral Step Down
+12 x DB RDL
+Sl.
+2-4 x BB Back/Front Squat
+@60-70-80-85-90%
+*Round 4-5: 1 +/ Cluster Set
+18:00 Cap
+Alternate Each Round Between:
+6-8 x Roller Hamstring Curl
+4.4+ x DB Lateral Box Step Down
+*.45 Rest Between Each Exercise
+S2.
+16:00 Cap
+Build To A Heavy:
+1-2 x BB Power Clean Or 5 x BB RDL
+8 x Alt DB FFE Rev Lunge (AHAP)
+Alternate Each Round Between:
+3-5 x Box Jump For Height
+6 x Strict TTB/K2C Or 12 xV-Up
+```
+</details>
+
+### thursday sweat sprint
+`REVL Block 3 programming 2026/Build Wk 3/thursday sweat sprint.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Sprint** [inferred]
+
+_Reader notes:_ engines differ near: '2 x :30 Erg/Echo Effort @RPE 7+'; engines differ near: 'A. 1. 16/12/8 Cal Echo Bike'; engines differ near: 'B. 1. 16/12/8 Cal Ski Erg'; engines differ near: 'C. 1. 16/l2/8 Cal Row Erg'; engines differ near: 'Goal = Complete In :45-I:00'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 x :30 Erg/Echo Effort @RPE 7+  [?]
+I0 x BB SDHP  [?]
+2x:30 Erg/Echo Effort @RPE 7+  [? vision]
+10 x BB SDHP  [? vision]
+5 x Burpee Box Jump or Burpee Step Up
+8.8 x World's Greatest Stretch
+4 Blocks - EMOM x 8
+A. 1. 16/12/8 Cal Echo Bike  [?]
+A. I. 16/12/8 Cal Echo Bike  [? vision]
+10/8 x Wall Ball
+2. Rest
+B. 1. 16/12/8 Cal Ski Erg  [?]
+B. I. 16/12/8 Cal Ski Erg  [? vision]
+10/8 x BB SDHP
+2. Rest
+C. 1. 16/l2/8 Cal Row Erg  [?]
+I0/8 x AIt DB FR Reverse Lunge  [?]
+2. Rest  [?]
+D. 1. 16/12/8 Cal Bike Erg  [?]
+C. I.16/12/8 Cal Row Erg  [? vision]
+10/8 x Alt DB FR Reverse Lunge  [? vision]
+2.Rest  [? vision]
+D. I. 16/12/8 Cal Bike Erg  [? vision]
+5/4/3 x Burpee Box Jump
+2. Rest
+Goal = Complete In :45-I:00  [?]
+*I:00 Between Blocks  [?]
+Goal = Complete In :45-1:00  [? vision]
+*1:00 Between Blocks  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) 2 x :30 Erg/Echo Effort @RPE 7+  [?]
+- (exercise?) I0 x BB SDHP  [?]
+- (exercise? / prescription?) 2x:30 Erg/Echo Effort @RPE 7+  [? vision]
+- (exercise?) 10 x BB SDHP  [? vision]
+- (exercise?) 5 x Burpee Box Jump or Burpee Step Up
+- (exercise?) 8.8 x World's Greatest Stretch
+- (prescription?) 4 Blocks - EMOM x 8
+- (exercise?) A. 1. 16/12/8 Cal Echo Bike  [?]
+- (exercise?) A. I. 16/12/8 Cal Echo Bike  [? vision]
+- (exercise?) 10/8 x Wall Ball
+- (exercise?) B. 1. 16/12/8 Cal Ski Erg  [?]
+- (exercise?) B. I. 16/12/8 Cal Ski Erg  [? vision]
+- (exercise?) 10/8 x BB SDHP
+- (exercise?) C. 1. 16/l2/8 Cal Row Erg  [?]
+- (exercise?) I0/8 x AIt DB FR Reverse Lunge  [?]
+- (uncertain) 2. Rest  [?]
+- (exercise?) D. 1. 16/12/8 Cal Bike Erg  [?]
+- (exercise?) C. I.16/12/8 Cal Row Erg  [? vision]
+- (exercise?) 10/8 x Alt DB FR Reverse Lunge  [? vision]
+- (uncertain) 2.Rest  [? vision]
+- (exercise?) D. I. 16/12/8 Cal Bike Erg  [? vision]
+- (exercise?) 5/4/3 x Burpee Box Jump
+- (prescription?) Goal = Complete In :45-I:00  [?]
+- (prescription?) *I:00 Between Blocks  [?]
+- (prescription?) Goal = Complete In :45-1:00  [? vision]
+- (prescription?) *1:00 Between Blocks  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2 x :30 Erg/Echo Effort @RPE 7+
+I0 x BB SDHP
+5 x Burpee Box Jump or Burpee Step Up
+8.8 x World's Greatest Stretch
+4 Blocks - EMOM x 8
+A. 1. 16/12/8 Cal Echo Bike
+10/8 x Wall Ball
+2. Rest
+B. 1. 16/12/8 Cal Ski Erg
+10/8 x BB SDHP
+2. Rest
+C. 1. 16/l2/8 Cal Row Erg
+I0/8 x AIt DB FR Reverse Lunge
+2. Rest
+D. 1. 16/12/8 Cal Bike Erg
+5/4/3 x Burpee Box Jump
+2. Rest
+Goal = Complete In :45-I:00
+*I:00 Between Blocks
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2x:30 Erg/Echo Effort @RPE 7+
+10 x BB SDHP
+5 x Burpee Box Jump or Burpee Step Up
+8.8 x World's Greatest Stretch
+4 Blocks - EMOM x 8
+A. I. 16/12/8 Cal Echo Bike
+10/8 x Wall Ball
+2. Rest
+B. I. 16/12/8 Cal Ski Erg
+10/8 x BB SDHP
+2. Rest
+C. I.16/12/8 Cal Row Erg
+10/8 x Alt DB FR Reverse Lunge
+2.Rest
+D. I. 16/12/8 Cal Bike Erg
+5/4/3 x Burpee Box Jump
+2. Rest
+Goal = Complete In :45-1:00
+*1:00 Between Blocks
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Build Wk 3/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'MOVETOTAL'; engines differ near: 'sl.'; engines differ near: 'A. 7-6-5-4'; engines differ near: 'B. 8.8-7.7-6.6-5.5'; engines differ near: 'B.10-8-6-4'; engines differ near: '*Reps Only Decrease IfWeight Increases'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVETOTAL  [?]
+MOVE TOTAL  [? vision]
+WARM UP
+4:00 Cap  [? rapid only]
+I-2 Sets: 6-8 x BB Back/Front Squat
+8.8 x SL Hamstring Bridge
+12 x Banded Pull Apart
+8.8 x SA HK KB Press
+sl.  [?]
+SI.  [? vision]
+4:00 Cap  [? vision]
+2 Blocks - Every 2:15 x 4
+A. 7-6-5-4  [?]
+А. 7-6-5-4  [? vision]
+BB Back/Front Squat @2 RIR
+8+ x Roller Hamstring Curl
+B. 8.8-7.7-6.6-5.5  [?]
+В. 8.8-7.7-6.6-5.5  [? vision]
+Single DB Bulgarian Split Squat
+SA KB Strict Press
+*Reps Only Decrease If Weight Increases
+S2.
+2 Blocks Of E2MOM x 4
+A. 10-8-6-4
+BB UH Bent Over Row
+Alt KB Goblet Cossack Squat
+B.10-8-6-4  [?]
+B. 10-8-6-4  [? vision]
+DB Incline Bench Press
+:30 Max Cal Row Erg/Echo Bike
+*Reps Only Decrease IfWeight Increases  [?]
+*Reps Only Decrease If Weight Increases  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) MOVETOTAL  [?]
+- (uncertain) MOVE TOTAL  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise?) I-2 Sets: 6-8 x BB Back/Front Squat
+- (exercise?) 8.8 x SL Hamstring Bridge
+- (exercise?) 8.8 x SA HK KB Press
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) 2 Blocks - Every 2:15 x 4
+- (prescription?) A. 7-6-5-4  [?]
+- (prescription?) А. 7-6-5-4  [? vision]
+- (exercise? / prescription?) BB Back/Front Squat @2 RIR
+- (exercise?) 8+ x Roller Hamstring Curl
+- (uncertain) B. 8.8-7.7-6.6-5.5  [?]
+- (uncertain) В. 8.8-7.7-6.6-5.5  [? vision]
+- (exercise?) Single DB Bulgarian Split Squat
+- (exercise?) SA KB Strict Press
+- (SECTION) S2.
+- (prescription?) 2 Blocks Of E2MOM x 4
+- (prescription?) A. 10-8-6-4
+- (exercise?) BB UH Bent Over Row
+- (exercise?) Alt KB Goblet Cossack Squat
+- (SECTION / prescription?) B.10-8-6-4  [?]
+- (prescription?) B. 10-8-6-4  [? vision]
+- (exercise?) DB Incline Bench Press
+- (exercise? / prescription?) :30 Max Cal Row Erg/Echo Bike
+- (uncertain) *Reps Only Decrease IfWeight Increases  [?]
+- (uncertain) *Reps Only Decrease If Weight Increases  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVETOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6-8 x BB Back/Front Squat
+8.8 x SL Hamstring Bridge
+12 x Banded Pull Apart
+8.8 x SA HK KB Press
+sl.
+2 Blocks - Every 2:15 x 4
+A. 7-6-5-4
+BB Back/Front Squat @2 RIR
+8+ x Roller Hamstring Curl
+B. 8.8-7.7-6.6-5.5
+Single DB Bulgarian Split Squat
+SA KB Strict Press
+*Reps Only Decrease If Weight Increases
+S2.
+2 Blocks Of E2MOM x 4
+A. 10-8-6-4
+BB UH Bent Over Row
+Alt KB Goblet Cossack Squat
+B.10-8-6-4
+DB Incline Bench Press
+:30 Max Cal Row Erg/Echo Bike
+*Reps Only Decrease IfWeight Increases
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+I-2 Sets: 6-8 x BB Back/Front Squat
+8.8 x SL Hamstring Bridge
+12 x Banded Pull Apart
+8.8 x SA HK KB Press
+SI.
+4:00 Cap
+2 Blocks - Every 2:15 x 4
+А. 7-6-5-4
+BB Back/Front Squat @2 RIR
+8+ x Roller Hamstring Curl
+В. 8.8-7.7-6.6-5.5
+Single DB Bulgarian Split Squat
+SA KB Strict Press
+*Reps Only Decrease If Weight Increases
+S2.
+2 Blocks Of E2MOM x 4
+A. 10-8-6-4
+BB UH Bent Over Row
+Alt KB Goblet Cossack Squat
+B. 10-8-6-4
+DB Incline Bench Press
+:30 Max Cal Row Erg/Echo Bike
+*Reps Only Decrease If Weight Increases
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Build Wk 3/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: '8.8 xT-Opener'; engines differ near: 'I0-I2 x DB Lateral Raise'; engines differ near: 'In PairsYGlG - 2 x 8:00 Cap'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap  [?]
+I-2 Sets:6 x BB Bench Press @50-55%  [?]
+I-2 Sets: 6 x BB Bench Press @50-55%  [? vision]
+6.6 x Mixed Grip Scap Pull Up
+8.8 x Seated DB/Plate External Rotation
+8.8 xT-Opener  [?]
+sl.  [?]
+E3MOM x 6  [?]
+5-4-3-2-2-1+l  [?]
+BB Bench Press  [?]
+@60-70-75-80-85-90%  [?]
+8-I0 x AIt KB Gorilla Row(AHAP)  [?]
+8.8 x T-Opener  [? vision]
+SI.  [? vision]
+4:00 Cap  [? vision]
+ЕЗМОМ x 6  [? vision]
+5-4-3-2-2-1+1  [? vision]
+BB Bench Press @60-70-75-80-85-90%  [? vision]
+8-10 x Alt KB Gorilla Row(AHAP)  [? vision]
+Alternate Each Round Between:
+6-8 x DBall Supp Plate Pull Over
+I0-I2 x DB Lateral Raise  [?]
+10-12 x DB Lateral Raise  [? vision]
+:45 Rest
+S2.
+In PairsYGlG - 2 x 8:00 Cap  [?]
+A. 5-4-3-2-1+[  [?]
+In Pairs YGIG - 2 x 8:00 Cap  [? vision]
+A.5-4-3-2-I+1  [? vision]
+BB Pendlay Row Or Pull/Chin Up
+8-12 x Close Grip Push Up
+B. AMRAP
+8 x DB Reverse Fly
+8 x DB Curl
+*+2 Reps Each Round Or Maintain
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I-2 Sets:6 x BB Bench Press @50-55%  [?]
+- (exercise? / prescription?) I-2 Sets: 6 x BB Bench Press @50-55%  [? vision]
+- (exercise?) 6.6 x Mixed Grip Scap Pull Up
+- (exercise?) 8.8 x Seated DB/Plate External Rotation
+- (uncertain) 8.8 xT-Opener  [?]
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E3MOM x 6  [?]
+- (prescription?) 5-4-3-2-2-1+l  [?]
+- (exercise?) BB Bench Press  [?]
+- (prescription?) @60-70-75-80-85-90%  [?]
+- (exercise? / prescription?) 8-I0 x AIt KB Gorilla Row(AHAP)  [?]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) ЕЗМОМ x 6  [? vision]
+- (prescription?) 5-4-3-2-2-1+1  [? vision]
+- (exercise? / prescription?) BB Bench Press @60-70-75-80-85-90%  [? vision]
+- (exercise? / prescription?) 8-10 x Alt KB Gorilla Row(AHAP)  [? vision]
+- (exercise?) 6-8 x DBall Supp Plate Pull Over
+- (exercise?) I0-I2 x DB Lateral Raise  [?]
+- (exercise?) 10-12 x DB Lateral Raise  [? vision]
+- (prescription?) :45 Rest
+- (SECTION) S2.
+- (prescription?) In PairsYGlG - 2 x 8:00 Cap  [?]
+- (prescription?) A. 5-4-3-2-1+[  [?]
+- (prescription?) In Pairs YGIG - 2 x 8:00 Cap  [? vision]
+- (SECTION / prescription?) A.5-4-3-2-I+1  [? vision]
+- (exercise?) BB Pendlay Row Or Pull/Chin Up
+- (exercise?) 8-12 x Close Grip Push Up
+- (prescription?) B. AMRAP
+- (exercise?) 8 x DB Reverse Fly
+- (exercise?) 8 x DB Curl
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+I-2 Sets:6 x BB Bench Press @50-55%
+6.6 x Mixed Grip Scap Pull Up
+8.8 x Seated DB/Plate External Rotation
+8.8 xT-Opener
+sl.
+E3MOM x 6
+5-4-3-2-2-1+l
+BB Bench Press
+@60-70-75-80-85-90%
+8-I0 x AIt KB Gorilla Row(AHAP)
+Alternate Each Round Between:
+6-8 x DBall Supp Plate Pull Over
+I0-I2 x DB Lateral Raise
+:45 Rest
+S2.
+In PairsYGlG - 2 x 8:00 Cap
+A. 5-4-3-2-1+[
+BB Pendlay Row Or Pull/Chin Up
+8-12 x Close Grip Push Up
+B. AMRAP
+8 x DB Reverse Fly
+8 x DB Curl
+*+2 Reps Each Round Or Maintain
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+I-2 Sets: 6 x BB Bench Press @50-55%
+6.6 x Mixed Grip Scap Pull Up
+8.8 x Seated DB/Plate External Rotation
+8.8 x T-Opener
+SI.
+4:00 Cap
+ЕЗМОМ x 6
+5-4-3-2-2-1+1
+BB Bench Press @60-70-75-80-85-90%
+8-10 x Alt KB Gorilla Row(AHAP)
+Alternate Each Round Between:
+6-8 x DBall Supp Plate Pull Over
+10-12 x DB Lateral Raise
+:45 Rest
+S2.
+In Pairs YGIG - 2 x 8:00 Cap
+A.5-4-3-2-I+1
+BB Pendlay Row Or Pull/Chin Up
+8-12 x Close Grip Push Up
+B. AMRAP
+8 x DB Reverse Fly
+8 x DB Curl
+*+2 Reps Each Round Or Maintain
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Build Wk 3/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: '15/l0 Cal Bike/Ski/Echo Bike Or 200m Run'; engines differ near: '1.400/300/200m Team Run Or'; engines differ near: 'Max Cal Ski Erg (Goal: 40-I00)'; engines differ near: 'Max Cal Bike Erg (Goal: 40-I10)'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT TEAM
+WARMUP  [?]
+WARM UP  [? vision]
+4:00 Cap
+15/l0 Cal Bike/Ski/Echo Bike Or 200m Run  [?]
+I0 x SA DB Devil's Press  [?]
+I2 x Alt BW Cossack Squat  [?]
+15/10 Cal Bike/Ski/Echo Bike Or 200m Run  [? vision]
+10 x SA DB Devil's Press  [? vision]
+12 x Alt BW Cossack Squat  [? vision]
+8.8 x World's Greatest Stretch
+Teams of 4 - E5MOM x 9
+1.400/300/200m Team Run Or  [?]
+40/32/24 x Synchro AIt SA DB Hang Clean  [?]
+I.400/300/200m Team Run Or  [? vision]
+40/32/24 x Synchro Alt SA DB Hang Clean  [? vision]
+Time Remaining:
+Max Cal Ski Erg (Goal: 40-I00)  [?]
+2. 20/l6/12 x Synchro SA DB Devil's Press  [?]
+Max Cal Ski Erg (Goal: 40-100)  [? vision]
+2. 20/16/12 x Synchro SA DB Devil's Press  [? vision]
+Time Remaining:
+Max Cal Bike Erg (Goal: 40-I10)  [?]
+3. 40/32/24 x Synchro SA KB Front Squat  [?]
+Max Cal Bike Erg (Goal: 40-110)  [? vision]
+3.40/32/24 x Synchro SA KB Front Squat  [? vision]
+Time Remaining:
+Max Cal Echo Bike (Goal: 30-80)
+Score = Scale + Total Combined Cals
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise?) 15/l0 Cal Bike/Ski/Echo Bike Or 200m Run  [?]
+- (exercise?) I0 x SA DB Devil's Press  [?]
+- (exercise?) I2 x Alt BW Cossack Squat  [?]
+- (exercise?) 15/10 Cal Bike/Ski/Echo Bike Or 200m Run  [? vision]
+- (exercise?) 10 x SA DB Devil's Press  [? vision]
+- (exercise?) 12 x Alt BW Cossack Squat  [? vision]
+- (exercise?) 8.8 x World's Greatest Stretch
+- (prescription?) Teams of 4 - E5MOM x 9
+- (exercise?) 1.400/300/200m Team Run Or  [?]
+- (exercise?) 40/32/24 x Synchro AIt SA DB Hang Clean  [?]
+- (exercise?) I.400/300/200m Team Run Or  [? vision]
+- (exercise?) 40/32/24 x Synchro Alt SA DB Hang Clean  [? vision]
+- (exercise?) Max Cal Ski Erg (Goal: 40-I00)  [?]
+- (exercise?) 2. 20/l6/12 x Synchro SA DB Devil's Press  [?]
+- (exercise?) Max Cal Ski Erg (Goal: 40-100)  [? vision]
+- (exercise?) 2. 20/16/12 x Synchro SA DB Devil's Press  [? vision]
+- (exercise?) Max Cal Bike Erg (Goal: 40-I10)  [?]
+- (exercise?) 3. 40/32/24 x Synchro SA KB Front Squat  [?]
+- (exercise?) Max Cal Bike Erg (Goal: 40-110)  [? vision]
+- (exercise?) 3.40/32/24 x Synchro SA KB Front Squat  [? vision]
+- (exercise?) Max Cal Echo Bike (Goal: 30-80)
+- (SECTION) Score = Scale + Total Combined Cals
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT TEAM
+WARMUP
+4:00 Cap
+15/l0 Cal Bike/Ski/Echo Bike Or 200m Run
+I0 x SA DB Devil's Press
+I2 x Alt BW Cossack Squat
+8.8 x World's Greatest Stretch
+Teams of 4 - E5MOM x 9
+1.400/300/200m Team Run Or
+40/32/24 x Synchro AIt SA DB Hang Clean
+Time Remaining:
+Max Cal Ski Erg (Goal: 40-I00)
+2. 20/l6/12 x Synchro SA DB Devil's Press
+Time Remaining:
+Max Cal Bike Erg (Goal: 40-I10)
+3. 40/32/24 x Synchro SA KB Front Squat
+Time Remaining:
+Max Cal Echo Bike (Goal: 30-80)
+Score = Scale + Total Combined Cals
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+15/10 Cal Bike/Ski/Echo Bike Or 200m Run
+10 x SA DB Devil's Press
+12 x Alt BW Cossack Squat
+8.8 x World's Greatest Stretch
+Teams of 4 - E5MOM x 9
+I.400/300/200m Team Run Or
+40/32/24 x Synchro Alt SA DB Hang Clean
+Time Remaining:
+Max Cal Ski Erg (Goal: 40-100)
+2. 20/16/12 x Synchro SA DB Devil's Press
+Time Remaining:
+Max Cal Bike Erg (Goal: 40-110)
+3.40/32/24 x Synchro SA KB Front Squat
+Time Remaining:
+Max Cal Echo Bike (Goal: 30-80)
+Score = Scale + Total Combined Cals
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Build Wk 3/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'I2 x BB Good Morning Or Alt BB Reverse Lunge'; engines differ near: 'In Pairs (l:I) - 2 Blocks of E3MOM x 6'; engines differ near: '2. 30.30/20.20 x Synchro SA KB'; engines differ near: '3. 55/40/25 Cal Echo Bike'; engines differ near: '2. 40 x Synchro AIt DB Squat Clean'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARMUP  [?]
+WARM UP  [? vision]
+4:00 Cap
+I2 x BB Good Morning Or Alt BB Reverse Lunge  [?]
+12 x AIt DB Squat Clean  [?]
+12 x BB Good Morning Or Alt BB Reverse Lunge  [? vision]
+12 x Alt DB Squat Clean  [? vision]
+:45 Ski/Echo Effort
+8.8 x Weighted Hip Opener
+In Pairs (l:I) - 2 Blocks of E3MOM x 6  [?]
+A. I.40 x BB Good Morning or  [?]
+In Pairs (I:J) - 2 Blocks of EЗМОМ x 6  [? vision]
+A. 1.40 x BB Good Morning or  [? vision]
+60/40 x Alt BB Reverse Lunge
+2. 30.30/20.20 x Synchro SA KB  [?]
+2.30.30/20.20 x Synchro SA KB  [? vision]
+Push Press
+3. 55/40/25 Cal Echo Bike  [?]
+3.55/40/25 Cal Echo Bike  [? vision]
+*3:00 Between Blocks
+B. 1.40 x BB Hip Thrust or
+60/40 x Narrow Grip Bench Press
+2. 40 x Synchro AIt DB Squat Clean  [?]
+2.40 x Synchro Alt DB Squat Clean  [? vision]
+3. 60/45/30 Cal Ski Erg
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise?) I2 x BB Good Morning Or Alt BB Reverse Lunge  [?]
+- (exercise?) 12 x AIt DB Squat Clean  [?]
+- (exercise?) 12 x BB Good Morning Or Alt BB Reverse Lunge  [? vision]
+- (exercise?) 12 x Alt DB Squat Clean  [? vision]
+- (prescription?) :45 Ski/Echo Effort
+- (prescription?) In Pairs (l:I) - 2 Blocks of E3MOM x 6  [?]
+- (exercise?) A. I.40 x BB Good Morning or  [?]
+- (prescription?) In Pairs (I:J) - 2 Blocks of EЗМОМ x 6  [? vision]
+- (exercise?) A. 1.40 x BB Good Morning or  [? vision]
+- (exercise?) 60/40 x Alt BB Reverse Lunge
+- (exercise?) 2. 30.30/20.20 x Synchro SA KB  [?]
+- (exercise?) 2.30.30/20.20 x Synchro SA KB  [? vision]
+- (exercise?) Push Press
+- (exercise?) 3. 55/40/25 Cal Echo Bike  [?]
+- (exercise?) 3.55/40/25 Cal Echo Bike  [? vision]
+- (prescription?) *3:00 Between Blocks
+- (exercise?) B. 1.40 x BB Hip Thrust or
+- (exercise?) 60/40 x Narrow Grip Bench Press
+- (exercise?) 2. 40 x Synchro AIt DB Squat Clean  [?]
+- (exercise?) 2.40 x Synchro Alt DB Squat Clean  [? vision]
+- (exercise?) 3. 60/45/30 Cal Ski Erg
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARMUP
+4:00 Cap
+I2 x BB Good Morning Or Alt BB Reverse Lunge
+12 x AIt DB Squat Clean
+:45 Ski/Echo Effort
+8.8 x Weighted Hip Opener
+In Pairs (l:I) - 2 Blocks of E3MOM x 6
+A. I.40 x BB Good Morning or
+60/40 x Alt BB Reverse Lunge
+2. 30.30/20.20 x Synchro SA KB
+Push Press
+3. 55/40/25 Cal Echo Bike
+*3:00 Between Blocks
+B. 1.40 x BB Hip Thrust or
+60/40 x Narrow Grip Bench Press
+2. 40 x Synchro AIt DB Squat Clean
+3. 60/45/30 Cal Ski Erg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+12 x BB Good Morning Or Alt BB Reverse Lunge
+12 x Alt DB Squat Clean
+:45 Ski/Echo Effort
+8.8 x Weighted Hip Opener
+In Pairs (I:J) - 2 Blocks of EЗМОМ x 6
+A. 1.40 x BB Good Morning or
+60/40 x Alt BB Reverse Lunge
+2.30.30/20.20 x Synchro SA KB
+Push Press
+3.55/40/25 Cal Echo Bike
+*3:00 Between Blocks
+B. 1.40 x BB Hip Thrust or
+60/40 x Narrow Grip Bench Press
+2.40 x Synchro Alt DB Squat Clean
+3. 60/45/30 Cal Ski Erg
+```
+</details>
+
+
+## Block 3 — Deload Wk 1  (programme week 7) [inferred]
+
+- **Phase:** Deload  ·  **Phase-week:** 1  ·  **Overall week:** 7   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Deload Wk 1/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'A. 6-8-10...'; engines differ near: 'V Up/AIt V Up'; engines differ near: 'In Pairs - 6:00 Cap ForTime'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: 8 x BB TNG Deadlift  [?]
+I0 x Paused KB Bent Over Row  [?]
+1-2 Sets: 8 x BB TNG Deadlift  [? vision]
+10 x Paused KB Bent Over Row  [? vision]
+15 x Kip Swing
+8.8 x World's Greatest Stretch
+sl.  [?]
+4:00 Cap  [? vision]
+SI.  [? vision]
+A.6-8-10...  [? vision]
+BBTNG Deadlift @5 RIR  [? vision]
+6.6 x SA HK DB Press  [? vision]
+2 x 6:00 AMRAP
+A. 6-8-10...  [?]
+BB TNG Deadlift @5 RIR  [?]
+6.6 x SA HK DB Press  [?]
+B.6-8-I0...  [?]
+В. 6-8-10...  [? vision]
+Dual KB Gorilla Row
+V Up/AIt V Up  [?]
+V Up/AltV Up  [? vision]
+S2.
+1.6x BB Back Squat  [? vision only]
+2.8 x TTB/K2C  [? vision only]
+3.4 x DB Renegade Row  [? vision only]
+4.:30 Max Cal Row/Ski Erg  [? vision only]
+EMOM x 16
+I.6 x BB Back Squat  [? rapid only]
+2.8 xTTB/K2C  [? rapid only]
+3.4 x DB Renegade Row  [? rapid only]
+4. :30 Max Cal Row/Ski Erg  [? rapid only]
+*+2 Reps Each Round or Maintain
+S3.
+In Pairs - 6:00 Cap ForTime  [?]
+In Pairs - 6:00 Cap For Time  [? vision]
+80/60/40 Cal Row/Ski Erg
+60/50/40 x BB Thruster
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I-2 Sets: 8 x BB TNG Deadlift  [?]
+- (exercise?) I0 x Paused KB Bent Over Row  [?]
+- (exercise? / prescription?) 1-2 Sets: 8 x BB TNG Deadlift  [? vision]
+- (exercise?) 10 x Paused KB Bent Over Row  [? vision]
+- (exercise?) 15 x Kip Swing
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) SI.  [? vision]
+- (SECTION / prescription?) A.6-8-10...  [? vision]
+- (exercise? / prescription?) BBTNG Deadlift @5 RIR  [? vision]
+- (exercise?) 6.6 x SA HK DB Press  [? vision]
+- (prescription?) 2 x 6:00 AMRAP
+- (prescription?) A. 6-8-10...  [?]
+- (exercise? / prescription?) BB TNG Deadlift @5 RIR  [?]
+- (exercise?) 6.6 x SA HK DB Press  [?]
+- (SECTION) B.6-8-I0...  [?]
+- (prescription?) В. 6-8-10...  [? vision]
+- (exercise?) Dual KB Gorilla Row
+- (uncertain) V Up/AIt V Up  [?]
+- (uncertain) V Up/AltV Up  [? vision]
+- (SECTION) S2.
+- (exercise?) 1.6x BB Back Squat  [? vision only]
+- (uncertain) 2.8 x TTB/K2C  [? vision only]
+- (exercise?) 3.4 x DB Renegade Row  [? vision only]
+- (exercise? / prescription?) 4.:30 Max Cal Row/Ski Erg  [? vision only]
+- (SECTION / prescription?) EMOM x 16
+- (exercise?) I.6 x BB Back Squat  [? rapid only]
+- (uncertain) 2.8 xTTB/K2C  [? rapid only]
+- (exercise?) 3.4 x DB Renegade Row  [? rapid only]
+- (exercise? / prescription?) 4. :30 Max Cal Row/Ski Erg  [? rapid only]
+- (SECTION) S3.
+- (prescription?) In Pairs - 6:00 Cap ForTime  [?]
+- (prescription?) In Pairs - 6:00 Cap For Time  [? vision]
+- (exercise?) 80/60/40 Cal Row/Ski Erg
+- (exercise?) 60/50/40 x BB Thruster
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB TNG Deadlift
+I0 x Paused KB Bent Over Row
+15 x Kip Swing
+8.8 x World's Greatest Stretch
+sl.
+2 x 6:00 AMRAP
+A. 6-8-10...
+BB TNG Deadlift @5 RIR
+6.6 x SA HK DB Press
+B.6-8-I0...
+Dual KB Gorilla Row
+V Up/AIt V Up
+S2.
+EMOM x 16
+I.6 x BB Back Squat
+2.8 xTTB/K2C
+3.4 x DB Renegade Row
+4. :30 Max Cal Row/Ski Erg
+*+2 Reps Each Round or Maintain
+S3.
+In Pairs - 6:00 Cap ForTime
+80/60/40 Cal Row/Ski Erg
+60/50/40 x BB Thruster
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8 x BB TNG Deadlift
+10 x Paused KB Bent Over Row
+15 x Kip Swing
+8.8 x World's Greatest Stretch
+4:00 Cap
+SI.
+A.6-8-10...
+BBTNG Deadlift @5 RIR
+6.6 x SA HK DB Press
+2 x 6:00 AMRAP
+В. 6-8-10...
+Dual KB Gorilla Row
+V Up/AltV Up
+S2.
+1.6x BB Back Squat
+2.8 x TTB/K2C
+3.4 x DB Renegade Row
+4.:30 Max Cal Row/Ski Erg
+EMOM x 16
+*+2 Reps Each Round or Maintain
+S3.
+In Pairs - 6:00 Cap For Time
+80/60/40 Cal Row/Ski Erg
+60/50/40 x BB Thruster
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Deload Wk 1/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'sl.'; engines differ near: '10-I2 x Atomic Sit Up'; engines differ near: '2. YGlG - 2 Rounds Each'; engines differ near: 'In Pairs - 6:00 Cap ForTime'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARMUP  [?]
+4:00 Cap  [?]
+WARM UP  [? vision]
+I-2 Sets: 8 x BB Deadlift @30-40%
+12 x Dead Bug
+8.8 x SA HK DB Press
+8.8 x World's Greatest Stretch
+sl.  [?]
+E3MOM x 4  [?]
+I.2 Rounds  [?]
+6-8 x BB TNG Deadlift  [?]
+t @40-60%  [?]
+4-6 x I+I/2 DB Seated Shoulder Press  [?]
+4:00 Cap  [? vision]
+SI.  [? vision]
+ЕЗМОМ × 4  [? vision]
+1.2 Rounds  [? vision]
+6-8 x BB TNG Deadlift @40-60%  [? vision]
+4-6 x I+1/2 DB Seated Shoulder Press  [? vision]
+2.2 Rounds
+8-10 x Ring Row
+10-I2 x Atomic Sit Up  [?]
+10-12 x Atomic Sit Up  [? vision]
+S2.
+In Pairs - E4MOM x 4
+I. 32 x BB Push Press (8 Rep Efforts)
+32/24 x BB Push Jerk (8/6 Rep Efforts)
+2. YGlG - 2 Rounds Each  [?]
+2. YGIG - 2 Rounds Each  [? vision]
+6.6 x DB Bulgarian Split Squat
+10/8/6 Cal Bike Erg/Echo Bike AFAP
+S3.
+In Pairs - 6:00 Cap ForTime  [?]
+In Pairs - 6:00 Cap For Time  [? vision]
+80/60/40 Cal Bike Erg or Echo Bike
+60/50/40 x BB High Bar Back Squat
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (prescription?) 4:00 Cap  [?]
+- (SECTION) WARM UP  [? vision]
+- (exercise? / prescription?) I-2 Sets: 8 x BB Deadlift @30-40%
+- (exercise?) 8.8 x SA HK DB Press
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E3MOM x 4  [?]
+- (uncertain) I.2 Rounds  [?]
+- (exercise? / prescription?) 6-8 x BB TNG Deadlift  [?]
+- (prescription?) t @40-60%  [?]
+- (exercise?) 4-6 x I+I/2 DB Seated Shoulder Press  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) SI.  [? vision]
+- (uncertain) ЕЗМОМ × 4  [? vision]
+- (uncertain) 1.2 Rounds  [? vision]
+- (exercise? / prescription?) 6-8 x BB TNG Deadlift @40-60%  [? vision]
+- (exercise?) 4-6 x I+1/2 DB Seated Shoulder Press  [? vision]
+- (exercise?) 8-10 x Ring Row
+- (uncertain) 10-I2 x Atomic Sit Up  [?]
+- (uncertain) 10-12 x Atomic Sit Up  [? vision]
+- (SECTION) S2.
+- (prescription?) In Pairs - E4MOM x 4
+- (exercise?) I. 32 x BB Push Press (8 Rep Efforts)
+- (exercise?) 32/24 x BB Push Jerk (8/6 Rep Efforts)
+- (uncertain) 2. YGlG - 2 Rounds Each  [?]
+- (uncertain) 2. YGIG - 2 Rounds Each  [? vision]
+- (exercise?) 6.6 x DB Bulgarian Split Squat
+- (exercise? / prescription?) 10/8/6 Cal Bike Erg/Echo Bike AFAP
+- (SECTION) S3.
+- (prescription?) In Pairs - 6:00 Cap ForTime  [?]
+- (prescription?) In Pairs - 6:00 Cap For Time  [? vision]
+- (exercise?) 80/60/40 Cal Bike Erg or Echo Bike
+- (exercise?) 60/50/40 x BB High Bar Back Squat
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARMUP
+4:00 Cap
+I-2 Sets: 8 x BB Deadlift @30-40%
+12 x Dead Bug
+8.8 x SA HK DB Press
+8.8 x World's Greatest Stretch
+sl.
+E3MOM x 4
+I.2 Rounds
+6-8 x BB TNG Deadlift
+t @40-60%
+4-6 x I+I/2 DB Seated Shoulder Press
+2.2 Rounds
+8-10 x Ring Row
+10-I2 x Atomic Sit Up
+S2.
+In Pairs - E4MOM x 4
+I. 32 x BB Push Press (8 Rep Efforts)
+32/24 x BB Push Jerk (8/6 Rep Efforts)
+2. YGlG - 2 Rounds Each
+6.6 x DB Bulgarian Split Squat
+10/8/6 Cal Bike Erg/Echo Bike AFAP
+S3.
+In Pairs - 6:00 Cap ForTime
+80/60/40 Cal Bike Erg or Echo Bike
+60/50/40 x BB High Bar Back Squat
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+I-2 Sets: 8 x BB Deadlift @30-40%
+12 x Dead Bug
+8.8 x SA HK DB Press
+8.8 x World's Greatest Stretch
+4:00 Cap
+SI.
+ЕЗМОМ × 4
+1.2 Rounds
+6-8 x BB TNG Deadlift @40-60%
+4-6 x I+1/2 DB Seated Shoulder Press
+2.2 Rounds
+8-10 x Ring Row
+10-12 x Atomic Sit Up
+S2.
+In Pairs - E4MOM x 4
+I. 32 x BB Push Press (8 Rep Efforts)
+32/24 x BB Push Jerk (8/6 Rep Efforts)
+2. YGIG - 2 Rounds Each
+6.6 x DB Bulgarian Split Squat
+10/8/6 Cal Bike Erg/Echo Bike AFAP
+S3.
+In Pairs - 6:00 Cap For Time
+80/60/40 Cal Bike Erg or Echo Bike
+60/50/40 x BB High Bar Back Squat
+```
+</details>
+
+### tuesday sweat sprint
+`REVL Block 3 programming 2026/Deload Wk 1/tuesday sweat sprint.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Sprint** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATSPRINT'; engines differ near: 'In Pairs I:l - 4 Blocks Every 2:15 x 4'; engines differ near: 'B. I.Cal Row Erg'; engines differ near: 'C. I.Cal Echo Bike'; engines differ near: 'D. I.Cal Ski Erg'; engines differ near: 'FF: 40/30/20 I MF: 50/40/30 | MM: 60/50/40'; engines differ near: 'KB Weight: F: 16/12/8kg I M: 24/20/16kg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATSPRINT  [?]
+SWEAT SPRINT  [? vision]
+WARM UP
+4:00 Cap
+:45 Ski/Row Erg @RPE 7-9 (Building)
+6.6 x Weighted Hip Opener
+:45 Bike/Echo @RPE 7-9 (Building)
+6-8 x Dual DB Hang Snatch (Light)
+In Pairs I:l - 4 Blocks Every 2:15 x 4  [?]
+In Pairs I:I - 4 Blocks Every 2:15 x 4  [? vision]
+A. I. Cal Bike Erg
+2. Max Dual DB Hang Snatch
+B. I.Cal Row Erg  [?]
+B. I. Cal Row Erg  [? vision]
+2. Max Burpee Bar Touch
+C. I.Cal Echo Bike  [?]
+C. I. Cal Echo Bike  [? vision]
+2. Max Dual KB Push Press
+D. I.Cal Ski Erg  [?]
+D. I. Cal Ski Erg  [? vision]
+2. Max DBall Squat
+*Work Capped at 2:00
+Erg Cal Targets:
+FF: 40/30/20 I MF: 50/40/30 | MM: 60/50/40  [?]
+FF: 40/30/20 | MF: 50/40/30 | MM: 60/50/40  [? vision]
+Score = Scale + Total Reps
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg
+KB Weight: F: 16/12/8kg I M: 24/20/16kg  [?]
+KB Weight: F: 16/12/8kg / M: 24/20/16kg  [? vision]
+DBall Weight: F: 25/20/15kg / M: 35/30/25kg
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATSPRINT  [?]
+- (uncertain) SWEAT SPRINT  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) :45 Ski/Row Erg @RPE 7-9 (Building)
+- (prescription?) :45 Bike/Echo @RPE 7-9 (Building)
+- (exercise?) 6-8 x Dual DB Hang Snatch (Light)
+- (prescription?) In Pairs I:l - 4 Blocks Every 2:15 x 4  [?]
+- (prescription?) In Pairs I:I - 4 Blocks Every 2:15 x 4  [? vision]
+- (exercise?) A. I. Cal Bike Erg
+- (exercise?) 2. Max Dual DB Hang Snatch
+- (exercise?) B. I.Cal Row Erg  [?]
+- (exercise?) B. I. Cal Row Erg  [? vision]
+- (exercise?) 2. Max Burpee Bar Touch
+- (exercise?) C. I.Cal Echo Bike  [?]
+- (exercise?) C. I. Cal Echo Bike  [? vision]
+- (exercise?) 2. Max Dual KB Push Press
+- (exercise?) D. I.Cal Ski Erg  [?]
+- (exercise?) D. I. Cal Ski Erg  [? vision]
+- (exercise?) 2. Max DBall Squat
+- (prescription?) *Work Capped at 2:00
+- (uncertain) FF: 40/30/20 I MF: 50/40/30 | MM: 60/50/40  [?]
+- (uncertain) FF: 40/30/20 | MF: 50/40/30 | MM: 60/50/40  [? vision]
+- (SECTION) Score = Scale + Total Reps
+- (uncertain) KB Weight: F: 16/12/8kg I M: 24/20/16kg  [?]
+- (uncertain) KB Weight: F: 16/12/8kg / M: 24/20/16kg  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATSPRINT
+WARM UP
+4:00 Cap
+:45 Ski/Row Erg @RPE 7-9 (Building)
+6.6 x Weighted Hip Opener
+:45 Bike/Echo @RPE 7-9 (Building)
+6-8 x Dual DB Hang Snatch (Light)
+In Pairs I:l - 4 Blocks Every 2:15 x 4
+A. I. Cal Bike Erg
+2. Max Dual DB Hang Snatch
+B. I.Cal Row Erg
+2. Max Burpee Bar Touch
+C. I.Cal Echo Bike
+2. Max Dual KB Push Press
+D. I.Cal Ski Erg
+2. Max DBall Squat
+*Work Capped at 2:00
+Erg Cal Targets:
+FF: 40/30/20 I MF: 50/40/30 | MM: 60/50/40
+Score = Scale + Total Reps
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg
+KB Weight: F: 16/12/8kg I M: 24/20/16kg
+DBall Weight: F: 25/20/15kg / M: 35/30/25kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+:45 Ski/Row Erg @RPE 7-9 (Building)
+6.6 x Weighted Hip Opener
+:45 Bike/Echo @RPE 7-9 (Building)
+6-8 x Dual DB Hang Snatch (Light)
+In Pairs I:I - 4 Blocks Every 2:15 x 4
+A. I. Cal Bike Erg
+2. Max Dual DB Hang Snatch
+B. I. Cal Row Erg
+2. Max Burpee Bar Touch
+C. I. Cal Echo Bike
+2. Max Dual KB Push Press
+D. I. Cal Ski Erg
+2. Max DBall Squat
+*Work Capped at 2:00
+Erg Cal Targets:
+FF: 40/30/20 | MF: 50/40/30 | MM: 60/50/40
+Score = Scale + Total Reps
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg
+KB Weight: F: 16/12/8kg / M: 24/20/16kg
+DBall Weight: F: 25/20/15kg / M: 35/30/25kg
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Deload Wk 1/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'sl.'; engines differ near: 'I. YGlG - 6-7 Rounds Each'; engines differ near: '+I Rep Each Round or Maintain'; engines differ near: 'In Pairs - E3MOM x 2'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [? rapid only]
+I-2 Sets: 8 x BB Bench Press
+12 x Band External Rotation
+16 x Alt Goblet Squat Ankle Stretch
+12 x Dead Bug
+sl.  [?]
+4:00 Cap  [? vision]
+SI.  [? vision]
+A.6-8-10...  [? vision]
+BB Bench Press @5 RIR  [? vision]
+10+ DB Reverse Fly  [? vision]
+2 x 6:00 AMRAP
+A. 6-8-10...  [? rapid only]
+BB Bench Press  [? rapid only]
+@5 RIR  [? rapid only]
+I0+ DB Reverse  [? rapid only]
+Fly  [? rapid only]
+B.6-8-10...
+KB FR Squat
+10+ Atomic Sit Up For Quality
+S2.
+In Pairs - 2 x 8:00 Cap
+I. YGlG - 6-7 Rounds Each  [?]
+I. YGIG - 6-7 Rounds Each  [? vision]
+3 x BB RDL
+3 x BB Hang Power Clean
++I Rep Each Round or Maintain  [?]
+2. 60 x DB Seated Shoulder Press  [?]
+80/60 x AIt DB FR Reverse Lunge  [?]
++ / Rep Each Round or Maintain  [? vision]
+2.60 x DB Seated Shoulder Press  [? vision]
+80/60 x Alt DB FR Reverse Lunge  [? vision]
+S3.
+In Pairs - E3MOM x 2  [?]
+In Pairs - ЕЗМОМ x 2  [? vision]
+40/30/20 Cal Ski or
+32/24/16 Cal Echo Bike
+40/30/20 x BB Bent Over Row
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise?) I-2 Sets: 8 x BB Bench Press
+- (exercise?) 16 x Alt Goblet Squat Ankle Stretch
+- (uncertain) sl.  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) SI.  [? vision]
+- (SECTION / prescription?) A.6-8-10...  [? vision]
+- (exercise? / prescription?) BB Bench Press @5 RIR  [? vision]
+- (exercise?) 10+ DB Reverse Fly  [? vision]
+- (prescription?) 2 x 6:00 AMRAP
+- (prescription?) A. 6-8-10...  [? rapid only]
+- (exercise?) BB Bench Press  [? rapid only]
+- (prescription?) @5 RIR  [? rapid only]
+- (exercise?) I0+ DB Reverse  [? rapid only]
+- (uncertain) Fly  [? rapid only]
+- (SECTION / prescription?) B.6-8-10...
+- (exercise?) KB FR Squat
+- (SECTION) S2.
+- (prescription?) In Pairs - 2 x 8:00 Cap
+- (uncertain) I. YGlG - 6-7 Rounds Each  [?]
+- (uncertain) I. YGIG - 6-7 Rounds Each  [? vision]
+- (exercise?) 3 x BB RDL
+- (exercise?) 3 x BB Hang Power Clean
+- (uncertain) +I Rep Each Round or Maintain  [?]
+- (exercise?) 2. 60 x DB Seated Shoulder Press  [?]
+- (exercise?) 80/60 x AIt DB FR Reverse Lunge  [?]
+- (uncertain) + / Rep Each Round or Maintain  [? vision]
+- (exercise?) 2.60 x DB Seated Shoulder Press  [? vision]
+- (exercise?) 80/60 x Alt DB FR Reverse Lunge  [? vision]
+- (SECTION) S3.
+- (prescription?) In Pairs - E3MOM x 2  [?]
+- (prescription?) In Pairs - ЕЗМОМ x 2  [? vision]
+- (exercise?) 40/30/20 Cal Ski or
+- (exercise?) 32/24/16 Cal Echo Bike
+- (exercise?) 40/30/20 x BB Bent Over Row
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press
+12 x Band External Rotation
+16 x Alt Goblet Squat Ankle Stretch
+12 x Dead Bug
+sl.
+2 x 6:00 AMRAP
+A. 6-8-10...
+BB Bench Press
+@5 RIR
+I0+ DB Reverse 
+Fly
+B.6-8-10...
+KB FR Squat
+10+ Atomic Sit Up For Quality
+S2.
+In Pairs - 2 x 8:00 Cap
+I. YGlG - 6-7 Rounds Each
+3 x BB RDL
+3 x BB Hang Power Clean
++I Rep Each Round or Maintain
+2. 60 x DB Seated Shoulder Press
+80/60 x AIt DB FR Reverse Lunge
+S3.
+In Pairs - E3MOM x 2
+40/30/20 Cal Ski or
+32/24/16 Cal Echo Bike
+40/30/20 x BB Bent Over Row
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+I-2 Sets: 8 x BB Bench Press
+12 x Band External Rotation
+16 x Alt Goblet Squat Ankle Stretch
+12 x Dead Bug
+4:00 Cap
+SI.
+A.6-8-10...
+BB Bench Press @5 RIR
+10+ DB Reverse Fly
+2 x 6:00 AMRAP
+B.6-8-10...
+KB FR Squat
+10+ Atomic Sit Up For Quality
+S2.
+In Pairs - 2 x 8:00 Cap
+I. YGIG - 6-7 Rounds Each
+3 x BB RDL
+3 x BB Hang Power Clean
++ / Rep Each Round or Maintain
+2.60 x DB Seated Shoulder Press
+80/60 x Alt DB FR Reverse Lunge
+S3.
+In Pairs - ЕЗМОМ x 2
+40/30/20 Cal Ski or
+32/24/16 Cal Echo Bike
+40/30/20 x BB Bent Over Row
+```
+</details>
+
+### wednesday perform lower
+`REVL Block 3 programming 2026/Deload Wk 1/wednesday perform lower.png`  ·  day **Wednesday** [inferred]  ·  session **Perform Lower** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'B. 12-10-8-6'; engines differ near: 'In PairsYGIG - 6:00 AMRAP'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: 8 x BB Back/Front Squat @30-40%  [?]
+1-2 Sets: 8 x BB Back/Front Squat @30-40%  [? vision]
+10.10 x BW Split Squat
+12 x Banded Glute Bridge
+10.10 x Dynamic Pigeon Stretch
+sl.  [?]
+E3MOM x 4  [?]
+I.2 Rounds  [?]
+4:00 Cap  [? vision]
+SI.  [? vision]
+1.2 Rounds  [? vision]
+6-8 x BB Back/Front Squat @40-60%
+10 x Ab Mat Butterfly Sit Up
+ЕЗМОМ × 4  [? vision only]
+2.2 Rounds
+6.6-8.8 x SA DB OH Split Squat
+6-8 x Roller Hamstring Curl
+S2.
+2 Blocks - E2MOM x 4  [? rapid only]
+A. 4 x BB Power Clean +
+4 x BB FR Reverse Lunge
++2 Reps Each Round
+B. 12-10-8-6  [?]
+2 Blocks - E2MOM x 4  [? vision]
+В. 12-10-8-6  [? vision]
+Deadstop KB Swing
+8 x DB BR Paused Cyclist Squat
+S3.
+In PairsYGIG - 6:00 AMRAP  [?]
+In Pairs YGIG - 6:00 AMRAP  [? vision]
+2.2-3.3-4.4...
+SA DB/KB Hang Clean + Press
+10 x Air Squat
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I-2 Sets: 8 x BB Back/Front Squat @30-40%  [?]
+- (exercise? / prescription?) 1-2 Sets: 8 x BB Back/Front Squat @30-40%  [? vision]
+- (exercise?) 10.10 x BW Split Squat
+- (exercise?) 12 x Banded Glute Bridge
+- (exercise?) 10.10 x Dynamic Pigeon Stretch
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E3MOM x 4  [?]
+- (uncertain) I.2 Rounds  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) SI.  [? vision]
+- (uncertain) 1.2 Rounds  [? vision]
+- (exercise? / prescription?) 6-8 x BB Back/Front Squat @40-60%
+- (exercise?) 10 x Ab Mat Butterfly Sit Up
+- (uncertain) ЕЗМОМ × 4  [? vision only]
+- (exercise?) 6.6-8.8 x SA DB OH Split Squat
+- (exercise?) 6-8 x Roller Hamstring Curl
+- (SECTION) S2.
+- (prescription?) 2 Blocks - E2MOM x 4  [? rapid only]
+- (exercise?) A. 4 x BB Power Clean +
+- (exercise?) 4 x BB FR Reverse Lunge
+- (prescription?) B. 12-10-8-6  [?]
+- (prescription?) 2 Blocks - E2MOM x 4  [? vision]
+- (prescription?) В. 12-10-8-6  [? vision]
+- (exercise? / prescription?) Deadstop KB Swing
+- (exercise?) 8 x DB BR Paused Cyclist Squat
+- (SECTION) S3.
+- (prescription?) In PairsYGIG - 6:00 AMRAP  [?]
+- (prescription?) In Pairs YGIG - 6:00 AMRAP  [? vision]
+- (exercise?) SA DB/KB Hang Clean + Press
+- (exercise?) 10 x Air Squat
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Back/Front Squat @30-40%
+10.10 x BW Split Squat
+12 x Banded Glute Bridge
+10.10 x Dynamic Pigeon Stretch
+sl.
+E3MOM x 4
+I.2 Rounds
+6-8 x BB Back/Front Squat @40-60%
+10 x Ab Mat Butterfly Sit Up
+2.2 Rounds
+6.6-8.8 x SA DB OH Split Squat
+6-8 x Roller Hamstring Curl
+S2.
+2 Blocks - E2MOM x 4
+A. 4 x BB Power Clean +
+4 x BB FR Reverse Lunge
++2 Reps Each Round
+B. 12-10-8-6
+Deadstop KB Swing
+8 x DB BR Paused Cyclist Squat
+S3.
+In PairsYGIG - 6:00 AMRAP
+2.2-3.3-4.4...
+SA DB/KB Hang Clean + Press
+10 x Air Squat
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM LOWER
+WARM UP
+1-2 Sets: 8 x BB Back/Front Squat @30-40%
+10.10 x BW Split Squat
+12 x Banded Glute Bridge
+10.10 x Dynamic Pigeon Stretch
+4:00 Cap
+SI.
+1.2 Rounds
+6-8 x BB Back/Front Squat @40-60%
+10 x Ab Mat Butterfly Sit Up
+ЕЗМОМ × 4
+2.2 Rounds
+6.6-8.8 x SA DB OH Split Squat
+6-8 x Roller Hamstring Curl
+S2.
+A. 4 x BB Power Clean +
+4 x BB FR Reverse Lunge
++2 Reps Each Round
+2 Blocks - E2MOM x 4
+В. 12-10-8-6
+Deadstop KB Swing
+8 x DB BR Paused Cyclist Squat
+S3.
+In Pairs YGIG - 6:00 AMRAP
+2.2-3.3-4.4...
+SA DB/KB Hang Clean + Press
+10 x Air Squat
+```
+</details>
+
+### thursday sweat engine
+`REVL Block 3 programming 2026/Deload Wk 1/thursday sweat engine.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Engine** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'I:00 Erg/Echo Effort'; engines differ near: '1. 1800/1600/1400m Bike Erg'; engines differ near: '3. 900/800/700m Ski Erg'; engines differ near: '6.50/35/20 Cal Echo Bike'; engines differ near: '16/12 ×TTB/TTH'; engines differ near: '*Erg Split Pace - I:50/2:10/2:30'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT ENGINE
+WARMUP  [?]
+WARM UP  [? vision]
+4:00 Cap
+I:00 Erg/Echo Effort  [?]
+1:00 Erg/Echo Effort  [? vision]
+20/15 x Wall Ball
+10 x DBall GTS + Lunge
+6 x Inchworm + Push Up
+E4MOM x 9
+1. 1800/1600/1400m Bike Erg  [?]
+2.3 Rounds  [?]
+@F = 16/12/8kg M = 24/20/16kg  [?]
+20/l6 x American KB Swing  [?]
+I. 1800/1600/1400m Bike Erg  [? vision]
+2.3 Rounds @F = 16/12/8kg M = 24/20/16kg  [? vision]
+20/16 x American KB Swing  [? vision]
+8.8 x SA KB Push Press
+3. 900/800/700m Ski Erg  [?]
+4. 80/60/40 x Wall Ball  [?]
+3.900/800/700m Ski Erg  [? vision]
+4.80/60/40 x Wall Ball  [? vision]
+5.36/30/24 x DBall GTS + Reverse Lunge
+@F = 25/20/15kg M = 35/25/20kg
+6.50/35/20 Cal Echo Bike  [?]
+6. 50/35/20 Cal Echo Bike  [? vision]
+7.3 Rounds
+16/12 x Box Step Up
+16/12 ×TTB/TTH  [?]
+8. 900/800/700m Row Erg  [?]
+9. 36/30/24 x Alt DB Devils Press  [?]
+16/12 xTTB/TTH  [? vision]
+8.900/800/700m Row Erg  [? vision]
+9.36/30/24 x Alt DB Devils Press  [? vision]
+@F = 15/10/8kg M = 22.5/17.5/12.5kg
+*Erg Split Pace - I:50/2:10/2:30  [?]
+*Erg Split Pace - 1:50/2:10/2:30  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I:00 Erg/Echo Effort  [?]
+- (prescription?) 1:00 Erg/Echo Effort  [? vision]
+- (exercise?) 20/15 x Wall Ball
+- (exercise?) 10 x DBall GTS + Lunge
+- (exercise?) 6 x Inchworm + Push Up
+- (SECTION / prescription?) E4MOM x 9
+- (exercise?) 1. 1800/1600/1400m Bike Erg  [?]
+- (uncertain) 2.3 Rounds  [?]
+- (uncertain) @F = 16/12/8kg M = 24/20/16kg  [?]
+- (exercise?) 20/l6 x American KB Swing  [?]
+- (exercise?) I. 1800/1600/1400m Bike Erg  [? vision]
+- (uncertain) 2.3 Rounds @F = 16/12/8kg M = 24/20/16kg  [? vision]
+- (exercise?) 20/16 x American KB Swing  [? vision]
+- (exercise?) 8.8 x SA KB Push Press
+- (exercise?) 3. 900/800/700m Ski Erg  [?]
+- (exercise?) 4. 80/60/40 x Wall Ball  [?]
+- (exercise?) 3.900/800/700m Ski Erg  [? vision]
+- (exercise?) 4.80/60/40 x Wall Ball  [? vision]
+- (exercise?) 5.36/30/24 x DBall GTS + Reverse Lunge
+- (exercise?) 6.50/35/20 Cal Echo Bike  [?]
+- (exercise?) 6. 50/35/20 Cal Echo Bike  [? vision]
+- (exercise?) 16/12 x Box Step Up
+- (uncertain) 16/12 ×TTB/TTH  [?]
+- (exercise?) 8. 900/800/700m Row Erg  [?]
+- (exercise?) 9. 36/30/24 x Alt DB Devils Press  [?]
+- (uncertain) 16/12 xTTB/TTH  [? vision]
+- (exercise?) 8.900/800/700m Row Erg  [? vision]
+- (exercise?) 9.36/30/24 x Alt DB Devils Press  [? vision]
+- (prescription?) *Erg Split Pace - I:50/2:10/2:30  [?]
+- (prescription?) *Erg Split Pace - 1:50/2:10/2:30  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT ENGINE
+WARMUP
+4:00 Cap
+I:00 Erg/Echo Effort
+20/15 x Wall Ball
+10 x DBall GTS + Lunge
+6 x Inchworm + Push Up
+E4MOM x 9
+1. 1800/1600/1400m Bike Erg
+2.3 Rounds
+@F = 16/12/8kg M = 24/20/16kg
+20/l6 x American KB Swing
+8.8 x SA KB Push Press
+3. 900/800/700m Ski Erg
+4. 80/60/40 x Wall Ball
+5.36/30/24 x DBall GTS + Reverse Lunge
+@F = 25/20/15kg M = 35/25/20kg
+6.50/35/20 Cal Echo Bike
+7.3 Rounds
+16/12 x Box Step Up
+16/12 ×TTB/TTH
+8. 900/800/700m Row Erg
+9. 36/30/24 x Alt DB Devils Press
+@F = 15/10/8kg M = 22.5/17.5/12.5kg
+*Erg Split Pace - I:50/2:10/2:30
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap
+1:00 Erg/Echo Effort
+20/15 x Wall Ball
+10 x DBall GTS + Lunge
+6 x Inchworm + Push Up
+E4MOM x 9
+I. 1800/1600/1400m Bike Erg
+2.3 Rounds @F = 16/12/8kg M = 24/20/16kg
+20/16 x American KB Swing
+8.8 x SA KB Push Press
+3.900/800/700m Ski Erg
+4.80/60/40 x Wall Ball
+5.36/30/24 x DBall GTS + Reverse Lunge
+@F = 25/20/15kg M = 35/25/20kg
+6. 50/35/20 Cal Echo Bike
+7.3 Rounds
+16/12 x Box Step Up
+16/12 xTTB/TTH
+8.900/800/700m Row Erg
+9.36/30/24 x Alt DB Devils Press
+@F = 15/10/8kg M = 22.5/17.5/12.5kg
+*Erg Split Pace - 1:50/2:10/2:30
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Deload Wk 1/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'I+/2 KB Bent Over Row'; engines differ near: 'A. I.8-I0 x BB Push Press or Good'; engines differ near: '2. 8-I0 x DBall Cyclist Squat'; engines differ near: '2. 150/100m Row/Ski Erg @RPE 8-8.5'; engines differ near: 'In Pairs - 6:00 Cap ForTime'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets:6 x I+/2 BB Back Squat  [?]
+6.6 x BW KOT Split Squat  [?]
+I-2 Sets: 6 × 1+½ BB Back Squat  [? vision]
+6.6 × BW KOT Split Squat  [? vision]
+15 x DBall Supp DB Hip Thrust (Light)
+8.8 x Dynamic Pigeon Stretch
+sl.  [?]
+SI.  [? vision]
+A.4-5-6...  [? vision]
+1+½ BB Back Squat @5 RIR  [? vision]
+6.6 x SA DB Z-Press  [? vision]
+4:00 Cap  [? vision]
+2 x 6:00 AmrAP
+A. 4-5-6...  [? rapid only]
+I+/ BB Back Squat  [? rapid only]
+@5 RIR  [? rapid only]
+6.6 x SA DB Z-Press  [? rapid only]
+B.6-7-8...
+I+/2 KB Bent Over Row  [?]
+I+½ KB Bent Over Row  [? vision]
+15 x DBall Supp DB Hip Thrust
+S2.
+2 Blocks - EMOM x 8
+A. I.8-I0 x BB Push Press or Good  [?]
+A. 1.8-10 x BB Push Press or Good  [? vision]
+Morning
+2. 8-I0 x DBall Cyclist Squat  [?]
+B. 1. 14-12-10-8  [?]
+2.8-10 x DBall Cyclist Squat  [? vision]
+В. 1.14-12-10-8  [? vision]
+Deadstop KB Swing
+2. 150/100m Row/Ski Erg @RPE 8-8.5  [?]
+2.150/100m Row/Ski Erg (  [? vision]
+@RPE 8-8.5  [? vision]
+S3.
+In Pairs - 6:00 Cap ForTime  [?]
+In Pairs - 6:00 Cap For Time  [? vision]
+70/55/40 Cal Row/Ski Erg
+36/30/24 x DB Burpee + Clean
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets:6 x I+/2 BB Back Squat  [?]
+- (exercise?) 6.6 x BW KOT Split Squat  [?]
+- (exercise?) I-2 Sets: 6 × 1+½ BB Back Squat  [? vision]
+- (exercise?) 6.6 × BW KOT Split Squat  [? vision]
+- (exercise?) 15 x DBall Supp DB Hip Thrust (Light)
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (SECTION / prescription?) A.4-5-6...  [? vision]
+- (exercise? / prescription?) 1+½ BB Back Squat @5 RIR  [? vision]
+- (exercise?) 6.6 x SA DB Z-Press  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) 2 x 6:00 AmrAP
+- (prescription?) A. 4-5-6...  [? rapid only]
+- (exercise?) I+/ BB Back Squat  [? rapid only]
+- (prescription?) @5 RIR  [? rapid only]
+- (exercise?) 6.6 x SA DB Z-Press  [? rapid only]
+- (SECTION / prescription?) B.6-7-8...
+- (exercise?) I+/2 KB Bent Over Row  [?]
+- (exercise?) I+½ KB Bent Over Row  [? vision]
+- (exercise?) 15 x DBall Supp DB Hip Thrust
+- (SECTION) S2.
+- (prescription?) 2 Blocks - EMOM x 8
+- (exercise?) A. I.8-I0 x BB Push Press or Good  [?]
+- (exercise?) A. 1.8-10 x BB Push Press or Good  [? vision]
+- (exercise?) 2. 8-I0 x DBall Cyclist Squat  [?]
+- (prescription?) B. 1. 14-12-10-8  [?]
+- (exercise?) 2.8-10 x DBall Cyclist Squat  [? vision]
+- (prescription?) В. 1.14-12-10-8  [? vision]
+- (exercise? / prescription?) Deadstop KB Swing
+- (exercise? / prescription?) 2. 150/100m Row/Ski Erg @RPE 8-8.5  [?]
+- (exercise?) 2.150/100m Row/Ski Erg (  [? vision]
+- (prescription?) @RPE 8-8.5  [? vision]
+- (SECTION) S3.
+- (prescription?) In Pairs - 6:00 Cap ForTime  [?]
+- (prescription?) In Pairs - 6:00 Cap For Time  [? vision]
+- (exercise?) 70/55/40 Cal Row/Ski Erg
+- (exercise?) 36/30/24 x DB Burpee + Clean
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets:6 x I+/2 BB Back Squat
+6.6 x BW KOT Split Squat
+15 x DBall Supp DB Hip Thrust (Light)
+8.8 x Dynamic Pigeon Stretch
+sl.
+2 x 6:00 AmrAP
+A. 4-5-6...
+I+/ BB Back Squat
+@5 RIR
+6.6 x SA DB Z-Press
+B.6-7-8...
+I+/2 KB Bent Over Row
+15 x DBall Supp DB Hip Thrust
+S2.
+2 Blocks - EMOM x 8
+A. I.8-I0 x BB Push Press or Good
+Morning
+2. 8-I0 x DBall Cyclist Squat
+B. 1. 14-12-10-8
+Deadstop KB Swing
+2. 150/100m Row/Ski Erg @RPE 8-8.5
+S3.
+In Pairs - 6:00 Cap ForTime
+70/55/40 Cal Row/Ski Erg
+36/30/24 x DB Burpee + Clean
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+I-2 Sets: 6 × 1+½ BB Back Squat
+6.6 × BW KOT Split Squat
+15 x DBall Supp DB Hip Thrust (Light)
+8.8 x Dynamic Pigeon Stretch
+SI.
+A.4-5-6...
+1+½ BB Back Squat @5 RIR
+6.6 x SA DB Z-Press
+4:00 Cap
+2 x 6:00 AMRAP
+B.6-7-8...
+I+½ KB Bent Over Row
+15 x DBall Supp DB Hip Thrust
+S2.
+2 Blocks - EMOM x 8
+A. 1.8-10 x BB Push Press or Good
+Morning
+2.8-10 x DBall Cyclist Squat
+В. 1.14-12-10-8
+Deadstop KB Swing
+2.150/100m Row/Ski Erg (
+@RPE 8-8.5
+S3.
+In Pairs - 6:00 Cap For Time
+70/55/40 Cal Row/Ski Erg
+36/30/24 x DB Burpee + Clean
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Deload Wk 1/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets: 8 x BB Bench Press @40%'; engines differ near: '6.6 xT-Opener'; engines differ near: '12+ x AIt DB Curl'; engines differ near: '8-10 x KB Pendlay Row'; engines differ near: 'I. YGIG'; engines differ near: '2. AMRAP - FollowThe Leader'; engines differ near: 'Every :45 x 8'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press @40%  [?]
+I-2 Sets: 8 x BB Bench Press  [? vision]
+@40%  [? vision]
+12 x Light DB Strict Press
+12 x Band External Rotation
+6.6 xT-Opener  [?]
+sl.  [?]
+E3MOM x 4  [?]
+I.2 Rounds  [?]
+6.6 x T-Opener  [? vision]
+SI.  [? vision]
+ЕЗМОМ × 4  [? vision]
+1.2 Rounds  [? vision]
+6-8 x BB Bench Press @40-60%
+12+ x AIt DB Curl  [?]
+12+ x Alt DB Curl  [? vision]
+2.2 Rounds
+8-10 x KB Pendlay Row  [?]
+8-10x KB Pendlay Row  [? vision]
+6-8 x DBall Plate Pullover
+S2.
+In Pairs - 2 x 8:00 Blocks
+I. YGIG  [?]
+1. YGIG  [? vision]
+10-9-8-7-6-5
+BB Floor Press
+2. AMRAP - FollowThe Leader  [?]
+6 x I+% KB Incline Prone Row  [?]
+2. AMRAP - Follow The Leader  [? vision]
+6 × |+½ KB Incline Prone Row  [? vision]
+6-8 x DBall Anchored Weighted Sit Up
+S3.
+Every :45 x 8  [?]
+1. 10 x Bar Dip Or I5 x Bench Dip  [?]
+2. I0-I5 x BB/KB Upright Row  [?]
+Every:45 x 8  [? vision]
+1. 10 x Bar Dip Or 15 x Bench Dip  [? vision]
+2. 10-15 x BB/KB Upright Row  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 8 x BB Bench Press @40%  [?]
+- (exercise?) I-2 Sets: 8 x BB Bench Press  [? vision]
+- (prescription?) @40%  [? vision]
+- (exercise?) 12 x Light DB Strict Press
+- (uncertain) 6.6 xT-Opener  [?]
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E3MOM x 4  [?]
+- (uncertain) I.2 Rounds  [?]
+- (uncertain) 6.6 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (uncertain) ЕЗМОМ × 4  [? vision]
+- (uncertain) 1.2 Rounds  [? vision]
+- (exercise? / prescription?) 6-8 x BB Bench Press @40-60%
+- (exercise?) 12+ x AIt DB Curl  [?]
+- (exercise?) 12+ x Alt DB Curl  [? vision]
+- (exercise?) 8-10 x KB Pendlay Row  [?]
+- (exercise?) 8-10x KB Pendlay Row  [? vision]
+- (exercise?) 6-8 x DBall Plate Pullover
+- (SECTION) S2.
+- (prescription?) In Pairs - 2 x 8:00 Blocks
+- (uncertain) I. YGIG  [?]
+- (uncertain) 1. YGIG  [? vision]
+- (prescription?) 10-9-8-7-6-5
+- (exercise?) BB Floor Press
+- (prescription?) 2. AMRAP - FollowThe Leader  [?]
+- (exercise?) 6 x I+% KB Incline Prone Row  [?]
+- (prescription?) 2. AMRAP - Follow The Leader  [? vision]
+- (exercise?) 6 × |+½ KB Incline Prone Row  [? vision]
+- (exercise?) 6-8 x DBall Anchored Weighted Sit Up
+- (SECTION) S3.
+- (prescription?) Every :45 x 8  [?]
+- (exercise?) 1. 10 x Bar Dip Or I5 x Bench Dip  [?]
+- (exercise?) 2. I0-I5 x BB/KB Upright Row  [?]
+- (prescription?) Every:45 x 8  [? vision]
+- (exercise?) 1. 10 x Bar Dip Or 15 x Bench Dip  [? vision]
+- (exercise?) 2. 10-15 x BB/KB Upright Row  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press @40%
+12 x Light DB Strict Press
+12 x Band External Rotation
+6.6 xT-Opener
+sl.
+E3MOM x 4
+I.2 Rounds
+6-8 x BB Bench Press @40-60%
+12+ x AIt DB Curl
+2.2 Rounds
+8-10 x KB Pendlay Row
+6-8 x DBall Plate Pullover
+S2.
+In Pairs - 2 x 8:00 Blocks
+I. YGIG
+10-9-8-7-6-5
+BB Floor Press
+2. AMRAP - FollowThe Leader
+6 x I+% KB Incline Prone Row
+6-8 x DBall Anchored Weighted Sit Up
+S3.
+Every :45 x 8
+1. 10 x Bar Dip Or I5 x Bench Dip
+2. I0-I5 x BB/KB Upright Row
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press
+@40%
+12 x Light DB Strict Press
+12 x Band External Rotation
+6.6 x T-Opener
+SI.
+ЕЗМОМ × 4
+1.2 Rounds
+6-8 x BB Bench Press @40-60%
+12+ x Alt DB Curl
+2.2 Rounds
+8-10x KB Pendlay Row
+6-8 x DBall Plate Pullover
+S2.
+In Pairs - 2 x 8:00 Blocks
+1. YGIG
+10-9-8-7-6-5
+BB Floor Press
+2. AMRAP - Follow The Leader
+6 × |+½ KB Incline Prone Row
+6-8 x DBall Anchored Weighted Sit Up
+S3.
+Every:45 x 8
+1. 10 x Bar Dip Or 15 x Bench Dip
+2. 10-15 x BB/KB Upright Row
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Deload Wk 1/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: 'I:00 Erg Effort'; engines differ near: 'I6 x DB Goblet Fwd Lunge or Box Jump Over'; engines differ near: 'Teams of 4 - 3 x I5:00 Cap'; engines differ near: '2P:I40/120/100 x DB Goblet Fwd Lunge'; engines differ near: '2400/2000/l600m Bike Erg'; engines differ near: '2P:I20/100/80 x BB Push Press'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+I:00 Erg Effort  [?]
+1:00 Erg Effort  [? vision]
+20 x KB Swing
+I6 x DB Goblet Fwd Lunge or Box Jump Over  [?]
+16 x DB Goblet Fwd Lunge or Box Jump Over  [? vision]
+8.8 x World's Greatest Stretch
+Teams of 4 - 3 x I5:00 Cap  [?]
+Teams of 4 - 3 x 15:00 Cap  [? vision]
+A. Buy In and Out:
+2P:I40/120/100 x DB Goblet Fwd Lunge  [?]
+2P: I20/100/80 x SA DB Snatch  [?]
+2P:|40/120/100 x DB Goblet Fwd Lunge  [? vision]
+2P: |20/100/80 x SA DB Snatch  [? vision]
+1200/1000/800m Ski Erg
+B. Buy In and Out:
+2P:160/140/120 x KB Swing
+2P: 120/100/80 x Box Jump
+Over/Step Over
+2400/2000/l600m Bike Erg  [?]
+2400/2000/1600m Bike Erg  [? vision]
+C. Buy In and Out:
+2P:I20/100/80 x BB Push Press  [?]
+2P: I00/80/60 xTTB/TTH Or V-Up  [?]
+1200/l000/800m Row Erg  [?]
+2P:|20/100/80 x BB Push Press  [? vision]
+2P: 100/80/60 xTTB/TTH OrV-Up  [? vision]
+1200/1000/800m Row Erg  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I:00 Erg Effort  [?]
+- (prescription?) 1:00 Erg Effort  [? vision]
+- (exercise?) 20 x KB Swing
+- (exercise?) I6 x DB Goblet Fwd Lunge or Box Jump Over  [?]
+- (exercise?) 16 x DB Goblet Fwd Lunge or Box Jump Over  [? vision]
+- (exercise?) 8.8 x World's Greatest Stretch
+- (prescription?) Teams of 4 - 3 x I5:00 Cap  [?]
+- (prescription?) Teams of 4 - 3 x 15:00 Cap  [? vision]
+- (exercise?) 2P:I40/120/100 x DB Goblet Fwd Lunge  [?]
+- (exercise?) 2P: I20/100/80 x SA DB Snatch  [?]
+- (exercise?) 2P:|40/120/100 x DB Goblet Fwd Lunge  [? vision]
+- (exercise?) 2P: |20/100/80 x SA DB Snatch  [? vision]
+- (exercise?) 1200/1000/800m Ski Erg
+- (exercise?) 2P:160/140/120 x KB Swing
+- (exercise?) Over/Step Over
+- (exercise?) 2400/2000/l600m Bike Erg  [?]
+- (exercise?) 2400/2000/1600m Bike Erg  [? vision]
+- (exercise?) 2P:I20/100/80 x BB Push Press  [?]
+- (uncertain) 2P: I00/80/60 xTTB/TTH Or V-Up  [?]
+- (exercise?) 1200/l000/800m Row Erg  [?]
+- (exercise?) 2P:|20/100/80 x BB Push Press  [? vision]
+- (uncertain) 2P: 100/80/60 xTTB/TTH OrV-Up  [? vision]
+- (exercise?) 1200/1000/800m Row Erg  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+I:00 Erg Effort
+20 x KB Swing
+I6 x DB Goblet Fwd Lunge or Box Jump Over
+8.8 x World's Greatest Stretch
+Teams of 4 - 3 x I5:00 Cap
+A. Buy In and Out:
+2P:I40/120/100 x DB Goblet Fwd Lunge
+2P: I20/100/80 x SA DB Snatch
+1200/1000/800m Ski Erg
+B. Buy In and Out:
+2P:160/140/120 x KB Swing
+2P: 120/100/80 x Box Jump
+Over/Step Over
+2400/2000/l600m Bike Erg
+C. Buy In and Out:
+2P:I20/100/80 x BB Push Press
+2P: I00/80/60 xTTB/TTH Or V-Up
+1200/l000/800m Row Erg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+1:00 Erg Effort
+20 x KB Swing
+16 x DB Goblet Fwd Lunge or Box Jump Over
+8.8 x World's Greatest Stretch
+Teams of 4 - 3 x 15:00 Cap
+A. Buy In and Out:
+2P:|40/120/100 x DB Goblet Fwd Lunge
+2P: |20/100/80 x SA DB Snatch
+1200/1000/800m Ski Erg
+B. Buy In and Out:
+2P:160/140/120 x KB Swing
+2P: 120/100/80 x Box Jump
+Over/Step Over
+2400/2000/1600m Bike Erg
+C. Buy In and Out:
+2P:|20/100/80 x BB Push Press
+2P: 100/80/60 xTTB/TTH OrV-Up
+1200/1000/800m Row Erg
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Deload Wk 1/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: 'I0 x Alt BB Rev Lunge Or BB Strict Press'; engines differ near: '2. 60/45/30 Cal Row Erg'; engines differ near: '2. 50/35/25 Cal Ech0 Bike'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+I0 x Alt BB Rev Lunge Or BB Strict Press  [?]
+200m Run Or I6 x BW Box Step Over  [?]
+10 x Alt BB Rev Lunge Or BB Strict Press  [? vision]
+200m Run Or 16 x BW Box Step Over  [? vision]
+10 x Dual KB Hang Clean + Press
+8.8 x Weighted Hip Opener
+In Pairs - 3 Blocks Every 3:30 x 4
+A. I. 80/60 x Alt BB Rev Lunge or
+Strict Press
+2.60/40 x DB BR Box Step Over
+Or
+800/600/500m Pair Run
+B. 1.60/40 x Dual KB Hang Clean +
+Press (5 Rep Efforts)
+2. 60/45/30 Cal Row Erg  [?]
+C. 1.80/60 x BB Bench Press or  [?]
+2.60/45/30 Cal Row Erg  [? vision]
+C. I.80/60 x BB Bench Press or  [? vision]
+60/50 x BB Hip Thrust
+2. 50/35/25 Cal Ech0 Bike  [?]
+2.50/35/25 Cal Echo Bike  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I0 x Alt BB Rev Lunge Or BB Strict Press  [?]
+- (exercise?) 200m Run Or I6 x BW Box Step Over  [?]
+- (exercise?) 10 x Alt BB Rev Lunge Or BB Strict Press  [? vision]
+- (exercise?) 200m Run Or 16 x BW Box Step Over  [? vision]
+- (exercise?) 10 x Dual KB Hang Clean + Press
+- (prescription?) In Pairs - 3 Blocks Every 3:30 x 4
+- (exercise?) A. I. 80/60 x Alt BB Rev Lunge or
+- (exercise?) Strict Press
+- (exercise?) 2.60/40 x DB BR Box Step Over
+- (exercise?) 800/600/500m Pair Run
+- (exercise?) B. 1.60/40 x Dual KB Hang Clean +
+- (exercise?) 2. 60/45/30 Cal Row Erg  [?]
+- (exercise?) C. 1.80/60 x BB Bench Press or  [?]
+- (exercise?) 2.60/45/30 Cal Row Erg  [? vision]
+- (exercise?) C. I.80/60 x BB Bench Press or  [? vision]
+- (exercise?) 60/50 x BB Hip Thrust
+- (exercise?) 2. 50/35/25 Cal Ech0 Bike  [?]
+- (exercise?) 2.50/35/25 Cal Echo Bike  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+I0 x Alt BB Rev Lunge Or BB Strict Press
+200m Run Or I6 x BW Box Step Over
+10 x Dual KB Hang Clean + Press
+8.8 x Weighted Hip Opener
+In Pairs - 3 Blocks Every 3:30 x 4
+A. I. 80/60 x Alt BB Rev Lunge or
+Strict Press
+2.60/40 x DB BR Box Step Over
+Or
+800/600/500m Pair Run
+B. 1.60/40 x Dual KB Hang Clean +
+Press (5 Rep Efforts)
+2. 60/45/30 Cal Row Erg
+C. 1.80/60 x BB Bench Press or
+60/50 x BB Hip Thrust
+2. 50/35/25 Cal Ech0 Bike
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+10 x Alt BB Rev Lunge Or BB Strict Press
+200m Run Or 16 x BW Box Step Over
+10 x Dual KB Hang Clean + Press
+8.8 x Weighted Hip Opener
+In Pairs - 3 Blocks Every 3:30 x 4
+A. I. 80/60 x Alt BB Rev Lunge or
+Strict Press
+2.60/40 x DB BR Box Step Over
+Or
+800/600/500m Pair Run
+B. 1.60/40 x Dual KB Hang Clean +
+Press (5 Rep Efforts)
+2.60/45/30 Cal Row Erg
+C. I.80/60 x BB Bench Press or
+60/50 x BB Hip Thrust
+2.50/35/25 Cal Echo Bike
+```
+</details>
+
+
+## Block 3 — Peak Wk 1  (programme week 8) [inferred]
+
+- **Phase:** Peak  ·  **Phase-week:** 1  ·  **Overall week:** 8   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Peak Wk 1/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'MOVETOTAL'; engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'BB TNG Deadlift @2-3 RIR'; engines differ near: '+2/l Rep Every Round or Maintain'; engines differ near: 'I. Follow The Leader: 2-3 Rounds'; engines differ near: '*-I Reps Every Round or Maintain'; engines differ near: '*-I Rep Every Round or Maintain'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVETOTAL  [?]
+MOVE TOTAL  [? vision]
+WARM UP
+4:00 Cap  [?]
+I-2 Sets:8 x BB TNG Deadlift  [?]
+I-2 Sets: 8 x BB TNG Deadlift  [? vision]
+8.8 x SA DB Shoulder To Overhead
+:40 Bike Erg/Echo Bike
+8.8 x World's Greatest Stretch
+sl.  [?]
+E3MOM x 6  [?]
+SI.  [? vision]
+1.2 Rounds
+8-8-5-5-3-3
+BB TNG Deadlift @2-3 RIR  [?]
+BBTNG Deadlift  [? vision]
+@2-3 RIR  [? vision]
+Optional: 8.8 x KB Side Bend
+4:00 Cap  [? vision only]
+ЕЗМОМ х 6  [? vision only]
+2.2 Rounds
+6 x KB Bent Over Row
+6 x DB Deficit Push Up
++2/l Rep Every Round or Maintain  [?]
++2/1 Rep Every Round or Maintain  [? vision]
+S2.
+In Pairs - E4MOM x 4
+I. Follow The Leader: 2-3 Rounds  [?]
+1. Follow The Leader: 2-3 Rounds  [? vision]
+8 x BB Shoulder To Overhead
+*-I Reps Every Round or Maintain  [?]
+*-/ Reps Every Round or Maintain  [? vision]
+:20 Max Metres Bike Erg/Cal Echo Bike
+2. Follow The Leader: 2-3 Rounds
+8 x Pull Up/Chin Up
+*-I Rep Every Round or Maintain  [?]
+*-/ Rep Every Round or Maintain  [? vision]
+8 x KB Goblet No Lockout Cyclist Squat
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) MOVETOTAL  [?]
+- (uncertain) MOVE TOTAL  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I-2 Sets:8 x BB TNG Deadlift  [?]
+- (exercise? / prescription?) I-2 Sets: 8 x BB TNG Deadlift  [? vision]
+- (exercise?) 8.8 x SA DB Shoulder To Overhead
+- (exercise? / prescription?) :40 Bike Erg/Echo Bike
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E3MOM x 6  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 8-8-5-5-3-3
+- (exercise? / prescription?) BB TNG Deadlift @2-3 RIR  [?]
+- (exercise? / prescription?) BBTNG Deadlift  [? vision]
+- (prescription?) @2-3 RIR  [? vision]
+- (exercise?) Optional: 8.8 x KB Side Bend
+- (prescription?) 4:00 Cap  [? vision only]
+- (uncertain) ЕЗМОМ х 6  [? vision only]
+- (exercise?) 6 x KB Bent Over Row
+- (exercise?) 6 x DB Deficit Push Up
+- (uncertain) +2/l Rep Every Round or Maintain  [?]
+- (uncertain) +2/1 Rep Every Round or Maintain  [? vision]
+- (SECTION) S2.
+- (prescription?) In Pairs - E4MOM x 4
+- (uncertain) I. Follow The Leader: 2-3 Rounds  [?]
+- (uncertain) 1. Follow The Leader: 2-3 Rounds  [? vision]
+- (exercise?) 8 x BB Shoulder To Overhead
+- (uncertain) *-I Reps Every Round or Maintain  [?]
+- (uncertain) *-/ Reps Every Round or Maintain  [? vision]
+- (exercise? / prescription?) :20 Max Metres Bike Erg/Cal Echo Bike
+- (exercise?) 8 x Pull Up/Chin Up
+- (uncertain) *-I Rep Every Round or Maintain  [?]
+- (uncertain) *-/ Rep Every Round or Maintain  [? vision]
+- (exercise?) 8 x KB Goblet No Lockout Cyclist Squat
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVETOTAL
+WARM UP
+4:00 Cap
+I-2 Sets:8 x BB TNG Deadlift
+8.8 x SA DB Shoulder To Overhead
+:40 Bike Erg/Echo Bike
+8.8 x World's Greatest Stretch
+sl.
+E3MOM x 6
+1.2 Rounds
+8-8-5-5-3-3
+BB TNG Deadlift @2-3 RIR
+Optional: 8.8 x KB Side Bend
+2.2 Rounds
+6 x KB Bent Over Row
+6 x DB Deficit Push Up
++2/l Rep Every Round or Maintain
+S2.
+In Pairs - E4MOM x 4
+I. Follow The Leader: 2-3 Rounds
+8 x BB Shoulder To Overhead
+*-I Reps Every Round or Maintain
+:20 Max Metres Bike Erg/Cal Echo Bike
+2. Follow The Leader: 2-3 Rounds
+8 x Pull Up/Chin Up
+*-I Rep Every Round or Maintain
+8 x KB Goblet No Lockout Cyclist Squat
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+I-2 Sets: 8 x BB TNG Deadlift
+8.8 x SA DB Shoulder To Overhead
+:40 Bike Erg/Echo Bike
+8.8 x World's Greatest Stretch
+SI.
+1.2 Rounds
+8-8-5-5-3-3
+BBTNG Deadlift
+@2-3 RIR
+Optional: 8.8 x KB Side Bend
+4:00 Cap
+ЕЗМОМ х 6
+2.2 Rounds
+6 x KB Bent Over Row
+6 x DB Deficit Push Up
++2/1 Rep Every Round or Maintain
+S2.
+In Pairs - E4MOM x 4
+1. Follow The Leader: 2-3 Rounds
+8 x BB Shoulder To Overhead
+*-/ Reps Every Round or Maintain
+:20 Max Metres Bike Erg/Cal Echo Bike
+2. Follow The Leader: 2-3 Rounds
+8 x Pull Up/Chin Up
+*-/ Rep Every Round or Maintain
+8 x KB Goblet No Lockout Cyclist Squat
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Peak Wk 1/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: 'sl.'; engines differ near: 'BB Deadlift'; engines differ near: 'A.AMRAP - Build To A Heavy'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Deadlift @40-50%
+6-8 x Plank To Pike (2-3s Pause)
+8.8 x SA DB Push Jerk Or Push Press
+8.8 x World's Greatest Stretch
+sl.  [?]
+SI.  [? vision]
+18:00 Cap
+6-4-2-1-1-1
+BB Deadlift  [?]
+BB Deadlift (  [? vision]
+@60-70-80-85-90-95%
+4.4-6.6 x SA DB Bench Press (AHAP)
+Optional: 6 x Ring Roll Out
+:45 Rest
+*Reps Only Reduce If Weight Increases
+S2.
+A.AMRAP - Build To A Heavy  [? vision only]
+1-5 x BB Push Jerk/Press  [? vision only]
+:45-1:00 Rest  [? vision only]
+2 x 8:00 Blocks
+A.AMRAP - Build To A Heavy  [?]
+I-5 x BB Push Jerk/Press  [?]
+:45-I:00 Rest  [?]
+B.4-5 Rounds  [?]
+B. 4-5 Rounds  [? vision]
+8.8-6.6-5.5-4.4-3.3
+KB Bulgarian Split Squat
+DB Chainsaw Row
+*Reps Only Reduce If Weight Increases
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 8 x BB Deadlift @40-50%
+- (exercise?) 6-8 x Plank To Pike (2-3s Pause)
+- (exercise?) 8.8 x SA DB Push Jerk Or Push Press
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 18:00 Cap
+- (prescription?) 6-4-2-1-1-1
+- (exercise?) BB Deadlift  [?]
+- (exercise?) BB Deadlift (  [? vision]
+- (prescription?) @60-70-80-85-90-95%
+- (exercise? / prescription?) 4.4-6.6 x SA DB Bench Press (AHAP)
+- (prescription?) :45 Rest
+- (SECTION) S2.
+- (SECTION / prescription?) A.AMRAP - Build To A Heavy  [? vision only]
+- (exercise?) 1-5 x BB Push Jerk/Press  [? vision only]
+- (prescription?) :45-1:00 Rest  [? vision only]
+- (prescription?) 2 x 8:00 Blocks
+- (SECTION / prescription?) A.AMRAP - Build To A Heavy  [?]
+- (exercise?) I-5 x BB Push Jerk/Press  [?]
+- (prescription?) :45-I:00 Rest  [?]
+- (SECTION) B.4-5 Rounds  [?]
+- (uncertain) B. 4-5 Rounds  [? vision]
+- (exercise?) KB Bulgarian Split Squat
+- (exercise?) DB Chainsaw Row
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Deadlift @40-50%
+6-8 x Plank To Pike (2-3s Pause)
+8.8 x SA DB Push Jerk Or Push Press
+8.8 x World's Greatest Stretch
+sl.
+18:00 Cap
+6-4-2-1-1-1
+BB Deadlift
+@60-70-80-85-90-95%
+4.4-6.6 x SA DB Bench Press (AHAP)
+Optional: 6 x Ring Roll Out
+:45 Rest
+*Reps Only Reduce If Weight Increases
+S2.
+2 x 8:00 Blocks
+A.AMRAP - Build To A Heavy
+I-5 x BB Push Jerk/Press
+:45-I:00 Rest
+B.4-5 Rounds
+8.8-6.6-5.5-4.4-3.3
+KB Bulgarian Split Squat
+DB Chainsaw Row
+*Reps Only Reduce If Weight Increases
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Deadlift @40-50%
+6-8 x Plank To Pike (2-3s Pause)
+8.8 x SA DB Push Jerk Or Push Press
+8.8 x World's Greatest Stretch
+SI.
+18:00 Cap
+6-4-2-1-1-1
+BB Deadlift (
+@60-70-80-85-90-95%
+4.4-6.6 x SA DB Bench Press (AHAP)
+Optional: 6 x Ring Roll Out
+:45 Rest
+*Reps Only Reduce If Weight Increases
+S2.
+A.AMRAP - Build To A Heavy
+1-5 x BB Push Jerk/Press
+:45-1:00 Rest
+2 x 8:00 Blocks
+B. 4-5 Rounds
+8.8-6.6-5.5-4.4-3.3
+KB Bulgarian Split Squat
+DB Chainsaw Row
+*Reps Only Reduce If Weight Increases
+```
+</details>
+
+### tuesday sweat engine
+`REVL Block 3 programming 2026/Peak Wk 1/tuesday sweat engine.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Engine** [inferred]
+
+_Reader notes:_ engines differ near: 'I:00 Erg/Echo Effort OR 200m Run'; engines differ near: '10xTTB/TTH/K2C'; engines differ near: 'In Pairs - ForTime 36:00 Cap'; engines differ near: '36/30/24 x Synchro AIt DB Hang Clean +'; engines differ near: '1200/1000/800 Bike Erg 0r 36/28/20 Cal'; engines differ near: '*Erg Pacing: I:50/2:05/2:20'; engines differ near: 'DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap
+I:00 Erg/Echo Effort OR 200m Run  [?]
+1:00 Erg/Echo Effort OR 200m Run  [? vision]
+10 x Alt KB Goblet Squat Ankle Stretch
+10xTTB/TTH/K2C  [?]
+10 x TTB/TTH/K2C  [? vision]
+10 x Plank To Pike
+In Pairs - ForTime 36:00 Cap  [?]
+In Pairs - For Time 36:00 Cap  [? vision]
+3 Rounds
+36/30/24 x Synchro AIt DB Hang Clean +  [?]
+36/30/24 x Synchro Alt DB Hang Clean +  [? vision]
+Press
+600/500/400m Ski Erg or Row Erg or
+500/400/300m Pair Run
+3 Rounds
+24/20/16 x Synchro Burpee
+1200/1000/800 Bike Erg 0r 36/28/20 Cal  [?]
+1200/1000/800 Bike Erg or 36/28/20 Cal  [? vision]
+Echo Bike or 500/400/300m Pair Run
+3 Rounds
+36/30/24 x Synchro KB Goblet Squat
+26/20/14 x Synchro TTB/TTH/K2C
+*Erg Pacing: I:50/2:05/2:20  [?]
+*Erg Pacing: 1:50/2:05/2:20  [? vision]
+Echo Cadence: 72/64/53
+DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg  [?]
+KB Weight: F: 16/12/8kg / M: 24/20/16kg  [?]
+Score = Scale +Time I Scale + Reps  [?]
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg  [? vision]
+KB Weight: F: 16/12/8kg | M: 24/20/16kg  [? vision]
+Score = Scale + Time | Scale + Reps  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I:00 Erg/Echo Effort OR 200m Run  [?]
+- (exercise? / prescription?) 1:00 Erg/Echo Effort OR 200m Run  [? vision]
+- (exercise?) 10 x Alt KB Goblet Squat Ankle Stretch
+- (uncertain) 10xTTB/TTH/K2C  [?]
+- (uncertain) 10 x TTB/TTH/K2C  [? vision]
+- (exercise?) 10 x Plank To Pike
+- (prescription?) In Pairs - ForTime 36:00 Cap  [?]
+- (prescription?) In Pairs - For Time 36:00 Cap  [? vision]
+- (exercise?) 36/30/24 x Synchro AIt DB Hang Clean +  [?]
+- (exercise?) 36/30/24 x Synchro Alt DB Hang Clean +  [? vision]
+- (exercise?) 600/500/400m Ski Erg or Row Erg or
+- (exercise?) 500/400/300m Pair Run
+- (exercise?) 24/20/16 x Synchro Burpee
+- (exercise?) 1200/1000/800 Bike Erg 0r 36/28/20 Cal  [?]
+- (exercise?) 1200/1000/800 Bike Erg or 36/28/20 Cal  [? vision]
+- (exercise?) Echo Bike or 500/400/300m Pair Run
+- (exercise?) 36/30/24 x Synchro KB Goblet Squat
+- (prescription?) *Erg Pacing: I:50/2:05/2:20  [?]
+- (prescription?) *Erg Pacing: 1:50/2:05/2:20  [? vision]
+- (uncertain) DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg  [?]
+- (uncertain) KB Weight: F: 16/12/8kg / M: 24/20/16kg  [?]
+- (SECTION) Score = Scale +Time I Scale + Reps  [?]
+- (uncertain) DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg  [? vision]
+- (uncertain) KB Weight: F: 16/12/8kg | M: 24/20/16kg  [? vision]
+- (SECTION) Score = Scale + Time | Scale + Reps  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap
+I:00 Erg/Echo Effort OR 200m Run
+10 x Alt KB Goblet Squat Ankle Stretch
+10xTTB/TTH/K2C
+10 x Plank To Pike
+In Pairs - ForTime 36:00 Cap
+3 Rounds
+36/30/24 x Synchro AIt DB Hang Clean +
+Press
+600/500/400m Ski Erg or Row Erg or
+500/400/300m Pair Run
+3 Rounds
+24/20/16 x Synchro Burpee
+1200/1000/800 Bike Erg 0r 36/28/20 Cal
+Echo Bike or 500/400/300m Pair Run
+3 Rounds
+36/30/24 x Synchro KB Goblet Squat
+26/20/14 x Synchro TTB/TTH/K2C
+*Erg Pacing: I:50/2:05/2:20
+Echo Cadence: 72/64/53
+DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg
+KB Weight: F: 16/12/8kg / M: 24/20/16kg
+Score = Scale +Time I Scale + Reps
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+4:00 Cap
+1:00 Erg/Echo Effort OR 200m Run
+10 x Alt KB Goblet Squat Ankle Stretch
+10 x TTB/TTH/K2C
+10 x Plank To Pike
+In Pairs - For Time 36:00 Cap
+3 Rounds
+36/30/24 x Synchro Alt DB Hang Clean +
+Press
+600/500/400m Ski Erg or Row Erg or
+500/400/300m Pair Run
+3 Rounds
+24/20/16 x Synchro Burpee
+1200/1000/800 Bike Erg or 36/28/20 Cal
+Echo Bike or 500/400/300m Pair Run
+3 Rounds
+36/30/24 x Synchro KB Goblet Squat
+26/20/14 x Synchro TTB/TTH/K2C
+*Erg Pacing: 1:50/2:05/2:20
+Echo Cadence: 72/64/53
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg
+KB Weight: F: 16/12/8kg | M: 24/20/16kg
+Score = Scale + Time | Scale + Reps
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Peak Wk 1/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: '8.8 xT-Opener'; engines differ near: 'BB Bench Press'; engines differ near: '*-I Rep Every Round or Maintain'; engines differ near: 'Or I5 x DB Hip Thrust'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets:8 x BB Bench Press  [?]
+I2 x Band Pull Apart  [?]
+1-2 Sets: 8 x BB Bench Press  [? vision]
+12 x Band Pull Apart  [? vision]
+8.8 x KB FR Rev Lunge (Light)
+8.8 xT-Opener  [?]
+sl.  [?]
+E3MOM x 6  [?]
+8.8 x T-Opener  [? vision]
+SI.  [? vision]
+1.2 Rounds
+8-8-5-5-3-3
+BB Bench Press  [?]
+@2-3 RIR  [?]
+BB Bench Press @2-3 RIR  [? vision]
+10 x DB Reverse Fly
+4:00 Cap  [? vision only]
+ЕЗМОМ × 6  [? vision only]
+2.2 Rounds
+6.6-8.8 x KB FR Rev Lunge (AHAP)
+:45 Rest
+S2.
+In Pairs - E4MOM x 4
+I. Follow The Leader: 2-3 Rounds
+8 x BB RDL Or Pendlay Row
+*-I Rep Every Round or Maintain  [?]
+*-/ Rep Every Round or Maintain  [? vision]
+8 x Weighted Overhead Sit Up
+2. Follow The Leader: 2-3 Rounds
+8 x DB NG Bench Press (AHAP)
+Or I5 x DB Hip Thrust  [?]
+Or 15 x DB Hip Thrust  [? vision]
+:20 Max Distance Ski/Row Erg
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets:8 x BB Bench Press  [?]
+- (uncertain) I2 x Band Pull Apart  [?]
+- (exercise?) 1-2 Sets: 8 x BB Bench Press  [? vision]
+- (uncertain) 12 x Band Pull Apart  [? vision]
+- (exercise?) 8.8 x KB FR Rev Lunge (Light)
+- (uncertain) 8.8 xT-Opener  [?]
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E3MOM x 6  [?]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 8-8-5-5-3-3
+- (exercise?) BB Bench Press  [?]
+- (prescription?) @2-3 RIR  [?]
+- (exercise? / prescription?) BB Bench Press @2-3 RIR  [? vision]
+- (exercise?) 10 x DB Reverse Fly
+- (prescription?) 4:00 Cap  [? vision only]
+- (uncertain) ЕЗМОМ × 6  [? vision only]
+- (exercise? / prescription?) 6.6-8.8 x KB FR Rev Lunge (AHAP)
+- (prescription?) :45 Rest
+- (SECTION) S2.
+- (prescription?) In Pairs - E4MOM x 4
+- (exercise?) 8 x BB RDL Or Pendlay Row
+- (uncertain) *-I Rep Every Round or Maintain  [?]
+- (uncertain) *-/ Rep Every Round or Maintain  [? vision]
+- (exercise? / prescription?) 8 x DB NG Bench Press (AHAP)
+- (exercise?) Or I5 x DB Hip Thrust  [?]
+- (exercise?) Or 15 x DB Hip Thrust  [? vision]
+- (exercise? / prescription?) :20 Max Distance Ski/Row Erg
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets:8 x BB Bench Press
+I2 x Band Pull Apart
+8.8 x KB FR Rev Lunge (Light)
+8.8 xT-Opener
+sl.
+E3MOM x 6
+1.2 Rounds
+8-8-5-5-3-3
+BB Bench Press
+@2-3 RIR
+10 x DB Reverse Fly
+2.2 Rounds
+6.6-8.8 x KB FR Rev Lunge (AHAP)
+:45 Rest
+S2.
+In Pairs - E4MOM x 4
+I. Follow The Leader: 2-3 Rounds
+8 x BB RDL Or Pendlay Row
+*-I Rep Every Round or Maintain
+8 x Weighted Overhead Sit Up
+2. Follow The Leader: 2-3 Rounds
+8 x DB NG Bench Press (AHAP)
+Or I5 x DB Hip Thrust
+:20 Max Distance Ski/Row Erg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8 x BB Bench Press
+12 x Band Pull Apart
+8.8 x KB FR Rev Lunge (Light)
+8.8 x T-Opener
+SI.
+1.2 Rounds
+8-8-5-5-3-3
+BB Bench Press @2-3 RIR
+10 x DB Reverse Fly
+4:00 Cap
+ЕЗМОМ × 6
+2.2 Rounds
+6.6-8.8 x KB FR Rev Lunge (AHAP)
+:45 Rest
+S2.
+In Pairs - E4MOM x 4
+I. Follow The Leader: 2-3 Rounds
+8 x BB RDL Or Pendlay Row
+*-/ Rep Every Round or Maintain
+8 x Weighted Overhead Sit Up
+2. Follow The Leader: 2-3 Rounds
+8 x DB NG Bench Press (AHAP)
+Or 15 x DB Hip Thrust
+:20 Max Distance Ski/Row Erg
+```
+</details>
+
+### wednesday perform lower
+`REVL Block 3 programming 2026/Peak Wk 1/wednesday perform lower.png`  ·  day **Wednesday** [inferred]  ·  session **Perform Lower** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets: 8 x BB Back/Front Squat @ 40-50%'; engines differ near: 'Sl.'; engines differ near: 'BB Back/Front Squat'; engines differ near: ':45-I:00 Rest Between Rounds'; engines differ near: 'I-3 x BB Power Clean'; engines differ near: ':45-I:00 Rest Between Rounds'; engines differ near: '12/9/6 xTTB/K2C Or V-Up'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Back/Front Squat @ 40-50%  [?]
+1-2 Sets: 8 x BB Back/Front Squat  [? vision]
+@  [? vision]
+40-50%  [? vision]
+8 x DB/KBPaused Goblet Squat
+8 x Roller Hamstring Curl
+8.8 x Dynamic Pigeon Stretch
+Sl.  [?]
+SI.  [? vision]
+18:00 Cap
+6-4-2-1-1-1
+BB Back/Front Squat  [?]
+t @60-70-80-85-90-95%  [?]
+Optional - :30 Hollow Hold  [?]
+BB Back/Front Squat @60-70-80-85-90-95%  [? vision]
+Optional -:30 Hollow Hold  [? vision]
+6-8 x DB RDL (AHAP)
+:45-I:00 Rest Between Rounds  [?]
+:45-1:00 Rest Between Rounds  [? vision]
+*Reps Only Reduce If Weight Increases
+S2.
+2 x 8:00 Blocks
+A.AMRAP - Build To A Heavy
+I-3 x BB Power Clean  [?]
+1-3 x BB Power Clean  [? vision]
+Or 3.3-5.5 x DBall Shoulder Squat
+:45-I:00 Rest Between Rounds  [?]
+:45-1:00 Rest Between Rounds  [? vision]
+B. 4-5 Rounds
+4.4-6.6 x SA KB Overhead Rev Lunge
+12/9/6 xTTB/K2C Or V-Up  [?]
+12/9/6 x TTB/K2C Or V-Up  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) I-2 Sets: 8 x BB Back/Front Squat @ 40-50%  [?]
+- (exercise?) 1-2 Sets: 8 x BB Back/Front Squat  [? vision]
+- (uncertain) @  [? vision]
+- (prescription?) 40-50%  [? vision]
+- (exercise?) 8 x DB/KBPaused Goblet Squat
+- (exercise?) 8 x Roller Hamstring Curl
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (uncertain) Sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 18:00 Cap
+- (prescription?) 6-4-2-1-1-1
+- (exercise?) BB Back/Front Squat  [?]
+- (prescription?) t @60-70-80-85-90-95%  [?]
+- (exercise? / prescription?) Optional - :30 Hollow Hold  [?]
+- (exercise? / prescription?) BB Back/Front Squat @60-70-80-85-90-95%  [? vision]
+- (exercise? / prescription?) Optional -:30 Hollow Hold  [? vision]
+- (exercise? / prescription?) 6-8 x DB RDL (AHAP)
+- (prescription?) :45-I:00 Rest Between Rounds  [?]
+- (prescription?) :45-1:00 Rest Between Rounds  [? vision]
+- (SECTION) S2.
+- (prescription?) 2 x 8:00 Blocks
+- (SECTION / prescription?) A.AMRAP - Build To A Heavy
+- (exercise?) I-3 x BB Power Clean  [?]
+- (exercise?) 1-3 x BB Power Clean  [? vision]
+- (exercise?) Or 3.3-5.5 x DBall Shoulder Squat
+- (prescription?) :45-I:00 Rest Between Rounds  [?]
+- (prescription?) :45-1:00 Rest Between Rounds  [? vision]
+- (exercise?) 4.4-6.6 x SA KB Overhead Rev Lunge
+- (uncertain) 12/9/6 xTTB/K2C Or V-Up  [?]
+- (uncertain) 12/9/6 x TTB/K2C Or V-Up  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Back/Front Squat @ 40-50%
+8 x DB/KBPaused Goblet Squat
+8 x Roller Hamstring Curl
+8.8 x Dynamic Pigeon Stretch
+Sl.
+18:00 Cap
+6-4-2-1-1-1
+BB Back/Front Squat
+t @60-70-80-85-90-95%
+Optional - :30 Hollow Hold
+6-8 x DB RDL (AHAP)
+:45-I:00 Rest Between Rounds
+*Reps Only Reduce If Weight Increases
+S2.
+2 x 8:00 Blocks
+A.AMRAP - Build To A Heavy
+I-3 x BB Power Clean
+Or 3.3-5.5 x DBall Shoulder Squat
+:45-I:00 Rest Between Rounds
+B. 4-5 Rounds
+4.4-6.6 x SA KB Overhead Rev Lunge
+12/9/6 xTTB/K2C Or V-Up
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+1-2 Sets: 8 x BB Back/Front Squat
+@
+40-50%
+8 x DB/KBPaused Goblet Squat
+8 x Roller Hamstring Curl
+8.8 x Dynamic Pigeon Stretch
+SI.
+18:00 Cap
+6-4-2-1-1-1
+BB Back/Front Squat @60-70-80-85-90-95%
+Optional -:30 Hollow Hold
+6-8 x DB RDL (AHAP)
+:45-1:00 Rest Between Rounds
+*Reps Only Reduce If Weight Increases
+S2.
+2 x 8:00 Blocks
+A.AMRAP - Build To A Heavy
+1-3 x BB Power Clean
+Or 3.3-5.5 x DBall Shoulder Squat
+:45-1:00 Rest Between Rounds
+B. 4-5 Rounds
+4.4-6.6 x SA KB Overhead Rev Lunge
+12/9/6 x TTB/K2C Or V-Up
+```
+</details>
+
+### thursday sweat sprint
+`REVL Block 3 programming 2026/Peak Wk 1/thursday sweat sprint.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Sprint** [inferred]
+
+_Reader notes:_ engines differ near: '8 x Burpee Pull Up Or I0 x Burpee Bar Touch'; engines differ near: '4 x Blocks of E3MOM x 3'; engines differ near: 'B. In Pairs YGlG - I Round Each'; engines differ near: '10 x Box Jump'; engines differ near: 'C. In Pairs YGlG - I Round Each'; engines differ near: 'D. In Pairs YGlG - I Round Each'; engines differ near: 'DBall WWeight: F: 45/30/20kg / M: 65/45/35kg'; engines differ near: 'DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+:45 Erg/Echo Effort @RPE 7-8
+8 x Paused DBall Squat
+8 x Burpee Pull Up Or I0 x Burpee Bar Touch  [?]
+8 x Burpee Pull Up Or 10 x Burpee Bar Touch  [? vision]
+10 x Dual DB Hang Snatch (Light)
+4 x Blocks of E3MOM x 3  [?]
+A. In Pairs YGlG - I Round Each  [?]
+4 x Blocks of ЕЗМОМ x 3  [? vision]
+A. In Pairs YGIG - I Round Each  [? vision]
+10/7/4 Cal Ski Erg
+10 x DBall Squat (AHAP)
+10/7/4 Cal Ski Erg
+B. In Pairs YGlG - I Round Each  [?]
+B. In Pairs YGIG - I Round Each  [? vision]
+10/8/6 Cal Bike Erg
+10 x Box Jump  [?]
+0 Over/Step Over  [?]
+10 x Box Jump Over/Step Over  [? vision]
+10/8/6 Cal Bike Erg
+C. In Pairs YGlG - I Round Each  [?]
+C. In Pairs YGIG - I Round Each  [? vision]
+10/7/4 Cal Row Erg
+10 x Dual DB Hang Snatch
+10/7/4 Cal Row Erg
+D. In Pairs YGlG - I Round Each  [?]
+D. In Pairs YGIG - I Round Each  [? vision]
+8/6/4 Cal Echo Bike
+8-10 x Burpee Pull Up/Bar Touch
+8/6/4 Cal Echo Bike
+DBall WWeight: F: 45/30/20kg / M: 65/45/35kg  [?]
+DBall Weight: F: 45/30/20kg | M: 65/45/35kg  [? vision]
+Box Height: 24'/20'/20'
+DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg  [?]
+DB Weight: F:15/10/8kg | M: 22.5/17.5/12.5kg  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (prescription?) :45 Erg/Echo Effort @RPE 7-8
+- (exercise?) 8 x Paused DBall Squat
+- (exercise?) 8 x Burpee Pull Up Or I0 x Burpee Bar Touch  [?]
+- (exercise?) 8 x Burpee Pull Up Or 10 x Burpee Bar Touch  [? vision]
+- (exercise?) 10 x Dual DB Hang Snatch (Light)
+- (prescription?) 4 x Blocks of E3MOM x 3  [?]
+- (uncertain) A. In Pairs YGlG - I Round Each  [?]
+- (prescription?) 4 x Blocks of ЕЗМОМ x 3  [? vision]
+- (uncertain) A. In Pairs YGIG - I Round Each  [? vision]
+- (exercise?) 10/7/4 Cal Ski Erg
+- (exercise? / prescription?) 10 x DBall Squat (AHAP)
+- (exercise?) 10/7/4 Cal Ski Erg
+- (uncertain) B. In Pairs YGlG - I Round Each  [?]
+- (uncertain) B. In Pairs YGIG - I Round Each  [? vision]
+- (exercise?) 10/8/6 Cal Bike Erg
+- (uncertain) 10 x Box Jump  [?]
+- (exercise?) 0 Over/Step Over  [?]
+- (exercise?) 10 x Box Jump Over/Step Over  [? vision]
+- (exercise?) 10/8/6 Cal Bike Erg
+- (uncertain) C. In Pairs YGlG - I Round Each  [?]
+- (uncertain) C. In Pairs YGIG - I Round Each  [? vision]
+- (exercise?) 10/7/4 Cal Row Erg
+- (exercise?) 10 x Dual DB Hang Snatch
+- (exercise?) 10/7/4 Cal Row Erg
+- (uncertain) D. In Pairs YGlG - I Round Each  [?]
+- (uncertain) D. In Pairs YGIG - I Round Each  [? vision]
+- (exercise?) 8/6/4 Cal Echo Bike
+- (exercise?) 8-10 x Burpee Pull Up/Bar Touch
+- (exercise?) 8/6/4 Cal Echo Bike
+- (uncertain) DBall WWeight: F: 45/30/20kg / M: 65/45/35kg  [?]
+- (uncertain) DBall Weight: F: 45/30/20kg | M: 65/45/35kg  [? vision]
+- (uncertain) DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg  [?]
+- (prescription?) DB Weight: F:15/10/8kg | M: 22.5/17.5/12.5kg  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+:45 Erg/Echo Effort @RPE 7-8
+8 x Paused DBall Squat
+8 x Burpee Pull Up Or I0 x Burpee Bar Touch
+10 x Dual DB Hang Snatch (Light)
+4 x Blocks of E3MOM x 3
+A. In Pairs YGlG - I Round Each
+10/7/4 Cal Ski Erg
+10 x DBall Squat (AHAP)
+10/7/4 Cal Ski Erg
+B. In Pairs YGlG - I Round Each
+10/8/6 Cal Bike Erg
+10 x Box Jump 
+0 Over/Step Over
+10/8/6 Cal Bike Erg
+C. In Pairs YGlG - I Round Each
+10/7/4 Cal Row Erg
+10 x Dual DB Hang Snatch
+10/7/4 Cal Row Erg
+D. In Pairs YGlG - I Round Each
+8/6/4 Cal Echo Bike
+8-10 x Burpee Pull Up/Bar Touch
+8/6/4 Cal Echo Bike
+DBall WWeight: F: 45/30/20kg / M: 65/45/35kg
+Box Height: 24'/20'/20'
+DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+:45 Erg/Echo Effort @RPE 7-8
+8 x Paused DBall Squat
+8 x Burpee Pull Up Or 10 x Burpee Bar Touch
+10 x Dual DB Hang Snatch (Light)
+4 x Blocks of ЕЗМОМ x 3
+A. In Pairs YGIG - I Round Each
+10/7/4 Cal Ski Erg
+10 x DBall Squat (AHAP)
+10/7/4 Cal Ski Erg
+B. In Pairs YGIG - I Round Each
+10/8/6 Cal Bike Erg
+10 x Box Jump Over/Step Over
+10/8/6 Cal Bike Erg
+C. In Pairs YGIG - I Round Each
+10/7/4 Cal Row Erg
+10 x Dual DB Hang Snatch
+10/7/4 Cal Row Erg
+D. In Pairs YGIG - I Round Each
+8/6/4 Cal Echo Bike
+8-10 x Burpee Pull Up/Bar Touch
+8/6/4 Cal Echo Bike
+DBall Weight: F: 45/30/20kg | M: 65/45/35kg
+Box Height: 24'/20'/20'
+DB Weight: F:15/10/8kg | M: 22.5/17.5/12.5kg
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Peak Wk 1/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'MOVETOTAL'; engines differ near: 'I2 x Plank To Pike'; engines differ near: 'E4MOM x 4'; engines differ near: '*-I Rep Each Round or Maintain'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVETOTAL  [?]
+MOVE TOTAL  [? vision]
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Back/Front Squat
+5.5 x BW Box Step Up
+16 x Alt KB Goblet Squat Ankle Stretch
+I2 x Plank To Pike  [?]
+sl.  [?]
+E3MOM x 6  [?]
+12 x Plank To Pike  [? vision]
+SI.  [? vision]
+1.2 Rounds
+8-8-5-5-3-3
+BB Back/Front Squat @2-3 RIR
+:45 Rest Or :20 Side Plank e/s
+ЕЗМОМ × 6  [? vision only]
+2.2 Rounds
+3.3-5.5 x Single KB/DB Box Step Up
+6.6-8.8 x SA KB Strict/Push Press
+E4MOM x 4  [? vision only]
+S2.
+E4MOM x 4  [?]
+I.2+ Rounds  [?]
+1.2+ Rounds  [? vision]
+8 x BB Hip Thrust Or UH Bent Over
+Row
+*-I Rep Each Round or Maintain  [?]
+*-/ Rep Each Round or Maintain  [? vision]
+6.6 x DBall Shoulder Split Squat
+2. In Pairs
+50/40 x Box Jump Or Synchro Push Up
+400/300m Run/Ski Or 600/400m Bike
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) MOVETOTAL  [?]
+- (uncertain) MOVE TOTAL  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: 8 x BB Back/Front Squat
+- (exercise?) 5.5 x BW Box Step Up
+- (exercise?) 16 x Alt KB Goblet Squat Ankle Stretch
+- (exercise?) I2 x Plank To Pike  [?]
+- (uncertain) sl.  [?]
+- (SECTION / prescription?) E3MOM x 6  [?]
+- (exercise?) 12 x Plank To Pike  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 8-8-5-5-3-3
+- (exercise? / prescription?) BB Back/Front Squat @2-3 RIR
+- (exercise? / prescription?) :45 Rest Or :20 Side Plank e/s
+- (uncertain) ЕЗМОМ × 6  [? vision only]
+- (exercise?) 3.3-5.5 x Single KB/DB Box Step Up
+- (exercise?) 6.6-8.8 x SA KB Strict/Push Press
+- (SECTION / prescription?) E4MOM x 4  [? vision only]
+- (SECTION) S2.
+- (SECTION / prescription?) E4MOM x 4  [?]
+- (uncertain) I.2+ Rounds  [?]
+- (uncertain) 1.2+ Rounds  [? vision]
+- (exercise?) 8 x BB Hip Thrust Or UH Bent Over
+- (uncertain) *-I Rep Each Round or Maintain  [?]
+- (uncertain) *-/ Rep Each Round or Maintain  [? vision]
+- (exercise?) 6.6 x DBall Shoulder Split Squat
+- (exercise?) 50/40 x Box Jump Or Synchro Push Up
+- (exercise?) 400/300m Run/Ski Or 600/400m Bike
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVETOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Back/Front Squat
+5.5 x BW Box Step Up
+16 x Alt KB Goblet Squat Ankle Stretch
+I2 x Plank To Pike
+sl.
+E3MOM x 6
+1.2 Rounds
+8-8-5-5-3-3
+BB Back/Front Squat @2-3 RIR
+:45 Rest Or :20 Side Plank e/s
+2.2 Rounds
+3.3-5.5 x Single KB/DB Box Step Up
+6.6-8.8 x SA KB Strict/Push Press
+S2.
+E4MOM x 4
+I.2+ Rounds
+8 x BB Hip Thrust Or UH Bent Over
+Row
+*-I Rep Each Round or Maintain
+6.6 x DBall Shoulder Split Squat
+2. In Pairs
+50/40 x Box Jump Or Synchro Push Up
+400/300m Run/Ski Or 600/400m Bike
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Back/Front Squat
+5.5 x BW Box Step Up
+16 x Alt KB Goblet Squat Ankle Stretch
+12 x Plank To Pike
+SI.
+1.2 Rounds
+8-8-5-5-3-3
+BB Back/Front Squat @2-3 RIR
+:45 Rest Or :20 Side Plank e/s
+ЕЗМОМ × 6
+2.2 Rounds
+3.3-5.5 x Single KB/DB Box Step Up
+6.6-8.8 x SA KB Strict/Push Press
+E4MOM x 4
+S2.
+1.2+ Rounds
+8 x BB Hip Thrust Or UH Bent Over
+Row
+*-/ Rep Each Round or Maintain
+6.6 x DBall Shoulder Split Squat
+2. In Pairs
+50/40 x Box Jump Or Synchro Push Up
+400/300m Run/Ski Or 600/400m Bike
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Peak Wk 1/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: 'I0 x Paused Band External Rotation'; engines differ near: 'sl.'; engines differ near: '8-I2 xAlt KB Gorilla Row'; engines differ near: 'A.4-4-2-2-1+1'; engines differ near: '12 xAIt DB Curl'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap  [? rapid only]
+I-2 Sets: 8 x BB Bench Press @40-50%
+10 x DB Standing Arnold Press (Light)
+I0 x Paused Band External Rotation  [?]
+10 x Paused Band External Rotation  [? vision]
+10 x Scap Pull Up/Chin Up
+sl.  [?]
+SI.  [? vision]
+4:00 Cap  [? vision]
+18:00 Cap
+6-4-2-1-1-1
+BB Bench Press @60-70-80-85-90-95%
+8-I2 xAlt KB Gorilla Row  [?]
+8-I2 x DB Lateral Raise  [?]
+8-12 x Alt KB Gorilla Row  [? vision]
+8-12 x DB Lateral Raise  [? vision]
+:45 Rest
+*Reps Only Reduce If Weight Increases
+S2.
+2 x 8:00 Cap: 4-5 Rounds
+A.4-4-2-2-1+1  [?]
+A. 4-4-2-2-1+1  [? vision]
+Pull/Chin Up Or BB Pendlay Row
+6+ x Bar Dip
+B. 8-8-6-6-4
+DB Incline Bench Press
+12 xAIt DB Curl  [?]
+12 x Alt DB Curl  [? vision]
+*Reps Only Reduce If Weight Increases
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise? / prescription?) I-2 Sets: 8 x BB Bench Press @40-50%
+- (exercise?) 10 x DB Standing Arnold Press (Light)
+- (uncertain) I0 x Paused Band External Rotation  [?]
+- (uncertain) 10 x Paused Band External Rotation  [? vision]
+- (exercise?) 10 x Scap Pull Up/Chin Up
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) 18:00 Cap
+- (prescription?) 6-4-2-1-1-1
+- (exercise? / prescription?) BB Bench Press @60-70-80-85-90-95%
+- (exercise?) 8-I2 xAlt KB Gorilla Row  [?]
+- (exercise?) 8-I2 x DB Lateral Raise  [?]
+- (exercise?) 8-12 x Alt KB Gorilla Row  [? vision]
+- (exercise?) 8-12 x DB Lateral Raise  [? vision]
+- (prescription?) :45 Rest
+- (SECTION) S2.
+- (prescription?) 2 x 8:00 Cap: 4-5 Rounds
+- (SECTION / prescription?) A.4-4-2-2-1+1  [?]
+- (prescription?) A. 4-4-2-2-1+1  [? vision]
+- (exercise?) Pull/Chin Up Or BB Pendlay Row
+- (exercise?) 6+ x Bar Dip
+- (prescription?) B. 8-8-6-6-4
+- (exercise?) DB Incline Bench Press
+- (exercise?) 12 xAIt DB Curl  [?]
+- (exercise?) 12 x Alt DB Curl  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press @40-50%
+10 x DB Standing Arnold Press (Light)
+I0 x Paused Band External Rotation
+10 x Scap Pull Up/Chin Up
+sl.
+18:00 Cap
+6-4-2-1-1-1
+BB Bench Press @60-70-80-85-90-95%
+8-I2 xAlt KB Gorilla Row
+8-I2 x DB Lateral Raise
+:45 Rest
+*Reps Only Reduce If Weight Increases
+S2.
+2 x 8:00 Cap: 4-5 Rounds
+A.4-4-2-2-1+1
+Pull/Chin Up Or BB Pendlay Row
+6+ x Bar Dip
+B. 8-8-6-6-4
+DB Incline Bench Press
+12 xAIt DB Curl
+*Reps Only Reduce If Weight Increases
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+I-2 Sets: 8 x BB Bench Press @40-50%
+10 x DB Standing Arnold Press (Light)
+10 x Paused Band External Rotation
+10 x Scap Pull Up/Chin Up
+SI.
+4:00 Cap
+18:00 Cap
+6-4-2-1-1-1
+BB Bench Press @60-70-80-85-90-95%
+8-12 x Alt KB Gorilla Row
+8-12 x DB Lateral Raise
+:45 Rest
+*Reps Only Reduce If Weight Increases
+S2.
+2 x 8:00 Cap: 4-5 Rounds
+A. 4-4-2-2-1+1
+Pull/Chin Up Or BB Pendlay Row
+6+ x Bar Dip
+B. 8-8-6-6-4
+DB Incline Bench Press
+12 x Alt DB Curl
+*Reps Only Reduce If Weight Increases
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Peak Wk 1/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATTEAM'; engines differ near: '15/10 x V-Up'; engines differ near: '*I0 xTTB/TTH or V-Up'; engines differ near: '*I0/6 x DBall Power GTS'; engines differ near: 'B.430/330/230 Cal Row Erg'; engines differ near: '*I0 x BW Cyclist Squat'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATTEAM  [?]
+SWEAT TEAM  [? vision]
+WARM UP
+4:00 Cap  [? rapid only]
+15/12/9 Cal Erg/Echo
+15/10 x V-Up  [?]
+15/10 xV-Up  [? vision]
+10 x DBall Power GTS (Light)
+10 x Plank To Pike
+Teams of 6 - 2 x 22:00 Cap
+A. 430/330/230 Cal Ski Erg
+*I0 xTTB/TTH or V-Up  [?]
+*10 x TTB/TTH or V-Up  [? vision]
++  [? vision]
+430/330/230 Cal Bike Erg
+*I0/6 x DBall Power GTS  [?]
+E4MOM (lnc 0:00) 2P Must Complete:  [?]
+300/200m Pair Run or 40/30 x Synchro AIt  [?]
+*10/6 x DBall Power GTS  [? vision]
+4:00 Cap  [? vision]
+E4MOM (Inc 0:00) 2P Must Complete:  [? vision]
+300/200m Pair Run or 40/30 x Synchro Alt  [? vision]
+SA DB Snatch
+B.430/330/230 Cal Row Erg  [?]
+*I0 xAmerican KB Swing  [?]
+B. 430/330/230 Cal Row Erg  [? vision]
+*10 x American KB Swing  [? vision]
++  [? vision]
+340/260/180 Cal Echo Bike
+*I0 x BW Cyclist Squat  [?]
+E4MOM (lnc 0:00) 2P Must Complete:  [?]
+*10 x BW Cyclist Squat  [? vision]
+E4MOM (Inc 0:00) 2P Must Complete:  [? vision]
+25/15 x Synchro Burpee
+*2:00 Between Blocks
+Erg Pacing: 1300/1000/700 Cal/hr
+Echo Cadence: 75/65/55
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATTEAM  [?]
+- (uncertain) SWEAT TEAM  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise?) 15/12/9 Cal Erg/Echo
+- (uncertain) 15/10 x V-Up  [?]
+- (uncertain) 15/10 xV-Up  [? vision]
+- (exercise?) 10 x DBall Power GTS (Light)
+- (exercise?) 10 x Plank To Pike
+- (prescription?) Teams of 6 - 2 x 22:00 Cap
+- (exercise?) A. 430/330/230 Cal Ski Erg
+- (uncertain) *I0 xTTB/TTH or V-Up  [?]
+- (uncertain) *10 x TTB/TTH or V-Up  [? vision]
+- (uncertain) +  [? vision]
+- (exercise?) 430/330/230 Cal Bike Erg
+- (exercise?) *I0/6 x DBall Power GTS  [?]
+- (SECTION / prescription?) E4MOM (lnc 0:00) 2P Must Complete:  [?]
+- (exercise?) 300/200m Pair Run or 40/30 x Synchro AIt  [?]
+- (exercise?) *10/6 x DBall Power GTS  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (SECTION / prescription?) E4MOM (Inc 0:00) 2P Must Complete:  [? vision]
+- (exercise?) 300/200m Pair Run or 40/30 x Synchro Alt  [? vision]
+- (exercise?) SA DB Snatch
+- (SECTION / exercise?) B.430/330/230 Cal Row Erg  [?]
+- (exercise?) *I0 xAmerican KB Swing  [?]
+- (exercise?) B. 430/330/230 Cal Row Erg  [? vision]
+- (exercise?) *10 x American KB Swing  [? vision]
+- (uncertain) +  [? vision]
+- (exercise?) 340/260/180 Cal Echo Bike
+- (exercise?) *I0 x BW Cyclist Squat  [?]
+- (SECTION / prescription?) E4MOM (lnc 0:00) 2P Must Complete:  [?]
+- (exercise?) *10 x BW Cyclist Squat  [? vision]
+- (SECTION / prescription?) E4MOM (Inc 0:00) 2P Must Complete:  [? vision]
+- (exercise?) 25/15 x Synchro Burpee
+- (prescription?) *2:00 Between Blocks
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATTEAM
+WARM UP
+4:00 Cap
+15/12/9 Cal Erg/Echo
+15/10 x V-Up
+10 x DBall Power GTS (Light)
+10 x Plank To Pike
+Teams of 6 - 2 x 22:00 Cap
+A. 430/330/230 Cal Ski Erg
+*I0 xTTB/TTH or V-Up
+430/330/230 Cal Bike Erg
+*I0/6 x DBall Power GTS
+E4MOM (lnc 0:00) 2P Must Complete:
+300/200m Pair Run or 40/30 x Synchro AIt
+SA DB Snatch
+B.430/330/230 Cal Row Erg
+*I0 xAmerican KB Swing
+340/260/180 Cal Echo Bike
+*I0 x BW Cyclist Squat
+E4MOM (lnc 0:00) 2P Must Complete:
+25/15 x Synchro Burpee
+*2:00 Between Blocks
+Erg Pacing: 1300/1000/700 Cal/hr
+Echo Cadence: 75/65/55
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+15/12/9 Cal Erg/Echo
+15/10 xV-Up
+10 x DBall Power GTS (Light)
+10 x Plank To Pike
+Teams of 6 - 2 x 22:00 Cap
+A. 430/330/230 Cal Ski Erg
+*10 x TTB/TTH or V-Up
++
+430/330/230 Cal Bike Erg
+*10/6 x DBall Power GTS
+4:00 Cap
+E4MOM (Inc 0:00) 2P Must Complete:
+300/200m Pair Run or 40/30 x Synchro Alt
+SA DB Snatch
+B. 430/330/230 Cal Row Erg
+*10 x American KB Swing
++
+340/260/180 Cal Echo Bike
+*10 x BW Cyclist Squat
+E4MOM (Inc 0:00) 2P Must Complete:
+25/15 x Synchro Burpee
+*2:00 Between Blocks
+Erg Pacing: 1300/1000/700 Cal/hr
+Echo Cadence: 75/65/55
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Peak Wk 1/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'A. FollowThe Leader:'; engines differ near: 'D. Max Cal Bike Erg (70-I40+)'; engines differ near: '8- 0-12...'; engines differ near: '200/150m Run 0r 30/20 x Air Squat'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARM UP
+4:00 Cap  [?]
+I0 x BB Thruster Or BB Back Squat  [?]
+15/l0 Cal Row/Bike Erg  [?]
+10 x BB Thruster Or BB Back Squat  [? vision]
+15/10 Cal Row/Bike Erg  [? vision]
+10 x Push Up (2s Ecc)
+8.8 x World's Greatest Stretch
+sl.  [?]
+SI.  [? vision]
+4:00 Cap  [? vision]
+In Pairs - 4 x 7:00 AMRAP
+A. FollowThe Leader:  [?]
+6-I0 x BB Thruster or Back Squat  [?]
+60/40m DBall Carry 0r :30-:40 Hold  [?]
+B. Max Cal Row Erg (60-I20+)  [?]
+*6 xAIt KB FR Rev Lunge  [?]
+C. FollowThe Leader:  [?]
+6-I0 x BB Landmine Squat or Rotation  [?]
+A. Follow The Leader:  [? vision]
+6-10 x BB Thruster or Back Squat  [? vision]
+60/40m DBall Carry or:30-:40 Hold  [? vision]
+B. Max Cal Row Erg (60-120+)  [? vision]
+*6 x Alt KB FR Rev Lunge  [? vision]
+C. Follow The Leader:  [? vision]
+6-10 x BB Landmine Squat or Rotation  [? vision]
+8-12 x Ring Push Up
+D. Max Cal Bike Erg (70-I40+)  [?]
+D. Max Cal Bike Erg (70-140+)  [? vision]
+*6 x DB Hang Clean + Press
+*1:00 Between Blocks
+S2.
+8:00 AMRAP
+8- 0-12...  [?]
+8-10-12...  [? vision]
+TTB/TTH or DBall Shoulder Fwd Lunge
+200/150m Run 0r 30/20 x Air Squat  [?]
+200/150m Run or 30/20 x Air Squat  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I0 x BB Thruster Or BB Back Squat  [?]
+- (exercise?) 15/l0 Cal Row/Bike Erg  [?]
+- (exercise?) 10 x BB Thruster Or BB Back Squat  [? vision]
+- (exercise?) 15/10 Cal Row/Bike Erg  [? vision]
+- (exercise? / prescription?) 10 x Push Up (2s Ecc)
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) In Pairs - 4 x 7:00 AMRAP
+- (uncertain) A. FollowThe Leader:  [?]
+- (exercise?) 6-I0 x BB Thruster or Back Squat  [?]
+- (exercise? / prescription?) 60/40m DBall Carry 0r :30-:40 Hold  [?]
+- (exercise?) B. Max Cal Row Erg (60-I20+)  [?]
+- (exercise?) *6 xAIt KB FR Rev Lunge  [?]
+- (uncertain) C. FollowThe Leader:  [?]
+- (exercise?) 6-I0 x BB Landmine Squat or Rotation  [?]
+- (uncertain) A. Follow The Leader:  [? vision]
+- (exercise?) 6-10 x BB Thruster or Back Squat  [? vision]
+- (exercise? / prescription?) 60/40m DBall Carry or:30-:40 Hold  [? vision]
+- (exercise?) B. Max Cal Row Erg (60-120+)  [? vision]
+- (exercise?) *6 x Alt KB FR Rev Lunge  [? vision]
+- (uncertain) C. Follow The Leader:  [? vision]
+- (exercise?) 6-10 x BB Landmine Squat or Rotation  [? vision]
+- (exercise?) 8-12 x Ring Push Up
+- (exercise?) D. Max Cal Bike Erg (70-I40+)  [?]
+- (exercise?) D. Max Cal Bike Erg (70-140+)  [? vision]
+- (exercise?) *6 x DB Hang Clean + Press
+- (prescription?) *1:00 Between Blocks
+- (SECTION) S2.
+- (prescription?) 8:00 AMRAP
+- (uncertain) 8- 0-12...  [?]
+- (prescription?) 8-10-12...  [? vision]
+- (exercise?) TTB/TTH or DBall Shoulder Fwd Lunge
+- (exercise?) 200/150m Run 0r 30/20 x Air Squat  [?]
+- (exercise?) 200/150m Run or 30/20 x Air Squat  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+I0 x BB Thruster Or BB Back Squat
+15/l0 Cal Row/Bike Erg
+10 x Push Up (2s Ecc)
+8.8 x World's Greatest Stretch
+sl.
+In Pairs - 4 x 7:00 AMRAP
+A. FollowThe Leader:
+6-I0 x BB Thruster or Back Squat
+60/40m DBall Carry 0r :30-:40 Hold
+B. Max Cal Row Erg (60-I20+)
+*6 xAIt KB FR Rev Lunge
+C. FollowThe Leader:
+6-I0 x BB Landmine Squat or Rotation
+8-12 x Ring Push Up
+D. Max Cal Bike Erg (70-I40+)
+*6 x DB Hang Clean + Press
+*1:00 Between Blocks
+S2.
+8:00 AMRAP
+8- 0-12...
+TTB/TTH or DBall Shoulder Fwd Lunge
+200/150m Run 0r 30/20 x Air Squat
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+10 x BB Thruster Or BB Back Squat
+15/10 Cal Row/Bike Erg
+10 x Push Up (2s Ecc)
+8.8 x World's Greatest Stretch
+SI.
+4:00 Cap
+In Pairs - 4 x 7:00 AMRAP
+A. Follow The Leader:
+6-10 x BB Thruster or Back Squat
+60/40m DBall Carry or:30-:40 Hold
+B. Max Cal Row Erg (60-120+)
+*6 x Alt KB FR Rev Lunge
+C. Follow The Leader:
+6-10 x BB Landmine Squat or Rotation
+8-12 x Ring Push Up
+D. Max Cal Bike Erg (70-140+)
+*6 x DB Hang Clean + Press
+*1:00 Between Blocks
+S2.
+8:00 AMRAP
+8-10-12...
+TTB/TTH or DBall Shoulder Fwd Lunge
+200/150m Run or 30/20 x Air Squat
+```
+</details>
+
+
+## Block 3 — Peak Wk 2  (programme week 9) [inferred]
+
+- **Phase:** Peak  ·  **Phase-week:** 2  ·  **Overall week:** 9   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Peak Wk 2/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets: I0 x BB Deadlift'; engines differ near: '2 x :20 Erg Effort @RPE 7'; engines differ near: 'sl.'; engines differ near: 'Score =Time'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Deadlift  [?]
+1-2 Sets: 10 x BB Deadlift  [? vision]
+8.8 x SL Glute Bridge
+2 x :20 Erg Effort @RPE 7  [?]
+2x:20 Erg Effort @RPE 7  [? vision]
+8.8 x World's Greatest Stretch
+sl.  [?]
+SI.  [? vision]
+26:00 Cap
+0:00-18:00
+Build To A 3RM: BB Deadlift
+*Optional: 8.8 x KB Side Bend
+6-8 x DB Incline Bench Press
+18:00-26:00
+Build To A 3RM: Pull Up/Chin Up
+*Optional: 6.6 x SA DB OH Rev Lunge
+3-5 x Dragon Flag (For Quality)
+Example Builds: High Rep: 9-7-5-3-3
+Low Rep: 7-5-3-3-3
+'REVLACTIC'  [? vision only]
+S2.
+'REVLACTIC'  [? rapid only]
+For Time: F/M
+500/600m Bike Erg
+250/300m Ski Erg
+250/300m Row Erg
+Score =Time  [?]
+Score = Time  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: I0 x BB Deadlift  [?]
+- (exercise?) 1-2 Sets: 10 x BB Deadlift  [? vision]
+- (exercise?) 8.8 x SL Glute Bridge
+- (exercise? / prescription?) 2 x :20 Erg Effort @RPE 7  [?]
+- (exercise? / prescription?) 2x:20 Erg Effort @RPE 7  [? vision]
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 26:00 Cap
+- (prescription?) 0:00-18:00
+- (exercise?) Build To A 3RM: BB Deadlift
+- (exercise?) *Optional: 8.8 x KB Side Bend
+- (exercise?) 6-8 x DB Incline Bench Press
+- (prescription?) 18:00-26:00
+- (exercise?) Build To A 3RM: Pull Up/Chin Up
+- (exercise?) *Optional: 6.6 x SA DB OH Rev Lunge
+- (prescription?) Example Builds: High Rep: 9-7-5-3-3
+- (prescription?) Low Rep: 7-5-3-3-3
+- (uncertain) 'REVLACTIC'  [? vision only]
+- (SECTION) S2.
+- (uncertain) 'REVLACTIC'  [? rapid only]
+- (SECTION) For Time: F/M
+- (exercise?) 500/600m Bike Erg
+- (exercise?) 250/300m Ski Erg
+- (exercise?) 250/300m Row Erg
+- (SECTION) Score =Time  [?]
+- (SECTION) Score = Time  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Deadlift
+8.8 x SL Glute Bridge
+2 x :20 Erg Effort @RPE 7
+8.8 x World's Greatest Stretch
+sl.
+26:00 Cap
+0:00-18:00
+Build To A 3RM: BB Deadlift
+*Optional: 8.8 x KB Side Bend
+6-8 x DB Incline Bench Press
+18:00-26:00
+Build To A 3RM: Pull Up/Chin Up
+*Optional: 6.6 x SA DB OH Rev Lunge
+3-5 x Dragon Flag (For Quality)
+Example Builds: High Rep: 9-7-5-3-3
+Low Rep: 7-5-3-3-3
+S2.
+'REVLACTIC'
+For Time: F/M
+500/600m Bike Erg
+250/300m Ski Erg
+250/300m Row Erg
+Score =Time
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+1-2 Sets: 10 x BB Deadlift
+8.8 x SL Glute Bridge
+2x:20 Erg Effort @RPE 7
+8.8 x World's Greatest Stretch
+SI.
+26:00 Cap
+0:00-18:00
+Build To A 3RM: BB Deadlift
+*Optional: 8.8 x KB Side Bend
+6-8 x DB Incline Bench Press
+18:00-26:00
+Build To A 3RM: Pull Up/Chin Up
+*Optional: 6.6 x SA DB OH Rev Lunge
+3-5 x Dragon Flag (For Quality)
+Example Builds: High Rep: 9-7-5-3-3
+Low Rep: 7-5-3-3-3
+'REVLACTIC'
+S2.
+For Time: F/M
+500/600m Bike Erg
+250/300m Ski Erg
+250/300m Row Erg
+Score = Time
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Peak Wk 2/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: 'sl.'; engines differ near: 'High: 8-6-4-1-1-1'; engines differ near: 'Every :30 (inc 0:00): 4 x KB Hang Squat'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap  [? rapid only]
+I-2 Sets: 6-8 x BB Deadlift @40-50%
+5.5 x SA DB Strict Press (2s Pause)
+12-16 x KB Dead Bug
+8.8 x World's Greatest Stretch
+sl.  [?]
+30:00 Cap  [?]
+SI.  [? vision]
+0:00-18:00
+IRM BB Deadlift
+4:00 Cap  [? vision only]
+30:00 Cap  [? vision only]
+18:00-30:00
+IRM BB Push Press/Jerk
+Example Builds With Varied Volume:
+60-70-80-90-100-100+% Of Goal IRM
+High: 8-6-4-1-1-1  [?]
+Moderate: 6-4-2-1-1-1  [?]
+Low: 3-2-2-1-1-1  [?]
+High: 8-6-4-1-1-/  [? vision]
+Moderate: 6-4-2-1-/-/  [? vision]
+Low: 3-2-2-1-1-/  [? vision]
+S2.
+Clean Legs - 2:00 Cap
+Max Cal Echo Bike
+Every :30 (inc 0:00): 4 x KB Hang Squat  [?]
+Every:30 (inc 0:00): 4 x KB Hang Squat  [? vision]
+Clean
+KB Weight: F: 16/12/8kg / M: 24/20/16kg
+Score = Echo Cal
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise? / prescription?) I-2 Sets: 6-8 x BB Deadlift @40-50%
+- (exercise?) 5.5 x SA DB Strict Press (2s Pause)
+- (exercise?) 12-16 x KB Dead Bug
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (prescription?) 30:00 Cap  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 0:00-18:00
+- (exercise?) IRM BB Deadlift
+- (prescription?) 4:00 Cap  [? vision only]
+- (prescription?) 30:00 Cap  [? vision only]
+- (prescription?) 18:00-30:00
+- (exercise?) IRM BB Push Press/Jerk
+- (prescription?) 60-70-80-90-100-100+% Of Goal IRM
+- (prescription?) High: 8-6-4-1-1-1  [?]
+- (prescription?) Moderate: 6-4-2-1-1-1  [?]
+- (prescription?) Low: 3-2-2-1-1-1  [?]
+- (prescription?) High: 8-6-4-1-1-/  [? vision]
+- (prescription?) Moderate: 6-4-2-1-/-/  [? vision]
+- (prescription?) Low: 3-2-2-1-1-/  [? vision]
+- (SECTION) S2.
+- (prescription?) Clean Legs - 2:00 Cap
+- (exercise?) Max Cal Echo Bike
+- (exercise? / prescription?) Every :30 (inc 0:00): 4 x KB Hang Squat  [?]
+- (exercise? / prescription?) Every:30 (inc 0:00): 4 x KB Hang Squat  [? vision]
+- (SECTION) Score = Echo Cal
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6-8 x BB Deadlift @40-50%
+5.5 x SA DB Strict Press (2s Pause)
+12-16 x KB Dead Bug
+8.8 x World's Greatest Stretch
+sl.
+30:00 Cap
+0:00-18:00
+IRM BB Deadlift
+18:00-30:00
+IRM BB Push Press/Jerk
+Example Builds With Varied Volume:
+60-70-80-90-100-100+% Of Goal IRM
+High: 8-6-4-1-1-1
+Moderate: 6-4-2-1-1-1
+Low: 3-2-2-1-1-1
+S2.
+Clean Legs - 2:00 Cap
+Max Cal Echo Bike
+Every :30 (inc 0:00): 4 x KB Hang Squat
+Clean
+KB Weight: F: 16/12/8kg / M: 24/20/16kg
+Score = Echo Cal
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+I-2 Sets: 6-8 x BB Deadlift @40-50%
+5.5 x SA DB Strict Press (2s Pause)
+12-16 x KB Dead Bug
+8.8 x World's Greatest Stretch
+SI.
+0:00-18:00
+IRM BB Deadlift
+4:00 Cap
+30:00 Cap
+18:00-30:00
+IRM BB Push Press/Jerk
+Example Builds With Varied Volume:
+60-70-80-90-100-100+% Of Goal IRM
+High: 8-6-4-1-1-/
+Moderate: 6-4-2-1-/-/
+Low: 3-2-2-1-1-/
+S2.
+Clean Legs - 2:00 Cap
+Max Cal Echo Bike
+Every:30 (inc 0:00): 4 x KB Hang Squat
+Clean
+KB Weight: F: 16/12/8kg / M: 24/20/16kg
+Score = Echo Cal
+```
+</details>
+
+### tuesday sweat sprint
+`REVL Block 3 programming 2026/Peak Wk 2/tuesday sweat sprint.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Sprint** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATSPRINT'; engines differ near: '2 x :30 Erg/Echo Effort @RPE 7-8'; engines differ near: '10 x Burpee or I2-16 x Box Jump Over/Step Over'; engines differ near: '3. Cal Ski Erg F: I3/10/7 I M: I6/13/10'; engines differ near: '7. Cal Row Erg F: 13/10/7 I M: 16/13/10'; engines differ near: '9. Cal Echo Bike F: I1/8/5 I M:I4/11/8'; engines differ near: '11. I6/14/12 Dual DB Hang Snatch'; engines differ near: 'F:1500/1300/1100 / M:1800/1600/1400'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATSPRINT  [?]
+SWEAT SPRINT  [? vision]
+WARM UP
+4:00 Cap
+2 x :30 Erg/Echo Effort @RPE 7-8  [?]
+2x:30 Erg/Echo Effort @RPE 7-8  [? vision]
+10 x Plank to Pike
+10 x Burpee or I2-16 x Box Jump Over/Step Over  [?]
+I0-12 x Dual DB Hang Snatch (Light)  [?]
+EMOM x 36  [?]
+1. Cal Bike Erg F: 13/10/7 I M: 16/13/10  [?]
+10 x Burpee or 12-16 x Box Jump Over/Step Over  [? vision]
+10-12 x Dual DB Hang Snatch (Light)  [? vision]
+ЕMOM x 36  [? vision]
+I. Cal Bike Erg F: 13/10/7 | M: 16/13/10  [? vision]
+2. Rest
+3. Cal Ski Erg F: I3/10/7 I M: I6/13/10  [?]
+4.Rest  [?]
+5. 10/8/6 x Burpee Box Jump Over  [?]
+3. Cal Ski Erg F: 13/10/7 | M: 16/13/10  [? vision]
+4. Rest  [? vision]
+5.10/8/6 x Burpee Box Jump Over  [? vision]
+6. Rest
+7. Cal Row Erg F: 13/10/7 I M: 16/13/10  [?]
+7. Cal Row Erg F: 13/10/7 | M: 16/13/10  [? vision]
+8. Rest
+9. Cal Echo Bike F: I1/8/5 I M:I4/11/8  [?]
+9. Cal Echo Bike F: 11/8/5 | M: |4/1 1/8  [? vision]
+I0. Rest
+11. I6/14/12 Dual DB Hang Snatch  [?]
+12.Rest  [?]
+*Work Capped :35  [?]
+11.16/14/12 Dual DB Hang Snatch  [? vision]
+12. Rest  [? vision]
+*Work Capped:35  [? vision]
+Erg Pacing:
+F:1500/1300/1100 / M:1800/1600/1400  [?]
+Echo Cadence: F: 73/67/53 / M: 81/75/67  [?]
+DB Weights: F: 12.5/10/8kg I M: 17.5/15/12.5kg  [?]
+F:1500/1300/1100 | M:1800/1600/1400  [? vision]
+Echo Cadence: F: 73/67/53 | M: 81/75/67  [? vision]
+DB Weights: F: 12.5/10/8kg / M: 17.5/15/12.5kg  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATSPRINT  [?]
+- (uncertain) SWEAT SPRINT  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) 2 x :30 Erg/Echo Effort @RPE 7-8  [?]
+- (exercise? / prescription?) 2x:30 Erg/Echo Effort @RPE 7-8  [? vision]
+- (exercise?) 10 x Plank to Pike
+- (exercise?) 10 x Burpee or I2-16 x Box Jump Over/Step Over  [?]
+- (exercise?) I0-12 x Dual DB Hang Snatch (Light)  [?]
+- (SECTION / prescription?) EMOM x 36  [?]
+- (exercise?) 1. Cal Bike Erg F: 13/10/7 I M: 16/13/10  [?]
+- (exercise?) 10 x Burpee or 12-16 x Box Jump Over/Step Over  [? vision]
+- (exercise?) 10-12 x Dual DB Hang Snatch (Light)  [? vision]
+- (prescription?) ЕMOM x 36  [? vision]
+- (exercise?) I. Cal Bike Erg F: 13/10/7 | M: 16/13/10  [? vision]
+- (exercise?) 3. Cal Ski Erg F: I3/10/7 I M: I6/13/10  [?]
+- (uncertain) 4.Rest  [?]
+- (exercise?) 5. 10/8/6 x Burpee Box Jump Over  [?]
+- (exercise?) 3. Cal Ski Erg F: 13/10/7 | M: 16/13/10  [? vision]
+- (uncertain) 4. Rest  [? vision]
+- (exercise?) 5.10/8/6 x Burpee Box Jump Over  [? vision]
+- (exercise?) 7. Cal Row Erg F: 13/10/7 I M: 16/13/10  [?]
+- (exercise?) 7. Cal Row Erg F: 13/10/7 | M: 16/13/10  [? vision]
+- (exercise?) 9. Cal Echo Bike F: I1/8/5 I M:I4/11/8  [?]
+- (exercise?) 9. Cal Echo Bike F: 11/8/5 | M: |4/1 1/8  [? vision]
+- (exercise?) 11. I6/14/12 Dual DB Hang Snatch  [?]
+- (uncertain) 12.Rest  [?]
+- (prescription?) *Work Capped :35  [?]
+- (exercise?) 11.16/14/12 Dual DB Hang Snatch  [? vision]
+- (uncertain) 12. Rest  [? vision]
+- (prescription?) *Work Capped:35  [? vision]
+- (uncertain) F:1500/1300/1100 / M:1800/1600/1400  [?]
+- (uncertain) Echo Cadence: F: 73/67/53 / M: 81/75/67  [?]
+- (uncertain) DB Weights: F: 12.5/10/8kg I M: 17.5/15/12.5kg  [?]
+- (uncertain) F:1500/1300/1100 | M:1800/1600/1400  [? vision]
+- (uncertain) Echo Cadence: F: 73/67/53 | M: 81/75/67  [? vision]
+- (uncertain) DB Weights: F: 12.5/10/8kg / M: 17.5/15/12.5kg  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATSPRINT
+WARM UP
+4:00 Cap
+2 x :30 Erg/Echo Effort @RPE 7-8
+10 x Plank to Pike
+10 x Burpee or I2-16 x Box Jump Over/Step Over
+I0-12 x Dual DB Hang Snatch (Light)
+EMOM x 36
+1. Cal Bike Erg F: 13/10/7 I M: 16/13/10
+2. Rest
+3. Cal Ski Erg F: I3/10/7 I M: I6/13/10
+4.Rest
+5. 10/8/6 x Burpee Box Jump Over
+6. Rest
+7. Cal Row Erg F: 13/10/7 I M: 16/13/10
+8. Rest
+9. Cal Echo Bike F: I1/8/5 I M:I4/11/8
+I0. Rest
+11. I6/14/12 Dual DB Hang Snatch
+12.Rest
+*Work Capped :35
+Erg Pacing:
+F:1500/1300/1100 / M:1800/1600/1400
+Echo Cadence: F: 73/67/53 / M: 81/75/67
+DB Weights: F: 12.5/10/8kg I M: 17.5/15/12.5kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+WARM UP
+4:00 Cap
+2x:30 Erg/Echo Effort @RPE 7-8
+10 x Plank to Pike
+10 x Burpee or 12-16 x Box Jump Over/Step Over
+10-12 x Dual DB Hang Snatch (Light)
+ЕMOM x 36
+I. Cal Bike Erg F: 13/10/7 | M: 16/13/10
+2. Rest
+3. Cal Ski Erg F: 13/10/7 | M: 16/13/10
+4. Rest
+5.10/8/6 x Burpee Box Jump Over
+6. Rest
+7. Cal Row Erg F: 13/10/7 | M: 16/13/10
+8. Rest
+9. Cal Echo Bike F: 11/8/5 | M: |4/1 1/8
+I0. Rest
+11.16/14/12 Dual DB Hang Snatch
+12. Rest
+*Work Capped:35
+Erg Pacing:
+F:1500/1300/1100 | M:1800/1600/1400
+Echo Cadence: F: 73/67/53 | M: 81/75/67
+DB Weights: F: 12.5/10/8kg / M: 17.5/15/12.5kg
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Peak Wk 2/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: '8.8 xT-Opener'; engines differ near: '*Optional: 8-I2 x Alt KB Gorilla Row'; engines differ near: 'BuildToA3RM:'; engines differ near: '*Optional: 8-I2 x KB Goblet Cyclist Squat'; engines differ near: 'DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: I0 x BB Bench Press  [?]
+I-2 Sets: 10 x BB Bench Press  [? vision]
+10-12 x Scap Chin Up
+8 x BW Cyclist Squat (4s Ecc)
+8.8 xT-Opener  [?]
+sl.  [?]
+28:00 Cap  [?]
+8.8 x T-Opener  [? vision]
+SI.  [? vision]
+0:00-16:00
+Build To A 3RM: BB Bench Press
+*Optional: 8-I2 x Alt KB Gorilla Row  [?]
+*Optional: 8-12 x Alt KB Gorilla Row  [? vision]
+6-8 x DB RDL
+4:00 Cap  [? vision only]
+28:00 Cap  [? vision only]
+16:00-28:00
+BuildToA3RM:  [?]
+Build To A 3RM:  [? vision]
+BB Hip Thrust OR Power Clean
+*Optional: 8-I2 x KB Goblet Cyclist Squat  [?]
+*Optional: 8-12 x KB Goblet Cyclist Squat  [? vision]
+6-8 x DB Z Press
+Example Builds: High Rep: 9-7-5-3-3
+Low Rep: 7-5-3-3-3
+4:00 Cap - 'The Last Gear'  [? vision only]
+S2.
+4:00 Cap -'The Last Gear'  [? rapid only]
+15-12-9
+DB Push Press
+Burpee
+Score =Time
+DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg  [?]
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets: I0 x BB Bench Press  [?]
+- (exercise?) I-2 Sets: 10 x BB Bench Press  [? vision]
+- (exercise?) 10-12 x Scap Chin Up
+- (exercise? / prescription?) 8 x BW Cyclist Squat (4s Ecc)
+- (uncertain) 8.8 xT-Opener  [?]
+- (uncertain) sl.  [?]
+- (prescription?) 28:00 Cap  [?]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) 0:00-16:00
+- (exercise?) Build To A 3RM: BB Bench Press
+- (exercise?) *Optional: 8-I2 x Alt KB Gorilla Row  [?]
+- (exercise?) *Optional: 8-12 x Alt KB Gorilla Row  [? vision]
+- (exercise?) 6-8 x DB RDL
+- (prescription?) 4:00 Cap  [? vision only]
+- (prescription?) 28:00 Cap  [? vision only]
+- (prescription?) 16:00-28:00
+- (uncertain) BuildToA3RM:  [?]
+- (uncertain) Build To A 3RM:  [? vision]
+- (exercise?) BB Hip Thrust OR Power Clean
+- (exercise?) *Optional: 8-I2 x KB Goblet Cyclist Squat  [?]
+- (exercise?) *Optional: 8-12 x KB Goblet Cyclist Squat  [? vision]
+- (exercise?) 6-8 x DB Z Press
+- (prescription?) Example Builds: High Rep: 9-7-5-3-3
+- (prescription?) Low Rep: 7-5-3-3-3
+- (prescription?) 4:00 Cap - 'The Last Gear'  [? vision only]
+- (SECTION) S2.
+- (prescription?) 4:00 Cap -'The Last Gear'  [? rapid only]
+- (prescription?) 15-12-9
+- (exercise?) DB Push Press
+- (SECTION) Score =Time
+- (uncertain) DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg  [?]
+- (uncertain) DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: I0 x BB Bench Press
+10-12 x Scap Chin Up
+8 x BW Cyclist Squat (4s Ecc)
+8.8 xT-Opener
+sl.
+28:00 Cap
+0:00-16:00
+Build To A 3RM: BB Bench Press
+*Optional: 8-I2 x Alt KB Gorilla Row
+6-8 x DB RDL
+16:00-28:00
+BuildToA3RM:
+BB Hip Thrust OR Power Clean
+*Optional: 8-I2 x KB Goblet Cyclist Squat
+6-8 x DB Z Press
+Example Builds: High Rep: 9-7-5-3-3
+Low Rep: 7-5-3-3-3
+S2.
+4:00 Cap -'The Last Gear'
+15-12-9
+DB Push Press
+Burpee
+Score =Time
+DB Weight: F: 15/10/8kg I M: 22.5/17.5/12.5kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+I-2 Sets: 10 x BB Bench Press
+10-12 x Scap Chin Up
+8 x BW Cyclist Squat (4s Ecc)
+8.8 x T-Opener
+SI.
+0:00-16:00
+Build To A 3RM: BB Bench Press
+*Optional: 8-12 x Alt KB Gorilla Row
+6-8 x DB RDL
+4:00 Cap
+28:00 Cap
+16:00-28:00
+Build To A 3RM:
+BB Hip Thrust OR Power Clean
+*Optional: 8-12 x KB Goblet Cyclist Squat
+6-8 x DB Z Press
+Example Builds: High Rep: 9-7-5-3-3
+Low Rep: 7-5-3-3-3
+4:00 Cap - 'The Last Gear'
+S2.
+15-12-9
+DB Push Press
+Burpee
+Score =Time
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg
+```
+</details>
+
+### wednesday perform lower
+`REVL Block 3 programming 2026/Peak Wk 2/wednesday perform lower.png`  ·  day **Wednesday** [inferred]  ·  session **Perform Lower** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'sl.'; engines differ near: 'OR 3/IRM:DBalI GTOS'; engines differ near: '60-70-80-90-100-100+% Of Goal 1RM'; engines differ near: "3:00 AMRAP -‘Aftershock'"
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM LOWER
+WARMUP  [?]
+4:00 Cap  [?]
+2 Sets: 6-8 x BB Back/Front Squat @40-50%  [?]
+WARM UP  [? vision]
+2 Sets: 6-8 x BB Back/Front Squat  [? vision]
+@40-50%  [? vision]
+6.6 x Single DB RDL (2s Ecc)
+6-8 x Paused Banded Glute Bridge (4s Pause)
+8.8 x Dynamic Pigeon Stretch
+sl.  [?]
+30:00 Cap  [?]
+SI.  [? vision]
+0:00-18:00
+IRM: BB Back/Front Squat
+4:00 Cap  [? vision only]
+30:00 Cap  [? vision only]
+18:00-30:00
+IRM: BB Power Clean
+OR 3/IRM:DBalI GTOS  [?]
+OR 3/I RM: DBall GTOS  [? vision]
+Example Builds With Varied Volume:
+60-70-80-90-100-100+% Of Goal 1RM  [?]
+High: 8-6-4-1-1-1  [?]
+Moderate: 6-4-2-1-1-1  [?]
+Low:3-2-2-1-1-1  [?]
+60-70-80-90-100-100+% Of Goal IRM  [? vision]
+High: 8-6-4-1-/-/  [? vision]
+Moderate: 6-4-2-1-/-/  [? vision]
+Low: 3-2-2-1-1-/  [? vision]
+S2.
+3:00 AMRAP -‘Aftershock'  [?]
+3:00 AMRAP - 'Aftershock'  [? vision]
+6 x Heavy KB Goblet Reverse Lunge
+F: 24/16/12kg / M: 32/24/20kg
+6 x Box Jump Over
+6 x BB Deadlift @45/30/30kg F / 60/45/45kg M
+Score = Rounds + Reps on Final Round
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) 2 Sets: 6-8 x BB Back/Front Squat @40-50%  [?]
+- (SECTION) WARM UP  [? vision]
+- (exercise?) 2 Sets: 6-8 x BB Back/Front Squat  [? vision]
+- (prescription?) @40-50%  [? vision]
+- (exercise? / prescription?) 6.6 x Single DB RDL (2s Ecc)
+- (exercise?) 6-8 x Paused Banded Glute Bridge (4s Pause)
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (uncertain) sl.  [?]
+- (prescription?) 30:00 Cap  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 0:00-18:00
+- (exercise?) IRM: BB Back/Front Squat
+- (prescription?) 4:00 Cap  [? vision only]
+- (prescription?) 30:00 Cap  [? vision only]
+- (prescription?) 18:00-30:00
+- (exercise?) IRM: BB Power Clean
+- (exercise?) OR 3/IRM:DBalI GTOS  [?]
+- (exercise?) OR 3/I RM: DBall GTOS  [? vision]
+- (prescription?) 60-70-80-90-100-100+% Of Goal 1RM  [?]
+- (prescription?) High: 8-6-4-1-1-1  [?]
+- (prescription?) Moderate: 6-4-2-1-1-1  [?]
+- (prescription?) Low:3-2-2-1-1-1  [?]
+- (prescription?) 60-70-80-90-100-100+% Of Goal IRM  [? vision]
+- (prescription?) High: 8-6-4-1-/-/  [? vision]
+- (prescription?) Moderate: 6-4-2-1-/-/  [? vision]
+- (prescription?) Low: 3-2-2-1-1-/  [? vision]
+- (SECTION) S2.
+- (prescription?) 3:00 AMRAP -‘Aftershock'  [?]
+- (prescription?) 3:00 AMRAP - 'Aftershock'  [? vision]
+- (exercise?) 6 x Heavy KB Goblet Reverse Lunge
+- (exercise?) 6 x BB Deadlift @45/30/30kg F / 60/45/45kg M
+- (SECTION) Score = Rounds + Reps on Final Round
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM LOWER
+WARMUP
+4:00 Cap
+2 Sets: 6-8 x BB Back/Front Squat @40-50%
+6.6 x Single DB RDL (2s Ecc)
+6-8 x Paused Banded Glute Bridge (4s Pause)
+8.8 x Dynamic Pigeon Stretch
+sl.
+30:00 Cap
+0:00-18:00
+IRM: BB Back/Front Squat
+18:00-30:00
+IRM: BB Power Clean
+OR 3/IRM:DBalI GTOS
+Example Builds With Varied Volume:
+60-70-80-90-100-100+% Of Goal 1RM
+High: 8-6-4-1-1-1
+Moderate: 6-4-2-1-1-1
+Low:3-2-2-1-1-1
+S2.
+3:00 AMRAP -‘Aftershock'
+6 x Heavy KB Goblet Reverse Lunge
+F: 24/16/12kg / M: 32/24/20kg
+6 x Box Jump Over
+6 x BB Deadlift @45/30/30kg F / 60/45/45kg M
+Score = Rounds + Reps on Final Round
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM LOWER
+WARM UP
+2 Sets: 6-8 x BB Back/Front Squat
+@40-50%
+6.6 x Single DB RDL (2s Ecc)
+6-8 x Paused Banded Glute Bridge (4s Pause)
+8.8 x Dynamic Pigeon Stretch
+SI.
+0:00-18:00
+IRM: BB Back/Front Squat
+4:00 Cap
+30:00 Cap
+18:00-30:00
+IRM: BB Power Clean
+OR 3/I RM: DBall GTOS
+Example Builds With Varied Volume:
+60-70-80-90-100-100+% Of Goal IRM
+High: 8-6-4-1-/-/
+Moderate: 6-4-2-1-/-/
+Low: 3-2-2-1-1-/
+S2.
+3:00 AMRAP - 'Aftershock'
+6 x Heavy KB Goblet Reverse Lunge
+F: 24/16/12kg / M: 32/24/20kg
+6 x Box Jump Over
+6 x BB Deadlift @45/30/30kg F / 60/45/45kg M
+Score = Rounds + Reps on Final Round
+```
+</details>
+
+### thursday sweat engine
+`REVL Block 3 programming 2026/Peak Wk 2/thursday sweat engine.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Engine** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: '2 x I8:00 Blocks'; engines differ near: '16/I2 xTTB/TTH/K2C'; engines differ near: '300/200m Run or I6/l2 x Burpee'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT ENGINE
+WARMUP  [?]
+4:00 Cap  [?]
+I:00 Erg Effort  [?]
+8 x Kip Swing + 8 xTTH/K2C  [?]
+WARM UP  [? vision]
+1:00 Erg Effort  [? vision]
+8 x Kip Swing + 8 x TTH/K2C  [? vision]
+8 x DB Push Press
+12-16 x Alt DB Goblet Squat Ankle Stretch
+2 x I8:00 Blocks  [?]
+A.Teams of 3 - 18:00 Cap  [?]
+130/l 10/70 Cal Bike Erg  [?]
+130/l10/70 Cal Ski Erg  [?]
+2 x 18:00 Blocks  [? vision]
+4:00 Cap  [? vision]
+A. Teams of 3 - 18:00 Cap  [? vision]
+130/110/70 Cal Bike Erg  [? vision]
+130/110/70 Cal Ski Erg  [? vision]
+I15/100/60 Cal Row Erg
+After Each Effort Choose Between:
+16/I2 xTTB/TTH/K2C  [?]
+I6/l2 x DB Push Press  [?]
+I6/12 x KB Goblet Reverse Lunge  [?]
+16/12 xTTB/TTH/K2C  [? vision]
+16/12 x DB Push Press  [? vision]
+16/12 x KB Goblet Reverse Lunge  [? vision]
+*:40 Erg Efforts
+B. E6MOM X 3
+30/20 x Wall Ball
+16/12 x DBall GTS
+16/12 x Box Step Up
+300/200m Run or I6/l2 x Burpee  [?]
+300/200m Run or 16/12 x Burpee  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I:00 Erg Effort  [?]
+- (exercise?) 8 x Kip Swing + 8 xTTH/K2C  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 1:00 Erg Effort  [? vision]
+- (exercise?) 8 x Kip Swing + 8 x TTH/K2C  [? vision]
+- (exercise?) 8 x DB Push Press
+- (exercise?) 12-16 x Alt DB Goblet Squat Ankle Stretch
+- (prescription?) 2 x I8:00 Blocks  [?]
+- (SECTION / prescription?) A.Teams of 3 - 18:00 Cap  [?]
+- (exercise?) 130/l 10/70 Cal Bike Erg  [?]
+- (exercise?) 130/l10/70 Cal Ski Erg  [?]
+- (prescription?) 2 x 18:00 Blocks  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) A. Teams of 3 - 18:00 Cap  [? vision]
+- (exercise?) 130/110/70 Cal Bike Erg  [? vision]
+- (exercise?) 130/110/70 Cal Ski Erg  [? vision]
+- (exercise?) I15/100/60 Cal Row Erg
+- (uncertain) 16/I2 xTTB/TTH/K2C  [?]
+- (exercise?) I6/l2 x DB Push Press  [?]
+- (exercise?) I6/12 x KB Goblet Reverse Lunge  [?]
+- (uncertain) 16/12 xTTB/TTH/K2C  [? vision]
+- (exercise?) 16/12 x DB Push Press  [? vision]
+- (exercise?) 16/12 x KB Goblet Reverse Lunge  [? vision]
+- (prescription?) *:40 Erg Efforts
+- (prescription?) B. E6MOM X 3
+- (exercise?) 30/20 x Wall Ball
+- (exercise?) 16/12 x DBall GTS
+- (exercise?) 16/12 x Box Step Up
+- (exercise?) 300/200m Run or I6/l2 x Burpee  [?]
+- (exercise?) 300/200m Run or 16/12 x Burpee  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT ENGINE
+WARMUP
+4:00 Cap
+I:00 Erg Effort
+8 x Kip Swing + 8 xTTH/K2C
+8 x DB Push Press
+12-16 x Alt DB Goblet Squat Ankle Stretch
+2 x I8:00 Blocks
+A.Teams of 3 - 18:00 Cap
+130/l 10/70 Cal Bike Erg
+130/l10/70 Cal Ski Erg
+I15/100/60 Cal Row Erg
+After Each Effort Choose Between:
+16/I2 xTTB/TTH/K2C
+I6/l2 x DB Push Press
+I6/12 x KB Goblet Reverse Lunge
+*:40 Erg Efforts
+B. E6MOM X 3
+30/20 x Wall Ball
+16/12 x DBall GTS
+16/12 x Box Step Up
+300/200m Run or I6/l2 x Burpee
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+WARM UP
+1:00 Erg Effort
+8 x Kip Swing + 8 x TTH/K2C
+8 x DB Push Press
+12-16 x Alt DB Goblet Squat Ankle Stretch
+2 x 18:00 Blocks
+4:00 Cap
+A. Teams of 3 - 18:00 Cap
+130/110/70 Cal Bike Erg
+130/110/70 Cal Ski Erg
+I15/100/60 Cal Row Erg
+After Each Effort Choose Between:
+16/12 xTTB/TTH/K2C
+16/12 x DB Push Press
+16/12 x KB Goblet Reverse Lunge
+*:40 Erg Efforts
+B. E6MOM X 3
+30/20 x Wall Ball
+16/12 x DBall GTS
+16/12 x Box Step Up
+300/200m Run or 16/12 x Burpee
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Peak Wk 2/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'MOVETOTAL'; engines differ near: '10-I2 x AIt KB Fwd Lunge AHAP'; engines differ near: "2:00 Cap -'Quad Lock'"; engines differ near: 'Score = Scale +Thruster Reps'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVETOTAL  [?]
+MOVE TOTAL  [? vision]
+WARM UP
+4:00 Cap  [? rapid only]
+8 x BB Back/Front Squat
+8.8 x Dynamic Pigeon Stretch
+12 x Plank To Pike (2s Pause)
+12 x Banded Face Pull
+si.
+28:00 Cap  [? rapid only]
+0:00-16:00
+Build To A 3RM: BB Back/Front Squat
+*Optional: 6-8 x Deadstop KB Swing
+8-10 x Weighted Sit Up
+4:00 Cap  [? vision only]
+28:00 Cap  [? vision only]
+16:00-28:00
+Build To A 3RM: BB Push Press/Jerk
+*Optional: 8-10 x DB Rev Fly
+10-I2 x AIt KB Fwd Lunge AHAP  [?]
+10-12 x Alt KB Fwd Lunge AHAP  [? vision]
+Example Builds: High Rep: 9-7-5-3-3
+Low Rep: 7-5-3-3-3
+S2.
+2:00 Cap -'Quad Lock'  [?]
+Buy In: F = 22/18/14 I M = 28/23/18 Cal  [?]
+2:00 Cap - 'Quad Lock'  [? vision]
+Buy In: F = 22/18/14 | M = 28/23/18 Cal  [? vision]
+Cal Bike Erg
+Max DB Thrusters In Remaining Time
+Score = Scale +Thruster Reps  [?]
+Weight: F = 15/10/8kg / M = 22.5/17.5//12.5kg  [?]
+Score = Scale + Thruster Reps  [? vision]
+Weight: F = 15/10/8kg / M = 22.5/17.5/12.5kg  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) MOVETOTAL  [?]
+- (uncertain) MOVE TOTAL  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise?) 8 x BB Back/Front Squat
+- (exercise?) 8.8 x Dynamic Pigeon Stretch
+- (exercise?) 12 x Plank To Pike (2s Pause)
+- (prescription?) 28:00 Cap  [? rapid only]
+- (prescription?) 0:00-16:00
+- (exercise?) Build To A 3RM: BB Back/Front Squat
+- (exercise? / prescription?) *Optional: 6-8 x Deadstop KB Swing
+- (prescription?) 4:00 Cap  [? vision only]
+- (prescription?) 28:00 Cap  [? vision only]
+- (prescription?) 16:00-28:00
+- (exercise?) Build To A 3RM: BB Push Press/Jerk
+- (exercise?) *Optional: 8-10 x DB Rev Fly
+- (exercise? / prescription?) 10-I2 x AIt KB Fwd Lunge AHAP  [?]
+- (exercise? / prescription?) 10-12 x Alt KB Fwd Lunge AHAP  [? vision]
+- (prescription?) Example Builds: High Rep: 9-7-5-3-3
+- (prescription?) Low Rep: 7-5-3-3-3
+- (SECTION) S2.
+- (prescription?) 2:00 Cap -'Quad Lock'  [?]
+- (SECTION) Buy In: F = 22/18/14 I M = 28/23/18 Cal  [?]
+- (prescription?) 2:00 Cap - 'Quad Lock'  [? vision]
+- (SECTION) Buy In: F = 22/18/14 | M = 28/23/18 Cal  [? vision]
+- (exercise?) Cal Bike Erg
+- (exercise?) Max DB Thrusters In Remaining Time
+- (SECTION / exercise?) Score = Scale +Thruster Reps  [?]
+- (uncertain) Weight: F = 15/10/8kg / M = 22.5/17.5//12.5kg  [?]
+- (SECTION / exercise?) Score = Scale + Thruster Reps  [? vision]
+- (uncertain) Weight: F = 15/10/8kg / M = 22.5/17.5/12.5kg  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVETOTAL
+WARM UP
+4:00 Cap
+8 x BB Back/Front Squat
+8.8 x Dynamic Pigeon Stretch
+12 x Plank To Pike (2s Pause)
+12 x Banded Face Pull
+si.
+28:00 Cap
+0:00-16:00
+Build To A 3RM: BB Back/Front Squat
+*Optional: 6-8 x Deadstop KB Swing
+8-10 x Weighted Sit Up
+16:00-28:00
+Build To A 3RM: BB Push Press/Jerk
+*Optional: 8-10 x DB Rev Fly
+10-I2 x AIt KB Fwd Lunge AHAP
+Example Builds: High Rep: 9-7-5-3-3
+Low Rep: 7-5-3-3-3
+S2.
+2:00 Cap -'Quad Lock'
+Buy In: F = 22/18/14 I M = 28/23/18 Cal
+Cal Bike Erg
+Max DB Thrusters In Remaining Time
+Score = Scale +Thruster Reps
+Weight: F = 15/10/8kg / M = 22.5/17.5//12.5kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+8 x BB Back/Front Squat
+8.8 x Dynamic Pigeon Stretch
+12 x Plank To Pike (2s Pause)
+12 x Banded Face Pull
+SI.
+0:00-16:00
+Build To A 3RM: BB Back/Front Squat
+*Optional: 6-8 x Deadstop KB Swing
+8-10 x Weighted Sit Up
+4:00 Cap
+28:00 Cap
+16:00-28:00
+Build To A 3RM: BB Push Press/Jerk
+*Optional: 8-10 x DB Rev Fly
+10-12 x Alt KB Fwd Lunge AHAP
+Example Builds: High Rep: 9-7-5-3-3
+Low Rep: 7-5-3-3-3
+S2.
+2:00 Cap - 'Quad Lock'
+Buy In: F = 22/18/14 | M = 28/23/18 Cal
+Cal Bike Erg
+Max DB Thrusters In Remaining Time
+Score = Scale + Thruster Reps
+Weight: F = 15/10/8kg / M = 22.5/17.5/12.5kg
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Peak Wk 2/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: 'I0 x Paused Banded Face Pull'; engines differ near: 'sl.'; engines differ near: '60-70-80-90-100-100+% Of Goal 1RM'; engines differ near: '24/20 x AIternating KB Gorilla Row'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap  [? rapid only]
+I-2 Sets: 6-8 x BB Bench Press @40-50%
+:20 UH Deadhang + 8 x Scap Chin Up
+I0 x Paused Banded Face Pull  [?]
+10 x Paused Banded Face Pull  [? vision]
+8.8 x T-Opener
+sl.  [?]
+38:00 Cap  [?]
+SI.  [? vision]
+0:00-16:00
+IRM: BB Bench Press
+16:00-28:00
+IRM: Pull Up/Chin Up
+OR BB Pendlay Row
+Example Builds With Varied Volume:
+60-70-80-90-100-100+% Of Goal 1RM  [?]
+High: 8-6-4-1-1-1  [?]
+Moderate: 6-4-2-1-1-1  [?]
+Low:3-2-2-1-1-1  [?]
+Time Remaining: I0:00 AMRAP  [?]
+60-70-80-90-/00-100+% Of Goal IRM  [? vision]
+High: 8-6-4-1-1-/  [? vision]
+Moderate: 6-4-2-1-/-/  [? vision]
+Low: 3-2-2-1-1-/  [? vision]
+Time Remaining: 10:00 AMRAP  [? vision]
+24/20/16 x BB/DB Curl
+24/20 x AIternating KB Gorilla Row  [?]
+24/20 x Alternating KB Gorilla Row  [? vision]
+20/16 x DBall Floor Press
+*Goal = 3+ Rounds
+4:00 Cap  [? vision only]
+38:00 Cap  [? vision only]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise? / prescription?) I-2 Sets: 6-8 x BB Bench Press @40-50%
+- (exercise? / prescription?) :20 UH Deadhang + 8 x Scap Chin Up
+- (uncertain) I0 x Paused Banded Face Pull  [?]
+- (uncertain) 10 x Paused Banded Face Pull  [? vision]
+- (uncertain) sl.  [?]
+- (prescription?) 38:00 Cap  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 0:00-16:00
+- (exercise?) IRM: BB Bench Press
+- (prescription?) 16:00-28:00
+- (exercise?) IRM: Pull Up/Chin Up
+- (exercise?) OR BB Pendlay Row
+- (prescription?) 60-70-80-90-100-100+% Of Goal 1RM  [?]
+- (prescription?) High: 8-6-4-1-1-1  [?]
+- (prescription?) Moderate: 6-4-2-1-1-1  [?]
+- (prescription?) Low:3-2-2-1-1-1  [?]
+- (prescription?) Time Remaining: I0:00 AMRAP  [?]
+- (prescription?) 60-70-80-90-/00-100+% Of Goal IRM  [? vision]
+- (prescription?) High: 8-6-4-1-1-/  [? vision]
+- (prescription?) Moderate: 6-4-2-1-/-/  [? vision]
+- (prescription?) Low: 3-2-2-1-1-/  [? vision]
+- (prescription?) Time Remaining: 10:00 AMRAP  [? vision]
+- (exercise?) 24/20/16 x BB/DB Curl
+- (exercise?) 24/20 x AIternating KB Gorilla Row  [?]
+- (exercise?) 24/20 x Alternating KB Gorilla Row  [? vision]
+- (exercise?) 20/16 x DBall Floor Press
+- (prescription?) 4:00 Cap  [? vision only]
+- (prescription?) 38:00 Cap  [? vision only]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+I-2 Sets: 6-8 x BB Bench Press @40-50%
+:20 UH Deadhang + 8 x Scap Chin Up
+I0 x Paused Banded Face Pull
+8.8 x T-Opener
+sl.
+38:00 Cap
+0:00-16:00
+IRM: BB Bench Press
+16:00-28:00
+IRM: Pull Up/Chin Up
+OR BB Pendlay Row
+Example Builds With Varied Volume:
+60-70-80-90-100-100+% Of Goal 1RM
+High: 8-6-4-1-1-1
+Moderate: 6-4-2-1-1-1
+Low:3-2-2-1-1-1
+Time Remaining: I0:00 AMRAP
+24/20/16 x BB/DB Curl
+24/20 x AIternating KB Gorilla Row
+20/16 x DBall Floor Press
+*Goal = 3+ Rounds
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+I-2 Sets: 6-8 x BB Bench Press @40-50%
+:20 UH Deadhang + 8 x Scap Chin Up
+10 x Paused Banded Face Pull
+8.8 x T-Opener
+SI.
+0:00-16:00
+IRM: BB Bench Press
+16:00-28:00
+IRM: Pull Up/Chin Up
+OR BB Pendlay Row
+Example Builds With Varied Volume:
+60-70-80-90-/00-100+% Of Goal IRM
+High: 8-6-4-1-1-/
+Moderate: 6-4-2-1-/-/
+Low: 3-2-2-1-1-/
+Time Remaining: 10:00 AMRAP
+24/20/16 x BB/DB Curl
+24/20 x Alternating KB Gorilla Row
+20/16 x DBall Floor Press
+*Goal = 3+ Rounds
+4:00 Cap
+38:00 Cap
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Peak Wk 2/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: '2 x :30 Erg Effort'; engines differ near: 'Teams of 4/5 - 3 x I4:00 Cap'; engines differ near: 'E2MOM (lnc 0:00) 2P Must Complete:'; engines differ near: 'B.4000/3500/3000m Row Erg'; engines differ near: 'I2 x Synchro BW Alt Rev Lunge'; engines differ near: 'E2MOM (lnc 0:00) 2P Must Complete:'; engines differ near: '*I:00 Between Blocks'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+2 x :30 Erg Effort  [?]
+2x:30 Erg Effort  [? vision]
+12/8 x Burpee
+12/8 x Dual KB Hang Clean
+16 x Alt DB Goblet Squat Ankle Stretch
+Teams of 4/5 - 3 x I4:00 Cap  [?]
+Teams of 4/5 - 3 x 14:00 Cap  [? vision]
+A. 8000/7000/6000m Bike Erg
+E2MOM (lnc 0:00) 2P Must Complete:  [?]
+E2MOM (Inc 0:00) 2P Must Complete:  [? vision]
+12 x Synchro Dual DB Snatch
+6 x Synchro Dual DB Cluster
+B.4000/3500/3000m Row Erg  [?]
+B. 4000/3500/3000m Row Erg  [? vision]
+E2MOM (Inc 0:00) 2P Must Complete:
+I2 x Synchro BW Alt Rev Lunge  [?]
+12 x Synchro BW Alt Rev Lunge  [? vision]
+6 x Synchro Burpee
+C. 4000/3500/3000m Ski Erg
+E2MOM (lnc 0:00) 2P Must Complete:  [?]
+12 x Synchro Dual KB Hang  [?]
+Clean  [?]
+E2MOM (Inc 0:00) 2P Must Complete:  [? vision]
+12 x Synchro Dual KB Hang Clean  [? vision]
+6 x Synchro KB FR Squat
+*I:00 Between Blocks  [?]
+Erg Pacing: I:45/2:00/2:15  [?]
+*1:00 Between Blocks  [? vision]
+Erg Pacing: 1:45/2:00/2:15  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise? / prescription?) 2 x :30 Erg Effort  [?]
+- (exercise? / prescription?) 2x:30 Erg Effort  [? vision]
+- (exercise?) 12/8 x Burpee
+- (exercise?) 12/8 x Dual KB Hang Clean
+- (exercise?) 16 x Alt DB Goblet Squat Ankle Stretch
+- (prescription?) Teams of 4/5 - 3 x I4:00 Cap  [?]
+- (prescription?) Teams of 4/5 - 3 x 14:00 Cap  [? vision]
+- (exercise?) A. 8000/7000/6000m Bike Erg
+- (SECTION / prescription?) E2MOM (lnc 0:00) 2P Must Complete:  [?]
+- (SECTION / prescription?) E2MOM (Inc 0:00) 2P Must Complete:  [? vision]
+- (exercise?) 12 x Synchro Dual DB Snatch
+- (exercise?) 6 x Synchro Dual DB Cluster
+- (SECTION / exercise?) B.4000/3500/3000m Row Erg  [?]
+- (exercise?) B. 4000/3500/3000m Row Erg  [? vision]
+- (SECTION / prescription?) E2MOM (Inc 0:00) 2P Must Complete:
+- (exercise?) I2 x Synchro BW Alt Rev Lunge  [?]
+- (exercise?) 12 x Synchro BW Alt Rev Lunge  [? vision]
+- (exercise?) 6 x Synchro Burpee
+- (exercise?) C. 4000/3500/3000m Ski Erg
+- (SECTION / prescription?) E2MOM (lnc 0:00) 2P Must Complete:  [?]
+- (exercise?) 12 x Synchro Dual KB Hang  [?]
+- (uncertain) Clean  [?]
+- (SECTION / prescription?) E2MOM (Inc 0:00) 2P Must Complete:  [? vision]
+- (exercise?) 12 x Synchro Dual KB Hang Clean  [? vision]
+- (exercise?) 6 x Synchro KB FR Squat
+- (prescription?) *I:00 Between Blocks  [?]
+- (prescription?) Erg Pacing: I:45/2:00/2:15  [?]
+- (prescription?) *1:00 Between Blocks  [? vision]
+- (prescription?) Erg Pacing: 1:45/2:00/2:15  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+2 x :30 Erg Effort
+12/8 x Burpee
+12/8 x Dual KB Hang Clean
+16 x Alt DB Goblet Squat Ankle Stretch
+Teams of 4/5 - 3 x I4:00 Cap
+A. 8000/7000/6000m Bike Erg
+E2MOM (lnc 0:00) 2P Must Complete:
+12 x Synchro Dual DB Snatch
+6 x Synchro Dual DB Cluster
+B.4000/3500/3000m Row Erg
+E2MOM (Inc 0:00) 2P Must Complete:
+I2 x Synchro BW Alt Rev Lunge
+6 x Synchro Burpee
+C. 4000/3500/3000m Ski Erg
+E2MOM (lnc 0:00) 2P Must Complete:
+12 x Synchro Dual KB Hang 
+ Clean
+6 x Synchro KB FR Squat
+*I:00 Between Blocks
+Erg Pacing: I:45/2:00/2:15
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+4:00 Cap
+2x:30 Erg Effort
+12/8 x Burpee
+12/8 x Dual KB Hang Clean
+16 x Alt DB Goblet Squat Ankle Stretch
+Teams of 4/5 - 3 x 14:00 Cap
+A. 8000/7000/6000m Bike Erg
+E2MOM (Inc 0:00) 2P Must Complete:
+12 x Synchro Dual DB Snatch
+6 x Synchro Dual DB Cluster
+B. 4000/3500/3000m Row Erg
+E2MOM (Inc 0:00) 2P Must Complete:
+12 x Synchro BW Alt Rev Lunge
+6 x Synchro Burpee
+C. 4000/3500/3000m Ski Erg
+E2MOM (Inc 0:00) 2P Must Complete:
+12 x Synchro Dual KB Hang Clean
+6 x Synchro KB FR Squat
+*1:00 Between Blocks
+Erg Pacing: 1:45/2:00/2:15
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Peak Wk 2/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: '8 x BB Sumo Deadlift'; engines differ near: '3. 12-15 x DB Push Press'; engines differ near: '6.6 x SA Thruster or I2 x Rotation'; engines differ near: '3. 16-20 x Ring Row'; engines differ near: '*I:00 Between Blocks'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARM UP
+8 x BB Sumo Deadlift  [? vision only]
+10.10 x HK SA DB Press  [? vision only]
+8 x Light BB Landmine Squat or Rotation  [? vision only]
+:45 Ski/Echo Effort  [? vision only]
+2 Blocks of EMOM x 20  [? vision only]
+4:00 Cap
+8 x BB Sumo Deadlift  [?]
+I0.I0 x HK SA DB Press  [?]
+8 x Light BB Landmine Squat or Rotation  [?]
+:45 Ski/EchoEffort  [?]
+2 Blocks of EMOM x 20  [?]
+I.8-I2 x BB Sumo Deadlift  [?]
+A.  [? vision]
+1.8-12 x BB Sumo Deadlift  [? vision]
+2. 16/12/8 Cal Echo Bike @RPE 7
+3. 12-15 x DB Push Press  [?]
+4. 40m/s DBall Carry/Hold  [?]
+3.12-15 x DB Push Press  [? vision]
+4.40m/s DBall Carry/Hold  [? vision]
+B.
+I. BB Landmine
+6.6 x SA Thruster or I2 x Rotation  [?]
+6.6 x SA Thruster or 12 x Rotation  [? vision]
+2. 240/220/200m Ski Erg @RPE 7
+3. 16-20 x Ring Row  [?]
+3.16-20 x Ring Row  [? vision]
+4. 20.20m/s SA KB OH Carry/Hold
+*I:00 Between Blocks  [?]
+*1:00 Between Blocks  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (exercise?) 8 x BB Sumo Deadlift  [? vision only]
+- (exercise?) 10.10 x HK SA DB Press  [? vision only]
+- (exercise?) 8 x Light BB Landmine Squat or Rotation  [? vision only]
+- (prescription?) :45 Ski/Echo Effort  [? vision only]
+- (prescription?) 2 Blocks of EMOM x 20  [? vision only]
+- (prescription?) 4:00 Cap
+- (exercise?) 8 x BB Sumo Deadlift  [?]
+- (exercise?) I0.I0 x HK SA DB Press  [?]
+- (exercise?) 8 x Light BB Landmine Squat or Rotation  [?]
+- (prescription?) :45 Ski/EchoEffort  [?]
+- (prescription?) 2 Blocks of EMOM x 20  [?]
+- (exercise?) I.8-I2 x BB Sumo Deadlift  [?]
+- (uncertain) A.  [? vision]
+- (exercise?) 1.8-12 x BB Sumo Deadlift  [? vision]
+- (exercise? / prescription?) 2. 16/12/8 Cal Echo Bike @RPE 7
+- (exercise?) 3. 12-15 x DB Push Press  [?]
+- (exercise?) 4. 40m/s DBall Carry/Hold  [?]
+- (exercise?) 3.12-15 x DB Push Press  [? vision]
+- (exercise?) 4.40m/s DBall Carry/Hold  [? vision]
+- (exercise?) I. BB Landmine
+- (exercise?) 6.6 x SA Thruster or I2 x Rotation  [?]
+- (exercise?) 6.6 x SA Thruster or 12 x Rotation  [? vision]
+- (exercise? / prescription?) 2. 240/220/200m Ski Erg @RPE 7
+- (exercise?) 3. 16-20 x Ring Row  [?]
+- (exercise?) 3.16-20 x Ring Row  [? vision]
+- (exercise?) 4. 20.20m/s SA KB OH Carry/Hold
+- (prescription?) *I:00 Between Blocks  [?]
+- (prescription?) *1:00 Between Blocks  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+8 x BB Sumo Deadlift
+I0.I0 x HK SA DB Press
+8 x Light BB Landmine Squat or Rotation
+:45 Ski/EchoEffort
+2 Blocks of EMOM x 20
+I.8-I2 x BB Sumo Deadlift
+2. 16/12/8 Cal Echo Bike @RPE 7
+3. 12-15 x DB Push Press
+4. 40m/s DBall Carry/Hold
+B.
+I. BB Landmine
+6.6 x SA Thruster or I2 x Rotation
+2. 240/220/200m Ski Erg @RPE 7
+3. 16-20 x Ring Row
+4. 20.20m/s SA KB OH Carry/Hold
+*I:00 Between Blocks
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+8 x BB Sumo Deadlift
+10.10 x HK SA DB Press
+8 x Light BB Landmine Squat or Rotation
+:45 Ski/Echo Effort
+2 Blocks of EMOM x 20
+4:00 Cap
+A.
+1.8-12 x BB Sumo Deadlift
+2. 16/12/8 Cal Echo Bike @RPE 7
+3.12-15 x DB Push Press
+4.40m/s DBall Carry/Hold
+B.
+I. BB Landmine
+6.6 x SA Thruster or 12 x Rotation
+2. 240/220/200m Ski Erg @RPE 7
+3.16-20 x Ring Row
+4. 20.20m/s SA KB OH Carry/Hold
+*1:00 Between Blocks
+```
+</details>
+
+
+## Block 3 — Peak Wk 3  (programme week 10) [inferred]
+
+- **Phase:** Peak  ·  **Phase-week:** 3  ·  **Overall week:** 10   _(inferred from folder name)_
+
+### monday move total
+`REVL Block 3 programming 2026/Peak Wk 3/monday move total.png`  ·  day **Monday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'MOVETOTAL'; engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'In Pairs YGlG - 3 x 5:00 Blocks'; engines differ near: '4 x I+I/4 BB Back Squat or'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVETOTAL  [?]
+MOVE TOTAL  [? vision]
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: 8 x BB Deadlift/RDL  [?]
+1-2 Sets: 8 x BB Deadlift/RDL  [? vision]
+8 x Plank to Pike + Push Up
+12 x Kip Swing
+8.8 x World's Greatest Stretch
+sl.  [?]
+In PairsYGlG - 4 x 4:00 Cap  [?]
+4:00 Cap  [? vision]
+SI.  [? vision]
+In Pairs YGIG - 4 x 4:00 Cap  [? vision]
+3-4 Rounds Each
+A. 6-8 x BB Deadlift
+B. 8 x DB Plank Row (AHAP)
+C. 6-8 x BB RDL
+D. 6-8 x DB FR Paused Cyclist Squat
+S2.
+In Pairs YGlG - 3 x 5:00 Blocks  [?]
+In Pairs YGIG - 3 x 5:00 Blocks  [? vision]
+A. 5+ Rounds Each
+4 x I+I/4 BB Back Squat or  [?]
+4 x I+I/4 BB Strict Press  [?]
+4 x 1+1/4 BB Back Squat or  [? vision]
+4 x |+1/4 BB Strict Press  [? vision]
+B. 3-5 Rounds Each
+16/12/8 x Unbroken TTB/TTH
+C. 7-6-5-4-3
+Dual KB/DB Hang Cluster
+*1:30 Between Blocks
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) MOVETOTAL  [?]
+- (uncertain) MOVE TOTAL  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets: 8 x BB Deadlift/RDL  [?]
+- (exercise?) 1-2 Sets: 8 x BB Deadlift/RDL  [? vision]
+- (exercise?) 8 x Plank to Pike + Push Up
+- (exercise?) 12 x Kip Swing
+- (exercise?) 8.8 x World's Greatest Stretch
+- (uncertain) sl.  [?]
+- (prescription?) In PairsYGlG - 4 x 4:00 Cap  [?]
+- (prescription?) 4:00 Cap  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) In Pairs YGIG - 4 x 4:00 Cap  [? vision]
+- (exercise?) A. 6-8 x BB Deadlift
+- (exercise? / prescription?) B. 8 x DB Plank Row (AHAP)
+- (exercise?) C. 6-8 x BB RDL
+- (exercise?) D. 6-8 x DB FR Paused Cyclist Squat
+- (SECTION) S2.
+- (prescription?) In Pairs YGlG - 3 x 5:00 Blocks  [?]
+- (prescription?) In Pairs YGIG - 3 x 5:00 Blocks  [? vision]
+- (exercise?) 4 x I+I/4 BB Back Squat or  [?]
+- (exercise?) 4 x I+I/4 BB Strict Press  [?]
+- (exercise? / prescription?) 4 x 1+1/4 BB Back Squat or  [? vision]
+- (exercise?) 4 x |+1/4 BB Strict Press  [? vision]
+- (prescription?) C. 7-6-5-4-3
+- (exercise?) Dual KB/DB Hang Cluster
+- (prescription?) *1:30 Between Blocks
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVETOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Deadlift/RDL
+8 x Plank to Pike + Push Up
+12 x Kip Swing
+8.8 x World's Greatest Stretch
+sl.
+In PairsYGlG - 4 x 4:00 Cap
+3-4 Rounds Each
+A. 6-8 x BB Deadlift
+B. 8 x DB Plank Row (AHAP)
+C. 6-8 x BB RDL
+D. 6-8 x DB FR Paused Cyclist Squat
+S2.
+In Pairs YGlG - 3 x 5:00 Blocks
+A. 5+ Rounds Each
+4 x I+I/4 BB Back Squat or
+4 x I+I/4 BB Strict Press
+B. 3-5 Rounds Each
+16/12/8 x Unbroken TTB/TTH
+C. 7-6-5-4-3
+Dual KB/DB Hang Cluster
+*1:30 Between Blocks
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+1-2 Sets: 8 x BB Deadlift/RDL
+8 x Plank to Pike + Push Up
+12 x Kip Swing
+8.8 x World's Greatest Stretch
+4:00 Cap
+SI.
+In Pairs YGIG - 4 x 4:00 Cap
+3-4 Rounds Each
+A. 6-8 x BB Deadlift
+B. 8 x DB Plank Row (AHAP)
+C. 6-8 x BB RDL
+D. 6-8 x DB FR Paused Cyclist Squat
+S2.
+In Pairs YGIG - 3 x 5:00 Blocks
+A. 5+ Rounds Each
+4 x 1+1/4 BB Back Squat or
+4 x |+1/4 BB Strict Press
+B. 3-5 Rounds Each
+16/12/8 x Unbroken TTB/TTH
+C. 7-6-5-4-3
+Dual KB/DB Hang Cluster
+*1:30 Between Blocks
+```
+</details>
+
+### monday perform total
+`REVL Block 3 programming 2026/Peak Wk 3/monday perform total.png`  ·  day **Monday** [inferred]  ·  session **Perform Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I2 x DB Incline Bench Press (Light)'; engines differ near: 'sl.'; engines differ near: 'I.3-5 x BB Sumo Deadlift'; engines differ near: 'In Pairs I:I - 3 x 6:00 Cap'; engines differ near: 'C. I20/90/60 Cal Bike/Ski Erg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6-8 x BB Sumo Deadlift
+I2 x DB Incline Bench Press (Light)  [?]
+12 x DB Incline Bench Press (Light)  [? vision]
+12 x Banded Pull Apart
+8.8 x Worlds Greatest Stretch
+sl.  [?]
+In PairsYGIG - E4MOM x 4  [?]
+SI.  [? vision]
+In Pairs YGIG - E4MOM x 4  [? vision]
+4-6 Rounds Each
+I.3-5 x BB Sumo Deadlift  [?]
+1.3-5 x BB Sumo Deadlift  [? vision]
+2.6-8 x DB Incline Bench Press
+3.3-5 x BB RDL
+4.6-8 x DB Incline Prone Row
+S2.
+In Pairs I:I - 3 x 6:00 Cap  [?]
+In Pairs I:| - 3 x 6:00 Cap  [? vision]
+A. 48/36 x BB Push Press/Jerk
+48/36 x BB Alt Reverse Lunge
+(8/6 Rep Efforts)
+B. 48/36 x Dual KB Gorilla Row
+48/36 x KB FR Squat
+(8/6 Rep Efforts)
+C. I20/90/60 Cal Bike/Ski Erg  [?]
+C. 120/90/60 Cal Bike/Ski Erg  [? vision]
+*Goal < 5:00
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: 6-8 x BB Sumo Deadlift
+- (exercise?) I2 x DB Incline Bench Press (Light)  [?]
+- (exercise?) 12 x DB Incline Bench Press (Light)  [? vision]
+- (exercise?) 8.8 x Worlds Greatest Stretch
+- (uncertain) sl.  [?]
+- (prescription?) In PairsYGIG - E4MOM x 4  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) In Pairs YGIG - E4MOM x 4  [? vision]
+- (exercise?) I.3-5 x BB Sumo Deadlift  [?]
+- (exercise?) 1.3-5 x BB Sumo Deadlift  [? vision]
+- (exercise?) 2.6-8 x DB Incline Bench Press
+- (exercise?) 3.3-5 x BB RDL
+- (exercise?) 4.6-8 x DB Incline Prone Row
+- (SECTION) S2.
+- (prescription?) In Pairs I:I - 3 x 6:00 Cap  [?]
+- (prescription?) In Pairs I:| - 3 x 6:00 Cap  [? vision]
+- (exercise?) A. 48/36 x BB Push Press/Jerk
+- (exercise?) 48/36 x BB Alt Reverse Lunge
+- (exercise?) B. 48/36 x Dual KB Gorilla Row
+- (exercise?) 48/36 x KB FR Squat
+- (exercise?) C. I20/90/60 Cal Bike/Ski Erg  [?]
+- (exercise?) C. 120/90/60 Cal Bike/Ski Erg  [? vision]
+- (prescription?) *Goal < 5:00
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6-8 x BB Sumo Deadlift
+I2 x DB Incline Bench Press (Light)
+12 x Banded Pull Apart
+8.8 x Worlds Greatest Stretch
+sl.
+In PairsYGIG - E4MOM x 4
+4-6 Rounds Each
+I.3-5 x BB Sumo Deadlift
+2.6-8 x DB Incline Bench Press
+3.3-5 x BB RDL
+4.6-8 x DB Incline Prone Row
+S2.
+In Pairs I:I - 3 x 6:00 Cap
+A. 48/36 x BB Push Press/Jerk
+48/36 x BB Alt Reverse Lunge
+(8/6 Rep Efforts)
+B. 48/36 x Dual KB Gorilla Row
+48/36 x KB FR Squat
+(8/6 Rep Efforts)
+C. I20/90/60 Cal Bike/Ski Erg
+*Goal < 5:00
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 6-8 x BB Sumo Deadlift
+12 x DB Incline Bench Press (Light)
+12 x Banded Pull Apart
+8.8 x Worlds Greatest Stretch
+SI.
+In Pairs YGIG - E4MOM x 4
+4-6 Rounds Each
+1.3-5 x BB Sumo Deadlift
+2.6-8 x DB Incline Bench Press
+3.3-5 x BB RDL
+4.6-8 x DB Incline Prone Row
+S2.
+In Pairs I:| - 3 x 6:00 Cap
+A. 48/36 x BB Push Press/Jerk
+48/36 x BB Alt Reverse Lunge
+(8/6 Rep Efforts)
+B. 48/36 x Dual KB Gorilla Row
+48/36 x KB FR Squat
+(8/6 Rep Efforts)
+C. 120/90/60 Cal Bike/Ski Erg
+*Goal < 5:00
+```
+</details>
+
+### tuesday sweat engine baseline
+`REVL Block 3 programming 2026/Peak Wk 3/tuesday sweat engine baseline.png`  ·  day **Tuesday** [inferred]  ·  session **Sweat Engine Baseline** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: '10 x Kip Swing + 6 xTTB/TTH/K2C'; engines differ near: "TRIPLE HEADER' - 36:00 Cap"; engines differ near: '36/30/24 x AIt DB Hang Clean + Press'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT ENGINE
+BASELINE
+concept 2  [? vision only]
+4:00 Cap  [? vision only]
+WARM UP
+4:00 Cap  [?]
+I:00 Erg/Echo Effort OR 200m Run  [?]
+1:00 Erg/Echo Effort OR 200m Run  [? vision]
+10 x Alt KB Goblet Squat Ankle Stretch
+10 x Kip Swing + 6 xTTB/TTH/K2C  [?]
+10 x Kip Swing + 6 x TTB/TTH/K2C  [? vision]
+10 x Plank To Pike
+TRIPLE HEADER' - 36:00 Cap  [?]
+'TRIPLE HEADER' - 36:00 Cap  [? vision]
+3 Rounds
+36/30/24 x AIt DB Hang Clean + Press  [?]
+36/30/24 x Alt DB Hang Clean + Press  [? vision]
+26/20/14 x Burpee
+Choose One ofThe Following:
+Ski/Row Erg
+2800/2400/2000m
+Bike Erg
+6000/5200/4400m
+Echo Bike
+180/140/100 Cal
+Run
+2600/2200/1800m
+3 Rounds
+36/30/24 x KB Goblet Squat
+26/20/14 ×TTB/TTH/K2C
+Score A:Total Time
+Score B: Erg/Run Time
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg
+KB Weight: F: 16/12/8kg / M: 24/20/16kg
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) concept 2  [? vision only]
+- (prescription?) 4:00 Cap  [? vision only]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) I:00 Erg/Echo Effort OR 200m Run  [?]
+- (exercise? / prescription?) 1:00 Erg/Echo Effort OR 200m Run  [? vision]
+- (exercise?) 10 x Alt KB Goblet Squat Ankle Stretch
+- (exercise?) 10 x Kip Swing + 6 xTTB/TTH/K2C  [?]
+- (exercise?) 10 x Kip Swing + 6 x TTB/TTH/K2C  [? vision]
+- (exercise?) 10 x Plank To Pike
+- (prescription?) TRIPLE HEADER' - 36:00 Cap  [?]
+- (prescription?) 'TRIPLE HEADER' - 36:00 Cap  [? vision]
+- (exercise?) 36/30/24 x AIt DB Hang Clean + Press  [?]
+- (exercise?) 36/30/24 x Alt DB Hang Clean + Press  [? vision]
+- (exercise?) 26/20/14 x Burpee
+- (exercise?) Ski/Row Erg
+- (exercise?) Bike Erg
+- (exercise?) Echo Bike
+- (exercise?) 36/30/24 x KB Goblet Squat
+- (SECTION) Score A:Total Time
+- (SECTION / exercise?) Score B: Erg/Run Time
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT ENGINE
+BASELINE
+WARM UP
+4:00 Cap
+I:00 Erg/Echo Effort OR 200m Run
+10 x Alt KB Goblet Squat Ankle Stretch
+10 x Kip Swing + 6 xTTB/TTH/K2C
+10 x Plank To Pike
+TRIPLE HEADER' - 36:00 Cap
+3 Rounds
+36/30/24 x AIt DB Hang Clean + Press
+26/20/14 x Burpee
+Choose One ofThe Following:
+Ski/Row Erg
+2800/2400/2000m
+Bike Erg
+6000/5200/4400m
+Echo Bike
+180/140/100 Cal
+Run
+2600/2200/1800m
+3 Rounds
+36/30/24 x KB Goblet Squat
+26/20/14 ×TTB/TTH/K2C
+Score A:Total Time
+Score B: Erg/Run Time
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg
+KB Weight: F: 16/12/8kg / M: 24/20/16kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT ENGINE
+BASELINE
+concept 2
+4:00 Cap
+WARM UP
+1:00 Erg/Echo Effort OR 200m Run
+10 x Alt KB Goblet Squat Ankle Stretch
+10 x Kip Swing + 6 x TTB/TTH/K2C
+10 x Plank To Pike
+'TRIPLE HEADER' - 36:00 Cap
+3 Rounds
+36/30/24 x Alt DB Hang Clean + Press
+26/20/14 x Burpee
+Choose One ofThe Following:
+Ski/Row Erg
+2800/2400/2000m
+Bike Erg
+6000/5200/4400m
+Echo Bike
+180/140/100 Cal
+Run
+2600/2200/1800m
+3 Rounds
+36/30/24 x KB Goblet Squat
+26/20/14 ×TTB/TTH/K2C
+Score A:Total Time
+Score B: Erg/Run Time
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg
+KB Weight: F: 16/12/8kg / M: 24/20/16kg
+```
+</details>
+
+### wednesday move total
+`REVL Block 3 programming 2026/Peak Wk 3/wednesday move total.png`  ·  day **Wednesday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I2 x Band External Rotation'; engines differ near: ':30-40 xTK Plate OH Hold'; engines differ near: 'B.8 x Hamstring Roller Curl'; engines differ near: 'In Pairs - E3MOM x 6'; engines differ near: '2.YGlG - 2-3 Rounds Each'; engines differ near: '3. 800/700/600m Ski/Row Erg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press
+I2 x Band External Rotation  [?]
+12 x Band External Rotation  [? vision]
+6.6 x FFE KOT Split Squat
+:30-40 xTK Plate OH Hold  [?]
+Sl.  [?]
+In PairsYGIG - 4 x 4:00 Cap  [?]
+:30-40 x TK Plate OH Hold  [? vision]
+SI.  [? vision]
+In Pairs YGIG - 4 x 4:00 Cap  [? vision]
+3-4 Rounds Each
+A. 6-8 x BB Bench Press
+B.8 x Hamstring Roller Curl  [?]
+C.6-8 x BB Narrow Grip Bench Press  [?]
+D. 8 x AIt DB BR Cossack Squat  [?]
+B. 8 x Hamstring Roller Curl  [? vision]
+C. 6-8 x BB Narrow Grip Bench Press  [? vision]
+D. 8 x Alt DB BR Cossack Squat  [? vision]
+S2.
+In Pairs - E3MOM x 6  [?]
+I.YGlG - 3 Rounds Each  [?]
+In Pairs - ЕЗМОМ x 6  [? vision]
+I.YGIG - 3 Rounds Each  [? vision]
+8/6 x BB Power Clean
+2.YGlG - 2-3 Rounds Each  [?]
+2.YGIG - 2-3 Rounds Each  [? vision]
+12 x DB Hip Thrust or
+8 x DB Seated Shoulder Press
+3. 800/700/600m Ski/Row Erg  [?]
+3.800/700/600m Ski/Row Erg  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: 8 x BB Bench Press
+- (uncertain) I2 x Band External Rotation  [?]
+- (uncertain) 12 x Band External Rotation  [? vision]
+- (exercise?) 6.6 x FFE KOT Split Squat
+- (exercise? / prescription?) :30-40 xTK Plate OH Hold  [?]
+- (uncertain) Sl.  [?]
+- (prescription?) In PairsYGIG - 4 x 4:00 Cap  [?]
+- (exercise? / prescription?) :30-40 x TK Plate OH Hold  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) In Pairs YGIG - 4 x 4:00 Cap  [? vision]
+- (exercise?) A. 6-8 x BB Bench Press
+- (SECTION / exercise?) B.8 x Hamstring Roller Curl  [?]
+- (SECTION / exercise?) C.6-8 x BB Narrow Grip Bench Press  [?]
+- (exercise?) D. 8 x AIt DB BR Cossack Squat  [?]
+- (exercise?) B. 8 x Hamstring Roller Curl  [? vision]
+- (exercise?) C. 6-8 x BB Narrow Grip Bench Press  [? vision]
+- (exercise?) D. 8 x Alt DB BR Cossack Squat  [? vision]
+- (SECTION) S2.
+- (prescription?) In Pairs - E3MOM x 6  [?]
+- (uncertain) I.YGlG - 3 Rounds Each  [?]
+- (prescription?) In Pairs - ЕЗМОМ x 6  [? vision]
+- (uncertain) I.YGIG - 3 Rounds Each  [? vision]
+- (exercise?) 8/6 x BB Power Clean
+- (uncertain) 2.YGlG - 2-3 Rounds Each  [?]
+- (uncertain) 2.YGIG - 2-3 Rounds Each  [? vision]
+- (exercise?) 12 x DB Hip Thrust or
+- (exercise?) 8 x DB Seated Shoulder Press
+- (exercise?) 3. 800/700/600m Ski/Row Erg  [?]
+- (exercise?) 3.800/700/600m Ski/Row Erg  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press
+I2 x Band External Rotation
+6.6 x FFE KOT Split Squat
+:30-40 xTK Plate OH Hold
+Sl.
+In PairsYGIG - 4 x 4:00 Cap
+3-4 Rounds Each
+A. 6-8 x BB Bench Press
+B.8 x Hamstring Roller Curl
+C.6-8 x BB Narrow Grip Bench Press
+D. 8 x AIt DB BR Cossack Squat
+S2.
+In Pairs - E3MOM x 6
+I.YGlG - 3 Rounds Each
+8/6 x BB Power Clean
+2.YGlG - 2-3 Rounds Each
+12 x DB Hip Thrust or
+8 x DB Seated Shoulder Press
+3. 800/700/600m Ski/Row Erg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press
+12 x Band External Rotation
+6.6 x FFE KOT Split Squat
+:30-40 x TK Plate OH Hold
+SI.
+In Pairs YGIG - 4 x 4:00 Cap
+3-4 Rounds Each
+A. 6-8 x BB Bench Press
+B. 8 x Hamstring Roller Curl
+C. 6-8 x BB Narrow Grip Bench Press
+D. 8 x Alt DB BR Cossack Squat
+S2.
+In Pairs - ЕЗМОМ x 6
+I.YGIG - 3 Rounds Each
+8/6 x BB Power Clean
+2.YGIG - 2-3 Rounds Each
+12 x DB Hip Thrust or
+8 x DB Seated Shoulder Press
+3.800/700/600m Ski/Row Erg
+```
+</details>
+
+### wednesday perform lower
+`REVL Block 3 programming 2026/Peak Wk 3/wednesday perform lower.png`  ·  day **Wednesday** [inferred]  ·  session **Perform Lower** [inferred]
+
+_Reader notes:_ engines differ near: '4:00 Cap'; engines differ near: 'sl.'; engines differ near: 'In Pairs I:l - 3 x 5:00 Blocks'; engines differ near: 'B. I20/80 x DB Hip Thrust'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap  [?]
+I-2 Sets: 6-8 x BB Back/Front Squat  [?]
+1-2 Sets: 6-8 x BB Back/Front Squat  [? vision]
+12 x Alt Goblet Squat Ankle Stretch
+12 x Kip Swing
+8 x DB RDL
+sl.  [?]
+In PairsYGIG - E4MOM x 4  [?]
+SI.  [? vision]
+4:00 Cap  [? vision]
+In Pairs YGIG - E4MOM x 4  [? vision]
+4-6 Rounds Each
+I.3-5 x BB Front Squat (2s Ecc)
+2.8 x Deadstop KB Swing
+3.3-5 x BB Back Squat (2s Ecc)
+4. 4.4-6.6 x DB Bulgarian Split Squat
+S2.
+In Pairs I:l - 3 x 5:00 Blocks  [?]
+In Pairs I:| - 3 x 5:00 Blocks  [? vision]
+A. 40/30 x BB Power Clean
+40 x Alt BB FR Reverse Lunge
+B. I20/80 x DB Hip Thrust  [?]
+* 15/10 Rep Efforts  [?]
+C. 100/80/60 ×TTB/TTH  [?]
+B. 120/80 x DB Hip Thrust  [? vision]
+*15/10 Rep Efforts  [? vision]
+C. 100/80/60 xTTB/TTH  [? vision]
+*1:30 Between Blocks
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise?) I-2 Sets: 6-8 x BB Back/Front Squat  [?]
+- (exercise?) 1-2 Sets: 6-8 x BB Back/Front Squat  [? vision]
+- (exercise?) 12 x Alt Goblet Squat Ankle Stretch
+- (exercise?) 12 x Kip Swing
+- (exercise?) 8 x DB RDL
+- (uncertain) sl.  [?]
+- (prescription?) In PairsYGIG - E4MOM x 4  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) 4:00 Cap  [? vision]
+- (prescription?) In Pairs YGIG - E4MOM x 4  [? vision]
+- (exercise? / prescription?) I.3-5 x BB Front Squat (2s Ecc)
+- (exercise? / prescription?) 2.8 x Deadstop KB Swing
+- (exercise? / prescription?) 3.3-5 x BB Back Squat (2s Ecc)
+- (exercise?) 4. 4.4-6.6 x DB Bulgarian Split Squat
+- (SECTION) S2.
+- (prescription?) In Pairs I:l - 3 x 5:00 Blocks  [?]
+- (prescription?) In Pairs I:| - 3 x 5:00 Blocks  [? vision]
+- (exercise?) A. 40/30 x BB Power Clean
+- (exercise?) 40 x Alt BB FR Reverse Lunge
+- (exercise?) B. I20/80 x DB Hip Thrust  [?]
+- (uncertain) * 15/10 Rep Efforts  [?]
+- (uncertain) C. 100/80/60 ×TTB/TTH  [?]
+- (exercise?) B. 120/80 x DB Hip Thrust  [? vision]
+- (uncertain) *15/10 Rep Efforts  [? vision]
+- (uncertain) C. 100/80/60 xTTB/TTH  [? vision]
+- (prescription?) *1:30 Between Blocks
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM LOWER
+WARM UP
+4:00 Cap
+I-2 Sets: 6-8 x BB Back/Front Squat
+12 x Alt Goblet Squat Ankle Stretch
+12 x Kip Swing
+8 x DB RDL
+sl.
+In PairsYGIG - E4MOM x 4
+4-6 Rounds Each
+I.3-5 x BB Front Squat (2s Ecc)
+2.8 x Deadstop KB Swing
+3.3-5 x BB Back Squat (2s Ecc)
+4. 4.4-6.6 x DB Bulgarian Split Squat
+S2.
+In Pairs I:l - 3 x 5:00 Blocks
+A. 40/30 x BB Power Clean
+40 x Alt BB FR Reverse Lunge
+B. I20/80 x DB Hip Thrust
+* 15/10 Rep Efforts
+C. 100/80/60 ×TTB/TTH
+*1:30 Between Blocks
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM LOWER
+WARM UP
+1-2 Sets: 6-8 x BB Back/Front Squat
+12 x Alt Goblet Squat Ankle Stretch
+12 x Kip Swing
+8 x DB RDL
+SI.
+4:00 Cap
+In Pairs YGIG - E4MOM x 4
+4-6 Rounds Each
+I.3-5 x BB Front Squat (2s Ecc)
+2.8 x Deadstop KB Swing
+3.3-5 x BB Back Squat (2s Ecc)
+4. 4.4-6.6 x DB Bulgarian Split Squat
+S2.
+In Pairs I:| - 3 x 5:00 Blocks
+A. 40/30 x BB Power Clean
+40 x Alt BB FR Reverse Lunge
+B. 120/80 x DB Hip Thrust
+*15/10 Rep Efforts
+C. 100/80/60 xTTB/TTH
+*1:30 Between Blocks
+```
+</details>
+
+### thursday sweat sprint baseline
+`REVL Block 3 programming 2026/Peak Wk 3/thursday sweat sprint baseline.png`  ·  day **Thursday** [inferred]  ·  session **Sweat Sprint Baseline** [inferred]
+
+_Reader notes:_ engines differ near: 'I0 x Box Step Over OR Alt Cossack Squat'; engines differ near: "'BLOCKBUSTER' - 2 Blocks of EMOM x I6"; engines differ near: '3. 15-12-9-6'; engines differ near: 'B. 1. 10-8-6-4'; engines differ near: '3. 10-8-6-4'; engines differ near: 'Round I - :50 / Round 2 - :40 / Round 3 - :30 / Round 4 - :20'; engines differ near: 'DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEAT SPRINT
+BASELINE
+concept 2  [? vision only]
+4:00 Cap  [? vision only]
+WARM UP
+4:00 Cap  [? rapid only]
+2 Sets :30 Erg/Echo Effort @RPE 7-8
+I0 x Box Step Over OR Alt Cossack Squat  [?]
+10 x Box Step Over OR Alt Cossack Squat  [? vision]
+10 x Light Dual DB Snatch
+10.10 x Weighted Hip Opener
+'BLOCKBUSTER' - 2 Blocks of EMOM x I6  [?]
+A. 1. 10-8-6-4  [?]
+'BLOCKBUSTER' - 2 Blocks of EMOM x 16  [? vision]
+A. l.10-8-6-4  [? vision]
+DBall Squat
+Time Remaining: Max Cal Ski Erg
+2. Rest
+3. 15-12-9-6  [?]
+3.15-12-9-6  [? vision]
+Box Jump Over/Step Over
+Time Remaining: Max Cal Bike Erg
+4. Rest
+B. 1. 10-8-6-4  [?]
+B. I.10-8-6-4  [? vision]
+Burpee Pull Up/Bar Touch
+Time Remaining: Max Cal Echo Bike
+2. Rest
+3. 10-8-6-4  [?]
+3.10-8-6-4  [? vision]
+Dual DB Snatch
+Time Remaining: Max Cal Row Erg
+4. Rest
+Work Capped At:
+Round I - :50 / Round 2 - :40 / Round 3 - :30 / Round 4 - :20  [?]
+Round 1 -:50 / Round 2 - :40 / Round 3 - :30 / Round 4 - :20  [? vision]
+*3:00 Between Blocks
+Score = Combined Total Erg Cals
+DBall Weight: F: 45/30/20kg / M: 65/45/35kg
+Box Height: 24'/20'/20'
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg  [?]
+DB Weight: F:15/10/8kg | M: 22.5/17.5/12.5kg  [? vision]
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) concept 2  [? vision only]
+- (prescription?) 4:00 Cap  [? vision only]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [? rapid only]
+- (exercise? / prescription?) 2 Sets :30 Erg/Echo Effort @RPE 7-8
+- (exercise?) I0 x Box Step Over OR Alt Cossack Squat  [?]
+- (exercise?) 10 x Box Step Over OR Alt Cossack Squat  [? vision]
+- (exercise?) 10 x Light Dual DB Snatch
+- (exercise? / prescription?) 'BLOCKBUSTER' - 2 Blocks of EMOM x I6  [?]
+- (prescription?) A. 1. 10-8-6-4  [?]
+- (exercise? / prescription?) 'BLOCKBUSTER' - 2 Blocks of EMOM x 16  [? vision]
+- (prescription?) A. l.10-8-6-4  [? vision]
+- (exercise?) DBall Squat
+- (exercise?) Time Remaining: Max Cal Ski Erg
+- (prescription?) 3. 15-12-9-6  [?]
+- (prescription?) 3.15-12-9-6  [? vision]
+- (exercise?) Box Jump Over/Step Over
+- (exercise?) Time Remaining: Max Cal Bike Erg
+- (prescription?) B. 1. 10-8-6-4  [?]
+- (prescription?) B. I.10-8-6-4  [? vision]
+- (exercise?) Burpee Pull Up/Bar Touch
+- (exercise?) Time Remaining: Max Cal Echo Bike
+- (prescription?) 3. 10-8-6-4  [?]
+- (prescription?) 3.10-8-6-4  [? vision]
+- (exercise?) Dual DB Snatch
+- (exercise?) Time Remaining: Max Cal Row Erg
+- (prescription?) Round I - :50 / Round 2 - :40 / Round 3 - :30 / Round 4 - :20  [?]
+- (prescription?) Round 1 -:50 / Round 2 - :40 / Round 3 - :30 / Round 4 - :20  [? vision]
+- (prescription?) *3:00 Between Blocks
+- (SECTION / exercise?) Score = Combined Total Erg Cals
+- (uncertain) DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg  [?]
+- (prescription?) DB Weight: F:15/10/8kg | M: 22.5/17.5/12.5kg  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEAT SPRINT
+BASELINE
+WARM UP
+4:00 Cap
+2 Sets :30 Erg/Echo Effort @RPE 7-8
+I0 x Box Step Over OR Alt Cossack Squat
+10 x Light Dual DB Snatch
+10.10 x Weighted Hip Opener
+'BLOCKBUSTER' - 2 Blocks of EMOM x I6
+A. 1. 10-8-6-4
+DBall Squat
+Time Remaining: Max Cal Ski Erg
+2. Rest
+3. 15-12-9-6
+Box Jump Over/Step Over
+Time Remaining: Max Cal Bike Erg
+4. Rest
+B. 1. 10-8-6-4
+Burpee Pull Up/Bar Touch
+Time Remaining: Max Cal Echo Bike
+2. Rest
+3. 10-8-6-4
+Dual DB Snatch
+Time Remaining: Max Cal Row Erg
+4. Rest
+Work Capped At:
+Round I - :50 / Round 2 - :40 / Round 3 - :30 / Round 4 - :20
+*3:00 Between Blocks
+Score = Combined Total Erg Cals
+DBall Weight: F: 45/30/20kg / M: 65/45/35kg
+Box Height: 24'/20'/20'
+DB Weight: F: 15/10/8kg / M: 22.5/17.5/12.5kg
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT SPRINT
+BASELINE
+concept 2
+4:00 Cap
+WARM UP
+2 Sets :30 Erg/Echo Effort @RPE 7-8
+10 x Box Step Over OR Alt Cossack Squat
+10 x Light Dual DB Snatch
+10.10 x Weighted Hip Opener
+'BLOCKBUSTER' - 2 Blocks of EMOM x 16
+A. l.10-8-6-4
+DBall Squat
+Time Remaining: Max Cal Ski Erg
+2. Rest
+3.15-12-9-6
+Box Jump Over/Step Over
+Time Remaining: Max Cal Bike Erg
+4. Rest
+B. I.10-8-6-4
+Burpee Pull Up/Bar Touch
+Time Remaining: Max Cal Echo Bike
+2. Rest
+3.10-8-6-4
+Dual DB Snatch
+Time Remaining: Max Cal Row Erg
+4. Rest
+Work Capped At:
+Round 1 -:50 / Round 2 - :40 / Round 3 - :30 / Round 4 - :20
+*3:00 Between Blocks
+Score = Combined Total Erg Cals
+DBall Weight: F: 45/30/20kg / M: 65/45/35kg
+Box Height: 24'/20'/20'
+DB Weight: F:15/10/8kg | M: 22.5/17.5/12.5kg
+```
+</details>
+
+### friday move total
+`REVL Block 3 programming 2026/Peak Wk 3/friday move total.png`  ·  day **Friday** [inferred]  ·  session **Move Total** [inferred]
+
+_Reader notes:_ engines differ near: 'I-2 Sets: 8 x BB Front Squat'; engines differ near: 'Sl.'; engines differ near: 'A.6-8 x BB Back/Front Squat'; engines differ near: 'In Pairs - E3MOM x 6'; engines differ near: '2. 30/25 x Synchro DB Thruster'; engines differ near: '3. YGlG - 2-3 Rounds Each'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Front Squat  [?]
+I6 x BW Reverse Lunge  [?]
+1-2 Sets: 8 x BB Front Squat  [? vision]
+16 x BW Reverse Lunge  [? vision]
+8.8 x SA HK KB Press
+12 x Plank To Pike
+Sl.  [?]
+In PairsYGlG - 4 x 4:00 Cap  [?]
+SI.  [? vision]
+In Pairs YGIG - 4 x 4:00 Cap  [? vision]
+3-4 Rounds Each
+A.6-8 x BB Back/Front Squat  [?]
+B.6-8 x Dual KB Z Press  [?]
+C.8 x BB FFE Reverse Lunge  [?]
+A. 6-8 x BB Back/Front Squat  [? vision]
+B. 6-8 x Dual KB Z Press  [? vision]
+C. 8 x BB FFE Reverse Lunge  [? vision]
+D. 8 x Dual KB Gorilla Row
+S2.
+In Pairs - E3MOM x 6  [?]
+I.YGlG - 3 Rounds Each  [?]
+In Pairs - ЕЗМОМ x 6  [? vision]
+I.YGIG - 3 Rounds Each  [? vision]
+8 x BB Bent Over Row or Sumo Deadlift
+2. 30/25 x Synchro DB Thruster  [?]
+2.30/25 x Synchro DB Thruster  [? vision]
+*Every 5 Reps Must Complete:
+I x Synchro DB Devils Press
+3. YGlG - 2-3 Rounds Each  [?]
+3. YGIG - 2-3 Rounds Each  [? vision]
+10/8/6 Cal Ski/Echo Bike AFAP
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: 8 x BB Front Squat  [?]
+- (exercise?) I6 x BW Reverse Lunge  [?]
+- (exercise?) 1-2 Sets: 8 x BB Front Squat  [? vision]
+- (exercise?) 16 x BW Reverse Lunge  [? vision]
+- (exercise?) 8.8 x SA HK KB Press
+- (exercise?) 12 x Plank To Pike
+- (uncertain) Sl.  [?]
+- (prescription?) In PairsYGlG - 4 x 4:00 Cap  [?]
+- (uncertain) SI.  [? vision]
+- (prescription?) In Pairs YGIG - 4 x 4:00 Cap  [? vision]
+- (SECTION / exercise?) A.6-8 x BB Back/Front Squat  [?]
+- (SECTION / exercise?) B.6-8 x Dual KB Z Press  [?]
+- (SECTION / exercise?) C.8 x BB FFE Reverse Lunge  [?]
+- (exercise?) A. 6-8 x BB Back/Front Squat  [? vision]
+- (exercise?) B. 6-8 x Dual KB Z Press  [? vision]
+- (exercise?) C. 8 x BB FFE Reverse Lunge  [? vision]
+- (exercise?) D. 8 x Dual KB Gorilla Row
+- (SECTION) S2.
+- (prescription?) In Pairs - E3MOM x 6  [?]
+- (uncertain) I.YGlG - 3 Rounds Each  [?]
+- (prescription?) In Pairs - ЕЗМОМ x 6  [? vision]
+- (uncertain) I.YGIG - 3 Rounds Each  [? vision]
+- (exercise?) 8 x BB Bent Over Row or Sumo Deadlift
+- (exercise?) 2. 30/25 x Synchro DB Thruster  [?]
+- (exercise?) 2.30/25 x Synchro DB Thruster  [? vision]
+- (exercise?) I x Synchro DB Devils Press
+- (uncertain) 3. YGlG - 2-3 Rounds Each  [?]
+- (uncertain) 3. YGIG - 2-3 Rounds Each  [? vision]
+- (exercise? / prescription?) 10/8/6 Cal Ski/Echo Bike AFAP
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+I-2 Sets: 8 x BB Front Squat
+I6 x BW Reverse Lunge
+8.8 x SA HK KB Press
+12 x Plank To Pike
+Sl.
+In PairsYGlG - 4 x 4:00 Cap
+3-4 Rounds Each
+A.6-8 x BB Back/Front Squat
+B.6-8 x Dual KB Z Press
+C.8 x BB FFE Reverse Lunge
+D. 8 x Dual KB Gorilla Row
+S2.
+In Pairs - E3MOM x 6
+I.YGlG - 3 Rounds Each
+8 x BB Bent Over Row or Sumo Deadlift
+2. 30/25 x Synchro DB Thruster
+*Every 5 Reps Must Complete:
+I x Synchro DB Devils Press
+3. YGlG - 2-3 Rounds Each
+10/8/6 Cal Ski/Echo Bike AFAP
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+MOVE TOTAL
+WARM UP
+4:00 Cap
+1-2 Sets: 8 x BB Front Squat
+16 x BW Reverse Lunge
+8.8 x SA HK KB Press
+12 x Plank To Pike
+SI.
+In Pairs YGIG - 4 x 4:00 Cap
+3-4 Rounds Each
+A. 6-8 x BB Back/Front Squat
+B. 6-8 x Dual KB Z Press
+C. 8 x BB FFE Reverse Lunge
+D. 8 x Dual KB Gorilla Row
+S2.
+In Pairs - ЕЗМОМ x 6
+I.YGIG - 3 Rounds Each
+8 x BB Bent Over Row or Sumo Deadlift
+2.30/25 x Synchro DB Thruster
+*Every 5 Reps Must Complete:
+I x Synchro DB Devils Press
+3. YGIG - 2-3 Rounds Each
+10/8/6 Cal Ski/Echo Bike AFAP
+```
+</details>
+
+### friday perform upper
+`REVL Block 3 programming 2026/Peak Wk 3/friday perform upper.png`  ·  day **Friday** [inferred]  ·  session **Perform Upper** [inferred]
+
+_Reader notes:_ engines differ near: 'WARMUP'; engines differ near: 'I-2 Sets: 8 x BB Bench Press'; engines differ near: 'I.3-5 x BB Bench Press'; engines differ near: 'In Pairs I:l - 3 x 5:00 Blocks'; engines differ near: 'C. YGlG - 3-4 Rounds Each'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+PERFORM UPPER
+WARMUP  [?]
+WARM UP  [? vision]
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press  [?]
+I0 x Paused DB Bent Over Row (Light)  [?]
+I0-I5 x Band External Rotation  [?]
+8.8 xT-Opener  [?]
+Sl.  [?]
+1-2 Sets: 8 x BB Bench Press  [? vision]
+10 x Paused DB Bent Over Row (Light)  [? vision]
+10-15 x Band External Rotation  [? vision]
+8.8 x T-Opener  [? vision]
+SI.  [? vision]
+In Pairs YGIG - E4MOM x 4
+4-6 Rounds Each
+I.3-5 x BB Bench Press  [?]
+2. 10 x No Lockout DB Curl  [?]
+3.3-5 x BB I+I/2 Bench Press  [?]
+4. I0 x DB French Press  [?]
+1.3-5 x BB Bench Press  [? vision]
+2.10 x No Lockout DB Curl  [? vision]
+3.3-5 x BB I+1/2 Bench Press  [? vision]
+4.10 x DB French Press  [? vision]
+S2.
+In Pairs I:l - 3 x 5:00 Blocks  [?]
+In Pairs I:| - 3 x 5:00 Blocks  [? vision]
+A. 60/40 x BB Bent Over Row
+60/40 x BB Pendlay Row
+B. 60/40 x DB NG Incline Bench Press
+60/40 x DB Incline Skull Crusher
+C. YGlG - 3-4 Rounds Each  [?]
+C. YGIG - 3-4 Rounds Each  [? vision]
+8 x KB Horn Curl
+8 x KB Upright Row
+*+2 Reps Each Round or Maintain
+*1:30 Between Blocks
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARMUP  [?]
+- (SECTION) WARM UP  [? vision]
+- (prescription?) 4:00 Cap
+- (exercise?) I-2 Sets: 8 x BB Bench Press  [?]
+- (exercise?) I0 x Paused DB Bent Over Row (Light)  [?]
+- (uncertain) I0-I5 x Band External Rotation  [?]
+- (uncertain) 8.8 xT-Opener  [?]
+- (uncertain) Sl.  [?]
+- (exercise?) 1-2 Sets: 8 x BB Bench Press  [? vision]
+- (exercise?) 10 x Paused DB Bent Over Row (Light)  [? vision]
+- (uncertain) 10-15 x Band External Rotation  [? vision]
+- (uncertain) 8.8 x T-Opener  [? vision]
+- (uncertain) SI.  [? vision]
+- (prescription?) In Pairs YGIG - E4MOM x 4
+- (exercise?) I.3-5 x BB Bench Press  [?]
+- (exercise?) 2. 10 x No Lockout DB Curl  [?]
+- (exercise?) 3.3-5 x BB I+I/2 Bench Press  [?]
+- (exercise?) 4. I0 x DB French Press  [?]
+- (exercise?) 1.3-5 x BB Bench Press  [? vision]
+- (exercise?) 2.10 x No Lockout DB Curl  [? vision]
+- (exercise?) 3.3-5 x BB I+1/2 Bench Press  [? vision]
+- (exercise?) 4.10 x DB French Press  [? vision]
+- (SECTION) S2.
+- (prescription?) In Pairs I:l - 3 x 5:00 Blocks  [?]
+- (prescription?) In Pairs I:| - 3 x 5:00 Blocks  [? vision]
+- (exercise?) A. 60/40 x BB Bent Over Row
+- (exercise?) 60/40 x BB Pendlay Row
+- (exercise?) B. 60/40 x DB NG Incline Bench Press
+- (exercise?) 60/40 x DB Incline Skull Crusher
+- (uncertain) C. YGlG - 3-4 Rounds Each  [?]
+- (uncertain) C. YGIG - 3-4 Rounds Each  [? vision]
+- (exercise?) 8 x KB Horn Curl
+- (exercise?) 8 x KB Upright Row
+- (prescription?) *1:30 Between Blocks
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+PERFORM UPPER
+WARMUP
+4:00 Cap
+I-2 Sets: 8 x BB Bench Press
+I0 x Paused DB Bent Over Row (Light)
+I0-I5 x Band External Rotation
+8.8 xT-Opener
+Sl.
+In Pairs YGIG - E4MOM x 4
+4-6 Rounds Each
+I.3-5 x BB Bench Press
+2. 10 x No Lockout DB Curl
+3.3-5 x BB I+I/2 Bench Press
+4. I0 x DB French Press
+S2.
+In Pairs I:l - 3 x 5:00 Blocks
+A. 60/40 x BB Bent Over Row
+60/40 x BB Pendlay Row
+B. 60/40 x DB NG Incline Bench Press
+60/40 x DB Incline Skull Crusher
+C. YGlG - 3-4 Rounds Each
+8 x KB Horn Curl
+8 x KB Upright Row
+*+2 Reps Each Round or Maintain
+*1:30 Between Blocks
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+PERFORM UPPER
+WARM UP
+4:00 Cap
+1-2 Sets: 8 x BB Bench Press
+10 x Paused DB Bent Over Row (Light)
+10-15 x Band External Rotation
+8.8 x T-Opener
+SI.
+In Pairs YGIG - E4MOM x 4
+4-6 Rounds Each
+1.3-5 x BB Bench Press
+2.10 x No Lockout DB Curl
+3.3-5 x BB I+1/2 Bench Press
+4.10 x DB French Press
+S2.
+In Pairs I:| - 3 x 5:00 Blocks
+A. 60/40 x BB Bent Over Row
+60/40 x BB Pendlay Row
+B. 60/40 x DB NG Incline Bench Press
+60/40 x DB Incline Skull Crusher
+C. YGIG - 3-4 Rounds Each
+8 x KB Horn Curl
+8 x KB Upright Row
+*+2 Reps Each Round or Maintain
+*1:30 Between Blocks
+```
+</details>
+
+### saturday sweat team
+`REVL Block 3 programming 2026/Peak Wk 3/saturday sweat team.png`  ·  day **Saturday** [inferred]  ·  session **Sweat Team** [inferred]
+
+_Reader notes:_ engines differ near: 'SWEATTEAM'; engines differ near: '4:00 Cap'; engines differ near: '0:00-I0:00 (Erg/Echo Continues)'; engines differ near: '200/l60 x Synchro American KB Swing'; engines differ near: 'I60/I40 x Synchro SA AIt DB Clean + Press'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+SWEATTEAM  [?]
+SWEAT TEAM  [? vision]
+WARM UP
+4:00 Cap  [?]
+2 x :30 Bike Erg/Echo Effort  [?]
+12-16 xAmerican KB Swing  [?]
+2 x:30 Bike Erg/Echo Effort  [? vision]
+12-16 x American KB Swing  [? vision]
+8.8 x SA DB Thruster
+8.8 x Pigeon Stretch
+Teams of 4-6 - 45:00 Cap
+"Tour de REVL"
+4:00 Cap  [? vision only]
+Max Distance Bike Erg/Echo Bike
+0:00-I0:00 (Erg/Echo Continues)  [?]
+0:00-10:00 (Erg/Echo Continues)  [? vision]
+Team Must Complete:
+200/l60 x Synchro American KB Swing  [?]
+200/160 x Synchro American KB Swing  [? vision]
+10:00-20:00 (Erg/Echo Continues)
+Team Must Complete:
+I60/I40 x Synchro SA AIt DB Clean + Press  [?]
+160/140 x Synchro SA Alt DB Clean + Press  [? vision]
+20:00-30:00 (Erg/Echo Continues)
+Team Must Complete:
+200/160 x Synchro Alt KB Goblet Reverse
+Lunge
+30:00-40:00 (Erg/Echo Continues)
+Team Must Complete:
+160/140 x Synchro SA DB Thruster
+40:00-45:00 : Send It!
+*All Synchro Work = 2 People
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (uncertain) SWEATTEAM  [?]
+- (uncertain) SWEAT TEAM  [? vision]
+- (SECTION) WARM UP
+- (prescription?) 4:00 Cap  [?]
+- (exercise? / prescription?) 2 x :30 Bike Erg/Echo Effort  [?]
+- (exercise?) 12-16 xAmerican KB Swing  [?]
+- (exercise? / prescription?) 2 x:30 Bike Erg/Echo Effort  [? vision]
+- (exercise?) 12-16 x American KB Swing  [? vision]
+- (exercise?) 8.8 x SA DB Thruster
+- (exercise?) 8.8 x Pigeon Stretch
+- (prescription?) Teams of 4-6 - 45:00 Cap
+- (prescription?) 4:00 Cap  [? vision only]
+- (exercise?) Max Distance Bike Erg/Echo Bike
+- (exercise? / prescription?) 0:00-I0:00 (Erg/Echo Continues)  [?]
+- (prescription?) 0:00-10:00 (Erg/Echo Continues)  [? vision]
+- (exercise?) 200/l60 x Synchro American KB Swing  [?]
+- (exercise?) 200/160 x Synchro American KB Swing  [? vision]
+- (prescription?) 10:00-20:00 (Erg/Echo Continues)
+- (exercise?) I60/I40 x Synchro SA AIt DB Clean + Press  [?]
+- (exercise?) 160/140 x Synchro SA Alt DB Clean + Press  [? vision]
+- (prescription?) 20:00-30:00 (Erg/Echo Continues)
+- (exercise?) 200/160 x Synchro Alt KB Goblet Reverse
+- (prescription?) 30:00-40:00 (Erg/Echo Continues)
+- (exercise?) 160/140 x Synchro SA DB Thruster
+- (prescription?) 40:00-45:00 : Send It!
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+SWEATTEAM
+WARM UP
+4:00 Cap
+2 x :30 Bike Erg/Echo Effort
+12-16 xAmerican KB Swing
+8.8 x SA DB Thruster
+8.8 x Pigeon Stretch
+Teams of 4-6 - 45:00 Cap
+"Tour de REVL"
+Max Distance Bike Erg/Echo Bike
+0:00-I0:00 (Erg/Echo Continues)
+Team Must Complete:
+200/l60 x Synchro American KB Swing
+10:00-20:00 (Erg/Echo Continues)
+Team Must Complete:
+I60/I40 x Synchro SA AIt DB Clean + Press
+20:00-30:00 (Erg/Echo Continues)
+Team Must Complete:
+200/160 x Synchro Alt KB Goblet Reverse
+Lunge
+30:00-40:00 (Erg/Echo Continues)
+Team Must Complete:
+160/140 x Synchro SA DB Thruster
+40:00-45:00 : Send It!
+*All Synchro Work = 2 People
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+SWEAT TEAM
+WARM UP
+2 x:30 Bike Erg/Echo Effort
+12-16 x American KB Swing
+8.8 x SA DB Thruster
+8.8 x Pigeon Stretch
+Teams of 4-6 - 45:00 Cap
+"Tour de REVL"
+4:00 Cap
+Max Distance Bike Erg/Echo Bike
+0:00-10:00 (Erg/Echo Continues)
+Team Must Complete:
+200/160 x Synchro American KB Swing
+10:00-20:00 (Erg/Echo Continues)
+Team Must Complete:
+160/140 x Synchro SA Alt DB Clean + Press
+20:00-30:00 (Erg/Echo Continues)
+Team Must Complete:
+200/160 x Synchro Alt KB Goblet Reverse
+Lunge
+30:00-40:00 (Erg/Echo Continues)
+Team Must Complete:
+160/140 x Synchro SA DB Thruster
+40:00-45:00 : Send It!
+*All Synchro Work = 2 People
+```
+</details>
+
+### sunday complete
+`REVL Block 3 programming 2026/Peak Wk 3/sunday complete.png`  ·  day **Sunday** [inferred]  ·  session **Complete** [inferred]
+
+_Reader notes:_ engines differ near: 'I0 x BB Hip Thrust or Bench Press'; engines differ near: 'C. 1. 50/35/20 Cal Echo Bike I:l'; engines differ near: 'D. I.60/40 x BB Bench Press 0r'; engines differ near: '2.400/300m Pair Run or'; engines differ near: '*I:00 Between Blocks'
+
+**Merged reading** (`[?]` = engines disagree / one-engine-only):
+
+```
+COMPLETE
+WARM UP
+10 x BB Hip Thrust or Bench Press  [? vision only]
+15/12/9 Cal Echo/Ski  [? vision only]
+10 x BB Front Squat or Push Press  [? vision only]
+8.8 x World's Greatest Stretch  [? vision only]
+4:00 Cap
+I0 x BB Hip Thrust or Bench Press  [?]
+15/12/9 Cal Echo/Ski  [?]
+I0 x BB Front Squat or Push Press  [?]
+8.8 x World's Greatest Stretch  [?]
+In Pairs I:l - 4 x Blocks of Every 2:30 x 4  [?]
+A. 1. 50/40/30 Cal Ski Erg I:I  [?]
+2. 60/40 x KB Reverse Lunge  [?]
+B. 1.60/40 x BB Front Squat or  [?]
+In Pairs I:| - 4 x Blocks of Every 2:30 x 4  [? vision]
+A. I. 50/40/30 Cal Ski Erg |:l  [? vision]
+2.60/40 x KB Reverse Lunge  [? vision]
+B. I. 60/40 x BB Front Squat or  [? vision]
+Push Press
+2.24 x DB Renegade Row
+C. 1. 50/35/20 Cal Echo Bike I:l  [?]
+2. 60/40 x DBall Glute Bridge  [?]
+C. I.50/35/20 Cal Echo Bike |:1  [? vision]
+2.60/40 x DBall Glute Bridge  [? vision]
+Floor Press
+D. I.60/40 x BB Bench Press 0r  [?]
+D. I.60/40 x BB Bench Press or  [? vision]
+Hip Thrust
+2.400/300m Pair Run or  [?]
+2. 400/300m Pair Run or  [? vision]
+32/24 x DB Cluster
+*I:00 Between Blocks  [?]
+*1:00 Between Blocks  [? vision]
+60/40 = 10 Rep Efforts
+32/24 = 6/4 Rep Efforts
+```
+
+<details><summary>structured parse — LOW CONFIDENCE keyword heuristic</summary>
+
+- (SECTION) WARM UP
+- (exercise?) 10 x BB Hip Thrust or Bench Press  [? vision only]
+- (exercise?) 15/12/9 Cal Echo/Ski  [? vision only]
+- (exercise?) 10 x BB Front Squat or Push Press  [? vision only]
+- (exercise?) 8.8 x World's Greatest Stretch  [? vision only]
+- (prescription?) 4:00 Cap
+- (exercise?) I0 x BB Hip Thrust or Bench Press  [?]
+- (exercise?) 15/12/9 Cal Echo/Ski  [?]
+- (exercise?) I0 x BB Front Squat or Push Press  [?]
+- (exercise?) 8.8 x World's Greatest Stretch  [?]
+- (prescription?) In Pairs I:l - 4 x Blocks of Every 2:30 x 4  [?]
+- (exercise?) A. 1. 50/40/30 Cal Ski Erg I:I  [?]
+- (exercise?) 2. 60/40 x KB Reverse Lunge  [?]
+- (exercise?) B. 1.60/40 x BB Front Squat or  [?]
+- (prescription?) In Pairs I:| - 4 x Blocks of Every 2:30 x 4  [? vision]
+- (exercise?) A. I. 50/40/30 Cal Ski Erg |:l  [? vision]
+- (exercise?) 2.60/40 x KB Reverse Lunge  [? vision]
+- (exercise?) B. I. 60/40 x BB Front Squat or  [? vision]
+- (exercise?) Push Press
+- (exercise?) 2.24 x DB Renegade Row
+- (exercise?) C. 1. 50/35/20 Cal Echo Bike I:l  [?]
+- (exercise?) 2. 60/40 x DBall Glute Bridge  [?]
+- (exercise?) C. I.50/35/20 Cal Echo Bike |:1  [? vision]
+- (exercise?) 2.60/40 x DBall Glute Bridge  [? vision]
+- (exercise?) Floor Press
+- (exercise?) D. I.60/40 x BB Bench Press 0r  [?]
+- (exercise?) D. I.60/40 x BB Bench Press or  [? vision]
+- (exercise?) 2.400/300m Pair Run or  [?]
+- (exercise?) 2. 400/300m Pair Run or  [? vision]
+- (exercise?) 32/24 x DB Cluster
+- (prescription?) *I:00 Between Blocks  [?]
+- (prescription?) *1:00 Between Blocks  [? vision]
+
+</details>
+
+<details><summary>raw — rapidocr</summary>
+
+```
+COMPLETE
+WARM UP
+4:00 Cap
+I0 x BB Hip Thrust or Bench Press
+15/12/9 Cal Echo/Ski
+I0 x BB Front Squat or Push Press
+8.8 x World's Greatest Stretch
+In Pairs I:l - 4 x Blocks of Every 2:30 x 4
+A. 1. 50/40/30 Cal Ski Erg I:I
+2. 60/40 x KB Reverse Lunge
+B. 1.60/40 x BB Front Squat or
+Push Press
+2.24 x DB Renegade Row
+C. 1. 50/35/20 Cal Echo Bike I:l
+2. 60/40 x DBall Glute Bridge
+Floor Press
+D. I.60/40 x BB Bench Press 0r
+Hip Thrust
+2.400/300m Pair Run or
+32/24 x DB Cluster
+*I:00 Between Blocks
+60/40 = 10 Rep Efforts
+32/24 = 6/4 Rep Efforts
+```
+</details>
+
+<details><summary>raw — Apple Vision</summary>
+
+```
+COMPLETE
+WARM UP
+10 x BB Hip Thrust or Bench Press
+15/12/9 Cal Echo/Ski
+10 x BB Front Squat or Push Press
+8.8 x World's Greatest Stretch
+4:00 Cap
+In Pairs I:| - 4 x Blocks of Every 2:30 x 4
+A. I. 50/40/30 Cal Ski Erg |:l
+2.60/40 x KB Reverse Lunge
+B. I. 60/40 x BB Front Squat or
+Push Press
+2.24 x DB Renegade Row
+C. I.50/35/20 Cal Echo Bike |:1
+2.60/40 x DBall Glute Bridge
+Floor Press
+D. I.60/40 x BB Bench Press or
+Hip Thrust
+2. 400/300m Pair Run or
+32/24 x DB Cluster
+*1:00 Between Blocks
+60/40 = 10 Rep Efforts
+32/24 = 6/4 Rep Efforts
+```
+</details>
+
+
+---
+
 ## Extraction summary
 
-- Blocks: 1, 2
+- Blocks: 1, 2, 3
 - Block 1: 131 screenshots
 - Block 2: 133 screenshots
-- Total screenshots: 264
-- OCR'd this run: 264
+- Block 3: 99 screenshots
+- Total screenshots: 363
+- OCR'd this run: 363
 - Engines: rapidocr + Apple Vision
 - rapidocr errors: 0
 - Cache: `source/.revl_ocr_cache/`  (git-ignored)

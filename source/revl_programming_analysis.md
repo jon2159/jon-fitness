@@ -1,8 +1,14 @@
 # REVL programming — reverse-engineered analysis (Step 2)
 
-Input: `source/revl_raw_data.md` (264 screenshots, Block 1 + Block 2 2026, read by two
-independent OCR engines) plus direct visual reading of a sample of the source images.
-Quantitative tables produced by `source/analyze_revl.py`.
+Input: `source/revl_raw_data.md` — **363 screenshots across Blocks 1, 2 and 3 of 2026**
+(131 / 133 / 99), read by two independent OCR engines, plus direct visual reading of a
+sample of the source images. Quantitative tables produced by `source/analyze_revl.py`.
+
+> **Block 3 is incomplete by REVL, not by this capture.** Block 3's **Rebuild phase (3 weeks)
+> had not been published** when it was captured on 2026-09-09 — its manual ends at Peak Wk 3.
+> Every Block-3 figure below therefore covers Volume → Peak only. Capture of the Rebuild weeks
+> is an open task (see the project memory note); **do not read the absence as a programming
+> finding.**
 
 This file is the **analysis layer**. The skill-facing guidance distilled from it lives in
 `.claude/skills/jon-fitness/references/revl-class-integration.md`.
@@ -32,6 +38,9 @@ total quoted for *Complete* and *Sweat Team* below is a **team total** unless st
 *(Confirmed by the studio; the posters themselves do not say so.)*
 
 **2. Peak is three weeks, and weeks 2 and 3 are testing weeks.** **[Observed + confirmed]**
+Block 3's table of contents states this outright in its own section titles —
+`4.2.0 Week 2 Perform/Move Baseline` and `4.3.0 Week 3 Sweat Baseline` — which upgrades this
+from inference to REVL's own labelling.
 - **Peak Wk 1** (programme wk 8) — the heavy wave.
 - **Peak Wk 2** (wk 9) — **1RM & 3RM strength testing.** *(image-checked: Monday Perform
   Total = `S1. 30:00 Cap — 0:00–18:00 1RM BB Deadlift; 18:00–30:00 1RM BB Push Press/Jerk`,
@@ -51,10 +60,10 @@ phase length.
 
 | Phase | Wks | Purpose **[Inference]** | Main-lift load **[Observed]** | Volume | Complexity | Conditioning | Recovery demand |
 |---|---|---|---|---|---|---|---|
-| **Volume** | 1–3 | Accumulate work capacity, muscle and pattern familiarity before loads rise | %1RM tokens cluster **40–65%** (`40`, `45-50-50`, `50-50-60-60`, `50-50-60-65`, `40-40-50-50`) | Highest reps (8–14), highest density | Moderate — tempo/eccentric cues on **52%** of sessions | High (partner/team format on **80%**) | Moderate-high, mostly **metabolic + muscular** |
-| **Build** | 4–6 | Convert accumulated volume into force | Tokens climb to **50–90%** (`50-60-70-75`, `55-65-75-80-85-85`, `60-70-75-80-85`, `60-70-80-85-90-90`) | Reps fall (6–10) | Tempo cues drop to **30%** — attention shifts to load | Team format drops to **44%** — more individual work | Rising **neural** demand |
-| **Deload** | 7 | Shed accumulated fatigue before the heavy weeks | Tokens fall back to **30–55%** (`40-50`, `40`, `40-45-50-55`, `30-40`) | Strength sets cut (e.g. *Every 3:30 × 4*, ~8 reps) *(image-checked)* | Density work **rises to 90%** of sessions | Team format **85%** | **Strength deload only** — see A3 |
-| **Peak** | 8–10 | Express maximal strength; re-test benchmarks | The single wave token is `60-70-80-90-95-95` *(image-checked, Block 1)*; Block 2 tops at `…-90-92.5%` *(image-checked)* | Lowest reps (1–5), longest rest (`:45` between exercises) | Density work **lowest (49%)** — rest is protected | Team format **43%** | Highest **neural** demand |
+| **Volume** | 1–3 | Accumulate work capacity, muscle and pattern familiarity before loads rise | %1RM tokens cluster **40–65%** (`40`, `45-50-50`, `50-50-60-60`, `50-50-60-65`, `40-40-50-50`) | Highest reps (8–14), highest density | Moderate — tempo/eccentric cues on **55%** of sessions | High (partner/team format on **74%**) | Moderate-high, mostly **metabolic + muscular** |
+| **Build** | 4–6 | Convert accumulated volume into force | Tokens climb to **50–90%** (`50-60-70-75`, `55-65-75-80-85-85`, `60-70-75-80-85`, `60-70-80-85-90-90`) | Reps fall (6–10) | Tempo cues drop to **27%** — attention shifts to load | Team format drops to **47%** — more individual work | Rising **neural** demand |
+| **Deload** | 7 | Shed accumulated fatigue before the heavy weeks | Tokens fall back to **30–55%** (`40-50`, `40`, `40-45-50-55`, `30-40`) | Strength sets cut (e.g. *Every 3:30 × 4*, ~8 reps) *(image-checked)* | Density work **rises to 90%** of sessions | Team format **87%** | **Strength deload only** — see A3 |
+| **Peak** | 8–10 | Express maximal strength; re-test benchmarks | Wave tokens `60-70-80-90-95-95` and `60-70-80-85-90-95` *(image-checked, Blocks 1 & 3)*; Block 2 tops at `…-90-92.5%` *(image-checked)* | Lowest reps (1–5), longest rest (`:45` between exercises) | Density work **lowest (51%)** — rest is protected | Team format **47%** | Highest **neural** demand |
 | **Rebuild** | 11–13 | Re-accumulate; bridge into the next block | Only `40-50` warm-up tokens legible; **%-prescription drops to 12%** of sessions | Moderate | Tempo cues back to **50%** | Team format back to **85%** | Moderate, back toward metabolic |
 
 ## A2. The variable that actually changes across the block
@@ -62,13 +71,13 @@ phase length.
 **[Pattern]** Movement *selection* is close to constant; **load and rep-scheme** carry the
 periodisation. Barbell-pattern exposure barely moves phase to phase:
 
-| Phase | Sessions containing BB squat | Sessions containing BB hinge |
-|---|--:|--:|
-| Volume | 32% | 53% |
-| Build | 32% | 52% |
-| Deload | 25% | 50% |
-| Peak | 26% | 44% |
-| Rebuild | 23% | 55% |
+| Phase | Sessions containing BB squat | Sessions containing BB hinge | n |
+|---|--:|--:|--:|
+| Volume | 30% | 48% | 89 |
+| Build | 30% | 52% | 93 |
+| Deload | 30% | 43% | 30 |
+| Peak | 27% | 44% | 91 |
+| Rebuild | 23% | 55% | 60 |
 
 **[Inference]** REVL periodises *intensity*, not *exercise menu*. For a PT this matters:
 you cannot assume a phase "gives the squat a rest" — the pattern is trained in every phase;
@@ -93,22 +102,22 @@ corrective work, and a **poor** window for adding more high-rep metabolic volume
 
 | Quality (% of that phase's sessions) | Volume | Build | Deload | Peak | Rebuild |
 |---|--:|--:|--:|--:|--:|
-| %1RM prescribed | 30% | 29% | 30% | 18% | 12% |
-| RIR prescribed | 13% | 24% | 0% | 10% | 17% |
-| RPE prescribed | 23% | 24% | 25% | 28% | 17% |
-| Tempo / eccentric cue | 52% | 30% | 40% | 41% | 50% |
-| EMOM / interval density | 72% | 67% | 90% | 49% | 80% |
+| %1RM prescribed | 29% | 29% | 30% | 19% | 12% |
+| RIR prescribed | 18% | 25% | 10% | 10% | 17% |
+| RPE prescribed | 22% | 19% | 23% | 24% | 17% |
+| Tempo / eccentric cue | 55% | 27% | 40% | 42% | 50% |
+| EMOM / interval density | 76% | 69% | 90% | 51% | 80% |
 | **AMRAP / time-capped** | **100%** | **100%** | **100%** | **100%** | **100%** |
-| Partner / team format | 80% | 44% | 85% | 43% | 85% |
+| Partner / team format | 74% | 47% | 87% | 47% | 85% |
 
 **[Pattern]** Three readings:
 1. **Every session in every phase is time-capped.** There is no untimed, purely
-   self-paced session anywhere in the 264. **[Observed]**
+   self-paced session anywhere in the 363. **[Observed]**
 2. **%1RM prescription falls away in Peak and Rebuild** while RPE rises — the heaviest
    phase leans on *"build to a heavy 3"*-style autoregulation as much as on fixed
    percentages. **[Observed]** **[Inference]** this is sensible for a group setting where
    individual 1RMs are unverified.
-3. **Rest is protected only in Peak** (density formats drop to 49%). Everywhere else the
+3. **Rest is protected only in Peak** (density formats drop to 51%). Everywhere else the
    session is a density/partner format. **[Pattern]**
 
 ## A5. Week-by-week map (where the evidence allows)
@@ -130,24 +139,30 @@ where Block 1 reaches ~95% *(image-checked)*. Treat the exact ceiling as block-s
 
 # B. Movement-pattern frequency — the weekly architecture
 
-## B1. Overall exposure (share of all 264 sessions)
+## B1. Overall exposure (share of all sessions)
 
-| Pattern | sessions | % |
-|---|--:|--:|
-| Hinge (any implement) | 200 | 76% |
-| Squat (any implement) | 195 | 74% |
-| Erg / machine cardio | 182 | 69% |
-| Unilateral lower | 162 | 61% |
-| Core / trunk | 145 | 55% |
-| Olympic / ballistic | 145 | 55% |
-| Horizontal push | 140 | 53% |
-| Vertical push | 126 | 48% |
-| Vertical pull | 112 | 42% |
-| Horizontal pull | 104 | 39% |
-| Running / locomotion | 88 | 33% |
-| Burpee / mixed metcon | 79 | 30% |
-| **Rotation / anti-rotation** | **40** | **15%** |
-| **Carry / loaded hold** | **33** | **12%** |
+Across all **363** sessions (Blocks 1–3); the two-block figures are shown for comparison.
+
+| Pattern | sessions | % (3 blocks) | % (2 blocks) |
+|---|--:|--:|--:|
+| Hinge (any implement) | 268 | 74% | 76% |
+| Squat (any implement) | 265 | 73% | 74% |
+| Erg / machine cardio | 248 | 68% | 69% |
+| Unilateral lower | 231 | 64% | 61% |
+| Olympic / ballistic | 202 | 56% | 55% |
+| Core / trunk | 199 | 55% | 55% |
+| Horizontal push | 193 | 53% | 53% |
+| Vertical push | 181 | 50% | 48% |
+| Vertical pull | 157 | 43% | 42% |
+| Horizontal pull | 141 | 39% | 39% |
+| Running / locomotion | 122 | 34% | 33% |
+| Burpee / mixed metcon | 108 | 30% | 30% |
+| **Rotation / anti-rotation** | **54** | **15%** | 15% |
+| **Carry / loaded hold** | **40** | **11%** | 12% |
+
+**[Pattern] Adding a third block moved every figure by ≤3 points.** The weekly architecture
+is **stable house-style, not block-specific** — which is the strongest evidence in this
+document. The two gaps (carries, rotation/anti-rotation) hold across all three blocks.
 
 **[Pattern]** Squat and hinge are near-ubiquitous. **Carries and rotation/anti-rotation are
 the two clearly under-trained patterns** — the standing PT opportunity.
@@ -395,6 +410,17 @@ python source/extract_revl.py     # -> source/revl_raw_data.md  (Step 1)
 python source/analyze_revl.py     # -> the frequency tables used above
 python source/analyze_revl.py --show-keys   # the exact keyword lists
 ```
+
+### A data-quality defect found in Block 3
+
+**[Observed]** `Block 3 / Volume Wk 2 / Wednesday` (manual 71, policy 2656) is **broken in
+REVL's own CMS**: the page's `<img>` `src` attribute contains a second, HTML-escaped `<img>`
+tag nested inside it, so the browser requests a malformed URL and the image renders broken
+**for members too**. The real file (`file_manager/external/download/5466`, a *Move Total*
+poster) was recovered by repairing the DOM before capture. The same page lists **two**
+sessions (`Perform Lower Week 2`, `Move Total Bench Week 2`) but carries only **one** image —
+so **no Perform Lower Week 2 graphic exists on it at all**. That is why Block 3 / Volume Wk 2
+holds 9 files rather than 10. Worth reporting to whoever maintains the manual.
 
 Method limits, stated plainly: keyword presence is a **lower bound** on exposure (synonyms
 and OCR misses are not captured); it counts *sessions containing* a pattern, not sets or

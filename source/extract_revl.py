@@ -53,6 +53,7 @@ SRC = Path(__file__).resolve().parent
 BLOCK_DIRS = {
     1: REPO / "REVL Block 1 2026",
     2: REPO / "REVL Block 2 programming 2026",
+    3: REPO / "REVL Block 3 programming 2026",   # Rebuild not yet published by REVL
 }
 OUT = SRC / "revl_raw_data.md"
 CACHE = SRC / ".revl_ocr_cache"
@@ -284,7 +285,7 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--limit", type=int, default=0)
-    ap.add_argument("--blocks", type=int, nargs="+", choices=[1, 2], default=[1, 2])
+    ap.add_argument("--blocks", type=int, nargs="+", choices=[1, 2, 3], default=[1, 2, 3])
     ap.add_argument("--no-vision", action="store_true")
     args = ap.parse_args(argv)
 

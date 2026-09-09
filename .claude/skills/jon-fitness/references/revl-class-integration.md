@@ -30,11 +30,15 @@ REVL.
    state. This decides how 1 and 2 are applied.
 
 **Evidence labelling used below**
-- **[Observed]** — read off the captured screenshots (Block 1 & Block 2, 2026; see
-  `source/revl_raw_data.md` and `source/revl_programming_analysis.md`).
+- **[Observed]** — read off the captured screenshots (**Blocks 1, 2 and 3 of 2026 — 363
+  sessions**; see `source/revl_raw_data.md` and `source/revl_programming_analysis.md`).
 - **[Pattern]** — repeated across many sessions; backed by the counts in the analysis file.
 - **[Course]** — an ISA CPT principle, cited *(WkNN Ch## pN)*.
 - **[Inference]** — a reasonable reading of intent, not stated by REVL.
+
+**Coverage.** Blocks 1 and 2 are complete (13 weeks each). **Block 3's Rebuild phase had not
+been published by REVL** when it was captured (2026-09-09) — Block 3 covers Volume → Peak
+only. Treat that as a gap in the source, not a programming finding.
 
 **Evidence quality — read this before quoting anything.** The posters are stylised type over
 photos; two OCR engines still lose spacing and misread digits. **Never present a specific
@@ -68,7 +72,7 @@ tracks and three conditioning formats.
 - **Session shape [Pattern]:** 4:00-capped warm-up that ramps the day's main pattern at
   ~40% → **S1** density block holding the main lift + accessories → **S2** two 7–8 min
   AMRAP/cap blocks → **S3** partner finisher.
-- **Every session in all 264 screenshots is time-capped.** There is no untimed, self-paced
+- **Every session in all 363 screenshots is time-capped.** There is no untimed, self-paced
   work anywhere in the programme. **[Observed]**
 
 ### Three things to get right about the weekend sessions
@@ -107,8 +111,8 @@ going into Monday.
 | 4–6 | **Build** | 5–10 reps; waves reaching roughly **85–90%**; RIR tightens 4–5 → 2–3 | Mixed muscular + rising neural |
 | 7 | **Deload** | ~8 reps at **40–50%**, few sets, long rest — **strength deload only** (§4) | Metabolic only |
 | **8** | **Peak Wk 1** | The heavy wave: 1–5 reps to roughly **90–95%** (Block 1) / **~92.5%** (Block 2); rest protected (`:45`+) | Neural |
-| **9** | **Peak Wk 2 — 1RM & 3RM TESTING** | *image-checked:* `30:00 Cap — 0:00–18:00 **1RM BB Deadlift**; 18:00–30:00 **1RM BB Push Press/Jerk**`, builds `60-70-80-90-100-100+%` of goal 1RM | **Maximal — highest-stakes week of the block** |
-| **10** | **Peak Wk 3 — conditioning baseline testing** | **Sweat Engine and Sweat Sprint baseline** sessions; strength days back to normal loading | Maximal metabolic |
+| **9** | **Peak Wk 2 — 1RM & 3RM TESTING** *(Block 3's own TOC calls it `Week 2 Perform/Move Baseline`)* | *image-checked:* `30:00 Cap — 0:00–18:00 **1RM BB Deadlift**; 18:00–30:00 **1RM BB Push Press/Jerk**`, builds `60-70-80-90-100-100+%` of goal 1RM | **Maximal — highest-stakes week of the block** |
+| **10** | **Peak Wk 3 — conditioning baseline testing** *(Block 3's own TOC calls it `Week 3 Sweat Baseline`)* | **Sweat Engine and Sweat Sprint baseline** sessions; strength days back to normal loading | Maximal metabolic |
 | 11–13 | **Rebuild** | Moderate loads; %-prescription largely replaced by RPE/RIR | Muscular / metabolic |
 
 ### The two testing weeks are an opportunity, not just a hazard **[Inference]**
@@ -179,15 +183,20 @@ high-rep metabolic volume.
 
 ### 5b. Overall pattern exposure and the two clear gaps
 
+Across 363 sessions, Blocks 1–3:
+
 | Pattern | % of all sessions | | Pattern | % of all sessions |
 |---|--:|---|---|--:|
-| Hinge (any implement) | 76% | | Vertical push | 48% |
-| Squat (any implement) | 74% | | Vertical pull | 42% |
-| Erg / machine cardio | 69% | | Horizontal pull | 39% |
-| Unilateral lower | 61% | | Running | 33% |
-| Core / trunk | 55% | | Burpee / metcon | 30% |
-| Olympic / ballistic | 55% | | **Rotation / anti-rotation** | **15%** |
-| Horizontal push | 53% | | **Carry / loaded hold** | **12%** |
+| Hinge (any implement) | 74% | | Vertical push | 50% |
+| Squat (any implement) | 73% | | Vertical pull | 43% |
+| Erg / machine cardio | 68% | | Horizontal pull | 39% |
+| Unilateral lower | 64% | | Running | 34% |
+| Olympic / ballistic | 56% | | Burpee / metcon | 30% |
+| Core / trunk | 55% | | **Rotation / anti-rotation** | **15%** |
+| Horizontal push | 53% | | **Carry / loaded hold** | **11%** |
+
+**[Pattern] These figures moved by ≤3 points when a third block was added** — the weekly
+architecture is stable house-style, not block-specific. Rely on it.
 
 **[Pattern] Carries and rotation/anti-rotation are the two systematically under-trained
 patterns.** Horizontal pulling (39%, concentrated on Fri/Sun) is the third.
@@ -569,8 +578,8 @@ Record the trigger and the modification in the plan's decision log.
 
 ### Provenance
 
-- Raw extraction: `source/extract_revl.py` → `source/revl_raw_data.md` (264 screenshots,
-  Block 1 + Block 2 2026, two OCR engines, disagreements flagged).
+- Raw extraction: `source/extract_revl.py` → `source/revl_raw_data.md` (**363 screenshots,
+  Blocks 1–3 of 2026**, two OCR engines, disagreements flagged). Block 3 Rebuild pending.
 - Analysis + all counts quoted here: `source/analyze_revl.py` →
   `source/revl_programming_analysis.md`.
 - Percentages describe the **programme as written**, not any individual's week.
