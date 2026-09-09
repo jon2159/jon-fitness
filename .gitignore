@@ -3,3 +3,7 @@
 __pycache__/
 *.pyc
 *-workspace/
+
+# REVL workout-screenshot reference libraries — large binary asset folders,
+# kept local only (each has its own INDEX.md + analysis inside).
+REVL Block*/
