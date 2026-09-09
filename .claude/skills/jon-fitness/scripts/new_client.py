@@ -33,8 +33,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("name", help="Client's name, e.g. \"John Tan\"")
     ap.add_argument(
         "--dir",
-        default=str(SKILL_ROOT / "clients"),
-        help="Directory to write the plan pair into (default: <skill>/clients)",
+        default="clients",
+        help="Directory to write the plan pair into (default: ./clients)",
     )
     ap.add_argument(
         "--force", action="store_true", help="Overwrite existing files"

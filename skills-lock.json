@@ -6,12 +6,6 @@
       "sourceType": "github",
       "skillPath": "skills/agent-browser/SKILL.md",
       "computedHash": "a674b7d81066e3cc471a7512ddb4ae724418cbfefa75cbb050b0dc430e4d57a0"
-    },
-    "ralph-plan": {
-      "source": "mastra-ai/mastra",
-      "sourceType": "github",
-      "skillPath": ".claude/skills/ralph-plan/SKILL.md",
-      "computedHash": "80c89889b37489ec4c85ade4c3d0427a20bdb1401ff5ab582aaa084a49286e63"
     }
   }
 }
