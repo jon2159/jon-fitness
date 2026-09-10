@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  LOCAL fallback scheduler for the jon-fitness nightly evaluation.
+
+  Use this ONLY if you can't run the cloud routine (see evals/README.md). launchd
+  jobs fire only while the Mac is powered on and logged in; if the laptop is asleep
+  at the scheduled time, `StartCalendarInterval` runs it once at wake. It does NOT
+  run when the laptop is off.
+
+  Install:
+    cp evals/com.jonfitness.nightly-eval.plist ~/Library/LaunchAgents/
+    launchctl load  ~/Library/LaunchAgents/com.jonfitness.nightly-eval.plist
+  Remove:
+    launchctl unload ~/Library/LaunchAgents/com.jonfitness.nightly-eval.plist
+
+  Edit the two absolute paths below if the repo or your PATH differ.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.jonfitness.nightly-eval</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>cd /Users/jonathan.tan/Desktop/Projects/jon-fitness &amp;&amp; PATH="$HOME/.local/bin:$HOME/.local/node-current/bin:/usr/local/bin:/usr/bin:/bin" bash evals/nightly.sh &gt;&gt; evals/results/.nightly.log 2&gt;&amp;1</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>35</integer></dict>
+    <dict><key>Hour</key><integer>2</integer><key>Minute</key><integer>35</integer></dict>
+    <dict><key>Hour</key><integer>6</integer><key>Minute</key><integer>35</integer></dict>
+  </array>
+
+  <key>RunAtLoad</key>
+  <false/>
+  <key>Nice</key>
+  <integer>10</integer>
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>StandardOutPath</key>
+  <string>/Users/jonathan.tan/Desktop/Projects/jon-fitness/evals/results/.launchd.out</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/jonathan.tan/Desktop/Projects/jon-fitness/evals/results/.launchd.err</string>
+</dict>
+</plist>
