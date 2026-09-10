@@ -1,0 +1,165 @@
+{
+ "ts": "20260910T090556Z",
+ "cycle": 1,
+ "label": "nightly",
+ "skill_version": {
+  "commit": "c87de02",
+  "skill_dirty": false,
+  "skill_hash": "5556ae5c4c220b3e",
+  "skill_files": 20
+ },
+ "n_selected": 25,
+ "n_scored": 0,
+ "rows": [
+  {
+   "scenario_id": "ADV-001",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "ADV-002",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "ADV-003",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "ADV-004",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "ADV-005",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "ADV-006",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "ADV-007",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0001",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0002",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0003",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0004",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0005",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0006",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0007",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0008",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0009",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0010",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0011",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0012",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0013",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0014",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0015",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0016",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0017",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  },
+  {
+   "scenario_id": "SC-0018",
+   "error": "exit 1: --dangerously-skip-permissions cannot be used with root/sudo privileges for security reasons",
+   "cycle": 1,
+   "ts": "20260910T090556Z"
+  }
+ ]
+}
