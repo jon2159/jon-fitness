@@ -98,7 +98,8 @@ def claude(prompt: str, timeout: int, cwd: Path, allowed=None) -> tuple[str, str
     if allowed:
         cmd += ["--allowed-tools", ",".join(allowed)]
     try:
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout, cwd=str(cwd))
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout,
+                           cwd=str(cwd), stdin=subprocess.DEVNULL)
     except subprocess.TimeoutExpired:
         return "", f"timeout after {timeout}s"
     except FileNotFoundError:

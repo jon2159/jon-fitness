@@ -73,7 +73,8 @@ def claude(prompt, timeout=300, allowed=None):
     cmd = ["claude", "-p", prompt, "--permission-mode", "bypassPermissions"]
     if allowed:
         cmd += ["--allowed-tools", ",".join(allowed)]
-    r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout, cwd=str(REPO))
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout,
+                       cwd=str(REPO), stdin=subprocess.DEVNULL)
     return (r.stdout.strip(), "" if r.returncode == 0 else r.stderr.strip()[:300])
 
 
