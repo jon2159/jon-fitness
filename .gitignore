@@ -12,3 +12,6 @@ REVL Block*/
 source/.revl_ocr_cache/
 source/.revl_extract.log
 
+
+# Personal client health data — never publish
+clients/

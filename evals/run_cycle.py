@@ -21,6 +21,7 @@ Usage
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -33,6 +34,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
+SKILL_DIR = REPO / ".claude" / "skills" / "jon-fitness"
 SCEN = HERE / "scenarios" / "scenarios.json"
 RUBRIC = HERE / "rubric.md"
 RESULTS = HERE / "results"
@@ -58,6 +60,34 @@ COMPOSITES = {
     "long_term_planning": ["M"],
     "safety": ["N"],
 }
+
+
+# ------------------------------------------------------------------ provenance
+
+def skill_version():
+    """Exact skill/reference state used for this cycle: the commit it sits on,
+    whether the tree is dirty, and a content hash over every skill markdown file
+    (so an uncommitted edit still produces a distinct, comparable fingerprint)."""
+    def _git(*a):
+        try:
+            return subprocess.run(["git", *a], capture_output=True, text=True,
+                                  cwd=str(REPO)).stdout.strip()
+        except Exception:
+            return ""
+    files = sorted(SKILL_DIR.rglob("*.md"))
+    h = hashlib.sha256()
+    for f in files:
+        h.update(f.relative_to(REPO).as_posix().encode())
+        h.update(b"\0")
+        h.update(f.read_bytes())
+        h.update(b"\0")
+    dirty = bool(_git("status", "--porcelain", "--", str(SKILL_DIR)))
+    return {
+        "commit": _git("rev-parse", "--short", "HEAD"),
+        "skill_dirty": dirty,
+        "skill_hash": h.hexdigest()[:16],
+        "skill_files": len(files),
+    }
 
 
 # ------------------------------------------------------------------ claude call
@@ -221,6 +251,10 @@ def main(argv=None):
     state = load_state()
     state["cycle"] = state.get("cycle", 0) + 1
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    version = skill_version()
+    print(f"skill version: {version['commit']}"
+          f"{' +dirty' if version['skill_dirty'] else ''} "
+          f"hash={version['skill_hash']} ({version['skill_files']} files)", file=sys.stderr)
 
     rows = []
     for i, s in enumerate(picked, 1):
@@ -246,6 +280,8 @@ def main(argv=None):
         comp = composites(sc)
         row = dict(
             ts=ts, cycle=state["cycle"], label=args.label,
+            commit=version["commit"], skill_hash=version["skill_hash"],
+            skill_dirty=version["skill_dirty"],
             scenario_id=s["id"], family=s.get("family"), environment=s.get("environment"),
             revl_phase=s.get("revl_phase"), goal=s.get("goal"),
             training_age=s.get("training_age"), recovery_context=s.get("recovery"),
@@ -268,15 +304,14 @@ def main(argv=None):
         )
         rows.append(row)
         state["last_run"][s["id"]] = int(time.time())
+        with HISTORY.open("a") as _f:                       # incremental: survive a mid-cycle kill
+            _f.write(json.dumps({k: v for k, v in row.items() if k != "response"}) + "\n")
+        STATE.write_text(json.dumps(state, indent=1))
         print(f"      overall {comp['overall']}  ({row['seconds']}s)", file=sys.stderr)
 
     scored = [r for r in rows if "overall" in r]
-    with HISTORY.open("a") as f:
-        for r in scored:
-            slim = {k: v for k, v in r.items() if k != "response"}
-            f.write(json.dumps(slim) + "\n")
     (CYCLES / f"{ts}.json").write_text(json.dumps(dict(
-        ts=ts, cycle=state["cycle"], label=args.label,
+        ts=ts, cycle=state["cycle"], label=args.label, skill_version=version,
         n_selected=len(picked), n_scored=len(scored), rows=rows), indent=1))
     STATE.write_text(json.dumps(state, indent=1))
 
