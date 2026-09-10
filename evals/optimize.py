@@ -65,9 +65,35 @@ TARGET_FILES = [
 
 
 def rows():
+    """Trained-distribution rows only. Held-out generalization and wildcard rows
+    are a read-only scoreboard — the optimizer must never see them, or it would
+    be training on the test."""
+    if not HISTORY.exists():
+        return []
+    out = []
+    for l in HISTORY.read_text().splitlines():
+        if not (l.strip() and '"overall"' in l):
+            continue
+        r = json.loads(l)
+        if r.get("set") in ("generalization", "wildcard"):
+            continue
+        out.append(r)
+    return out
+
+
+def _all_rows():
     if not HISTORY.exists():
         return []
     return [json.loads(l) for l in HISTORY.read_text().splitlines() if l.strip() and '"overall"' in l]
+
+
+def _generalization_mean():
+    R = [r for r in _all_rows() if r.get("set") == "generalization"]
+    if not R:
+        return None
+    last = max(r["cycle"] for r in R)
+    v = [r["overall"] for r in R if r["cycle"] == last]
+    return round(statistics.mean(v), 3) if v else None
 
 
 def claude(prompt, timeout=300, allowed=None):

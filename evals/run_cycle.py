@@ -239,12 +239,28 @@ def main(argv=None):
     ap.add_argument("--answer-timeout", type=int, default=420)
     ap.add_argument("--grade-timeout", type=int, default=240)
     ap.add_argument("--label", default="", help="tag this cycle (e.g. 'post-fix-C3')")
+    ap.add_argument("--generalization", type=int, default=0,
+                    help="also run N held-out generalization scenarios (nightly: 6)")
+    ap.add_argument("--wildcards", type=int, default=0,
+                    help="also run N Claude-authored wildcard scenarios (nightly: 3)")
+    ap.add_argument("--no-consistency", action="store_true",
+                    help="skip the training-science consistency pass")
     args = ap.parse_args(argv)
 
     scenarios = load_scenarios()
     picked = select(scenarios, args.n, args.benchmark_slice, args.only, args.benchmark_only)
+    for s in picked:
+        s.setdefault("set", "benchmark" if s.get("benchmark") else "primary")
+    gen_picked = []
+    if not (args.only or args.benchmark_only or args.dry_run):
+        import harness
+        gen_picked = harness.select_generalization(args.generalization)
+        gen_picked += harness.make_wildcards(args.wildcards)
+        picked = picked + gen_picked
     print(f"cycle: {len(picked)} scenarios "
-          f"({sum(1 for s in picked if s.get('benchmark'))} benchmark)", file=sys.stderr)
+          f"({sum(1 for s in picked if s.get('benchmark'))} benchmark, "
+          f"{sum(1 for s in picked if s.get('set') == 'generalization')} generalization, "
+          f"{sum(1 for s in picked if s.get('set') == 'wildcard')} wildcard)", file=sys.stderr)
     if args.dry_run:
         for s in picked:
             print(f"  {s['id']:9s} {s.get('family'):12s} {s['prompt'][:90]}")
@@ -283,8 +299,13 @@ def main(argv=None):
             continue
         sc = {d: int(g["scores"].get(d, 0)) for d in DIMS if d in g.get("scores", {})}
         comp = composites(sc)
+        cons = {}
+        if not args.no_consistency:
+            import harness
+            cons = harness.run_consistency(s, resp, claude, extract_json,
+                                           args.grade_timeout, REPO)
         row = dict(
-            ts=ts, cycle=state["cycle"], label=args.label,
+            ts=ts, cycle=state["cycle"], label=args.label, set=s.get("set", "primary"),
             commit=version["commit"], skill_hash=version["skill_hash"],
             skill_dirty=version["skill_dirty"],
             scenario_id=s["id"], family=s.get("family"), environment=s.get("environment"),
@@ -304,15 +325,23 @@ def main(argv=None):
             duplication_risk=g.get("duplication_or_overtraining_risk"),
             recommended_improvement=g.get("recommended_skill_improvement"),
             failure_category=g.get("failure_category"),
+            consistency_score=cons.get("consistency_score"),
+            contradictions=cons.get("contradictions", []),
             seconds=round(time.time() - t0, 1),
             response=resp,
         )
         rows.append(row)
-        state["last_run"][s["id"]] = int(time.time())
+        if row["set"] in ("primary", "benchmark"):
+            state["last_run"][s["id"]] = int(time.time())
         with HISTORY.open("a") as _f:                       # incremental: survive a mid-cycle kill
             _f.write(json.dumps({k: v for k, v in row.items() if k != "response"}) + "\n")
         STATE.write_text(json.dumps(state, indent=1))
         print(f"      overall {comp['overall']}  ({row['seconds']}s)", file=sys.stderr)
+
+    gen_ids = [s["id"] for s in gen_picked if s.get("set") == "generalization"]
+    if gen_ids:
+        import harness
+        harness.mark_generalization_run(gen_ids)
 
     scored = [r for r in rows if "overall" in r]
     (CYCLES / f"{ts}.json").write_text(json.dumps(dict(
@@ -336,20 +365,81 @@ def main(argv=None):
     return 0
 
 
+def _trend(cur, prev):
+    if cur is None or prev is None:
+        return "—"
+    d = cur - prev
+    return "↑" if d > 0.03 else "↓" if d < -0.03 else "→"
+
+
 def write_report():
     if not HISTORY.exists():
         return
-    rows = [json.loads(l) for l in HISTORY.read_text().splitlines() if l.strip()]
-    if not rows:
+    allrows = [json.loads(l) for l in HISTORY.read_text().splitlines() if l.strip()]
+    if not allrows:
         return
+    for r in allrows:
+        r.setdefault("set", "primary")
+    # the trained distribution — everything the skill is tuned against
+    rows = [r for r in allrows if r["set"] in ("primary", "benchmark")]
+    gen_rows = [r for r in allrows if r["set"] == "generalization"]
+    wild_rows = [r for r in allrows if r["set"] == "wildcard"]
+    if not rows:
+        rows = allrows
     by_cycle = {}
     for r in rows:
         by_cycle.setdefault(r["cycle"], []).append(r)
 
     L = ["# jon-fitness — evaluation performance history\n",
-         f"_Auto-written by `evals/run_cycle.py`. {len(rows)} scored scenario runs "
-         f"across {len(by_cycle)} cycles._\n",
-         "## Cycle history\n",
+         f"_Auto-written by `evals/run_cycle.py`. {len(rows)} trained-distribution runs, "
+         f"{len(gen_rows)} generalization, {len(wild_rows)} wildcard, "
+         f"across {len(by_cycle)} cycles._\n"]
+
+    # ---- metric scoreboard: latest vs previous cycle ----
+    cyc_order = sorted(by_cycle)
+    if len(cyc_order) >= 1:
+        cur_c = cyc_order[-1]
+        prev_c = cyc_order[-2] if len(cyc_order) >= 2 else None
+
+        def cmean(rs, k):
+            v = [r[k] for r in rs if r.get(k) is not None]
+            return round(statistics.mean(v), 3) if v else None
+
+        def hf_count(rs):
+            return sum(len(r.get("hard_failures", [])) for r in rs)
+
+        cur = by_cycle[cur_c]
+        prev = by_cycle[prev_c] if prev_c else []
+        gen_cur = [r for r in gen_rows if r["cycle"] == cur_c]
+        gen_prev = [r for r in gen_rows if r["cycle"] == prev_c] if prev_c else []
+        metrics = [
+            ("Overall (trained)", cmean(cur, "overall"), cmean(prev, "overall")),
+            ("Goal alignment", cmean(cur, "goal_alignment"), cmean(prev, "goal_alignment")),
+            ("Load management", cmean(cur, "load_management"), cmean(prev, "load_management")),
+            ("Recovery", cmean(cur, "recovery"), cmean(prev, "recovery")),
+            ("Individualisation", cmean(cur, "individualisation"), cmean(prev, "individualisation")),
+            ("Programming quality", cmean(cur, "programming_quality"), cmean(prev, "programming_quality")),
+            ("Safety", cmean(cur, "safety"), cmean(prev, "safety")),
+            ("Consistency (0-5)", cmean(cur, "consistency_score"), cmean(prev, "consistency_score")),
+            ("Benchmark overall",
+             cmean([r for r in cur if r["set"] == "benchmark"], "overall"),
+             cmean([r for r in prev if r["set"] == "benchmark"], "overall")),
+            ("Generalization overall", cmean(gen_cur, "overall"), cmean(gen_prev, "overall")),
+        ]
+        L += [f"## Scoreboard — cycle {cur_c}"
+              + (f" vs {prev_c}" if prev_c else "") + "\n",
+              "| Metric | Current | Previous | Trend |", "|---|--:|--:|:-:|"]
+        for name, c, p in metrics:
+            cs = f"{c:.2f}" if c is not None else "—"
+            ps = f"{p:.2f}" if p is not None else "—"
+            L.append(f"| {name} | {cs} | {ps} | {_trend(c, p)} |")
+        hf_c, hf_p = hf_count(cur), hf_count(prev) if prev_c else None
+        L.append(f"| **Hard failures (count)** | **{hf_c}** | "
+                 f"{hf_p if hf_p is not None else '—'} | "
+                 f"{_trend(-hf_c, -hf_p) if hf_p is not None else '—'} |")
+        L.append("")
+
+    L += ["## Cycle history\n",
          "| Cycle | When (UTC) | n | Overall | Goal | Load mgmt | Recovery | Individ. | Prog. | Long-term | Safety | Label |",
          "|---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|---|"]
     for c in sorted(by_cycle):
@@ -391,7 +481,7 @@ def write_report():
         for sid, h in hard:
             L.append(f"- **{sid}** — {h}")
 
-    bench = [r for r in rows if r.get("benchmark")]
+    bench = [r for r in rows if r.get("set") == "benchmark" or r.get("benchmark")]
     if bench:
         bc = {}
         for r in bench:
@@ -399,6 +489,41 @@ def write_report():
         L += ["\n## Benchmark (regression) trend\n", "| Cycle | n | Benchmark overall |", "|---|--:|--:|"]
         for c in sorted(bc):
             L.append(f"| {c} | {len(bc[c])} | {statistics.mean(bc[c]):.2f} |")
+
+    if gen_rows:
+        gc = {}
+        for r in gen_rows:
+            gc.setdefault(r["cycle"], []).append(r)
+        L += ["\n## Generalization (held-out) trend\n",
+              "_Never optimized against. If this diverges from the trained overall, the skill "
+              "is being fitted to the test._\n",
+              "| Cycle | n | Held-out overall | Consistency | Hard fails |", "|---|--:|--:|--:|--:|"]
+        for c in sorted(gc):
+            rs = gc[c]
+            ov = statistics.mean(r["overall"] for r in rs if r.get("overall") is not None)
+            cv = [r["consistency_score"] for r in rs if r.get("consistency_score") is not None]
+            hf = sum(len(r.get("hard_failures", [])) for r in rs)
+            cons_s = f"{statistics.mean(cv):.2f}" if cv else "—"
+            L.append(f"| {c} | {len(rs)} | {ov:.2f} | {cons_s} | {hf} |")
+
+    _lc = max(by_cycle)
+    contra = [(r["scenario_id"], c)
+              for r in allrows if r["cycle"] == _lc
+              for c in r.get("contradictions", [])]
+    if contra:
+        L += ["\n## Consistency contradictions — latest cycle\n"]
+        for sid, c in contra[:12]:
+            L.append(f"- **{sid}** — {c}")
+
+    if wild_rows:
+        w_latest = [r for r in wild_rows if r["cycle"] == max(r["cycle"] for r in wild_rows)]
+        if w_latest:
+            L += ["\n## Wildcards — latest cycle\n",
+                  "_Exploratory. A recurring failure pattern here → distil into a permanent "
+                  "benchmark scenario (the pattern, not the prompt)._\n"]
+            for r in w_latest:
+                L.append(f"- **{r['scenario_id']}** overall {r.get('overall')} — "
+                         f"{'; '.join(r.get('major_errors', [])[:2]) or 'no major errors flagged'}")
 
     REPORT.write_text("\n".join(L) + "\n")
 

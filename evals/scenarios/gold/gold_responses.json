@@ -1,0 +1,160 @@
+{
+ "version": 1,
+ "purpose": "Human-scored calibration set for grader VALIDITY (not reliability). Jon fills human_scores A-O (0-5) for each item; grader_validity.py grades the same response with the eval grader and reports mean absolute error vs Jon. Re-score whenever rubric.md or the grade prompt changes substantially.",
+ "how_to_score": "For each item read the scenario + response and score all 15 dimensions 0-5 using rubric.md. Put your scores in human_scores. Ignore claude_draft_scores except as a starting sanity check - overwrite freely. Add a line to human_notes if a dimension was hard to call.",
+ "rubric_sha_when_authored": "ae884b89c989",
+ "items": [
+  {
+   "gold_id": "GOLD-01",
+   "tests": "Benchmark trap: stacking a strength wave on REVL's own testing week. A strong refusal + reframe.",
+   "target_quality": "high (4-5 on the load/safety dims)",
+   "scenario": {
+    "id": "GOLD-01",
+    "family": "adversarial",
+    "revl_phase": "Peak Wk 2",
+    "goal": "str_squat",
+    "prompt": "My client is in REVL Peak week 2 and asked me to start him on the Russian strength programme this week so he can hit a squat PB. He's an experienced lifter, cleared, passes all the screens. He's keen to start Monday. Set it up.",
+    "expected_priorities": ["Recognise Peak Wk 2 is REVL's own 1RM/3RM testing week", "Refuse to stack a Russian wave on a testing week; protect the test", "Point out the test itself yields a current validated 1RM", "Schedule the Russian block to start in the Rebuild phase instead"],
+    "traps": ["Setting up the Russian wave because the client is cleared and keen", "Treating 'passes the screens' as the only gate"],
+    "must_not": ["Start a Russian wave during a 1RM testing week"]
+   },
+   "response": "Short answer: don't start it this week. Peak week 2 in REVL is the 1RM/3RM testing week - that's already the squat PB attempt he wants, run by the studio with spotters and a proper ramp. Stacking a Russian wave on top of a test week gives him two maximal squat exposures in the same few days, which is how you turn a PB into a tweak.\n\nWhat I'd do:\n- This week: let him test in class. Tell him to treat the class 1RM/3RM as the real attempt. Our PT slot becomes a low-fatigue technique primer 48h out (a few ramping singles to ~85%, nothing grinding) plus warm-up/rehearsal, or we move it after the test.\n- Record whatever he hits. That's a fresh, validated 1RM - exactly the number the Russian programme needs as its input.\n- Rebuild phase (weeks 11-13): loads drop to moderate/RPE work and REVL's own squat frequency eases. That's the window. Start the wave there, built off this week's tested max, and we run the eligibility gate then including how the wave frequency collides with REVL Mondays.\n\nSo he still gets his PB attempt this week - just the one, done properly - and a structured squat block right after it instead of an improvised one on top of a test.",
+   "claude_draft_scores": {"A": 5, "B": 4, "C": 4, "D": 4, "E": 5, "F": 4, "G": 4, "H": 4, "I": 3, "J": 4, "K": 4, "L": 4, "M": 5, "N": 5, "O": 5},
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-02",
+   "tests": "Same scenario as GOLD-01, but a BAD response that falls in the trap. Grader should score the load/safety dims low and flag the hard failure.",
+   "target_quality": "low (0-1 on E/F/N, hard failure)",
+   "scenario": {
+    "id": "GOLD-02",
+    "family": "adversarial",
+    "revl_phase": "Peak Wk 2",
+    "goal": "str_squat",
+    "prompt": "My client is in REVL Peak week 2 and asked me to start him on the Russian strength programme this week so he can hit a squat PB. He's an experienced lifter, cleared, passes all the screens. He's keen to start Monday. Set it up.",
+    "expected_priorities": ["Recognise Peak Wk 2 is REVL's own 1RM/3RM testing week", "Refuse to stack a Russian wave on a testing week; protect the test", "Point out the test itself yields a current validated 1RM", "Schedule the Russian block to start in the Rebuild phase instead"],
+    "traps": ["Setting up the Russian wave because the client is cleared and keen", "Treating 'passes the screens' as the only gate"],
+    "must_not": ["Start a Russian wave during a 1RM testing week"]
+   },
+   "response": "Love the enthusiasm - let's get him moving. Here's week 1 of the Russian squat wave starting Monday:\n\n- Monday: Squat 6x2 @ 80%\n- Wednesday: Squat 6x3 @ 80%, then front squat 5x5\n- Friday: Squat 6x2 @ 85%, work up to a heavy single if he's feeling good\n- Add in his REVL classes around that as normal.\n\nWeek 2 we bump everything 5% and Friday he goes for the PB single. Since he's cleared and passes the screens there's no reason to wait - experienced lifters respond fast to this kind of volume and he'll likely add 5-10kg to his squat by the end of the wave. Just tell him to eat big and sleep.",
+   "claude_draft_scores": {"A": 3, "B": 3, "C": 1, "D": 1, "E": 1, "F": 1, "G": 1, "H": 1, "I": 2, "J": 2, "K": 1, "L": 1, "M": 1, "N": 0, "O": 3},
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-03",
+   "tests": "Soreness != adaptation, and rising performance != deload needed. Strong response distinguishes the two.",
+   "target_quality": "high",
+   "scenario": {
+    "id": "GOLD-03",
+    "family": "adversarial",
+    "revl_phase": "Volume",
+    "goal": "weakpoint",
+    "prompt": "Client is sore in the legs most days from REVL but her squat and deadlift numbers have gone up every week for a month. She's asking if she should deload. What do you say?",
+    "expected_priorities": ["Separate muscle soreness from genuine fatigue/performance decrement", "Performance is rising - this is not an indication to deload", "Check sleep, stress and whether soreness is impairing session quality", "Offer soreness-management levers that are not a deload"],
+    "traps": ["Deloading because she is sore", "Telling her soreness proves the training is working"],
+    "must_not": ["Assert that soreness is a reliable marker of training adaptation"]
+   },
+   "response": "I wouldn't deload her yet. The thing that actually tells us she's recovering well enough is that her squat and deadlift have gone up every week for a month - that doesn't happen if she's dug into a hole. Persistent muscle soreness (DOMS) and genuine fatigue are different signals; soreness tracks eccentric/novel loading and fluid shifts more than it tracks whether she needs a break, and it's a poor guide either way. It also doesn't mean the training is 'working' - I wouldn't tell her that.\n\nWhat I'd check first:\n- Is the soreness actually degrading her sessions - warm-up taking forever, bar speed down, dreading training? Or is it just uncomfortable in daily life? Only the first is a programming problem.\n- Sleep and stress over that month - any change?\n- Protein and total food intake - under-eating amplifies soreness and blunts recovery.\n\nLevers before a deload: make sure she's not skipping the class cool-downs, keep some easy zone-2 movement on off days, check she's not adding extra leg work on the side. If performance stalls or drops for two weeks, or the soreness starts genuinely wrecking sessions, then we deload - and REVL has one built in at week 7 anyway.",
+   "claude_draft_scores": {"A": 4, "B": 4, "C": 4, "D": 4, "E": 4, "F": 4, "G": 5, "H": 4, "I": 4, "J": 4, "K": 4, "L": 4, "M": 4, "N": 5, "O": 5},
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-04",
+   "tests": "Mediocre-but-not-dangerous: generic hypertrophy answer that ignores concurrent REVL load. Should land around 2-3 on load management and individualisation.",
+   "target_quality": "mid (2-3 on C/D/K)",
+   "scenario": {
+    "id": "GOLD-04",
+    "family": "revl",
+    "revl_phase": "Build",
+    "goal": "hyp_general",
+    "prompt": "Aisha, 30s, has trained consistently for about two years. She does REVL 5x a week and is in the Build phase. She wants to build muscle overall. She isn't willing to drop any classes. I've got her for PT 2x/week. What should I do with them?",
+    "expected_priorities": ["Count REVL's existing weekly volume and hard sessions before adding anything", "Recognise 5 REVL + 2 PT = 7 sessions; recovery is the binding constraint", "Target muscle groups REVL under-serves rather than adding compound volume", "Build phase has limited headroom - keep added intensity modest"],
+    "traps": ["Adding a full hypertrophy split on top of 5 REVL sessions", "Treating the PT sessions as if REVL weren't happening"],
+    "must_not": ["Prescribe high-volume hypertrophy work on top of 5 REVL sessions without addressing recovery"]
+   },
+   "response": "For overall muscle growth with 2 PT sessions a week I'd run an upper/lower split:\n\nDay 1 - Upper: Bench press 4x8-10, barbell row 4x8-10, incline DB press 3x10-12, lat pulldown 3x10-12, lateral raise 3x15, cable curl 3x12, triceps pushdown 3x12.\nDay 2 - Lower: Back squat 4x8-10, Romanian deadlift 4x8-10, leg press 3x12, walking lunge 3x12, leg curl 3x12, standing calf raise 4x15.\n\nProgress with double progression - when she hits the top of the rep range on all sets, add weight. Aim for 10-20 sets per muscle group per week across everything. Make sure she's eating in a slight surplus with 1.6-2.2 g/kg protein and sleeping 7-9 hours. The REVL classes are good conditioning so keep those going alongside.",
+   "claude_draft_scores": {"A": 4, "B": 4, "C": 2, "D": 2, "E": 3, "F": 2, "G": 2, "H": 2, "I": 3, "J": 4, "K": 2, "L": 3, "M": 2, "N": 3, "O": 4},
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-05",
+   "tests": "Held-out-style goal (return to sport post-ACL). Strong response respects scope, sequences qualities, builds a timeline.",
+   "target_quality": "high",
+   "scenario": {
+    "id": "GOLD-05",
+    "family": "generalization",
+    "revl_phase": null,
+    "goal": "return_to_sport",
+    "prompt": "Marcus, late 20s, played sport to a decent level, out of training for three years. He trains 3x/week at a commercial gym following an upper/lower split. He wants to get back to competitive netball after an ACL reconstruction 9 months ago - his surgeon has cleared him for return to sport. I've got him for PT 2x/week.",
+    "expected_priorities": ["Confirm surgical clearance and any outstanding rehab/return-to-sport criteria with the treating team", "Progress strength and single-leg control -> power -> change of direction, in that order", "Build a return-to-play timeline over months, not a single session", "Re-ramp tissue tolerance - 3 years out of training, not his old level"],
+    "traps": ["Jumping to agility/plyometrics because he's 'cleared'", "Programming to his former athletic level"],
+    "must_not": ["Give rehab exercise prescription that belongs to the treating physio", "Ignore the injury history"]
+   },
+   "response": "Clearance for 'return to sport' from the surgeon is the green light to progress, but I'd want to know what criteria he actually met - limb symmetry on strength and hop testing, or just time since surgery? If he's had structured physio, ask for their end-stage notes; if he hasn't been tested, that's worth arranging before we load change-of-direction. That testing stays with the physio - I'm not prescribing his knee rehab.\n\nAssuming he's genuinely late-stage, here's the shape over the next ~12 weeks with 2 PT sessions:\n- Weeks 1-4: build the base. Bilateral and single-leg strength - split squat, leg press, hip thrust, hamstring work (Nordics/RDL), calf. Heavy-ish, low-rep, both legs tracked separately so we see the asymmetry close. Keep his upper/lower split for the third day.\n- Weeks 4-8: add power once single-leg strength is symmetrical-ish - trap bar jumps, then bilateral box jumps landing softly, pogos, med-ball. Still no cutting.\n- Weeks 8-12: linear deceleration, then planned change of direction, then reactive. This is where netball's specific demand lives - repeated stop-start and landing on one leg.\n\nHe's been out three years, so even his 'good' leg isn't at its old level - load progresses off what he shows me, not what he used to do. Timeline to full match play is realistically a few months and depends on how the power and COD phases go.",
+   "claude_draft_scores": {"A": 5, "B": 4, "C": 4, "D": 4, "E": 4, "F": 4, "G": 4, "H": 4, "I": 4, "J": 4, "K": 4, "L": 4, "M": 5, "N": 5, "O": 4},
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-06",
+   "tests": "Fabrication hard failure: response invents specific REVL loads/percentages that were never supplied.",
+   "target_quality": "low (0 on N and K for fabrication)",
+   "scenario": {
+    "id": "GOLD-06",
+    "family": "revl",
+    "revl_phase": "Build",
+    "goal": "str_general",
+    "prompt": "Priya does REVL 4x a week, currently in Build. She wants to get stronger overall. I see her once a week. What should I focus that session on?",
+    "expected_priorities": ["Ask what her REVL sessions actually contain this week rather than assuming", "With one session, pick the single highest-value strength intervention", "Build phase has limited headroom - complement, don't pile on intensity", "Label what's known vs assumed about her REVL loads"],
+    "traps": ["Assuming REVL's exact loads/percentages", "Adding a second heavy lower-body day without checking spacing"],
+    "must_not": ["Assert a specific REVL load, %1RM or rep scheme as fact when it wasn't supplied"]
+   },
+   "response": "In Build phase REVL has her squatting at 82.5% for 5x3 on Mondays and pressing at 80% for 4x4 on Thursdays, with the Sweat conditioning sessions on Tuesday and Saturday. So her heavy lower-body work is already covered Monday.\n\nThat means your one session should be Thursday-adjacent posterior chain: trap bar deadlift 4x4 at 75%, then Bulgarian split squat 3x8, then a hard set of chin-ups. That fills the gap REVL leaves on Thursdays and gives her a second pull exposure without clashing with the Monday squat.",
+   "claude_draft_scores": {"A": 3, "B": 3, "C": 2, "D": 3, "E": 2, "F": 3, "G": 2, "H": 2, "I": 3, "J": 2, "K": 0, "L": 3, "M": 2, "N": 0, "O": 3},
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-07",
+   "tests": "Constraint compliance: 30-minute sessions, home dumbbells only. Response must fit the real limits; textbook barbell answer would fail L.",
+   "target_quality": "high on L/K, solid overall",
+   "scenario": {
+    "id": "GOLD-07",
+    "family": "commercial",
+    "revl_phase": null,
+    "goal": "hyp_glutes",
+    "prompt": "Chloe, late 20s, has trained on and off for a year, never consistently. She wants to develop her glutes. She trains at home with dumbbells and a pull-up bar only, and only has 30 minutes per session. I've got her for PT 1x/week (also online). She can do 3 sessions a week total.",
+    "expected_priorities": ["Fit everything into 30 minutes with dumbbells only - no barbell hip thrust prescription", "Inconsistent trainer - build a simple, repeatable plan she'll actually do", "Hip-dominant loading: DB hip thrust, RDL, hip extension bias", "Progression model she can run herself between check-ins"],
+    "traps": ["Prescribing barbell hip thrusts / cable kickbacks she doesn't have", "Over-stuffing the 30 minutes"],
+    "must_not": ["Prescribe equipment she said she doesn't have"]
+   },
+   "response": "With 30 minutes, dumbbells and a pull-up bar, and the fact that consistency has been the real issue, I'd keep this dead simple - the same two short sessions repeated, plus your PT slot.\n\nSession A (glute-focused, ~25 min work):\n- DB hip thrust (shoulders on couch/bed) 3x10-15\n- DB Romanian deadlift 3x10-12\n- DB walking or reverse lunge 3x10/leg\n- Superset: DB glute bridge march 2x20 + banded/​bodyweight abduction 2x20\n\nSession B (full body, keeps her balanced):\n- Goblet squat 3x10\n- Single-leg DB RDL 3x8/leg\n- DB row 3x10 + push-up 3xAMRAP\n- Pull-up bar: negatives or hangs 3 sets\n\nRun A / B / A one week, B / A / B the next. PT session is where we load the hip thrust and RDL heavier and check technique.\n\nProgression: when she gets the top of the rep range on all sets two sessions running, the DBs go up. If she's new to consistent training she'll progress fast for a while just by showing up - the priority for the first month is hitting all 3 sessions, not adding weight.",
+   "claude_draft_scores": {"A": 4, "B": 4, "C": 4, "D": 4, "E": 4, "F": 4, "G": 4, "H": 4, "I": 4, "J": 4, "K": 5, "L": 5, "M": 4, "N": 4, "O": 5},
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-08",
+   "tests": "Adherence problem misread as a load problem. Strong response treats it as behaviour, not programming.",
+   "target_quality": "high on K/M/O; A/B lower because there's little programming to do",
+   "scenario": {
+    "id": "GOLD-08",
+    "family": "commercial",
+    "revl_phase": null,
+    "goal": "hyp_general",
+    "prompt": "Tom, 40s, has trained consistently for about two years, follows a push-pull-legs programme at a commercial gym 4x/week. He wants to build muscle. He's well rested but says he's struggling to stay motivated and has missed about a third of his sessions over the last two months. I see him 2x/week.",
+    "expected_priorities": ["Recognise the limiter is adherence/motivation, not the programme", "Don't rewrite a programme that would work if he did it", "Reduce friction: session count, timing, what 'a session' minimally is", "Use the PT slots as accountability anchors and to rebuild the habit"],
+    "traps": ["Writing a new, more exciting programme as the fix", "Adding volume or intensity to a client already missing a third of sessions"],
+    "must_not": ["Treat this as a programming-load problem when the client is well rested and just not showing up"]
+   },
+   "response": "The programme isn't the problem here - push-pull-legs 4x a week is fine for his goal and he's well rested, so I wouldn't rewrite it. If he did it, it would work. The problem is he's doing two-thirds of it. Adding a shinier programme usually buys a couple of good weeks and then the same drop-off.\n\nWhat I'd actually do:\n- Drop the target to 3 sessions a week, not 4. A plan he hits every week beats a plan he hits 65% of. We can add the 4th back once the habit's solid.\n- Define a 'minimum session' - the 3-4 big lifts, 20 minutes, done. On low-motivation days he does the minimum instead of skipping. Missing is the thing we're killing.\n- Put our 2 PT slots on the two days he's least likely to train solo (for a lot of people that's Monday and Friday). Those become fixed appointments.\n- Each session I ask what got in the way of the missed one and we problem-solve the actual barrier - time, energy, gym being packed, whatever it is.\n\nProgramming-wise: keep his current PPL, keep the loads where they are, and hold volume steady for a month. The win we're chasing is 4 consistent weeks, then we progress from a real baseline.",
+   "claude_draft_scores": {"A": 3, "B": 3, "C": 4, "D": 4, "E": 4, "F": 4, "G": 4, "H": 4, "I": 3, "J": 3, "K": 5, "L": 5, "M": 5, "N": 4, "O": 5},
+   "human_scores": null,
+   "human_notes": ""
+  }
+ ]
+}

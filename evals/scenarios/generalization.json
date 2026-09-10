@@ -1,0 +1,1369 @@
+{
+ "version": 1,
+ "generated_by": "evals/generate_generalization.py",
+ "note": "HELD-OUT. Never used for optimization. Scored and tracked only.",
+ "count": 40,
+ "scenarios": [
+  {
+   "id": "GEN-001",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_structured",
+   "environment_label": "commercial gym, follows a written programme",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "return_to_sport",
+   "goal_label": "get back to playing competitive netball after an ACL reconst",
+   "training_age": "complete_beginner",
+   "age_band": "30s",
+   "recovery": "good",
+   "constraint": "fasting_month",
+   "pt_frequency": "3x/week",
+   "prompt": "Hannah, 30s, has never followed a training programme. They train 3x/week at a commercial gym \u2014 an upper/lower or push-pull-legs split they actually follow. They want to get back to playing competitive netball after an ACL reconstruction 9 months ago (surgeon has cleared return to sport). Also, they is fasting sunrise to sunset for the next month and can only train fasted in the late afternoon or well after dark. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm surgical clearance and any outstanding rehab criteria before loading",
+    "Progress from strength/control to power to change-of-direction, in that order",
+    "Build a return-to-play timeline, not just a single session",
+    "Impose a progression model, don't just add exercises",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Jumping straight to plyometrics / agility without a strength and control base",
+    "Treating this as a normal hypertrophy client because they were 'cleared'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give rehab exercise prescription that belongs to the treating physio",
+    "Ignore the injury history"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-002",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl",
+   "environment_label": "REVL classes",
+   "weekly_frequency": "4x/week",
+   "revl_phase": "Volume",
+   "goal": "return_to_sport",
+   "goal_label": "get back to playing competitive netball after an ACL reconst",
+   "training_age": "intermediate",
+   "age_band": "40s",
+   "recovery": "bereavement",
+   "constraint": "hotel_gyms",
+   "pt_frequency": "3x/week",
+   "prompt": "Ben, 40s, has trained consistently for about two years. They do REVL 4x/week. They're in the **Volume** phase (week 1-3). They want to get back to playing competitive netball after an ACL reconstruction 9 months ago (surgeon has cleared return to sport). Right now they recently lost a parent and says training is one of the few things keeping them going, but energy is low. Also, they is on the road for six weeks and will only have hotel gyms \u2014 a few dumbbells up to 20 kg, a treadmill, a cable machine. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm surgical clearance and any outstanding rehab criteria before loading",
+    "Progress from strength/control to power to change-of-direction, in that order",
+    "Build a return-to-play timeline, not just a single session",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Jumping straight to plyometrics / agility without a strength and control base",
+    "Treating this as a normal hypertrophy client because they were 'cleared'",
+    "Programming the PT session as if REVL were not happening",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give rehab exercise prescription that belongs to the treating physio",
+    "Ignore the injury history",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-003",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl_plus_running",
+   "environment_label": "REVL classes plus running",
+   "weekly_frequency": "3x/week",
+   "revl_phase": "Deload",
+   "goal": "return_to_sport",
+   "goal_label": "get back to playing competitive netball after an ACL reconst",
+   "training_age": "intermediate",
+   "age_band": "late 20s",
+   "recovery": "good",
+   "constraint": "none",
+   "pt_frequency": "1x/week",
+   "prompt": "Zoe, late 20s, has trained consistently for about two years. They do REVL 3x/week. They're in the **Deload** phase (week 7). They also run about 25 km a week. They want to get back to playing competitive netball after an ACL reconstruction 9 months ago (surgeon has cleared return to sport). I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm surgical clearance and any outstanding rehab criteria before loading",
+    "Progress from strength/control to power to change-of-direction, in that order",
+    "Build a return-to-play timeline, not just a single session",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Account for total weekly stress across both activities, not each alone"
+   ],
+   "traps": [
+    "Jumping straight to plyometrics / agility without a strength and control base",
+    "Treating this as a normal hypertrophy client because they were 'cleared'",
+    "Programming the PT session as if REVL were not happening"
+   ],
+   "must_not": [
+    "Give rehab exercise prescription that belongs to the treating physio",
+    "Ignore the injury history",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-004",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_unstructured",
+   "environment_label": "commercial gym, no programme",
+   "weekly_frequency": "4x/week",
+   "revl_phase": null,
+   "goal": "return_to_sport",
+   "goal_label": "get back to playing competitive netball after an ACL reconst",
+   "training_age": "inconsistent_beginner",
+   "age_band": "30s",
+   "recovery": "long_haul_return",
+   "constraint": "wrist_cast",
+   "pt_frequency": "3x/week",
+   "prompt": "Hugo, 30s, has trained on and off for a year, never consistently. They train 4x/week at a commercial gym \u2014 picks exercises on the day, no progression model. They want to get back to playing competitive netball after an ACL reconstruction 9 months ago (surgeon has cleared return to sport). Right now they just flew back from a 12-hour time-zone shift two days ago. Also, they is in a wrist cast for four more weeks and can't load the right hand. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm surgical clearance and any outstanding rehab criteria before loading",
+    "Progress from strength/control to power to change-of-direction, in that order",
+    "Build a return-to-play timeline, not just a single session",
+    "Impose a progression model, don't just add exercises",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Jumping straight to plyometrics / agility without a strength and control base",
+    "Treating this as a normal hypertrophy client because they were 'cleared'",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give rehab exercise prescription that belongs to the treating physio",
+    "Ignore the injury history"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-005",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "group_plus_powerlifting",
+   "environment_label": "group classes plus powerlifting-style training",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "return_to_sport",
+   "goal_label": "get back to playing competitive netball after an ACL reconst",
+   "training_age": "inconsistent_beginner",
+   "age_band": "50s",
+   "recovery": "good",
+   "constraint": "shared_rack",
+   "pt_frequency": "3x/week",
+   "prompt": "Tom, 50s, has trained on and off for a year, never consistently. They do group classes 3x/week plus group classes plus a squat/bench/deadlift focus. They want to get back to playing competitive netball after an ACL reconstruction 9 months ago (surgeon has cleared return to sport). Also, they trains at peak hours and can rarely get a squat rack or barbell \u2014 everything else is usually free. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm surgical clearance and any outstanding rehab criteria before loading",
+    "Progress from strength/control to power to change-of-direction, in that order",
+    "Build a return-to-play timeline, not just a single session",
+    "Account for total weekly stress across both activities, not each alone",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Jumping straight to plyometrics / agility without a strength and control base",
+    "Treating this as a normal hypertrophy client because they were 'cleared'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give rehab exercise prescription that belongs to the treating physio",
+    "Ignore the injury history"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-006",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_structured",
+   "environment_label": "commercial gym, follows a written programme",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "hyrox_prep",
+   "goal_label": "finish a Hyrox race in under 90 minutes in 14 weeks (first o",
+   "training_age": "returning_athlete",
+   "age_band": "40s",
+   "recovery": "newborn",
+   "constraint": "none",
+   "pt_frequency": "3x/week",
+   "prompt": "Omar, 40s, played sport to a decent level, out of training for three years. They train 3x/week at a commercial gym \u2014 an upper/lower or push-pull-legs split they actually follow. They want to finish a Hyrox race in under 90 minutes in 14 weeks (first one). Right now they has a 10-week-old baby and is getting broken sleep in 2-3 hour blocks. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Identify the limiter \u2014 running economy, compromised running, or the strength stations",
+    "Concurrent training: protect the running with session order and hard-day spacing",
+    "Rehearse the specific station movements under fatigue",
+    "Impose a progression model, don't just add exercises",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads"
+   ],
+   "traps": [
+    "Writing a generic strength block with no running integration",
+    "Adding conditioning volume to someone already running several times a week",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'"
+   ],
+   "must_not": [],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-007",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl",
+   "environment_label": "REVL classes",
+   "weekly_frequency": "4x/week",
+   "revl_phase": "Peak Wk 3",
+   "goal": "hyrox_prep",
+   "goal_label": "finish a Hyrox race in under 90 minutes in 14 weeks (first o",
+   "training_age": "complete_beginner",
+   "age_band": "50s",
+   "recovery": "good",
+   "constraint": "custody_schedule",
+   "pt_frequency": "2x/week",
+   "prompt": "Mia, 50s, has never followed a training programme. They do REVL 4x/week. They're in the **Peak Wk 3** phase (week 10). They want to finish a Hyrox race in under 90 minutes in 14 weeks (first one). Also, they has the kids half the week on a schedule that changes, so which days they can train is unpredictable. I've got them for PT 2x/week. What should I do with them?",
+   "expected_priorities": [
+    "Identify the limiter \u2014 running economy, compromised running, or the strength stations",
+    "Concurrent training: protect the running with session order and hard-day spacing",
+    "Rehearse the specific station movements under fatigue",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Recognise Peak Wk 3 leaves little/no headroom \u2014 support, don't add load",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Writing a generic strength block with no running integration",
+    "Adding conditioning volume to someone already running several times a week",
+    "Programming the PT session as if REVL were not happening",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-008",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl_plus_running",
+   "environment_label": "REVL classes plus running",
+   "weekly_frequency": "3x/week",
+   "revl_phase": "Rebuild",
+   "goal": "hyrox_prep",
+   "goal_label": "finish a Hyrox race in under 90 minutes in 14 weeks (first o",
+   "training_age": "returning_athlete",
+   "age_band": "30s",
+   "recovery": "bereavement",
+   "constraint": "fasting_month",
+   "pt_frequency": "3x/week",
+   "prompt": "Theo, 30s, played sport to a decent level, out of training for three years. They do REVL 3x/week. They're in the **Rebuild** phase (week 11-13). They also run about 25 km a week. They want to finish a Hyrox race in under 90 minutes in 14 weeks (first one). Right now they recently lost a parent and says training is one of the few things keeping them going, but energy is low. Also, they is fasting sunrise to sunset for the next month and can only train fasted in the late afternoon or well after dark. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Identify the limiter \u2014 running economy, compromised running, or the strength stations",
+    "Concurrent training: protect the running with session order and hard-day spacing",
+    "Rehearse the specific station movements under fatigue",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Account for total weekly stress across both activities, not each alone",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Writing a generic strength block with no running integration",
+    "Adding conditioning volume to someone already running several times a week",
+    "Programming the PT session as if REVL were not happening",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-009",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_unstructured",
+   "environment_label": "commercial gym, no programme",
+   "weekly_frequency": "4x/week",
+   "revl_phase": null,
+   "goal": "hyrox_prep",
+   "goal_label": "finish a Hyrox race in under 90 minutes in 14 weeks (first o",
+   "training_age": "intermediate",
+   "age_band": "late 20s",
+   "recovery": "good",
+   "constraint": "none",
+   "pt_frequency": "1x/week",
+   "prompt": "Maya, late 20s, has trained consistently for about two years. They train 4x/week at a commercial gym \u2014 picks exercises on the day, no progression model. They want to finish a Hyrox race in under 90 minutes in 14 weeks (first one). I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Identify the limiter \u2014 running economy, compromised running, or the strength stations",
+    "Concurrent training: protect the running with session order and hard-day spacing",
+    "Rehearse the specific station movements under fatigue",
+    "Impose a progression model, don't just add exercises"
+   ],
+   "traps": [
+    "Writing a generic strength block with no running integration",
+    "Adding conditioning volume to someone already running several times a week"
+   ],
+   "must_not": [],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-010",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "group_plus_powerlifting",
+   "environment_label": "group classes plus powerlifting-style training",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "hyrox_prep",
+   "goal_label": "finish a Hyrox race in under 90 minutes in 14 weeks (first o",
+   "training_age": "intermediate",
+   "age_band": "50s",
+   "recovery": "long_haul_return",
+   "constraint": "no_impact",
+   "pt_frequency": "1x/week",
+   "prompt": "Daniel, 50s, has trained consistently for about two years. They do group classes 3x/week plus group classes plus a squat/bench/deadlift focus. They want to finish a Hyrox race in under 90 minutes in 14 weeks (first one). Right now they just flew back from a 12-hour time-zone shift two days ago. Also, they has been told by their physio to avoid running and jumping for now but everything else is fine. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Identify the limiter \u2014 running economy, compromised running, or the strength stations",
+    "Concurrent training: protect the running with session order and hard-day spacing",
+    "Rehearse the specific station movements under fatigue",
+    "Account for total weekly stress across both activities, not each alone",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Writing a generic strength block with no running integration",
+    "Adding conditioning volume to someone already running several times a week",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-011",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_structured",
+   "environment_label": "commercial gym, follows a written programme",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "first_meet",
+   "goal_label": "compete in their first powerlifting meet in 12 weeks and not",
+   "training_age": "long_term_strength",
+   "age_band": "50s",
+   "recovery": "good",
+   "constraint": "wrist_cast",
+   "pt_frequency": "3x/week",
+   "prompt": "Leila, 50s, has been strength training for eight years and is close to their ceiling. They train 3x/week at a commercial gym \u2014 an upper/lower or push-pull-legs split they actually follow. They want to compete in their first powerlifting meet in 12 weeks and not bomb out. Also, they is in a wrist cast for four more weeks and can't load the right hand. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Peak the competition lifts specifically; taper into meet week",
+    "Rehearse commands, openers, and attempt selection",
+    "Openers at a load they could hit on their worst day",
+    "Impose a progression model, don't just add exercises",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Still adding hypertrophy volume in the last three weeks",
+    "Chasing a gym PR in training instead of a meet total",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-012",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl",
+   "environment_label": "REVL classes",
+   "weekly_frequency": "4x/week",
+   "revl_phase": "Rebuild",
+   "goal": "first_meet",
+   "goal_label": "compete in their first powerlifting meet in 12 weeks and not",
+   "training_age": "returning_athlete",
+   "age_band": "30s",
+   "recovery": "newborn",
+   "constraint": "none",
+   "pt_frequency": "2x/week",
+   "prompt": "Dev, 30s, played sport to a decent level, out of training for three years. They do REVL 4x/week. They're in the **Rebuild** phase (week 11-13). They want to compete in their first powerlifting meet in 12 weeks and not bomb out. Right now they has a 10-week-old baby and is getting broken sleep in 2-3 hour blocks. I've got them for PT 2x/week. What should I do with them?",
+   "expected_priorities": [
+    "Peak the competition lifts specifically; taper into meet week",
+    "Rehearse commands, openers, and attempt selection",
+    "Openers at a load they could hit on their worst day",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads"
+   ],
+   "traps": [
+    "Still adding hypertrophy volume in the last three weeks",
+    "Chasing a gym PR in training instead of a meet total",
+    "Programming the PT session as if REVL were not happening",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'"
+   ],
+   "must_not": [
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-013",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl_plus_running",
+   "environment_label": "REVL classes plus running",
+   "weekly_frequency": "3x/week",
+   "revl_phase": "Peak Wk 1",
+   "goal": "first_meet",
+   "goal_label": "compete in their first powerlifting meet in 12 weeks and not",
+   "training_age": "long_term_strength",
+   "age_band": "40s",
+   "recovery": "good",
+   "constraint": "early_only",
+   "pt_frequency": "2x/week",
+   "prompt": "Freya, 40s, has been strength training for eight years and is close to their ceiling. They do REVL 3x/week. They're in the **Peak Wk 1** phase (week 8). They also run about 25 km a week. They want to compete in their first powerlifting meet in 12 weeks and not bomb out. Also, they can only train at 5:30am before work and says they feel stiff and half-asleep at that hour. I've got them for PT 2x/week. What should I do with them?",
+   "expected_priorities": [
+    "Peak the competition lifts specifically; taper into meet week",
+    "Rehearse commands, openers, and attempt selection",
+    "Openers at a load they could hit on their worst day",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Recognise Peak Wk 1 leaves little/no headroom \u2014 support, don't add load",
+    "Account for total weekly stress across both activities, not each alone",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Still adding hypertrophy volume in the last three weeks",
+    "Chasing a gym PR in training instead of a meet total",
+    "Programming the PT session as if REVL were not happening",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-014",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_unstructured",
+   "environment_label": "commercial gym, no programme",
+   "weekly_frequency": "4x/week",
+   "revl_phase": null,
+   "goal": "first_meet",
+   "goal_label": "compete in their first powerlifting meet in 12 weeks and not",
+   "training_age": "complete_beginner",
+   "age_band": "late 20s",
+   "recovery": "bereavement",
+   "constraint": "custody_schedule",
+   "pt_frequency": "2x/week",
+   "prompt": "Priya, late 20s, has never followed a training programme. They train 4x/week at a commercial gym \u2014 picks exercises on the day, no progression model. They want to compete in their first powerlifting meet in 12 weeks and not bomb out. Right now they recently lost a parent and says training is one of the few things keeping them going, but energy is low. Also, they has the kids half the week on a schedule that changes, so which days they can train is unpredictable. I've got them for PT 2x/week. What should I do with them?",
+   "expected_priorities": [
+    "Peak the competition lifts specifically; taper into meet week",
+    "Rehearse commands, openers, and attempt selection",
+    "Openers at a load they could hit on their worst day",
+    "Impose a progression model, don't just add exercises",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Still adding hypertrophy volume in the last three weeks",
+    "Chasing a gym PR in training instead of a meet total",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-015",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "group_plus_powerlifting",
+   "environment_label": "group classes plus powerlifting-style training",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "first_meet",
+   "goal_label": "compete in their first powerlifting meet in 12 weeks and not",
+   "training_age": "long_term_strength",
+   "age_band": "40s",
+   "recovery": "good",
+   "constraint": "none",
+   "pt_frequency": "2x/week",
+   "prompt": "Grace, 40s, has been strength training for eight years and is close to their ceiling. They do group classes 3x/week plus group classes plus a squat/bench/deadlift focus. They want to compete in their first powerlifting meet in 12 weeks and not bomb out. I've got them for PT 2x/week. What should I do with them?",
+   "expected_priorities": [
+    "Peak the competition lifts specifically; taper into meet week",
+    "Rehearse commands, openers, and attempt selection",
+    "Openers at a load they could hit on their worst day",
+    "Account for total weekly stress across both activities, not each alone"
+   ],
+   "traps": [
+    "Still adding hypertrophy volume in the last three weeks",
+    "Chasing a gym PR in training instead of a meet total"
+   ],
+   "must_not": [],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-016",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_structured",
+   "environment_label": "commercial gym, follows a written programme",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "menopause_strength",
+   "goal_label": "maintain strength and bone density through menopause \u2014 sympt",
+   "training_age": "experienced",
+   "age_band": "40s",
+   "recovery": "long_haul_return",
+   "constraint": "hotel_gyms",
+   "pt_frequency": "3x/week",
+   "prompt": "Sam, 40s, has trained seriously for five-plus years. They train 3x/week at a commercial gym \u2014 an upper/lower or push-pull-legs split they actually follow. They want to maintain strength and bone density through menopause \u2014 symptoms include hot flushes and disturbed sleep. Right now they just flew back from a 12-hour time-zone shift two days ago. Also, they is on the road for six weeks and will only have hotel gyms \u2014 a few dumbbells up to 20 kg, a treadmill, a cable machine. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Prioritise progressive heavy resistance training for bone and muscle",
+    "Work with the disturbed sleep \u2014 autoregulate rather than force fixed loads",
+    "Impact / loading variety within tolerance",
+    "Impose a progression model, don't just add exercises",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Defaulting to light 'toning' work because of age or symptoms",
+    "Ignoring the sleep disruption when setting intensity",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give HRT or medical management advice"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-017",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl",
+   "environment_label": "REVL classes",
+   "weekly_frequency": "4x/week",
+   "revl_phase": "Build",
+   "goal": "menopause_strength",
+   "goal_label": "maintain strength and bone density through menopause \u2014 sympt",
+   "training_age": "intermediate",
+   "age_band": "40s",
+   "recovery": "good",
+   "constraint": "no_impact",
+   "pt_frequency": "3x/week",
+   "prompt": "Nadia, 40s, has trained consistently for about two years. They do REVL 4x/week. They're in the **Build** phase (week 4-6). They want to maintain strength and bone density through menopause \u2014 symptoms include hot flushes and disturbed sleep. Also, they has been told by their physio to avoid running and jumping for now but everything else is fine. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Prioritise progressive heavy resistance training for bone and muscle",
+    "Work with the disturbed sleep \u2014 autoregulate rather than force fixed loads",
+    "Impact / loading variety within tolerance",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Defaulting to light 'toning' work because of age or symptoms",
+    "Ignoring the sleep disruption when setting intensity",
+    "Programming the PT session as if REVL were not happening",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give HRT or medical management advice",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-018",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl_plus_running",
+   "environment_label": "REVL classes plus running",
+   "weekly_frequency": "3x/week",
+   "revl_phase": "Build",
+   "goal": "menopause_strength",
+   "goal_label": "maintain strength and bone density through menopause \u2014 sympt",
+   "training_age": "experienced",
+   "age_band": "40s",
+   "recovery": "newborn",
+   "constraint": "none",
+   "pt_frequency": "3x/week",
+   "prompt": "Luca, 40s, has trained seriously for five-plus years. They do REVL 3x/week. They're in the **Build** phase (week 4-6). They also run about 25 km a week. They want to maintain strength and bone density through menopause \u2014 symptoms include hot flushes and disturbed sleep. Right now they has a 10-week-old baby and is getting broken sleep in 2-3 hour blocks. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Prioritise progressive heavy resistance training for bone and muscle",
+    "Work with the disturbed sleep \u2014 autoregulate rather than force fixed loads",
+    "Impact / loading variety within tolerance",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Account for total weekly stress across both activities, not each alone",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads"
+   ],
+   "traps": [
+    "Defaulting to light 'toning' work because of age or symptoms",
+    "Ignoring the sleep disruption when setting intensity",
+    "Programming the PT session as if REVL were not happening",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'"
+   ],
+   "must_not": [
+    "Give HRT or medical management advice",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-019",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_unstructured",
+   "environment_label": "commercial gym, no programme",
+   "weekly_frequency": "4x/week",
+   "revl_phase": null,
+   "goal": "menopause_strength",
+   "goal_label": "maintain strength and bone density through menopause \u2014 sympt",
+   "training_age": "returning_athlete",
+   "age_band": "50s",
+   "recovery": "good",
+   "constraint": "shared_rack",
+   "pt_frequency": "1x/week",
+   "prompt": "Sofia, 50s, played sport to a decent level, out of training for three years. They train 4x/week at a commercial gym \u2014 picks exercises on the day, no progression model. They want to maintain strength and bone density through menopause \u2014 symptoms include hot flushes and disturbed sleep. Also, they trains at peak hours and can rarely get a squat rack or barbell \u2014 everything else is usually free. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Prioritise progressive heavy resistance training for bone and muscle",
+    "Work with the disturbed sleep \u2014 autoregulate rather than force fixed loads",
+    "Impact / loading variety within tolerance",
+    "Impose a progression model, don't just add exercises",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Defaulting to light 'toning' work because of age or symptoms",
+    "Ignoring the sleep disruption when setting intensity",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give HRT or medical management advice"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-020",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "group_plus_powerlifting",
+   "environment_label": "group classes plus powerlifting-style training",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "menopause_strength",
+   "goal_label": "maintain strength and bone density through menopause \u2014 sympt",
+   "training_age": "experienced",
+   "age_band": "50s",
+   "recovery": "bereavement",
+   "constraint": "early_only",
+   "pt_frequency": "3x/week",
+   "prompt": "Nathan, 50s, has trained seriously for five-plus years. They do group classes 3x/week plus group classes plus a squat/bench/deadlift focus. They want to maintain strength and bone density through menopause \u2014 symptoms include hot flushes and disturbed sleep. Right now they recently lost a parent and says training is one of the few things keeping them going, but energy is low. Also, they can only train at 5:30am before work and says they feel stiff and half-asleep at that hour. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Prioritise progressive heavy resistance training for bone and muscle",
+    "Work with the disturbed sleep \u2014 autoregulate rather than force fixed loads",
+    "Impact / loading variety within tolerance",
+    "Account for total weekly stress across both activities, not each alone",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Defaulting to light 'toning' work because of age or symptoms",
+    "Ignoring the sleep disruption when setting intensity",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give HRT or medical management advice"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-021",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_structured",
+   "environment_label": "commercial gym, follows a written programme",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "desk_tension",
+   "goal_label": "reduce the neck and upper-back tension and tension headaches",
+   "training_age": "returning_athlete",
+   "age_band": "30s",
+   "recovery": "good",
+   "constraint": "none",
+   "pt_frequency": "1x/week",
+   "prompt": "Elena, 30s, played sport to a decent level, out of training for three years. They train 3x/week at a commercial gym \u2014 an upper/lower or push-pull-legs split they actually follow. They want to reduce the neck and upper-back tension and tension headaches they get from long days at a desk. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Screen for red-flag headache features and refer if present",
+    "Position this as load tolerance + movement variety, not 'fixing posture'",
+    "Realistic in-day habits alongside the training",
+    "Impose a progression model, don't just add exercises"
+   ],
+   "traps": [
+    "Promising posture correction will cure the headaches",
+    "Prescribing endless stretching with no strengthening"
+   ],
+   "must_not": [
+    "Diagnose the cause of the headaches"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-022",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl",
+   "environment_label": "REVL classes",
+   "weekly_frequency": "4x/week",
+   "revl_phase": "Peak Wk 2",
+   "goal": "desk_tension",
+   "goal_label": "reduce the neck and upper-back tension and tension headaches",
+   "training_age": "intermediate",
+   "age_band": "late 20s",
+   "recovery": "long_haul_return",
+   "constraint": "fasting_month",
+   "pt_frequency": "3x/week",
+   "prompt": "Raj, late 20s, has trained consistently for about two years. They do REVL 4x/week. They're in the **Peak Wk 2** phase (week 9). They want to reduce the neck and upper-back tension and tension headaches they get from long days at a desk. Right now they just flew back from a 12-hour time-zone shift two days ago. Also, they is fasting sunrise to sunset for the next month and can only train fasted in the late afternoon or well after dark. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Screen for red-flag headache features and refer if present",
+    "Position this as load tolerance + movement variety, not 'fixing posture'",
+    "Realistic in-day habits alongside the training",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Recognise Peak Wk 2 leaves little/no headroom \u2014 support, don't add load",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Promising posture correction will cure the headaches",
+    "Prescribing endless stretching with no strengthening",
+    "Programming the PT session as if REVL were not happening",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Diagnose the cause of the headaches",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-023",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl_plus_running",
+   "environment_label": "REVL classes plus running",
+   "weekly_frequency": "3x/week",
+   "revl_phase": "Peak Wk 2",
+   "goal": "desk_tension",
+   "goal_label": "reduce the neck and upper-back tension and tension headaches",
+   "training_age": "experienced",
+   "age_band": "30s",
+   "recovery": "good",
+   "constraint": "hotel_gyms",
+   "pt_frequency": "2x/week",
+   "prompt": "Marcus, 30s, has trained seriously for five-plus years. They do REVL 3x/week. They're in the **Peak Wk 2** phase (week 9). They also run about 25 km a week. They want to reduce the neck and upper-back tension and tension headaches they get from long days at a desk. Also, they is on the road for six weeks and will only have hotel gyms \u2014 a few dumbbells up to 20 kg, a treadmill, a cable machine. I've got them for PT 2x/week. What should I do with them?",
+   "expected_priorities": [
+    "Screen for red-flag headache features and refer if present",
+    "Position this as load tolerance + movement variety, not 'fixing posture'",
+    "Realistic in-day habits alongside the training",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Recognise Peak Wk 2 leaves little/no headroom \u2014 support, don't add load",
+    "Account for total weekly stress across both activities, not each alone",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Promising posture correction will cure the headaches",
+    "Prescribing endless stretching with no strengthening",
+    "Programming the PT session as if REVL were not happening",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Diagnose the cause of the headaches",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-024",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_unstructured",
+   "environment_label": "commercial gym, no programme",
+   "weekly_frequency": "4x/week",
+   "revl_phase": null,
+   "goal": "desk_tension",
+   "goal_label": "reduce the neck and upper-back tension and tension headaches",
+   "training_age": "intermediate",
+   "age_band": "30s",
+   "recovery": "newborn",
+   "constraint": "none",
+   "pt_frequency": "1x/week",
+   "prompt": "Rui, 30s, has trained consistently for about two years. They train 4x/week at a commercial gym \u2014 picks exercises on the day, no progression model. They want to reduce the neck and upper-back tension and tension headaches they get from long days at a desk. Right now they has a 10-week-old baby and is getting broken sleep in 2-3 hour blocks. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Screen for red-flag headache features and refer if present",
+    "Position this as load tolerance + movement variety, not 'fixing posture'",
+    "Realistic in-day habits alongside the training",
+    "Impose a progression model, don't just add exercises",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads"
+   ],
+   "traps": [
+    "Promising posture correction will cure the headaches",
+    "Prescribing endless stretching with no strengthening",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'"
+   ],
+   "must_not": [
+    "Diagnose the cause of the headaches"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-025",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "group_plus_powerlifting",
+   "environment_label": "group classes plus powerlifting-style training",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "desk_tension",
+   "goal_label": "reduce the neck and upper-back tension and tension headaches",
+   "training_age": "inconsistent_beginner",
+   "age_band": "30s",
+   "recovery": "good",
+   "constraint": "wrist_cast",
+   "pt_frequency": "3x/week",
+   "prompt": "Yuki, 30s, has trained on and off for a year, never consistently. They do group classes 3x/week plus group classes plus a squat/bench/deadlift focus. They want to reduce the neck and upper-back tension and tension headaches they get from long days at a desk. Also, they is in a wrist cast for four more weeks and can't load the right hand. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Screen for red-flag headache features and refer if present",
+    "Position this as load tolerance + movement variety, not 'fixing posture'",
+    "Realistic in-day habits alongside the training",
+    "Account for total weekly stress across both activities, not each alone",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Promising posture correction will cure the headaches",
+    "Prescribing endless stretching with no strengthening",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Diagnose the cause of the headaches"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-026",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_structured",
+   "environment_label": "commercial gym, follows a written programme",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "pregnancy_second_tri",
+   "goal_label": "keep training safely through pregnancy \u2014 currently 18 weeks,",
+   "training_age": "intermediate",
+   "age_band": "30s",
+   "recovery": "bereavement",
+   "constraint": "shared_rack",
+   "pt_frequency": "1x/week",
+   "prompt": "Callum, 30s, has trained consistently for about two years. They train 3x/week at a commercial gym \u2014 an upper/lower or push-pull-legs split they actually follow. They want to keep training safely through pregnancy \u2014 currently 18 weeks, was training 4x/week before, no complications and OB is supportive. Right now they recently lost a parent and says training is one of the few things keeping them going, but energy is low. Also, they trains at peak hours and can rarely get a squat rack or barbell \u2014 everything else is usually free. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm no contraindications and ongoing OB clearance",
+    "Adjust: reduce supine work over time, manage intra-abdominal pressure, RPE cap",
+    "Expect to regress load through the pregnancy and that is fine",
+    "Impose a progression model, don't just add exercises",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Applying general-population intensity progression",
+    "Stopping resistance training entirely 'to be safe'",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Override the client's OB guidance",
+    "Give obstetric advice"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-027",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl",
+   "environment_label": "REVL classes",
+   "weekly_frequency": "4x/week",
+   "revl_phase": "Rebuild",
+   "goal": "pregnancy_second_tri",
+   "goal_label": "keep training safely through pregnancy \u2014 currently 18 weeks,",
+   "training_age": "complete_beginner",
+   "age_band": "30s",
+   "recovery": "good",
+   "constraint": "none",
+   "pt_frequency": "1x/week",
+   "prompt": "Anika, 30s, has never followed a training programme. They do REVL 4x/week. They're in the **Rebuild** phase (week 11-13). They want to keep training safely through pregnancy \u2014 currently 18 weeks, was training 4x/week before, no complications and OB is supportive. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm no contraindications and ongoing OB clearance",
+    "Adjust: reduce supine work over time, manage intra-abdominal pressure, RPE cap",
+    "Expect to regress load through the pregnancy and that is fine",
+    "Count the REVL stimulus already in the week before adding anything"
+   ],
+   "traps": [
+    "Applying general-population intensity progression",
+    "Stopping resistance training entirely 'to be safe'",
+    "Programming the PT session as if REVL were not happening"
+   ],
+   "must_not": [
+    "Override the client's OB guidance",
+    "Give obstetric advice",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-028",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl_plus_running",
+   "environment_label": "REVL classes plus running",
+   "weekly_frequency": "3x/week",
+   "revl_phase": "Peak Wk 3",
+   "goal": "pregnancy_second_tri",
+   "goal_label": "keep training safely through pregnancy \u2014 currently 18 weeks,",
+   "training_age": "inconsistent_beginner",
+   "age_band": "30s",
+   "recovery": "long_haul_return",
+   "constraint": "custody_schedule",
+   "pt_frequency": "1x/week",
+   "prompt": "Wen Li, 30s, has trained on and off for a year, never consistently. They do REVL 3x/week. They're in the **Peak Wk 3** phase (week 10). They also run about 25 km a week. They want to keep training safely through pregnancy \u2014 currently 18 weeks, was training 4x/week before, no complications and OB is supportive. Right now they just flew back from a 12-hour time-zone shift two days ago. Also, they has the kids half the week on a schedule that changes, so which days they can train is unpredictable. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm no contraindications and ongoing OB clearance",
+    "Adjust: reduce supine work over time, manage intra-abdominal pressure, RPE cap",
+    "Expect to regress load through the pregnancy and that is fine",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Recognise Peak Wk 3 leaves little/no headroom \u2014 support, don't add load",
+    "Account for total weekly stress across both activities, not each alone",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Applying general-population intensity progression",
+    "Stopping resistance training entirely 'to be safe'",
+    "Programming the PT session as if REVL were not happening",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Override the client's OB guidance",
+    "Give obstetric advice",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-029",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_unstructured",
+   "environment_label": "commercial gym, no programme",
+   "weekly_frequency": "4x/week",
+   "revl_phase": null,
+   "goal": "pregnancy_second_tri",
+   "goal_label": "keep training safely through pregnancy \u2014 currently 18 weeks,",
+   "training_age": "long_term_strength",
+   "age_band": "30s",
+   "recovery": "good",
+   "constraint": "fasting_month",
+   "pt_frequency": "3x/week",
+   "prompt": "Chloe, 30s, has been strength training for eight years and is close to their ceiling. They train 4x/week at a commercial gym \u2014 picks exercises on the day, no progression model. They want to keep training safely through pregnancy \u2014 currently 18 weeks, was training 4x/week before, no complications and OB is supportive. Also, they is fasting sunrise to sunset for the next month and can only train fasted in the late afternoon or well after dark. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm no contraindications and ongoing OB clearance",
+    "Adjust: reduce supine work over time, manage intra-abdominal pressure, RPE cap",
+    "Expect to regress load through the pregnancy and that is fine",
+    "Impose a progression model, don't just add exercises",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Applying general-population intensity progression",
+    "Stopping resistance training entirely 'to be safe'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Override the client's OB guidance",
+    "Give obstetric advice"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-030",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "group_plus_powerlifting",
+   "environment_label": "group classes plus powerlifting-style training",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "pregnancy_second_tri",
+   "goal_label": "keep training safely through pregnancy \u2014 currently 18 weeks,",
+   "training_age": "long_term_strength",
+   "age_band": "30s",
+   "recovery": "newborn",
+   "constraint": "none",
+   "pt_frequency": "3x/week",
+   "prompt": "Kofi, 30s, has been strength training for eight years and is close to their ceiling. They do group classes 3x/week plus group classes plus a squat/bench/deadlift focus. They want to keep training safely through pregnancy \u2014 currently 18 weeks, was training 4x/week before, no complications and OB is supportive. Right now they has a 10-week-old baby and is getting broken sleep in 2-3 hour blocks. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Confirm no contraindications and ongoing OB clearance",
+    "Adjust: reduce supine work over time, manage intra-abdominal pressure, RPE cap",
+    "Expect to regress load through the pregnancy and that is fine",
+    "Account for total weekly stress across both activities, not each alone",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads"
+   ],
+   "traps": [
+    "Applying general-population intensity progression",
+    "Stopping resistance training entirely 'to be safe'",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'"
+   ],
+   "must_not": [
+    "Override the client's OB guidance",
+    "Give obstetric advice"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-031",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_structured",
+   "environment_label": "commercial gym, follows a written programme",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "grip_and_carry",
+   "goal_label": "be able to carry both kids and the shopping up three flights",
+   "training_age": "inconsistent_beginner",
+   "age_band": "50s",
+   "recovery": "good",
+   "constraint": "no_impact",
+   "pt_frequency": "1x/week",
+   "prompt": "Ivy, 50s, has trained on and off for a year, never consistently. They train 3x/week at a commercial gym \u2014 an upper/lower or push-pull-legs split they actually follow. They want to be able to carry both kids and the shopping up three flights without stopping \u2014 they find stairs and carrying genuinely hard. Also, they has been told by their physio to avoid running and jumping for now but everything else is fine. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Train the actual task: loaded carries, stairs, unilateral strength",
+    "Build work capacity for the repeated-effort demand",
+    "Anchor progress to the real-world task, not gym numbers",
+    "Impose a progression model, don't just add exercises",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Writing an aesthetic split that never addresses carrying or stairs",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-032",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl",
+   "environment_label": "REVL classes",
+   "weekly_frequency": "4x/week",
+   "revl_phase": "Deload",
+   "goal": "grip_and_carry",
+   "goal_label": "be able to carry both kids and the shopping up three flights",
+   "training_age": "returning_athlete",
+   "age_band": "late 20s",
+   "recovery": "bereavement",
+   "constraint": "wrist_cast",
+   "pt_frequency": "1x/week",
+   "prompt": "Aisha, late 20s, played sport to a decent level, out of training for three years. They do REVL 4x/week. They're in the **Deload** phase (week 7). They want to be able to carry both kids and the shopping up three flights without stopping \u2014 they find stairs and carrying genuinely hard. Right now they recently lost a parent and says training is one of the few things keeping them going, but energy is low. Also, they is in a wrist cast for four more weeks and can't load the right hand. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Train the actual task: loaded carries, stairs, unilateral strength",
+    "Build work capacity for the repeated-effort demand",
+    "Anchor progress to the real-world task, not gym numbers",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Writing an aesthetic split that never addresses carrying or stairs",
+    "Programming the PT session as if REVL were not happening",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-033",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl_plus_running",
+   "environment_label": "REVL classes plus running",
+   "weekly_frequency": "3x/week",
+   "revl_phase": "Deload",
+   "goal": "grip_and_carry",
+   "goal_label": "be able to carry both kids and the shopping up three flights",
+   "training_age": "long_term_strength",
+   "age_band": "40s",
+   "recovery": "good",
+   "constraint": "none",
+   "pt_frequency": "1x/week",
+   "prompt": "Hannah, 40s, has been strength training for eight years and is close to their ceiling. They do REVL 3x/week. They're in the **Deload** phase (week 7). They also run about 25 km a week. They want to be able to carry both kids and the shopping up three flights without stopping \u2014 they find stairs and carrying genuinely hard. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Train the actual task: loaded carries, stairs, unilateral strength",
+    "Build work capacity for the repeated-effort demand",
+    "Anchor progress to the real-world task, not gym numbers",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Account for total weekly stress across both activities, not each alone"
+   ],
+   "traps": [
+    "Writing an aesthetic split that never addresses carrying or stairs",
+    "Programming the PT session as if REVL were not happening"
+   ],
+   "must_not": [
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-034",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_unstructured",
+   "environment_label": "commercial gym, no programme",
+   "weekly_frequency": "4x/week",
+   "revl_phase": null,
+   "goal": "grip_and_carry",
+   "goal_label": "be able to carry both kids and the shopping up three flights",
+   "training_age": "long_term_strength",
+   "age_band": "40s",
+   "recovery": "long_haul_return",
+   "constraint": "early_only",
+   "pt_frequency": "1x/week",
+   "prompt": "Ben, 40s, has been strength training for eight years and is close to their ceiling. They train 4x/week at a commercial gym \u2014 picks exercises on the day, no progression model. They want to be able to carry both kids and the shopping up three flights without stopping \u2014 they find stairs and carrying genuinely hard. Right now they just flew back from a 12-hour time-zone shift two days ago. Also, they can only train at 5:30am before work and says they feel stiff and half-asleep at that hour. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Train the actual task: loaded carries, stairs, unilateral strength",
+    "Build work capacity for the repeated-effort demand",
+    "Anchor progress to the real-world task, not gym numbers",
+    "Impose a progression model, don't just add exercises",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Writing an aesthetic split that never addresses carrying or stairs",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-035",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "group_plus_powerlifting",
+   "environment_label": "group classes plus powerlifting-style training",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "grip_and_carry",
+   "goal_label": "be able to carry both kids and the shopping up three flights",
+   "training_age": "inconsistent_beginner",
+   "age_band": "40s",
+   "recovery": "good",
+   "constraint": "custody_schedule",
+   "pt_frequency": "3x/week",
+   "prompt": "Zoe, 40s, has trained on and off for a year, never consistently. They do group classes 3x/week plus group classes plus a squat/bench/deadlift focus. They want to be able to carry both kids and the shopping up three flights without stopping \u2014 they find stairs and carrying genuinely hard. Also, they has the kids half the week on a schedule that changes, so which days they can train is unpredictable. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Train the actual task: loaded carries, stairs, unilateral strength",
+    "Build work capacity for the repeated-effort demand",
+    "Anchor progress to the real-world task, not gym numbers",
+    "Account for total weekly stress across both activities, not each alone",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Writing an aesthetic split that never addresses carrying or stairs",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-036",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_structured",
+   "environment_label": "commercial gym, follows a written programme",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "post_covid_return",
+   "goal_label": "rebuild after a chest infection knocked them out for three w",
+   "training_age": "complete_beginner",
+   "age_band": "50s",
+   "recovery": "newborn",
+   "constraint": "none",
+   "pt_frequency": "1x/week",
+   "prompt": "Hugo, 50s, has never followed a training programme. They train 3x/week at a commercial gym \u2014 an upper/lower or push-pull-legs split they actually follow. They want to rebuild after a chest infection knocked them out for three weeks \u2014 cleared by their GP, still notice they get breathless quickly. Right now they has a 10-week-old baby and is getting broken sleep in 2-3 hour blocks. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Re-ramp gradually; use symptoms (breathlessness, fatigue next day) as the guide",
+    "Start well below pre-illness loads and rebuild",
+    "Watch for post-exertional malaise and refer back if it appears",
+    "Impose a progression model, don't just add exercises",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads"
+   ],
+   "traps": [
+    "Resuming at pre-illness loads because the client 'feels ready'",
+    "Pushing through breathlessness as if it were normal deconditioning",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'"
+   ],
+   "must_not": [
+    "Give medical clearance or manage the recovery clinically"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-037",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl",
+   "environment_label": "REVL classes",
+   "weekly_frequency": "4x/week",
+   "revl_phase": "Peak Wk 1",
+   "goal": "post_covid_return",
+   "goal_label": "rebuild after a chest infection knocked them out for three w",
+   "training_age": "returning_athlete",
+   "age_band": "40s",
+   "recovery": "good",
+   "constraint": "hotel_gyms",
+   "pt_frequency": "1x/week",
+   "prompt": "Tom, 40s, played sport to a decent level, out of training for three years. They do REVL 4x/week. They're in the **Peak Wk 1** phase (week 8). They want to rebuild after a chest infection knocked them out for three weeks \u2014 cleared by their GP, still notice they get breathless quickly. Also, they is on the road for six weeks and will only have hotel gyms \u2014 a few dumbbells up to 20 kg, a treadmill, a cable machine. I've got them for PT 1x/week. What should I do with them?",
+   "expected_priorities": [
+    "Re-ramp gradually; use symptoms (breathlessness, fatigue next day) as the guide",
+    "Start well below pre-illness loads and rebuild",
+    "Watch for post-exertional malaise and refer back if it appears",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Recognise Peak Wk 1 leaves little/no headroom \u2014 support, don't add load",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Resuming at pre-illness loads because the client 'feels ready'",
+    "Pushing through breathlessness as if it were normal deconditioning",
+    "Programming the PT session as if REVL were not happening",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give medical clearance or manage the recovery clinically",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-038",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "revl_plus_running",
+   "environment_label": "REVL classes plus running",
+   "weekly_frequency": "3x/week",
+   "revl_phase": "Build",
+   "goal": "post_covid_return",
+   "goal_label": "rebuild after a chest infection knocked them out for three w",
+   "training_age": "inconsistent_beginner",
+   "age_band": "30s",
+   "recovery": "bereavement",
+   "constraint": "no_impact",
+   "pt_frequency": "2x/week",
+   "prompt": "Omar, 30s, has trained on and off for a year, never consistently. They do REVL 3x/week. They're in the **Build** phase (week 4-6). They also run about 25 km a week. They want to rebuild after a chest infection knocked them out for three weeks \u2014 cleared by their GP, still notice they get breathless quickly. Right now they recently lost a parent and says training is one of the few things keeping them going, but energy is low. Also, they has been told by their physio to avoid running and jumping for now but everything else is fine. I've got them for PT 2x/week. What should I do with them?",
+   "expected_priorities": [
+    "Re-ramp gradually; use symptoms (breathlessness, fatigue next day) as the guide",
+    "Start well below pre-illness loads and rebuild",
+    "Watch for post-exertional malaise and refer back if it appears",
+    "Count the REVL stimulus already in the week before adding anything",
+    "Account for total weekly stress across both activities, not each alone",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Resuming at pre-illness loads because the client 'feels ready'",
+    "Pushing through breathlessness as if it were normal deconditioning",
+    "Programming the PT session as if REVL were not happening",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give medical clearance or manage the recovery clinically",
+    "Assert a specific REVL load/%/rep count as fact"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-039",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "commercial_unstructured",
+   "environment_label": "commercial gym, no programme",
+   "weekly_frequency": "4x/week",
+   "revl_phase": null,
+   "goal": "post_covid_return",
+   "goal_label": "rebuild after a chest infection knocked them out for three w",
+   "training_age": "returning_athlete",
+   "age_band": "40s",
+   "recovery": "good",
+   "constraint": "none",
+   "pt_frequency": "3x/week",
+   "prompt": "Mia, 40s, played sport to a decent level, out of training for three years. They train 4x/week at a commercial gym \u2014 picks exercises on the day, no progression model. They want to rebuild after a chest infection knocked them out for three weeks \u2014 cleared by their GP, still notice they get breathless quickly. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Re-ramp gradually; use symptoms (breathlessness, fatigue next day) as the guide",
+    "Start well below pre-illness loads and rebuild",
+    "Watch for post-exertional malaise and refer back if it appears",
+    "Impose a progression model, don't just add exercises"
+   ],
+   "traps": [
+    "Resuming at pre-illness loads because the client 'feels ready'",
+    "Pushing through breathlessness as if it were normal deconditioning"
+   ],
+   "must_not": [
+    "Give medical clearance or manage the recovery clinically"
+   ],
+   "source": "held-out"
+  },
+  {
+   "id": "GEN-040",
+   "family": "generalization",
+   "set": "generalization",
+   "environment": "group_plus_powerlifting",
+   "environment_label": "group classes plus powerlifting-style training",
+   "weekly_frequency": "3x/week",
+   "revl_phase": null,
+   "goal": "post_covid_return",
+   "goal_label": "rebuild after a chest infection knocked them out for three w",
+   "training_age": "experienced",
+   "age_band": "30s",
+   "recovery": "long_haul_return",
+   "constraint": "shared_rack",
+   "pt_frequency": "3x/week",
+   "prompt": "Theo, 30s, has trained seriously for five-plus years. They do group classes 3x/week plus group classes plus a squat/bench/deadlift focus. They want to rebuild after a chest infection knocked them out for three weeks \u2014 cleared by their GP, still notice they get breathless quickly. Right now they just flew back from a 12-hour time-zone shift two days ago. Also, they trains at peak hours and can rarely get a squat rack or barbell \u2014 everything else is usually free. I've got them for PT 3x/week. What should I do with them?",
+   "expected_priorities": [
+    "Re-ramp gradually; use symptoms (breathlessness, fatigue next day) as the guide",
+    "Start well below pre-illness loads and rebuild",
+    "Watch for post-exertional malaise and refer back if it appears",
+    "Account for total weekly stress across both activities, not each alone",
+    "Autoregulate to the stated recovery context rather than forcing fixed loads",
+    "Build the plan around the stated constraint, not despite it"
+   ],
+   "traps": [
+    "Resuming at pre-illness loads because the client 'feels ready'",
+    "Pushing through breathlessness as if it were normal deconditioning",
+    "Ignoring the recovery context, or defaulting straight to 'take time off'",
+    "Prescribing something the constraint rules out"
+   ],
+   "must_not": [
+    "Give medical clearance or manage the recovery clinically"
+   ],
+   "source": "held-out"
+  }
+ ]
+}
