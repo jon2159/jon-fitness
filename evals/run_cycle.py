@@ -97,9 +97,13 @@ def claude(prompt: str, timeout: int, cwd: Path, allowed=None) -> tuple[str, str
     cmd = ["claude", "-p", prompt, "--permission-mode", "bypassPermissions"]
     if allowed:
         cmd += ["--allowed-tools", ",".join(allowed)]
+    # The cloud routine container runs as root, and the CLI refuses
+    # --dangerously-skip-permissions (which bypassPermissions maps to) under
+    # root unless IS_SANDBOX=1. Harmless locally (we're already non-root).
+    env = {**os.environ, "IS_SANDBOX": "1"}
     try:
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout,
-                           cwd=str(cwd), stdin=subprocess.DEVNULL)
+                           cwd=str(cwd), stdin=subprocess.DEVNULL, env=env)
     except subprocess.TimeoutExpired:
         return "", f"timeout after {timeout}s"
     except FileNotFoundError:
@@ -314,11 +318,20 @@ def main(argv=None):
     (CYCLES / f"{ts}.json").write_text(json.dumps(dict(
         ts=ts, cycle=state["cycle"], label=args.label, skill_version=version,
         n_selected=len(picked), n_scored=len(scored), rows=rows), indent=1))
-    STATE.write_text(json.dumps(state, indent=1))
 
-    if scored:
-        print(f"\ncycle {state['cycle']}: {len(scored)}/{len(picked)} scored | "
-              f"overall {statistics.mean(r['overall'] for r in scored):.2f}", file=sys.stderr)
+    if not scored:
+        # every scenario errored (e.g. nested claude calls broken) — don't advance
+        # the rotation counter or refresh the report on a junk cycle. The cycles/
+        # detail file above is kept for debugging. nightly.sh checks this exit code.
+        state["cycle"] = state.get("cycle", 1) - 1
+        STATE.write_text(json.dumps(state, indent=1))
+        print(f"\ncycle produced 0/{len(picked)} scored scenarios — not recorded "
+              f"(first error: {rows[0].get('error') if rows else 'n/a'})", file=sys.stderr)
+        return 1
+
+    STATE.write_text(json.dumps(state, indent=1))
+    print(f"\ncycle {state['cycle']}: {len(scored)}/{len(picked)} scored | "
+          f"overall {statistics.mean(r['overall'] for r in scored):.2f}", file=sys.stderr)
     write_report()
     return 0
 

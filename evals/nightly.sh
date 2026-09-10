@@ -25,8 +25,16 @@ python3 evals/generate_scenarios.py >/dev/null
 CYCLE=$(python3 -c "import json,os;p='evals/results/rotation_state.json';print(json.load(open(p)).get('cycle',0) if os.path.exists(p) else 0)")
 NEXT=$((CYCLE+1))
 log "running cycle $NEXT"
-python3 evals/run_cycle.py --n "${EVAL_N:-25}" --label "nightly" 2>&1 | tail -30
+set -o pipefail
+python3 evals/run_cycle.py --n "${EVAL_N:-15}" --label "nightly" 2>&1 | tail -40
 RC=$?
+set +o pipefail
+
+if [ "$RC" -ne 0 ]; then
+  log "cycle exited $RC (0 scored / hard failure) — skipping optimizer, commit and push"
+  log "done (cycle $NEXT NOT recorded, run_cycle rc=$RC)"
+  exit "$RC"
+fi
 
 if [ $((NEXT % 3)) -eq 0 ]; then
   log "optimizer: analyse"

@@ -32,6 +32,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import statistics
 import subprocess
@@ -73,8 +74,9 @@ def claude(prompt, timeout=300, allowed=None):
     cmd = ["claude", "-p", prompt, "--permission-mode", "bypassPermissions"]
     if allowed:
         cmd += ["--allowed-tools", ",".join(allowed)]
+    env = {**os.environ, "IS_SANDBOX": "1"}  # allow --skip-permissions under root (cloud container)
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout,
-                       cwd=str(REPO), stdin=subprocess.DEVNULL)
+                       cwd=str(REPO), stdin=subprocess.DEVNULL, env=env)
     return (r.stdout.strip(), "" if r.returncode == 0 else r.stderr.strip()[:300])
 
 
