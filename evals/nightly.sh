@@ -57,11 +57,86 @@ find evals/results/cycles -name '*.json' -type f -mtime +30 -delete 2>/dev/null 
 
 log "commit + push"
 git add -A evals/results evals/scenarios/scenarios.json
-if ! git diff --cached --quiet; then
-  git commit -q -m "eval: nightly cycle $NEXT
+if git diff --cached --quiet; then
+  log "nothing to commit (no result files changed) — sync trivially OK"
+  log "done (cycle $NEXT, run_cycle rc=$RC)"
+  exit 0
+fi
+git commit -q -m "eval: nightly cycle $NEXT
 
 Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01FHeBbPq2DUV8b9bysbJqwJ" || true
+Claude-Session: https://claude.ai/code/session_01FHeBbPq2DUV8b9bysbJqwJ"
+
+# Push with retry: origin/main can move between our pull at the top and now
+# (another routine fire, a manual run, or a person committing). A plain push
+# failure must never mean "results only exist locally" -- retry against a
+# fresh fetch, and if a real merge conflict shows up, resolve it in favour of
+# THIS run's result files (they're what we're trying to land) rather than
+# leaving the repo in a half-merged state for the next scheduled fire.
+PUSHED=0
+for attempt in 1 2 3; do
+  # Capture output and check git push's OWN exit code -- piping straight into
+  # `tail` here would make `if` see tail's exit status (always 0) instead of
+  # push's, silently treating every failed push as a success.
+  PUSH_OUT=$(git push origin main 2>&1)
+  PUSH_RC=$?
+  echo "$PUSH_OUT" | tail -5
+  if [ "$PUSH_RC" -eq 0 ]; then
+    PUSHED=1
+    break
+  fi
+  log "push attempt $attempt failed -- fetching origin/main and retrying"
+  git fetch --quiet origin main
+  if ! git merge --no-edit -q origin/main; then
+    CONFLICTS=$(git diff --name-only --diff-filter=U)
+    OUTSIDE_EVALS=$(echo "$CONFLICTS" | grep -vE '^evals/(results/|scenarios/scenarios\.json$)' || true)
+    if [ -n "$OUTSIDE_EVALS" ]; then
+      # Never auto-resolve a conflict outside the results/scenario files this
+      # script owns (e.g. a skill file a human or the guarded optimizer
+      # touched concurrently) -- that's exactly the kind of silent clobber
+      # the "never weaken skill edits" rule exists to prevent. Bail loudly.
+      git merge --abort
+      log "merge conflict OUTSIDE evals/results -- refusing to auto-resolve: $OUTSIDE_EVALS"
+      log "results are committed locally but NOT pushed; needs a human to resolve"
+      PUSHED=0
+      break
+    fi
+    log "merge conflict -- resolving results files"
+    # history.jsonl is the permanent scored-results record: a plain "ours" or
+    # "theirs" pick would silently DROP whichever side's scenario rows lost,
+    # so union both sides' lines instead (dedup exact repeats, keep order).
+    if echo "$CONFLICTS" | grep -qx "evals/results/history.jsonl"; then
+      git show :2:evals/results/history.jsonl > /tmp/nightly_ours_history.jsonl 2>/dev/null || true
+      git show :3:evals/results/history.jsonl > /tmp/nightly_theirs_history.jsonl 2>/dev/null || true
+      awk '!seen[$0]++' /tmp/nightly_ours_history.jsonl /tmp/nightly_theirs_history.jsonl \
+        > evals/results/history.jsonl
+      rm -f /tmp/nightly_ours_history.jsonl /tmp/nightly_theirs_history.jsonl
+      git add evals/results/history.jsonl
+    fi
+    # Everything else that's still conflicted is regenerated or low-stakes
+    # (rotation_state.json, REPORT.md, scenarios.json, PROPOSALS.md) -- keep
+    # our side; it self-corrects on the next cycle.
+    for f in $(git diff --name-only --diff-filter=U); do
+      git checkout --ours -- "$f" 2>/dev/null || true
+      git add "$f"
+    done
+    git commit --no-edit -q || true
+  fi
+  sleep 5
+done
+
+# Never trust the push exit code alone -- confirm origin/main actually points
+# at what we just committed before calling this a successful sync.
+git fetch --quiet origin main
+LOCAL_HEAD=$(git rev-parse HEAD)
+REMOTE_HEAD=$(git rev-parse origin/main 2>/dev/null || echo "unknown")
+if [ "$PUSHED" -eq 1 ] && [ "$LOCAL_HEAD" = "$REMOTE_HEAD" ]; then
+  log "SYNC OK — origin/main == $LOCAL_HEAD (cycle $NEXT results are live on GitHub)"
+  log "done (cycle $NEXT, run_cycle rc=$RC)"
+  exit 0
+else
+  log "SYNC FAILED after 3 attempts — local HEAD=$LOCAL_HEAD origin/main=$REMOTE_HEAD"
+  log "Cycle $NEXT results are committed LOCALLY in this container but NOT synced to your repo."
+  log "done (cycle $NEXT, run_cycle rc=$RC, SYNC FAILED)"
+  exit 1
 fi
-git push --quiet origin main 2>&1 | tail -5 || log "push failed"
-log "done (cycle $NEXT, run_cycle rc=$RC)"
