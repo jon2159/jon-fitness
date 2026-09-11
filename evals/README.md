@@ -97,13 +97,22 @@ The runner shells out to the local `claude` CLI, so a **laptop cron would only f
 Mac is awake**. Instead it runs as a **cloud routine** (Anthropic cloud, laptop-independent):
 it clones this repo from GitHub, runs `evals/nightly.sh`, commits results, pushes.
 
-- **3 fires/night**, ~22:30 / 02:30 / 06:30 **Asia/Singapore** (14:30 / 18:30 / 22:30 UTC),
-  covering the 10 pm → 9:30 am window.
-- Each fire = one 25-scenario cycle (~7 benchmark + ~18 rotated, least-recently-run first).
-  The whole library is covered every ~13 nights of full runs; the benchmark every night.
-- If a fire is short on usage it records what it completed; the next fire resumes rotation —
-  so "re-run 1–2× a night per token budget" happens naturally.
-- Cloud routines cap at 1-hour cron minimum and the routine's own quota handling applies.
+- **2 fires/night**, 22:30 and 05:30 **Asia/Singapore** (cron `30 14,21 * * *` UTC),
+  inside the 10 pm → 9 am window.
+- Each fire = one `EVAL_N`-scenario cycle (default 15: ~7 benchmark + rotated,
+  least-recently-run first). The whole library rotates over more nights; the benchmark
+  slice runs every successful fire.
+- **Why 2, not 3:** the first night (2026-09-10) ran 3 fires spaced 4h apart
+  (22:37/02:38/06:38 SGT) and scored 2/3 — the middle fire started inside the first
+  fire's rolling **5-hour** Anthropic usage window and got rejected outright (`five_hour`
+  rate-limit event), producing nothing. The two fires that started ≥6h after the previous
+  one's start both completed cleanly (~60-70 min each). 2 fires spaced ~7h apart (22:30 +
+  05:30) reliably each start with a clear window instead of losing a third of every night.
+- If a fire is short on usage it records what it completed; `nightly.sh` exits non-zero and
+  makes **no commit** rather than pushing a partial/junk cycle — the next fire resumes
+  rotation cleanly.
+- Cloud routines cap at 1-hour cron minimum; scheduling closer than the usage window clears
+  wastes a fire, not just quota.
 
 Manage / pause / see runs: https://claude.ai/code/routines
 

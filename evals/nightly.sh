@@ -4,13 +4,19 @@
 #
 #   1. git pull (cloud checkout may be behind)
 #   2. regenerate the scenario library (cheap, deterministic)
-#   3. run ONE eval cycle (25 scenarios: ~7 benchmark + ~18 rotated)
+#   3. run ONE eval cycle (EVAL_N scenarios, default 15: ~7 benchmark + rotated)
 #   4. every 3rd cycle: run the optimizer in analyse-only mode -> PROPOSALS.md
 #   5. weekly-ish (Sunday): run the GUARDED optimizer --apply (regression-tested)
 #   6. commit results + push
 #
 # Skill edits are only ever made by step 5's guarded, regression-tested path.
 # Steps 1-4 never touch the skill.
+#
+# Scheduled 2x/night (22:30 + 05:30 SGT, cron 30 14,21 * * *), not 3x. A 3rd
+# fire spaced only 4h after the first collided with Anthropic's rolling
+# 5-hour usage window and produced nothing (2026-09-10: fires at 22:37/02:38/
+# 06:38 SGT scored 2/3 nights -- the 02:38 fire failed outright). 2 fires
+# spaced ~7h apart reliably start with a clear window; see evals/README.md.
 set -uo pipefail
 cd "$(dirname "$0")/.."
 
