@@ -78,7 +78,12 @@ for attempt in 1 2 3; do
   # Capture output and check git push's OWN exit code -- piping straight into
   # `tail` here would make `if` see tail's exit status (always 0) instead of
   # push's, silently treating every failed push as a success.
-  PUSH_OUT=$(git push origin main 2>&1)
+  # HEAD:main, not main -- the cloud routine's container checks the repo out
+  # in DETACHED HEAD with a separate, stale local branch also named "main".
+  # `git push origin main` resolves to that stale local branch (always
+  # rejected as non-fast-forward, forever) instead of the commit actually
+  # checked out. HEAD:main pushes whatever is checked out, branch or not.
+  PUSH_OUT=$(git push origin HEAD:main 2>&1)
   PUSH_RC=$?
   echo "$PUSH_OUT" | tail -5
   if [ "$PUSH_RC" -eq 0 ]; then
