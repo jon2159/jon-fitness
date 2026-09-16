@@ -31,7 +31,10 @@ SRC = Path(__file__).resolve().parent
 CACHE = SRC / ".revl_ocr_cache"
 BLOCK_DIRS = {1: REPO / "REVL Block 1 2026",
               2: REPO / "REVL Block 2 programming 2026",
-              3: REPO / "REVL Block 3 programming 2026"}
+              3: REPO / "REVL Block 3 programming 2026",
+              4: REPO / "REVL Block 3 programming 2025",
+              5: REPO / "REVL Block 4 programming 2025"}
+BLOCK_LABELS = {4: "Block 3 2025", 5: "Block 4 2025"}
 PHASE_ORDER = ["Volume Wk 1", "Volume Wk 2", "Volume Wk 3",
                "Build Wk 1", "Build Wk 2", "Build Wk 3", "Deload Wk 1",
                "Peak Wk 1", "Peak Wk 2", "Peak Wk 3",
@@ -89,6 +92,7 @@ def load_text(path: Path) -> str:
 def session_type(stem: str) -> str:
     s = stem.lower()
     for t in ("perform total", "perform lower", "perform upper", "move total",
+              "move upper", "move lower", "move performance",
               "sweat sprint baseline", "sweat engine baseline",
               "sweat sprint", "sweat engine", "sweat team", "complete"):
         if t in s:
@@ -105,6 +109,8 @@ def main(argv=None) -> int:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--md", action="store_true", help="emit Markdown tables")
     ap.add_argument("--show-keys", action="store_true")
+    ap.add_argument("--blocks", type=int, nargs="+", choices=[1, 2, 3, 4, 5],
+                    default=[1, 2, 3, 4, 5])
     args = ap.parse_args(argv)
 
     if args.show_keys:
@@ -114,7 +120,7 @@ def main(argv=None) -> int:
 
     sessions = []
     for b, root in BLOCK_DIRS.items():
-        if not root.is_dir():
+        if b not in args.blocks or not root.is_dir():
             continue
         for folder in sorted((d for d in root.iterdir() if d.is_dir()),
                              key=lambda d: PHASE_ORDER.index(d.name) if d.name in PHASE_ORDER else 99):
@@ -137,8 +143,9 @@ def main(argv=None) -> int:
     out = []
     P = out.append
     blocks_present = sorted({s["block"] for s in sessions})
+    lbl = lambda b: BLOCK_LABELS.get(b, f"Block {b}")
     P("Sessions analysed: %d  (%s)\n" % (
-        n, ", ".join(f"Block {b}: {sum(1 for s in sessions if s['block']==b)}"
+        n, ", ".join(f"{lbl(b)}: {sum(1 for s in sessions if s['block']==b)}"
                      for b in blocks_present)))
 
     # --- 1. pattern presence overall
@@ -152,6 +159,7 @@ def main(argv=None) -> int:
 
     # --- 2. pattern by session type
     types = [t for t in ["Perform Total", "Perform Lower", "Perform Upper", "Move Total",
+                         "Move Upper", "Move Lower",
                          "Sweat Sprint", "Sweat Engine", "Sweat Team", "Complete"]
              if any(s["stype"] == t for s in sessions)]
     P("### Movement-pattern presence by session type (% of that type's sessions)\n")
@@ -223,7 +231,7 @@ def main(argv=None) -> int:
 
     # --- 7. weekly session census
     P("### Sessions per phase-week folder\n")
-    P("| Folder | " + " | ".join(f"Block {b}" for b in blocks_present) + " |")
+    P("| Folder | " + " | ".join(lbl(b) for b in blocks_present) + " |")
     P("|---" * (len(blocks_present) + 1) + "|")
     for f in PHASE_ORDER:
         cells = [str(sum(1 for s in sessions if s["folder"] == f and s["block"] == b))

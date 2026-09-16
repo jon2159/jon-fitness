@@ -54,7 +54,10 @@ BLOCK_DIRS = {
     1: REPO / "REVL Block 1 2026",
     2: REPO / "REVL Block 2 programming 2026",
     3: REPO / "REVL Block 3 programming 2026",   # Rebuild not yet published by REVL
+    4: REPO / "REVL Block 3 programming 2025",
+    5: REPO / "REVL Block 4 programming 2025",
 }
+BLOCK_LABELS = {4: "Block 3 2025", 5: "Block 4 2025"}
 OUT = SRC / "revl_raw_data.md"
 CACHE = SRC / ".revl_ocr_cache"
 VISION_BIN = CACHE / "revl_vision_ocr"
@@ -285,8 +288,9 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--limit", type=int, default=0)
-    ap.add_argument("--blocks", type=int, nargs="+", choices=[1, 2, 3], default=[1, 2, 3])
+    ap.add_argument("--blocks", type=int, nargs="+", choices=[1, 2, 3, 4, 5], default=[1, 2, 3])
     ap.add_argument("--no-vision", action="store_true")
+    ap.add_argument("--out", type=Path, default=OUT)
     args = ap.parse_args(argv)
 
     missing = [str(BLOCK_DIRS[b]) for b in args.blocks if not BLOCK_DIRS[b].is_dir()]
@@ -315,14 +319,15 @@ def main(argv=None) -> int:
     processed = 0
     for b in args.blocks:
         root = BLOCK_DIRS[b]
-        o.append(f"\n---\n\n# Block {b}  (`{root.name}/`)\n")
+        label = BLOCK_LABELS.get(b, f"Block {b}")
+        o.append(f"\n---\n\n# {label}  (`{root.name}/`)\n")
         folders = sorted((d for d in root.iterdir() if d.is_dir()),
                          key=lambda d: phase_week_num(d.name))
         n = 0
         for folder in folders:
             phase, wk = parse_phase_week(folder.name)
             wknum = phase_week_num(folder.name)
-            o.append(f"\n## Block {b} — {folder.name}  (programme week {wknum}) [inferred]\n")
+            o.append(f"\n## {label} — {folder.name}  (programme week {wknum}) [inferred]\n")
             o.append(f"- **Phase:** {phase}  ·  **Phase-week:** {wk}  ·  "
                      f"**Overall week:** {wknum}   _(inferred from folder name)_\n")
             for png in sorted(folder.glob("*.png"), key=lambda p: day_key(p.name)):
@@ -371,8 +376,13 @@ def main(argv=None) -> int:
     o.append(f"- Cache: `{CACHE.relative_to(REPO)}/`  (git-ignored)")
     o.append("\nNext: Step 2 reads this file to build `source/revl_programming_analysis.md`.\n")
 
-    OUT.write_text("\n".join(o) + "\n", encoding="utf-8")
-    print(f"wrote {OUT.relative_to(REPO)}  ({OUT.stat().st_size // 1024} KB, "
+    out_path = args.out if args.out.is_absolute() else REPO / args.out
+    out_path.write_text("\n".join(o) + "\n", encoding="utf-8")
+    try:
+        loc = out_path.relative_to(REPO)
+    except ValueError:
+        loc = out_path
+    print(f"wrote {loc}  ({out_path.stat().st_size // 1024} KB, "
           f"{sum(counts.values())} screenshots, {processed} processed, {err} errors, "
           f"engines: rapidocr{'+vision' if vision else ''})")
     return 0
