@@ -306,7 +306,11 @@ screening, the eligibility check, and the traceability chain.
   `references/revl-class-integration.md`. Before designing anything:
   1. **Identify the current REVL phase and week**, whether they do Perform or Move on
      strength days, and what their recent sessions actually were — ask, don't assume
-     the template.
+     the template. If Move, also ask the **Wednesday Move-track shape** (intake P18):
+     REVL has shipped a Move Upper (upper-only) and a Move Total (bench/squat-led)
+     Wednesday across different blocks, and they change Wednesday's lower-body load
+     (revl-class-integration.md §5a/§7). **Log the Move-track shape and week number in
+     the plan's evidence section** so later sessions inherit it without re-asking.
   2. **Map what REVL has already trained this week** (movement patterns × qualities)
      and estimate the accumulated muscular and neural stress for the phase.
   3. **Determine the single highest-value need** the PT session should deliver (often

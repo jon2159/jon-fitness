@@ -146,6 +146,15 @@ A. No — strength only  B. Yes, gradual (hold the course's ~1–2 lb/wk)  C. Ye
 *(C → give the trade-offs; a larger deficit is a client/RD nutrition decision, outside the
 course's 500–1000 kcal/day band. Nutrition stays general-information only — refer to an RD.)*
 
+### P18. REVL Wednesday session + block week *(BLOCKING if the client trains at REVL)*
+REVL has shipped at least two different Wednesday "Move" shapes across blocks — don't assume
+either. Ask: *"On Wednesdays, do you do a Move Upper (upper-body-only) session or a Move Total
+(bench/squat-led, full-body) session? And what week of the 13-week block are you in — Volume,
+Build, Deload, Peak (which of the three), or Rebuild?"*
+*(The answer changes whether Wednesday is a lower-body-loaded day — see
+`references/revl-class-integration.md` §5a/§7. Log the Move-track shape and week number in the
+plan's evidence section — see `SKILL.md` §B4.)*
+
 ---
 
 ## Stage 3 — Personalization

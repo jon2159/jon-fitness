@@ -39,6 +39,13 @@ term — in the ISA/ACE model **Functional Training** is stage 1 (postural stabi
 chain mobility, bodyweight/core/balance; *Wk02 Ch2 p10–11*). Barbell strength work is
 **Movement + Load/Speed**. Keep citations attached to the real stage.
 
+**The archetype has no cardio component.** It is a pure strength wave — no Zone 1–2 easy
+aerobic work is built in anywhere, on a Russian-only client just as much as a REVL one
+(`revl-class-integration.md` §6a covers this gap for REVL clients specifically; it applies
+here **even when REVL isn't in the picture at all**). Add easy aerobic work as a standard
+part of any Russian-block client's weekly plan unless a stated goal or the cardio FITT-VP
+*(Wk05 Ch8)* says otherwise — don't wait for a REVL trigger to raise it.
+
 ---
 
 ## 2. Eligibility gate — check every item before offering the archetype
@@ -228,6 +235,10 @@ Set the method in the plan's **Retest Plan** section, chosen by client type:
   (e.g. 5RM), convert to estimated 1RM (Table 10-25), and report the **start → end delta** and
   the loads carried each week. This is the course's sub-maximal strength assessment, *"appropriate
   for inexperienced exercisers"* (*Wk06 Ch10 p75*).
+- **REVL client, no separate test needed:** if the client's REVL block includes Peak Wk 2
+  (build-to-1RM deadlift + push press/jerk, 3RM variants — confirmed in both captured REVL
+  years, `revl-class-integration.md` §3), **use those coached maxes** instead of re-testing.
+  Satisfies gate G4 and this section's requirement without stacking a third maximal week.
 
 ---
 

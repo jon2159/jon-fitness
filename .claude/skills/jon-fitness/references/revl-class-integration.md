@@ -30,15 +30,21 @@ REVL.
    state. This decides how 1 and 2 are applied.
 
 **Evidence labelling used below**
-- **[Observed]** — read off the captured screenshots (**Blocks 1, 2 and 3 of 2026 — 363
-  sessions**; see `source/revl_raw_data.md` and `source/revl_programming_analysis.md`).
-- **[Pattern]** — repeated across many sessions; backed by the counts in the analysis file.
+- **[Observed]** — read off the captured screenshots (**Blocks 1, 2 and 3 of 2026 (363
+  sessions) plus Blocks 3 and 4 of 2025 (260 sessions) — 623 sessions total**; see
+  `source/revl_raw_data.md` / `source/revl_raw_data_2025.md` and
+  `source/revl_programming_analysis.md` / `source/revl_programming_analysis_2025.md`).
+- **[Pattern]** — repeated across many sessions; backed by the counts in the analysis files.
 - **[Course]** — an ISA CPT principle, cited *(WkNN Ch## pN)*.
 - **[Inference]** — a reasonable reading of intent, not stated by REVL.
 
-**Coverage.** Blocks 1 and 2 are complete (13 weeks each). **Block 3's Rebuild phase had not
-been published by REVL** when it was captured (2026-09-09) — Block 3 covers Volume → Peak
-only. Treat that as a gap in the source, not a programming finding.
+**Coverage.** 2026 Blocks 1 and 2 are complete (13 weeks each); **2026 Block 3's Rebuild phase
+had not been published by REVL** when it was captured (2026-09-09) — Block 3 covers Volume →
+Peak only, still an open watch item. **2025 Blocks 3 and 4 are both complete (130/130
+sessions each).** REVL has already changed the programme once within 12 months — **some
+numbers below differ by year** (marked with a year range) and the two years are compared in
+full in `source/revl_2025_vs_2026_analysis.md`. Treat a missing phase as a gap in the source,
+not a programming finding.
 
 **Evidence quality — read this before quoting anything.** The posters are stylised type over
 photos; two OCR engines still lose spacing and misread digits. **Never present a specific
@@ -72,8 +78,14 @@ tracks and three conditioning formats.
 - **Session shape [Pattern]:** 4:00-capped warm-up that ramps the day's main pattern at
   ~40% → **S1** density block holding the main lift + accessories → **S2** two 7–8 min
   AMRAP/cap blocks → **S3** partner finisher.
-- **Every session in all 363 screenshots is time-capped.** There is no untimed, self-paced
-  work anywhere in the programme. **[Observed]**
+- **Every session in all 623 captured screenshots (both years) is time-capped.** There is no
+  untimed, self-paced work anywhere in the programme. **[Observed]**
+- **REVL has shipped at least two different Move-track shapes.** 2025: Move Upper/Move Lower
+  split (Mon Total / Wed Upper / Fri Lower). 2026: Move Total on all three strength days
+  (Mon deadlift-led / Wed bench-led / Fri squat-led). **Ask the client what their Wednesday
+  Move session actually is (intake P18) — don't assume either shape.** Full diff in
+  `source/revl_2025_vs_2026_analysis.md` §2a. The table below is the **2026** shape; see that
+  file for the 2025 shape.
 
 ### Three things to get right about the weekend sessions
 
@@ -119,12 +131,18 @@ going into Monday.
 
 Peak Wk 2 gives the client a **current, coached, validated 1RM** (deadlift + an overhead lift,
 plus 3RMs) — exactly what a PT strength block normally has to test for itself. Peak Wk 3 does
-the same for conditioning benchmarks.
+the same for conditioning benchmarks. **This test menu is confirmed across both captured
+years** — 2025 and 2026 both run `30:00 Cap — 1RM BB Deadlift → 1RM BB Push Press/Jerk` plus
+3RM variants in Peak Wk 2, and 2025's own files label the session `baseline` **[Observed,
+both engines agree, both years]** — treat it as a stable house convention, not a one-off.
 
 1. **Protect both weeks** — nothing load-bearing or maximal added near them.
 2. **Use the numbers afterwards.** If a PT strength block needs a real 1RM
    (`russian-strength-program.md` gate G4 / retest §7), start it in **Rebuild** driven by the
    fresh maxes rather than re-testing the client.
+3. **A Masters 2-day wave started in Rebuild should be anchored to the Peak Wk 2 maxes**
+   captured 3–5 weeks earlier — no re-testing, no stacking. This respects the never-stack-
+   two-peaks rule (§10) and the combined-recovery gate (`russian-strength-program.md` G6).
 
 **[Pattern] The single most useful structural fact:** REVL periodises **load and rep-scheme,
 not exercise menu**. Barbell squat exposure sits at 23–32% of sessions and barbell hinge at
@@ -183,23 +201,27 @@ high-rep metabolic volume.
 
 ### 5b. Overall pattern exposure and the two clear gaps
 
-Across 363 sessions, Blocks 1–3:
+2026 figures (Blocks 1–3, 363 sessions) below; **year ranges from the 5-block, 623-session
+comparison** (`source/revl_2025_vs_2026_analysis.md`) given where 2025 differs:
 
-| Pattern | % of all sessions | | Pattern | % of all sessions |
-|---|--:|---|---|--:|
-| Hinge (any implement) | 74% | | Vertical push | 50% |
-| Squat (any implement) | 73% | | Vertical pull | 43% |
-| Erg / machine cardio | 68% | | Horizontal pull | 39% |
-| Unilateral lower | 64% | | Running | 34% |
-| Olympic / ballistic | 56% | | Burpee / metcon | 30% |
-| Core / trunk | 55% | | **Rotation / anti-rotation** | **15%** |
-| Horizontal push | 53% | | **Carry / loaded hold** | **11%** |
+| Pattern | % of all sessions (2026) | Year range (2025–2026) | | Pattern | % of all sessions (2026) |
+|---|--:|--:|---|---|--:|
+| Hinge (any implement) | 74% | 63–74% | | Vertical push | 50% |
+| Squat (any implement) | 73% | 66–73% | | Vertical pull | 43% |
+| Erg / machine cardio | 68% | — | | Horizontal pull | 39% |
+| Unilateral lower | 64% | 53–64% | | Running | 34% |
+| Olympic / ballistic | 56% | 56–63% | | Burpee / metcon | 30% |
+| Core / trunk | 55% | — | | **Rotation / anti-rotation** | **15% (2026) / 33% (2025)** |
+| Horizontal push | 53% | — | | **Carry / loaded hold** | **11% (2026) / 8% (2025)** |
 
 **[Pattern] These figures moved by ≤3 points when a third block was added** — the weekly
-architecture is stable house-style, not block-specific. Rely on it.
+architecture is stable house-style, not block-specific. Rely on it within a year.
 
-**[Pattern] Carries and rotation/anti-rotation are the two systematically under-trained
-patterns.** Horizontal pulling (39%, concentrated on Fri/Sun) is the third.
+**[Pattern] Carries are an unconditional gap in both years (8–11%).** Rotation/anti-rotation
+is a **track-conditional** gap: 2025's Move track carried it on 81–85% of Move Upper/Lower
+sessions, so it was well-served (33%); **2026 removed that dedicated session and the exposure
+halved (15%) — treat rotation as the top gap only for a 2026-style (Move Total) client.**
+Horizontal pulling (28–39%, concentrated on Fri/Sun) is the third gap in both years.
 
 ### 5c. Exposure by session type **[Pattern]**
 
@@ -232,15 +254,18 @@ patterns.** Horizontal pulling (39%, concentrated on Fri/Sun) is the third.
 
 ### 6a. Complementary opportunities the data supports
 
+Ordered by how *unconditionally* the gap holds — unconditional gaps (both years) first,
+then the conditional one, then the rest:
+
 | Opportunity | Why |
 |---|---|
-| **Carries / loaded holds** | on only 12% of sessions |
-| **Rotation / anti-rotation** | on only 15%; 0% on Sweat Sprint/Engine |
-| **Horizontal pulling volume** | 39%, concentrated on two days |
+| **Carries / loaded holds** | 8–11% of sessions, **both years** — cheapest trainable pattern, lowest interference risk |
+| **True Zone 1–2 aerobic work** | 0% of sessions, **both years** — everything is capped and competitive; no easy steady-state exists |
+| **Rotation / anti-rotation** *(conditional — check the Move track first)* | 15% for a **2026-style** client (top gap); already 33% / well-served for a **2025-style** client — don't default to prescribing it without asking which track |
+| **Horizontal pulling volume** | 28–39%, concentrated on two days |
+| **Unilateral *stability*** (vs unilateral loading) | unilateral is 53–64% but almost always loaded and timed; slow, unsupported single-leg control is not trained |
 | **Technique / movement quality at sub-maximal load** | 100% of REVL sessions are time-capped — no untimed technique work exists |
-| **True Zone 1–2 aerobic work** | everything is capped and competitive; no easy steady-state observed |
 | **Mobility / tissue work** | appears only inside 4:00 warm-ups |
-| **Unilateral *stability*** (vs unilateral loading) | unilateral is 61% but almost always loaded and timed |
 | **Assessment + individual weak-point work** | group format cannot individualise; no screening in the programme |
 | **Deliberate low-stress / restorative sessions** | nothing in the week is programmed below a cap |
 
@@ -262,11 +287,14 @@ patterns.** Horizontal pulling (39%, concentrated on Fri/Sun) is the third.
 least loaded) · the day after **Sweat Engine** (least neural residue) · **Deload week** ·
 **Volume / Rebuild** phases.
 
-**Windows to avoid adding load [Inference]:** within ~24 h either side of **Wednesday** ·
-**Monday** for anything hinge-loaded · **Build/Peak** for a second heavy exposure ·
-**Peak Wk 2 (1RM/3RM testing)** and **Peak Wk 3 (conditioning baselines)** for anything
-load-bearing or maximal — protect the tests · **Sat–Sun** for *additional* metabolic volume ·
-**Deload week** for high-rep metabolic volume.
+**Windows to avoid adding load [Inference]:** within ~24 h either side of **Wednesday** — but
+this is **track-conditional**: true for a 2026-style client (Wed = Move Total, hinge on 99%
+of Wednesdays) and much less true for a 2025-style client (Wed = Move Upper, hinge only 52%
+of Wednesdays) — **ask which Move session the client does before declaring Wednesday
+off-limits** · **Monday** for anything hinge-loaded (hinge exposure both years) ·
+**Build/Peak** for a second heavy exposure · **Peak Wk 2 (1RM/3RM testing)** and **Peak Wk 3
+(conditioning baselines)** for anything load-bearing or maximal — protect the tests ·
+**Sat–Sun** for *additional* metabolic volume · **Deload week** for high-rep metabolic volume.
 
 ---
 
@@ -494,6 +522,14 @@ horizontal pulling, direct arm/rear-delt/upper-back, controlled tempo, 8–15 re
 intervals. Add what's missing: 25–40 min easy Zone 1–2 (nasal-breathing / talk-test pace) on a
 non-REVL day, progressing ≤10%/week *(Wk05 Ch8 p26)*.
 
+**G. 2026-Move-track client, Volume phase, Friday.** Confirmed the client's Wednesday is Move
+Total (not Move Upper), so rotation is a live gap. Half-kneeling anti-rotation press (Pallof)
+3 × 8/side → suitcase carry 4 × 30 m → controlled horizontal row 3 × 10 → single-leg RDL
+3 × 8/side @ RIR 3. *Fills the three measured gaps for a 2026-style client (rotation, carry,
+horizontal pull), zero added axial load, no interference with Friday's own session.* **Skip
+the rotation block and keep only the carry/pull/RDL if the client is 2025-style Move Upper**
+(§5b) — their rotation is already served.
+
 ---
 
 ## 14. Client-state decision rules
@@ -579,7 +615,12 @@ Record the trigger and the modification in the plan's decision log.
 ### Provenance
 
 - Raw extraction: `source/extract_revl.py` → `source/revl_raw_data.md` (**363 screenshots,
-  Blocks 1–3 of 2026**, two OCR engines, disagreements flagged). Block 3 Rebuild pending.
+  Blocks 1–3 of 2026**) and `source/revl_raw_data_2025.md` (**260 screenshots, Blocks 3–4 of
+  2025**), two OCR engines, disagreements flagged. 2026 Block 3 Rebuild still pending
+  publication; 2025 blocks are complete (130/130 each).
 - Analysis + all counts quoted here: `source/analyze_revl.py` →
-  `source/revl_programming_analysis.md`.
-- Percentages describe the **programme as written**, not any individual's week.
+  `source/revl_programming_analysis.md` (2026) / `source/revl_programming_analysis_2025.md`
+  (2025). Cross-year synthesis: `source/revl_2025_vs_2026_analysis.md`.
+- Percentages describe the **programme as written**, not any individual's week. Where a
+  number differs by year it is shown as a range above — **ask which year/track the client is
+  actually on** rather than assuming the 2026 figures.
