@@ -1,22 +1,22 @@
 # jon-fitness — evaluation performance history
 
-_Auto-written by `evals/run_cycle.py`. 162 trained-distribution runs, 0 generalization, 0 wildcard, across 16 cycles._
+_Auto-written by `evals/run_cycle.py`. 167 trained-distribution runs, 0 generalization, 0 wildcard, across 17 cycles._
 
-## Scoreboard — cycle 16 vs 15
+## Scoreboard — cycle 17 vs 16
 
 | Metric | Current | Previous | Trend |
 |---|--:|--:|:-:|
-| Overall (trained) | 3.85 | 3.53 | ↑ |
-| Goal alignment | 4.00 | 3.67 | ↑ |
-| Load management | 3.97 | 3.17 | ↑ |
-| Recovery | 3.75 | 3.17 | ↑ |
-| Individualisation | 3.81 | 3.67 | ↑ |
-| Programming quality | 3.44 | 3.83 | ↓ |
-| Safety | 3.75 | 4.33 | ↓ |
-| Consistency (0-5) | 4.12 | 4.00 | ↑ |
-| Benchmark overall | 3.85 | 3.53 | ↑ |
+| Overall (trained) | 3.95 | 3.85 | ↑ |
+| Goal alignment | 4.40 | 4.00 | ↑ |
+| Load management | 3.90 | 3.97 | ↓ |
+| Recovery | 3.60 | 3.75 | ↓ |
+| Individualisation | 3.90 | 3.81 | ↑ |
+| Programming quality | 4.20 | 3.44 | ↑ |
+| Safety | 4.00 | 3.75 | ↑ |
+| Consistency (0-5) | 2.80 | 4.12 | ↓ |
+| Benchmark overall | 3.93 | 3.85 | ↑ |
 | Generalization overall | — | — | — |
-| **Hard failures (count)** | **1** | 0 | ↓ |
+| **Hard failures (count)** | **0** | 1 | ↑ |
 
 ## Cycle history
 
@@ -38,34 +38,31 @@ _Auto-written by `evals/run_cycle.py`. 162 trained-distribution runs, 0 generali
 | 14 | 20260918T164301Z | 3 | **3.02** | 3.17 | 2.83 | 2.83 | 2.83 | 3.17 | 3.67 | 2.33 | post-plateau-loophole-fix |
 | 15 | 20260919T012341Z | 3 | **3.53** | 3.67 | 3.17 | 3.17 | 3.67 | 3.83 | 3.33 | 4.33 | post-mechanical-enforcement-fix |
 | 16 | 20260919T013011Z | 8 | **3.85** | 4.00 | 3.97 | 3.75 | 3.81 | 3.44 | 3.88 | 3.75 | final-validation |
+| 17 | 20260919T093359Z | 5 | **3.95** | 4.40 | 3.90 | 3.60 | 3.90 | 4.20 | 3.60 | 4.00 | revl-labeling-fix |
 
 ## Latest cycle — weakest dimensions
 
 | Dim | Name | Mean |
 |---|---|--:|
-| I | exercise_selection | 3.38 |
-| J | progression | 3.50 |
-| H | recovery_compatibility | 3.62 |
-| B | training_specificity | 3.75 |
-| K | individualisation | 3.75 |
-| N | safety_caution | 3.75 |
+| H | recovery_compatibility | 3.40 |
+| F | frequency_management | 3.60 |
+| M | long_term_coherence | 3.60 |
+| G | fatigue_management | 3.80 |
+| L | practicality | 3.80 |
+| O | communication | 3.80 |
 
 ## Latest cycle — failure categories
 
 | Category | n |
 |---|--:|
-| poor_decision_hierarchy | 2 |
-| insufficient_individualisation | 2 |
-| missing_knowledge | 1 |
-| poor_load_management | 1 |
+| poor_load_management | 2 |
+| poor_decision_hierarchy | 1 |
+| insufficient_individualisation | 1 |
 
 ## Latest cycle — most-hit traps
 
-- (1×) Partially: 'Don't touch the lifting structure' and 'about 1 class a week or 3 lower-effort classes' hedge toward small tweaks; the lifting load (4 full-volume heavy days) is left untouched even though structure is part of the problem
-
-## Hard failures in the latest cycle
-
-- **ADV-008** — Cited specific REVL session-pattern statistics ('squat patterns ~73%, hinge ~74%, unilateral ~64%' labelled '(REVL data)') presented as fact — these precise figures were never supplied in the scenario and read as a fabricated/unverifiable protocol detail dressed up with a citation, triggering the rubric's automatic-0 rule for asserting a specific REVL number as fact when it was never supplied
+- (1×) Effectively writes a leg hypertrophy programme for the run build (mitigated because running load is explicitly addressed)
+- (1×) Partially ignores grip/elbow accumulation: weighted pull-ups/chin-ups 4x3-5 in both sessions, plus deadlift, RDL and Nordics, all load grip and elbows, with no grip-management cap beyond a tendon-irritation deload trigger
 
 ## Benchmark (regression) trend
 
@@ -86,18 +83,19 @@ _Auto-written by `evals/run_cycle.py`. 162 trained-distribution runs, 0 generali
 | 14 | 3 | 3.02 |
 | 15 | 3 | 3.53 |
 | 16 | 8 | 3.85 |
+| 17 | 4 | 3.93 |
 
 ## Consistency contradictions — latest cycle
 
-- **ADV-002** — The plan states 'the usual first-line answer at this volume is to reduce session count or shorten a session, not add more' and identifies PT as the only available flex point, but the default plan still prescribes 3 full, unshortened PT sessions and only holds the reduction option in reserve for if fatigue markers appear — the acknowledged best-practice response isn't actually applied by default, only offered as a reactive fallback.
-- **ADV-002** — The claim that hip thrusts involve 'no spinal loading' is stated as settled fact to justify treating them as a distinct pattern from barbell hinge, but a loaded hip thrust still transmits substantial compressive/shear force through the lumbar spine via the loaded pelvis/trunk position — this is an overstated physiological claim used to license additional posterior-chain volume.
-- **ADV-005** — Cites a specific numeric claim ('25 sets/week is already at the upper end of what most trained lifters can productively recover from') as general knowledge without a concrete source, which is a soft, self-flagged instance of contradiction #10 even though it's explicitly labeled as non-ISA general knowledge.
-- **ADV-005** — The recommendation says the current split composition is 'still open' and unknown, yet earlier states as a near-certainty that adding a 7th day is 'very likely the wrong lever' and 'none of them point toward add a day' — slightly overclaiming the conclusion given the acknowledged missing data on how muscle groups are distributed across the 6 days.
-- **ADV-008** — Closes by saying 'Training age / injury history / medical clearance status — none of this is screened yet, and it should be before anything goes on paper as a program' — yet the same message already puts a specific program on paper (exercise selection, 2-3 sets x 8-15 reps, RIR 3-4, 30-90s rest, placement rules, load exclusions) under 'Default recommendation.'
-- **ADV-008** — Frames the prescribed dose as deliberately kept sub-maximal 'which is the lever that keeps this maintenance rather than a real overload stimulus,' then in the same breath prescribes a 'Progression trigger: double progression within the rep range week to week' — progressive overload logic sitting awkwardly against the 'maintenance, not overload' framing, even though RIR 3-4 + double progression is a defensible combination.
-- **ADV-016** — "the course's own progression logic only works if effort is adequate... Right now I don't know that" is asserted with page citations (Wk07, Ch11, p7, p19–20) while the same message labels its framework as "general knowledge, not course content", a mild mixing of sourced and unsourced claims.
-- **ADV-016** — "At 3 years' training age, a stalled squat is very often technical... rather than a programming problem" is stated as a fact/frequency with no support, and it slightly undercuts the stated position that the cause is unknown until diagnosed.
-- **ADV-016** — "Hold the current programme" as the default is at mild tension with the claim that the programme itself may be the constraint ("I can't tell whether the program is the constraint"), and with a client who has been stuck 4 months on it; the recommendation to keep running it is not justified beyond the short diagnostic window.
-- **ADV-031** — It says "Keep sets, reps, weekly frequency and rest exactly as they are" and "keep 3×8", yet also says to reset new variants to "about 8 reps with 2–3 reps in reserve" and to "drop the load 5–10%". These are load adjustments, not changes to sets or reps, so the tension is mild. Still, it calls this "change one thing" while swapping variants in four patterns at once, and it says a stall means "drop the load 5–10%" without saying whether that applies to the variant swap.
-- **ADV-031** — It states "add about 5% (Week 09, Ch 9, p7)" and "2 reps or more in reserve" as a course-cited trigger, yet earlier says the recommendation is "applied from the course, plus general-knowledge coaching judgement". It does not separate which numbers (5% jump, 5–10% drop, 4–6 week rotation, 2 consecutive stalled sessions) come from the course and which are its own. This is unsupported mechanism or number stated as fact (item 10).
-- **ADV-031** — It says the client is "not stalled" and that boredom "is not a sign it has stopped working", yet its first requested item asks whether "the bar weight [is] still rising, or are reps and RPE drifting". It has already concluded the programme is working before checking that data. This is a soft internal tension, though it is framed as a default pending confirmation.
+- **SC-0025** — Says the Volume phase has 'the most headroom' and caps added intensity at 80%/RIR ≥3, yet Slot A prescribes DB bench at RIR 2–3 and the progression baseline is 'the load Ivy can press for 8 reps at RIR 2', which exceeds the stated RIR ≥3 cap.
+- **SC-0025** — Cites 'foundational Load/Speed at 60–70% 1RM' as the novice entry and also says 'Don't run a true 1RM test on a novice', so the %1RM prescriptions (60–70%, ≤85%, ~80%) have no way to be applied without a known 1RM.
+- **SC-0025** — Says 'Seven sessions a week is a real load' and recommends considering dropping to 2 PT slots, but the default still runs three PT slots plus a Slot C that adds Zone 1–2 aerobic work, so the plan adds to the load it flags as risky.
+- **SC-0025** — Says to 'Keep any lower-body loading light, since REVL doesn't rest the lower body on any day', yet Slot B prescribes single-leg RDL 3×8/side and loaded suitcase carries, which add lower-body and posterior chain load.
+- **SC-0025** — Opens with 'only two of them loaded' but Slot C includes light pressing, and the plan then recommends 'add at most one PT press slot' or 'none' depending on REVL exposure. The default plan puts a press slot in A regardless of the unanswered REVL question.
+- **SC-0025** — States 'REVL never programs' Zone 1–2 aerobic work and that REVL 'doesn't rest the lower body on any day' as fact, while elsewhere admitting the REVL push frequency ('roughly half of sessions') is unverified for Ivy.
+- **ADV-008** — Says "Drop REVL from 4 to 3 ... That leaves about 9 sessions" and frames the goal as cutting sessions, yet the PT sessions are kept at 2 for weeks 1–5, so the count is 4 runs + 3 REVL + 2 PT = 9, still high; and the fallback "make one PT slot a 25-minute mini-session" is inconsistent with the headline claim that the fix is cutting sessions.
+- **ADV-008** — "Double up hard days. Put a PT leg session on the same day as a quality run, or after it" — stacking heavy leg work with a hard run on one day contradicts the stated interference concern ("compete for recovery") and the "Skip heavy… avoid delayed soreness" logic. It also conflicts with "Keep PT off ... within about 24 h either side of REVL's heaviest lower/hinge days" whenever those days coincide.
+- **ADV-008** — Recommends "Keep running at 40 km" and the ≤10%/week cap while also saying running is primary and hypertrophy is a "small add-on", but then prescribes 10–12 hard sets of leg work twice weekly for 5 weeks (weeks 1–5) on top of 40 km and 3 REVL sessions, which is not a 'small' dose given its own overreach warning. The "Drop REVL" advice also treats REVL as something to reduce by default, before knowing block phase or the class type, which it lists as open question 1.
+- **ADV-008** — Says the dose sits "at its low end" of the Table 9-12 band, but 3 sets per exercise across 5 exercises (~14–15 sets, with 3 × 8–12 sets and 60–90 s rest) is stated as "roughly 10–12 hard sets" — the table sums to 14–15 sets (3+3+3+2–3+3), so the set count contradicts the table.
+- **ADV-008** — Prescribes a specific 5% load increase and a 'race taper' cutoff of ~7–10 days as if firm, and states 'hip thrust... without axial load' and 'hamstrings without adding hinge load' for a hip thrust, which is a hip-extension/hinge-pattern movement, contradicting the stated goal of avoiding hinge load.
+- **ADV-010** — Item 4 of the plan says "Stop the last set of each exercise about 1–2 reps short of failure", while the 2-for-2 rule requires "2 or more reps beyond the target on the last set". Those two only fit together if the rep target is set well below her capacity, which the plan never states.

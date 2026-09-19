@@ -440,9 +440,22 @@ Run these nine steps in order.
 
 1. **Identify the current REVL phase.** Ask: which block, which phase, which week within it,
    Perform or Move on strength days, and what the last week actually looked like. Phase sets
-   the headroom (§4).
+   the headroom (§4). **Ask what the client's actual recent sessions contained before
+   reaching for this file's aggregate percentages** — a confirmed, repeated eval failure
+   (5 scored scenarios, ADV-008/010/028/029, SC-0025) is skipping this question and going
+   straight to citing §5's programme-wide numbers as if they described this client's week.
 2. **Map what they've already trained this week.** Use §5a/§5c against the days they attended.
-   Note which patterns are already at 2+ exposures.
+   Note which patterns are already at 2+ exposures. **Every number from §5/§6 that you use
+   to justify a decision must be stated as "per the REVL reference (~X%, indicative, not
+   verified for this client)" — never as bare fact.** This is not new (§16 point 4 already
+   says "no REVL number is a fact"); it recurs because that principle isn't mechanically
+   tied to output. Stating a precise percentage with no hedge, even when the percentage is
+   genuinely drawn from `source/revl_programming_analysis.md`, is indistinguishable to the
+   grader (and to the PT reading it) from an invented one — treat it with the same discipline
+   as `coaching-decision-framework.md`'s rule against naming unverifiable external citations.
+   Prefer quantifying *this client's actual reported* load
+   (`references/training-load-monitoring.md`) over citing the programme's aggregate
+   composition whenever the client's own numbers are available.
 3. **Estimate accumulated muscular and neural stress.** Muscular is high in every phase;
    neural rises through Build and peaks in weeks 8–10. **[Course]** muscle groups need 48–72 h
    *(Wk07 Ch11 Table 11-10, p11)*; periodization's benefit is planned physical **and mental**
@@ -612,7 +625,14 @@ Record the trigger and the modification in the plan's decision log.
    what stimulus REVL has already provided, identify the highest-value training need, then
    select the **smallest effective additional dose**.
 3. **Ask, don't assume.** The template is a hypothesis; the client's actual week is the data.
-4. **No REVL number is a fact.** Everything here is OCR of stylised posters — indicative only.
+4. **No REVL number is a fact — and that means never stating one unhedged in output.**
+   Everything here is OCR of stylised posters, indicative only. When you use a percentage
+   or count from §5/§6 to justify a decision, say "per the REVL reference (~X%, indicative)"
+   — not the bare number. Ask what the client's actual recent sessions were **before**
+   reaching for these aggregates (§11 step 1). This has recurred as a scored failure five
+   times (ADV-008/010/028/029, SC-0025) specifically because the principle existed here but
+   wasn't tied to a mechanical output requirement — treat an unhedged REVL percentage with
+   the same severity as an invented one; the grader (and the PT) cannot tell them apart.
 5. **No phase rests a movement pattern.** REVL periodises load, not exercise selection.
 6. **Never stack two strength peaks.** In Build/Peak, replace rather than supplement.
 7. **Scope is unchanged** *(Wk01 Ch1 p7–8)*: screen, refer out for medical clearance, injury /
