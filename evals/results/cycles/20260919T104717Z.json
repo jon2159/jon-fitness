@@ -1,0 +1,394 @@
+{
+ "ts": "20260919T104717Z",
+ "cycle": 20,
+ "label": "revl-schedule-claim-fix",
+ "skill_version": {
+  "commit": "d5d0d94",
+  "skill_dirty": true,
+  "skill_hash": "d193475fdcdabddf",
+  "skill_files": 22
+ },
+ "n_selected": 4,
+ "n_scored": 4,
+ "rows": [
+  {
+   "ts": "20260919T104717Z",
+   "cycle": 20,
+   "label": "revl-schedule-claim-fix",
+   "set": "primary",
+   "commit": "d5d0d94",
+   "skill_hash": "d193475fdcdabddf",
+   "skill_dirty": true,
+   "scenario_id": "SC-0029",
+   "family": "revl",
+   "environment": "revl",
+   "revl_phase": "Volume",
+   "goal": "weakpoint",
+   "training_age": "experienced",
+   "recovery_context": "poor_sleep",
+   "constraint": "one_pt",
+   "pt_frequency": "1x/week",
+   "benchmark": false,
+   "scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 3,
+    "E": 4,
+    "F": 3,
+    "G": 4,
+    "H": 4,
+    "I": 3,
+    "J": 4,
+    "K": 3,
+    "L": 4,
+    "M": 4,
+    "N": 4,
+    "O": 4
+   },
+   "goal_alignment": 4,
+   "load_management": 3.5,
+   "recovery": 4,
+   "individualisation": 3.5,
+   "programming_quality": 3.5,
+   "long_term_planning": 4,
+   "safety": 4,
+   "overall": 3.733,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Count REVL's existing stimulus before adding anything (total load counted as sessions)",
+    "Volume phase has the most headroom, but tempered by sleep",
+    "assessment before prescription (asks for weak point, assessment or lift video)",
+    "Reduce intensity first, then volume \u2014 do not simply prescribe rest (explicit modify order)",
+    "With one session a week, pick the single highest-value intervention (single weak point focus)"
+   ],
+   "priorities_missed": [
+    "Identify REVL phase week and what the client actually did last week (asks REVL days but not last week's actual work or week number)",
+    "Quantify REVL volume/intensity rather than counting sessions only"
+   ],
+   "traps_fallen_into": [],
+   "hard_failures": [
+    "Possible: 'Volume-phase ceiling in the REVL reference' of ~80% / RIR 3+ and '~7\u20138 point where I'd cut sessions' are asserted as REVL/framework facts; the ~80% cap is attributed to the REVL reference rather than supplied in the scenario. Also cites specific ISA table/page numbers and then admits they were not verified, and the '~5%' increment is cited to the course without verification."
+   ],
+   "major_strengths": [
+    "Correctly recognises sleep as the binding constraint without defaulting to rest; provides a graded de-escalation ladder (intensity, sets, variant, mobility-only)",
+    "Well-chosen clarifying questions, especially the weak point identity, which genuinely changes the session",
+    "Concrete progression trigger (2-for-2, all sets at top of range with RIR\u22653)",
+    "Clear conditional plan for sleep unchanged vs improved, giving long-term coherence",
+    "Correctly refuses to add Russian block; appropriate scope and referral language for sleep/pain",
+    "Different-expression weak-point work avoids duplicating REVL's heavy lifts"
+   ],
+   "major_errors": [
+    "Total load counted as 5 sessions, which ignores session intensity and REVL's actual volume; it is a crude count, not a real load audit",
+    "Asserts a hard '~80% or RIR 3+ Volume-phase ceiling' attributed to the REVL reference and a '~7\u20138 point' cut threshold without the scenario supplying them",
+    "Cites page numbers it admits it did not verify, which risks fabricated citation detail",
+    "Default session is a generic template (3\u00d76\u201310, accessories) not tied to any specific weak point, so it is close to generic at this stage",
+    "Suggesting a 5% load increase with RIR\u22653 for 2 sessions is a somewhat loose trigger; the '5%' is attributed to the course without verification"
+   ],
+   "missed_opportunities": [
+    "Ask what REVL sessions in the last week actually looked like (week number in Volume, lower vs upper emphasis) before deciding",
+    "Offer a brief screening/assessment protocol for the weak point in the first PT session, since the one session could be assessment plus a first dose",
+    "State explicitly the trade-off being accepted (e.g., a slower weak-point gain in exchange for keeping sleep-debt fatigue in check)",
+    "Use the single PT session to take a quick readiness baseline and set a measurable weak-point target metric"
+   ],
+   "duplication_risk": "low - RIR 3+, different-form work, no added conditioning, with explicit de-escalation rules",
+   "recommended_improvement": "In revl-class-integration.md, mark any REVL intensity/volume ceiling as a labelled inference rather than a REVL fact, add a rule to ask about last week's actual REVL work and week number, and forbid citing page numbers that have not been verified in the turn.",
+   "failure_category": "poor_context_interpretation",
+   "consistency_score": 3,
+   "contradictions": [
+    "\"If sleep improves to 7 h or more and Anika reports feeling fresh: raise the priority block to 4 sets or an RIR of about 2\" conflicts with the stated cap of \"about 80% or RIR 3+\" as \"the Volume-phase ceiling in the REVL reference, and I'm applying it strictly\". The plan calls the cap a strict phase ceiling, then raises intensity above it while still in the Volume phase.",
+    "\"Progression trigger: ... add ~5%\" is a load prescription, but the plan never establishes a working load or a max. Its own cap of \"about 80%\" implies a %1RM basis that it never sources, and the weak point is unknown. This is a soft inconsistency.",
+    "\"3 sets of 8\u201312\" in the Default line vs \"3 \u00d7 6\u201310\" in the session table for the priority block, plus \"2\u20133 \u00d7 8\u201312\" accessories. The rep range for the same session is stated two ways, and 6\u201310 sits closer to the higher-intensity end than the RIR 3+ / 80% cap suggests.",
+    "States as fact that \"REVL 4x plus 1 PT is 5 sessions a week, well under the ~7\u20138 point where I'd cut sessions\" and \"about 80%\" as the Volume ceiling, but labels the first as \"general knowledge\". The plan then says it hasn't re-opened the sources and page numbers need confirming, so several thresholds and citations are given as authoritative without support (criterion 10).",
+    "\"Total load is fine\" sits awkwardly beside \"5 h sleep takes most of it back\" and \"the PT session shouldn't add fatigue\". The plan declares load fine and then treats recovery as nearly exhausted. The later advice to \"suggest Anika scale back a REVL session too\" if sleep persists partly resolves this, but the opening framing is mixed."
+   ],
+   "seconds": 62.3,
+   "response": "# One weak-point PT session a week for Anika (REVL Volume, ~5 h sleep)\n\n**Default:** one PT session a week, built around a single weak point. Keep it low-to-moderate cost: about 3 sets of 8\u201312 at RIR 3 or more, no near-maximal work, no added conditioning. Volume phase leaves the most headroom, but 5 h sleep takes most of it back.\n\n## What the plan rests on\n\n- **Total load is fine.** REVL 4x plus 1 PT is 5 sessions a week, well under the ~7\u20138 point where I'd cut sessions. *(Applied, general knowledge: coaching-decision-framework \u00a74.)*\n- **Sleep is the real constraint.** 5 h a night is a recovery problem that lowers how much training Anika can absorb. It doesn't stop training, but the PT session shouldn't add fatigue, so I'm capping added intensity at about 80% or RIR 3+. That is the Volume-phase ceiling in the REVL reference, and I'm applying it strictly. *(Applied from the course: PT + REVL are a combined FITT-VP budget, Table 9-12/11-10; recovery and overtraining, Wk07 Ch11 p47\u201348.)*\n- **Weak-point work suits Volume.** REVL is periodising load, not exercise choice. It's also a group format that can't individualise. A weak-point session is exactly what it doesn't cover.\n- **No Russian or peak-style block.** It fails the recovery gate, since the eligibility check requires recovery assessed for REVL and the block together. Never stack two strength peaks.\n\n## What's missing from your message\n\n1. **What is the weak point?** This is the one gap that changes the session itself. It could be a lift, a position such as ankle or thoracic mobility, a movement pattern, or a muscle group. Do you have an assessment or a lift video?\n2. **Which REVL days does Anika attend, and Perform or Move?** I won't assume a schedule. It determines where the PT day goes: not near their heaviest lower-body REVL day, and ideally after their lightest one.\n3. **Is the 5 h sleep chronic or recent (work, baby, stress)?** Chronic changes how conservative the plan should be.\n4. **Any pain or injury with the weak point?** If it's pain rather than weakness, screen and refer out to a physical therapist. Don't program around it.\n\n## Default session (until those answers arrive)\n\nChoose the weak-point pattern in question 1, then use this shape:\n\n| Block | Content | Dose |\n|---|---|---|\n| Warm-up | Mobility and activation for the target area | ~8 min |\n| Priority | Weak-point movement in a different form from REVL's version: tempo, pause or unilateral, not another heavy grind | 3 \u00d7 6\u201310 @ RIR 3+ |\n| Secondary | 1\u20132 accessories that directly support the weak point | 2\u20133 \u00d7 8\u201312 |\n| Cool-down | Flexibility or breathing | ~5 min |\n\n- **Progression trigger:** when Anika completes all sets at the top of the rep range with RIR still \u22653 for 2 consecutive sessions, add ~5%. The course's 2-for-2 rule is the source. *(Wk07 Ch11 p7, p20; ~5% increments, Wk03 Ch9 p7.)*\n- **Readiness check at the start of every session:** sleep, soreness, energy and stress. If Anika arrives wrecked, drop in this order: intensity, then sets, then a lower-demand variant, then a mobility-only session. Log why. *(Modify order, REVL reference \u00a715.)*\n- **Placement:** away from their hardest REVL lower-body day, once I know the schedule.\n- **Add nothing else** in Volume. Extra conditioning or a second PT slot would add load on top of the 5 h sleep problem.\n\n## Sleep and scope\n\nSleep counselling is general, non-medical coaching: consistent timing, a wind-down routine, caffeine cut-off and screens. It is within scope; treat it as the highest-leverage change for the weak point. If Anika reports chronic 5 h sleep with daytime sleepiness, mood changes, or feeling unrefreshed, refer to a physician. Don't diagnose or treat. *(Scope: Wk01 Ch1 p7\u20138.)*\n\n## When the default changes\n\n- **If sleep stays at ~5 h for another week:** drop the session to mobility, technique and activation only, and suggest Anika scale back a REVL session too.\n- **If sleep improves to 7 h or more and Anika reports feeling fresh:** raise the priority block to 4 sets or an RIR of about 2.\n- **If the weak point is a specific barbell lift:** use a lighter, different expression of it. Don't repeat REVL's heavy version.\n\nCourse claims come from the skill's reference files (Table 9-12/11-10, 2-for-2, scope). I haven't re-opened the source ISA pages this turn, so confirm the page numbers before relying on them. The sleep and load framework is general knowledge, not from the ISA course.\n\nSend me the weak point and REVL days, and I'll turn this into the exact session and a `anika_fitness_plan.md/.csv` pair."
+  },
+  {
+   "ts": "20260919T104717Z",
+   "cycle": 20,
+   "label": "revl-schedule-claim-fix",
+   "set": "primary",
+   "commit": "d5d0d94",
+   "skill_hash": "d193475fdcdabddf",
+   "skill_dirty": true,
+   "scenario_id": "SC-0030",
+   "family": "revl",
+   "environment": "revl",
+   "revl_phase": "Volume",
+   "goal": "performance",
+   "training_age": "experienced",
+   "recovery_context": "returning_break",
+   "constraint": "equip_nobar",
+   "pt_frequency": "3x/week",
+   "benchmark": false,
+   "scores": {
+    "A": 3,
+    "B": 3,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 3,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 3,
+    "L": 4,
+    "M": 4,
+    "N": 4,
+    "O": 4
+   },
+   "goal_alignment": 3,
+   "load_management": 3.75,
+   "recovery": 4,
+   "individualisation": 3.5,
+   "programming_quality": 4,
+   "long_term_planning": 4,
+   "safety": 4,
+   "overall": 3.733,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Count REVL's existing stimulus before adding anything (7 sessions/week)",
+    "Volume phase has headroom (acknowledged, though deliberately not used)",
+    "Re-introduce load gradually",
+    "Respect the equipment actually available",
+    "power/speed quality (low-contact jumps, med-ball throws)",
+    "Identify the REVL phase and week (partly; asks what client did last week only indirectly)",
+    "sport specificity (weak, only the generic athletic prep session)"
+   ],
+   "priorities_missed": [
+    "Sport specificity: never asks what sport or demands Luca trains for",
+    "Expect rapid early progress (muscle memory / fast retraining) not stated",
+    "Does not use Volume phase as the best window for added strength work; defers strength to weeks 4+"
+   ],
+   "traps_fallen_into": [],
+   "hard_failures": [
+    "Asserts REVL Volume loads as roughly 40-65% 1RM and cites section numbers as fact although the scenario never supplied them (possible unsupplied-programme-number assertion; it is labelled course-derived, which softens it)"
+   ],
+   "major_strengths": [
+    "Correctly treats the 6-week layoff as the dominant factor and counts 4 REVL + 3 PT = 7 sessions",
+    "Explicit no-test/no-max rule and RIR 3-4 cap on return",
+    "Clear 2-for-2 progression trigger and a rule for cutting volume first when flat",
+    "Barbell handled with two branches and no barbell is prescribed",
+    "Well-chosen clarifying questions (session timing, pain, session RPE x minutes) and a referral note for sharp pain",
+    "Forward plan to weeks 4+ aligned with Build phase"
+   ],
+   "major_errors": [
+    "Cites REVL Volume loads (40-65% 1RM) as fact when they were not supplied",
+    "Fully ambiguous barbell handling: the client said the gym has no barbell at the usual time, but the response does not suggest a schedule change or check which sessions are affected",
+    "Goal (athletic performance) is under-served: only one of three sessions targets it, and PT 3 is aerobic base with no reason tied to the sport"
+   ],
+   "missed_opportunities": [
+    "Ask the sport and its demands to make athletic prep specific",
+    "Note that the returner can regain strength quickly, so a progression faster than 5% could be used after week 2",
+    "Use the Volume phase window to add modest strength work, such as heavier DB single-leg work, rather than fully deferring to weeks 4+",
+    "Offer a light sprint or acceleration exposure earlier, with a gradual build"
+   ],
+   "duplication_risk": "low - PT is deliberately kept low-volume, low-contact and RIR 3-4, with a rule to drop PT 3 first if load spikes",
+   "recommended_improvement": "Add to revl-class-integration.md a rule for returners: state that Volume-phase REVL loads are unknown unless supplied and must be labelled as an assumption, ask for the sport and demands, and note that rapid regain in the first 2-3 weeks allows a faster ramp than the default.",
+   "failure_category": "insufficient_individualisation",
+   "consistency_score": 3,
+   "contradictions": [
+    "Says \"Volume weeks 1\u20133 are a good time to return\" and that REVL's own weights are \"forgiving,\" yet also says the 7-session week is \"high for someone who has just resumed\" and that \"REVL loads the lower body on every training day\" \u2014 the plan never reconciles this by reducing REVL, and layers three more sessions (two with lower-body/plyometric content) on top.",
+    "PT 1 (split squat, RDL) and PT 2 (jumps, bounding) load the lower body in a week already flagged as lower-body-loaded on every REVL day, and the plan justifies this only by low RIR caps, not by an explicit total-load or dosing calculation.",
+    "Says \"Don't add sprint or high-impact work until week 3 or later,\" yet PT 2 in week 1 already includes jumps, skipping and bounding drills, which are impact work, only labelled 'low-contact' or 'low-amplitude'. Bounding is not clearly low-impact.",
+    "Says to \"Increase by \u226410% a week\" and adds load ~5% on a 2-for-2 rule as if they were established rules, and quotes \"40\u201365% 1RM\" for Volume weeks, while also saying maxes are unreliable after a layoff. The percentages are stated as fact without support and are partly inconsistent with the 'numbers unreliable' claim.",
+    "Leaves the barbell question unresolved: it says \"If it's REVL that has no barbell: \u2026 Luca uses DBs or KBs for the barbell prescriptions at the same intended effort,\" which contradicts the 'heavy lower-body work then stays on REVL days' plan and the reliance on barbell hinge days (\"days right after a barbell hinge day\"). DB or KB substitution at the same effort is not equivalent for heavy hinges and is asserted without support.",
+    "Says PT 3 should be 'lighter than PT 1 and 2' and that it is the session to drop first, but also makes it the place for aerobic base work that it calls the 'missing quality.' The plan labels it both the priority gap and the first thing to cut."
+   ],
+   "seconds": 60.2,
+   "response": "**Default plan: treat this as a return-to-training block. Use the 3 PT sessions to ramp Luca back in, not to add more work on top of REVL. Don't run a Russian or heavy strength protocol yet.**\n\n## Why\n\n- **Six weeks off changes the plan more than the phase does.** [Applied from the course] The returning-lifter route sends them to the scaled Movement / foundational Load-Speed on-ramp, not a peak (`revl-class-integration.md` \u00a710a, `russian-strength-program.md` \u00a76).\n- **The count is 7 sessions a week (4 REVL + 3 PT).** That is high for someone who has just resumed, and REVL loads the lower body on every training day. [General knowledge] The main risk in the first 2\u20133 weeks back is soreness and tissue tolerance, not fitness. So the PT hours should mostly go to controlled technique and general prep, not extra volume.\n- **Volume weeks 1\u20133 are a good time to return.** [Course-derived] The loads are about 40\u201365% 1RM, so REVL's own weights are forgiving. The rule for added work is RIR \u2265 3 and \u2264 ~80% (\u00a712). For Luca's first two weeks I'd cap it lower: RIR 3\u20134 and no grinders.\n- **Don't test or max anything in weeks 1\u20132.** A layoff makes the numbers unreliable.\n\n## The three PT sessions\n\nThe barbell isn't needed for any of this. Everything runs on dumbbells, kettlebells, cables, bands, a sled, a med ball and bodyweight.\n\n| Session | Focus | Notes |\n|---|---|---|\n| **PT 1: Movement quality and single-leg** | Goblet or front-foot-elevated split squat, DB RDL, half-kneeling cable press or pull, carry, anti-rotation | Tempo 3-1-1, 2\u20133 \u00d7 8\u201310 at RIR 3\u20134. This is a re-screen of squat, hinge, lunge, push, pull and core. Note anything that breaks down under REVL's load. |\n| **PT 2: Athletic prep** | Low-amplitude jumps, med-ball throws, and skipping/bounding drills | Low-contact only: 2\u20133 \u00d7 3\u20135, full rest, stop while it still looks crisp. This is where the athletic goal starts, at a dose the tendons can take after a break. Don't add sprint or high-impact work until week 3 or later. |\n| **PT 3: Aerobic base plus trunk and posterior chain** | 25\u201335 min Zone 1\u20132 (talk-test pace), then pulling, rear delts, calves and core | REVL's competitive sessions are already dense, so the missing quality is easy aerobic work (\u00a712). Increase by \u226410% a week. Keep this session lighter than PT 1 and 2. |\n\n**Progression trigger:** add load (~5%) or a rep only when every set is completed at the target RIR for two consecutive sessions (2-for-2 style). If they're sore or flat at the start of a session, cut volume first, then intensity.\n\n**Weeks 4+:** if Luca reports no unusual fatigue, move PT 1 toward 3\u20134 \u00d7 5\u20136 and start the low-level power work in PT 2. That lines up with Build, when the REVL waves get heavy. Heavy lower-body work then stays on REVL days, and PT stays technical.\n\n## The missing barbell\n\n- **If it's REVL that has no barbell:** nothing needs replacing. Luca uses DBs or KBs for the barbell prescriptions at the same intended effort.\n- **If it's your PT slot:** nothing above needs one, so run it as written.\n\n## What I need to know\n\n- **Which day each PT session falls, and whether REVL is Perform or Move.** I'd stack the lightest PT session next to the heaviest REVL day, and keep PT 1 off the days right after a barbell hinge day.\n- **Any injury, or anything that has hurt on return.** A sharp or localized pain is a referral question, not something to test around.\n- **Luca's own session RPE \u00d7 minutes for the first week.** If their weekly load spikes, drop PT 3 first.\n\nI haven't made a client file, since this was a Q&A-style request. Give me Luca's name and I can write the plan and CSV."
+  },
+  {
+   "ts": "20260919T104717Z",
+   "cycle": 20,
+   "label": "revl-schedule-claim-fix",
+   "set": "primary",
+   "commit": "d5d0d94",
+   "skill_hash": "d193475fdcdabddf",
+   "skill_dirty": true,
+   "scenario_id": "SC-0031",
+   "family": "revl",
+   "environment": "revl",
+   "revl_phase": "Volume",
+   "goal": "hybrid_size_classes",
+   "training_age": "long_term_strength",
+   "recovery_context": "work_stress",
+   "constraint": "back_hx",
+   "pt_frequency": "1x/week",
+   "benchmark": false,
+   "scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 4,
+    "L": 4,
+    "M": 4,
+    "N": 4,
+    "O": 4
+   },
+   "goal_alignment": 4,
+   "load_management": 4,
+   "recovery": 4,
+   "individualisation": 4,
+   "programming_quality": 4,
+   "long_term_planning": 4,
+   "safety": 4,
+   "overall": 4,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Volume phase is the best window for added work, tempered by work stress",
+    "Complement, don't duplicate: upper back, arms and rear delts, with no lower-body or hinge duplication",
+    "Reduce intensity first, then volume, and do not simply prescribe rest (RIR 2-3 plus a reduction order)",
+    "Work around the back issue and refer out if there are current symptoms",
+    "Counts REVL's stimulus (4 sessions plus 1 PT) and places the session away from heavy days",
+    "Accepts small margins; targets weak points rather than adding volume"
+   ],
+   "priorities_missed": [
+    "Does not establish what the client did last week; it asks instead, which is reasonable",
+    "Load-management reasoning stays qualitative; it defers to session RPE x minutes"
+   ],
+   "traps_fallen_into": [
+    "Mild: it asserts REVL specifics as fact (a hinge in almost every opening session, a Peak week 2 1RM deadlift test) without them being supplied, though the response attributes them to the skill references"
+   ],
+   "hard_failures": [
+    "Possible: it asserts REVL programme details as fact that the scenario never supplied (barbell hinge in almost every week's opening session, 1RM deadlift test in Peak week 2). They are cited to skill references, so this is borderline and not clearly a hard failure."
+   ],
+   "major_strengths": [
+    "Clear default session shape with a rationale tied to Maya's work stress, back history and the Volume phase",
+    "Explicit readiness-driven down-regulation order (intensity, then sets, then easier variants, then mobility)",
+    "Concrete progression rule (double progression, hold if readiness is poor)",
+    "Correct scope-of-practice handling of the back history: screen for symptoms, refer out, no self-clearing",
+    "Forward planning: a Peak-phase deadlift test flag and a halved session at Build",
+    "Well-chosen clarifying questions that the decision genuinely turns on",
+    "Explicitly declines the Russian protocol with a reason"
+   ],
+   "major_errors": [
+    "Session has 7 exercises and roughly 50-60 minutes, which is heavy given work stress and a 'start at the low end' claim",
+    "Seated leg curl is listed under a no-lower-body-volume pitch, and the 'lower body is saturated' claim is asserted",
+    "'Add about 5% load' is a specific number with no source, and is odd for isolation work",
+    "The 12-15 rep range is admitted to be outside the course table",
+    "The 'Table 9-12' 67-85% prescription is quoted from the course and is not verified"
+   ],
+   "missed_opportunities": [
+    "Could have proposed a shorter session (4-5 exercises) to match the low-end dose the response itself recommends",
+    "Could have asked what Maya did last week and about her current soreness and sleep",
+    "Could have addressed the 'close to their ceiling' point: small margins, weak points, and sleep or nutrition as the levers",
+    "Could have said to cut the session (rather than convert it) as the first lever under work stress"
+   ],
+   "duplication_risk": "low - upper-back and arm work is complementary to REVL, with RIR 2-3 and a readiness-based reduction order",
+   "recommended_improvement": "Add a rule that the PT session's exercise count and duration scale down when life stress is high, so a 'low end of the dose' recommendation cannot come with a 7-exercise, 50-60 minute session. Also require REVL-specific claims to be marked 'per reference' or 'confirm with the client' rather than stated flatly.",
+   "failure_category": "poor_load_management",
+   "consistency_score": 3,
+   "contradictions": [
+    "Says work stress cancels most headroom and to \"start at the low end of the dose,\" but then prescribes 7 exercises (~19-22 sets) in a 50\u201360 min session, plus a 5% load increase trigger, which is not clearly the low end of the dose.",
+    "States \"Volume\" phase neural cost is lowest and \"the best phase for added work,\" yet also says the client's recovery is compromised; the plan doesn't reconcile adding a full hypertrophy session with a client whose recovery is limited, beyond a readiness gate.",
+    "Says \"no barbell hinge from you\" and \"keep the spine out of the picture,\" yet includes suitcase carries (axial/lateral spinal loading), which is only partly hedged by \"Skip it if her back is irritable.\"",
+    "Says the plan is for a client who \"has been training for eight years and is close to their ceiling,\" then prescribes adding ~5% load per session on progression, which is aggressive for an advanced lifter (soft mismatch with training age).",
+    "States specific mechanisms and numbers as fact without support, such as \"REVL never gives a movement pattern a rest\" and \"REVL rarely gives dedicated work there,\" and the 12\u201315 rep range is admitted to be outside the cited table band.",
+    "Says \"Any current or recent symptoms: ... stop the plan above and refer out,\" but the plan is written as a default without confirming symptom status first, and it also proposes a hinge-adjacent seated leg curl and the client's weekly schedule is unknown so placement is assumed (\"Where I placed the session above assumes this\")."
+   ],
+   "seconds": 88.1,
+   "response": "# Plan for Maya: Volume phase, one PT session a week\n\n**Default recommendation:** run one upper-back and arms hypertrophy session with no loaded hinging or heavy squatting. Keep every set at RIR 2\u20133, and let REVL keep supplying the compound lower-body work. Sizing up isn't a matter of adding more of what REVL already does. It's a matter of adding tissue-specific volume in the places REVL under-serves.\n\n## Why this shape\n\n- **Volume is the best phase for added work.** REVL's loads are moderate and the metabolic and muscular load is high. Neural cost is lowest here, so this is when a PT session can add the most *(REVL integration \u00a74, \u00a712)*.\n- **Her work stress cancels most of that headroom.** The heavy work period is a recovery cost REVL's programming doesn't know about. The \"add a real dose\" rule assumes low life stress and good sleep, and she likely doesn't meet that right now. So I'd start at the low end of the dose and add only if her readiness holds *(\u00a710e, \u00a715 \u2014 applied)*.\n- **Lower body is already saturated.** REVL never gives a movement pattern a rest, and the barbell hinge shows up in almost every week's opening session. Extra lower-body volume from you is the most expensive thing on the menu, and it's the exact pattern tied to her back history.\n- **Size work lands on under-served tissue.** The hypertrophy prescription for a REVL client is 3\u20136 sets of 6\u201312 at 67\u201385% with 30\u201390 s rest, aimed at horizontal pulling, upper back, arms, rear delts and calves *(Table 9-12 / REVL \u00a714 \u2014 course-supported)*. REVL rarely gives dedicated work there.\n- **Not a Russian protocol.** Her goal is size, not a maximal-strength PB. Adding a peak on top of REVL would be redundant, and heavy pulls are the exact pattern she has back trouble with.\n\n## Low-back history: scope\n\nA history is not a current symptom, so you can program around it. Before the first session, ask whether she has any current back pain or flare-ups, or has had any in the last few weeks.\n\n- **Any current or recent symptoms:** don't load through them. Refer to a physical therapist or physician before doing anything loaded. You don't clear this yourself, and that includes a \"test it with bodyweight\" screen *(scope of practice, Wk01 Ch1 p7\u20138)*.\n- **Symptom-free:** program to keep the spine out of the picture. That means supported rows, machine-based leg work and no barbell hinge from you.\n\n**Look ahead to the Peak phase.** Peak week 2 of the block includes a 1RM barbell deadlift test. For someone with her history, raise this with her now so she can discuss it with her own clinician, and decide whether to scale or skip that test. Your job is to make sure she knows it's coming and that it's her call.\n\n## The session (about 50\u201360 min)\n\n**Warm-up (8 min):** breathing and bracing, hip mobility, band pull-aparts, dead bug.\n\n| # | Exercise | Sets \u00d7 reps | Notes |\n|---|---|---|---|\n| 1 | Chest-supported row | 3\u20134 \u00d7 8\u201312 | Supported, so no lumbar load |\n| 2 | Lat pulldown, neutral grip | 3 \u00d7 8\u201312 | |\n| 3 | Seated leg curl | 3 \u00d7 8\u201312 | Hamstring size without hinge loading |\n| 4 | DB lateral raise + rear-delt fly | 3 \u00d7 12\u201315 each | Rep range is general knowledge, above the table band |\n| 5 | Curl + triceps pushdown superset | 2\u20133 \u00d7 10\u201312 each | |\n| 6 | Pallof press | 3 \u00d7 8/side | Anti-rotation, no axial load |\n| 7 | Suitcase carry | 3 \u00d7 30 m | Skip it if her back is irritable that day |\n\n- **Effort:** RIR 2\u20133 on everything, with rest of 60\u201390 s.\n- **Progression trigger:** when she hits the top of the rep range on every set at RIR 2 or more, add about 5% load next session *(2-for-2 / double progression, Wk07 Ch11 p7, p20 \u2014 course-supported)*. If her readiness is poor, hold the load. Don't chase it.\n- **Timing:** place it away from her heaviest hinge and lower-body REVL days. I need her schedule to name the exact day.\n- **Readiness check every session:** ask about sleep, work stress, soreness and energy. If two or more are bad, reduce in this order: intensity, then sets, then swap to easier variants, then convert the session to mobility and downregulation *(\u00a715)*.\n\n**Session count:** four REVL classes plus one PT is five sessions, below the level where I'd push for a cut. If work stress keeps climbing, the honest lever is to convert the PT slot to mobility or recovery for a week, not to trim the content.\n\n## Still open\n\n1. **Which REVL sessions does she attend?** Perform or Move, which days, and what did last week feel like? If she does Move, which shape is Wednesday? Where I placed the session above assumes this. If her hard days cluster, I'd shift the PT day.\n2. **Any current back symptoms?** If yes, stop the plan above and refer out.\n3. **Her rough weekly hours, sleep and appetite.** If sleep is poor or she's under-eating, that limits growth more than exercise selection does. Keep nutrition to general information and refer to a registered dietitian for details *(scope of practice)*.\n\nA useful follow-up is having Maya log session RPE \u00d7 minutes for each session for two weeks. That gives you her own load numbers to decide from, instead of guessing.\n\nWhen Volume ends and Build starts, cut this session to half. Keep the pulling and one lift, and don't add a second heavy exposure."
+  },
+  {
+   "ts": "20260919T104717Z",
+   "cycle": 20,
+   "label": "revl-schedule-claim-fix",
+   "set": "primary",
+   "commit": "d5d0d94",
+   "skill_hash": "d193475fdcdabddf",
+   "skill_dirty": true,
+   "scenario_id": "SC-0033",
+   "family": "revl",
+   "environment": "revl",
+   "revl_phase": "Volume",
+   "goal": "hybrid_size_fresh",
+   "training_age": "experienced",
+   "recovery_context": "motivated_underrecovered",
+   "constraint": "shoulder_hx",
+   "pt_frequency": "3x/week",
+   "benchmark": false,
+   "scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 4,
+    "L": 3,
+    "M": 3,
+    "N": 4,
+    "O": 3
+   },
+   "goal_alignment": 4,
+   "load_management": 4,
+   "recovery": 4,
+   "individualisation": 3.5,
+   "programming_quality": 4,
+   "long_term_planning": 3,
+   "safety": 4,
+   "overall": 3.8,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Count REVL's existing stimulus before adding anything (7 sessions/week, session RPE x minutes requested)",
+    "Volume phase has the most headroom, but recovery caps it",
+    "Fatigue-efficient hypertrophy (RIR 2-3, targeted upper volume, skip lower-body duplication)",
+    "Work around the shoulder and refer out if painful or unresolved"
+   ],
+   "priorities_missed": [
+    "Does not explicitly identify what the client did last week, only asks for it",
+    "Does not name the specific week within Volume weeks 1-3 or plan the transition into the next phase"
+   ],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Total-load reasoning: 4 REVL + 3 PT = 7 sessions, so the 2+1 split with a low-stress third session",
+    "Avoids duplicating REVL lower-body squat/hinge work",
+    "Shoulder handled well: no overhead pressing, scope-of-practice referral, plan to swap REVL variations, flags overhead testing later",
+    "Double progression with a concrete trigger, hold-on-bad-sleep rule and readiness-based modification order",
+    "Labels its own rules as own rules rather than course values, and asks well-chosen clarifying questions that change the plan"
+   ],
+   "major_errors": [
+    "Cites specific course table/page numbers that cannot be verified from the supplied context, a fabrication risk",
+    "Asserts REVL facts as known (overhead pressing is frequent in REVL, carries are minor, easy aerobic work is absent) without them being supplied; this brushes against the hard failure on asserting programme facts",
+    "Asserts the '2-3 hard sessions per muscle group per week' ceiling as applying to REVL plus PT combined",
+    "Sessions A and B are both upper-focused, which may add substantial shoulder load for a motivated, underrecovered client with a shoulder issue",
+    "Scoping the Session C aerobic component and the extra sessions may still be too much for someone sleeping badly"
+   ],
+   "missed_opportunities": [
+    "Lead with a firmer single recommendation, given the answer offers several options and many open questions",
+    "Give a 4-12 week trajectory, e.g. what happens as the phase moves off Volume, and a criterion for when to add the third loading session",
+    "Tie the '5% load' increment to a clear rule instead of an unsourced number",
+    "Be more concise and reduce the length of the shoulder section"
+   ],
+   "duplication_risk": "moderate - 7 sessions/week with poor sleep and stress; mitigated by the 2+1 structure and downgrade rules, but two upper sessions plus REVL upper work could overload the shoulders",
+   "recommended_improvement": "Add a rule to label REVL-programme characteristics (overhead frequency, carries, aerobic content) as 'likely, verify with client' unless supplied, and to avoid page-level citations unless they are verifiable in the references",
+   "failure_category": "poor_context_interpretation",
+   "consistency_score": 4,
+   "contradictions": [
+    "Session B adds an optional \"leg press or split squat with tempo, 2 sets\" plus leg curl and calves, right after arguing \"Extra lower-body volume is the most expensive thing you can add\" and \"Why not 3 loading sessions\" because REVL already loads the lower body heavily; the justification is only 'if fresh', which is soft.",
+    "The plan states \"Volume is the phase with the most room for extra work\" but then says the default is to make extra work smaller; also prescribes 2 loading upper-body sessions of ~5-6 exercises each in a phase the client is poorly recovered, without quantifying the existing REVL upper-body exposure (asked as open question rather than accounted for).",
+    "Session A includes a lat pulldown / pull-up variation and Session B a lateral raise 'below shoulder height' while the shoulder flares with overhead pressing; overhead pulling and abduction are only conditionally 'if pain-free', a mild tension with 'No overhead pressing' framing and the course's step-4 sequence.",
+    "Specific numbers are given as fact without course support: \"add about 5% load\" is cited to the 2-for-2 rule (fine), but 'Session RPE \u00d7 minutes' load numbers, '2\u20133 hard sessions per muscle group per week is a ceiling for REVL plus PT combined' (attributed to a table that likely describes general frequency, not a combined ceiling), and 'easy aerobic work is essentially absent from REVL' / 'carries are a minor part of REVL' are asserted without support.",
+    "Session-count logic: the plan says 7 sessions/week is the problem and picks 2 loading + 1 low-stress PT, yet the low-stress session still adds 30-40 min of work and PT sessions A/B are full upper-body sessions; option (a) is called the pick while the trigger to move to (c) is 'about a week' of no improvement, which sits slightly at odds with 'when recovery is compromised' being the reason to cut."
+   ],
+   "seconds": 105.4,
+   "response": "Marcus is at about 7 sessions a week, sleeping badly, stressed and motivated, with a shoulder that reacts to overhead pressing. My default is to make the extra work smaller and better aimed, not bigger.\n\n## Default recommendation\n\n**Run PT as 2 loading sessions and 1 low-stress session for the Volume weeks, and keep Marcus out of overhead pressing everywhere.**\n\nVolume is the phase with the most room for extra work. But 4 REVL plus 3 PT is a 7-session week, and poor sleep plus stress cuts recovery. That is exactly when a motivated client overreaches. *(Applied from the course: 2\u20133 hard sessions per muscle group per week is a ceiling for REVL plus PT combined, Wk07 Ch11 Table 11-10, p11.)*\n\n- **Session-count options:** (a) the 2+1 split above, which is my pick; (b) keep 3 slots but shorten each to about 45 minutes; (c) drop to 2 PT sessions. If sleep and stress haven't improved after about a week, go to (c). Also tell Marcus to scale his REVL loads down.\n- **Why not 3 loading sessions:** REVL already loads the lower body and the squat and hinge patterns very frequently across the week. Extra lower-body volume is the most expensive thing you can add.\n\n## Session design (general knowledge on top of the course)\n\n**Size without being destroyed.** REVL already supplies plenty of compound work. What it under-serves is targeted, controlled upper-body volume. Hypertrophy band: 3\u20136 sets \u00d7 6\u201312 reps, 30\u201390 s rest *(Table 9-12, Wk03 Ch9 p16)*.\n\nKeep effort at RIR 2\u20133, not failure. With recovery compromised, that is enough stimulus without the fatigue cost. Push closer to RIR 1\u20132 only on the final set of isolation moves.\n\n**Session A \u2013 Upper (pull-biased)**\n1. Chest-supported row, 3\u20134 \u00d7 8\u201312\n2. Neutral-grip DB press at a low incline or flat, 3 \u00d7 8\u201312, pain-free range only\n3. Lat pulldown or neutral-grip pull-up variation, 3 \u00d7 8\u201312, only if pain-free at end range\n4. Rear delt or face pull, 3 \u00d7 12\u201315\n5. Biceps and triceps (pushdown, not overhead extension), 2\u20133 \u00d7 10\u201315\n\n**Session B \u2013 Upper 2 plus small, low-axial lower dose**\n1. Cable or machine row variation\n2. Cable fly or machine press, mid-range\n3. Lateral raise in the scapular plane, kept below shoulder height, pain-free only\n4. Leg curl, 2\u20133 sets\n5. Calves, 2\u20133 sets\n6. Optional: leg press or split squat with tempo, 2 sets, only if Marcus reports he's fresh\n- Skip barbell hinge and squat here. REVL already covers them.\n\n**Session C \u2013 Low-stress slot (30\u201340 min)**\n- Scapular and cuff work (serratus punch, external rotation, lower trap), thoracic mobility.\n- Suitcase or farmer carries. Carries are a minor part of REVL, so this fills a gap.\n- 20\u201330 min easy Zone 1\u20132 work, then breathing or downregulation to close. Easy aerobic work is essentially absent from REVL.\n\n**Progression trigger.** Use double progression. When Marcus hits the top of the rep range on all sets at the target RIR for two consecutive sessions, add about 5% load (the 2-for-2 rule, Wk07 Ch11 p7, p20). If readiness is poor, hold the load. Don't chase progression on a bad-sleep week.\n\n**Placement.** Schedule Sessions A and B away from his heaviest REVL days. Which days those are depends on his track, so I need to ask (see below).\n\n## Shoulder\n\n**Scope first.** You can't diagnose or rehab this. If it is currently painful, or flares with everyday tasks and not just overhead pressing, refer to a physical therapist. If it flared recently, do not run your own test to clear him for loading. That call belongs to a clinician *(Wk01 Ch1 p7\u20138)*.\n\nHere is how to program around it in the meantime:\n- **No overhead pressing in PT.** The course's shoulder sequence (Wk10 Ch15 p92) runs in this order:\n  1. Open the subacromial space and stretch the anterior shoulder.\n  2. Strengthen the scapular stabilizers (lower traps, rhomboids, serratus, rotator cuff).\n  3. Build anterior shoulder strength with controlled pushing.\n  4. Only then reintroduce overhead work in the scapular plane, modifying ROM as needed.\n  \n  Session A and Session C already follow steps 1\u20133.\n- **Fix it in REVL too.** Overhead pressing shows up often in REVL programming, so PT alone won't help if class keeps aggravating it. Ask Marcus to talk to his REVL coaches about swapping in landmine, neutral-grip DB or another pain-free variation.\n- **Later flag.** The block's maximal testing week usually includes an overhead lift. The course lists a shoulder-problem history as a contraindication to 1-RM bench testing (Wk06 Ch10 p69). Get clinician input before he tests overhead.\n- **Progression gate for shoulder work.** Progress load or ROM only after several consecutive sessions with no pain during, after or the next morning. This gate is my own applied rule, not a course value.\n\n## Sleep and stress\n\n- **Screen readiness at the start of every session:** sleep, soreness, stress and energy, each rated 1\u20135. A rising total across days is your early warning.\n- **If markers are bad, modify in this order:** cut intensity first, then sets, then swap to a lower-demand variant, then change the session type (Session C content). Don't skip straight to cancelling.\n- **If it persists past about a week:** reduce total load, review sleep and nutrition, and refer to a physician if unresolved *(Wk07 Ch11 p47\u201348)*. For detailed nutrition or counselling on stress, refer out to a registered dietitian or other professional.\n\n## What's still open, and how it changes the plan\n\n1. **Perform or Move track, and which days he attends.** This decides where A and B go. Ask him what his actual sessions were last week. Don't assume.\n2. **Session RPE \u00d7 minutes for last week's sessions.** This gives a real load number. If the week is hard every day with no easier day, cut to option (c) now.\n3. **Shoulder status today.** If it is painful, refer first and hold Session A's pressing until cleared.\n4. **How bad the sleep is, and how long it has lasted.** A few nights points to the default. Weeks points to an earlier cut and a physician conversation.\n5. **PAR-Q+ or screening on file?** Five years of training doesn't replace it.\n\nI can scaffold `marcus_fitness_plan.md` and `.csv` with this as the starting block. I'd need his surname or a confirmed identifier for the filename."
+  }
+ ]
+}
