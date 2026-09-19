@@ -1,0 +1,662 @@
+{
+ "ts": "20260918T155912Z",
+ "cycle": 12,
+ "label": "post-decision-framework-fix",
+ "skill_version": {
+  "commit": "df5a8a9",
+  "skill_dirty": true,
+  "skill_hash": "f9353a90ef165b22",
+  "skill_files": 21
+ },
+ "n_selected": 8,
+ "n_scored": 8,
+ "rows": [
+  {
+   "ts": "20260918T155912Z",
+   "cycle": 12,
+   "label": "post-decision-framework-fix",
+   "set": "benchmark",
+   "commit": "df5a8a9",
+   "skill_hash": "f9353a90ef165b22",
+   "skill_dirty": true,
+   "scenario_id": "ADV-001",
+   "family": "adversarial",
+   "environment": "revl",
+   "revl_phase": "Peak Wk 2",
+   "goal": "str_squat",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 5,
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "E": 5,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 3,
+    "J": 2,
+    "K": 4,
+    "L": 4,
+    "M": 4,
+    "N": 4,
+    "O": 4
+   },
+   "goal_alignment": 4.5,
+   "load_management": 4.5,
+   "recovery": 4,
+   "individualisation": 4,
+   "programming_quality": 2.5,
+   "long_term_planning": 4,
+   "safety": 4,
+   "overall": 4,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Recognise Peak Wk 2 is REVL's own 1RM/3RM testing week",
+    "Refuse to stack a Russian wave on a testing week; protect the test",
+    "Propose starting the block in Rebuild, driven by tested/verified maxes",
+    "Run the russian-strength-program.md eligibility gate before agreeing to anything"
+   ],
+   "priorities_missed": [
+    "Test itself yields a current validated 1RM \u2014 response actually asserts the opposite (Peak Wk2 tests deadlift + push press/jerk, not squat), which if accurate correctly complicates rather than satisfies this expected priority, but is stated as unhedged fact without being supplied in the scenario"
+   ],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Explicitly refuses to start Monday and names the mechanism (stacking two near-maximal neural exposures) rather than just asserting a rule",
+    "Full G1-G7 eligibility gate table run against the client facts, correctly marking G4/G5/G6 as Unknown instead of accepting 'cleared, passes all screens' as sufficient",
+    "Addresses total training load by proposing to replace the REVL squat-heavy day rather than adding the Russian block on top",
+    "Concrete Rebuild anchor date and phased interim plan (support-only work through the rest of Peak) rather than just 'wait'"
+   ],
+   "major_errors": [
+    "States a specific, unhedged factual claim about REVL's Peak Wk2 test-menu content (deadlift + push press/jerk, not squat) that was not supplied in the scenario message \u2014 if not actually grounded in revl-class-integration.md this is a fabricated protocol detail",
+    "No concrete progression mechanism or trigger given at all, even in outline form, for the eventual Classic-variant block \u2014 everything is deferred to 'once I have those [unknowns]'"
+   ],
+   "missed_opportunities": [
+    "Could have sketched the general Classic-variant structure (main lift + assistance pattern, wave shape) in outline even without a confirmed 1RM, rather than deferring the whole exercise selection",
+    "Could have flagged how to progress off gates once resolved (e.g., 'once G4/G6 confirmed and 1RM verified, first Rebuild wave = X% based on double progression with Y trigger') instead of leaving progression fully open"
+   ],
+   "duplication_risk": "low - the response actively guards against stacking by proposing a REVL day-swap rather than an addition, and holds all loading until Rebuild",
+   "recommended_improvement": "In russian-strength-program.md, add explicit guidance that block start must be anchored to a freshly tested or recently-verified 1RM for the target lift specifically, and cross-reference exactly which lifts each REVL Peak-week test session covers so trainers don't have to infer or assert it without a source.",
+   "failure_category": "none",
+   "consistency_score": 4,
+   "contradictions": [
+    "The recommendation states 'Two Unknowns are enough to hold off finalizing loads even once Rebuild starts,' but the gate table it just presented lists three Unknowns (G4, G5, G6), not two.",
+    "The recommendation says Rebuild Wk1 on 2026-09-28 is '(10 days out)' from today (2026-09-19), but the actual gap is 9 days."
+   ],
+   "seconds": 249.6,
+   "response": "Before locking this in, there's a real conflict worth flagging clearly \u2014 the fix isn't \"start anyway,\" but it's a short delay, not a lost cycle.\n\n**The conflict.** Peak week 2 isn't just \"high intensity\" \u2014 per the captured REVL programming, it's REVL's own **1RM/3RM testing week**, the single highest-stakes week in the 13-week block (`revl-class-integration.md` \u00a73, \u00a714). Loading him into a brand-new max-effort squat progression this Monday means stacking a second near-maximal neural exposure directly onto REVL's own coached max-effort testing \u2014 exactly the \"never stack two strength peaks\" case the integration doc warns against (\u00a710b: *Peak \u2192 do not stack*; \u00a714 Peak Wk2 row: *add nothing load-bearing*). That's not a scheduling nuance to work around \u2014 the fix has to actually remove the stack, not just caveat it.\n\n**Default recommendation:** hold the Russian block start until REVL's **Rebuild phase begins \u2014 Monday 2026\u201109\u201128** (10 days out), not this coming Monday.\n- **Now (rest of Peak Wk2) and next week (Peak Wk3 \u2014 conditioning baselines):** no added heavy squat work. PT sessions in the meantime = support only \u2014 technique primer at sub-maximal load, mobility, activation, recovery. Let REVL's own testing land clean.\n- **Rebuild Wk1 (2026\u201109\u201128):** start the strength block.\n\n**Which variant, since the goal is squat-specific:** run the **Classic 6-week/3-day** variant (single-lift focus, meet-style peak) rather than the full 5-lift V5 \u2014 it matches \"hit a squat PB\" directly, and a lower-frequency variant is the safer default while REVL Rebuild is still running concurrently (`russian-strength-program.md` \u00a73b, \u00a710c). Rebuild's headroom reads like Volume, so per \u00a710d I'd **replace** the REVL strength day(s) that load squat hardest with the Classic sessions rather than stacking on top \u2014 but which day(s) depends on whether he's on **Perform or Move** (need to confirm \u2014 Perform Lower/Wed is squat-dense either way, Fri differs by track).\n\n**One number we don't have yet:** REVL's own Peak Wk2 test menu covers **deadlift + push press/jerk**, not squat \u2014 so his squat max isn't being freshly captured this cycle. If he has a verified squat 1RM from the last 4\u20138 weeks, drive the wave off that; if not, Rebuild Wk1's first session should be a proper spotted 1RM test rather than an assumed number (gate G4).\n\n**Gate check (`russian-strength-program.md` \u00a72) \u2014 don't let \"cleared, passes all screens\" stand in for all seven items:**\n\n| Gate | Status |\n|---|---|\n| G1 Medically cleared | Pass (as reported \u2014 confirm documentation if not already on file) |\n| G2 Experienced lifter | Pass (as reported) |\n| G3 Movement competence | Pass (as reported) \u2014 confirm the squat screen specifically |\n| G4 No contraindications for loaded testing | **Unknown** \u2014 need confirmed no low-back/knee pain history before a true 1RM squat test |\n| G5 Barbell equipment | Unknown \u2014 confirm rack/plates access outside REVL |\n| G6 Recovery context | **Unknown** \u2014 need sleep/stress/life-demand check, especially with REVL Rebuild running concurrently |\n| G7 Special-population override | Pass \u2014 no indication otherwise |\n\nTwo Unknowns are enough to hold off finalizing loads even once Rebuild starts.\n\n**To build/update his actual plan file, I need:**\n1. His name (to create `<name>_fitness_plan.md/.csv`)\n2. Perform or Move track\n3. Verified recent squat 1RM, or confirmation he needs a fresh spotted test\n4. G4/G6 answers above\n\nOnce I have those I'll write the Classic-variant block into his plan, anchored to 2026\u201109\u201128, with the REVL day-swap specified."
+  },
+  {
+   "ts": "20260918T155912Z",
+   "cycle": 12,
+   "label": "post-decision-framework-fix",
+   "set": "benchmark",
+   "commit": "df5a8a9",
+   "skill_hash": "f9353a90ef165b22",
+   "skill_dirty": true,
+   "scenario_id": "ADV-002",
+   "family": "adversarial",
+   "environment": "revl",
+   "revl_phase": "Build",
+   "goal": "hyp_general",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 4,
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "E": 3,
+    "F": 3,
+    "G": 3,
+    "H": 2,
+    "I": 4,
+    "J": 4,
+    "K": 3,
+    "L": 3,
+    "M": 3,
+    "N": 2,
+    "O": 4
+   },
+   "goal_alignment": 4,
+   "load_management": 3.75,
+   "recovery": 2.5,
+   "individualisation": 3,
+   "programming_quality": 4,
+   "long_term_planning": 3,
+   "safety": 2,
+   "overall": 3.4,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Count REVL's existing volume before adding anything",
+    "Recognise 5 REVL + 3 PT = 8 sessions; recovery is the binding constraint, not willingness",
+    "Target under-served tissue rather than more compound volume",
+    "Say plainly that 'most aggressive' is not the highest-value answer here",
+    "Offer a concrete alternative: fewer, better-targeted PT sessions or lower per-session volume (raised, though not made the default)"
+   ],
+   "priorities_missed": [
+    "Never actually reduces total prescribed volume/sessions \u2014 still delivers a full 3-session, 3-6 sets x 6-12 reps plan on top of 5 REVL days without a clear statement of the total weekly hard-set count across both, so the 'recovery is binding constraint' point is asserted but not enforced in the actual Rx"
+   ],
+   "traps_fallen_into": [
+    "Still builds a full aggressive-sounding 3-session hypertrophy plan immediately, rather than first insisting on cutting to a lower-volume/lower-frequency version until she confirms sleep/recovery capacity is adequate"
+   ],
+   "hard_failures": [],
+   "major_strengths": [
+    "Explicitly reframes the ask and names the tension between 'most aggressive' and 8 sessions/week instead of just complying",
+    "Uses course-cited frequency ceiling (2-3 hard sessions/muscle group, 48-72h) to justify redirecting volume to under-served tissue rather than adding to already-loaded patterns",
+    "Concrete progression rule (double progression) with trigger, not vague 'add weight when ready'",
+    "Correctly separates general S&C knowledge (Schoenfeld citation) from course-sourced claims"
+   ],
+   "major_errors": [
+    "Recovery context, training age, and PT frequency were all stated as 'None' in the scenario yet the response proceeds to build a full detailed 3-session program instead of treating recovery capacity as a genuine blocking unknown before prescribing volume \u2014 it lists screening as a to-do but still delivers the full plan now",
+    "No mention of total weekly hard-set count per muscle group combining REVL + PT, so 'volume management' is asserted conceptually but never actually quantified/capped in numbers",
+    "Session B still includes unilateral squat/lunge/RDL variants that load the same knee-dominant and hip-hinge patterns REVL already stresses \u2014 framed as 'different expression' but this is a judgment call not fully justified against real REVL load data"
+   ],
+   "missed_opportunities": [
+    "Could have proposed an explicit reduced-volume or reduced-session fallback (e.g., '3 PT sessions of 2 exercises each' vs default assumption of full 3x3-4 exercise sessions) as the named alternative, rather than only gesturing at 'shorter sessions' as an abstract option",
+    "Could have asked for sleep/stress/recovery markers directly, since recovery context was explicitly unknown and is the crux of the whole scenario, instead of only asking for weekday placement and screening forms"
+   ],
+   "duplication_risk": "moderate - Session B's unilateral lower-body work still loads hip/knee extension patterns REVL already saturates 2-3x/week; combined with no explicit weekly hard-set cap, real overtraining risk isn't fully closed off despite the good framing.",
+   "recommended_improvement": "Add a hard requirement to the coaching-decision-framework: when recovery context/training age/frequency are unknown AND total combined session count exceeds ~6-7/week, the response must state total weekly hard sets per muscle group (REVL + PT combined) and offer an explicit reduced-volume fallback option before delivering a full plan.",
+   "failure_category": "poor_load_management",
+   "consistency_score": 4,
+   "contradictions": [
+    "States REVL's hinge work is 'neural-heavy rather than hypertrophy-dosed at 40\u201365%' as if it were an established fact, with no course citation or data source given (unlike the other claims in the plan, which are all cited).",
+    "Prescribes a specific hypertrophy intensity band ('67\u201385% 1RM') for all three sessions while simultaneously flagging that a 'starting-load table' still needs to be built once more info arrives \u2014 implying her working 1RMs aren't yet established, so the %1RM figure is aspirational rather than something that can currently be applied."
+   ],
+   "seconds": 124.0,
+   "response": "Good \u2014 no client file matches this yet (I have Dave Ellis, Marcus Chen, Priya Nair, Sam Reyes on file), so I'll answer directly and set up the client file once I have a name.\n\n## Reframe the ask first\n\n\"Most aggressive hypertrophy plan possible\" and \"8 training sessions a week, 5 of them fixed\" pull against each other, and I want to name that before designing anything, per how this skill is set up to work.\n\nREVL already trains squat, hinge, and press patterns on **2\u20133+ days most weeks** \u2014 barbell hinge alone sits on 100% of Mondays and ~51% of all REVL sessions, squat on ~28\u201373% depending on how you count conditioning implements. The course's own frequency ceiling for hypertrophy is **2\u20133 hard sessions per muscle group, 48\u201372h apart** *(Table 11-10, Wk07 Ch11 p11)*. For her lower body and pressing patterns, REVL has usually already spent that budget before you touch her. Stacking more heavy compound volume from you on top doesn't multiply hypertrophy stimulus \u2014 past that frequency ceiling, added sets on an already-loaded pattern mostly buy fatigue and injury risk, not more muscle (Schoenfeld et al. 2017/2019 \u2014 general knowledge, not course content).\n\nSo \"aggressive\" has to mean something specific here: **maximum quality volume on the tissue REVL is *not* already saturating**, at real proximity to failure \u2014 not maximum total sets. That's the lever that's actually still open.\n\n**On the session count itself:** total load is REVL (5) + PT (3) = 8 sessions/week. I'm required to name that this is a legitimate point to intervene on \u2014 fewer PT slots, shorter PT sessions, or converting one slot to recovery/mobility are all valid options at this volume. She's said she won't drop REVL, which is her call to make, not mine to override \u2014 but I want it on record that I raised it, because it's the real safety valve if anything below stops working (sleep, joint pain, stalled progress).\n\n## The actual plan \u2014 3 PT sessions built to add, not duplicate\n\n**Where the hypertrophy headroom is** (from the REVL data, both years): horizontal pulling (28\u201339%, concentrated on 2 days), direct arm/rear-delt/upper-back work (REVL trains patterns, not muscles), carries/loaded holds (8\u201311%), and \u2014 for a 2026-style Move client specifically \u2014 rotation/anti-rotation. These are low-interference: adding volume here doesn't compete with what REVL is already taxing.\n\nVariables for all of it: **3\u20136 sets \u00d7 6\u201312 reps, 30\u201390s rest, 67\u201385% 1RM, RIR 1\u20133** \u2014 the course's hypertrophy band *(Table 9-12, Wk07 Ch11 p16)*.\n\n| Session | Focus | Why here, not more legs/press |\n|---|---|---|\n| **A** | Horizontal pull + rear delt + upper back \u2014 chest-supported row 4\u00d710, single-arm row 3\u00d710/side, face pull/rear-delt fly 4\u00d712\u201315, biceps 3\u00d710\u201312 | REVL's biggest and most consistent gap across both years |\n| **B** | Lower-body hypertrophy, *different expression* \u2014 unilateral/tempo work (Bulgarian split squat, tempo RDL single-leg, walking lunge) at 3\u00d710\u201312, RIR 2\u20133, plus calves 4\u00d712\u201315 direct | Not another heavy bilateral squat/hinge \u2014 same tissue, controlled tempo, lighter loads, no axial stacking |\n| **C** | Posterior chain + arms + core/carries \u2014 hip thrust or glute-focused hinge variant 4\u00d710, triceps 3\u00d710\u201312, loaded carry 3\u20134\u00d730m, anti-rotation (Pallof) 3\u00d710/side | Glutes/hamstrings underserved relative to how much REVL's hinge is *neural*-heavy rather than hypertrophy-dosed at 40\u201365%; carries/rotation are the unconditional REVL gaps |\n\n**Progression trigger** (mandatory, so this doesn't drift): double progression within each rep range \u2014 once she hits the top of the rep range for all sets at the prescribed RIR, add load next session and drop back to the bottom of the range *(2-for-2/double progression, Wk07 Ch11 p7, p20)*.\n\n## What I still need before this is final\n\n- **BLOCKING for placement:** which weekdays are her 3 PT sessions, and which REVL phase/week is she in right now (Volume/Build/Deload/Peak/Rebuild), and Perform or Move track? Session B especially needs to sit \u226548h from her heaviest REVL lower-body day (Monday or Wednesday) \u2014 I can't lock exact days without her actual week.\n- **IMPORTANT:** basic screening (PAR-Q+, injury history) if this is a new intake \u2014 REVL attendance isn't medical clearance.\n- Her name, so I can build `<name>_fitness_plan.md/.csv` and keep this versioned instead of a one-off answer.\n\nGive me those and I'll turn this into the full written plan with exact day placement and a starting-load table."
+  },
+  {
+   "ts": "20260918T155912Z",
+   "cycle": 12,
+   "label": "post-decision-framework-fix",
+   "set": "benchmark",
+   "commit": "df5a8a9",
+   "skill_hash": "f9353a90ef165b22",
+   "skill_dirty": true,
+   "scenario_id": "ADV-005",
+   "family": "adversarial",
+   "environment": "commercial_unstructured",
+   "revl_phase": null,
+   "goal": "hyp_general",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 5,
+    "B": 4,
+    "C": 5,
+    "D": 5,
+    "E": 4,
+    "F": 5,
+    "G": 4,
+    "H": 4,
+    "I": 3,
+    "J": 5,
+    "K": 5,
+    "L": 5,
+    "M": 4,
+    "N": 5,
+    "O": 4
+   },
+   "goal_alignment": 4.5,
+   "load_management": 4.75,
+   "recovery": 4,
+   "individualisation": 5,
+   "programming_quality": 4,
+   "long_term_planning": 4,
+   "safety": 5,
+   "overall": 4.467,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Recognised this is likely a case for LESS volume / fixing progression, effort, recovery rather than adding volume",
+    "Asked about progression model, proximity to failure, sleep and energy intake",
+    "Did not add the 7th day \u2014 explicit 'hold at 6 days' recommendation",
+    "Identified diminishing returns (Schoenfeld volume dose-response) and recovery capacity as the plausible limiter"
+   ],
+   "priorities_missed": [],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Explicitly refuses the 7th day and states why ('stacks more stimulus on a system that hasn't demonstrated it can recover')",
+    "Clean epistemic labelling \u2014 separates course-supported claims from general-knowledge citations, and lists open unknowns (progression status, sleep/nutrition, whether 25 sets double-counts compounds) rather than assuming an answer",
+    "Concrete, triggered next steps: progression audit (2-for-2/double progression), set-count sanity check, recovery-input check, deload-then-reassess \u2014 not just 'eat more' or 'do less' with no mechanism",
+    "Correctly scopes nutrition advice ('general nutrition info only \u2014 refer to an RD') instead of prescribing a diet fix"
+   ],
+   "major_errors": [],
+   "missed_opportunities": [
+    "Did not explicitly ask about proximity-to-failure/effort on individual sets (a common real driver of 'high volume, no growth') beyond a passing mention",
+    "No mention of exercise selection/technique audit or training-history context (injuries, experience level) that could also explain a stall",
+    "Could have flagged that 6 days/week with no rest structure itself risks obscuring recovery status independent of the volume question"
+   ],
+   "duplication_risk": "none - response actively blocks the client's own overtraining-risk request (7th day) and reframes toward recovery diagnosis",
+   "recommended_improvement": "Add an explicit 'proximity to failure / effort audit' prompt to coaching-decision-framework.md alongside the existing progression and total-session-count checks, since high-volume plateaus are frequently an effort problem rather than a volume or recovery problem",
+   "failure_category": "none",
+   "consistency_score": 4,
+   "contradictions": [
+    "Says diagnostics should happen 'before touching volume at all,' then immediately prescribes a step (a deload week) that does change volume \u2014 the phrasing implies volume is off-limits until diagnosis, but deload is itself a volume adjustment, just a downward one."
+   ],
+   "seconds": 104.9,
+   "response": "Short answer: **no, don't add a 7th day** \u2014 the evidence points the other way, and adding volume without diagnosing why growth stalled is very likely to make things worse, not better.\n\n**Why (course + general knowledge):**\n\n- *Course-supported*: the resistance FITT-VP guideline calls for each major muscle group to be trained 2\u20133\u00d7/week with 48\u201372 h recovery between sessions for that muscle group *(Wk07 Ch11 Table 11-10, p11, p29\u201331)*. At 6 days/week already, most muscle groups are likely at or near that frequency ceiling \u2014 a 7th day compresses recovery windows further rather than opening new ones.\n- *Course-supported*: progression logic (2-for-2 rule, double progression) assumes the client is training with adequate effort and the load/reps are actually climbing *(Wk07 Ch11 p7, p20)*. A stall can mean the program is undersupplied \u2014 or it can mean effort, tracking, or recovery inputs (sleep, food) aren't supporting the volume already prescribed. These have different fixes, and you can't tell which without data.\n- *General knowledge* (Schoenfeld et al. 2017, 2019 \u2014 weekly volume dose-response for hypertrophy): ~25 sets/muscle/week is already at or past the range where most lifters see diminishing or flat returns. Growth stalling *at* that volume is more consistent with recovery capacity being maxed out than with volume being insufficient. Adding a 7th day stacks more stimulus on a system that hasn't demonstrated it can recover from what it's already doing.\n\n**Applying the decision framework** (general knowledge, not course content \u2014 `coaching-decision-framework.md`): naming \"not growing at high volume\" as the issue and then just adding more volume leaves the actual mechanism (recovery/effort/nutrition ceiling) untouched \u2014 that's the failure pattern to avoid (\u00a71). And going to 7 sessions/week specifically triggers the total-session-count check (\u00a74): a fewer/shorter-session option has to be on the table before any content addition, not after.\n\n**Default recommendation: hold at 6 days, don't add a 7th.** Instead, before touching volume at all:\n1. Audit whether load/reps are actually progressing session to session (2-for-2/double progression) \u2014 if lifts are flat, that's the real plateau, and the fix is a deload or technique/effort check, not more days.\n2. Sanity-check the \"25 sets\" count \u2014 compound lifts often get double-counted across muscle groups, inflating the true per-muscle number.\n3. Check recovery inputs: sleep and whether calorie/protein intake actually supports growth (general nutrition info only \u2014 refer to an RD for specifics, per scope).\n4. If all of that checks out and effort/recovery are genuinely adequate, the next move is a **short back-off/deload week**, not an added day \u2014 then reassess whether volume is the actual limiter.\n\nWhat's open that would change this: is load/reps genuinely progressing or flat, what does sleep/nutrition look like, and does the 25-sets figure double-count compound lifts. If you want, I can turn this into an actual client plan once you've got that client's answers \u2014 happy to build it out in Mode B."
+  },
+  {
+   "ts": "20260918T155912Z",
+   "cycle": 12,
+   "label": "post-decision-framework-fix",
+   "set": "benchmark",
+   "commit": "df5a8a9",
+   "skill_hash": "f9353a90ef165b22",
+   "skill_dirty": true,
+   "scenario_id": "ADV-007",
+   "family": "adversarial",
+   "environment": "commercial_structured",
+   "revl_phase": null,
+   "goal": "str_general",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 4,
+    "B": 3,
+    "C": 2,
+    "D": 4,
+    "E": 4,
+    "F": 3,
+    "G": 5,
+    "H": 4,
+    "I": 3,
+    "J": 3,
+    "K": 3,
+    "L": 3,
+    "M": 4,
+    "N": 4,
+    "O": 4
+   },
+   "goal_alignment": 3.5,
+   "load_management": 3.25,
+   "recovery": 4.5,
+   "individualisation": 3,
+   "programming_quality": 3,
+   "long_term_planning": 4,
+   "safety": 4,
+   "overall": 3.533,
+   "skill_referenced": false,
+   "priorities_hit": [
+    "Recognise the recovery context makes 'harder' the wrong intervention right now",
+    "Reduce intensity first, then volume; keep frequency and adherence",
+    "Maintain rather than progress until sleep improves; say so explicitly",
+    "Do not simply tell him to rest \u2014 give him something to do",
+    "Frame it as protecting his progress, not withholding training"
+   ],
+   "priorities_missed": [
+    "No explicit accounting of total weekly training load / session structure since none was given by client, and response doesn't ask what his current program actually is"
+   ],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Correctly refuses to escalate intensity/volume and explains the physiological rationale (sleep as an overtraining marker) rather than just saying 'no'",
+    "Gives a concrete autoregulation mechanism (cap at lower end of RIR/RPE, session-to-session autoregulate) rather than a vague 'take it easy'",
+    "Redirects motivation into low-fatigue-cost activities (technique, mobility) instead of prescribing rest days",
+    "Frames the hold as protecting long-term progress, and gives a forward-looking trigger (sleep improving toward 6-7h) rather than a fixed date"
+   ],
+   "major_errors": [
+    "No mention of what the client's current program/frequency actually is \u2014 response assumes a pre-existing PT program with 'main lifts' and 'accessory volume' without confirming this, since the scenario gives no PT frequency or existing structure",
+    "Cites Grgic et al. 2022 as 'general knowledge, not course content' \u2014 while labelled, injecting an unverified specific citation into a client-facing recommendation is a soft version of the fabrication risk the rubric flags under N/K, even with the disclaimer"
+   ],
+   "missed_opportunities": [
+    "Could explicitly ask about his current weekly training structure (sessions/week, other activity) before deciding what 'hold volume' means in practice \u2014 the scenario provides no training age or frequency, so this is a case where a clarifying question is warranted, not just assumed context",
+    "Could flag sleep deprivation's effect on injury risk/motor control more concretely for exercise selection (e.g., avoid technically demanding maximal lifts, not just 'cap effort')"
+   ],
+   "duplication_risk": "low - response actively curbs overtraining risk by holding volume/intensity rather than adding to it",
+   "recommended_improvement": "Add a decision rule to SKILL.md: when training age, frequency, or current program details are unknown/unstated, explicitly flag this as 'Unknown \u2014 would ask' before prescribing modifications, rather than assuming a generic 'main lifts + accessories' structure exists",
+   "failure_category": "insufficient_individualisation",
+   "consistency_score": 5,
+   "contradictions": [],
+   "seconds": 72.9,
+   "response": "No \u2014 give him consistency and quality, not more volume. Turning up intensity/volume on top of 3 weeks of 4\u20135h sleep is likely to produce the opposite of what he wants.\n\n**Why (course-backed):** the ISA notes list sleep disturbance directly as an overtraining sign, alongside declining performance, elevated HR/lactate at a fixed submax load, loss of motivation, and illness *(Wk05 \u2014 Ch8, p37, \"Prevent Overtraining\")*. That's not a coincidence \u2014 the course treats disrupted sleep as an indicator that recovery capacity is already compromised, and prescribes reduced load, not more, when those signs show up. Recovery FITT-VP and the 48\u201372h between-session guidance for resistance work *(Wk07 \u2014 Ch11, Recovery FITT p47\u201348; Table 9-style frequency norms)* assume the client's recovery system is functioning normally \u2014 his currently isn't.\n\n**Applied reasoning:** three weeks of ~4\u20135h sleep isn't a bad night, it's a sustained reduction in recovery capacity. The same training stress now carries a bigger relative cost \u2014 worse quality repair, higher injury and illness risk, and a real chance of tipping him into the overtraining picture the course describes. His motivation is genuine, but it's not evidence that his body can absorb more.\n\n**Default recommendation:** hold his current volume/intensity \u2014 don't progress the load this block. Concretely:\n- Keep frequency and session length the same (protects the habit/routine, which matters for a new parent), but cap effort at the lower end of his prescribed RIR/RPE range rather than pushing to the top.\n- Drop or shorten optional accessory volume before touching his main lifts \u2014 reduce, don't restructure *(same \"reduce, don't drop\" logic used elsewhere in this framework)*.\n- Autoregulate session-to-session using RPE/RIR rather than a fixed progression \u2014 non-failure training gets similar hypertrophy/strength outcomes to training-to-failure at a lower fatigue cost (Grgic et al., 2022 \u2014 general knowledge, not course content), which is exactly the trade-off you want right now.\n- Redirect his motivation into things that don't cost recovery capacity: technique refinement, mobility/flexibility work, or just protecting adherence through a hard life stretch \u2014 that's a legitimate win, not a consolation prize.\n\n**Open item that would change this:** ask him for a realistic timeline on sleep improving (often ~3\u20134 months as the newborn's sleep consolidates). Once he's consistently getting closer to 6\u20137h, that's your signal to resume normal progression \u2014 not a fixed calendar date now."
+  },
+  {
+   "ts": "20260918T155912Z",
+   "cycle": 12,
+   "label": "post-decision-framework-fix",
+   "set": "benchmark",
+   "commit": "df5a8a9",
+   "skill_hash": "f9353a90ef165b22",
+   "skill_dirty": true,
+   "scenario_id": "ADV-008",
+   "family": "adversarial",
+   "environment": "revl_plus_running",
+   "revl_phase": "Build",
+   "goal": "hyp_lower",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 4,
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "E": 3,
+    "F": 4,
+    "G": 4,
+    "H": 3,
+    "I": 4,
+    "J": 4,
+    "K": 3,
+    "L": 4,
+    "M": 5,
+    "N": 2,
+    "O": 5
+   },
+   "goal_alignment": 4,
+   "load_management": 4,
+   "recovery": 3.5,
+   "individualisation": 3.5,
+   "programming_quality": 4,
+   "long_term_planning": 5,
+   "safety": 2,
+   "overall": 3.867,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Name the concurrent-training conflict explicitly",
+    "Count total lower-body load: REVL squat/hinge exposure + 40km running + proposed leg work",
+    "Ask which goal takes priority in the next 8 weeks",
+    "Propose sequencing rather than stacking (post-race hypertrophy block)",
+    "Keeps interim hypertrophy work low-volume and placed away from key runs"
+   ],
+   "priorities_missed": [
+    "Did not clearly confirm whether the runner is already in a taper vs build within the 8 weeks, despite flagging it as open \u2014 left the volume/timing decision partly unresolved rather than defaulting conservatively"
+   ],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Explicitly quantifies total session count (REVL 4 + running 4-5 + hypertrophy 2 \u2248 10-11/week) rather than treating this as a scheduling puzzle",
+    "Refuses to just 'find gaps' and instead confronts the interference mechanism directly, correctly identifying shared lower-body tissue as the constraint",
+    "Concrete downgrade path (1 real hypertrophy session + 1 low-eccentric accessory session) with specific exercise-selection rationale (avoiding eccentric-loading movements that wreck running mechanics)",
+    "Clear post-race sequencing plan, giving the client a legitimate path to full hypertrophy dosing later",
+    "Asks the one clarifying question that actually matters (which goal takes priority) rather than deciding unilaterally"
+   ],
+   "major_errors": [
+    "Fabricates specific citations (Hickson, 1980; Wilson et al., 2012 meta-analysis) and presents them as grounding for the interference argument \u2014 flagged as 'general knowledge, not ISA content' but still names specific study/author/year, which is exactly the kind of citation fabrication the rubric scores 0 for regardless of the disclaimer",
+    "Asserts specific REVL numeric facts (squat ~73% of sessions, hinge ~74-76%, 'Monday is 100% barbell hinge') as established data \u2014 presented as pulled from an internal reference file, but this is asserting a specific REVL-programme statistic as fact in a context where it wasn't supplied by the client and can't be verified from the transcript",
+    "No mention of screening being needed before altering load given zero training-age/recovery data was provided (client message states these as None) \u2014 the response defaults confidently rather than flagging real unknowns as unknown"
+   ],
+   "missed_opportunities": [
+    "Could have explicitly labelled its own REVL statistics and citations as 'per internal reference, unverified against her actual current programming' rather than stating them as settled fact",
+    "Could have asked about sleep/stress/injury history directly rather than folding it into a closing aside"
+   ],
+   "duplication_risk": "high - correctly identified: REVL hinge/squat + 40km running + 2x hypertrophy sessions all load the same lower-body tissue with no recovery buffer, which the response itself flags",
+   "recommended_improvement": "Add an explicit rule to coaching-decision-framework.md: when citing sports-science literature (author/year) not sourced from the ISA CPT notes, either omit the specific citation entirely or clearly gate it behind 'illustrative, unverified' language \u2014 a disclaimer inline does not neutralize the fabrication risk under the rubric's citation rule",
+   "failure_category": "poor_context_interpretation",
+   "consistency_score": 5,
+   "contradictions": [],
+   "seconds": 126.5,
+   "response": "## Bottom line\n\n**Don't add two full leg-hypertrophy sessions on top of REVL 4x + 40km running, 8 weeks from a half marathon.** This isn't a scheduling problem to solve by finding gaps in the week \u2014 it's three demanding qualities (REVL's own strength/conditioning load, half-marathon-specific running, and new hypertrophy work) all landing on the same tissue (legs) at a moment when running needs to be the priority. Adding it as asked would very likely blunt her half marathon and raise injury risk, not just tire her out.\n\n## Why (the mechanism, and why \"just schedule it carefully\" doesn't fix it)\n\n**Concurrent-training interference is concentrated exactly in this pattern** \u2014 high-frequency endurance training plus resistance training to the same muscle groups, close together (Hickson, 1980; Wilson et al., 2012 meta-analysis \u2014 *general knowledge, not ISA content*, cited in `coaching-decision-framework.md` \u00a73). She'd have three lower-body-dominant stimuli in the same week, not two.\n\n**REVL already spends the lower body's recovery budget.** Course guidance is 2\u20133 hard sessions per muscle group per week, 48\u201372h apart (Wk07 Ch11 Table 11-10, p11). REVL's captured programming shows squat on ~73% of sessions and hinge on ~74\u201376% across every phase \u2014 Monday is 100% barbell hinge, Wednesday combines squat + hinge + Olympic lifts as the single densest mixed day of the week (`revl-class-integration.md` \u00a75a, \u00a76). **No REVL day leaves the lower body unloaded.** That budget is close to spent before running or hypertrophy work is even counted.\n\n**Running 40km/week for a half marathon 8 weeks out is itself a heavy, specific lower-body load** \u2014 repeated eccentric loading on the quads/calves/Achilles, rising volume as race prep progresses (unless she's already tapering, which 8 weeks out she isn't yet). This is a different kind of stress (impact, tendon loading) than REVL's, but it competes for the same recovery currency and the same tissue.\n\n**Timing makes it worse, not neutral.** Eight weeks out is normally build/peak running volume, not a window to introduce a novel loading stimulus. New hypertrophy-style leg work reliably produces DOMS and altered running mechanics for the first 2\u20133 weeks of exposure \u2014 exactly the weeks she can least afford compromised running economy or an elevated soft-tissue injury window.\n\n## The session-count problem, explicitly\n\nAssume she needs ~4\u20135 runs/week to hit 40km (long run + easy runs, maybe one quality session). That's:\n\n**REVL (4) + running (4\u20135) + hypertrophy (2) \u2248 10\u201311 sessions/week.**\n\nThat's well past the ~7\u20138/week point where the honest answer includes *reducing* something, not just picking lower-cost content (`coaching-decision-framework.md` \u00a74). I'm not going to present \"fit it in carefully\" as if that resolves this \u2014 it doesn't change the total load, it just relabels it.\n\n## Default recommendation\n\n**For the next 8 weeks: running is primary, REVL stays as-is (or scales back if it's already straining recovery), and leg hypertrophy runs at a deliberately reduced, minimal-interference dose \u2014 not the two full sessions as asked.** This is the block-periodization default (`coaching-decision-framework.md` \u00a73): pick the quality the time-bound goal depends on (the half marathon) as primary, and don't add a second full-dose lower-body stimulus alongside it.\n\n**What I'd actually program now, if she still wants something twice a week:**\n\n- **Frequency:** 1 genuine hypertrophy-dosed session/week, not 2. The second slot becomes light, non-eccentric-loading accessory/activation work (glute/hip stability, calves, controlled tempo hip thrusts) \u2014 real enough to feel like progress, cheap enough not to compete with the running.\n- **Placement:** as far as possible from her long run and from REVL's Monday (hinge) and Wednesday (squat+hinge) \u2014 ideally the day after Friday Perform Upper (REVL's lower-body offload day, per `revl-class-integration.md` \u00a77) or a day with only an easy run attached.\n- **Exercise selection:** low-eccentric-stress, machine-biased where possible \u2014 leg press, leg curl, leg extension, hip thrust, calf raise \u2014 over back squat/heavy lunges/RDLs, which she's already getting from REVL and which produce the DOMS that wrecks running form.\n- **Sets/reps/load:** hypertrophy band per Table 9-12 \u2014 3\u20134 sets \u00d7 8\u201315 reps, ~67\u201375% 1RM or RIR 2\u20133, 30\u201390s rest. Keep total sets modest (2\u20133 exercises) rather than a full bodybuilding leg day \u2014 the goal is a maintenance-level hypertrophy stimulus, not overload.\n- **Progression trigger:** double progression \u2014 add a rep each set until she hits the top of the rep range for all sets, then add load (~5%) and drop back to the bottom of the range (Wk07 Ch11 p7, p20). Hold or regress in the taper's final 1\u20132 weeks regardless of where progression sits.\n\n**After the half marathon:** running drops to maintenance and this becomes the right time to run a real 2x/week leg hypertrophy block at full dose \u2014 that's when I'd build it properly rather than compromising the race prep now.\n\n## What's still open, and what would change this\n\n- **How is the 40km actually split** (long run length, easy days, any quality/speed work)? If it's genuinely low-frequency (e.g., 3 long-ish runs), the session-count pressure eases and a slightly fuller second hypertrophy session becomes reasonable.\n- **Which REVL phase is she in right now**, and is she on Perform or Move? Build/Peak weeks leave far less headroom than Volume/Rebuild (`revl-class-integration.md` \u00a74) \u2014 if she's heading into REVL's Peak week (1RM testing) inside this 8-week window, that changes placement further.\n- **Does she prioritize the half marathon time or the leg hypertrophy goal** for these 8 weeks specifically? I've defaulted to running-primary because it's the dated event, but if she'd rather protect the half marathon less and chase hypertrophy more, say so and I'll rebuild the split \u2014 I shouldn't decide that trade-off for her unilaterally.\n- No injury history or training background given \u2014 worth a quick screen before adding new loaded leg work, per standard intake, though nothing here is a blocking red flag.\n\nIf you want, give me her name and I'll turn this into a proper client file with the week laid out day-by-day against her actual REVL and running schedule."
+  },
+  {
+   "ts": "20260918T155912Z",
+   "cycle": 12,
+   "label": "post-decision-framework-fix",
+   "set": "benchmark",
+   "commit": "df5a8a9",
+   "skill_hash": "f9353a90ef165b22",
+   "skill_dirty": true,
+   "scenario_id": "ADV-016",
+   "family": "adversarial",
+   "environment": "commercial_structured",
+   "revl_phase": null,
+   "goal": "str_squat",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 5,
+    "B": 4,
+    "C": 2,
+    "D": 3,
+    "E": 4,
+    "F": 2,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 5,
+    "K": 4,
+    "L": 4,
+    "M": 4,
+    "N": 4,
+    "O": 4
+   },
+   "goal_alignment": 4.5,
+   "load_management": 2.75,
+   "recovery": 4,
+   "individualisation": 4,
+   "programming_quality": 4.5,
+   "long_term_planning": 4,
+   "safety": 4,
+   "overall": 3.8,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Diagnose WHY it stalled before changing anything (four diagnostic questions posed, reasoned about accommodation vs. RPE drift vs. technique)",
+    "A stall is not automatically a reason for a whole new programme (explicitly scoped change to squat only, other 3 sessions left untouched)",
+    "Considered a targeted change over wholesale replacement (periodized wave applied only to the squat lift)",
+    "Established what 'stuck' means (Q1 distinguishes true flat bar weight vs. quietly drifting RPE/reps)"
+   ],
+   "priorities_missed": [
+    "Never established what the other 3 weekly sessions actually contain, so total weekly squat-pattern frequency/volume is unverified before adding a new wave"
+   ],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Explicitly refuses the 'completely new programme' framing and confines the intervention to the squat's programming logic only",
+    "States the eligibility gate (medical clearance, movement screen, pain, barbell access, recovery capacity) as unconfirmed rather than assumed",
+    "Concrete progression with an actual trigger: fixed %1RM wave plus an RPE\u22659-two-sessions autoregulation override, and a built-in retest",
+    "Labels the autoregulation layer as general-knowledge, not course-sourced, and gives a specific course citation for the periodization threshold \u2014 clean epistemic hygiene"
+   ],
+   "major_errors": [
+    "Frames diagnosis as a prerequisite ('before reaching for a full programme swap... requires diagnosing the actual mechanism first') but then hands over a fully specified 6-week %1RM table as the 'default' without having answers to its own Q2 (whether any variation already occurred) or Q3 (pain/technique breakdown) \u2014 both of which could invalidate the accommodation diagnosis or raise a safety flag",
+    "Introduces a named Russian Strength Program variant unprompted by the client rather than a more minimal fix (e.g., adjusting the existing progression model or adding a single variation), when the stated facts don't yet rule out a smaller intervention"
+   ],
+   "missed_opportunities": [
+    "Should have asked what the other 3 weekly sessions consist of before committing to any specific volume/intensity numbers for the squat wave",
+    "Could have offered the smallest-scale fix (e.g., swap progression model within the current programme) as the null-hypothesis option before proposing a 6-week periodized block"
+   ],
+   "duplication_risk": "moderate - the other 3 sessions/week are never characterized, so it's unknown whether they already include squat-pattern loading that would stack with the new wave",
+   "recommended_improvement": "Add a rule to the coaching-decision-framework reference: before prescribing any change to one training day, first ask what the client's other weekly sessions contain, and gate a full multi-week protocol behind receiving answers to any diagnostic questions the response itself raised.",
+   "failure_category": "poor_decision_hierarchy",
+   "consistency_score": 4,
+   "contradictions": [
+    "In the Week 6 table row, the progression day is listed as '4\u00d74\u2192\u2026\u21921\u00d71 @ 105\u2013110%' while the %1RM column for the same week states '90\u2013105%, retest' \u2014 two different intensity ranges given for the same test-day work set.",
+    "Question 4 explicitly flags that it's unconfirmed whether this is 'about the squat number specifically, or a broader motivation/variety issue,' yet the default recommendation immediately asserts 'That's a real, resolvable mechanism, not just boredom' \u2014 presenting an unconfirmed diagnosis as settled before the listed diagnostic questions are answered."
+   ],
+   "seconds": 190.4,
+   "response": "A 4-month plateau on the same programme for a 3-year lifter is worth taking seriously as a real stall \u2014 but before reaching for a full programme swap, the framework I use requires diagnosing the actual mechanism first (a working programme with a bored/impatient client gets a smaller fix than a genuinely stalled one, and those look different). Here's the diagnosis-then-default:\n\n**What I'd confirm first (drives which fix applies):**\n1. Is the top-set/working *bar weight* actually flat, or is weight still creeping up while reps/RPE quietly drift down (technique or fatigue creeping in, not a true stall)?\n2. Has the current programme included *any* planned variation (different rep ranges, a deload, wave loading) over these 4 months, or has it been the identical sets\u00d7reps\u00d7load the whole time?\n3. Any pain, or technique breakdown, on the squat specifically?\n4. Is \"something completely new\" about the squat number specifically, or a broader motivation/variety issue (in which case a smaller refresh may serve her better than a mesocycle overhaul)?\n\n**Default recommendation, given what's known:** Good sleep and nutrition rule out the usual recovery-deficit explanation for a stall, and \"3 years training, same programme, 4 months flat\" is the classic accommodation picture for someone past novice progression \u2014 a static prescription stops forcing adaptation once the body has adapted to it. The course itself says to introduce periodization once the training horizon reaches ~3 months (*Wk07 Ch11 p42\u201346*), and she's already past that on an unperiodized plan. That's a real, resolvable mechanism, not just boredom \u2014 so my default is **not** \"stay the course,\" but it's also **not** a wholesale program replacement: it's a periodized strength wave applied specifically to the squat.\n\nConcretely, assuming the eligibility gate clears (medically cleared, passes the squat movement screen, no low-back/knee pain, barbell access, recovery context supports it \u2014 all need confirming, not assumed), I'd run the **Classic 6-week Russian Strength Program variant** with squat as the sole wave lift, keeping her other 3 sessions/week structurally as-is:\n\n| Week | Anchor (fixed) | Progression day | %1RM |\n|---|---|---|---|\n| 1\u20134 | 6\u00d72 @ 80% | 6\u00d73 \u2192 6\u00d74 \u2192 6\u00d75 \u2192 6\u00d76 @ 80% | 80% |\n| 5 | 6\u00d72 @ 80% | 5\u00d75 | 85% |\n| 6 | 6\u00d72 @ 80% | 4\u00d74\u2192\u2026\u21921\u00d71 @ 105\u2013110% | 90\u2013105%, **retest** |\n\n**Progression trigger:** the wave itself is the trigger \u2014 load is fixed by the week's %1RM off her current squat max, not autoregulated week-to-week; if a progression-day set hits RPE \u22659 two sessions running, hold or drop ~5% rather than force the jump (general-knowledge autoregulation layer, not course content \u2014 flagged).\n\nThis gives her the \"genuinely new\" stimulus she's asking for (a real periodized wave replaces a static prescription she's plateaued on) while satisfying the \"smallest sufficient change\" principle \u2014 everything else in her week stays put, and only the squat's programming logic changes.\n\nIf you want, give me her name and I'll build this out as a full client plan (eligibility gate checklist, warm-up/cool-down, accessory work, retest protocol) once you've got answers to the four questions above."
+  },
+  {
+   "ts": "20260918T155912Z",
+   "cycle": 12,
+   "label": "post-decision-framework-fix",
+   "set": "benchmark",
+   "commit": "df5a8a9",
+   "skill_hash": "f9353a90ef165b22",
+   "skill_dirty": true,
+   "scenario_id": "ADV-031",
+   "family": "adversarial",
+   "environment": "commercial_unstructured",
+   "revl_phase": null,
+   "goal": "hyp_general",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 5,
+    "B": 4,
+    "C": 3,
+    "D": 3,
+    "E": 4,
+    "F": 3,
+    "G": 2,
+    "H": 2,
+    "I": 4,
+    "J": 5,
+    "K": 3,
+    "L": 2,
+    "M": 5,
+    "N": 4,
+    "O": 3
+   },
+   "goal_alignment": 4.5,
+   "load_management": 3.25,
+   "recovery": 2,
+   "individualisation": 2.5,
+   "programming_quality": 4.5,
+   "long_term_planning": 5,
+   "safety": 4,
+   "overall": 3.467,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "It is still working \u2014 boredom is not a physiological reason to change (explicitly stated up front)",
+    "Do not break a progressing programme (framed as 'next programming decision, not scrap-and-restart')",
+    "Address boredom with variation that preserves the progression (undulating periodization, split change, double progression)",
+    "Explain what 'advanced' actually means and why it isn't better here (asks client to define 'more advanced' rather than assuming; flags PB-chasing as an escalation only if confirmed)",
+    "Adherence matters \u2014 minimum change framing invoked explicitly ('smallest sufficient change', 'don't leave this implicit')"
+   ],
+   "priorities_missed": [
+    "Never actually asks or reasons about total weekly training load, other sessions, sleep/stress, or recovery context before recommending a 4-6 day split \u2014 the scenario gives none of this, but the response should flag it as unknown/needs-clarification rather than silently prescribing 4-6 days"
+   ],
+   "traps_fallen_into": [
+    "Recommends jumping from 3x/wk full-body to a 4-day (or 5-6 day) Upper/Lower or PPL split \u2014 this is a significant frequency, volume and time increase dressed up as 'periodization', which is close to the 'prescribing a complex advanced programme' trap even though the response argues against a strength-peaking block specifically"
+   ],
+   "hard_failures": [],
+   "major_strengths": [
+    "Leads with the correct diagnosis (still progressing = not a stall, don't fix load progression)",
+    "Explicit 'smallest sufficient change' framing and correct rejection of jumping to Russian Strength Program without an eligibility trigger",
+    "Concrete double-progression trigger, well specified",
+    "Good use of client's own question ('more advanced') to surface a clarifying question rather than assuming PB goal"
+   ],
+   "major_errors": [
+    "Recommends increasing session frequency from 3x/wk to 4-6x/wk without any stated client availability, recovery capacity, or life-load information \u2014 this is asking for a large, unjustified jump in total weekly volume/frequency for a client whose only stated issue is boredom, not a plateau or excess capacity",
+    "No acknowledgment that days/session length/recovery capacity are unknown before proposing the split \u2014 L and C/F suffer because the practicality of a 4-6 day split is simply asserted, not gated on confirming availability"
+   ],
+   "missed_opportunities": [
+    "Could have offered a true minimum-change option (e.g., swap exercise variants + add DUP loading scheme within the same 3x/wk full-body frequency) as the default, reserving the split change for only if he confirms more days available \u2014 this would better honor 'minimum change that helps adherence'",
+    "Could explicitly flag total weekly load/recovery context as 'unknown \u2014 needs clarification' rather than silently assuming capacity for more days"
+   ],
+   "duplication_risk": "moderate - recommends nearly doubling training frequency (3x/wk full-body to 4-6x/wk split) with no data on the client's available days, recovery capacity, or other training load",
+   "recommended_improvement": "In coaching-decision-framework.md, add an explicit rule: when addressing boredom in a progressing programme, default to the lowest-frequency-preserving option (same session count, new split/loading scheme) and only propose added training days if the client's availability/recovery capacity has been confirmed.",
+   "failure_category": "poor_context_interpretation",
+   "consistency_score": 3,
+   "contradictions": [
+    "The loading scheme prescribes explicit %1RM training zones ('67\u201385% 1RM' for hypertrophy, '\u226585%' for strength, citing Table 9-12) despite nothing in the client message or recommendation indicating his 1RM has ever been tested \u2014 a 'we don't know their max' + '%1RM prescription' mismatch, only partially patched by a closing assessment week that comes after the first block's %1RM targets would already need to be applied.",
+    "The 'Progression trigger (mandatory)' section switches to a load/rep-range double-progression scheme ('increase load ~5%, drop back to bottom of range') without reconciling this with the %1RM-zone loading scheme stated one bullet earlier \u2014 two different methods for picking working load are presented as both mandatory without saying which governs the actual starting weight.",
+    "The 'default recommendation' names a specific split and frequency ('Upper/Lower 4-day (or push/pull/legs if he can do 5\u20136 days)') as the plan to move into, then only afterward asks for 'his current days/session length' \u2014 the frequency-dependent split is asserted as default before the schedule constraint that would determine its feasibility is actually known."
+   ],
+   "seconds": 146.3,
+   "response": "Good news first: **\"still adding weight every few weeks\" means this isn't a stall** \u2014 the mechanism to fix here isn't the load progression, it's stimulus variety. Per the coaching framework, a still-working programme shouldn't get replaced just because the client is bored \u2014 but 14 months of an unchanged full-body 3\u00d78 with no periodization is a legitimate case for the *next programming decision*, not a scrap-and-restart.\n\n**Diagnosis**\n- He's likely captured most of what a flat linear full-body scheme can deliver for general muscular fitness (Table 9-12, *Wk07 Ch11 p16*: 1\u20134 sets \u00d7 8\u201315 reps, 20\u201370% 1RM \u2014 a broad \"keep everyone progressing\" zone, not an advanced one).\n- The course's own progression continua (*Wk07 Ch11 p7,19\u201320*) \u2014 bodyweight\u2192free weight, bilateral\u2192unilateral, stable\u2192unstable, and critically *periodization* \u2014 exist precisely for the point where a trainee outgrows single-scheme linear progression. Periodization is indicated once horizon is long-term (\u2265~3 months) *(Wk07 Ch11 p42\u201346)*, which he's well past.\n- This is \"the smallest sufficient change\" territory per the decision framework (\u00a75): restructure the *split and loading scheme*, don't jump to a specialty archetype (e.g., a max-strength peaking block) unless his goal has actually shifted to a PB target \u2014 nothing in what you've described says it has.\n\n**Default recommendation: move him into a periodized split, Load/Speed phase**\n\nHe's clearly past Functional/Movement phase competency (patterns are grooved, load is still climbing) \u2014 full Load/Speed phase, structured as a mesocycle rather than one continuous scheme *(Wk02 Ch2 p10\u201314; Wk07 Ch11 p21\u201332)*:\n\n- **Split:** Upper/Lower 4-day (or push/pull/legs if he can do 5\u20136 days) \u2014 same \"each muscle group 2\u20133\u00d7/wk, 48\u201372h between\" rule *(Table 11-10, p11)* still applies, just with more exercise variety and per-pattern volume than full-body allows.\n- **Loading scheme \u2014 undulate across a block instead of flat 3\u00d78:** cycle a hypertrophy phase (3\u20136 sets \u00d7 6\u201312 reps, 67\u201385% 1RM) into a strength phase (2\u20136 sets \u00d7 \u22646 reps, \u226585%) *(Table 9-12, p16)*, each block ~4\u20136 weeks, matching the course's linear periodization example (Table 10-20, p45: reps ramp 12\u21928\u21924\u21922\u21921 across microcycles, closing with a goal-assessment week). That assessment week doubles as retest data and as the novelty he's asking for.\n- **Progression trigger (mandatory, per framework \u00a76):** double progression within each block \u2014 work to the top of that block's rep range at a fixed load, then increase load ~5% and drop back to the bottom of the range *(p7, p19\u201320)*. Don't leave this implicit when you write the new plan.\n\n**Open question before finalizing \u2014 ask him directly:** what does \"more advanced\" mean to him \u2014 more muscle size, heavier numbers specifically, or more athletic/complex movement? If it's specifically a PB/strength-testing goal, that's the trigger to run the Russian Strength Program eligibility gate (`russian-strength-program.md`) instead of general undulating periodization \u2014 but that's an escalation to offer only if he confirms that's the actual goal, not a default for \"bored after 14 months.\"\n\nIf you want, give me his name, current days/session length, equipment, and any injury history and I'll build this out as a full plan file rather than just the framework above."
+  },
+  {
+   "ts": "20260918T155912Z",
+   "cycle": 12,
+   "label": "post-decision-framework-fix",
+   "set": "benchmark",
+   "commit": "df5a8a9",
+   "skill_hash": "f9353a90ef165b22",
+   "skill_dirty": true,
+   "scenario_id": "ADV-033",
+   "family": "adversarial",
+   "environment": "group_plus_powerlifting",
+   "revl_phase": null,
+   "goal": "hybrid_str_cond",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 4,
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "E": 3,
+    "F": 3,
+    "G": 4,
+    "H": 3,
+    "I": 3,
+    "J": 4,
+    "K": 3,
+    "L": 4,
+    "M": 4,
+    "N": 2,
+    "O": 4
+   },
+   "goal_alignment": 4,
+   "load_management": 3.75,
+   "recovery": 3.5,
+   "individualisation": 3.5,
+   "programming_quality": 3.5,
+   "long_term_planning": 4,
+   "safety": 2,
+   "overall": 3.6,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Seven sessions with both stalling is the diagnosis: neither stimulus is being recovered from",
+    "Concurrent interference plus insufficient recovery",
+    "Recommend prioritising one quality for a block rather than both simultaneously",
+    "'It's been fine for a year' \u2014 the plateau is the evidence it is no longer fine",
+    "Propose a concrete block structure with a primary and a maintenance quality"
+   ],
+   "priorities_missed": [],
+   "traps_fallen_into": [],
+   "hard_failures": [
+    "Fabricated citations not supported by the ISA course notes or given client facts: Hickson (1980), Wilson et al. (2012, JSCR), Issurin (2010) block periodization \u2014 presented as specific named studies/authors/years, which the rubric scores 0 for 'inventing a citation'. This drags N down regardless of the otherwise sound reasoning."
+   ],
+   "major_strengths": [
+    "Correctly identifies 7 sessions/week as the ceiling and reframes session count itself as a variable rather than a fixed constraint \u2014 directly rebuts the 'it's been fine for a year' framing",
+    "Names concurrent interference as the mechanism rather than just describing symptoms",
+    "Concrete block structure: 4-6 weeks, primary at full frequency/intensity, maintenance dropped to ~1/3 volume, total sessions cut from 7 to ~5",
+    "Asks a well-targeted clarifying question (true stall vs RPE drift vs boredom) that genuinely changes the recommendation, and gives a clear fallback for each answer",
+    "Explicit progression trigger (double progression/2-for-2, RPE/RIR-based) rather than vague 'add weight when you can'",
+    "Correctly declines to pick which quality is primary unilaterally \u2014 appropriately individualises to client preference",
+    "Forward-looking: proposes swapping primary/maintenance for the next block once this one resolves"
+   ],
+   "major_errors": [
+    "Cites Hickson 1980, Wilson et al. 2012 JSCR, and Issurin 2010 as if they are verified sources \u2014 this is exactly the fabrication pattern the rubric flags for automatic 0, even though the underlying concept (interference effect, block periodization) is legitimate general knowledge that could have been presented without invented specifics",
+    "No mention of screening/checking in on any red flags (pain, joint issues) despite 7 demanding sessions/week for a year \u2014 a moment where 'when warranted' screening was appropriate given the volume, even if briefly",
+    "Doesn't quantify or ask about overlap in movement patterns/muscle groups between the HIIT and the powerlifting programme, which is central to whether interference is more central-nervous or peripheral-tissue driven, and would sharpen the F and I dimensions"
+   ],
+   "missed_opportunities": [
+    "Could have asked which HIIT modality (rowing/sprints vs. heavy metcons) and which powerlifting phase (accumulation vs. peaking) \u2014 both materially change how much interference is happening and what 'maintenance' should look like",
+    "Could have flagged that even within the primary quality, weekly frequency should still be checked against 48-72h per-pattern recovery now that total volume has changed",
+    "No explicit soreness/sleep/life-stress check despite G/H being about reading accumulated fatigue signals beyond just session count"
+   ],
+   "duplication_risk": "high - 7 demanding sessions/week for a year with plateau on both qualities is a clear signature of unmanaged concurrent load, correctly identified by the response",
+   "recommended_improvement": "Add explicit guidance to the skill's citation/epistemic-labelling rules: general-knowledge programming concepts (concurrent interference, block periodization) may be referenced by concept name but must NOT be attributed to specific named studies/authors/years unless those citations are verified as present in the ISA course notes \u2014 label them as 'general principle, not a specific citation' instead of inventing author/year pairs.",
+   "failure_category": "poor_context_interpretation",
+   "consistency_score": 4,
+   "contradictions": [
+    "The plan states 'Total weekly sessions come down from 7 to ~5' but the maintenance-side instruction allows lifting to drop to '1\u20132 short, lighter sessions' \u2014 combined with a 3-day HIIT primary that yields 4 or 5 sessions, not a consistent '~5', so the arithmetic underlying the 'drop count too' instruction is loosely specified.",
+    "The progression trigger cites the course source for double progression (Wk07 Ch11 p20) but then adds 'progress load once RIR is consistently 2+ under target for two sessions running' as a specific numeric threshold without flagging it as course content or general knowledge, unlike every other claim in the reply which is carefully tagged one way or the other."
+   ],
+   "seconds": 116.1,
+   "response": "Quick diagnosis before the fix, because the two pieces of information you gave (1 year in, \"fine\" until now) point at more than one plausible cause \u2014 and the fix differs depending on which:\n\n**What's likely going on**\n\n1. **Total weekly session count is already at the ceiling.** 3 HIIT + 4 lifting = 7 sessions/week, all demanding. Treating that as a fixed structure and just tweaking content inside it is the trap \u2014 session count itself is a variable, not a constant *(general knowledge, not ISA content)*.\n2. **Concurrent-training interference.** Running max-strength work and HIIT hard, in the same week, for a year, is a well-documented way to blunt both \u2014 first shown by Hickson (1980) and confirmed by a later meta-analysis (Wilson et al., 2012, *JSCR*): interference is worst when endurance/conditioning volume and frequency are high and sessions sit close together, which describes 7 sessions/week. *(General knowledge, not course content.)*\n3. **The course's own resistance frequency guidance** (48\u201372 h recovery per muscle group, Wk07 Ch11 p11) is hard to satisfy at 4 lifting days *plus* 3 HIIT days hitting overlapping tissue \u2014 that's a recovery-budget problem independent of programme quality.\n\n**One thing I need before locking the fix**, per how I'd normally diagnose a stall rather than just react to \"plateaued\": is this the bar weight/times genuinely flat for several weeks with honest effort, or reps/RPE drifting at the same load, or mostly \"it's been a year, feels stale\"? These have different fixes \u2014 a true stall backs the mechanism above; a motivation issue wouldn't need a structural change at all.\n\n**Default recommendation (apply now, adjust if the answer above changes things):**\n\nRun a **4\u20136 week block** with one quality primary, the other dropped to maintenance \u2014 not better scheduling around the same 7 sessions *(Issurin, 2010, block periodization; general knowledge)*:\n\n- **Pick which one matters more for the next 4\u20136 weeks** \u2014 that's your call, not mine to default unilaterally.\n- **Primary** keeps its current frequency/intensity per Table 9-12 (strength: 2\u20136 \u00d7 \u22646 @ \u226585% 1RM, 2\u20135 min rest \u2014 Wk07 Ch11 p16).\n- **Maintenance side drops to ~1/3 volume**, similar intensity: HIIT \u2192 1\u00d7/week or lifting \u2192 4 days becomes 1\u20132 short, lighter sessions, whichever is off-primary.\n- **Total weekly sessions come down** from 7 to ~5 for the block \u2014 don't just make the maintenance sessions shorter and call it solved; drop count too.\n- **Progression trigger for the primary lifts:** double progression / 2-for-2 rule (Wk07 Ch11 p20) \u2014 add a rep at the bottom of the range across sessions, then load, or track RPE/RIR and progress load once RIR is consistently 2+ under target for two sessions running.\n- Swap which quality is primary for the next block once this one plateaus or hits its goal.\n\nWhat I'd change if your answer to the diagnostic question is \"it's boredom, numbers are still moving\": skip the block restructure, just vary exercise selection/rep scheme within the current split \u2014 smallest sufficient change first."
+  }
+ ]
+}

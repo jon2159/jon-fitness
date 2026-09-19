@@ -1,0 +1,21 @@
+{
+ "ts": "20260918T063738Z",
+ "cycle": 11,
+ "label": "",
+ "skill_version": {
+  "commit": "df5a8a9",
+  "skill_dirty": false,
+  "skill_hash": "6bbe9d8c1bde27a1",
+  "skill_files": 20
+ },
+ "n_selected": 1,
+ "n_scored": 0,
+ "rows": [
+  {
+   "scenario_id": "ADV-033",
+   "error": "exit 1: ",
+   "cycle": 11,
+   "ts": "20260918T063738Z"
+  }
+ ]
+}

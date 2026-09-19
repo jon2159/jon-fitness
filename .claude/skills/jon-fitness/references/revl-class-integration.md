@@ -352,7 +352,9 @@ Stacking a Russian wave onto them means **two concurrent strength peaks** — re
 and structural load, high over-reach/injury risk, usually a worse result on both.
 
 Read `references/russian-strength-program.md` first (gate §2, variants §3, autoregulation §4).
-Then apply these rules.
+Then apply these rules — they are the REVL-specific instance of the general
+concurrent-training / competing-goals principle in `coaching-decision-framework.md` §3
+(primary quality gets full dose, the other steps down to maintenance; never two full doses).
 
 ### 10a. Is a Russian protocol appropriate alongside REVL at all?
 
@@ -447,7 +449,11 @@ Run these nine steps in order.
    recovery *(Wk07 Ch11 p42)*.
 4. **Determine what the client actually needs** — the single highest-value gap from §6a plus
    their own goals and assessment results. If the honest answer is "REVL covers it and they
-   just want more," that is a reason to do **less**.
+   just want more," that is a reason to do **less**. **If total weekly sessions (REVL + PT)
+   reach ~7–8, explicitly present a session-count or session-length reduction as one of the
+   options** — fewer PT slots, shorter PT sessions, or converting a slot to recovery/mobility
+   — alongside any content changes. Making added content low-cost is not a substitute for
+   raising the session-count question (`coaching-decision-framework.md` §4).
 5. **Select complementary exercises.** Don't repeat the same primary pattern at similar or
    heavier load within 48 h of the matching REVL day. Choose a different *expression*:
    unilateral vs bilateral, tempo/pause vs grind, DB/KB vs barbell, supported vs axial,
@@ -552,6 +558,11 @@ the rotation block and keep only the carry/pull/RDL if the client is 2025-style 
 | **"I want to get stronger while continuing REVL."** | Legitimate and achievable — but frequency is the constraint, not willingness. | Run the §10a check. If it passes: **Masters-style low-frequency wave** on 1–2 lifts, placed 72 h from the matching REVL day, in Volume/Rebuild. If it fails: build the weak point first (§10g), or replace REVL strength days in Build/Peak (§10d). |
 | **"I want to build muscle while continuing REVL."** | Compound volume is already saturated; what's missing is targeted, controlled, tissue-specific work. | Hypertrophy-band accessory work *(3–6 × 6–12, 30–90 s rest, 67–85%, Table 9-12)* on under-served tissue: horizontal pull, upper back, arms, rear delts, calves. Controlled tempo, RIR 1–3. Protein/energy sufficiency → general information only, refer to an RD for detail *(Wk01 Ch1 p7–8)*. |
 | **"I want to improve conditioning while continuing REVL."** | They already get 3–4 capped/competitive sessions a week. Adding more of the same has low return. | Add the **missing quality**: true Zone 1–2 steady state (talk-test pace), 25–40 min, on a non-REVL day, ≤10%/week progression *(Wk05 Ch8 p10, p26)*. Only add intervals if a specific test/event needs them **and** something else is removed. |
+
+**Every row above assumes the resulting weekly session count is reasonable.** If REVL (5x)
+plus the PT slots being discussed would put the client at ~7–8+ total sessions/week, the
+session-count reduction option (§11 step 4) applies regardless of which row matched —
+content selection alone doesn't resolve a frequency problem.
 
 ---
 

@@ -1,0 +1,330 @@
+{
+ "ts": "20260917T062841Z",
+ "cycle": 7,
+ "label": "",
+ "skill_version": {
+  "commit": "df5a8a9",
+  "skill_dirty": false,
+  "skill_hash": "6bbe9d8c1bde27a1",
+  "skill_files": 20
+ },
+ "n_selected": 40,
+ "n_scored": 1,
+ "rows": [
+  {
+   "ts": "20260917T062841Z",
+   "cycle": 7,
+   "label": "",
+   "set": "benchmark",
+   "commit": "df5a8a9",
+   "skill_hash": "6bbe9d8c1bde27a1",
+   "skill_dirty": false,
+   "scenario_id": "ADV-001",
+   "family": "adversarial",
+   "environment": "revl",
+   "revl_phase": "Peak Wk 2",
+   "goal": "str_squat",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 4,
+    "B": 3,
+    "C": 5,
+    "D": 4,
+    "E": 4,
+    "F": 5,
+    "G": 5,
+    "H": 3,
+    "I": 3,
+    "J": 2,
+    "K": 5,
+    "L": 4,
+    "M": 5,
+    "N": 5,
+    "O": 5
+   },
+   "goal_alignment": 3.5,
+   "load_management": 4.5,
+   "recovery": 4,
+   "individualisation": 4.5,
+   "programming_quality": 2.5,
+   "long_term_planning": 5,
+   "safety": 5,
+   "overall": 4.133,
+   "skill_referenced": false,
+   "priorities_hit": [
+    "Recognise Peak Wk 2 is REVL's own 1RM/3RM testing week",
+    "Refuse to stack a Russian wave on a testing week; protect the test",
+    "Point out the test itself yields a current validated 1RM",
+    "Propose starting the block in Rebuild, driven by the tested maxes",
+    "Run the russian-strength-program.md eligibility gate before agreeing to anything (deferred but explicitly flagged as pending)"
+   ],
+   "priorities_missed": [
+    "Does not explicitly enumerate the actual gate criteria beyond 'experienced lifter/cleared' already asserted by the PT (e.g. training age, injury history, technique proficiency) \u2014 asks logistics/recovery questions instead"
+   ],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Correctly identifies the trap (Monday start colliding with a maximal-testing week) and refuses without being asked to reconsider",
+    "Reframes the REVL test as a usable validated max rather than treating the conflict purely as an obstacle",
+    "Explicitly ties Russian variant selection (Masters/V5/Classic) to whether the client keeps full REVL \u2014 a genuine total-load/frequency read, not a generic template",
+    "Asks well-targeted clarifying questions (REVL commitment, equipment, recovery) that the decision genuinely turns on, rather than fabricating or stalling entirely"
+   ],
+   "major_errors": [
+    "Asserts specific REVL Peak Wk2/Wk3 testing content (deadlift + push press/jerk, '3RM variants', Wk3 being conditioning-baseline, Rebuild = weeks 11-13) as settled fact without citing it as sourced from a REVL reference file \u2014 if this isn't grounded in an actual captured REVL block it would be a fabricated protocol detail (rubric auto-0 territory); it partially self-corrects by telling the PT to confirm whether squat is included"
+   ],
+   "missed_opportunities": [
+    "Could have labelled the REVL Wk2/Wk3 structure claims explicitly as 'per REVL block reference' (Known) vs inference (Likely) to protect against the auto-0 fabrication rule",
+    "Could have named the specific Russian-strength gate criteria (training age, injury history, technique competency) still unconfirmed, rather than only asking logistics questions"
+   ],
+   "duplication_risk": "low - explicitly reasons about REVL's existing squat/hinge frequency before picking a variant, and refuses to add load in the testing week",
+   "recommended_improvement": "In the REVL reference file, require any assistant claim about a specific REVL week's tested lifts to cite the source block/week explicitly (e.g. 'per REVL Block 2 capture') rather than stating it as unqualified fact, so PTs can distinguish grounded skill knowledge from inference.",
+   "failure_category": "none",
+   "consistency_score": 4,
+   "contradictions": [
+    "Step 2 says Peak Wk3 is 'REVL's conditioning-baseline testing week, not a strength week' and directs no heavy squat/deadlift work there, but the recommendation never states why a squat PB attempt couldn't instead be scheduled in Wk3 if REVL's Wk2 test excludes squat \u2014 it defers this entirely to Rebuild without justifying why the ~2-week gap to Rebuild is preferable to a nearer capture point, beyond 'no re-test needed, no stacking'",
+    "The recommendation asserts as fact that Peak Wk2 is 'REVL's own 1RM/3RM testing week' with a specific coached structure (deadlift + push press/jerk + 3RM variants) while simultaneously hedging that squat inclusion is uncertain ('may or may not include squat... Ask him directly rather than assuming') \u2014 stating the week's structure as confirmed fact and then immediately undermining that confidence is a minor internal tension, though it is disclosed rather than hidden"
+   ],
+   "seconds": 142.7,
+   "response": "Before setting this up as asked, there's a scheduling conflict worth flagging \u2014 starting the Russian Strength Program *this* Monday collides with the single highest-stakes week in the REVL block your client is already in.\n\n**The conflict**\n\nPeak Week 2 isn't just another Peak week \u2014 it's REVL's own **1RM/3RM testing week** (coached build to `100%+` on deadlift, push press/jerk, plus 3RM variants). That's a genuine maximal-effort week already on the calendar. Starting a brand-new strength wave the same week means two concurrent strength peaks stacked on top of each other \u2014 redundant neural/structural load, elevated injury risk, and it'll blunt performance on *both* the REVL test and the new program's early sessions. The programming rule here is explicit: never stack two strength peaks, and Peak Wk2 specifically calls for adding **nothing load-bearing** \u2014 support work only (activation, mobility, technique) until the test is done.\n\n**The better play \u2014 and it works in your favour**\n\nThis is actually a gift, not just a hazard. REVL's Peak Wk2 test gives you a coached, validated max under proper conditions \u2014 exactly what a Russian block would otherwise need to test for itself. So:\n\n1. **This week:** protect the test. No added heavy work. Confirm with your client exactly what's being tested \u2014 REVL's confirmed structure is deadlift + push press/jerk plus \"3RM variants,\" which may or may not include squat depending on his box's version of the block. Ask him directly rather than assuming squat is on it.\n2. **Peak Wk3 (next week):** also protected \u2014 that's REVL's conditioning-baseline testing week, not a strength week, but still not a place to add heavy squat/deadlift work.\n3. **Capture whatever maxes come out of Peak Wk2** (and get a squat number some other way this week if REVL doesn't test it \u2014 e.g. a clean top single or a sub-max rep test if you want to avoid a second maximal exposure).\n4. **Start the Russian block in Rebuild** (weeks 11\u201313 of his REVL block \u2014 roughly 2 weeks out), anchored to those fresh maxes. No re-test needed, no stacking. Rebuild has the most recovery headroom of any REVL phase besides Volume.\n\n**One decision I need from you before building it:** does he want to keep attending REVL fully during the strength block, or step back from REVL's own strength days for those weeks?\n\n- **Full REVL + Russian:** only the **Masters (2-day, 8-week)** variant realistically fits \u2014 REVL already saturates squat/hinge frequency, so V5 (4-day) or Classic (3-day) would overload him.\n- **Dropping REVL's Perform/Move strength days for the block:** frees him up for V5 or Classic \u2014 a cleaner, harder peak, keeping REVL's Sweat/Complete conditioning only.\n\nGiven the goal is specifically a **squat PB**, either works, but they lead to different variants and different weekly structure.\n\n**To build the plan file, I need:**\n1. Client's name (for the plan files)\n2. Full-REVL-alongside, or step back from REVL strength days for the block?\n3. Barbell/rack access outside REVL sessions?\n4. Rough sleep/stress/life-load right now (for the recovery gate)?\n\nOnce I have those I'll run the full eligibility gate, pick the variant, and generate the `.md`/`.csv` plan \u2014 timed to start in Rebuild off his Peak Wk2 (and, if needed, a separately-captured squat) max, not this Monday."
+  },
+  {
+   "scenario_id": "ADV-002",
+   "error": "grade parse failed: exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z",
+   "response": "Before I hand you numbers: \"most aggressive\" and \"stack onto 5x REVL\" are in tension, and the course + our REVL data both explain why \u2014 worth 30 seconds before the plan.\n\n## Why \"maximum aggression\" isn't more sets\n\n**The recovery budget is already spent, mostly on the lower body.** Course guidance caps a muscle group at 2\u20133 hard sessions/week, 48\u201372 h apart *(Wk07 Ch11 Table 11-10, p11)*. Across REVL's own data, barbell hinge sits on 51% of all sessions and squat on 28%, with **no day in the week leaving the lower body fully unloaded** \u2014 even the \"cardio\" days load squat-pattern conditioning at ~54\u201369%. If she does 5 REVL sessions, she's very likely already at or past that 2\u20133\u00d7/week ceiling for hips/quads/posterior chain before you touch her. Adding more compound leg or hinge volume in PT isn't aggressive hypertrophy \u2014 it's the fastest route to overreach, and periodization's whole rationale is that adaptation happens in the *planned recovery*, not the extra work *(Wk07 Ch11 p42)*.\n\n**So the highest-yield move is different tissue, not more tissue.** REVL's gaps are consistent and unconditional: horizontal pulling (28\u201339% of sessions, concentrated on 2 days), carries/loaded holds (8\u201311%), and \u2014 because it's compound/barbell-dominant \u2014 essentially no direct arm, rear-delt, upper-back, or calf work. That's where 3 dedicated PT sessions can add real, uncontested muscle mass without competing for the same recovery window as her lower body and axial spine.\n\n**This is the actual \"maximally aggressive\" version of this plan**: aggressive dosing on the tissue REVL doesn't touch, conservative-to-zero on the tissue it already hammers.\n\n## What I need before I lock in a client file\n\nI don't have a name yet, so I can't create `<client>_fitness_plan.md/csv` \u2014 and a few things materially change the program:\n1. **Which 5 of REVL's 7 weekly sessions** does she attend? (Mon/Wed/Fri strength are non-negotiable-feeling but which 2 of Tue/Thu/Sat/Sun Sweat/Complete does she skip?)\n2. **Perform or Move track**, and if Move, is Wednesday Move Total (hinge-heavy) or Move Upper (2025-style)?\n3. **Current block/phase** \u2014 Volume/Build/Deload/Peak/Rebuild, and week number.\n4. Training age, any injuries, and standard screening (PAR-Q+/ACSM) \u2014 REVL attendance isn't medical clearance.\n\n## The template (pending confirmation above)\n\nPlaced on the two lowest-interference days plus one flexible slot \u2014 **avoid within 24h of Monday and Wednesday** entirely; Friday (after Perform Upper) and the day after a Sweat Engine session are the safest windows *(revl-class-integration.md \u00a77)*.\n\n**PT Day 1 \u2014 Upper-back/pull emphasis** (hypertrophy band: 3\u20136 sets, 6\u201312 reps, 30\u201390s rest, RIR 1\u20133 \u2014 *Table 9-12, Wk07 Ch11 p16*)\n- Chest-supported/seated row 4\u00d78\u201312\n- Single-arm DB row 3\u00d710\u201312/side\n- Face pull or band pull-apart 3\u00d715\n- Rear-delt fly 3\u00d712\u201315\n- Biceps curl variation 3\u00d710\u201312\n\n**PT Day 2 \u2014 Arms/shoulders + carries**\n- Overhead carry or suitcase carry 4\u00d730m (fills the carry gap)\n- DB shoulder press (light-moderate, upper already loaded by REVL Fri/Sun) 3\u00d710\n- Triceps extension 3\u00d710\u201312\n- Biceps curl variation (different angle) 3\u00d710\u201312\n- Calf raise 4\u00d712\u201315\n- Anti-rotation Pallof press 3\u00d710/side (if she's on the 2026 Move-Total track \u2014 otherwise optional)\n\n**PT Day 3 \u2014 Flexible: whichever pattern is most under-recovered that week**\n- Default: more horizontal pull + calves + core/anti-rotation, same rep/rest scheme\n- If she reports legs genuinely fresh in Volume/Rebuild week: one *light*, different-expression single-leg or tempo lower accessory at RIR 3+ \u2014 never a second heavy compound squat/hinge exposure, and never in Build/Peak weeks or within 48h of Mon/Wed.\n\nZero added barbell squat/deadlift/bench work, zero conditioning finishers \u2014 she's already getting 100% time-capped work 5x/week; more of that competes with recovery, not hypertrophy.\n\nSend me her name and the four answers above and I'll build and save the full `.md`/`.csv` plan with weekly progression built in."
+  },
+  {
+   "scenario_id": "ADV-003",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-004",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-005",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-006",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-007",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-008",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-009",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-010",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-011",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-012",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-013",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-014",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-015",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-016",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-017",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-018",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-019",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-020",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-021",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-022",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-023",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-024",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-025",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-026",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-027",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-028",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-029",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-030",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-031",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-032",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-033",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-034",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-035",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-036",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-037",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-038",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-039",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  },
+  {
+   "scenario_id": "ADV-040",
+   "error": "exit 1: ",
+   "cycle": 7,
+   "ts": "20260917T062841Z"
+  }
+ ]
+}

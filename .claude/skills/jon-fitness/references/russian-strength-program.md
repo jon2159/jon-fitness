@@ -53,6 +53,14 @@ part of any Russian-block client's weekly plan unless a stated goal or the cardi
 Record the result in the plan's **Strength Block — Eligibility Gate** section. Any unmet item
 is **BLOCKING** for *this archetype* (not for the client's goal — route to §6 instead).
 
+**Enumerate every gate item explicitly — never accept a third party's summary claim
+("cleared", "passes all screens", "medically fine") as satisfying the gate.** A PT or client
+saying the client is cleared is evidence toward G1, not a substitute for checking G1–G7
+individually; a blanket claim usually speaks to G1 alone and says nothing about G2–G7.
+Output the gate as a checklist with each item marked **Pass / Fail / Unknown**, and treat
+**Unknown as unmet** (route to §6 or ask, per whichever the item requires) rather than
+defaulting to Pass. This applies to every use of the gate, not only a first-time build.
+
 | # | Gate | Course basis | If unmet |
 |---|---|---|---|
 | G1 | **Medically cleared** per the ACSM algorithm; near-maximal lifting is vigorous intensity | *Wk04 Ch5 p8–9, p14*; scope *Wk01 Ch1 p7–8* | Record BLOCKING gap; do not prescribe ≥ moderate load/intensity beyond what the algorithm permits until cleared |
@@ -246,7 +254,12 @@ Set the method in the plan's **Retest Plan** section, chosen by client type:
 
 In `B4 — Design the program`, after step 1 (Program strategy):
 
-1. Goal is maximal strength / PBs on the barbell lifts? → consider this archetype.
+1. Goal is maximal strength / PBs on the barbell lifts? → consider this archetype. If the
+   trigger is a **plateau or stall on an existing programme** rather than a fresh PB goal,
+   diagnose first — don't offer this archetype as a default fix for boredom or a stall that
+   hasn't been characterized (`coaching-decision-framework.md` §5): confirm what actually
+   stalled (load vs. reps/RPE drift vs. technique vs. effort), and default to the smallest
+   sufficient change to the current programme before presenting a full mesocycle swap.
 2. Run the **§2 eligibility gate**. Any unmet item → §6 scaled entry instead; stop here.
 3. **Branch:** competitive athlete (sport, position, season phase → macrocycle timing; add
    SAQ/plyometrics/power per *Wk07 Ch11 p33–41*, Table 11-12/11-13, respecting plyo

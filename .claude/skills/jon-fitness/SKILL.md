@@ -60,6 +60,12 @@ the line:
 - **Refer out** when screening flags a concern: to a physician for medical
   clearance, to a registered dietitian for detailed nutrition/eating-disorder
   needs, to a physical therapist for a painful or unresolved injury.
+- A reported injury symptom (sharp, localized, or otherwise notable pain) before a
+  scheduled max-effort test or loaded session is **never something you clear
+  yourself**. Defer/skip and refer — do not construct a self-administered
+  re-clearance screen of any kind, even a conservative one
+  (`references/coaching-decision-framework.md` §7). The issue is who is
+  authorized to make that call, not how light the proposed check is.
 - You *can*: screen, assess within guidelines, design and progress programs for
   medically cleared clients, coach technique, teach general health/fitness and
   general (non-medical) nutrition information, and design a program *after* a
@@ -98,7 +104,8 @@ Fast routing rules (COURSE_MAP has the page numbers):
 | Which phase / how to structure resistance training | ACE IFT Muscular Training: Functional → Movement → Load/Speed (Ch 2, Ch 10, Ch 11) |
 | Cardio: frequency, duration, intensity zones, HR methods | Cardiorespiratory programming (Ch 8) + CT evidence-based recs (Ch 8 p10) + Karvonen/zones |
 | Which cardio phase / endurance events | ACE IFT Cardio: Base → Fitness → Performance (Ch 2, Ch 8) |
-| Progression, overload, plateau, periodization | Training principles (Ch 9 p7–8, Ch 8 SPORD) + progression rules (Ch 11) + periodization (Ch 11) |
+| Progression, overload, plateau, periodization | Training principles (Ch 9 p7–8, Ch 8 SPORD) + progression rules (Ch 11) + periodization (Ch 11) — for a plateau/stall or a programme-replacement request, also `references/coaching-decision-framework.md` §5 (diagnose the trigger before escalating) |
+| Two demanding qualities trained concurrently (strength + endurance, two goals, a hybrid ask) | `references/coaching-decision-framework.md` §3 (block periodization, primary/maintenance) — general knowledge, not course content |
 | A max-strength peak / hitting PBs / a powerlifting or "Russian" cycle | Strength-block archetype (`references/russian-strength-program.md`) + periodization (Ch 11 p42–46) + Table 9-12 (Ch 11 p16) + 1-RM assessment (Ch 10 p69–74) |
 | A client who trains at **REVL** / mentions REVL classes, REVL programming, REVL training, or a REVL phase (**Volume, Build, Deload, Peak, Rebuild**) | `references/revl-class-integration.md` **first** — understand the stimulus REVL is already delivering and how to dose PT work around it. Then, only if a Russian protocol is being considered, **also** `references/russian-strength-program.md`. Use the two together to set the dose. |
 | A single exercise / technique / regression | Muscular training (Ch 9 muscles & movement), assessments (Ch 10), MSK program-design steps (Ch 15) |
@@ -143,6 +150,36 @@ Keyword overlap is not support. Before you use a passage, check:
   clients", "only for those who can demonstrate proper form")?
 
 If uncertain, retrieve more context rather than guessing.
+
+---
+
+## Step 4 — Commit to a decision, then flag what's open
+
+Retrieving the right course sections is necessary but not sufficient. The eval harness's
+most common failure mode (`poor_decision_hierarchy`, `evals/results/PROPOSALS.md`) is
+naming the right mechanism and then not letting it change the plan — see
+`references/coaching-decision-framework.md`, which every response in Mode B (and any
+Mode A answer with a programming implication) must apply before you finalize:
+
+- **If you name a cause, resolve it.** Re-read your own reasoning before finalizing: if a
+  sentence identifies a mechanism (interference, a saturated pattern, an excessive session
+  count), the next concrete step must act on that mechanism specifically — not schedule
+  around it, soften it, or leave it as a caveat next to an unchanged plan (framework §1).
+- **End on one default recommendation**, even if conditional or conservative — never on an
+  open-question list alone. State what's still open and how the answer would change the
+  default (framework §2). This applies even when the scenario's core issue is nutrition,
+  recovery, or a referral: the training side still gets a concrete recommendation, never a
+  blank. **A BLOCKING gap (B2) is not overridden by this** — the conservative, provisional
+  holding action *is* the default in that case, not a full plan built around the gap.
+- **Don't replace a working programme without diagnosing the actual trigger** (boredom vs.
+  a real stall vs. a new goal) and defaulting to the smallest sufficient change first
+  (framework §5).
+- **State a progression trigger on every load table** — 2-for-2/double progression,
+  RPE/RIR, or a concrete stage-gate — never leave it implicit (framework §6).
+- **Two concurrently-trained demanding qualities plateauing or competing** → default to
+  block periodization (one primary, one at maintenance dose for a defined block), not
+  better scheduling around a fixed structure (framework §3). Ask which quality the client
+  prioritizes for the stated horizon before deciding unilaterally.
 
 ---
 
@@ -266,7 +303,9 @@ Work through, using COURSE_MAP + `programming-reference.md` + the cited pages:
 4. **Warm-up / cool-down** — session components (Ch 8 p41; Ch 11 p18).
 5. **Progression** — double progression / 2-for-2 rule (Ch 11), ≤10% weekly
    increase for cardio (Ch 8 p26), ~5% load increments (Ch 9 p7); periodization
-   if the goal and horizon call for it (Ch 11).
+   if the goal and horizon call for it (Ch 11). **Mandatory:** any sets × reps ×
+   load/intensity table you output must state its progression trigger — never
+   leave it implicit (`coaching-decision-framework.md` §6).
 6. **Special-population / condition overrides** — apply Ch 14 (lifespan), Ch 12
    (obesity), Ch 13 (chronic disease per-condition FITT), Ch 15 (MSK). These
    replace the general values where they conflict — check every time.
@@ -365,6 +404,13 @@ what's driving it (MCQ), check the relevant course section, then decide whether 
 regression, substitution, or load/volume change is what the notes actually
 support. Never touch a different client's files.
 
+The same discipline applies at the whole-programme level, one order of magnitude higher
+stakes: don't replace or escalate a still-working programme because the client is bored,
+their adherence dipped, or "it's been a while" — diagnose what actually changed (bar
+weight vs. reps/RPE drift vs. purely psychological, per
+`coaching-decision-framework.md` §5) and default to the smallest sufficient change before
+presenting a periodization overhaul or archetype swap as an option.
+
 ### B7 — Validate before returning
 
 Run `scripts/validate_plan.py clients/<client_name>_fitness_plan.md` and fix what
@@ -407,6 +453,7 @@ strategy in the .md → the Week-1 rows in the .csv.*
 | `references/russian-strength-program.md` | Authoritative for the **Russian protocols** — the strength-block archetype (V5 / Classic / Masters), its CPT mapping, the eligibility gate, fat-loss integration, the scaled entry, and the retest protocol. |
 | `references/revl-class-integration.md` | Authoritative for the **REVL** training stimulus and how to program 1-on-1 PT around a client who does REVL classes: identify their phase, map accumulated stress, complement rather than duplicate, and the decision rules for dosing (or replacing, or omitting) a Russian protocol alongside REVL. Consult whenever the client mentions REVL or a REVL phase; use with `russian-strength-program.md`, never either in isolation. |
 | `references/intake-questions.md` | Staged MCQ bank derived from the course's screening/assessment/programming requirements; gap classification. |
+| `references/coaching-decision-framework.md` | **General knowledge, not course content** — closes the diagnosis-to-action gap: resolve a named mechanism instead of just flagging it, commit to a default recommendation, concurrent-training/competing-goals block periodization (research-cited), total-session-count as a decision, diagnose before replacing a working programme, mandatory progression triggers, no self-clearance after a reported injury symptom. Apply on every Mode B response and any programming-relevant Mode A answer (Step 4). |
 | `references/isa-cpt/*.md` | The source of truth. 12 lesson files, `## Page N` per slide. Always the final check. |
 | `templates/client_fitness_plan.md` | Structure for the canonical client state / reasoning artifact. |
 | `templates/client_fitness_plan.csv` | Structure for the derived training schedule. |
