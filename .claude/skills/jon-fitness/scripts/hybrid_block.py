@@ -246,7 +246,8 @@ def build(one_rm, wave_lifts, step, unit, cap100, option="A", fat_loss=False):
                                "raise steps before adding structured cardio",
                                "NEAT lever (Wk05 Ch8 p10, p26). Energy intake this week: " + phase +
                                ". Calories and diet detail are the client's / a registered dietitian's call "
-                               "(russian-strength-program.md sec 5)."))
+                               "(russian-strength-program.md sec 5; trained-population-evidence.md: slower loss and "
+                               "deficits <= ~500 kcal/day protect lean mass)."))
     rows.sort(key=lambda r: (int(r[0]), DAY_ORDER[r[1]]))  # stable: keeps within-day order
     return rows
 

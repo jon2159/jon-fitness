@@ -160,6 +160,8 @@ Ask strength and conditioning experience **separately** — a strong lifter can 
 the reverse: *"How long have you trained with a barbell, and separately how long have you done structured
 conditioning?"* And: *"Do you want four training days **in total** (counting any classes or sport), or four PT days
 **in addition** to what you already do?"* Default to **four total planned days** unless the client says otherwise.
+Treat the client as **trained** for the evidence rules if they have ≥ 1 year of consistent progressive lifting
+(definitions vary by study; see `references/trained-population-evidence.md` §3) and record the definition used.
 *(Changes how much conditioning and how many heavy exposures the week can hold — see
 `references/revl-class-integration.md` §10 for the class-plus-PT dosing rules and `docs/three-source-gap-analysis-and-4day-methodology.md`.)*
 

@@ -307,3 +307,5 @@ to match what the meta-analyses show; the frequency and periodisation claims dow
 - **Delivery:** add a training log and a weekly review to every plan (Michie 2009, indirect evidence).
 - **Frequency claims:** none. Frequency is chosen for feasibility; the FBA "threefold growth" claim is unsupported.
 - Details and evidence grades: `references/chalk-design-reference.md` §6.
+- **Correction (trained-population review):** the "bike rather than running" rule in §5 is not supported for HIIT (Sabag 2018);
+  Coleman 2024 (resistance-trained) argues against complete-rest deloads. See `references/trained-population-evidence.md`.

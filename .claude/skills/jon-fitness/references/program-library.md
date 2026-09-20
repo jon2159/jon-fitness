@@ -32,14 +32,14 @@ Route by these facts, never by preference alone: any unmet gate item sends the c
 | Element | Rule | Evidence / source |
 |---|---|---|
 | Priority quality | One primary, at most one secondary; the secondary gets the minimum effective dose | `coaching-decision-framework.md` §3 |
-| Frequency | Each main lift 2×/wk unless the track says otherwise; chosen for feasibility, never sold as a growth multiplier | Schoenfeld 2019; Grgic/Ralston 2018; Ramos-Campo 2024 (abstract read) |
+| Frequency and dose | Each main lift 2×/wk; ~80% early then ≥ 85% in the intensification weeks; frequency chosen for feasibility once volume is equal, never sold as a growth multiplier | Rhea 2003 (trained: 80%, 2 d/wk); Peterson 2004 (athletes: 85%, 2 d/wk); Hamarsland 2021 (trained); Ramos-Campo 2024; Schoenfeld 2019 |
 | Periodisation | A planned wave with a fixed anchor and a progressing day (weekly undulation inside a linear wave) | Moesgaard 2022 (abstract read): periodized > non-periodized; undulating > linear for 1RM, larger in trained lifters (borderline) |
-| Conditioning | Separate session from lifting (≥ 3 h) for trained lifters; short bike sprint intervals first choice; never before lifting; bike over running | Petré 2021, Ferraro-Farro 2026, Vechin 2021 (abstracts read); Wilson 2012 (summary) |
+| Conditioning | Separate session from lifting (≥ 3 h) for trained lifters; short sprint intervals first choice; never before lifting. **Modality (bike vs running) is unresolved** — Sabag 2018 found cycling HIIT trended worse than running for lower-body strength (both non-significant); default to bike for low impact, as judgement | Petré 2021 (trained), Sabag 2018, Ferraro-Farro 2026, Vechin 2021 (abstracts read); Wilson 2012 (summary). See `trained-population-evidence.md` |
 | Aerobic base | Easy Zone 1 (below VT1) on off days; dose is judgement | ISA three-zone model (Table 8-11) |
 | Power / primer | Low-dose jumps or throws first while fresh; not sold as a power block or potentiation | de Villarreal 2009; Seitz & Haff 2016 (summaries) |
-| Accessories | 2–3 × 8–12 near failure, rotated between phases; priority lifts stay fixed | Schoenfeld 2017; Lopez 2021; Baz-Valle 2019 (summaries) |
-| Autoregulation | RPE ≥ 9 twice → hold or −5%; anchor ≤ RPE 6 → raise the working 1RM; failed 2-for-2 or rising anchor RPE → anchor-only week or −10% | `russian-strength-program.md` §4 (general knowledge) |
-| Recovery weeks | Test / reassess at the end of a block; use autoregulated reductions rather than a fixed deload | Bell 2023 (consensus); Coleman 2024 (RCT) — summaries |
+| Accessories | 2–3 × 8–12 at RIR 1–3, rotated between phases; priority lifts stay fixed. Failure is not required | Refalo 2023 (abstract read; any experience); Schoenfeld 2017; Lopez 2021; Baz-Valle 2019 |
+| Autoregulation | %1RM wave with an RPE/RIR layer: RPE ≥ 9 twice → hold or −5%; anchor ≤ RPE 6 → raise the working 1RM; failed 2-for-2 or rising anchor RPE → anchor-only week or −10% | `russian-strength-program.md` §4; Helms 2018 (resistance-trained, abstract read); Zourdos 2016 (experienced squatters) |
+| Recovery weeks | Test / reassess at the end of a block with **reduced load, not complete rest**; autoregulated reductions instead of a fixed deload | Coleman 2024 (RCT, resistance-trained; abstract read): a full week off lowered lower-body strength gains; Bell 2023 (consensus) |
 | Logging | Every session: loads, reps, RPE, sleep, session RPE; weekly review | Michie 2009 (indirect evidence) |
 | Testing | 1RM only if G4 passes, else estimated 1RM (Table 10-25); one repeatable conditioning test at start and end | Wk06 Ch10 p69–75 |
 | Substitutions | Swap within a movement pattern only; keep the pattern, load basis and RPE target; record it in the plan | Movement patterns, Wk06 Ch10 |
@@ -57,6 +57,10 @@ Ask intake P20, then apply these rules **in order — the first that fires decid
    *Why:* conditioning matters as much as strength here, and a deficit lowers recovery, so separation protects the
    lifting; an extra day adds expenditure without touching it. Add the steps target and the deficit periodisation
    (maintenance in weeks 6–10; `russian-strength-program.md` §5). Diet detail goes to a registered dietitian.
+   *Trained-population evidence:* Murphy & Koehler 2022 — a deficit impairs lean-mass gains, not strength, and deficits
+   > 500 kcal/day prevented lean-mass gains; Garthe 2011 — slower loss (0.7%/wk) kept lean mass better than 1.4%/wk in
+   elite athletes. Prefer the slower rate and the lower end of the ISA 500–1000 kcal band, and let the RD decide.
+   Protein research in lean trained athletes (Helms 2014) is context only — the skill does not prescribe macros.
 4. **ELSE IF** the priority is maximal strength **and** the client is a trained lifter →
    **A** if they can split the day, **ELSE C** if a fifth day is acceptable, **ELSE B** (short; drop first if
    freshness slips). *Why:* Petré 2021 — lower-body 1RM fell in trained lifters, more so same-session.
@@ -80,8 +84,9 @@ Chalk's own 4-day plan is upper/lower; split choice is a scheduling decision whe
 - **Progression:** double progression, 2-for-2 then ~5% (Wk07 Ch11 p7, p20). No wave is prescribed here — the
   Russian archetype is for maximal strength; a size goal earns volume, not a peak.
 - **Conditioning:** as §2, kept short so the volume budget goes to lifting.
-- **Unknown:** the weekly set target per muscle for this client. Set it from intake and adjust from the log; no study
-  gives one number (Pelland 2026, via `research_notes/`).
+- **Weekly sets:** for trained lifters aim for **12–20 sets per muscle group per week** (Baz-Valle 2022: young trained
+  men; moderate vs high no different for quadriceps or biceps, high better for triceps), adjusted from the log. Population
+  is young trained men; treat as a starting range, not a target for every client (Pelland 2026, via `research_notes/`).
 
 ## 4. Guardrails
 - Screening, clearance and scope are unchanged (ISA Wk01 Ch1; Wk04 Ch5). Fat-loss diet detail goes to a registered dietitian.
