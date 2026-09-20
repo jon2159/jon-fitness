@@ -46,6 +46,53 @@ EASY_WED = set(range(1, 13))
 EASY_WEEKEND = {1, 2, 3, 4, 5, 6, 7, 8, 11, 12}  # weeks 9-10: recovery/test, Wed only
 
 
+def choose_placement(primary_goal, conditioning, trained, can_split, fifth_day_ok, recovery_ok, fat_loss=False):
+    """Pick where the sprint/conditioning session goes. Returns (option, [reasons]).
+
+    A = separate session on Friday (>= 3 h after lifting), B = right after Friday lifting,
+    C = separate non-lifting day (a fifth training day), D = no sprint block (easy aerobic only).
+    Rules run in order; the first that fires decides. Inputs come from intake P19/P20.
+    """
+    why = []
+    if conditioning == "none":
+        return "D", ["client wants no conditioning beyond easy aerobic work"]
+    if not recovery_ok:
+        return "D", ["recovery context does not support added intensity (gate G6 / sleep / stress) - "
+                     "remove the sprint block first (russian-strength-program.md sec 2, G6)"]
+    if fat_loss:
+        why.append("fat loss / 'shredded' is a goal, so conditioning matters as much as strength; the deficit also "
+                   "lowers recovery, so protect lifting by separating the modes where possible")
+        if fifth_day_ok:
+            return "C", why + ["a separate fifth day adds expenditure without touching the lifting sessions"]
+        if can_split:
+            return "A", why + ["no fifth day, but a split Friday keeps the >= 3 h separation"]
+        return "B", why + ["only a single Friday visit is possible: keep the block short after lifting, and "
+                            "lean on steps and easy aerobic work for expenditure"]
+    if primary_goal == "max_strength" and trained:
+        why.append("maximal strength is the priority and the client is a trained lifter, so separate the "
+                   "modes (Petre 2021: lower-body 1RM fell in trained lifters, more so same-session)")
+        if can_split:
+            return "A", why + ["client can train twice on Friday, so use a >= 3 h gap"]
+        if fifth_day_ok:
+            return "C", why + ["no split Friday, but a fifth day is acceptable"]
+        return "B", why + ["neither a split day nor a fifth day is possible, so keep the block short after "
+                            "lifting and drop it first if freshness slips (accepts the same-session cost)"]
+    if conditioning == "equal":
+        why.append("conditioning is as important as strength, so full separation is worth a fifth day")
+        if fifth_day_ok:
+            return "C", why
+        if can_split:
+            return "A", why + ["no fifth day, but a split Friday works"]
+        return "B", why + ["only a single Friday visit is possible"]
+    if not trained:
+        return "B", ["client is not a trained lifter: Petre 2021 found no lower-body strength penalty in "
+                     "untrained or moderately trained people, so one visit is acceptable"] + \
+                    (["a split Friday is optional if they prefer it"] if can_split else [])
+    if can_split:
+        return "A", ["default for a trained lifter with a split-day option"]
+    return "B", ["default when no separation is possible"]
+
+
 def easy_row(week, day):
     return rb.row(week, day, "aerobic", "conditioning", "Easy aerobic (bike / brisk walk / row)",
                   1, "-", "below VT1 - talk test / RPE 3-4", "-", "-",
@@ -53,20 +100,28 @@ def easy_row(week, day):
                   "Zone 1 = below VT1 (ISA three-zone model, Table 8-11); dose is " + JUDGE)
 
 
-def sprint_rows(week):
+PLACEMENT = {  # option -> (day, session tag, placement note)
+    "A": ("Fri", "cond-PM", "PM session, >= 3 h after lifting"),
+    "B": ("Fri", "cond-post", "straight after lifting (same-session cost accepted - keep it short)"),
+    "C": ("Sat", "cond-day5", "separate non-lifting day = a FIFTH planned training day"),
+}
+
+
+def sprint_rows(week, option):
     spec = SPRINT[week]
-    if spec is None:
+    if spec is None or option == "D":
         return []
+    day, tag, where = PLACEMENT[option]
     sets, reps, note = spec
     if sets == "test":
-        return [rb.row(week, "Fri", "cond-PM", "test", "Conditioning test - 12-min maximal distance",
+        return [rb.row(week, day, tag, "test", "Conditioning test - 12-min maximal distance",
                        1, reps, "max sustainable", "-", "-", "12 min", "record distance",
-                       "PM session, >= 3 h after lifting. " + note + ". " + JUDGE)]
+                       where + ". " + note + ". " + JUDGE)]
     return [
-        rb.row(week, "Fri", "cond-PM", "conditioning", "Bike sprint intervals (5-min easy warm-up first)",
+        rb.row(week, day, tag, "conditioning", "Bike sprint intervals (5-min easy warm-up first)",
                sets, reps, "all-out, 90 s easy between", "90 s", "-", "~12 min",
                "keep sprints <= 10 s; drop the session first if freshness slips",
-               "PM session, >= 3 h after lifting; never before lifting (Petre 2021; Vechin 2021; "
+               where + "; never before lifting (Petre 2021; Vechin 2021; "
                "Ferraro-Farro 2026). Dose is " + JUDGE),
     ]
 
@@ -170,16 +225,28 @@ def weeks_11_12(one_rm, wave_lifts, step, unit):
     return rows
 
 
-def build(one_rm, wave_lifts, step, unit, cap100):
+def build(one_rm, wave_lifts, step, unit, cap100, option="A", fat_loss=False):
     rows = week_1_to_9(one_rm, wave_lifts, step, unit, cap100)
     rows += week_10(one_rm, wave_lifts, step, unit)
     rows += weeks_11_12(one_rm, wave_lifts, step, unit)
     for wk in range(1, 13):
         if wk in EASY_WED:
             rows.append(easy_row(wk, "Wed"))
-        if wk in EASY_WEEKEND:
+        if wk in EASY_WEEKEND and not (option == "C" and SPRINT.get(wk)):
             rows.append(easy_row(wk, "Sat"))
-        rows += sprint_rows(wk)
+        elif wk in EASY_WEEKEND:
+            rows.append(easy_row(wk, "Sun"))
+        rows += sprint_rows(wk, option)
+    if fat_loss:
+        for wk in range(1, 13):
+            phase = ("maintenance calories (protect the wave and the retest)" if 6 <= wk <= 10
+                     else "moderate deficit if the client/RD chooses one")
+            rows.append(rb.row(wk, "Sun", "fat-loss", "conditioning", "Daily steps target",
+                               1, "-", ">= 7000 steps/day; add ~2000 toward the target", "-", "-", "-",
+                               "raise steps before adding structured cardio",
+                               "NEAT lever (Wk05 Ch8 p10, p26). Energy intake this week: " + phase +
+                               ". Calories and diet detail are the client's / a registered dietitian's call "
+                               "(russian-strength-program.md sec 5)."))
     rows.sort(key=lambda r: (int(r[0]), DAY_ORDER[r[1]]))  # stable: keeps within-day order
     return rows
 
@@ -190,6 +257,17 @@ def main(argv=None) -> int:
     ap.add_argument("--wave-lifts", default="squat,bench,deadlift", help="lifts on the V5 wave")
     ap.add_argument("--units", choices=["kg", "lb"], default="kg")
     ap.add_argument("--cap-100", action="store_true", help="G4 not passed: no 105% single in week 9")
+    ap.add_argument("--placement", choices=["auto", "A", "B", "C", "D"], default="auto",
+                    help="where the sprint session goes; auto uses the intake answers below")
+    yn = ["yes", "no"]
+    ap.add_argument("--primary-goal", choices=["max_strength", "hybrid", "general"])
+    ap.add_argument("--conditioning", choices=["none", "minimum", "equal"],
+                    help="how much conditioning the client wants alongside strength")
+    ap.add_argument("--trained-lifter", choices=yn, help="experienced strength trainee?")
+    ap.add_argument("--can-split-friday", choices=yn, help="can train twice on Friday with a >= 3 h gap?")
+    ap.add_argument("--fifth-day-ok", choices=yn, help="is a fifth planned training day acceptable?")
+    ap.add_argument("--recovery-ok", choices=yn, help="sleep/stress/G6 support added intensity?")
+    ap.add_argument("--fat-loss", choices=yn, help="does the client want to get lean / 'shredded' (a deficit)?")
     ap.add_argument("--out", default="-")
     a = ap.parse_args(argv)
     one_rm = rb.parse_one_rm(a.oneRM)
@@ -198,7 +276,22 @@ def main(argv=None) -> int:
         if w not in rb.LIFTS:
             sys.exit(f"error: unknown wave lift {w!r}")
     step = 2.5 if a.units == "kg" else 5.0
-    rows = build(one_rm, wave, step, a.units, a.cap_100)
+    if a.placement == "auto":
+        need = {"--primary-goal": a.primary_goal, "--conditioning": a.conditioning,
+                "--trained-lifter": a.trained_lifter, "--can-split-friday": a.can_split_friday,
+                "--fifth-day-ok": a.fifth_day_ok, "--recovery-ok": a.recovery_ok,
+                "--fat-loss": a.fat_loss}
+        missing = [k for k, v in need.items() if v is None]
+        if missing:
+            sys.exit("error: --placement auto needs intake answers (ask them; Unknown is not Yes): "
+                     + ", ".join(missing) + ". Or pass --placement A|B|C|D explicitly.")
+        option, why = choose_placement(a.primary_goal, a.conditioning, a.trained_lifter == "yes",
+                                       a.can_split_friday == "yes", a.fifth_day_ok == "yes",
+                                       a.recovery_ok == "yes", a.fat_loss == "yes")
+    else:
+        option, why = a.placement, ["set explicitly by the coach"]
+    print(f"conditioning placement: option {option} - " + "; ".join(why), file=sys.stderr)
+    rows = build(one_rm, wave, step, a.units, a.cap_100, option, a.fat_loss == "yes")
     out = sys.stdout if a.out == "-" else open(a.out, "w", newline="")
     try:
         w = csv.writer(out)

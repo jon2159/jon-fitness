@@ -44,6 +44,33 @@ Route by these facts, never by preference alone: any unmet gate item sends the c
 | Testing | 1RM only if G4 passes, else estimated 1RM (Table 10-25); one repeatable conditioning test at start and end | Wk06 Ch10 p69–75 |
 | Substitutions | Swap within a movement pattern only; keep the pattern, load basis and RPE target; record it in the plan | Movement patterns, Wk06 Ch10 |
 
+## 2b. Where the conditioning goes (options A–D), chosen from intake answers
+Options: **A** separate session on a lifting day, ≥ 3 h after lifting · **B** straight after lifting, kept short ·
+**C** separate non-lifting day (a *fifth* planned day) · **D** no sprint block (easy aerobic and steps only).
+Ask intake P20, then apply these rules **in order — the first that fires decides**. *Unknown is not Yes.*
+
+1. **IF** the client wants no conditioning beyond easy aerobic work → **D**.
+2. **ELSE IF** recovery does not support added intensity (gate G6, poor sleep or high stress) → **D**;
+   remove the sprint block before anything else.
+3. **ELSE IF** the client wants to get lean / "shredded" (fat loss) →
+   **C** if a fifth day is acceptable, **ELSE A** if they can train twice in a day, **ELSE B**.
+   *Why:* conditioning matters as much as strength here, and a deficit lowers recovery, so separation protects the
+   lifting; an extra day adds expenditure without touching it. Add the steps target and the deficit periodisation
+   (maintenance in weeks 6–10; `russian-strength-program.md` §5). Diet detail goes to a registered dietitian.
+4. **ELSE IF** the priority is maximal strength **and** the client is a trained lifter →
+   **A** if they can split the day, **ELSE C** if a fifth day is acceptable, **ELSE B** (short; drop first if
+   freshness slips). *Why:* Petré 2021 — lower-body 1RM fell in trained lifters, more so same-session.
+5. **ELSE IF** conditioning is as important as strength → **C**, **ELSE A**, **ELSE B**.
+6. **ELSE IF** the client is not a trained lifter → **B** (Petré 2021 found no lower-body penalty in untrained or
+   moderately trained people); offer **A** if they prefer it.
+7. **ELSE** → **A** if a split day is possible, otherwise **B**.
+
+Example: *"I want a four-day split and I want to be shredded."* → rule 3: **C** with a fifth day, **A** with a split
+day, **B** if neither. If they also sleep badly or are highly stressed → rule 2 overrides to **D**.
+`scripts/hybrid_block.py --placement auto` runs these rules from the intake flags and prints the reasons; a missing
+answer is an error, not a default. These rules encode a judgement built on the cited trials (mostly healthy adults,
+none of highly strength-trained lifters); they are not validated by any outcome data.
+
 ## 3. T5 Strength-Size — framework (upper/lower, 4 days)
 Chalk's own 4-day plan is upper/lower; split choice is a scheduling decision when volume is equal (Ramos-Campo 2024).
 - **Days:** Lower A / Upper A / Lower B / Upper B, ≥ 48 h between the same muscle groups.
