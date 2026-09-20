@@ -74,7 +74,11 @@ Use Chalk as a bounded design reference. Preserve a provenance ledger, track ide
 - Coach-by-coach provenance, independent outcome data, actual user adherence and comparative effectiveness remain unverified.
 - Search surfaced unrelated Chalk-named organizations and third-party program uploads. They were not used as evidence about Ryan Fischer's platform.
 
-## Errata (added 2026-09-20 after re-fetching the program directory)
-- The directory page lists an "Upper/Lower Split" of 12 weeks but does **not** state four days per week; the earlier
-  "12-week four-day upper/lower option" wording above is not supported by the page. Days/week is unstated for most
-  structured plans; only Full Body 3-Day (8 wk) and HST (6 wk) state 3 days/week. No plan states a recovery week.
+## Errata (added 2026-09-20 after re-fetching the Chalk pages)
+- **Upper/Lower:** the directory page (`/pages/program`) lists a 12-week Upper/Lower Split without days/week, but the
+  Upper/Lower **sample page** states "a focused 4-day training plan" designed to be completed "in just 12 weeks".
+  The original "12-week four-day" wording is supported by that sample page, not by the directory.
+- The directory states days/week only for Full Body 3-Day (8 wk) and HST (6 wk); no plan states a recovery week.
+- Re-verified directly: FBA (5 lifting days, "workouts completed in 50 minutes"); Vol.1 (35 days, 5th-week recovery
+  of 3 days, 60-90 min, one exercise per body part per day); S&C, Powerbuilding and Upper/Lower samples (exact exercises
+  and sets/reps recorded in `references/chalk-design-reference.md`).

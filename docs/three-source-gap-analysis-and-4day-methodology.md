@@ -171,7 +171,7 @@ Rules used in §8 (all Judgement):
 | 1–4 | V5 wk 1–4 (80%, volume rising) | Highest dose; density/mixed-modal | Accumulate; baseline test in wk 1 |
 | 5–8 | V5 wk 5–8 (85 → 100%) | Falling to finishers + easy aerobic only | Intensify; protect the wave |
 | 9 | V5 wk 9 (1×1 @105% → retest) | Nil except easy aerobic | 1RM (or estimated) retest |
-| 10 | Deload / technique / reassess gate | Conditioning baseline **retest** | Recovery + benchmark |
+| 10 | Test / technique / reassess gate (reduced load; not a fixed deload — see §14) | Conditioning baseline **retest** | Recovery + benchmark |
 | 11–13 | RPE-based rebuild, hypertrophy/volume, new wave lifts chosen | Rebuild dose, mixed-modal | Bridge to next block |
 
 The wave is **Source** (V5); the 13-week nesting, week 10, and the Rebuild block are **Judgement/T4**.
@@ -197,7 +197,7 @@ Loads = `round(pct × 1RM, 2.5 kg)`.
 | **Tue — B anchor** | **Deadlift 6×2 @ 80%**, 3 min. Military press 3×6–8 (maintenance). Farmer carry 4×30 m. Face pulls 2–3 × 8–12. |
 | **Wed** | Off. **Easy aerobic 30–40 min** (conversational, RPE 3–4). |
 | **Thu — A progression** | Squat and bench per the wave table (wk 1: 6×3 @ 80% → wk 9: 1×1 @ 105%). Dips 2–3 × 8–12. **Primer:** 4×5 box jumps first (wk 1–6 only). |
-| **Fri — B progression** | Deadlift per wave table. Weighted pull-up stays at maintenance (3 × 6–8 @ ~70%). RDL omitted (deadlift already loaded). **Work-capacity block (wk 1–4 only):** 12–16 min capped mixed-modal on bike/row/ski + light KB or DB work; not running. If the schedule allows, do it ≥ 3 h after lifting (see §5). |
+| **Fri — B progression** | Deadlift per wave table. Weighted pull-up stays at maintenance (3 × 6–8 @ ~70%). RDL omitted (deadlift already loaded). **Conditioning block (wk 1–4 only):** bike sprint intervals, e.g. 5 × 20 s all-out / 2 min easy after a 5-min warm-up (≈ 15 min; dose is Judgement). Low-skill alternative: 12–16 min capped mixed-modal on bike/row/ski with light KB/DB work, only with sound technique (injury risk, Feito 2018). Not running. If the schedule allows, do it ≥ 3 h after lifting (see §5). |
 | **Sat/Sun** | Off. One **easy aerobic 30–45 min** session. Mobility/walks. |
 
 **Wave table (Source, V5; applied to squat, bench, deadlift):**
@@ -295,3 +295,13 @@ to match what the meta-analyses show; the frequency and periodisation claims dow
 - **Design rules taken from that note:** four days means four *total* planned days unless the client says otherwise
   (intake P19); record strength and conditioning experience separately; do not append a hard finisher to every session;
   keep the dose ledger explicit and leave unknown class content unknown.
+
+## 14. Chalk research — what it changed (2026-09-20)
+- **Template:** the Friday block now defaults to bike sprint intervals, the most strength-compatible conditioning form in the
+  meta-analyses searched (SIT + resistance training showed no significant strength difference vs resistance training alone).
+- **Week 10 is downgraded from a "deload" to a test/reassess week:** fixed deloads are expert practice (Bell 2023 Delphi), and a
+  full week off did not improve later gains (Coleman 2024). Autoregulated reductions stay as the fatigue tool.
+- **Variation:** priority lifts stay fixed; only accessories vary, since variation is not shown superior in trained lifters.
+- **Delivery:** add a training log and a weekly review to every plan (Michie 2009, indirect evidence).
+- **Frequency claims:** none. Frequency is chosen for feasibility; the FBA "threefold growth" claim is unsupported.
+- Details and evidence grades: `references/chalk-design-reference.md` §6.
