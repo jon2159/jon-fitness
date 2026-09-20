@@ -343,13 +343,15 @@ screening, the eligibility check, and the traceability chain.
 - **Client already trains at REVL** — the client does REVL classes (a 13-week block
   of Volume / Build / Deload / Peak / Rebuild) and wants 1-on-1 PT around it. See
   `references/revl-class-integration.md`. Before designing anything:
-  1. **Identify the current REVL phase and week**, whether they do Perform or Move on
-     strength days, and what their recent sessions actually were — ask, don't assume
-     the template. If Move, also ask the **Wednesday Move-track shape** (intake P18):
-     REVL has shipped a Move Upper (upper-only) and a Move Total (bench/squat-led)
-     Wednesday across different blocks, and they change Wednesday's lower-body load
-     (revl-class-integration.md §5a/§7). **Log the Move-track shape and week number in
-     the plan's evidence section** so later sessions inherit it without re-asking.
+  1. **Identify the current REVL phase and week**, which strength track they follow, and
+     what their recent sessions actually were — ask, don't assume the template
+     (`revl-class-integration.md` §2/§5/§7 give the general shape only; the client's own
+     report is the data). REVL has shipped more than one version of its weekly structure
+     across the blocks captured, and which specific day carries which emphasis differs
+     between them (intake P18) — **ask the client directly** rather than assuming from a
+     general template, since it changes which days carry more or less lower-body load.
+     **Log what the client confirms about their own weekly structure in the plan's
+     evidence section** so later sessions inherit it without re-asking.
   2. **Map what REVL has already trained this week** (movement patterns × qualities)
      and estimate the accumulated muscular and neural stress for the phase.
   3. **Determine the single highest-value need** the PT session should deliver (often
@@ -368,13 +370,12 @@ screening, the eligibility check, and the traceability chain.
      performance / stress) and modify intensity → volume → exercise variant → session
      type in that order (revl-class-integration.md §15).
 
-  Four facts that change the usual assumptions (all evidenced in
-  `source/revl_programming_analysis.md`): **(a)** no REVL phase rests a movement pattern —
-  the block periodises load, not exercise selection; **(b)** barbell hinge is on ~100% of
-  Mondays and ~51% of all sessions, so no day leaves the lower body unloaded; **(c)** Sunday
-  "Complete" and Saturday "Sweat Team" are high-total-work sessions, **not** recovery;
-  **(d)** the week-7 "Deload" deloads *strength only* — metabolic volume stays high, which
-  makes it the best assessment/technique window and a poor window for extra conditioning.
+  **Use the REVL reference's provenance rules (§0) for programme-level claims.**
+  Check the captured block and source locator before asserting testing, movement frequency,
+  weekend workload or deload characteristics. OCR counts describe captured posters, not
+  this client's dose; missing observations do not establish absence. Determine the client's
+  actual weekly exposure and recovery from their report, record confirmed facts, and use
+  them to decide whether PT should complement, replace or omit a stimulus.
 
 ### B5 — Write the Markdown, then derive the CSV
 

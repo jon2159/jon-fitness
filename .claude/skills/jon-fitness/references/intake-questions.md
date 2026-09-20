@@ -152,8 +152,8 @@ either. Ask: *"On Wednesdays, do you do a Move Upper (upper-body-only) session o
 (bench/squat-led, full-body) session? And what week of the 13-week block are you in — Volume,
 Build, Deload, Peak (which of the three), or Rebuild?"*
 *(The answer changes whether Wednesday is a lower-body-loaded day — see
-`references/revl-class-integration.md` §5a/§7. Log the Move-track shape and week number in the
-plan's evidence section — see `SKILL.md` §B4.)*
+`references/revl-class-integration.md` §2/§5/§7. Log the Move-track shape and week number in
+the plan's evidence section — see `SKILL.md` §B4.)*
 
 ---
 
