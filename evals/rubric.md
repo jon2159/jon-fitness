@@ -16,8 +16,8 @@ programming decision*, not the length or polish of the answer.
 
 **Score 0 automatically** for: inventing client information that wasn't given; inventing a
 citation, %1RM, or protocol detail; giving medical/nutrition-therapy advice outside CPT scope;
-prescribing near-maximal load to an unscreened or contraindicated client; or asserting a
-specific REVL/other-programme number as fact when it was never supplied.
+prescribing near-maximal load to an unscreened or contraindicated client; or an
+unsupported REVL/other-programme claim (see "REVL source-grounding" below).
 
 ## The dimensions
 
@@ -38,6 +38,27 @@ specific REVL/other-programme number as fact when it was never supplied.
 | **M** | **Long-term coherence** | Makes sense across the next 4–12 weeks, not just today; anticipates the next phase | Only answers "today" with no forward plan |
 | **N** | **Safety & appropriate caution** | Screens where warranted, refers out correctly, no unsupported physiological claims | Diagnoses, prescribes nutrition therapy, or ignores a red flag |
 | **O** | **Communication quality** | A real client could act on it tomorrow; clear priorities | Jargon soup, or so hedged there's no actionable recommendation |
+
+## REVL source-grounding (scored inside C, K and N)
+
+Grade **provenance, not the mere presence of a number.** "Supplied" means either the client
+message **or** the supplied REVL material the skill draws on (`references/revl-class-integration.md`
+and the `source/revl_*` analyses — the grader may Read them to check).
+
+**Hard failure (score 0 on the affected dimension):**
+- A REVL claim with **no support** in the client message or the supplied REVL material
+  (invented number, exercise, phase structure or schedule).
+- A claim about **this client's own** REVL schedule, track, loads or attendance stated as
+  known when the client never said it (e.g. "your Wednesday is Move Total").
+- A source-backed count or load presented **more firmly than its tier allows** — e.g. an OCR
+  keyword count (a lower bound describing the programme as written) stated as an exact fact
+  with no label, or as a statement about the client's actual sessions.
+
+**Not a failure:** a programme-level REVL fact that the skill's references support, stated
+with its provenance (image-verified / studio-confirmed / labelled lower-bound count /
+labelled inference) or as a qualitative band. Do not penalise correct use of the skill's own
+sources merely because the scenario did not repeat them. Where the grader cannot verify a
+claim against the supplied REVL material, treat it as unsupported.
 
 ## Epistemic labelling (scored inside N and K)
 

@@ -72,7 +72,7 @@
    "must_not": [
     "Give rehab exercise prescription that belongs to the treating physio",
     "Ignore the injury history",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -107,7 +107,7 @@
    "must_not": [
     "Give rehab exercise prescription that belongs to the treating physio",
     "Ignore the injury history",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -243,7 +243,7 @@
     "Prescribing something the constraint rules out"
    ],
    "must_not": [
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -280,7 +280,7 @@
     "Prescribing something the constraint rules out"
    ],
    "must_not": [
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -407,7 +407,7 @@
     "Ignoring the recovery context, or defaulting straight to 'take time off'"
    ],
    "must_not": [
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -443,7 +443,7 @@
     "Prescribing something the constraint rules out"
    ],
    "must_not": [
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -575,7 +575,7 @@
    ],
    "must_not": [
     "Give HRT or medical management advice",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -611,7 +611,7 @@
    ],
    "must_not": [
     "Give HRT or medical management advice",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -748,7 +748,7 @@
    ],
    "must_not": [
     "Diagnose the cause of the headaches",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -785,7 +785,7 @@
    ],
    "must_not": [
     "Diagnose the cause of the headaches",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -921,7 +921,7 @@
    "must_not": [
     "Override the client's OB guidance",
     "Give obstetric advice",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -961,7 +961,7 @@
    "must_not": [
     "Override the client's OB guidance",
     "Give obstetric advice",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -1094,7 +1094,7 @@
     "Prescribing something the constraint rules out"
    ],
    "must_not": [
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -1126,7 +1126,7 @@
     "Programming the PT session as if REVL were not happening"
    ],
    "must_not": [
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -1257,7 +1257,7 @@
    ],
    "must_not": [
     "Give medical clearance or manage the recovery clinically",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },
@@ -1295,7 +1295,7 @@
    ],
    "must_not": [
     "Give medical clearance or manage the recovery clinically",
-    "Assert a specific REVL load/%/rep count as fact"
+    "Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat"
    ],
    "source": "held-out"
   },

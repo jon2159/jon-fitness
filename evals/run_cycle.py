@@ -92,15 +92,24 @@ def skill_version():
 
 # ------------------------------------------------------------------ claude call
 
-def claude(prompt: str, timeout: int, cwd: Path, allowed=None) -> tuple[str, str]:
-    """Run a headless Claude turn. Returns (text, error)."""
-    cmd = ["claude", "-p", prompt, "--permission-mode", "bypassPermissions"]
-    if allowed:
-        cmd += ["--allowed-tools", ",".join(allowed)]
-    # The cloud routine container runs as root, and the CLI refuses
-    # --dangerously-skip-permissions (which bypassPermissions maps to) under
-    # root unless IS_SANDBOX=1. Harmless locally (we're already non-root).
-    env = {**os.environ, "IS_SANDBOX": "1"}
+def claude(prompt: str, timeout: int, cwd: Path, allowed=None, runner: str = "claude") -> tuple[str, str]:
+    """Run a headless Claude turn. Returns (text, error).
+
+    runner="claude" uses the Anthropic `claude` CLI (the canonical harness runner).
+    runner="cmd" uses Command Code headless mode (`cmd -p`) — reads are permitted by
+    default there, which covers every call site (answer turn reads; grader Read-only).
+    """
+    if runner == "cmd":
+        cmd = ["cmd", "-p", prompt]
+        env = {**os.environ}
+    else:
+        cmd = ["claude", "-p", prompt, "--permission-mode", "bypassPermissions"]
+        if allowed:
+            cmd += ["--allowed-tools", ",".join(allowed)]
+        # The cloud routine container runs as root, and the CLI refuses
+        # --dangerously-skip-permissions (which bypassPermissions maps to) under
+        # root unless IS_SANDBOX=1. Harmless locally (we're already non-root).
+        env = {**os.environ, "IS_SANDBOX": "1"}
     try:
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout,
                            cwd=str(cwd), stdin=subprocess.DEVNULL, env=env)
@@ -179,6 +188,10 @@ EXPECTED PROGRAMMING PRIORITIES (a strong answer hits most of these):
 TRAPS THIS SCENARIO BAITS (falling in should cost marks):
 {chr(10).join('- ' + t for t in s.get('traps', [])) or '- (none specified)'}
 
+REVL claims: grade provenance per the rubric's 'REVL source-grounding' section. A REVL fact
+supported by the skill's own REVL references and stated with its provenance is NOT a hard failure
+even if the scenario did not supply it; Read the references to verify when unsure.
+
 HARD FAILURES (any of these => score 0 on the affected dimension, and note it):
 {chr(10).join('- ' + m for m in s.get('must_not', [])) or '- (none specified)'}
 
@@ -239,6 +252,10 @@ def main(argv=None):
     ap.add_argument("--answer-timeout", type=int, default=420)
     ap.add_argument("--grade-timeout", type=int, default=240)
     ap.add_argument("--label", default="", help="tag this cycle (e.g. 'post-fix-C3')")
+    ap.add_argument("--runner", choices=["claude", "cmd"],
+                    default=os.environ.get("JON_EVAL_RUNNER", "claude"),
+                    help="headless CLI used for the answer/grade turns "
+                         "(cmd = Command Code headless mode; default from $JON_EVAL_RUNNER)")
     ap.add_argument("--generalization", type=int, default=0,
                     help="also run N held-out generalization scenarios (nightly: 6)")
     ap.add_argument("--wildcards", type=int, default=0,
@@ -281,7 +298,7 @@ def main(argv=None):
     for i, s in enumerate(picked, 1):
         t0 = time.time()
         print(f"[{i}/{len(picked)}] {s['id']} ...", file=sys.stderr, flush=True)
-        resp, err = claude(answer_prompt(s), args.answer_timeout, REPO)
+        resp, err = claude(answer_prompt(s), args.answer_timeout, REPO, runner=args.runner)
         if err or not resp:
             rows.append(dict(scenario_id=s["id"], error=err or "empty response",
                              cycle=state["cycle"], ts=ts))
@@ -290,7 +307,7 @@ def main(argv=None):
         used_skill = bool(re.search(r"jon-fitness|ISA CPT|Wk\d+ Ch\d+|Table 9-12|revl-class-integration",
                                     resp, re.I))
         graw, gerr = claude(grade_prompt(s, resp, rubric), args.grade_timeout, REPO,
-                            allowed=["Read"])
+                            allowed=["Read"], runner=args.runner)
         g = extract_json(graw)
         if not g or "scores" not in g:
             rows.append(dict(scenario_id=s["id"], error=f"grade parse failed: {gerr or graw[:200]}",

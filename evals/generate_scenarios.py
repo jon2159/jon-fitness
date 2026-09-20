@@ -183,7 +183,7 @@ def priorities_for(env_key, phase, goal_key, age_key, rec_key, con_key, pt):
         pri.append("Identify the REVL phase and week, and what the client actually did last week")
         pri.append("Count REVL's existing stimulus before adding anything (total training load)")
         traps.append("Programming the PT session as if REVL were not happening")
-        must_not.append("Assert a specific REVL load/%/rep count as fact")
+        must_not.append("Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat")
     if env["family"] == "commercial":
         pri.append("Impose a progression model on unstructured training")
         traps.append("Adding more exercises instead of adding structure")

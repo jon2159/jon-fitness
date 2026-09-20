@@ -138,7 +138,7 @@ def priorities(env_key, phase, goal_key, rec_key, con_key):
     if "revl" in env_key:
         pri.append("Count the REVL stimulus already in the week before adding anything")
         traps.append("Programming the PT session as if REVL were not happening")
-        must_not.append("Assert a specific REVL load/%/rep count as fact")
+        must_not.append("Assert an unsupported REVL claim as fact: something not in the supplied REVL material, this client's own REVL schedule/loads they didn't state, or a source-derived count presented without its provenance/lower-bound caveat")
         if phase and REVL_PHASES[phase]["headroom"] in ("none", "minimal"):
             pri.append(f"Recognise {phase} leaves little/no headroom — support, don't add load")
     if env["family"] == "mixed":
