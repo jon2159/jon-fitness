@@ -75,6 +75,15 @@ defaulting to Pass. This applies to every use of the gate, not only a first-time
 
 ## 3. The three variants
 
+**Duration and source scope.** The documented variants here are **V5: 9 weeks**, **Classic:
+6 weeks**, and **Masters: 8 weeks**. The V5 design record also identifies the supplied
+4-day template as a nine-week block (`docs/russian-strength-integration-plan.md` §1a,
+relative to the repository root). These records do **not** establish a nine-month Russian
+protocol. If a separate nine-month source is supplied, inspect and distinguish it before
+attributing that duration. A longer plan assembled from these principles is a
+**coach-designed macrocycle**, with its own recovery and reassessment decisions, not a
+source-prescribed nine-month schedule.
+
 Pick from the client's training age, recovery capacity, available days, and whether a fat-loss
 deficit runs concurrently (§5).
 
@@ -89,7 +98,7 @@ deficit runs concurrently (§5).
 
   | Week | Anchor (Mon/Tue) | Progression (Thu/Fri) | % 1RM (progression) |
   |---|---|---|---|
-  | 1 | 6 × 2 @ 80% | 6 × 2 | 80% |
+  | 1 | 6 × 2 @ 80% | 6 × 3 | 80% |
   | 2 | 6 × 2 @ 80% | 6 × 4 | 80% |
   | 3 | 6 × 2 @ 80% | 6 × 5 | 80% |
   | 4 | 6 × 2 @ 80% | 6 × 6 | 80% |
@@ -99,7 +108,7 @@ deficit runs concurrently (§5).
   | 8 | 6 × 2 @ 80% | 2 × 2 | 100% |
   | 9 | 6 × 2 @ 80% | 1 × 1 | 105% → **retest** |
 
-- **CPT mapping of the loads:** weeks 1–4 (6×2–6×6 @ 80%) sit across **hypertrophy** (67–85%,
+- **CPT mapping of the loads:** weeks 1–4 (6×3–6×6 @ 80%) sit across **hypertrophy** (67–85%,
   6–12 reps) and the low edge of **strength**; weeks 5–8 (85–100%, ≤6 reps, 2–6 sets, 2–5 min
   rest) are **muscular strength**; week 9 singles are a **power / max-strength** expression and
   a **1-RM assessment** (Table 9-12, *Wk07 Ch11 p16*; assessment *Wk06 Ch10 p69–74*).
@@ -243,10 +252,11 @@ Set the method in the plan's **Retest Plan** section, chosen by client type:
   (e.g. 5RM), convert to estimated 1RM (Table 10-25), and report the **start → end delta** and
   the loads carried each week. This is the course's sub-maximal strength assessment, *"appropriate
   for inexperienced exercisers"* (*Wk06 Ch10 p75*).
-- **REVL client, no separate test needed:** if the client's REVL block includes Peak Wk 2
-  (build-to-1RM deadlift + push press/jerk, 3RM variants — confirmed in both captured REVL
-  years, `revl-class-integration.md` §3), **use those coached maxes** instead of re-testing.
-  Satisfies gate G4 and this section's requirement without stacking a third maximal week.
+- **REVL client, no separate test needed:** REVL's Peak phase includes a dedicated,
+  coached strength-testing week (`revl-class-integration.md` §3) — **ask whether the client
+  has been through it and what it produced** rather than assuming it happened on schedule.
+  A confirmed result **can be used** instead of re-testing, satisfying gate G4 and this
+  section's requirement without stacking a third maximal week.
 
 ---
 

@@ -53,8 +53,8 @@ LIFTS = {
     "pullup": {"name": "Weighted Pull-up", "group": "B"},
 }
 ACCESSORIES = {
-    "A": [("Bulgarian Split Squat", "3", "10/side"), ("Dips", "3", "8-12")],
-    "B": [("Romanian Deadlift", "3", "10"), ("Face Pull", "3", "15")],
+    "A": [("Bulgarian Split Squat", "2-3", "8-12/side"), ("Dips", "2-3", "8-12")],
+    "B": [("Romanian Deadlift", "2-3", "8-12"), ("Face Pull", "2-3", "8-12")],
 }
 
 WAVE_PROG = "linear wave (plan: Strength Block); autoregulate per RPE (plan: Autoregulation)"
@@ -62,7 +62,7 @@ ACC_PROG = "double progression 8-12; 2-for-2 then +5% (Wk07 Ch11 p7, p20)"
 
 # Progression-day scheme per week: (sets, reps, pct). Anchor days are always 6x2 @ anchor_pct.
 V5_WAVE = [
-    (6, 2, 0.80), (6, 4, 0.80), (6, 5, 0.80), (6, 6, 0.80),
+    (6, 3, 0.80), (6, 4, 0.80), (6, 5, 0.80), (6, 6, 0.80),
     (5, 5, 0.85), (4, 4, 0.90), (3, 3, 0.95), (2, 2, 1.00), (1, 1, 1.05),
 ]
 # Classic Russian Squat Routine, 3 days/wk. Per week: (Mon, Wed, Fri) each (sets, reps, pct).

@@ -34,7 +34,7 @@ Mon & Tue are a fixed "anchor" exposure every week; Thu & Fri carry the progress
 
 | Week | Mon / Tue (anchor) | Thu / Fri (progression) | % of 1RM (progression day) |
 | ---- | ------------------ | ----------------------- | -------------------------- |
-| 1    | 6 × 2             | 6 × 2                  | 80%                        |
+| 1    | 6 × 2             | 6 × 3                  | 80%                        |
 | 2    | 6 × 2             | 6 × 4                  | 80%                        |
 | 3    | 6 × 2             | 6 × 5                  | 80%                        |
 | 4    | 6 × 2             | 6 × 6                  | 80%                        |
@@ -85,7 +85,7 @@ model so recommendations stay traceable.
 | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | Barbell squat/bench/DL/OHP under external load for force production | **IFT Muscular Training — 3rd stage: Load / Speed Training** (Wk02 Ch2 p14; Wk07 Ch11 p21–32). The course literally lists "power lifting" as a Load-phase method.                                   | Course-supported                                      |
 | 9-week wave, volume down / intensity up over time                   | **Linear periodization**, one mesocycle (Wk07 Ch11 p42–46). Course note: "usually only core (multi-joint) exercises are periodized" — matches (accessories stay fixed at 2–3×8–12).              | Course-supported                                      |
-| 6×2–6×6 @ 80%                                                    | Straddles**hypertrophy (67–85% 1RM, 6–12 reps)** and the low end of **strength** in Table 9-12 (Wk07 Ch11 p16). 6×6 @ 80% is high, near-limit volume.                                        | Course-supported                                      |
+| 6×3–6×6 @ 80%                                                    | Straddles**hypertrophy (67–85% 1RM, 6–12 reps)** and the low end of **strength** in Table 9-12 (Wk07 Ch11 p16). 6×6 @ 80% is high, near-limit volume.                                        | Course-supported                                      |
 | 5×5 @ 85% → 2×2 @ 100%                                           | **Muscular strength**: ≥85% 1RM, ≤6 reps, 2–6 sets, 2–5 min rest (Table 9-12).                                                                                                                    | Course-supported                                      |
 | 1×1 @ 105% in wk 9                                                 | A**1-RM squat / bench assessment** (Wk06 Ch10 p69–73) — must follow the course's spotting rules and per-test contraindication checks.                                                               | Course-supported                                      |
 | Each main lift trained 2×/week, 72 h apart (Mon→Thu, Tue→Fri)    | Resistance FITT-VP: each major muscle group 2–3 d/wk, 48–72 h between sessions (Wk07 Ch11 Table 11-10). Compliant.                                                                                        | Course-supported                                      |
