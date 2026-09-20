@@ -74,6 +74,8 @@ work load.
 | 10 | Repeat the week-1 distance test | Wed |
 | 11–12 | Rebuild to 6–8 × 8–10 s; optional 10–12 min low-skill mixed-modal on bike/row/ski | Wed + weekend |
 
+**Placement is chosen from the client's answers** (options A–D, ordered rules in `references/program-library.md` §2b; `--placement auto` in the generator). The text below describes option A and its fallbacks.
+
 If the sprint session cannot be ≥ 3 h from lifting, do it **after** lifting and accept the same-session cost
 (Petré 2021), or move it to a non-lifting day and count it as a fifth training day. Do not do intervals **before**
 lifting (Vechin 2021).

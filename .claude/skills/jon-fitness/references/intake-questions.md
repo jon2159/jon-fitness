@@ -163,6 +163,14 @@ conditioning?"* And: *"Do you want four training days **in total** (counting any
 *(Changes how much conditioning and how many heavy exposures the week can hold — see
 `references/revl-class-integration.md` §10 for the class-plus-PT dosing rules and `docs/three-source-gap-analysis-and-4day-methodology.md`.)*
 
+### P20. Conditioning placement *(IMPORTANT when the plan has strength + conditioning)*
+Ask each of these; **do not assume**. (1) *"Do you want to get lean / 'shredded', or is fat loss not a goal?"*
+(2) *"How much conditioning do you want alongside lifting: none, a minimum, or as important as strength?"*
+(3) *"Can you train twice on one of your lifting days, at least 3 hours apart?"* (4) *"Is a fifth planned training
+day acceptable?"* (5) Recovery: sleep, stress, workload (gate G6).
+*(Feeds `references/program-library.md` §2b and `scripts/hybrid_block.py --placement auto`. A missing answer is
+Unknown, which counts as No.)*
+
 ---
 
 ## Stage 3 — Personalization
