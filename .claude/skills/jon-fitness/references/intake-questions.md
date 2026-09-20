@@ -155,6 +155,14 @@ Build, Deload, Peak (which of the three), or Rebuild?"*
 `references/revl-class-integration.md` §2/§5/§7. Log the Move-track shape and week number in
 the plan's evidence section — see `SKILL.md` §B4.)*
 
+### P19. Training experience and total planned days *(IMPORTANT for any strength + conditioning plan)*
+Ask strength and conditioning experience **separately** — a strong lifter can be a novice at conditioning and
+the reverse: *"How long have you trained with a barbell, and separately how long have you done structured
+conditioning?"* And: *"Do you want four training days **in total** (counting any classes or sport), or four PT days
+**in addition** to what you already do?"* Default to **four total planned days** unless the client says otherwise.
+*(Changes how much conditioning and how many heavy exposures the week can hold — see
+`references/revl-class-integration.md` §10 for the class-plus-PT dosing rules and `docs/three-source-gap-analysis-and-4day-methodology.md`.)*
+
 ---
 
 ## Stage 3 — Personalization
