@@ -17,12 +17,15 @@ The methodology (§4–§7) is the product; the 4-day template (§8) is one illu
 1. **The Russian program is 9 weeks, not 9 months.** V5 = 9 weeks (4-day), Classic = 6, Masters = 8
    (`russian-strength-program.md` §3; `docs/russian-strength-integration-plan.md` §1a). Any longer plan is a
    coach-designed macrocycle and is labelled that way below. Confirmed by the user, 2026-09-20.
-2. **The Chalk page says very little.** Verified by fetch this session: full-body emphasis, "customizable"
-   programs and schedules, a suggestion to switch programs every 2–3 months, one program at 3 days/week,
-   and "part of U.S. Military fitness protocols". It states no rep ranges, periodization model, progression
-   method, testing, or research. So Chalk is used only as a design-philosophy nod (one app-delivered,
-   individualisable, full-body-biased system). **No Chalk structure is copied or inferred.** Two files in
-   `reports/` describe Chalk in more detail; I have not verified them.
+2. **Chalk is a portfolio of tracks, and its public pages give design observations, not a method.** Verified by
+   fetch: the landing page (app features, "customizable" schedules, an unsupported "U.S. Military protocols" claim);
+   the program directory (ongoing S&C / Full Body Aesthetics / Powerbuilding calendars with 4–8-week cycles, plus
+   6–12-week plans; days/week mostly unstated; **no recovery weeks stated; the Upper/Lower page does not state
+   four days**); and PowerJacked (sprints/plyometrics + Olympic lifts + heavy compounds + bodybuilding in 4-week
+   blocks; sample jump → squat → RDL → split squat → curl; frequency and dose unstated). No rep ranges, progression
+   model or research are published. Chalk is therefore a bounded design reference
+   (`references/chalk-design-reference.md`); **no Chalk structure is copied or inferred.** Further detail is in
+   `research_notes/Chalk coaching skill integration/` (other-session research; partly re-verified, see that reference).
 3. **REVL 2026 Block 3 Rebuild is unpublished** (T5). Only Volume → Peak is captured for that block.
 
 ## 1. The three systems, independently
@@ -134,7 +137,15 @@ Apply in order. Each step writes a line into the plan's evidence section.
   endurance were in the **same session**. *(Effect size quoted in a secondary summary, not checked against the paper.)*
 - Eddens et al. 2018 (*Sports Med*, intra-session sequence): strength-then-endurance gave ~7% larger squat 1RM gains
   than the reverse; no order effect on hypertrophy or aerobic gains. *(Secondary summary.)*
-**Consequence:** the earlier "close to the worst-case interference pattern" wording in
+- Petré et al. 2021 (*Sports Med*): reduced lower-body strength development in **trained** participants but not
+  moderately trained or untrained; Huiberts et al. 2024 (59 studies): modest lower-body strength interference in
+  males and power interference, no clear moderation by training status, and **no classified study of highly
+  strength-trained people**. *(Both as reported in `research_notes/`; not opened by me.)*
+- Schumann's same-session subgroup showed the explosive-strength attenuation; a subgroup with **≥ 3 h between modes** did
+  not. That is a subgroup observation, not a universal 3-hour rule.
+**Consequence for an experienced lifter:** the pooled "no loss of max strength" finding may not carry over to
+someone who is already strong (Petré), and no study covers highly strength-trained people. So the template keeps
+conditioning to one block, low-impact, after lifting, and monitors response. **Consequence:** the earlier "close to the worst-case interference pattern" wording in
 `source/revl_vs_russian_program_comparison.md` §3.5 **overstates the risk to max strength** and should be softened;
 the better-supported concern is **explosive strength and same-session, running-based work.**
 
@@ -182,18 +193,18 @@ Loads = `round(pct × 1RM, 2.5 kg)`.
 
 | Day | Session |
 |---|---|
-| **Mon — A anchor** | **Primer** 4×5 box jumps, full recovery (20 contacts). **Squat 6×2 @ 80%**, rest 3 min. **Bench 6×2 @ 80%**, 2–3 min. Bulgarian split squat 2–3 × 8–12/side @ RIR 2–3. Weighted pull-up 3×6–8 (maintenance). **Finisher (wk 1–4):** 8 min bike, 30 s hard / 60 s easy. |
-| **Tue — B anchor** | **Deadlift 6×2 @ 80%**, 3 min. Military press 3×6–8 (maintenance). Farmer carry 4×30 m. Face pulls 2–3 × 8–12. **Finisher (wk 1–4):** 2 × 6 min ski/row at steady-hard, 2 min between. |
+| **Mon — A anchor** | **Primer** 4×5 box jumps, full recovery (20 contacts). **Squat 6×2 @ 80%**, rest 3 min. **Bench 6×2 @ 80%**, 2–3 min. Bulgarian split squat 2–3 × 8–12/side @ RIR 2–3. Weighted pull-up 3×6–8 (maintenance). |
+| **Tue — B anchor** | **Deadlift 6×2 @ 80%**, 3 min. Military press 3×6–8 (maintenance). Farmer carry 4×30 m. Face pulls 2–3 × 8–12. |
 | **Wed** | Off. **Easy aerobic 30–40 min** (conversational, RPE 3–4). |
 | **Thu — A progression** | Squat and bench per the wave table (wk 1: 6×3 @ 80% → wk 9: 1×1 @ 105%). Dips 2–3 × 8–12. **Primer:** 4×5 box jumps first (wk 1–6 only). |
-| **Fri — B progression** | Deadlift per wave table. Weighted pull-up stays at maintenance (3 × 6–8 @ ~70%). RDL omitted (deadlift already loaded). **Work-capacity block (wk 1–4 only):** 12–16 min capped mixed-modal on bike/row/ski + light KB or DB work; not running. |
+| **Fri — B progression** | Deadlift per wave table. Weighted pull-up stays at maintenance (3 × 6–8 @ ~70%). RDL omitted (deadlift already loaded). **Work-capacity block (wk 1–4 only):** 12–16 min capped mixed-modal on bike/row/ski + light KB or DB work; not running. If the schedule allows, do it ≥ 3 h after lifting (see §5). |
 | **Sat/Sun** | Off. One **easy aerobic 30–45 min** session. Mobility/walks. |
 
 **Wave table (Source, V5; applied to squat, bench, deadlift):**
 Wk 1 6×3 · Wk 2 6×4 · Wk 3 6×5 · Wk 4 6×6 (all @ 80%) · Wk 5 5×5 @ 85% · Wk 6 4×4 @ 90% ·
 Wk 7 3×3 @ 95% · Wk 8 2×2 @ 100% · Wk 9 1×1 @ 105% (retest). Mon/Tue stay 6×2 @ 80% every week.
 
-**Conditioning by phase (Judgement):** wk 1–4 as above; wk 5–8 finishers only (≤ 6 min, no Fri block);
+**Conditioning by phase (Judgement):** wk 1–4 the single Friday block (no finisher is appended to the other days — a finisher on every session is not a default); wk 5–8 a ≤ 6 min Friday finisher only;
 wk 9 none; wk 10 baseline retest. Easy aerobic stays throughout.
 
 **Rest:** 2–5 min on wave sets at ≥ 85% (Table 9-12, strength row); 3 min on the 80% anchors (Judgement — no table row covers 80% × 2–6); 60–90 s on accessories.
@@ -263,7 +274,7 @@ were not opened**, and the weakest items below have **no research check at all**
 | Bike/row/ski instead of running | Wilson 2012: running, not cycling, linked to strength/hypertrophy decrements | Supported (meta-analysis; older) |
 | Concurrent work does not wreck max strength | Schumann (43 studies): no meaningful loss of max strength or hypertrophy | Supported; **weakens** the earlier "worst-case interference" framing |
 | Same-session conditioning may cost explosive strength | Schumann: explosive strength attenuated, more so same-session | Supported; **an accepted trade-off** here |
-| Linear wave is a valid strength design | Harries 2015 (17 studies, 510 participants): no difference between linear and undulating for strength; a 2026 review reports undulating advantages I have not read | Supported as *not inferior*; **do not claim undulating is better** |
+| Linear wave is a valid strength design | Harries 2015 (17 studies, 510 participants): no difference between linear and undulating for strength. Moesgaard 2022 (35 volume-equated studies; per `research_notes/`): periodized > non-periodized for 1RM (ES 0.31), undulating favoured over linear for strength, but the trained-subgroup estimate is uncertain. Evidence is **mixed** | Supported as a valid, planned-variation design; **the evidence neither proves linear best nor undulating clearly better for trained lifters** |
 | Each lift 2×/week, 72 h apart | Grgic and Ralston 2018: when volume is equated, frequency has no significant effect on strength | **Weak as a science claim** — supported by the V5 source and ISA spacing, not by frequency research. Frequency is a volume-distribution choice |
 | Box-jump primer builds power | de Villarreal 2009 (56 studies): plyometrics raise jump height and some max strength; best with > 15 sessions and > 40 jumps/session | The original 3×3 was **far below** that dose. Raised to 4×5 (20 contacts) and labelled a low-dose primer, not a full power block |
 | Carries fill a gap | **No research checked.** Rests only on T3 REVL counts saying carries are rare | Unsupported by literature |
@@ -273,3 +284,14 @@ were not opened**, and the weakest items below have **no research check at all**
 **Changes made to the template because of this review:** wk 1 progression corrected; accessory reps and rest
 brought in line with the sources; primer dose raised and moved onto both squat days; interference rules rewritten
 to match what the meta-analyses show; the frequency and periodisation claims downgraded.
+
+## 13. Additional evidence from the Chalk research notes (other session; not re-opened by me)
+- Ramos-Campo 2024 (14 studies): split vs full-body similar for strength and hypertrophy when volume is equated — so
+  the choice of a 4-day split is a scheduling decision, not a proven optimum.
+- Currier 2023 (network meta-analysis): higher loads rank best for strength, multiple sets for hypertrophy; most direct
+  comparisons uncertain. Robinson 2024 / Grgic 2022 / Vieira 2022: strength gains are not tied to training to failure;
+  hypertrophy tends to improve nearer failure; failure costs more acute fatigue. Pelland 2026: diminishing returns in
+  volume, stronger for strength than hypertrophy.
+- **Design rules taken from that note:** four days means four *total* planned days unless the client says otherwise
+  (intake P19); record strength and conditioning experience separately; do not append a hard finisher to every session;
+  keep the dose ledger explicit and leave unknown class content unknown.
