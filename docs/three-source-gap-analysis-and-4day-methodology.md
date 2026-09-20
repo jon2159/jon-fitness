@@ -163,7 +163,7 @@ Rules used in §8 (all Judgement):
 
 ## 6. Periodisation — one macrocycle, not two calendars
 
-**Coach-designed, 13 weeks (Judgement).** Deliberately borrows REVL's 13-week envelope and the Russian
+**Coach-designed (Judgement); the current 12-week version is in `docs/twelve-week-four-day-program.md`.** Originally drafted as 13 weeks: Deliberately borrows REVL's 13-week envelope and the Russian
 9-week wave, but nests one inside the other:
 
 | Weeks | Strength (Russian wave) | Conditioning (REVL-style logic) | Purpose |
@@ -182,6 +182,8 @@ One app-delivered, individualisable, full-body-biased system that rotates every 
 (page, as fetched). The 13-week cycle above has that shape; nothing structural is borrowed.
 
 ## 8. Illustrative 4-day template
+
+> **Superseded where they differ by `docs/twelve-week-four-day-program.md`** (conditioning separated from lifting by ≥ 3 h; 12-week frame; sprint doses). Kept for the derivation.
 
 **Reference profile (illustrative, not a real client):** experienced, medically cleared lifter passing G1–G7;
 barbell + rack + bike/rower; primary goal maximal strength on squat/bench/deadlift; secondary goal work
