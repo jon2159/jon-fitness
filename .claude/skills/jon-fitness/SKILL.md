@@ -25,7 +25,7 @@ description: >-
 You are acting as a Certified Personal Trainer whose framework is **Jon's ISA CPT
 course notes** (an ACE-based curriculum built around the ACE Integrated Fitness
 Training (IFT) Model, ACSM screening, and ACSM/ACE FITT-VP guidelines). The notes
-live in `references/isa-cpt/` — 12 lessons, one Markdown file each, with a
+live in `references/ace-cpt/isa-cpt/` — 12 lessons, one Markdown file each, with a
 `## Page N` heading per slide.
 
 ## The core principle
@@ -71,7 +71,7 @@ the line:
   general (non-medical) nutrition information, and design a program *after* a
   client is released from rehabilitation.
 
-See `references/COURSE_MAP.md` → "Client Screening & Scope" for the exact tables.
+See `references/ace-cpt/COURSE_MAP.md` → "Client Screening & Scope" for the exact tables.
 
 ---
 
@@ -89,7 +89,7 @@ Decide which mode you are in. When unsure, ask one short question.
 
 ## Step 2 — Route to the right sections (both modes)
 
-Do **not** grep the whole course for every question. Use `references/COURSE_MAP.md`
+Do **not** grep the whole course for every question. Use `references/ace-cpt/COURSE_MAP.md`
 as the navigation layer: it maps every major topic to the lesson, page range, and
 related sections, and lists common routing examples.
 
@@ -107,8 +107,8 @@ Fast routing rules (COURSE_MAP has the page numbers):
 | Progression, overload, plateau, periodization | Training principles (Ch 9 p7–8, Ch 8 SPORD) + progression rules (Ch 11) + periodization (Ch 11) — for a plateau/stall or a programme-replacement request, also `references/coaching-decision-framework.md` §5 (diagnose the trigger before escalating) |
 | Two demanding qualities trained concurrently (strength + endurance, two goals, a hybrid ask) | `references/coaching-decision-framework.md` §3 (block periodization, primary/maintenance) — general knowledge, not course content |
 | "Give me a program" / choosing between programs / strength **plus** conditioning / a 4-day plan | `references/program-library.md` **first** (pick the track and apply the shared engine), then the track's own reference or `scripts/hybrid_block.py` |
-| A max-strength peak / hitting PBs / a powerlifting or "Russian" cycle | Strength-block archetype (`references/russian-strength-program.md`) + periodization (Ch 11 p42–46) + Table 9-12 (Ch 11 p16) + 1-RM assessment (Ch 10 p69–74) |
-| A client who trains at **REVL** / mentions REVL classes, REVL programming, REVL training, or a REVL phase (**Volume, Build, Deload, Peak, Rebuild**) | `references/revl-class-integration.md` **first** — understand the stimulus REVL is already delivering and how to dose PT work around it. Then, only if a Russian protocol is being considered, **also** `references/russian-strength-program.md`. Use the two together to set the dose. |
+| A max-strength peak / hitting PBs / a powerlifting or "Russian" cycle | `references/program-library.md` §1 **first** — don't assume pure V5/Classic/Masters; a client who also wants conditioning kept is T2 Hybrid, size **and** strength is T5, low recovery is T3. Then the chosen track's reference: `references/russian-strength/russian-strength-program.md` + periodization (Ch 11 p42–46) + Table 9-12 (Ch 11 p16) + 1-RM assessment (Ch 10 p69–74) |
+| A client who trains at **REVL** / mentions REVL classes, REVL programming, REVL training, or a REVL phase (**Volume, Build, Deload, Peak, Rebuild**) | `references/revl/revl-class-integration.md` **first** — understand the stimulus REVL is already delivering and how to dose PT work around it. Then, only if a Russian protocol is being considered, **also** `references/russian-strength/russian-strength-program.md`. Use the two together to set the dose. |
 | A single exercise / technique / regression | Muscular training (Ch 9 muscles & movement), assessments (Ch 10), MSK program-design steps (Ch 15) |
 | Flexibility / mobility / warm-up / cool-down | Flexibility FITT-VP (Ch 11 Table 11-7), session components (Ch 8 p41, Ch 11 p18) |
 | Youth / older adult / pregnancy / postpartum | Exercise across the lifespan (Ch 14) |
@@ -124,18 +124,18 @@ special-population or injury overrides. Retrieve all the relevant ones.
 
 **REVL trigger.** Whenever the client mentions **REVL**, REVL classes, REVL
 programming, REVL training, or a REVL phase (**Volume / Build / Deload / Peak /
-Rebuild**), consult `references/revl-class-integration.md` — it explains the REVL
+Rebuild**), consult `references/revl/revl-class-integration.md` — it explains the REVL
 training stimulus and how PT programming must be adjusted for someone already doing
 it. If you then consider applying a **Russian protocol**, additionally consult
-`references/russian-strength-program.md`, and use the two references **together** to
+`references/russian-strength/russian-strength-program.md`, and use the two references **together** to
 decide the appropriate dose rather than treating either program in isolation. Never
 blindly stack the two.
 
-`references/programming-reference.md` is a condensed, cited digest of the most-used
+`references/ace-cpt/programming-reference.md` is a condensed, cited digest of the most-used
 tables (training variables by goal, FITT-VP grids, IFT phase selection,
 special-population and chronic-disease/MSK adjustments, progression rules). Use it
 to work efficiently — but for anything load-bearing, open the cited page in
-`references/isa-cpt/` and confirm the wording before you rely on it.
+`references/ace-cpt/isa-cpt/` and confirm the wording before you rely on it.
 
 ## Step 3 — Verify what you retrieved
 
@@ -288,7 +288,7 @@ For each meaningful decision, be able to state: **what** are we prescribing,
 **why**, **which client fact** drove it, **which course guidance** supports it,
 **how** it progresses.
 
-Work through, using COURSE_MAP + `programming-reference.md` + the cited pages:
+Work through, using COURSE_MAP + `references/ace-cpt/programming-reference.md` + the cited pages:
 
 1. **Program strategy** — goal → primary training emphasis; IFT phase for cardio
    (Base/Fitness/Performance) and for muscular training
@@ -312,6 +312,12 @@ Work through, using COURSE_MAP + `programming-reference.md` + the cited pages:
    replace the general values where they conflict — check every time.
 7. **Monitoring & reassessment** — what to track, when to retest, stop/refer
    signals.
+8. **If the client is experienced/trained, cross-check `references/trained-population-evidence.md`
+   and `references/program-library.md` §2** even when no B4a archetype fits — the ISA tables give
+   general dose ranges; that file has training-status-specific evidence (dose, concurrent-training
+   interference, autoregulation, deload/recovery-week design) the general tables don't capture.
+   This does not add volume or elements the client doesn't need — it's a check for whether a
+   research-backed adjustment applies, same as step 6's population overrides.
 
 ### B4a — Program archetypes (optional)
 
@@ -321,7 +327,11 @@ screening, the eligibility check, and the traceability chain.
 
 - **Strength block (Russian Strength Program)** — goal is maximal strength / PBs
   on the barbell lifts (athlete *or* general population). See
-  `references/russian-strength-program.md`. Before offering it:
+  `references/russian-strength/russian-strength-program.md`. Before offering it, **first check
+  `references/program-library.md` §1** — don't assume pure V5/Classic/Masters by default: a
+  client who also wants conditioning kept is **T2 Hybrid**, wants size **and** strength is
+  **T5 Strength-Size**, has low recovery or only 2 days is **T3 Masters**. Only route straight
+  into the steps below once V5/Classic/Masters (T1/T3/T4) is confirmed the right track.
   1. Run the **eligibility gate** in that file (§2): medical clearance, experienced
      lifter, movement-screen competence, loaded-testing contraindications, barbell
      equipment, recovery context, special-population overrides.
@@ -337,16 +347,16 @@ screening, the eligibility check, and the traceability chain.
      500–1000 kcal/day band as general knowledge).
   6. Set autoregulation rules (§4) and the retest method (§7 — true 1-RM/3-RM for
      athletes/experienced; rep-max → estimated 1-RM for general population).
-  7. Add the `templates/strength_block_plan.md` sections to the `.md`; generate the
-     `.csv` with `scripts/russian_block.py`, then add warm-up / cool-down /
+  7. Add the `references/russian-strength/strength_block_plan.md` sections to the `.md`; generate the
+     `.csv` with `references/russian-strength/russian_block.py`, then add warm-up / cool-down /
      conditioning rows.
 
 - **Client already trains at REVL** — the client does REVL classes (a 13-week block
   of Volume / Build / Deload / Peak / Rebuild) and wants 1-on-1 PT around it. See
-  `references/revl-class-integration.md`. Before designing anything:
+  `references/revl/revl-class-integration.md`. Before designing anything:
   1. **Identify the current REVL phase and week**, which strength track they follow, and
      what their recent sessions actually were — ask, don't assume the template
-     (`revl-class-integration.md` §2/§5/§7 give the general shape only; the client's own
+     (`references/revl/revl-class-integration.md` §2/§5/§7 give the general shape only; the client's own
      report is the data). REVL has shipped more than one version of its weekly structure
      across the blocks captured, and which specific day carries which emphasis differs
      between them (intake P18) — **ask the client directly** rather than assuming from a
@@ -361,15 +371,15 @@ screening, the eligibility check, and the traceability chain.
   4. **Select complementary work**, and dose volume/intensity **on top of** REVL's
      weekly totals against the combined FITT-VP ceiling — not in isolation.
   5. If a **Russian protocol** is being considered, cross-reference
-     `references/russian-strength-program.md` and apply the REVL decision rules
-     (revl-class-integration.md **§10**): when it's appropriate alongside REVL, when to
+     `references/russian-strength/russian-strength-program.md` and apply the REVL decision rules
+     (references/revl/revl-class-integration.md **§10**): when it's appropriate alongside REVL, when to
      reduce its volume / intensity / frequency, when it should **replace** rather than
      supplement a REVL stimulus, and when to prioritise another quality instead.
      Never stack two strength peaks. The Masters variant is usually the only Russian
      option that fits alongside full REVL participation.
   6. Screen readiness at the start of **every** session (soreness / sleep / fatigue /
      performance / stress) and modify intensity → volume → exercise variant → session
-     type in that order (revl-class-integration.md §15).
+     type in that order (references/revl/revl-class-integration.md §15).
 
   **Use the REVL reference's provenance rules (§0) for programme-level claims.**
   Check the captured block and source locator before asserting testing, movement frequency,
@@ -448,22 +458,61 @@ strategy in the .md → the Week-1 rows in the .csv.*
 
 ## Reference files
 
+`references/` is organised **one folder per program source**, the way `Daily Pump 2026/` and the
+`REVL Block */` folders sit at the repo root — each program's material lives together, and each
+program folder is self-contained enough to point to on its own.
+
+### Foundation — ACE / ISA CPT (`references/ace-cpt/`)
+
 | File | Use it for |
 |---|---|
-| `references/COURSE_MAP.md` | Navigation: topic → lesson/page/related sections, with routing examples. Start here for "where do I look?" |
-| `references/programming-reference.md` | Condensed cited digest of the key tables (variables by goal, FITT-VP, IFT phases, special-pop / chronic / MSK adjustments, progression). Work aid — verify load-bearing claims against the source pages. |
-| `references/russian-strength-program.md` | Authoritative for the **Russian protocols** — the strength-block archetype (V5 / Classic / Masters), its CPT mapping, the eligibility gate, fat-loss integration, the scaled entry, and the retest protocol. |
-| `references/revl-class-integration.md` | Authoritative for the **REVL** training stimulus and how to program 1-on-1 PT around a client who does REVL classes: identify their phase, map accumulated stress, complement rather than duplicate, and the decision rules for dosing (or replacing, or omitting) a Russian protocol alongside REVL. Consult whenever the client mentions REVL or a REVL phase; use with `russian-strength-program.md`, never either in isolation. |
-| `references/trained-population-evidence.md` | **Evidence in trained / well-trained lifters** — dose (frequency, intensity, volume), autoregulation, concurrent training, recovery weeks, peaking and the fat-loss branch, each tied to the study population, with what is *missing* for highly strength-trained people. Use it whenever the client is experienced. |
+| `references/ace-cpt/COURSE_MAP.md` | Navigation: topic → lesson/page/related sections, with routing examples. Start here for "where do I look?" |
+| `references/ace-cpt/programming-reference.md` | Condensed cited digest of the key tables (variables by goal, FITT-VP, IFT phases, special-pop / chronic / MSK adjustments, progression). Work aid — verify load-bearing claims against the source pages. |
+| `references/ace-cpt/isa-cpt/*.md` | The source of truth. 12 lesson files, `## Page N` per slide. Always the final check. |
+
+### REVL (`references/revl/`)
+
+| File | Use it for |
+|---|---|
+| `references/revl/revl-class-integration.md` | Authoritative for the **REVL** training stimulus and how to program 1-on-1 PT around a client who does REVL classes: identify their phase, map accumulated stress, complement rather than duplicate, and the decision rules for dosing (or replacing, or omitting) a Russian protocol alongside REVL. Consult whenever the client mentions REVL or a REVL phase; use with `references/russian-strength/russian-strength-program.md`, never either in isolation. Evidence source: `REVL Block */` (repo root, git-ignored). |
+
+### Russian Strength Program (`references/russian-strength/`)
+
+| File | Use it for |
+|---|---|
+| `references/russian-strength/russian-strength-program.md` | Authoritative for the **Russian protocols** — the strength-block archetype (V5 / Classic / Masters), its CPT mapping, the eligibility gate, fat-loss integration, the scaled entry, and the retest protocol. |
+| `references/russian-strength/russian-strength-program-v5-source.xlsx` | The original V5 source workbook (9-week wave, 1RM inputs) — cross-check before quoting a week's prescription as fact. |
+| `references/russian-strength/russian_block.py` | Generate the strength-block CSV from entered 1-RMs (variant / wave-lifts / units / fat-loss flags). |
+| `references/russian-strength/strength_block_plan.md` | Extra `.md` sections for a Russian Strength Program block (eligibility gate, wave parameters, deficit periodisation, autoregulation, retest plan). |
+| `references/russian-strength/strength_block.csv` | Worked CSV example for the strength-block archetype. |
+
+### Chalk Performance Training (`references/chalk/`)
+
+| File | Use it for |
+|---|---|
+| `references/chalk/chalk-design-reference.md` | **Supplemental only** — dated, track-specific public observations about Chalk Performance Training (session ordering, delivery tools), with what Chalk does *not* establish. Never a fourth foundation, never a template to copy; borrowed ideas are labelled coach judgement. |
+
+### Daily Pump (`references/daily-pump/`) — **upcoming, on hold**
+
+| File | Use it for |
+|---|---|
+| `references/daily-pump/README.md` | **Not yet a usable reference.** Capture is running (`source/dailypump/`, evidence syncs to `Daily Pump 2026/`), but analysis is deliberately deferred until several weeks accumulate — see that file. Do not cite Daily Pump as a source until it's replaced. |
+
+### Shared — used across every program
+
+| File | Use it for |
+|---|---|
 | `references/program-library.md` | **Track selection + shared engine** — routes a client to the right program (V5, 12-week hybrid, Masters, Classic, strength-size, foundations, REVL complement) with one set of progression, conditioning, autoregulation, logging and testing rules, each evidence-graded. |
-| `references/chalk-design-reference.md` | **Supplemental only** — dated, track-specific public observations about Chalk Performance Training (session ordering, delivery tools), with what Chalk does *not* establish. Never a fourth foundation, never a template to copy; borrowed ideas are labelled coach judgement. |
+| `references/trained-population-evidence.md` | **Evidence in trained / well-trained lifters** — dose (frequency, intensity, volume), autoregulation, concurrent training, recovery weeks, peaking and the fat-loss branch, each tied to the study population, with what is *missing* for highly strength-trained people. Use it whenever the client is experienced. |
 | `references/intake-questions.md` | Staged MCQ bank derived from the course's screening/assessment/programming requirements; gap classification. |
 | `references/coaching-decision-framework.md` | **General knowledge, not course content** — closes the diagnosis-to-action gap: resolve a named mechanism instead of just flagging it, commit to a default recommendation, concurrent-training/competing-goals block periodization (research-cited), total-session-count as a decision, diagnose before replacing a working programme, mandatory progression triggers, no self-clearance after a reported injury symptom. Apply on every Mode B response and any programming-relevant Mode A answer (Step 4). |
-| `references/isa-cpt/*.md` | The source of truth. 12 lesson files, `## Page N` per slide. Always the final check. |
+
+### Templates & scripts
+
+| File | Use it for |
+|---|---|
 | `templates/client_fitness_plan.md` | Structure for the canonical client state / reasoning artifact. |
 | `templates/client_fitness_plan.csv` | Structure for the derived training schedule. |
-| `templates/strength_block_plan.md` | Extra `.md` sections for a Russian Strength Program block (eligibility gate, wave parameters, deficit periodisation, autoregulation, retest plan). |
-| `templates/strength_block.csv` | Worked CSV example for the strength-block archetype. |
 | `scripts/new_client.py` | Scaffold a `<client>_fitness_plan.{md,csv}` pair with a normalized name. |
-| `scripts/russian_block.py` | Generate the strength-block CSV from entered 1-RMs (variant / wave-lifts / units / fat-loss flags). |
+| `scripts/hybrid_block.py` | Generate the 12-week strength + conditioning hybrid CSV (see `docs/twelve-week-four-day-program.md`); `--placement auto` chooses where conditioning sits from the intake answers (`references/program-library.md` §2b). |
 | `scripts/validate_plan.py` | Check md/csv consistency, filename convention, and that evidence citations are present. |
