@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Local scheduler for the Daily Pump catch-up capture (see dp_catchup.sh and dp_capture.py).
+  Runs at 09:05, 11:05, ... 21:05 (a cheap file check exits at once when nothing is missing). If the Mac is asleep then, launchd runs it once at wake. If the Mac is OFF, nothing
+  runs; the next run captures every missing day still visible in the app's current week.
+  Needs: logged-in GUI session, screen unlocked, app signed in, Accessibility + Screen Recording granted to
+  the binaries it launches (python3, osascript, screencapture, dpui).
+  Install : bash source/dailypump/deploy.sh   (copies the scripts to ~/DailyPumpData/bin, then loads this agent)
+            (manual: cp source/dailypump/com.jonfitness.dailypump-catchup.plist ~/Library/LaunchAgents/
+            launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.jonfitness.dailypump-catchup.plist )
+  Remove  : launchctl bootout gui/$(id -u)/com.jonfitness.dailypump-catchup && rm ~/Library/LaunchAgents/com.jonfitness.dailypump-catchup.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.jonfitness.dailypump-catchup</string>
+  <key>ProgramArguments</key>
+  <array><string>/usr/bin/open</string><string>-W</string><string>-a</string><string>/Users/jonathan.tan/DailyPumpData/DailyPumpCapture.app</string></array>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>5</integer></dict>
+    <dict><key>Hour</key><integer>11</integer><key>Minute</key><integer>5</integer></dict>
+    <dict><key>Hour</key><integer>13</integer><key>Minute</key><integer>5</integer></dict>
+    <dict><key>Hour</key><integer>15</integer><key>Minute</key><integer>5</integer></dict>
+    <dict><key>Hour</key><integer>17</integer><key>Minute</key><integer>5</integer></dict>
+    <dict><key>Hour</key><integer>19</integer><key>Minute</key><integer>5</integer></dict>
+    <dict><key>Hour</key><integer>21</integer><key>Minute</key><integer>5</integer></dict>
+  </array>
+  <key>RunAtLoad</key><false/>
+  <key>ProcessType</key><string>Interactive</string>
+</dict>
+</plist>
