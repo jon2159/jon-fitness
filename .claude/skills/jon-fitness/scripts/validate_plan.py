@@ -186,7 +186,7 @@ def _check_strength_block(slug: str, md_text: str, csv_rows: list[dict]) -> None
 
     if "eligibility gate" not in md_low:
         err(f"[{slug}] strength block: no 'Eligibility Gate' section in the .md "
-            f"(see templates/strength_block_plan.md)")
+            f"(see references/russian-strength/strength_block_plan.md)")
     elif "clear" not in md_low:  # medical clearance G1
         warn(f"[{slug}] strength block: eligibility gate should record the medical-"
              f"clearance status (G1)")

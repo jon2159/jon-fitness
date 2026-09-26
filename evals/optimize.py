@@ -56,11 +56,11 @@ DIM_NAMES = {
 }
 TARGET_FILES = [
     ".claude/skills/jon-fitness/SKILL.md",
-    ".claude/skills/jon-fitness/references/COURSE_MAP.md",
-    ".claude/skills/jon-fitness/references/programming-reference.md",
+    ".claude/skills/jon-fitness/references/ace-cpt/COURSE_MAP.md",
+    ".claude/skills/jon-fitness/references/ace-cpt/programming-reference.md",
     ".claude/skills/jon-fitness/references/intake-questions.md",
-    ".claude/skills/jon-fitness/references/revl-class-integration.md",
-    ".claude/skills/jon-fitness/references/russian-strength-program.md",
+    ".claude/skills/jon-fitness/references/revl/revl-class-integration.md",
+    ".claude/skills/jon-fitness/references/russian-strength/russian-strength-program.md",
 ]
 
 
@@ -227,7 +227,7 @@ Make the SMALLEST targeted edit to ONE of these files that would address this ca
 Rules:
 - One file. A few lines. Do not restructure.
 - Do not weaken any existing safety, scope, or evidence-labelling instruction.
-- Do not touch russian-strength-program.md unless the failure is specifically about the
+- Do not touch russian-strength/russian-strength-program.md unless the failure is specifically about the
   Russian protocols' own methodology.
 - After editing, print exactly one line: `EDITED <path> — <one-sentence rationale>`
 

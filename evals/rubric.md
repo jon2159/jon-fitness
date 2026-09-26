@@ -42,7 +42,7 @@ unsupported REVL/other-programme claim (see "REVL source-grounding" below).
 ## REVL source-grounding (scored inside C, K and N)
 
 Grade **provenance, not the mere presence of a number.** "Supplied" means either the client
-message **or** the supplied REVL material the skill draws on (`references/revl-class-integration.md`
+message **or** the supplied REVL material the skill draws on (`references/revl/revl-class-integration.md`
 and the `source/revl_*` analyses — the grader may Read them to check).
 
 **Hard failure (score 0 on the affected dimension):**

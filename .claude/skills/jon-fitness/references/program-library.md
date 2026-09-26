@@ -2,7 +2,7 @@
 
 A Chalk-style **library of tracks chosen by goal, equipment and experience**, built only from this skill's own
 foundations (ISA CPT, Russian Strength Program, REVL logic) and evidence graded in
-`chalk-design-reference.md` §6. It is a routing and design layer: each track points to the reference or script
+`chalk/chalk-design-reference.md` §6. It is a routing and design layer: each track points to the reference or script
 that holds its numbers. **Nothing here copies Chalk content.**
 
 **What "better" means here — and what it doesn't.** Designed to be stronger on: screening and eligibility
@@ -15,13 +15,13 @@ videos, community and scale, which a skill cannot replicate. Judge this library 
 
 | Client situation | Track | Where the numbers live |
 |---|---|---|
-| Cleared, experienced, wants maximal strength, 4 days, no classes | **T1 Max Strength (V5, 9 wk)** | `russian-strength-program.md` §3a; `scripts/russian_block.py --variant v5` |
+| Cleared, experienced, wants maximal strength, 4 days, no classes | **T1 Max Strength (V5, 9 wk)** | `russian-strength/russian-strength-program.md` §3a; `russian-strength/russian_block.py --variant v5` |
 | Same, plus wants conditioning / work capacity kept, 4 days | **T2 Strength-Hybrid (12 wk)** | `docs/twelve-week-four-day-program.md`; `scripts/hybrid_block.py` |
 | Cleared, but low recovery or only 2 days | **T3 Masters (8 wk, 2-day)** | reference §3c; `--variant masters` |
 | One focus lift, meet-style peak, 3 days | **T4 Classic (6 wk)** | reference §3b; `--variant classic` |
 | Wants size **and** strength, 4 days | **T5 Strength-Size (upper/lower)** | §3 below (framework; numbers from ISA Table 9-12) |
 | Novice, returning, or fails G2–G4 | **T6 Foundations (movement → load)** | reference §6 scaled entry; ISA Table 11-10 |
-| Already trains at REVL | **T7 REVL complement** | `revl-class-integration.md` — do not stack a full track |
+| Already trains at REVL | **T7 REVL complement** | `revl/revl-class-integration.md` — do not stack a full track |
 | Wants fat loss | **Overlay on T1–T5, not a track** | reference §5 (deficit periodisation) |
 
 Route by these facts, never by preference alone: any unmet gate item sends the client to T6. A 4-day request means
@@ -38,7 +38,7 @@ Route by these facts, never by preference alone: any unmet gate item sends the c
 | Aerobic base | Easy Zone 1 (below VT1) on off days; dose is judgement | ISA three-zone model (Table 8-11) |
 | Power / primer | Low-dose jumps or throws first while fresh; not sold as a power block or potentiation | de Villarreal 2009; Seitz & Haff 2016 (summaries) |
 | Accessories | 2–3 × 8–12 at RIR 1–3, rotated between phases; priority lifts stay fixed. Failure is not required | Refalo 2023 (abstract read; any experience); Schoenfeld 2017; Lopez 2021; Baz-Valle 2019 |
-| Autoregulation | %1RM wave with an RPE/RIR layer: RPE ≥ 9 twice → hold or −5%; anchor ≤ RPE 6 → raise the working 1RM; failed 2-for-2 or rising anchor RPE → anchor-only week or −10% | `russian-strength-program.md` §4; Helms 2018 (resistance-trained, abstract read); Zourdos 2016 (experienced squatters) |
+| Autoregulation | %1RM wave with an RPE/RIR layer: RPE ≥ 9 twice → hold or −5%; anchor ≤ RPE 6 → raise the working 1RM; failed 2-for-2 or rising anchor RPE → anchor-only week or −10% | `russian-strength/russian-strength-program.md` §4; Helms 2018 (resistance-trained, abstract read); Zourdos 2016 (experienced squatters) |
 | Recovery weeks | Test / reassess at the end of a block with **reduced load, not complete rest**; autoregulated reductions instead of a fixed deload | Coleman 2024 (RCT, resistance-trained; abstract read): a full week off lowered lower-body strength gains; Bell 2023 (consensus) |
 | Logging | Every session: loads, reps, RPE, sleep, session RPE; weekly review | Michie 2009 (indirect evidence) |
 | Testing | 1RM only if G4 passes, else estimated 1RM (Table 10-25); one repeatable conditioning test at start and end | Wk06 Ch10 p69–75 |
@@ -56,7 +56,7 @@ Ask intake P20, then apply these rules **in order — the first that fires decid
    **C** if a fifth day is acceptable, **ELSE A** if they can train twice in a day, **ELSE B**.
    *Why:* conditioning matters as much as strength here, and a deficit lowers recovery, so separation protects the
    lifting; an extra day adds expenditure without touching it. Add the steps target and the deficit periodisation
-   (maintenance in weeks 6–10; `russian-strength-program.md` §5). Diet detail goes to a registered dietitian.
+   (maintenance in weeks 6–10; `russian-strength/russian-strength-program.md` §5). Diet detail goes to a registered dietitian.
    *Trained-population evidence:* Murphy & Koehler 2022 — a deficit impairs lean-mass gains, not strength, and deficits
    > 500 kcal/day prevented lean-mass gains; Garthe 2011 — slower loss (0.7%/wk) kept lean mass better than 1.4%/wk in
    elite athletes. Prefer the slower rate and the lower end of the ISA 500–1000 kcal band, and let the RD decide.

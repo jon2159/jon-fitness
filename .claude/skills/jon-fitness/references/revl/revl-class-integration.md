@@ -78,14 +78,14 @@ It answers two questions:
 
 It does **not** restate any training methodology. For the **Russian protocols** (the
 linear-periodization strength blocks — V5 / Classic / Masters) the authoritative source
-stays `references/russian-strength-program.md`: its eligibility gate (§2), variants (§3),
+stays `references/russian-strength/russian-strength-program.md`: its eligibility gate (§2), variants (§3),
 autoregulation (§4), fat-loss integration (§5), scaled entry (§6), retest protocol (§7).
 This file only decides **whether, when and how much** of that methodology belongs alongside
 REVL.
 
 **Reference hierarchy**
-1. `references/russian-strength-program.md` — the Russian protocols' methodology.
-2. `references/revl-class-integration.md` (this file) — the REVL stimulus and the dosing
+1. `references/russian-strength/russian-strength-program.md` — the Russian protocols' methodology.
+2. `references/revl/revl-class-integration.md` (this file) — the REVL stimulus and the dosing
    decision.
 3. **Client context** — goals, history, current phase, what they *actually* did, recovery
    state. This decides how 1 and 2 are applied, and always overrides this file's general
@@ -157,7 +157,7 @@ not a one-off.
 
 1. **Protect these weeks** — add nothing load-bearing or maximal near them.
 2. **Use the result afterwards.** If a PT strength block needs a real 1RM
-   (`russian-strength-program.md` gate G4 / retest §7), the client's own coached testing
+   (`references/russian-strength/russian-strength-program.md` gate G4 / retest §7), the client's own coached testing
    result — once you confirm with them that it happened and what it produced — can satisfy
    that requirement without a separate re-test. Ask, don't assume it happened on schedule.
 3. A reduced-frequency Russian wave starting in Rebuild can be anchored to a strength-test
@@ -346,10 +346,15 @@ phases are *themselves* a linear-periodization strength progression on the barbe
 Stacking a Russian wave onto them means **two concurrent strength peaks** — redundant neural
 and structural load, high over-reach/injury risk, usually a worse result on both.
 
-Read `references/russian-strength-program.md` first (gate §2, variants §3, autoregulation §4).
+Read `references/russian-strength/russian-strength-program.md` first (gate §2, variants §3, autoregulation §4).
 Then apply these rules — they are the REVL-specific instance of the general
 concurrent-training / competing-goals principle in `coaching-decision-framework.md` §3
 (primary quality gets full dose, the other steps down to maintenance; never two full doses).
+**Before dosing, also check `references/trained-population-evidence.md`** — this exact question
+(does adding endurance/conditioning to a lifting programme cost strength) has been studied
+specifically by training status: Petré 2021 found the effect concentrated in **trained** lifters,
+not moderately-trained or untrained; it does not license adding a second full programme, but it
+does mean an experienced REVL client's interference risk is not the same as a beginner's.
 
 ### 10a. Is a Russian protocol appropriate alongside REVL at all?
 
@@ -383,7 +388,7 @@ program.md` §6 scaled entry, not stacked on REVL) · a special population the c
 - **Reduce VOLUME** when REVL is accumulating on the shared pattern, the client also does
   several team-format conditioning sessions, or combined weekly sets would exceed the
   Table 9-12 / 11-10 range. → cut wave sets, drop accessories REVL already covers, or run
-  fewer wave lifts (`russian-strength-program.md` §3a subset rule).
+  fewer wave lifts (`references/russian-strength/russian-strength-program.md` §3a subset rule).
 - **Reduce INTENSITY** when REVL is in Build/Peak, recovery markers are marginal, or a
   fat-loss deficit runs concurrently (§5 of that file). → finish the wave earlier, or use the
   **Masters** ceiling instead of the V5/Classic top end, and anchor days at the lower %.
@@ -468,7 +473,7 @@ Run these nine steps in order.
    p20)*. Stall or regress deliberately during Deload and Peak.
 
 Whenever a Russian protocol enters the conversation, open
-`references/russian-strength-program.md` and apply §10 above.
+`references/russian-strength/russian-strength-program.md` and apply §10 above.
 
 ---
 
@@ -553,7 +558,7 @@ day-of-week mapping without that confirmation.
 | **"I'm in Deload."** | Strength is deloaded; the biggest conditioning session is **not**. | Best assessment / technique / mobility / corrective window of the block. **Do not** add heavy work **or** extra high-rep metabolic work. |
 | **"I'm in Peak."** | Multiple different weeks with different demands — **ask which one.** | See the rows below. |
 | &nbsp;&nbsp;↳ **The heavy-wave week of Peak** | Highest sustained neural demand. | Support only. No second heavy exposure. If their PB goal outranks the REVL peak, **replace** REVL strength days with the protocol (§10d) rather than adding. |
-| &nbsp;&nbsp;↳ **The strength-testing week of Peak** | True maximal singles under coaching. The highest-stakes week in the block. | **Add nothing load-bearing.** Session = activation, mobility, technique primer, recovery. Afterwards, **ask whether the test happened and what it produced** — a confirmed result can satisfy the current-1RM requirement for a PT strength block (`russian-strength-program.md` G4 / §7) without re-testing. |
+| &nbsp;&nbsp;↳ **The strength-testing week of Peak** | True maximal singles under coaching. The highest-stakes week in the block. | **Add nothing load-bearing.** Session = activation, mobility, technique primer, recovery. Afterwards, **ask whether the test happened and what it produced** — a confirmed result can satisfy the current-1RM requirement for a PT strength block (`references/russian-strength/russian-strength-program.md` G4 / §7) without re-testing. |
 | &nbsp;&nbsp;↳ **The conditioning-baseline-testing week of Peak** | Maximal *metabolic* efforts being scored. | Don't blunt them: no added conditioning, no heavy legs the day before. Ask for the benchmark scores as the client's conditioning baseline once confirmed. |
 | **"I'm in Rebuild."** | Loads low-to-moderate, mostly effort-based; re-accumulating. | Similar headroom to Volume. Good time to start a new PT progression or a *reduced* strength block. |
 | **"My legs are sore from REVL."** | Expected — no day leaves the lower body genuinely unloaded. | Train upper body, carries, anti-rotation, or do mobility/aerobic. Avoid loaded squat/hinge and high-eccentric lower work. Sore ≠ stop, but it does mean **change the pattern**, not just the load. |
@@ -630,7 +635,7 @@ Record the trigger and the modification in the plan's decision log.
 7. **Scope is unchanged** *(Wk01 Ch1 p7–8)*: screen, refer out for medical clearance, injury /
    rehab (physical therapist), and detailed nutrition or disordered eating (registered
    dietitian). REVL membership changes none of that.
-8. **When Russian protocols are considered, open `references/russian-strength-program.md`**
+8. **When Russian protocols are considered, open `references/russian-strength/russian-strength-program.md`**
    and use it *with* this file — never either in isolation.
 
 ---

@@ -15,3 +15,11 @@ source/.revl_extract.log
 
 # Personal client health data — never publish
 clients/
+
+# Daily Pump capture data is a paid creator's content (Julian Smith / thedailypump.app) — same
+# treatment as the REVL folders above: lives in-repo for convenience, kept local only, never committed.
+Daily Pump*/
+DailyPumpData/
+source/dailypump/dpui
+source/dailypump/.cache/
+source/dailypump/__pycache__/

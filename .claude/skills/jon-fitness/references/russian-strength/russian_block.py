@@ -1,25 +1,25 @@
 #!/usr/bin/env python3
 """Generate the CSV for a Russian Strength Program block (the strength-block archetype).
 
-See `references/russian-strength-program.md` for the framework, the eligibility gate,
+See `references/russian-strength/russian-strength-program.md` for the framework, the eligibility gate,
 and the CPT mapping. This script only does the arithmetic the source spreadsheet does:
 target load = round(pct * 1RM) to the nearest plate step, laid out week by week, plus
 warm-up / accessory / cool-down / (optional) conditioning rows in the skill's CSV schema.
 
 Usage
 -----
-    python scripts/russian_block.py --variant v5 \
+    python references/russian-strength/russian_block.py --variant v5 \
         --oneRM "squat=140,bench=100,deadlift=180,press=70,pullup=25" \
         --out clients/john_tan_fitness_plan.csv
 
-    python scripts/russian_block.py --variant classic --focus squat \
+    python references/russian-strength/russian_block.py --variant classic --focus squat \
         --oneRM "squat=180,bench=120,deadlift=220" --units kg
 
     # peak into a meet: wave, then a taper week, then a 3-attempt meet day
-    python scripts/russian_block.py --variant v5 --meet --taper-weeks 1 \
+    python references/russian-strength/russian_block.py --variant v5 --meet --taper-weeks 1 \
         --oneRM "squat=180,bench=120,deadlift=220" --wave-lifts "squat,bench,deadlift"
 
-    python scripts/russian_block.py --variant masters --fat-loss \
+    python references/russian-strength/russian_block.py --variant masters --fat-loss \
         --oneRM "squat=110,bench=80,deadlift=140,press=55" \
         --wave-lifts "squat,deadlift"
 
@@ -145,7 +145,7 @@ def cooldown_row(week, day, session) -> list[str]:
 
 CARDIO_NOTE = ("Fat-loss conditioning - dose to the deficit + recovery headroom, NOT to a "
                "fixed minute target. The Ch 12 '150-250 min/wk' figure is obesity-population "
-               "guidance (see russian-strength-program.md sec 5). Off heavy lower-body days.")
+               "guidance (see references/russian-strength/russian-strength-program.md sec 5). Off heavy lower-body days.")
 
 
 def conditioning_rows(week, unit, peak: bool = False) -> list[list[str]]:

@@ -1,7 +1,7 @@
 # Strength Block — supplementary plan sections
 
 Add these sections to `<client_slug>_fitness_plan.md` when the program uses the
-**Russian Strength Program archetype** (see `references/russian-strength-program.md`).
+**Russian Strength Program archetype** (see `references/russian-strength/russian-strength-program.md`).
 They sit alongside the standard sections from `client_fitness_plan.md` — they do not
 replace `Program Strategy`, `Training Variable Reasoning`, etc.
 
@@ -45,7 +45,7 @@ information only; RD referral logged in Screening.)_
 | Intensification & peak (V5 wk 6–9 / Classic wk 4–6) | **maintenance** | easy Zone 1 only / steps; cut if recovery is tight | straight sets, lower volume |
 
 _(The Ch 12 "150–250 min/wk" figure is obesity-population guidance — for a lean, trained client
-recovery sets the cap, not a minute count. See `references/russian-strength-program.md` §5.)_
+recovery sets the cap, not a minute count. See `references/russian-strength/russian-strength-program.md` §5.)_
 
 - **Chosen approach:** deficit-within-block / sequential blocks
 - **If the client wants a faster ("aggressive") rate:** documented trade-offs given

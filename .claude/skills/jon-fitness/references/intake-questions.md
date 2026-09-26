@@ -116,7 +116,7 @@ Which sport, position, season phase, and key physical demands (power, endurance,
 ---
 
 **P13–P16 apply only when P1 = B (strength) or the client asks for a max-strength /
-powerlifting-style / "Russian" block.** See `references/russian-strength-program.md`.
+powerlifting-style / "Russian" block.** See `references/russian-strength/russian-strength-program.md`.
 
 ### P13. Barbell training background *(BLOCKING for the strength-block archetype — gate G2/G3)*
 A. 2+ yr consistent barbell training, confident under load — can state recent working weights
@@ -152,7 +152,7 @@ either. Ask: *"On Wednesdays, do you do a Move Upper (upper-body-only) session o
 (bench/squat-led, full-body) session? And what week of the 13-week block are you in — Volume,
 Build, Deload, Peak (which of the three), or Rebuild?"*
 *(The answer changes whether Wednesday is a lower-body-loaded day — see
-`references/revl-class-integration.md` §2/§5/§7. Log the Move-track shape and week number in
+`references/revl/revl-class-integration.md` §2/§5/§7. Log the Move-track shape and week number in
 the plan's evidence section — see `SKILL.md` §B4.)*
 
 ### P19. Training experience and total planned days *(IMPORTANT for any strength + conditioning plan)*
@@ -163,7 +163,7 @@ conditioning?"* And: *"Do you want four training days **in total** (counting any
 Treat the client as **trained** for the evidence rules if they have ≥ 1 year of consistent progressive lifting
 (definitions vary by study; see `references/trained-population-evidence.md` §3) and record the definition used.
 *(Changes how much conditioning and how many heavy exposures the week can hold — see
-`references/revl-class-integration.md` §10 for the class-plus-PT dosing rules and `docs/three-source-gap-analysis-and-4day-methodology.md`.)*
+`references/revl/revl-class-integration.md` §10 for the class-plus-PT dosing rules and `docs/three-source-gap-analysis-and-4day-methodology.md`.)*
 
 ### P20. Conditioning placement *(IMPORTANT when the plan has strength + conditioning)*
 Ask each of these; **do not assume**. (1) *"Do you want to get lean / 'shredded', or is fat loss not a goal?"*

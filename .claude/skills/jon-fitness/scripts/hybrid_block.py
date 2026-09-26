@@ -2,7 +2,7 @@
 """Generate the 12-week, 4-day hybrid strength + conditioning block as skill-schema CSV.
 
 Spec: `docs/twelve-week-four-day-program.md` (decisions, evidence grades, limits).
-Builds on `russian_block.py` (V5 wave, source: the V5 workbook) and adds the conditioning,
+Builds on `references/russian-strength/russian_block.py` (V5 wave, source: the V5 workbook) and adds the conditioning,
 primer, carry, test and rebuild layers. Only the V5 wave numbers are source; everything
 else is coach judgement, labelled in the `notes` column.
 
@@ -27,7 +27,9 @@ import csv
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+# russian_block.py now lives in references/russian-strength/ (moved for consistency with the other
+# Russian-specific files, 2026-09-27) - add it to the path so the import below still resolves.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "references" / "russian-strength"))
 import russian_block as rb  # noqa: E402
 
 DAY_ORDER = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
@@ -58,7 +60,7 @@ def choose_placement(primary_goal, conditioning, trained, can_split, fifth_day_o
         return "D", ["client wants no conditioning beyond easy aerobic work"]
     if not recovery_ok:
         return "D", ["recovery context does not support added intensity (gate G6 / sleep / stress) - "
-                     "remove the sprint block first (russian-strength-program.md sec 2, G6)"]
+                     "remove the sprint block first (references/russian-strength/russian-strength-program.md sec 2, G6)"]
     if fat_loss:
         why.append("fat loss / 'shredded' is a goal, so conditioning matters as much as strength; the deficit also "
                    "lowers recovery, so protect lifting by separating the modes where possible")
@@ -186,7 +188,7 @@ def week_10(one_rm, wave_lifts, step, unit):
         if day == "Mon":
             rows.append(rb.row(10, day, grp, "assessment", "Re-run the eligibility gate (G1-G7); review the training log; "
                                "record 1RMs (or estimated); choose next cycle's lifts", 1, "-", "-", "-", "-", "10 min", "-",
-                               "Reassess before the next block (SKILL.md B4; russian-strength-program.md sec 2)"))
+                               "Reassess before the next block (SKILL.md B4; references/russian-strength/russian-strength-program.md sec 2)"))
         rows.append(rb.cooldown_row(10, day, grp))
     return rows
 
@@ -246,7 +248,7 @@ def build(one_rm, wave_lifts, step, unit, cap100, option="A", fat_loss=False):
                                "raise steps before adding structured cardio",
                                "NEAT lever (Wk05 Ch8 p10, p26). Energy intake this week: " + phase +
                                ". Calories and diet detail are the client's / a registered dietitian's call "
-                               "(russian-strength-program.md sec 5; trained-population-evidence.md: slower loss and "
+                               "(references/russian-strength/russian-strength-program.md sec 5; trained-population-evidence.md: slower loss and "
                                "deficits <= ~500 kcal/day protect lean mass)."))
     rows.sort(key=lambda r: (int(r[0]), DAY_ORDER[r[1]]))  # stable: keeps within-day order
     return rows

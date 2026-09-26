@@ -1,7 +1,7 @@
 # Coaching decision framework — closing the diagnosis-to-action gap
 
 **Epistemic status: General knowledge.** Nothing in this file is ISA/ACE course content —
-it is outside `references/isa-cpt/` entirely. It exists because the eval harness
+it is outside `references/ace-cpt/isa-cpt/` entirely. It exists because the eval harness
 (`evals/`) found a specific, recurring failure mode across 16 scored scenarios (cycles
 9–11, failure category `poor_decision_hierarchy`): the model correctly **names** the
 mechanism or constraint at work, then doesn't let that diagnosis **change the plan** — it
@@ -24,8 +24,8 @@ name the specific study if the client or PT explicitly asks for the research cit
 and even then, hedge it as "commonly cited as..." rather than asserting the specific
 finding as settled fact you've personally verified.
 
-Use this file **alongside** `russian-strength-program.md`, `revl-class-integration.md`,
-and `programming-reference.md` — it governs *how* you commit to a decision once those
+Use this file **alongside** `russian-strength/russian-strength-program.md`, `revl/revl-class-integration.md`,
+and `ace-cpt/programming-reference.md` — it governs *how* you commit to a decision once those
 files tell you *what the options are*, not a replacement for them.
 
 ---
@@ -102,7 +102,7 @@ at the end of this file.
 - **Maintenance dose:** roughly 1/3 the volume of the developmental phase, similar
   intensity, is generally sufficient to retain a trained quality for several weeks — this is
   the applied basis for "reduce, don't drop" language used elsewhere in this skill
-  (`russian-strength-program.md` §3a's subset-lift maintenance prescription is the same
+  (`russian-strength/russian-strength-program.md` §3a's subset-lift maintenance prescription is the same
   logic, independently arrived at from the ISA course's minimum-dose language).
 
 **Decision rule:** when a client plateaus on two concurrently-trained qualities, or a new
@@ -112,7 +112,7 @@ primary for the next block and stepping the other down to maintenance. Ask the c
 quality takes priority for the stated time horizon before building the plan — never decide
 this unilaterally when both goals were stated as live.
 
-This is the same principle behind `revl-class-integration.md` §10's "never stack two
+This is the same principle behind `revl/revl-class-integration.md` §10's "never stack two
 strength peaks" rule — that section is this rule applied specifically to REVL + a Russian
 protocol. Apply the general version to any two concurrently-trained qualities, REVL-related
 or not (e.g. a hybrid strength + conditioning goal, marathon taper + hypertrophy block,
@@ -185,7 +185,7 @@ substance; two further confirmed failures despite the paragraph above:**
   sufficient change regardless of what it's called; either shrink the actual prescription or
   stop calling it minimal.
 - Before prescribing any ≥80% 1RM work as part of a "boredom" fix, run the
-  `russian-strength-program.md` §2 eligibility gate explicitly, enumerated item-by-item
+  `russian-strength/russian-strength-program.md` §2 eligibility gate explicitly, enumerated item-by-item
   (Pass/Fail/Unknown, per that file's own updated §2) — an unscreened or unconfirmed
   training history does not get near-maximal load just because the archetype's table says
   80% is where the wave starts.
@@ -199,7 +199,7 @@ hypertrophy goals alike.
 **Rule:** whenever you output a sets × reps × load/intensity table, state the trigger that
 moves it forward. Use whichever the course already gives for the context — 2-for-2 /
 double progression (Wk07 Ch11 p7, p20), RPE/RIR autoregulation (Wk05 Ch8 p15–20,
-`russian-strength-program.md` §4) — or, for a staged return (e.g. post-injury, pending
+`russian-strength/russian-strength-program.md` §4) — or, for a staged return (e.g. post-injury, pending
 clearance), a concrete stage-gate (e.g. "N consecutive sessions pain-free at this stage
 before progressing," with the pain-scale threshold named). Never leave progression
 implicit or absent.

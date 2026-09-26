@@ -51,7 +51,7 @@ context × constraint × PT-session frequency.
 
 > **BFT was dropped** from the library — the skill has no BFT reference, so BFT scenarios
 > could only test whether the skill *asks* rather than fabricates. If a BFT reference is
-> built later (the way `revl-class-integration.md` was), add a `bft` environment family here.
+> built later (the way `revl/revl-class-integration.md` was), add a `bft` environment family here.
 
 The **benchmark suite** (`benchmark: true`, all 40 in `adversarial.json`) is permanent and
 never rotated out — every cycle runs a slice of it so regressions surface immediately.
@@ -78,7 +78,7 @@ or stating an unsupplied REVL number as fact.
 `optimize.py --apply` (guarded, weekly on Sunday UTC):
 1. take the top ✅ candidate; refuse if the working tree is dirty
 2. a fresh Claude drafts the **smallest** edit to **one** skill/reference file — never
-   weakening safety/scope/evidence rules, never touching `russian-strength-program.md`
+   weakening safety/scope/evidence rules, never touching `russian-strength/russian-strength-program.md`
    unless the failure is about the Russian methodology itself
 3. run `run_cycle.py --benchmark-only` (regression) + a targeted sample of the affected category
 4. **keep** only if benchmark overall doesn't drop by > `--tol` (0.05) **and** the targeted

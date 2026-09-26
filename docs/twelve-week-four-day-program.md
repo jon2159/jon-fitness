@@ -2,7 +2,7 @@
 
 Status: **illustrative, not for a real client until intake and the eligibility gate are complete.** Draft 2026-09-20.
 It applies the skill's three foundations (ISA CPT, Russian V5, REVL logic) plus the research reviewed for Chalk's
-methods (`references/chalk-design-reference.md` §6). Every decision below follows
+methods (`references/chalk/chalk-design-reference.md` §6). Every decision below follows
 **source principle → gap → evidence → decision**, and the evidence is graded honestly.
 
 ## 0. What Chalk does and doesn't say about "4-day, 12 weeks"
@@ -91,11 +91,11 @@ The sprint doses are **Judgement** anchored on the ≤ 10 s subgroup finding; no
 
 ## 6. Progression, fatigue and monitoring
 - **Hold or drop ~5%** if the progression-day load hits RPE ≥ 9 twice running. **Nudge the working 1RM up** if an
-  anchor day sits ≤ RPE 6 (source: `russian-strength-program.md` §4; the RPE rules there are general knowledge).
+  anchor day sits ≤ RPE 6 (source: `russian-strength/russian-strength-program.md` §4; the RPE rules there are general knowledge).
 - **Auto-deload trigger:** failed 2-for-2, or RPE drifting up on the anchor day → anchor-only week or −10% loads.
   Remove the sprint session first if freshness slips for ~1 week.
 - **Log every session:** loads, reps, RPE, sleep hours, session RPE; review weekly (decision 10).
-- **Deficit running:** apply `russian-strength-program.md` §5 (maintenance calories in weeks 6–9).
+- **Deficit running:** apply `russian-strength/russian-strength-program.md` §5 (maintenance calories in weeks 6–9).
 
 ## 7. What is source, what is judgement
 - **Source:** the V5 wave, anchor structure, A/B split, gate, accessories' rep range, ISA Table 9-12 rest ranges.

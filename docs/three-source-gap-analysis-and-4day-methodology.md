@@ -8,14 +8,14 @@ The methodology (§4–§7) is the product; the 4-day template (§8) is one illu
 | Tag | Meaning |
 |---|---|
 | **Source** | Stated in a supplied artifact (ISA notes via the skill references, the Russian V5 spreadsheet record, the REVL posters/analyses). File cited. |
-| **T1–T5** | REVL provenance tiers from `revl-class-integration.md` §0 (T1 image-verified, T2 studio-confirmed, T3 OCR keyword count / lower bound, T4 inference, T5 not established). |
+| **T1–T5** | REVL provenance tiers from `revl/revl-class-integration.md` §0 (T1 image-verified, T2 studio-confirmed, T3 OCR keyword count / lower bound, T4 inference, T5 not established). |
 | **Literature** | Exercise-science finding recalled and cited by author/year in `source/revl_vs_russian_program_comparison.md`. Items graded in §12 were searched 2026-09-20 (summaries read, full papers not opened); everything else is unverified and directional only. |
 | **Judgement** | A programming decision by the coach. Not a source fact. |
 | **Unknown** | Not established by anything supplied. |
 
 **Corrections to the brief, from the files:**
 1. **The Russian program is 9 weeks, not 9 months.** V5 = 9 weeks (4-day), Classic = 6, Masters = 8
-   (`russian-strength-program.md` §3; `docs/russian-strength-integration-plan.md` §1a). Any longer plan is a
+   (`russian-strength/russian-strength-program.md` §3; `docs/russian-strength-integration-plan.md` §1a). Any longer plan is a
    coach-designed macrocycle and is labelled that way below. Confirmed by the user, 2026-09-20.
 2. **Chalk is a portfolio of tracks, and its public pages give design observations, not a method.** Verified by
    fetch: the landing page (app features, "customizable" schedules, an unsupported "U.S. Military protocols" claim);
@@ -24,7 +24,7 @@ The methodology (§4–§7) is the product; the 4-day template (§8) is one illu
    four days**); and PowerJacked (sprints/plyometrics + Olympic lifts + heavy compounds + bodybuilding in 4-week
    blocks; sample jump → squat → RDL → split squat → curl; frequency and dose unstated). No rep ranges, progression
    model or research are published. Chalk is therefore a bounded design reference
-   (`references/chalk-design-reference.md`); **no Chalk structure is copied or inferred.** Further detail is in
+   (`references/chalk/chalk-design-reference.md`); **no Chalk structure is copied or inferred.** Further detail is in
    `research_notes/Chalk coaching skill integration/` (other-session research; partly re-verified, see that reference).
 3. **REVL 2026 Block 3 Rebuild is unpublished** (T5). Only Volume → Peak is captured for that block.
 
@@ -47,7 +47,7 @@ The methodology (§4–§7) is the product; the 4-day template (§8) is one illu
   3×3 @ 95%, 2×2 @ 100%, 1×1 @ 105% (retest). Each lift is trained 2×/week, 72 h apart. Accessories are fixed.
   No built-in deload; the anchor day is the light exposure. Auto-deload / RPE layer is in §4 of the reference.
 - **Strengths:** clear specificity, %1RM loading, defined progression and retest; an eligibility gate (G1–G7).
-- **Limits:** **no conditioning or aerobic component at all** (`russian-strength-program.md` §1); all four days
+- **Limits:** **no conditioning or aerobic component at all** (`russian-strength/russian-strength-program.md` §1); all four days
   are heavy strength; no power/carry/movement-variety design; short (9 wk); demanding on recovery.
 - **Qualities developed:** maximal strength (weeks 5–9), hypertrophy/strength in weeks 1–4 (CPT mapping in §3a).
 - **Use:** experienced, cleared lifter with a maximal-strength goal. Others go to §6 scaled entry.
@@ -66,7 +66,7 @@ The methodology (§4–§7) is the product; the 4-day template (§8) is one illu
 - **Limits:** no individual screening or prescription; no easy aerobic work (T3, 0 of 623 sessions);
   time-capped only, so no untimed technique work; concurrent strength + conditioning in every session.
 - **Use:** as the model for *how conditioning is periodised around strength*, and as the client's existing
-  stimulus when they attend classes (`revl-class-integration.md`).
+  stimulus when they attend classes (`revl/revl-class-integration.md`).
 
 ## 2. The gap analysis — what an "extremely strong, still functionally fit" client still needs
 
@@ -96,7 +96,7 @@ macrocycle that continues past the 9-week wave. **Everything else already exists
   Must not be used as a reason to cap a screened, experienced lifter at 60–70% 1RM.
 - **Russian → the strength spine:** %1RM wave, anchor + progression exposure per lift, 72 h spacing, retest.
   Must not be run on all 5 lifts *and* full conditioning; V5 allows a **subset of wave lifts** with the rest at
-  a fixed maintenance dose (3 × 6–8 @ ~70%, `russian-strength-program.md` §3a).
+  a fixed maintenance dose (3 × 6–8 @ ~70%, `russian-strength/russian-strength-program.md` §3a).
 - **REVL → the conditioning logic and the block shape:** volume/density high early and falling as strength
   intensity rises; a formal testing week; power, unilateral and mixed-modal variety.
   Must not be copied as a session list or day-emphasis map; nothing here is a claim about a client's own REVL week.
@@ -119,12 +119,12 @@ Apply in order. Each step writes a line into the plan's evidence section.
 6. **Assign conditioning by interference rules (§5)**, then size it against the fatigue budget.
 7. **Add only the gap items (§2):** an easy-aerobic dose, a carry, a technique/primer block. Nothing else.
 8. **Progression rules:** wave loads from the Source table; RPE/RIR hold-or-drop trigger and auto-deload from
-   `russian-strength-program.md` §4; conditioning by *dose* (minutes/density), not by adding sessions.
+   `russian-strength/russian-strength-program.md` §4; conditioning by *dose* (minutes/density), not by adding sessions.
 9. **Testing:** 1RM only if G4 passes; otherwise estimated 1RM from a rep-max (Table 10-25). One repeatable
    conditioning baseline at start and end (REVL's Peak Wk 3 idea).
 10. **Reassess** at the end of every block against the gate and the client's reported recovery.
 
-**Branch B — client already trains at REVL.** Do not stack. Follow `revl-class-integration.md` §10 (Masters
+**Branch B — client already trains at REVL.** Do not stack. Follow `revl/revl-class-integration.md` §10 (Masters
 2-day or replace REVL's strength-track days; nothing near Peak Wk 2–3; ask what the client actually does).
 
 ## 5. Interference and fatigue rules (Judgement, informed by Literature)
@@ -159,7 +159,7 @@ Rules used in §8 (all Judgement):
   highest in Volume, lowest in Peak; T3).
 - **Weekly budget:** ≤ 1 dedicated hard conditioning block, plus short finishers, plus easy aerobic sessions
   that do not count as training days. If freshness markers slip for ~1 week, remove the hard block first.
-- **Fat-loss deficit running:** apply `russian-strength-program.md` §5 (maintenance in intensification weeks).
+- **Fat-loss deficit running:** apply `russian-strength/russian-strength-program.md` §5 (maintenance in intensification weeks).
 
 ## 6. Periodisation — one macrocycle, not two calendars
 
@@ -230,7 +230,7 @@ conditioning block first if freshness slips.
 ## 10. Open items and unknowns
 - The literature figures in the comparison file were recalled and spot-checked, not re-verified from papers.
 - Carries and Zone 1–2 gaps rest on T3 REVL counts (programme as written, lower bound).
-- The 51% barbell-hinge figure in `revl-class-integration.md` §17b is not reproduced by an independent count
+- The 51% barbell-hinge figure in `revl/revl-class-integration.md` §17b is not reproduced by an independent count
   (~34%); Monday-100% holds. Fix the table's definition before quoting.
 - REVL 2026 Block 3 Rebuild not captured (T5).
 - The 13-week nesting and week-10 design have no source and no client data behind them.
@@ -239,7 +239,7 @@ conditioning block first if freshness slips.
 
 ## 11. Line-by-line review against the source tables (2026-09-20)
 
-Sources checked: the V5 workbook (`russian-strength-program-v5-source.xlsx`, sheet *Russian Strength Program V5*,
+Sources checked: the V5 workbook (`russian-strength/russian-strength-program-v5-source.xlsx`, sheet *Russian Strength Program V5*,
 read directly from the file), ISA *Table 9-12* (Wk07 Ch11 p16, read from the extracted text), and the
 three-zone model (*Table 8-11*, Wk05 Ch8).
 
@@ -250,7 +250,7 @@ three-zone model (*Table 8-11*, Wk05 Ch8).
 | Mon/Tue 6×2 @ 80% every week | Workbook: same, incl. wk 9 | ✔ |
 | A = squat + bench, B = deadlift + press + pull-ups | Workbook rows 11–12 | ✔ |
 | Mon/Thu, Tue/Fri, 72 h spacing | Workbook days; spacing rule (Table 11-10 p11) | ✔ |
-| Squat/bench/deadlift on the wave; press + weighted pull-up at 3×6–8 @ ~70% | Workbook puts **all five** lifts on the wave (pull-up loads 24 → 31.5 kg in the example) | ⚠ Deviation. The subset rule is the skill's own (`russian-strength-program.md` §3a), not the workbook. Kept, labelled Judgement |
+| Squat/bench/deadlift on the wave; press + weighted pull-up at 3×6–8 @ ~70% | Workbook puts **all five** lifts on the wave (pull-up loads 24 → 31.5 kg in the example) | ⚠ Deviation. The subset rule is the skill's own (`russian-strength/russian-strength-program.md` §3a), not the workbook. Kept, labelled Judgement |
 | Bulgarian split squat, dips (A) | Workbook: BSS + dips, 2–3 × 8–12 | ✔ (sets/reps now 2–3 × 8–12) |
 | Face pulls 3 × 12–15 | Workbook: 2–3 × 8–12 | ✘ Corrected to 2–3 × 8–12 |
 | RDL omitted on B | Workbook lists RDLs | ⚠ Deviation, Judgement: deadlift is already loaded 2×/wk and conditioning was added |
@@ -260,8 +260,8 @@ three-zone model (*Table 8-11*, Wk05 Ch8).
 | Easy aerobic "conversational" | Zone 1 = below VT1 (Table 8-11); talk test marks VT1 | ✔ intensity; the 30–45 min dose is Judgement |
 | Box jumps, carry, finishers, Fri block, week 10, rebuild | Not in the workbook or ISA tables | Additions, all labelled Judgement |
 
-**Skill-wide consequence (not yet fixed):** the same wk 1 error sits in `russian-strength-program.md` §3a (table)
-and in `scripts/russian_block.py` (`V5_WAVE` first entry `(6, 2, 0.80)` should be `(6, 3, 0.80)`); the
+**Skill-wide consequence (not yet fixed):** the same wk 1 error sits in `russian-strength/russian-strength-program.md` §3a (table)
+and in `references/russian-strength/russian_block.py` (`V5_WAVE` first entry `(6, 2, 0.80)` should be `(6, 3, 0.80)`); the
 `docs/russian-strength-integration-plan.md` may repeat it. **These are skill files — I have not edited them.**
 
 ## 12. Research check of the template's load-bearing claims
@@ -306,6 +306,6 @@ to match what the meta-analyses show; the frequency and periodisation claims dow
 - **Variation:** priority lifts stay fixed; only accessories vary, since variation is not shown superior in trained lifters.
 - **Delivery:** add a training log and a weekly review to every plan (Michie 2009, indirect evidence).
 - **Frequency claims:** none. Frequency is chosen for feasibility; the FBA "threefold growth" claim is unsupported.
-- Details and evidence grades: `references/chalk-design-reference.md` §6.
+- Details and evidence grades: `references/chalk/chalk-design-reference.md` §6.
 - **Correction (trained-population review):** the "bike rather than running" rule in §5 is not supported for HIIT (Sabag 2018);
   Coleman 2024 (resistance-trained) argues against complete-rest deloads. See `references/trained-population-evidence.md`.

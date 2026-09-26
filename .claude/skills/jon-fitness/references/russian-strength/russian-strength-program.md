@@ -41,7 +41,7 @@ chain mobility, bodyweight/core/balance; *Wk02 Ch2 p10–11*). Barbell strength 
 
 **The archetype has no cardio component.** It is a pure strength wave — no Zone 1–2 easy
 aerobic work is built in anywhere, on a Russian-only client just as much as a REVL one
-(`revl-class-integration.md` §6a covers this gap for REVL clients specifically; it applies
+(`../revl/revl-class-integration.md` §6a covers this gap for REVL clients specifically; it applies
 here **even when REVL isn't in the picture at all**). Add easy aerobic work as a standard
 part of any Russian-block client's weekly plan unless a stated goal or the cardio FITT-VP
 *(Wk05 Ch8)* says otherwise — don't wait for a REVL trigger to raise it.
@@ -141,7 +141,7 @@ for general-population clients use an **estimated 1RM from a rep-max**, not a tr
 Keeps the block flexible without leaving what the course supports.
 
 - **Target load = `round(pct × 1RM, 2.5 kg)`** — the same arithmetic as the source spreadsheet.
-  `scripts/russian_block.py` generates the whole block from entered 1RMs (or from an RPE-
+  `russian_block.py` generates the whole block from entered 1RMs (or from an RPE-
   anchored top set → estimated 1RM). `--taper-weeks N` appends N light taper microcycles;
   `--meet` appends a 3-attempt meet/retest week and drops the wave's own in-block 1×1 test.
 - **RPE / RIR check (General knowledge, aligned with the course's use of RPE as an intensity
@@ -152,7 +152,12 @@ Keeps the block flexible without leaving what the course supports.
   forcing true maxes (sub-maximal strength assessment, Table 10-25, *Wk06 Ch10 p75*).
 - **Auto-deload:** insert a low microcycle (anchor-only week, or −10% loads) when 2-for-2 fails
   across a week or RPE drifts up on the anchor day — Course-supported rationale: periodization's
-  main benefit is planned physical & mental recovery (*Wk07 Ch11 p42*).
+  main benefit is planned physical & mental recovery (*Wk07 Ch11 p42*). **For a trained lifter,
+  prefer this reduced-load microcycle over a full week of no training** — see
+  `references/trained-population-evidence.md` (Coleman 2024: a full-rest week did not improve later
+  gains in resistance-trained lifters and lowered lower-body strength gains versus continuous
+  training). The RPE/RIR check above is itself validated in experienced/resistance-trained lifters
+  (Helms 2018; Zourdos 2016) — same file.
 - **Tempo:** controlled; 1–3 s concentric / 2–4 s eccentric, ~6 s reps while a new lifter is
   still grooving a pattern (*Wk07 Ch11 p17*).
 - **Bar-velocity / velocity-loss cutoffs:** General knowledge, not in the notes — offer only if
@@ -253,7 +258,7 @@ Set the method in the plan's **Retest Plan** section, chosen by client type:
   the loads carried each week. This is the course's sub-maximal strength assessment, *"appropriate
   for inexperienced exercisers"* (*Wk06 Ch10 p75*).
 - **REVL client, no separate test needed:** REVL's Peak phase includes a dedicated,
-  coached strength-testing week (`revl-class-integration.md` §3) — **ask whether the client
+  coached strength-testing week (`../revl/revl-class-integration.md` §3) — **ask whether the client
   has been through it and what it produced** rather than assuming it happened on schedule.
   A confirmed result **can be used** instead of re-testing, satisfying gate G4 and this
   section's requirement without stacking a third maximal week.
@@ -278,9 +283,9 @@ In `B4 — Design the program`, after step 1 (Program strategy):
 5. If fat loss is concurrent → **§5**: pick deficit-within-block or sequential; set conditioning
    and accessory density; keep nutrition to general information + RD referral.
 6. Set **autoregulation rules** (§4) and the **retest method** (§7).
-7. Write the Markdown using `templates/strength_block_plan.md` sections in addition to the
+7. Write the Markdown using `strength_block_plan.md` sections in addition to the
    standard `client_fitness_plan.md` structure. Generate the CSV with
-   `scripts/russian_block.py` (see `templates/strength_block.csv` for the shape) — pass
+   `russian_block.py` (see `strength_block.csv` for the shape) — pass
    `--fat-loss` for the concurrent-deficit case, `--meet --taper-weeks N` for a dated meet.
    The script already emits warm-up, cool-down and conditioning rows; review and adjust them.
 8. Validate (B7) — `validate_plan.py` runs extra checks when it sees a strength block (gate

@@ -15,7 +15,7 @@ as used in the skill's references.
 
 ---
 
-## R1. Update `revl-class-integration.md` coverage + numbers (highest value)
+## R1. Update `revl/revl-class-integration.md` coverage + numbers (highest value)
 
 **What the data shows.** The 2025 blocks confirm every structural rule in the reference
 (§3 macrocycle, §4 phase table, §5a weekday matrix, deload = strength-only, Peak Wk 2–3
@@ -67,8 +67,8 @@ shape plus future variants.
 engines agree]. The reference already says "capture the tested maxes — they satisfy the
 current-1RM requirement (G4/§7)".
 
-**Suggested edits (small, in `revl-class-integration.md` §3 and
-`russian-strength-program.md` §7 cross-ref).**
+**Suggested edits (small, in `revl/revl-class-integration.md` §3 and
+`russian-strength/russian-strength-program.md` §7 cross-ref).**
 1. State the observed test menu as the **expected retest evidence**: deadlift 1RM,
    push press/jerk 1RM, 3RM baselines, Sweat Engine/Sprint baselines the following week.
 2. Rule: a **Masters 2-day wave started in Rebuild** should be anchored to the Peak Wk 2
