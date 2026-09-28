@@ -76,11 +76,6 @@ volume, don't add a new stimulus, prescribe only within what's already screened 
 building out a full detailed program as if the gap weren't there. Naming the gap as
 BLOCKING and giving a deliberately minimal holding action **is** the default recommendation
 in that case; it is not the "open-question list" this rule warns against.
-When a new symptom triggers medical clearance under the course screening algorithm,
-that holding action is to stop or defer the affected exercise and refer for clearance.
-Do not say "hold the current program" if continuing it could expose the client to the
-unassessed symptom, and do not prescribe an aerobic or strength dose before clearance.
-A possible post-clearance direction may be named as conditional, not prescribed now.
 
 ## 3. Concurrent training & competing goals — primary/maintenance, not two full doses
 
@@ -116,12 +111,6 @@ better scheduling around a fixed weekly structure. Default to naming **one** qua
 primary for the next block and stepping the other down to maintenance. Ask the client which
 quality takes priority for the stated time horizon before building the plan — never decide
 this unilaterally when both goals were stated as live.
-If the client explicitly refuses to reduce one quality, treat that choice as their
-stated priority. Check screening and total recovery first. If headroom remains, offer a
-small, specific dose of the new quality and a reassessment trigger, with realistic
-expectations for slower progress; suggest changing the quality of an existing hard
-session where acceptable. If no headroom remains, say why no new hard work fits. Do not
-frame the choice as either a full second program or no progress at all.
 
 This is the same principle behind `revl/revl-class-integration.md` §10's "never stack two
 strength peaks" rule — that section is this rule applied specifically to REVL + a Russian
@@ -134,10 +123,6 @@ sport season + a strength peak).
 When REVL + PT (or any two training relationships combined) reach **~7–8 sessions/week**,
 treating the count as fixed and only adjusting content is the recurring failure. Reducing
 frequency or duration is a legitimate default answer, not a fallback.
-Available appointment slots set a ceiling, not a quota: recommend booking fewer PT
-sessions when the client has no distinct need for every slot. Converting a slot to
-assessment or recovery still uses the client's time and should have a client-specific
-purpose.
 
 **Rule:** whenever total weekly training sessions reach ~7 or more, your response must
 explicitly present **at least one of**: fewer PT sessions, shorter PT sessions, or

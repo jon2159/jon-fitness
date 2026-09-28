@@ -261,42 +261,6 @@
         "Does not invent or cite Daily Pump exercise, rep or progression prescriptions",
         "Uses established relevant sources rather than importing unavailable Daily Pump content"
       ]
-    },
-    {
-      "id": 20,
-      "prompt": "A fictional experienced former rugby player does five hard conditioning sessions every week. He wants to start improving maximal strength but will not reduce the number of conditioning sessions. His medical screening and recovery details are incomplete. What is your provisional coaching decision? No files.",
-      "expected_output": "Treats the existing conditioning as the chosen priority without adding a full peak; Checks screening and recovery before heavy loading; Offers a conditional minimum feasible strength exposure and reassessment trigger only if capacity exists; Explains slower gains and which conditioning session quality could change without demanding a sixth hard day",
-      "files": [],
-      "expectations": [
-        "Treats the client's decision to retain conditioning as the current priority, without stacking a full strength peak",
-        "Does not prescribe near-maximal loads before screening and recovery are confirmed",
-        "Explains a conditional, minimum feasible strength exposure and a reassessment trigger if recovery allows",
-        "Discusses changing the quality of an existing hard conditioning session and realistic strength-gain expectations"
-      ]
-    },
-    {
-      "id": 21,
-      "prompt": "A fictional client attends five REVL classes a week and asks to book all three PT slots you have available for more muscle. Her current phase, actual class exposure, screening and recovery are unknown. What would you recommend today? No files.",
-      "expected_output": "Counts eight proposed weekly appointments; Does not book three PT slots simply because they exist; Gives a lower-frequency provisional default while checking screening and actual REVL exposure; Adds work only for a confirmed under-served need",
-      "files": [],
-      "expectations": [
-        "Counts five REVL classes plus three PT slots as eight proposed weekly appointments",
-        "Recommends fewer PT appointments unless each has a distinct client-specific purpose",
-        "Keeps additions conditional on screening, phase, actual class exposure and recovery",
-        "Does not equate low-cost filler sessions with a necessary training dose"
-      ]
-    },
-    {
-      "id": 22,
-      "prompt": "A fictional 32-year-old does four spin classes each week but is unexpectedly breathless walking upstairs. She wants you to prescribe extra cardio to improve her fitness. She says she is healthy but has not had the breathlessness assessed. What do you do now, and what could you consider after appropriate clearance? No files.",
-      "expected_output": "Treats unexplained breathlessness with mild exertion as a screening concern; Defers extra exercise prescription and refers for medical assessment as the course requires; Does not assume the classes are all high intensity or that an aerobic-base deficit is established; Gives only a conditional post-clearance review of actual activity and goals",
-      "files": [],
-      "expectations": [
-        "Recognizes unexplained breathlessness on stairs as a screening concern and defers extra exercise",
-        "Does not tell her to continue the current program or prescribe Zone 1-2 work before appropriate clearance",
-        "Avoids assuming all spin classes are glycolytic or that an aerobic-base deficit is proven",
-        "After clearance, proposes assessing actual class intensity, activity and recovery before deciding whether any aerobic dose is needed"
-      ]
     }
   ]
 }

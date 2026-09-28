@@ -1,0 +1,90 @@
+{
+ "ts": "20260928T070841Z",
+ "cycle": 24,
+ "label": "post-citation-nutrition-fix-verify",
+ "skill_version": {
+  "commit": "5a99109",
+  "skill_dirty": true,
+  "skill_hash": "bf4a2202cb401d5d",
+  "skill_files": 25
+ },
+ "n_selected": 1,
+ "n_scored": 1,
+ "rows": [
+  {
+   "ts": "20260928T070841Z",
+   "cycle": 24,
+   "label": "post-citation-nutrition-fix-verify",
+   "set": "benchmark",
+   "commit": "5a99109",
+   "skill_hash": "bf4a2202cb401d5d",
+   "skill_dirty": true,
+   "scenario_id": "ADV-034",
+   "family": "adversarial",
+   "environment": "revl",
+   "revl_phase": "Rebuild",
+   "goal": "bodycomp",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5,
+    "E": 5,
+    "F": 5,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 5,
+    "L": 5,
+    "M": 5,
+    "N": 5,
+    "O": 4
+   },
+   "goal_alignment": 5,
+   "load_management": 5,
+   "recovery": 4,
+   "individualisation": 5,
+   "programming_quality": 4,
+   "long_term_planning": 5,
+   "safety": 5,
+   "overall": 4.667,
+   "skill_referenced": true,
+   "priorities_hit": [
+    "Name the conflict: a strength peak in a large deficit degrades both the peak and recovery",
+    "Reference the deficit-periodisation options in russian-strength-program.md \u00a75",
+    "Nutrition specifics are out of scope \u2014 refer to a registered dietitian",
+    "If both must happen, moderate the deficit during accumulation and maintain during intensification",
+    "Account for REVL's 4 sessions in the total recovery budget"
+   ],
+   "priorities_missed": [],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Correctly applies the REVL+Russian gate (\u00a710a-e): identifies that 'no deficit' is a stated precondition for running the wave as written, so defaults to Masters regardless of phase headroom",
+    "Reproduces both \u00a75 deficit-periodisation options accurately (in-block moderate-then-maintenance vs. sequential blocks) and lets the client's stated priority choose between them rather than picking unilaterally",
+    "Keeps nutrition strictly at the background/RD-referral level \u2014 states the course's studied kcal band as calibration context, explicitly declines to assign her a number, matching the source file's own carve-out on this exact failure mode",
+    "Does not accept 'experienced and cleared' as satisfying the full eligibility gate \u2014 itemizes G1-G7 and flags which remain unanswered",
+    "Ties frequency, volume and intensity reduction all back to specific cited sections (\u00a710c, \u00a73a subset rule) rather than generic caution",
+    "Asks a genuinely decision-turning clarifying question (which goal is the near-term priority) instead of guessing"
+   ],
+   "major_errors": [],
+   "missed_opportunities": [
+    "Could give a slightly more concrete weekly progression trigger (RPE/2-for-2 rule from \u00a74) for the Masters block rather than leaving progression implicit",
+    "Doesn't name specific complementary/conflicting exercises between REVL's own lift selection and the 1-2 focus lifts kept on the wave"
+   ],
+   "duplication_risk": "low - response actively guards against it via the subset rule, Masters default, and explicit 7-8 session-count flag",
+   "recommended_improvement": "none",
+   "failure_category": "none",
+   "consistency_score": 5,
+   "contradictions": [],
+   "seconds": 126.4,
+   "response": "Short answer: **don't run the Russian wave \"as written\" here \u2014 the deficit is the disqualifying factor, not just REVL.** Reduce it to the Masters 2-day variant and don't let both stressors peak at once.\n\n## Why\n\nTwo references govern this stack: `russian-strength-program.md` (the protocol) and `revl-class-integration.md` \u00a710 (whether/how much to layer it onto REVL). Both flag this exact combination.\n\n**1. REVL + Russian gate (revl-class-integration.md \u00a710a\u201310e)**\nRebuild is treated like Volume \u2014 moderate headroom, so a Russian protocol is *considerable*, not automatically excluded. But \u00a710e is explicit: running the wave \"as written\" requires REVL in Volume/Rebuild **and** *\"no deficit\"* among its conditions. A big deficit fails that on its own \u2014 reduce (\u00a710c) or default to Masters, regardless of phase.\n\n**2. Frequency, independent of the deficit**\nREVL already trains hinge on ~every session of its strength day and very frequently across the week (\u00a75); at 4x/week she's spending most of the course's 2\u20133 hard-sessions-per-muscle-group budget (Wk07 Ch11 Table 11-10, p11) on REVL alone. \u00a710c is direct: *\"The V5 4-day and Classic 3-day variants rarely fit alongside full REVL participation. The Masters 2-day variant is the default Russian option for a REVL client.\"* That holds even before the deficit is added.\n\n**3. The deficit compounds it (russian-strength-program.md \u00a75)**\n*\"A hard peak in a deficit degrades recovery and the retest\"* \u2014 the file makes you choose one of two shapes, not both at full intensity:\n- **Deficit within the block** \u2014 moderate deficit during accumulation, maintenance during intensification/peak weeks, or\n- **Sequential blocks** \u2014 fat-loss block first (higher conditioning, denser accessories), then eat at maintenance and run the strength block for the real peak.\n\nShe's asking for a **big** deficit specifically \u2014 that's the \"lose fat quickly\" case the file calls out separately: a larger deficit is a nutrition decision for her and an RD, and on the training side it pushes you toward the smaller wave-lift subset or Masters, *not* the full 4-day peak, plus more conditioning/circuit-style accessory work to support the deficit.\n\n## Default recommendation\n\n- **Gate check first** \u2014 don't accept \"experienced and cleared\" as satisfying the whole eligibility gate (\u00a72). That likely covers G1 (medical clearance) and G2 (experienced), but G3 (movement screens), G4 (loaded-testing contraindications), G5 (equipment), G6 (recovery context \u2014 assessed for REVL + protocol + deficit combined), G7 (population override) still need an explicit answer each.\n- **Variant: Masters, 2 days/week**, anchor at 60\u201370%, gentler top end (~2\u00d72 @ 95\u2013100%), not V5/Classic. Run it *alongside* REVL rather than replacing sessions, since Rebuild has moderate headroom \u2014 but keep it on 1\u20132 focus lifts, not all 5, given the deficit (russian-strength-program.md \u00a73a subset rule: other lifts hold at 3\u00d76\u20138 @ ~70%).\n- **Deficit shape \u2014 ask her which she's prioritizing for what horizon** (this is the concurrent-competing-goals call, `coaching-decision-framework.md` \u00a73: one quality gets the primary dose, the other steps to maintenance for the block):\n  - If the strength PB matters more right now \u2192 moderate deficit during the block, bump to maintenance calories for the final intensification weeks so the retest isn't compromised.\n  - If the fat-loss goal is the actual priority \u2192 run the big deficit now with Masters at reduced intensity (a maintenance-dose strength stimulus, not a peak), and push the real peak to a later block once she's back at maintenance calories.\n- **Session count**: REVL (4) + Masters (2) = 6/week \u2014 reasonable. If added conditioning for the deficit pushes this toward 7\u20138, flag that explicitly as one of the options (fewer/shorter sessions) rather than just piling on low-cost content (revl-class-integration.md \u00a711 step 4).\n- **Nutrition**: I can tell you the course's studied band (moderate deficit \u2248 \u2212250 to \u2212500 kcal/day \u2192 1\u20132 lb/week, Wk09 Ch12 p29\u201333) as background, and that \"big\"/aggressive goes beyond it with real costs \u2014 more lean-mass and strength loss, blunted wave performance, higher fatigue. Assigning her an actual number is an RD/client call, not mine.\n- **Retest**: true 1-RM/3-RM given she's experienced, but check first whether REVL's own Peak-phase testing week (\u00a77) already produces a usable result before scheduling a separate max test.\n\nIf you want, give me her name (or confirm she has a plan file already) and I'll run the gate properly and write this into her plan."
+  }
+ ]
+}

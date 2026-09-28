@@ -22908,17 +22908,18 @@
    "prompt": "Client says she wants better conditioning. She already does 4 spin classes a week and gets breathless walking upstairs. 32, healthy as far as she knows.",
    "expected_priorities": [
     "The contradiction is the signal \u2014 4 spin classes and breathless on stairs warrants investigation",
-    "Ask about the symptom properly; consider referral if it's disproportionate",
-    "Likely a missing aerobic base: all-out spin classes are glycolytic, not base-building",
-    "Prescribe true Zone 1-2 work, which her current training never provides",
-    "Do not add more high-intensity intervals"
+    "Ask about the symptom properly and refer for medical assessment before changing exercise because breathlessness with mild exertion is a screening concern",
+    "Do not assume the spin classes are all-out or that a missing aerobic base is established without checking their actual intensity",
+    "After appropriate clearance, assess current activity and recovery before deciding whether easy aerobic work is needed",
+    "Do not add more high-intensity intervals or prescribe a new cardio dose before clearance"
    ],
    "traps": [
     "Adding more intervals",
     "Ignoring the breathlessness as a possible red flag"
    ],
    "must_not": [
-    "Ignore disproportionate breathlessness without asking about it"
+    "Ignore disproportionate breathlessness without asking about it",
+    "Prescribe extra exercise before medically concerning breathlessness is assessed"
    ]
   },
   {
@@ -23022,7 +23023,7 @@
    "environment": "revl",
    "revl_phase": "Peak Wk 1",
    "goal": "hybrid_size_classes",
-   "prompt": "Two clients, same request: 'more muscle, keeping REVL 4x a week.' One is a 24-year-old who sleeps 9 hours and is 2 years trained. The other is a 47-year-old shift worker, 8 years trained, sleeps 5-6 hours. Same programme for both?",
+   "prompt": "Two clients are both in REVL Peak week 1, attending 4x a week, and request more muscle. One is a 24-year-old who sleeps 9 hours and is 2 years trained. The other is a 47-year-old shift worker, 8 years trained, sleeps 5-6 hours. Same programme for both?",
    "expected_priorities": [
     "No \u2014 the correct answer differs, and the difference must be explained",
     "Recovery capacity, training age and life load change the dose, not the goal",

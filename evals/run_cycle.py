@@ -164,6 +164,10 @@ def grade_prompt(s, response, rubric):
     return f"""You are grading a personal-trainer AI's programming response as a senior strength &
 conditioning coach and sports scientist. Be strict and specific. Reward correct decisions and
 sound trade-off reasoning; do NOT reward length, exercise variety, or making a session sound hard.
+Scenario metadata below is for indexing and may include facts the answerer was not given.
+Judge whether the response used a client fact only if that fact appears in CLIENT MESSAGE.
+Do not penalize the answerer for asking about a phase, recovery detail or training history
+that is present only in metadata or expected priorities, not in CLIENT MESSAGE.
 
 === RUBRIC ===
 {rubric}
