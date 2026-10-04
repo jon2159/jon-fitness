@@ -144,9 +144,14 @@ def analyse():
                 cat_examples[fc].append(r["scenario_id"])
 
     trap = Counter(t for r in recent for t in r.get("traps_fallen_into", []))
-    recs = Counter(r.get("recommended_improvement", "").strip()
-                   for r in recent
-                   if r.get("recommended_improvement", "").strip().lower() not in ("", "none"))
+    # grader suggestions, kept per failure category so a cluster only sees fixes
+    # that came from its own failing scenarios
+    recs_by_cat = defaultdict(Counter)
+    for r in recent:
+        rec = r.get("recommended_improvement", "").strip()
+        fc = r.get("failure_category")
+        if rec and rec.lower() != "none" and fc and fc != "none":
+            recs_by_cat[fc][rec] += 1
 
     # which target file each failing scenario family points at
     fam_cat = Counter((r.get("family"), r.get("failure_category")) for r in recent
@@ -162,7 +167,7 @@ def analyse():
             related_traps=[t for t, _ in trap.most_common(20)
                            if any(t in r.get("traps_fallen_into", []) for r in recent
                                   if r.get("failure_category") == fc)][:3],
-            grader_suggestions=[s for s, _ in recs.most_common(50)][:3],
+            grader_suggestions=[s for s, _ in recs_by_cat[fc].most_common(3)],
         ))
 
     L = [f"# jon-fitness optimization proposals\n",
