@@ -294,6 +294,7 @@ def main(argv=None):
     state["cycle"] = state.get("cycle", 0) + 1
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     version = skill_version()
+    effective_runner = getattr(claude, "_runner_name", args.runner)
     print(f"skill version: {version['commit']}"
           f"{' +dirty' if version['skill_dirty'] else ''} "
           f"hash={version['skill_hash']} ({version['skill_files']} files)", file=sys.stderr)
@@ -327,6 +328,7 @@ def main(argv=None):
                                            args.grade_timeout, REPO)
         row = dict(
             ts=ts, cycle=state["cycle"], label=args.label, set=s.get("set", "primary"),
+            runner=effective_runner,
             commit=version["commit"], skill_hash=version["skill_hash"],
             skill_dirty=version["skill_dirty"],
             scenario_id=s["id"], family=s.get("family"), environment=s.get("environment"),
@@ -366,7 +368,8 @@ def main(argv=None):
 
     scored = [r for r in rows if "overall" in r]
     (CYCLES / f"{ts}.json").write_text(json.dumps(dict(
-        ts=ts, cycle=state["cycle"], label=args.label, skill_version=version,
+        ts=ts, cycle=state["cycle"], label=args.label, runner=effective_runner,
+        skill_version=version,
         n_selected=len(picked), n_scored=len(scored), rows=rows), indent=1))
 
     if not scored:
