@@ -195,6 +195,11 @@ Mode A answer with a programming implication) must apply before you finalize:
   (framework §5).
 - **State a progression trigger on every load table** — 2-for-2/double progression,
   RPE/RIR, or a concrete stage-gate — never leave it implicit (framework §6).
+- **Narrow-scope refusal (e.g. "arms only, no legs")** → give an immediate default plan that
+  honours the scope and reframes toward compound upper-body pulling/pressing as the arm-growth
+  lever; don't open with intake questions or trade the client a lower-body compromise. Keep
+  calorie targets with an RD (never quote a kcal deficit) and keep lifting intensity high
+  through any deficit.
 - **Two concurrently-trained demanding qualities plateauing or competing** → default to
   block periodization (one primary, one at maintenance dose for a defined block), not
   better scheduling around a fixed structure (framework §3). Ask which quality the client
