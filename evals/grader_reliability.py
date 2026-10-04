@@ -38,6 +38,7 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 CYCLES = HERE / "results" / "cycles"
 FIXTURES = HERE / "grader_fixtures.json"
+SCENARIOS = HERE / "scenarios" / "scenarios.json"
 OUT = HERE / "results" / "GRADER_RELIABILITY.md"
 
 
@@ -57,6 +58,7 @@ def build_fixtures(from_cycle=None, n=8):
         print(f"only {len(scored)} usable rows in {src.name}", file=sys.stderr)
         return None
     scored.sort(key=lambda r: r["overall"])
+    scenarios = {s["id"]: s for s in json.loads(SCENARIOS.read_text())["scenarios"]}
     # even spread across the observed score range
     idx = [round(i * (len(scored) - 1) / (min(n, len(scored)) - 1)) for i in range(min(n, len(scored)))]
     picks = [scored[i] for i in sorted(set(idx))]
@@ -64,10 +66,7 @@ def build_fixtures(from_cycle=None, n=8):
         fixture_id=f"FX-{k+1:02d}",
         source_cycle=data["ts"],
         scenario_id=r["scenario_id"],
-        scenario={kk: r.get(kk) for kk in
-                  ("scenario_id", "family", "environment", "revl_phase", "goal",
-                   "training_age", "recovery_context", "constraint", "pt_frequency")},
-        prompt_fields_note="re-grading uses the stored response; scenario meta is for the grader prompt",
+        scenario=scenarios[r["scenario_id"]],
         response=r["response"],
         original_overall=r["overall"],
     ) for k, r in enumerate(picks)]
@@ -81,17 +80,6 @@ def build_fixtures(from_cycle=None, n=8):
 def _rubric_sha():
     import hashlib
     return hashlib.sha256(RUBRIC.read_text().encode()).hexdigest()[:12]
-
-
-def _mini_scenario(fx):
-    # a lean scenario dict the grade prompt can consume
-    s = dict(fx["scenario"])
-    s["id"] = fx["scenario_id"]
-    s["prompt"] = "(original client message — see transcript; response graded on its merits)"
-    s["expected_priorities"] = []
-    s["traps"] = []
-    s["must_not"] = []
-    return s
 
 
 def spearman(a, b):
@@ -125,7 +113,10 @@ def main():
     rubric = RUBRIC.read_text()
     per_fixture = []
     for fx in fxdata["fixtures"]:
-        s = _mini_scenario(fx)
+        s = fx["scenario"]
+        if not all(k in s for k in ("prompt", "expected_priorities", "traps", "must_not")):
+            print("fixtures omit grading context — re-run with --refreeze", file=sys.stderr)
+            return 1
         gradings = []
         for i in range(args.k):
             graw, _ = claude(grade_prompt(s, fx["response"], rubric), args.grade_timeout, REPO,
@@ -189,7 +180,7 @@ def main():
 
     OUT.write_text("\n".join(lines) + "\n")
     print(f"\nwrote {OUT.relative_to(REPO)}", file=sys.stderr)
-    return 0
+    return 0 if ok else 1
 
 
 if __name__ == "__main__":
