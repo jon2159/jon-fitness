@@ -1,0 +1,88 @@
+{
+ "ts": "20261004T123751Z",
+ "cycle": 28,
+ "label": "target-poor_decision_hierarchy",
+ "runner": "claude",
+ "skill_version": {
+  "commit": "2a0e7cb",
+  "skill_dirty": true,
+  "skill_hash": "a7146a6330896fce",
+  "skill_files": 25
+ },
+ "n_selected": 12,
+ "n_scored": 0,
+ "rows": [
+  {
+   "scenario_id": "ADV-037",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "ADV-038",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "ADV-039",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "ADV-040",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "ADV-001",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "ADV-002",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "ADV-003",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "SC-0051",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "SC-0052",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "SC-0053",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "SC-0054",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  },
+  {
+   "scenario_id": "SC-0055",
+   "error": "exit 1: ",
+   "cycle": 28,
+   "ts": "20261004T123751Z"
+  }
+ ]
+}
