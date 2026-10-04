@@ -165,9 +165,8 @@ def analyse():
             grader_suggestions=[s for s, _ in recs.most_common(50)][:3],
         ))
 
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%MZ")
     L = [f"# jon-fitness optimization proposals\n",
-         f"_Generated {ts} from {len(R)} scored runs across cycles {cycles[0]}–{cycles[-1]} "
+         f"_Generated from {len(R)} scored runs across cycles {cycles[0]}–{cycles[-1]} "
          f"(clustering the last {len(set(r['cycle'] for r in recent))} cycles)._\n",
          "## Weakest dimensions (recent)\n", "| Dim | Name | Mean |", "|---|---|--:|"]
     for mean, d in weak:

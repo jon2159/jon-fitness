@@ -1,6 +1,6 @@
 # jon-fitness optimization proposals
 
-_Generated 2026-10-04 11:17Z from 284 scored runs across cycles 1–26 (clustering the last 6 cycles)._
+_Generated from 284 scored runs across cycles 1–26 (clustering the last 6 cycles)._
 
 ## Weakest dimensions (recent)
 
