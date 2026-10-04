@@ -260,14 +260,21 @@ change nothing and print `NO-EDIT — <why>`.
     after = _benchmark_mean()
     # targeted improvement sample
     print("running targeted sample ...")
+    tlabel = f"target-{p['failure_category']}"
+    n_before = sum(1 for r in _all_rows() if r.get("label") == tlabel)
     subprocess.run([sys.executable, str(HERE / "run_cycle.py"), "--n", str(sample),
                     "--label", f"target-{p['failure_category']}"], cwd=str(REPO))
     tgt_delta = _category_delta(p["failure_category"])
+    # no freshly scored targeted rows (e.g. every call errored) or no delta => no evidence => revert
+    fresh = sum(1 for r in _all_rows() if r.get("label") == tlabel) - n_before
+    if fresh <= 0:
+        print("targeted sample produced no scored rows — no evidence, reverting")
 
     keep = (after is not None and before is not None
             and after >= before - tol
-            and (tgt_delta is None or tgt_delta >= gain))
-    print(f"benchmark {before} -> {after}  |  targeted category delta {tgt_delta}  "
+            and fresh > 0
+            and tgt_delta is not None and tgt_delta >= gain)
+    print(f"benchmark {before} -> {after}  |  targeted category delta {tgt_delta} ({fresh} fresh rows)  "
           f"|  {'KEEP' if keep else 'REVERT'}")
 
     git("add", "evals/results")
