@@ -19,7 +19,7 @@ Modes
                 2. run  run_cycle.py --n <sample> on scenarios in the affected
                    family/category (targeted improvement check)
               Keep the edit only if benchmark overall does not drop by > --tol
-              AND the targeted sample improves by >= --gain. Otherwise git-revert
+              AND the targeted category failure rate drops by >= --gain (rate points). Otherwise git-revert
               the edit. Always commit the results; commit the skill edit only if kept.
 
 Usage
@@ -264,7 +264,7 @@ change nothing and print `NO-EDIT — <why>`.
     n_before = sum(1 for r in _all_rows() if r.get("label") == tlabel)
     subprocess.run([sys.executable, str(HERE / "run_cycle.py"), "--n", str(sample),
                     "--label", f"target-{p['failure_category']}"], cwd=str(REPO))
-    tgt_delta = _category_delta(p["failure_category"])
+    tgt_delta = _category_delta(p["failure_category"], tlabel)
     # no freshly scored targeted rows (e.g. every call errored) or no delta => no evidence => revert
     fresh = sum(1 for r in _all_rows() if r.get("label") == tlabel) - n_before
     if fresh <= 0:
@@ -306,16 +306,25 @@ def _benchmark_mean():
     return round(statistics.mean(v), 3) if v else None
 
 
-def _category_delta(cat):
+def _category_delta(cat, label):
+    """Reduction in the category's failure RATE: baseline rate minus the rate on the
+    targeted sample (rows carrying `label`, latest cycle). Positive = fewer failures.
+    Baseline = the last 6 cycles before that sample, excluding apply-trial runs
+    (target-/regr-/probe labels). None if either side has no scored rows."""
     R = rows()
-    cyc = sorted({r["cycle"] for r in R})
-    if len(cyc) < 2:
+    tgt = [r for r in R if r.get("label") == label]
+    if not tgt:
         return None
-    old = [r["overall"] for r in R if r["cycle"] in cyc[:-2] and r.get("failure_category") == cat]
-    new = [r["overall"] for r in R if r["cycle"] in cyc[-2:] and r.get("failure_category") == cat]
-    if not old or not new:
+    tc = max(r["cycle"] for r in tgt)
+    tgt = [r for r in tgt if r["cycle"] == tc]
+    base_rows = [r for r in R if r["cycle"] < tc
+                 and not str(r.get("label", "")).startswith(("target-", "regr-", "probe"))]
+    cyc = sorted({r["cycle"] for r in base_rows})[-6:]
+    base = [r for r in base_rows if r["cycle"] in cyc]
+    if not base:
         return None
-    return round(statistics.mean(new) - statistics.mean(old), 3)
+    rate = lambda xs: sum(r.get("failure_category") == cat for r in xs) / len(xs)
+    return round(rate(base) - rate(tgt), 3)
 
 
 def main():
