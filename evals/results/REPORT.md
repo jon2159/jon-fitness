@@ -1,22 +1,22 @@
 # jon-fitness — evaluation performance history
 
-_Auto-written by `evals/run_cycle.py`. 333 trained-distribution runs, 0 generalization, 0 wildcard, across 29 cycles._
+_Auto-written by `evals/run_cycle.py`. 379 trained-distribution runs, 0 generalization, 0 wildcard, across 33 cycles._
 
-## Scoreboard — cycle 29 vs 28
+## Scoreboard — cycle 33 vs 32
 
 | Metric | Current | Previous | Trend |
 |---|--:|--:|:-:|
-| Overall (trained) | 3.86 | 4.33 | ↓ |
-| Goal alignment | 3.96 | 4.50 | ↓ |
-| Load management | 3.92 | 4.50 | ↓ |
-| Recovery | 4.04 | 4.00 | ↑ |
-| Individualisation | 3.67 | 4.00 | ↓ |
-| Programming quality | 3.83 | 4.00 | ↓ |
-| Safety | 3.83 | 5.00 | ↓ |
-| Consistency (0-5) | 3.25 | 4.00 | ↓ |
-| Benchmark overall | 3.79 | 4.33 | ↓ |
+| Overall (trained) | 3.91 | 3.80 | ↑ |
+| Goal alignment | 3.98 | 3.50 | ↑ |
+| Load management | 3.93 | 4.00 | ↓ |
+| Recovery | 3.86 | 3.50 | ↑ |
+| Individualisation | 3.79 | 3.50 | ↑ |
+| Programming quality | 3.75 | 3.50 | ↑ |
+| Safety | 4.14 | 5.00 | ↓ |
+| Consistency (0-5) | 3.59 | 4.00 | ↓ |
+| Benchmark overall | 3.91 | 3.80 | ↑ |
 | Generalization overall | — | — | — |
-| **Hard failures (count)** | **2** | 0 | ↓ |
+| **Hard failures (count)** | **3** | 0 | ↓ |
 
 ## Cycle history
 
@@ -51,35 +51,44 @@ _Auto-written by `evals/run_cycle.py`. 333 trained-distribution runs, 0 generali
 | 27 | 20261004T115536Z | 36 | **3.87** | 4.01 | 3.90 | 3.82 | 3.79 | 3.69 | 3.92 | 4.08 | regr-poor_decision_hierarchy |
 | 28 | 20261004T163443Z | 1 | **4.33** | 4.50 | 4.50 | 4.00 | 4.00 | 4.00 | 5.00 | 5.00 | probe-recheck |
 | 29 | 20261004T163538Z | 12 | **3.86** | 3.96 | 3.92 | 4.04 | 3.67 | 3.83 | 3.58 | 3.83 | target-recheck |
+| 30 | 20261004T165233Z | 5 | **3.95** | 4.20 | 3.95 | 3.70 | 3.80 | 4.00 | 4.00 | 4.20 | hand-individualisation |
+| 31 | 20261004T165800Z | 18 | **3.83** | 4.06 | 3.86 | 3.92 | 3.69 | 3.64 | 3.89 | 3.83 | hand-individualisation-broad |
+| 32 | 20261005T153457Z | 1 | **3.80** | 3.50 | 4.00 | 3.50 | 3.50 | 3.50 | 4.00 | 5.00 | probe-b |
+| 33 | 20261005T153540Z | 22 | **3.91** | 3.98 | 3.93 | 3.86 | 3.80 | 3.75 | 4.05 | 4.14 | hand-individualisation-broad2 |
 
 ## Latest cycle — weakest dimensions
 
 | Dim | Name | Mean |
 |---|---|--:|
-| K | individualisation | 3.58 |
-| M | long_term_coherence | 3.58 |
-| B | training_specificity | 3.75 |
-| D | volume_management | 3.75 |
-| J | progression | 3.75 |
-| L | practicality | 3.75 |
+| I | exercise_selection | 3.68 |
+| B | training_specificity | 3.73 |
+| K | individualisation | 3.73 |
+| D | volume_management | 3.77 |
+| H | recovery_compatibility | 3.77 |
+| J | progression | 3.82 |
 
 ## Latest cycle — failure categories
 
 | Category | n |
 |---|--:|
-| poor_decision_hierarchy | 3 |
-| insufficient_individualisation | 2 |
+| insufficient_individualisation | 5 |
+| poor_context_interpretation | 3 |
+| excessive_rigidity | 1 |
 | poor_load_management | 1 |
+| poor_decision_hierarchy | 1 |
 
 ## Latest cycle — most-hit traps
 
-- (1×) Wrote three full hypertrophy sessions because three slots exist, and defaulted to running all three
-- (1×) Prescribing more work than the time allows (12-14 hard sets plus a carry per 30-minute session, with a 5-min warm-up and a cool-down, is over budget; the fix is deferred to 'cut set counts')
+- (1×) Partial: a fairly full upper-body session of about 14-16 sets, with calves and arms added, is on the heavy side for a client reporting chronic fatigue
+- (1×) Partial: grip/elbow accumulation is acknowledged only through generic back-off triggers, while two weighted pull sessions plus rows are programmed without a grip-load rationale
+- (1×) Used 'Russian squat protocol' / 'Russian squat wave' phrasing in the response, partly echoing the incorrect name
+- (1×) Writes three full hypertrophy sessions (about 15, 15 and 8 working sets) as the default because three slots exist
 
 ## Hard failures in the latest cycle
 
-- **ADV-038** — Prescribed three additional hypertrophy sessions of roughly 40-50 min each on top of 5 REVL sessions as the default (about 14-17 working sets per upper session). They are isolation-focused and low systemic cost, but the hard-failure condition is still arguably triggered. Dimension D is scored 2 rather than 0 because of the mitigations.
-- **SC-0052** — Possible unsupported REVL claims asserted as fact: 'No day of a REVL week leaves the lower body unloaded', 'Upper-body work is concentrated on fewer days than lower-body work', and 'Build loads are climbing toward near-maximal'. They are tagged to the REVL reference but without a lower-bound or provenance caveat, and the grader cannot verify them from the response alone. Affects C, K and N, which are held at 3-4 rather than zeroed because they are labelled as reference-derived.
+- **ADV-026** — Possible unsupported REVL claim stated as fact: 'REVL already loads squat and hinge patterns on most training days', with no provenance label and no client statement
+- **ADV-026** — Invented client information: the client is called 'her' although no gender was given, and 'her heaviest lower-body REVL day' implies schedule knowledge the client never gave
+- **ADV-038** — Does not clearly trigger. Three sessions on top of 5 REVL is the stated hard failure, but the sessions are non-lower-body, partly low-axial and caveated, and the response says to cut Session C first if markers slip. Borderline, so no zero is applied, but C and D are capped at 3.
 
 ## Benchmark (regression) trend
 
@@ -112,18 +121,22 @@ _Auto-written by `evals/run_cycle.py`. 333 trained-distribution runs, 0 generali
 | 27 | 36 | 3.87 |
 | 28 | 1 | 4.33 |
 | 29 | 7 | 3.79 |
+| 30 | 3 | 3.91 |
+| 31 | 18 | 3.83 |
+| 32 | 1 | 3.80 |
+| 33 | 22 | 3.91 |
 
 ## Consistency contradictions — latest cycle
 
-- **ADV-037** — "The lower-body part is my coaching judgement from general knowledge. I haven't pulled course pages for it" is followed by specific unsupported figures stated as fact: "Restart at roughly 60–70% of his old loads", "Progress about 5–10% a week", "clears within about 48 hours" and "peaks around 24–72 hours". The response admits it has no source, yet it gives these numbers with no flag that they are heuristics.
-- **ADV-037** — "Cancel the session if he can't move comfortably" sits alongside "Train around it... Upper-body work at a reduced load is fine" and "Add easy movement... bike". The conditions for training upper body and moving versus cancelling the whole session are not clearly separated. This is a soft ambiguity, not a hard contradiction.
-- **ADV-038** — "Do not train to failure, because her cumulative fatigue is already high" asserts high fatigue as fact, though the client's recovery/fatigue state was never given. It is also stated alongside "I don't yet know her phase".
-- **ADV-038** — "My default is to run all three as written" (including C) sits uneasily with "Session C is the one to cut first... the most expensive session" and the opening point that she has no full rest day. Running the costliest session by default is only weakly justified.
-- **ADV-038** — "Keep PT clear of about 24 h either side of her densest mixed REVL day and her hinge-led day" is hard to reconcile with "three PT sessions means at least one lands on a REVL day" and with 8 sessions in 7 days. Five REVL days plus a 24 h buffer around two of them leaves almost no valid slots, and the plan gives no concrete resolution.
-- **ADV-038** — Session B is placed "on or next to her upper-body-led REVL day, since REVL barely loads her legs that day", but B is an upper-body session (chest, shoulders, triceps). Stacking it on the REVL upper day adds pressing volume to the very area REVL already loads, which contradicts the stated aim of adding work REVL under-serves.
-- **ADV-038** — Session B includes an incline DB press and a low-to-high cable fly, which are chest work, while the stated REVL gaps list no chest. This is a minor mismatch with the 'under-served' rationale.
-- **ADV-038** — "Hypertrophy band from Table 9-12" and "Wk07 Ch11 p7, p20" are cited to the course digest while the plan admits "I haven't re-verified the page this turn". The RIR 1–3 and the 60–90 s rest are given with only soft support.
-- **ADV-038** — The plan assumes "Volume or Rebuild" as the default but gives no volume cut or build-up rule for Rebuild. It only gives a Build adjustment, so Rebuild is treated like Volume without justification.
-- **ADV-038** — Fixed 3–4 sets of 8–15 reps with 60–90 s rest is stated as the default dose for all three sessions. Yet the Build row says to halve the volume, and the plan never says how this default relates to an unknown training age.
-- **ADV-039** — Opens with "trim volume a little" and "Drop extra accessory sets", but the progression trigger says "add about 5% load" and the client asked for harder sessions. This is a soft tension: it says to hold load and not make sessions harder, then builds in load increases. It is partly justified by the conditional "if load can't hold or rises, don't add volume".
-- **ADV-039** — The progression rule says "If load can't hold or rises, don't add volume. That's the signal the deficit is too big." The phrase "or rises" is incoherent, because rising load is the success condition elsewhere ("If her lifts are flat or rising, she is retaining muscle"). It treats a rising load as a sign the deficit is too big.
+- **ADV-019** — "Tell him plainly that you want the shoulder assessed before more bench loading" and "Don't add PT bench or overhead pressing" sit alongside "Once he's released, progress bench... add roughly 5% when it's met". The 5% increment is stated without a known current load, training age, or REVL phase, and the plan admits "I don't know which phase he's in". This is a soft unsupported specific number, though it is hedged with "Check the exact page before citing it".
+- **ADV-019** — "Ask him to flag it to his REVL coaches. They can scale pressing in class" treats REVL as something to modify while the plan elsewhere says the shoulder needs clinician clearance. It does not say whether he should keep doing REVL bench while waiting for the assessment, so the interim advice on his existing pressing exposure is left unresolved.
+- **ADV-019** — "Carries, if they're pain-free for him" and "Lower-body and core work" are suggested as safe PT-time fillers before any assessment, while the plan says only a clinician can decide what is safe for the shoulder. Carries load the shoulder girdle isometrically, which slightly undercuts the "nothing shoulder-loading until assessed" stance.
+- **ADV-019** — "Bench loads also climb toward near-maximal in Build and Peak" and the claim that the REVL reference lists the anterior shoulder as a local fatigue site are given as fact, while the plan admits it has not re-opened the supporting pages this turn. The page citations are hedged, but these claims are not.
+- **ADV-020** — "Run those on a non-REVL day, or as a short block at the start of a session" sits uneasily with "The first job isn't adding volume" and with the stated 3x/week REVL schedule. It never says whether she has a PT session or a free non-REVL day, so the added work may not fit her schedule.
+- **ADV-020** — It cites Table 14-2 "no sudden explosive moves" as a youth rule, then recommends a plyometric/landing progression for the same client. It does flag this as a judgement call, but it reads the rule as limiting only "maximal, uncontrolled work". That reading is an interpretation of a course line it has just quoted as a ban.
+- **ADV-020** — It says "at 17, her growth plates may or may not be fully closed. You can't confirm that", but also says "The course says 1RM isn't appropriate for her age" and tells the parents "A 1RM test brings injury risk". The first is hedged and the second two are stated as certain for her.
+- **ADV-020** — It states "ACL risk in female athletes is a real issue" and "A 1RM test... only a rough link to jumping" with no source. The first is labelled general knowledge and the second is not labelled.
+- **ADV-021** — "Zone-2 cardio, which also covers the course's ≥5 d/wk moderate-activity recommendation" is offered as a bolt-on, but the plan is built on a 2-day floor. Bolt-ons only happen on available days, so the ≥5 d/wk target is not met on the weeks he can make only 2 sessions.
+- **ADV-021** — "If it's hypertrophy or max strength, the 2-day core matters more" sits badly with the earlier claim that two full-body days meet the baseline. Two sessions a week is a thin dose for hypertrophy or max strength. The plan also says it will not add a max-strength protocol, so the line gives no guidance.
+- **ADV-021** — "Ask him which number is real" and "Set the plan to the lower, reliable number" conflict with the opening default of a 2-day floor. The default is fixed before any attendance data is checked. The later line "he's a 2–3 day client" then implies a third session should be core, not a bolt-on.
+- **ADV-021** — "Bolt-ons stay at RPE ≤6–7" conflicts with "a third full-body session at lower volume or RPE, or a split day aimed at his weak point". A split day aimed at a weak point implies real volume. The plan also gives no check on total weekly load across 6 days.
