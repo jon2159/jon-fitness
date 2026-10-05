@@ -1,4 +1,4 @@
-# AGENTS.md
+# CLAUDE.md
 
 ## What this repository is
 
@@ -15,17 +15,6 @@ continuous evaluation harness. Two things live here:
 The gym-programming content directories (`REVL Block*/`, `source/isa-cpt-pdfs/`) are raw
 source material, not code. Python is used only for tooling — there is no app to build, run,
 or deploy.
-
-## Repository layout
-
-| Path | What |
-|---|---|
-| `.claude/skills/jon-fitness/` | The skill: `SKILL.md` (behavior spec), `references/` (course notes + derived digests), `templates/`, `scripts/` |
-| `evals/` | Scenario generation, scoring rubric, cycle runner, optimizer, results |
-| `source/` | Raw PDFs + extraction scripts (`build.py`, `polish.py`, `strip_images.py`, `extract_revl.py`, `analyze_revl.py`) |
-| `REVL Block 1/2/3 programming 2026/` | ~264 gym-workout screenshot PNGs (git-ignored, **local only**) with `INDEX.md` + analysis per block |
-| `clients/` | Per-client plan pairs `<name>_fitness_plan.{md,csv}` (git-ignored — **personal health data, never publish**) |
-| `docs/` | Design documents kept as rationale (e.g. `russian-strength-integration-plan.md`) |
 
 ## Essential commands
 
