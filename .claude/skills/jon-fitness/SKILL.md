@@ -195,6 +195,10 @@ Mode A answer with a programming implication) must apply before you finalize:
   (framework §5).
 - **State a progression trigger on every load table** — 2-for-2/double progression,
   RPE/RIR, or a concrete stage-gate — never leave it implicit (framework §6).
+- **Client states a preference, fear, layoff, or response that shapes the plan** (machines-only,
+  returning after a break, daily soreness, "make it harder") → say what it changes, give a
+  staged path with an advance criterion per stage, and name the signals that would adjust it —
+  an "optional later" or "it'll settle" mention is not enough (framework §8).
 - **Two concurrently-trained demanding qualities plateauing or competing** → default to
   block periodization (one primary, one at maintenance dose for a defined block), not
   better scheduling around a fixed structure (framework §3). Ask which quality the client

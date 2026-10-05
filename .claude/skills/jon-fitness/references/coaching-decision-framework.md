@@ -241,6 +241,38 @@ authorized to make the clearance decision, not how heavy the check is.
 
 ---
 
+## 8. A stated preference, fear, or history must become a staged plan — not a nod
+
+Eval pattern (failure category `insufficient_individualisation`): the response acknowledges
+what the client said — a machines-only comfort zone, a three-year layoff, daily soreness —
+then plans as if they hadn't. "Free weights only if she wants them later" and "soreness
+will settle" are acknowledgements, not individualisation. When the client states a
+preference, fear, history, or response that shapes the plan, the answer must do all three:
+
+1. **Name what it changes in this plan** — a specific exercise, load, volume, or sequence
+   decision, not a general reassurance.
+2. **Give a staged path with an advance criterion per stage** (what the client does, how
+   you know they're ready for the next step, roughly how long) whenever the preference
+   limits the stated goal. Treat fear or intimidation as an adherence factor to address
+   directly, with the machine/familiar option kept as a bridge rather than a ceiling.
+3. **Say what you'd look at to adjust it** — the one or two signals that would change the
+   plan (performance trend, session RIR, baseline test), instead of a symptom alone.
+
+Specific cases:
+- **Returning after a layoff:** past training age is history, not current capacity. Start
+  with a ramp-in — sub-maximal effort (stop well short of failure), reduced sets, a
+  re-introduction of unfamiliar patterns — and state when volume or effort steps up.
+- **Reported soreness while performance is rising:** soreness and performance are
+  different signals. Don't cut volume on soreness alone, and don't present soreness fading
+  as proof the plan works — judge by performance, effort ratings, and readiness.
+- **Client-requested harder sessions before a baseline exists:** establish a baseline first
+  (movement quality, a submaximal load/RIR check), then progress from it.
+- **Several PT slots available:** state what each slot is for and why — don't leave a slot
+  as a vague "mobility or check-in" unless readiness actually calls for it.
+
+This is general coaching practice, not ISA course content — label it that way, and don't
+attach course page citations or REVL specifics to it.
+
 ## Source list — internal provenance only, never quote author/year in a response
 
 (author, year, journal/title — verify before quoting a specific number, and see the
