@@ -1,22 +1,22 @@
 # jon-fitness — evaluation performance history
 
-_Auto-written by `evals/run_cycle.py`. 435 trained-distribution runs, 0 generalization, 0 wildcard, across 38 cycles._
+_Auto-written by `evals/run_cycle.py`. 482 trained-distribution runs, 0 generalization, 0 wildcard, across 42 cycles._
 
-## Scoreboard — cycle 38 vs 37
+## Scoreboard — cycle 42 vs 41
 
 | Metric | Current | Previous | Trend |
 |---|--:|--:|:-:|
-| Overall (trained) | 3.83 | 4.04 | ↓ |
-| Goal alignment | 3.95 | 4.12 | ↓ |
-| Load management | 3.78 | 4.09 | ↓ |
-| Recovery | 3.69 | 4.25 | ↓ |
-| Individualisation | 3.69 | 3.81 | ↓ |
-| Programming quality | 3.83 | 3.88 | ↓ |
-| Safety | 4.06 | 4.12 | ↓ |
-| Consistency (0-5) | 3.44 | 3.50 | ↓ |
-| Benchmark overall | 3.83 | 4.04 | ↓ |
+| Overall (trained) | 3.95 | 3.92 | → |
+| Goal alignment | 4.00 | 4.01 | → |
+| Load management | 3.90 | 3.91 | → |
+| Recovery | 4.10 | 3.86 | ↑ |
+| Individualisation | 3.60 | 3.66 | ↓ |
+| Programming quality | 4.00 | 3.87 | ↑ |
+| Safety | 4.00 | 4.23 | ↓ |
+| Consistency (0-5) | 3.60 | 3.56 | ↑ |
+| Benchmark overall | 3.95 | 3.92 | → |
 | Generalization overall | — | — | — |
-| **Hard failures (count)** | **2** | 0 | ↓ |
+| **Hard failures (count)** | **1** | 0 | ↓ |
 
 ## Cycle history
 
@@ -60,43 +60,35 @@ _Auto-written by `evals/run_cycle.py`. 435 trained-distribution runs, 0 generali
 | 36 | 20261006T164006Z | 11 | **3.91** | 4.05 | 3.95 | 3.95 | 3.82 | 3.82 | 3.73 | 4.18 | revl-scan-targeted2 |
 | 37 | 20261006T165016Z | 8 | **4.04** | 4.12 | 4.09 | 4.25 | 3.81 | 3.88 | 4.25 | 4.12 | revl-scan-broad2 |
 | 38 | 20261006T214840Z | 32 | **3.83** | 3.95 | 3.78 | 3.69 | 3.69 | 3.83 | 4.12 | 4.06 | revl-scan-broad3 |
+| 39 | 20261007T061936Z | 6 | **4.02** | 4.25 | 4.04 | 4.00 | 3.75 | 4.08 | 3.83 | 4.33 | extra-volume-targeted |
+| 40 | 20261007T080554Z | 1 | **3.73** | 4.00 | 3.75 | 3.50 | 3.50 | 4.00 | 3.00 | 4.00 | extra-volume-targeted |
+| 41 | 20261007T090108Z | 35 | **3.92** | 4.01 | 3.91 | 3.86 | 3.66 | 3.87 | 4.26 | 4.23 | extra-volume-broad |
+| 42 | 20261007T132527Z | 5 | **3.95** | 4.00 | 3.90 | 4.10 | 3.60 | 4.00 | 4.20 | 4.00 | extra-volume-broad2 |
 
 ## Latest cycle — weakest dimensions
 
 | Dim | Name | Mean |
 |---|---|--:|
-| H | recovery_compatibility | 3.47 |
-| K | individualisation | 3.66 |
-| D | volume_management | 3.69 |
-| I | exercise_selection | 3.69 |
-| B | training_specificity | 3.72 |
-| L | practicality | 3.72 |
+| K | individualisation | 3.40 |
+| D | volume_management | 3.60 |
+| B | training_specificity | 3.80 |
+| F | frequency_management | 3.80 |
+| I | exercise_selection | 3.80 |
+| L | practicality | 3.80 |
 
 ## Latest cycle — failure categories
 
 | Category | n |
 |---|--:|
-| insufficient_individualisation | 8 |
-| poor_decision_hierarchy | 4 |
-| poor_load_management | 2 |
-| poor_context_interpretation | 1 |
-| excessive_rigidity | 1 |
-| missing_knowledge | 1 |
+| poor_load_management | 1 |
 
 ## Latest cycle — most-hit traps
 
-- (1×) Partially: it prescribes a 40-45 min, 3x8-12 upper-body hypertrophy session in Peak week 1 (limited to upper body at RIR 2-3, so not a full-body session)
-- (1×) Asking so many questions that nothing is actionable for tomorrow (partially: long staged question list and long branching section, though the session itself is concrete)
-- (1×) Mild: stage 2 adds sets to the first three movements, although it is gated by recovery criteria and is not high volume
-- (1×) Ignoring grip/elbow accumulation to a degree: two weighted pulling sessions per week at 4x3-5 each stack on 4 climbing days, and the elbow and tendon load of weighted pull-ups plus deadlifts is not directly discussed
-- (1×) Partly: 'first change is the dose balance, not the structure' and 'a small, specific change' if he refuses to cut lean toward small tweaks, though the main recommendation is a block structure
-- (1×) Writes three full hypertrophy sessions because three slots exist. Sessions 1 and 2 have 18–20 sets each, and session 3 has 14 sets plus a carry.
-- (1×) Partially giving both the same Peak week 1 programme (support-only for both), despite opening with 'No'
+- (1×) Writes out three full hypertrophy sessions (about 45 added hard sets) because three slots exist, though C is hedged
 
 ## Hard failures in the latest cycle
 
-- **ADV-038** — Prescribes about 52 sets of added volume across three sessions on top of 5 REVL sessions, with no volume count against REVL's weekly totals. This is the listed hard failure, so D scores 0–2 and H and C are penalised.
-- **ADV-040** — Prescribes identical volume to both clients in Peak week 1 (support-only/no added work for both) — borderline; the response differentiates from Rebuild onward and hedges that the 47-year-old may get less
+- **ADV-038** — Roughly 45 added hard sets a week on top of 5 REVL sessions is close to the stated hard failure. The response admits it can't size this against REVL totals, and still defaults to it at full dose. It is partly mitigated by the upper-body focus, the conditional C, and the trim advice.
 
 ## Benchmark (regression) trend
 
@@ -137,18 +129,22 @@ _Auto-written by `evals/run_cycle.py`. 435 trained-distribution runs, 0 generali
 | 36 | 6 | 3.83 |
 | 37 | 8 | 4.04 |
 | 38 | 32 | 3.83 |
+| 39 | 2 | 4.03 |
+| 40 | 1 | 3.73 |
+| 41 | 35 | 3.92 |
+| 42 | 5 | 3.95 |
 
 ## Consistency contradictions — latest cycle
 
-- **ADV-009** — The opening default says to "spend the hour on a short, upper-body-only hypertrophy session at RIR 2–3" while also saying "Peak is the wrong window for 'more muscle'" and that the dosing rule is "no additive strength work unless the PT work replaces a REVL strength day". The default is added hypertrophy volume, and the answer admits it is only "a mild stretch of the 'support only' cap" without showing that it replaces a REVL strength day.
-- **ADV-009** — The headline default is "Skip it entirely in the testing weeks", yet the same answer prescribes a testing-week session of "activation, mobility, one light technique primer and recovery work", and the client has one PT hour a week. The 'skip' and the 'do something' instructions conflict.
-- **ADV-009** — The answer states Peak is "three weeks, with weeks 2–3 as testing" and then offers a "heavy-wave week" as a separate third option. That leaves one non-testing week, but the plan is built as if the heavy-wave week might be any Peak week and asks the user to say which one it is.
-- **ADV-009** — The progression rule "add about 5%" and the claim "expect maintenance more than visible growth" are stated without support, and the number is not labelled as general knowledge rather than course-derived. This is a mechanism or number stated as fact.
-- **ADV-009** — "Peak has the least neural headroom of any phase" is stated as fact without citation, and it is the premise for the whole decision.
-- **ADV-010** — "Allow some soreness in week 1 as the new routine settles" sits slightly awkwardly with the stance that soreness is not a marker, but it is framed as expected side effect, so this is minor.
-- **ADV-010** — States as fact that "Her 'hard' sessions probably feel hard from novelty and fatigue, not from load" and that "When she repeats an exercise, the soreness drops even though the training is still effective" without support beyond a general-knowledge tag (the first claim has no tag at all).
-- **ADV-010** — Cites specific course locations and numbers ("raise the load about 5% (Week 07 Ch 11 p7)", "Table 9-12, p16") while also admitting "I haven't opened the course pages this turn"; the sources are presented with page precision despite being unverified.
-- **ADV-010** — Does not account for any existing REVL/class/concurrent training exposure before recommending to "Add sets on the lifts that are progressing" in Stage 2 (the client's concurrent training is never asked about in the open questions).
-- **ADV-011** — "Start with one PT session a week... kept to roughly half a session in Build and none that is additive in Peak" conflicts with the default of "one PT session a week" and "4 sessions a week in total", since the stated default PT session is partly or fully removed in Build and Peak without saying what replaces it.
-- **ADV-011** — "His own coached REVL Peak test can supply that 1RM once he confirms it happened" sits oddly beside "Testing week: Add nothing load-bearing" and the unknown phase, so the 1RM source is speculative and not yet established.
-- **ADV-011** — "Novice or returning lifter: Build foundations (Movement phase)" and "Light technique work... RIR 3+" are prescribed before training age is known, while the plan itself says training age is unknown. This is a soft inconsistency that the staged branching mostly covers.
+- **ADV-036** — Item 3 asserts "REVL probably already trains squat/hinge patterns more than once a week" and then uses that to say squatting on every rest day would break the "2–3 hard sessions per muscle group per week" budget, while also saying "I haven't confirmed this client's actual days". The central volume argument rests on an unverified assumption about REVL exposure.
+- **ADV-036** — It says "Run the Masters 2-day variant ... on **one** non-REVL day". A 2-day variant is described as two sessions per week, but it is prescribed as a single session on one day. The dosing is unclear and conflicts with the 'one session' advice.
+- **ADV-036** — The "Progression trigger" section says "If the anchor day sits at RPE ≤6, nudge the working 1RM up" and sets %1RM-based anchors ("~60–70%", "~5%") while the gate check lists G3 movement competence and G4 contraindications to loaded testing as "Unknown" and says "I treat Unknown as unmet". It still gives a concrete load prescription before the gate is cleared, which cancels the 'unmet' stance.
+- **ADV-036** — The recommendation states "Build and Peak phases are already a barbell strength progression" and "two concurrent strength peaks" as fact, and says squatting on all rest days gives "a worse result on both". The only support is that it is the author's reading of an integration reference (§10). The claim is partly hedged but the mechanism and 'worse result' are asserted without support.
+- **ADV-036** — It says to "Replace" the overlapping REVL day with the wave 'keeping REVL's conditioning-format sessions', yet the opening argues against a second strength peak and for recovery. Replacing a REVL strength day with a Russian squat wave in Build is not dose-neutral, and the plan does not account for total weekly load for the 3 remaining REVL sessions plus the wave. The statement 'Peak... replaces REVL's strength days' is also inconsistent with the earlier claim that the plan 'only applies to Build'.
+- **ADV-037** — Item 2 says "Skip the planned session" and "If he can't walk comfortably, rest or walk", but also offers "Upper body or unaffected muscle groups at a normal-to-reduced load" with no check that he can do this without aggravating his gait or that upper-body work is not part of the same sore session. This is a soft inconsistency.
+- **ADV-037** — The re-entry table says "Session 3 onward... roughly 90–100% of pre-holiday loads" while the text says "strength mostly holds" after 3 weeks. It also says "As heavy as before" is the cause, which is a mild tension between a 100% target and the stated cause. The ramp is labeled as the author's own judgement, so this is minor.
+- **ADV-037** — It states "Soreness typically peaks around 24–72 hours... settles within about a week" and that rhabdomyolysis is "rare but real" as fact, in a response that also says it is "mostly General knowledge" and that no course page was opened. These are flagged as general knowledge, but the mechanism and timing are not supported.
+- **ADV-038** — Opens with "book Sessions A and B at full dose" as the default, but the phase table says Build means "Run A and B at about half the sets" and Peak/testing is "Support work only". The "full dose" default is stated while her phase is unknown, so it is applied without checking the phase rule it later sets.
+- **ADV-038** — Says "I can't size that against her REVL totals until I know her track and phase", yet it prescribes a specific ~45 added hard sets/week at "full dose" and says that is the default. That is a firm volume prescription made before the REVL exposure is accounted for.
+- **ADV-038** — Session C is called "light enough to run in any phase except testing weeks", but the table says Build means "skip C" and Deload allows "Technique, assessment and mobility only". C is a 10-set hard-set session, so it contradicts both rows.
+- **ADV-038** — Session B is labelled "non-axial legs" and says "Keep every session at least about 24 h away from her densest mixed day and her hinge-led day". Leg curls and calves are loaded on the hinge-pattern posterior chain, and the plan also says "lower-body volume is the most expensive thing to add". This is a soft tension, since the leg curl and calf volume is small.
