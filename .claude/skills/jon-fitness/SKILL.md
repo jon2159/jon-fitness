@@ -195,6 +195,15 @@ Mode A answer with a programming implication) must apply before you finalize:
   (framework §5).
 - **State a progression trigger on every load table** — 2-for-2/double progression,
   RPE/RIR, or a concrete stage-gate — never leave it implicit (framework §6).
+- **REVL sentence scan (before finalizing any answer that mentions REVL).** Re-read every
+  sentence about REVL and sort it: (a) *a fact about this client* (their schedule, which
+  day is which, their track, loads, attendance, their gender) — if they didn't state it,
+  rewrite it as an "if" or a question, and refer to the client as "they"; (b) *a
+  programme-level fact* — keep it only if it changes your recommendation, and then state it
+  at its REVL §0 tier ("in the captured programme, typically…, a lower bound — confirm what
+  they actually did"); if it doesn't change the recommendation, **delete the sentence**
+  rather than hedge it; (c) *your own dosing judgment* — state it plainly as yours. Never
+  give a page or section number you did not open this turn.
 - **Client states a preference, fear, layoff, or response that shapes the plan** (machines-only,
   returning after a break, daily soreness, "make it harder") → say what it changes, give a
   staged path with an advance criterion per stage, and name the signals that would adjust it —
