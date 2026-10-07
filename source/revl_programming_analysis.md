@@ -1,14 +1,15 @@
 # REVL programming — reverse-engineered analysis (Step 2)
 
-Input: `source/revl_raw_data.md` — **363 screenshots across Blocks 1, 2 and 3 of 2026**
-(131 / 133 / 99), read by two independent OCR engines, plus direct visual reading of a
+Input: `source/revl_raw_data.md` — **393 screenshots across Blocks 1, 2 and 3 of 2026**
+(131 / 133 / 129), read by two independent OCR engines, plus direct visual reading of a
 sample of the source images. Quantitative tables produced by `source/analyze_revl.py`.
 
-> **Block 3 is incomplete by REVL, not by this capture.** Block 3's **Rebuild phase (3 weeks)
-> had not been published** when it was captured on 2026-09-09 — its manual ends at Peak Wk 3.
-> Every Block-3 figure below therefore covers Volume → Peak only. Capture of the Rebuild weeks
-> is an open task (see the project memory note); **do not read the absence as a programming
-> finding.**
+> **Update 2026-10-08.** Block 3's **Rebuild phase (3 weeks)** was not yet published when the
+> block was first captured on 2026-09-09 (its manual then ended at Peak Wk 3). It has since been
+> published and captured (30 posters, chapters 5.1–5.3). **The pattern, phase-prescription and
+> by-session-type figures in this file's quantitative tables were re-run at n=393 and the
+> Rebuild claims below were re-checked; the barbell squat/hinge table (A2) and any
+> other hand-derived figure were not re-run and still describe n=363.**
 
 This file is the **analysis layer**. The skill-facing guidance distilled from it lives in
 `.claude/skills/jon-fitness/references/revl-class-integration.md`.
@@ -64,7 +65,7 @@ phase length.
 | **Build** | 4–6 | Convert accumulated volume into force | Tokens climb to **50–90%** (`50-60-70-75`, `55-65-75-80-85-85`, `60-70-75-80-85`, `60-70-80-85-90-90`) | Reps fall (6–10) | Tempo cues drop to **27%** — attention shifts to load | Team format drops to **47%** — more individual work | Rising **neural** demand |
 | **Deload** | 7 | Shed accumulated fatigue before the heavy weeks | Tokens fall back to **30–55%** (`40-50`, `40`, `40-45-50-55`, `30-40`) | Strength sets cut (e.g. *Every 3:30 × 4*, ~8 reps) *(image-checked)* | Density work **rises to 90%** of sessions | Team format **87%** | **Strength deload only** — see A3 |
 | **Peak** | 8–10 | Express maximal strength; re-test benchmarks | Wave tokens `60-70-80-90-95-95` and `60-70-80-85-90-95` *(image-checked, Blocks 1 & 3)*; Block 2 tops at `…-90-92.5%` *(image-checked)* | Lowest reps (1–5), longest rest (`:45` between exercises) | Density work **lowest (51%)** — rest is protected | Team format **47%** | Highest **neural** demand |
-| **Rebuild** | 11–13 | Re-accumulate; bridge into the next block | Only `40-50` warm-up tokens legible; **%-prescription drops to 12%** of sessions | Moderate | Tempo cues back to **50%** | Team format back to **85%** | Moderate, back toward metabolic |
+| **Rebuild** | 11–13 | Re-accumulate; bridge into the next block | Only `40-50` warm-up tokens legible; **%-prescription drops to 13%** of sessions (RIR 13%, RPE 14%) | Moderate | Tempo cues back to **47%** | Team format back to **86%** | Moderate, back toward metabolic |
 
 ## A2. The variable that actually changes across the block
 
@@ -77,7 +78,7 @@ periodisation. Barbell-pattern exposure barely moves phase to phase:
 | Build | 30% | 52% | 93 |
 | Deload | 30% | 43% | 30 |
 | Peak | 27% | 44% | 91 |
-| Rebuild | 23% | 55% | 60 |
+| Rebuild | 23% | 55% | 60 |  <!-- computed at n=363 (Rebuild = Blocks 1–2 only); not re-run with Block 3's Rebuild -->
 
 **[Inference]** REVL periodises *intensity*, not *exercise menu*. For a PT this matters:
 you cannot assume a phase "gives the squat a rest" — the pattern is trained in every phase;
@@ -102,21 +103,24 @@ corrective work, and a **poor** window for adding more high-rep metabolic volume
 
 | Quality (% of that phase's sessions) | Volume | Build | Deload | Peak | Rebuild |
 |---|--:|--:|--:|--:|--:|
-| %1RM prescribed | 29% | 29% | 30% | 19% | 12% |
-| RIR prescribed | 18% | 25% | 10% | 10% | 17% |
-| RPE prescribed | 22% | 19% | 23% | 24% | 17% |
-| Tempo / eccentric cue | 55% | 27% | 40% | 42% | 50% |
-| EMOM / interval density | 76% | 69% | 90% | 51% | 80% |
+| %1RM prescribed | 29% | 29% | 30% | 19% | 13% |
+| RIR prescribed | 18% | 25% | 10% | 10% | 13% |
+| RPE prescribed | 22% | 19% | 23% | 24% | 14% |
+| Tempo / eccentric cue | 55% | 27% | 40% | 42% | 47% |
+| EMOM / interval density | 76% | 69% | 90% | 51% | 77% |
 | **AMRAP / time-capped** | **100%** | **100%** | **100%** | **100%** | **100%** |
-| Partner / team format | 74% | 47% | 87% | 47% | 85% |
+| Partner / team format | 74% | 47% | 87% | 47% | 86% |
 
 **[Pattern]** Three readings:
 1. **Every session in every phase is time-capped.** There is no untimed, purely
-   self-paced session anywhere in the 363. **[Observed]**
-2. **%1RM prescription falls away in Peak and Rebuild** while RPE rises — the heaviest
-   phase leans on *"build to a heavy 3"*-style autoregulation as much as on fixed
-   percentages. **[Observed]** **[Inference]** this is sensible for a group setting where
-   individual 1RMs are unverified.
+   self-paced session anywhere in the 393. **[Observed]**
+2. **%1RM prescription falls away in Peak and Rebuild.** In Peak, RPE rises (24%) — the
+   heaviest phase leans on *"build to a heavy 3"*-style autoregulation as much as on fixed
+   percentages. **In Rebuild it does not**: RPE (14%) and RIR (13%) are as low as %1RM (13%), so
+   Rebuild carries little explicit load prescription of any kind and is steered by tempo cues
+   (47%) and density/team formats. **[Observed]** **[Inference]** autoregulation in Peak is
+   sensible for a group setting where individual 1RMs are unverified; Rebuild's lack of
+   explicit loading is a reading of the counts, not a stated REVL intent.
 3. **Rest is protected only in Peak** (density formats drop to 51%). Everywhere else the
    session is a density/partner format. **[Pattern]**
 
@@ -130,7 +134,7 @@ corrective work, and a **poor** window for adding more high-rep metabolic volume
 | **8** | Peak Wk 1 | The heavy wave: 1–5 reps, to ~90–95%, `:45`+ rest | Neural |
 | **9** | **Peak Wk 2 — 1RM & 3RM TESTING** | *image-checked:* `30:00 Cap — 0:00–18:00 1RM BB Deadlift; 18:00–30:00 1RM BB Push Press/Jerk`; builds `60-70-80-90-100-100+%` of goal 1RM | **Maximal — the highest-stakes week in the block** |
 | **10** | **Peak Wk 3 — conditioning baseline testing** | Sweat Engine and Sweat Sprint **baseline** sessions (file-confirmed); strength days return to normal loading | Maximal metabolic |
-| 11–13 | Rebuild | Moderate loads, %-prescription largely replaced by RPE/RIR | Muscular / metabolic |
+| 11–13 | Rebuild | Moderate loads; explicit load prescription sparse in every style (%1RM/RIR/RPE ~13–14% each) | Muscular / metabolic |
 
 **[Pattern]** Both blocks follow this shape; Block 2 tops its Peak deadlift wave at ~92.5%
 where Block 1 reaches ~95% *(image-checked)*. Treat the exact ceiling as block-specific.

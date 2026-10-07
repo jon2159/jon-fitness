@@ -5,12 +5,14 @@
 | Cohort | Blocks | Sessions | Raw data | Tables |
 |---|---|---|---|---|
 | **2025** | Block 3 2025, Block 4 2025 | 260 (130 + 130) | `revl_raw_data_2025.md` | `revl_programming_analysis_2025.md` |
-| **2026** | Blocks 1, 2, 3 | 363 (131 + 133 + 99) | `revl_raw_data.md` | `revl_programming_analysis.md` |
+| **2026** | Blocks 1, 2, 3 | 393 (131 + 133 + 129) | `revl_raw_data.md` | `revl_programming_analysis.md` |
 
 Both cohorts were passed through the same two-engine OCR and the same keyword-presence
 analyzer (`source/analyze_revl.py`), so the tables below are directly comparable.
-2026's Block 3 lacks its Rebuild phase (never published) — that only affects Block-3
-Rebuild counts, not the year-level comparison.
+2026's Block 3 Rebuild weeks were published after the first capture and were added on
+2026-10-08 (n=363 → 393). **Only the 2d autoregulation table and the headline counts were
+re-run at n=393; other 2026 percentages in this file were computed at n=363 and, in a spot
+comparison of the pattern table, moved by ≤1 point.**
 
 **Evidence labelling:** **[Observed]** read off specific graphics · **[Pattern]** backed
 by the frequency counts · **[Inference]** a reading of intent, not stated by REVL.
@@ -95,15 +97,17 @@ against a 2026 block than a 2025 one.
 
 | Quality (share of phase sessions) | 2025 Volume/Build | 2026 Volume/Build | 2025 Rebuild | 2026 Rebuild |
 |---|--:|--:|--:|--:|
-| RIR prescribed | 30% / 30% | 18% / 25% | **0%** | 17% |
-| RPE prescribed | 28% / 32% | 22% / 19% | **43%** | 17% |
-| %1RM prescribed | 28% / 30% | 29% / 29% | **22%** | **12%** |
-| Tempo / eccentric cue | 45% / 37% | 55% / 27% | 32% | 50% |
+| RIR prescribed | 30% / 30% | 18% / 25% | **0%** | 13% |
+| RPE prescribed | 28% / 32% | 22% / 19% | **43%** | 14% |
+| %1RM prescribed | 28% / 30% | 29% / 29% | **22%** | **13%** |
+| Tempo / eccentric cue | 45% / 37% | 55% / 27% | 32% | 47% |
 
 **[Pattern]** 2025 confines RIR to the accumulation phases and hands Rebuild to RPE with
 lingering %1RM tokens (40–60%); 2026 keeps RIR alive year-round and nearly abandons %1RM
-in Rebuild. **[Inference]** 2026's Rebuild is deliberately more autoregulated/less
-prescribed — the PT "fresh start" window in Rebuild is softer-coded in 2026.
+in Rebuild. **[Pattern]** with Block 3's Rebuild included, 2026's Rebuild carries little
+explicit load prescription of any kind (RIR 13%, RPE 14%, %1RM 13%). **[Inference]** 2026's
+Rebuild is less prescribed rather than more RPE/RIR-driven — a softer-coded "fresh start"
+window for PT.
 
 ### 2e. Small shifts, same shape
 
