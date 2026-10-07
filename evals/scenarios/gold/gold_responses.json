@@ -2,7 +2,7 @@
  "version": 1,
  "purpose": "Human-scored calibration set for grader VALIDITY (not reliability). Jon fills human_scores A-O (0-5) for each item; grader_validity.py grades the same response with the eval grader and reports mean absolute error vs Jon. Re-score whenever rubric.md or the grade prompt changes substantially.",
  "how_to_score": "For each item read the scenario + response and score all 15 dimensions 0-5 using rubric.md. Put your scores in human_scores. Ignore claude_draft_scores except as a starting sanity check - overwrite freely. Add a line to human_notes if a dimension was hard to call.",
- "rubric_sha_when_authored": "ae884b89c989",
+ "rubric_sha_when_authored": "c25fea023a7e",
  "items": [
   {
    "gold_id": "GOLD-01",
@@ -14,12 +14,38 @@
     "revl_phase": "Peak Wk 2",
     "goal": "str_squat",
     "prompt": "My client is in REVL Peak week 2 and asked me to start him on the Russian strength programme this week so he can hit a squat PB. He's an experienced lifter, cleared, passes all the screens. He's keen to start Monday. Set it up.",
-    "expected_priorities": ["Recognise Peak Wk 2 is REVL's own 1RM/3RM testing week", "Refuse to stack a Russian wave on a testing week; protect the test", "Point out the test itself yields a current validated 1RM", "Schedule the Russian block to start in the Rebuild phase instead"],
-    "traps": ["Setting up the Russian wave because the client is cleared and keen", "Treating 'passes the screens' as the only gate"],
-    "must_not": ["Start a Russian wave during a 1RM testing week"]
+    "expected_priorities": [
+     "Recognise Peak Wk 2 is REVL's own 1RM/3RM testing week",
+     "Refuse to stack a Russian wave on a testing week; protect the test",
+     "Point out the test itself yields a current validated 1RM",
+     "Schedule the Russian block to start in the Rebuild phase instead"
+    ],
+    "traps": [
+     "Setting up the Russian wave because the client is cleared and keen",
+     "Treating 'passes the screens' as the only gate"
+    ],
+    "must_not": [
+     "Start a Russian wave during a 1RM testing week"
+    ]
    },
    "response": "Short answer: don't start it this week. Peak week 2 in REVL is the 1RM/3RM testing week - that's already the squat PB attempt he wants, run by the studio with spotters and a proper ramp. Stacking a Russian wave on top of a test week gives him two maximal squat exposures in the same few days, which is how you turn a PB into a tweak.\n\nWhat I'd do:\n- This week: let him test in class. Tell him to treat the class 1RM/3RM as the real attempt. Our PT slot becomes a low-fatigue technique primer 48h out (a few ramping singles to ~85%, nothing grinding) plus warm-up/rehearsal, or we move it after the test.\n- Record whatever he hits. That's a fresh, validated 1RM - exactly the number the Russian programme needs as its input.\n- Rebuild phase (weeks 11-13): loads drop to moderate/RPE work and REVL's own squat frequency eases. That's the window. Start the wave there, built off this week's tested max, and we run the eligibility gate then including how the wave frequency collides with REVL Mondays.\n\nSo he still gets his PB attempt this week - just the one, done properly - and a structured squat block right after it instead of an improvised one on top of a test.",
-   "claude_draft_scores": {"A": 5, "B": 4, "C": 4, "D": 4, "E": 5, "F": 4, "G": 4, "H": 4, "I": 3, "J": 4, "K": 4, "L": 4, "M": 5, "N": 5, "O": 5},
+   "claude_draft_scores": {
+    "A": 5,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 5,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 3,
+    "J": 4,
+    "K": 4,
+    "L": 4,
+    "M": 5,
+    "N": 5,
+    "O": 5
+   },
    "human_scores": null,
    "human_notes": ""
   },
@@ -33,12 +59,38 @@
     "revl_phase": "Peak Wk 2",
     "goal": "str_squat",
     "prompt": "My client is in REVL Peak week 2 and asked me to start him on the Russian strength programme this week so he can hit a squat PB. He's an experienced lifter, cleared, passes all the screens. He's keen to start Monday. Set it up.",
-    "expected_priorities": ["Recognise Peak Wk 2 is REVL's own 1RM/3RM testing week", "Refuse to stack a Russian wave on a testing week; protect the test", "Point out the test itself yields a current validated 1RM", "Schedule the Russian block to start in the Rebuild phase instead"],
-    "traps": ["Setting up the Russian wave because the client is cleared and keen", "Treating 'passes the screens' as the only gate"],
-    "must_not": ["Start a Russian wave during a 1RM testing week"]
+    "expected_priorities": [
+     "Recognise Peak Wk 2 is REVL's own 1RM/3RM testing week",
+     "Refuse to stack a Russian wave on a testing week; protect the test",
+     "Point out the test itself yields a current validated 1RM",
+     "Schedule the Russian block to start in the Rebuild phase instead"
+    ],
+    "traps": [
+     "Setting up the Russian wave because the client is cleared and keen",
+     "Treating 'passes the screens' as the only gate"
+    ],
+    "must_not": [
+     "Start a Russian wave during a 1RM testing week"
+    ]
    },
    "response": "Love the enthusiasm - let's get him moving. Here's week 1 of the Russian squat wave starting Monday:\n\n- Monday: Squat 6x2 @ 80%\n- Wednesday: Squat 6x3 @ 80%, then front squat 5x5\n- Friday: Squat 6x2 @ 85%, work up to a heavy single if he's feeling good\n- Add in his REVL classes around that as normal.\n\nWeek 2 we bump everything 5% and Friday he goes for the PB single. Since he's cleared and passes the screens there's no reason to wait - experienced lifters respond fast to this kind of volume and he'll likely add 5-10kg to his squat by the end of the wave. Just tell him to eat big and sleep.",
-   "claude_draft_scores": {"A": 3, "B": 3, "C": 1, "D": 1, "E": 1, "F": 1, "G": 1, "H": 1, "I": 2, "J": 2, "K": 1, "L": 1, "M": 1, "N": 0, "O": 3},
+   "claude_draft_scores": {
+    "A": 3,
+    "B": 3,
+    "C": 1,
+    "D": 1,
+    "E": 1,
+    "F": 1,
+    "G": 1,
+    "H": 1,
+    "I": 2,
+    "J": 2,
+    "K": 1,
+    "L": 1,
+    "M": 1,
+    "N": 0,
+    "O": 3
+   },
    "human_scores": null,
    "human_notes": ""
   },
@@ -52,12 +104,38 @@
     "revl_phase": "Volume",
     "goal": "weakpoint",
     "prompt": "Client is sore in the legs most days from REVL but her squat and deadlift numbers have gone up every week for a month. She's asking if she should deload. What do you say?",
-    "expected_priorities": ["Separate muscle soreness from genuine fatigue/performance decrement", "Performance is rising - this is not an indication to deload", "Check sleep, stress and whether soreness is impairing session quality", "Offer soreness-management levers that are not a deload"],
-    "traps": ["Deloading because she is sore", "Telling her soreness proves the training is working"],
-    "must_not": ["Assert that soreness is a reliable marker of training adaptation"]
+    "expected_priorities": [
+     "Separate muscle soreness from genuine fatigue/performance decrement",
+     "Performance is rising - this is not an indication to deload",
+     "Check sleep, stress and whether soreness is impairing session quality",
+     "Offer soreness-management levers that are not a deload"
+    ],
+    "traps": [
+     "Deloading because she is sore",
+     "Telling her soreness proves the training is working"
+    ],
+    "must_not": [
+     "Assert that soreness is a reliable marker of training adaptation"
+    ]
    },
    "response": "I wouldn't deload her yet. The thing that actually tells us she's recovering well enough is that her squat and deadlift have gone up every week for a month - that doesn't happen if she's dug into a hole. Persistent muscle soreness (DOMS) and genuine fatigue are different signals; soreness tracks eccentric/novel loading and fluid shifts more than it tracks whether she needs a break, and it's a poor guide either way. It also doesn't mean the training is 'working' - I wouldn't tell her that.\n\nWhat I'd check first:\n- Is the soreness actually degrading her sessions - warm-up taking forever, bar speed down, dreading training? Or is it just uncomfortable in daily life? Only the first is a programming problem.\n- Sleep and stress over that month - any change?\n- Protein and total food intake - under-eating amplifies soreness and blunts recovery.\n\nLevers before a deload: make sure she's not skipping the class cool-downs, keep some easy zone-2 movement on off days, check she's not adding extra leg work on the side. If performance stalls or drops for two weeks, or the soreness starts genuinely wrecking sessions, then we deload - and REVL has one built in at week 7 anyway.",
-   "claude_draft_scores": {"A": 4, "B": 4, "C": 4, "D": 4, "E": 4, "F": 4, "G": 5, "H": 4, "I": 4, "J": 4, "K": 4, "L": 4, "M": 4, "N": 5, "O": 5},
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 5,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 4,
+    "L": 4,
+    "M": 4,
+    "N": 5,
+    "O": 5
+   },
    "human_scores": null,
    "human_notes": ""
   },
@@ -71,12 +149,38 @@
     "revl_phase": "Build",
     "goal": "hyp_general",
     "prompt": "Aisha, 30s, has trained consistently for about two years. She does REVL 5x a week and is in the Build phase. She wants to build muscle overall. She isn't willing to drop any classes. I've got her for PT 2x/week. What should I do with them?",
-    "expected_priorities": ["Count REVL's existing weekly volume and hard sessions before adding anything", "Recognise 5 REVL + 2 PT = 7 sessions; recovery is the binding constraint", "Target muscle groups REVL under-serves rather than adding compound volume", "Build phase has limited headroom - keep added intensity modest"],
-    "traps": ["Adding a full hypertrophy split on top of 5 REVL sessions", "Treating the PT sessions as if REVL weren't happening"],
-    "must_not": ["Prescribe high-volume hypertrophy work on top of 5 REVL sessions without addressing recovery"]
+    "expected_priorities": [
+     "Count REVL's existing weekly volume and hard sessions before adding anything",
+     "Recognise 5 REVL + 2 PT = 7 sessions; recovery is the binding constraint",
+     "Target muscle groups REVL under-serves rather than adding compound volume",
+     "Build phase has limited headroom - keep added intensity modest"
+    ],
+    "traps": [
+     "Adding a full hypertrophy split on top of 5 REVL sessions",
+     "Treating the PT sessions as if REVL weren't happening"
+    ],
+    "must_not": [
+     "Prescribe high-volume hypertrophy work on top of 5 REVL sessions without addressing recovery"
+    ]
    },
    "response": "For overall muscle growth with 2 PT sessions a week I'd run an upper/lower split:\n\nDay 1 - Upper: Bench press 4x8-10, barbell row 4x8-10, incline DB press 3x10-12, lat pulldown 3x10-12, lateral raise 3x15, cable curl 3x12, triceps pushdown 3x12.\nDay 2 - Lower: Back squat 4x8-10, Romanian deadlift 4x8-10, leg press 3x12, walking lunge 3x12, leg curl 3x12, standing calf raise 4x15.\n\nProgress with double progression - when she hits the top of the rep range on all sets, add weight. Aim for 10-20 sets per muscle group per week across everything. Make sure she's eating in a slight surplus with 1.6-2.2 g/kg protein and sleeping 7-9 hours. The REVL classes are good conditioning so keep those going alongside.",
-   "claude_draft_scores": {"A": 4, "B": 4, "C": 2, "D": 2, "E": 3, "F": 2, "G": 2, "H": 2, "I": 3, "J": 4, "K": 2, "L": 3, "M": 2, "N": 3, "O": 4},
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 2,
+    "D": 2,
+    "E": 3,
+    "F": 2,
+    "G": 2,
+    "H": 2,
+    "I": 3,
+    "J": 4,
+    "K": 2,
+    "L": 3,
+    "M": 2,
+    "N": 3,
+    "O": 4
+   },
    "human_scores": null,
    "human_notes": ""
   },
@@ -90,12 +194,39 @@
     "revl_phase": null,
     "goal": "return_to_sport",
     "prompt": "Marcus, late 20s, played sport to a decent level, out of training for three years. He trains 3x/week at a commercial gym following an upper/lower split. He wants to get back to competitive netball after an ACL reconstruction 9 months ago - his surgeon has cleared him for return to sport. I've got him for PT 2x/week.",
-    "expected_priorities": ["Confirm surgical clearance and any outstanding rehab/return-to-sport criteria with the treating team", "Progress strength and single-leg control -> power -> change of direction, in that order", "Build a return-to-play timeline over months, not a single session", "Re-ramp tissue tolerance - 3 years out of training, not his old level"],
-    "traps": ["Jumping to agility/plyometrics because he's 'cleared'", "Programming to his former athletic level"],
-    "must_not": ["Give rehab exercise prescription that belongs to the treating physio", "Ignore the injury history"]
+    "expected_priorities": [
+     "Confirm surgical clearance and any outstanding rehab/return-to-sport criteria with the treating team",
+     "Progress strength and single-leg control -> power -> change of direction, in that order",
+     "Build a return-to-play timeline over months, not a single session",
+     "Re-ramp tissue tolerance - 3 years out of training, not his old level"
+    ],
+    "traps": [
+     "Jumping to agility/plyometrics because he's 'cleared'",
+     "Programming to his former athletic level"
+    ],
+    "must_not": [
+     "Give rehab exercise prescription that belongs to the treating physio",
+     "Ignore the injury history"
+    ]
    },
    "response": "Clearance for 'return to sport' from the surgeon is the green light to progress, but I'd want to know what criteria he actually met - limb symmetry on strength and hop testing, or just time since surgery? If he's had structured physio, ask for their end-stage notes; if he hasn't been tested, that's worth arranging before we load change-of-direction. That testing stays with the physio - I'm not prescribing his knee rehab.\n\nAssuming he's genuinely late-stage, here's the shape over the next ~12 weeks with 2 PT sessions:\n- Weeks 1-4: build the base. Bilateral and single-leg strength - split squat, leg press, hip thrust, hamstring work (Nordics/RDL), calf. Heavy-ish, low-rep, both legs tracked separately so we see the asymmetry close. Keep his upper/lower split for the third day.\n- Weeks 4-8: add power once single-leg strength is symmetrical-ish - trap bar jumps, then bilateral box jumps landing softly, pogos, med-ball. Still no cutting.\n- Weeks 8-12: linear deceleration, then planned change of direction, then reactive. This is where netball's specific demand lives - repeated stop-start and landing on one leg.\n\nHe's been out three years, so even his 'good' leg isn't at its old level - load progresses off what he shows me, not what he used to do. Timeline to full match play is realistically a few months and depends on how the power and COD phases go.",
-   "claude_draft_scores": {"A": 5, "B": 4, "C": 4, "D": 4, "E": 4, "F": 4, "G": 4, "H": 4, "I": 4, "J": 4, "K": 4, "L": 4, "M": 5, "N": 5, "O": 4},
+   "claude_draft_scores": {
+    "A": 5,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 4,
+    "L": 4,
+    "M": 5,
+    "N": 5,
+    "O": 4
+   },
    "human_scores": null,
    "human_notes": ""
   },
@@ -109,12 +240,38 @@
     "revl_phase": "Build",
     "goal": "str_general",
     "prompt": "Priya does REVL 4x a week, currently in Build. She wants to get stronger overall. I see her once a week. What should I focus that session on?",
-    "expected_priorities": ["Ask what her REVL sessions actually contain this week rather than assuming", "With one session, pick the single highest-value strength intervention", "Build phase has limited headroom - complement, don't pile on intensity", "Label what's known vs assumed about her REVL loads"],
-    "traps": ["Assuming REVL's exact loads/percentages", "Adding a second heavy lower-body day without checking spacing"],
-    "must_not": ["Assert a specific REVL load, %1RM or rep scheme as fact when it wasn't supplied"]
+    "expected_priorities": [
+     "Ask what her REVL sessions actually contain this week rather than assuming",
+     "With one session, pick the single highest-value strength intervention",
+     "Build phase has limited headroom - complement, don't pile on intensity",
+     "Label what's known vs assumed about her REVL loads"
+    ],
+    "traps": [
+     "Assuming REVL's exact loads/percentages",
+     "Adding a second heavy lower-body day without checking spacing"
+    ],
+    "must_not": [
+     "Assert a specific REVL load, %1RM or rep scheme as fact when it wasn't supplied"
+    ]
    },
    "response": "In Build phase REVL has her squatting at 82.5% for 5x3 on Mondays and pressing at 80% for 4x4 on Thursdays, with the Sweat conditioning sessions on Tuesday and Saturday. So her heavy lower-body work is already covered Monday.\n\nThat means your one session should be Thursday-adjacent posterior chain: trap bar deadlift 4x4 at 75%, then Bulgarian split squat 3x8, then a hard set of chin-ups. That fills the gap REVL leaves on Thursdays and gives her a second pull exposure without clashing with the Monday squat.",
-   "claude_draft_scores": {"A": 3, "B": 3, "C": 2, "D": 3, "E": 2, "F": 3, "G": 2, "H": 2, "I": 3, "J": 2, "K": 0, "L": 3, "M": 2, "N": 0, "O": 3},
+   "claude_draft_scores": {
+    "A": 3,
+    "B": 3,
+    "C": 2,
+    "D": 3,
+    "E": 2,
+    "F": 3,
+    "G": 2,
+    "H": 2,
+    "I": 3,
+    "J": 2,
+    "K": 0,
+    "L": 3,
+    "M": 2,
+    "N": 0,
+    "O": 3
+   },
    "human_scores": null,
    "human_notes": ""
   },
@@ -128,12 +285,38 @@
     "revl_phase": null,
     "goal": "hyp_glutes",
     "prompt": "Chloe, late 20s, has trained on and off for a year, never consistently. She wants to develop her glutes. She trains at home with dumbbells and a pull-up bar only, and only has 30 minutes per session. I've got her for PT 1x/week (also online). She can do 3 sessions a week total.",
-    "expected_priorities": ["Fit everything into 30 minutes with dumbbells only - no barbell hip thrust prescription", "Inconsistent trainer - build a simple, repeatable plan she'll actually do", "Hip-dominant loading: DB hip thrust, RDL, hip extension bias", "Progression model she can run herself between check-ins"],
-    "traps": ["Prescribing barbell hip thrusts / cable kickbacks she doesn't have", "Over-stuffing the 30 minutes"],
-    "must_not": ["Prescribe equipment she said she doesn't have"]
+    "expected_priorities": [
+     "Fit everything into 30 minutes with dumbbells only - no barbell hip thrust prescription",
+     "Inconsistent trainer - build a simple, repeatable plan she'll actually do",
+     "Hip-dominant loading: DB hip thrust, RDL, hip extension bias",
+     "Progression model she can run herself between check-ins"
+    ],
+    "traps": [
+     "Prescribing barbell hip thrusts / cable kickbacks she doesn't have",
+     "Over-stuffing the 30 minutes"
+    ],
+    "must_not": [
+     "Prescribe equipment she said she doesn't have"
+    ]
    },
    "response": "With 30 minutes, dumbbells and a pull-up bar, and the fact that consistency has been the real issue, I'd keep this dead simple - the same two short sessions repeated, plus your PT slot.\n\nSession A (glute-focused, ~25 min work):\n- DB hip thrust (shoulders on couch/bed) 3x10-15\n- DB Romanian deadlift 3x10-12\n- DB walking or reverse lunge 3x10/leg\n- Superset: DB glute bridge march 2x20 + banded/​bodyweight abduction 2x20\n\nSession B (full body, keeps her balanced):\n- Goblet squat 3x10\n- Single-leg DB RDL 3x8/leg\n- DB row 3x10 + push-up 3xAMRAP\n- Pull-up bar: negatives or hangs 3 sets\n\nRun A / B / A one week, B / A / B the next. PT session is where we load the hip thrust and RDL heavier and check technique.\n\nProgression: when she gets the top of the rep range on all sets two sessions running, the DBs go up. If she's new to consistent training she'll progress fast for a while just by showing up - the priority for the first month is hitting all 3 sessions, not adding weight.",
-   "claude_draft_scores": {"A": 4, "B": 4, "C": 4, "D": 4, "E": 4, "F": 4, "G": 4, "H": 4, "I": 4, "J": 4, "K": 5, "L": 5, "M": 4, "N": 4, "O": 5},
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 5,
+    "L": 5,
+    "M": 4,
+    "N": 4,
+    "O": 5
+   },
    "human_scores": null,
    "human_notes": ""
   },
@@ -147,12 +330,582 @@
     "revl_phase": null,
     "goal": "hyp_general",
     "prompt": "Tom, 40s, has trained consistently for about two years, follows a push-pull-legs programme at a commercial gym 4x/week. He wants to build muscle. He's well rested but says he's struggling to stay motivated and has missed about a third of his sessions over the last two months. I see him 2x/week.",
-    "expected_priorities": ["Recognise the limiter is adherence/motivation, not the programme", "Don't rewrite a programme that would work if he did it", "Reduce friction: session count, timing, what 'a session' minimally is", "Use the PT slots as accountability anchors and to rebuild the habit"],
-    "traps": ["Writing a new, more exciting programme as the fix", "Adding volume or intensity to a client already missing a third of sessions"],
-    "must_not": ["Treat this as a programming-load problem when the client is well rested and just not showing up"]
+    "expected_priorities": [
+     "Recognise the limiter is adherence/motivation, not the programme",
+     "Don't rewrite a programme that would work if he did it",
+     "Reduce friction: session count, timing, what 'a session' minimally is",
+     "Use the PT slots as accountability anchors and to rebuild the habit"
+    ],
+    "traps": [
+     "Writing a new, more exciting programme as the fix",
+     "Adding volume or intensity to a client already missing a third of sessions"
+    ],
+    "must_not": [
+     "Treat this as a programming-load problem when the client is well rested and just not showing up"
+    ]
    },
    "response": "The programme isn't the problem here - push-pull-legs 4x a week is fine for his goal and he's well rested, so I wouldn't rewrite it. If he did it, it would work. The problem is he's doing two-thirds of it. Adding a shinier programme usually buys a couple of good weeks and then the same drop-off.\n\nWhat I'd actually do:\n- Drop the target to 3 sessions a week, not 4. A plan he hits every week beats a plan he hits 65% of. We can add the 4th back once the habit's solid.\n- Define a 'minimum session' - the 3-4 big lifts, 20 minutes, done. On low-motivation days he does the minimum instead of skipping. Missing is the thing we're killing.\n- Put our 2 PT slots on the two days he's least likely to train solo (for a lot of people that's Monday and Friday). Those become fixed appointments.\n- Each session I ask what got in the way of the missed one and we problem-solve the actual barrier - time, energy, gym being packed, whatever it is.\n\nProgramming-wise: keep his current PPL, keep the loads where they are, and hold volume steady for a month. The win we're chasing is 4 consistent weeks, then we progress from a real baseline.",
-   "claude_draft_scores": {"A": 3, "B": 3, "C": 4, "D": 4, "E": 4, "F": 4, "G": 4, "H": 4, "I": 3, "J": 3, "K": 5, "L": 5, "M": 5, "N": 4, "O": 5},
+   "claude_draft_scores": {
+    "A": 3,
+    "B": 3,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 3,
+    "J": 3,
+    "K": 5,
+    "L": 5,
+    "M": 5,
+    "N": 4,
+    "O": 5
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-09",
+   "tests": "Coach-athlete persona (REVL + Daily Pump). Strong answer: counts total load, trades volume.",
+   "target_quality": "high",
+   "scenario": {
+    "environment": "group_plus_bodybuilding",
+    "goal": "hyp_upper",
+    "prompt": "I coach group classes and train bodybuilding-style myself. Most weeks I do REVL Sweat Engine plus two or three REVL strength sessions, and I add Daily Pump one or two days a week. My chest and upper back are lagging. How do I fit specialisation in without wrecking my recovery?",
+    "expected_priorities": [
+     "Count REVL strength + Sweat + Daily Pump as one weekly total before adding anything",
+     "Place chest/back specialisation where REVL and Daily Pump under-serve it",
+     "Trade volume rather than stack it: something has to give if sessions are added",
+     "Give a progression and a recovery check, not just exercises"
+    ],
+    "traps": [
+     "Adding a full chest/back split on top of everything",
+     "Ignoring Daily Pump as load"
+    ],
+    "must_not": [
+     "Prescribe additional high-volume upper-body days without addressing total weekly load"
+    ],
+    "id": "GOLD-09",
+    "family": "persona"
+   },
+   "response": "**Default: replace, don't add.** Put the chest and upper-back volume inside sessions you already do. Don't add a session. I'd also treat the weekly session count as the main risk. The routing notes are from the REVL integration reference, the hypertrophy-band row of Table 9-12, and the trained-lifter evidence file.\n\n**Why not add sessions**\n- Sweat Engine plus 2–3 strength sessions plus 1–2 Daily Pump days is already about 4–6 hard sessions a week. Your own group coaching adds fatigue on top.\n- Past roughly 7–8 total sessions, the reference says to consider cutting sessions or session length. Adding content doesn't fix a frequency problem.\n- The reference also says that when someone \"wants to build muscle while continuing REVL\", the compound volume is already high. What's missing is targeted work on under-served tissue. For you that means chest, upper back and rear delts, not more total volume.\n\n**How I'd do it**\n1. **Count your current weekly hard sets for chest and back.** Use your last 2 weeks of logs and include REVL strength, Daily Pump and any pressing or pulling inside Sweat Engine. I can't see those, so this is the first thing to do.\n2. **Set a target.** Trained-lifter reviews suggest about 12–20 weekly sets per muscle group for size (Baz-Valle 2022, general knowledge from the trained-population evidence file, not the ISA CPT course). Move toward the lower-middle of that band, not the top.\n3. **Add only the gap.** If you're at about 8–10 sets now, add about 4–6 hard sets per muscle per week, no more. This is my dosing judgement. Make those extra sets *replace* something: junk accessory volume, or a Daily Pump day's content.\n4. **Use the hypertrophy band for the extra work.** That's 3–6 sets of 6–12 reps at 30–90 s rest (Table 9-12), with 1–3 reps in reserve and controlled tempo. Pick chest and upper-back lifts that differ from what REVL already grinds, such as incline DB press, chest-supported row, or cable fly.\n5. **Spread it over 2 slots.** Frequency is a scheduling choice once volume is equal (Hamarsland 2021). Put one slot on a Daily Pump day, because it's already in your week, and one inside a strength session.\n6. **Place it away from your densest day.** Don't put it right before a hard REVL day or Sweat Engine.\n\n**Progression:** use double progression. When you hit the top of the rep range on all sets at the target reps in reserve for 2 sessions in a row (the course's 2-for-2 rule), raise the load about 5%. Add a set only if recovery markers hold for 2 weeks.\n\n**Pull-back triggers:** drop the added sets first, and the intensity second, if any of these happen:\n- sleep or performance drops for 2 sessions\n- joint-level shoulder or elbow irritation appears\n- you stop being fresh enough to coach well\n\n**What I need from you**\n- Which REVL phase you're in. In Build and Peak the dose shrinks to roughly a few focused sets. In Volume or Rebuild you have the most room.\n- How many sessions Sweat Engine and Daily Pump actually add up to for you.\n- What a Daily Pump day contains for you. I have no analysed Daily Pump reference yet, so I'm not assuming anything about it.\n\nIf you tell me the phase and your current set counts, I'll turn this into a specific week. If it's a named client plan, I can write it into the plan files too.",
+   "claude_draft_scores": {
+    "A": 5,
+    "B": 4,
+    "C": 4,
+    "D": 5,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 4,
+    "L": 4,
+    "M": 3,
+    "N": 4,
+    "O": 4
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-10",
+   "tests": "Coach-athlete persona. Generic bodybuilding advice that ignores REVL/Daily Pump load.",
+   "target_quality": "mid (2-3 on C/D/K)",
+   "scenario": {
+    "environment": "group_plus_bodybuilding",
+    "goal": "hyp_upper",
+    "prompt": "I coach group classes and train bodybuilding-style myself. Most weeks I do REVL Sweat Engine plus two or three REVL strength sessions, and I add Daily Pump one or two days a week. My chest and upper back are lagging. How do I fit specialisation in without wrecking my recovery?",
+    "expected_priorities": [
+     "Count REVL strength + Sweat + Daily Pump as one weekly total before adding anything",
+     "Place chest/back specialisation where REVL and Daily Pump under-serve it",
+     "Trade volume rather than stack it: something has to give if sessions are added",
+     "Give a progression and a recovery check, not just exercises"
+    ],
+    "traps": [
+     "Adding a full chest/back split on top of everything",
+     "Ignoring Daily Pump as load"
+    ],
+    "must_not": [
+     "Prescribe additional high-volume upper-body days without addressing total weekly load"
+    ],
+    "id": "GOLD-10",
+    "family": "persona"
+   },
+   "response": "The core move is to trade volume from other areas for chest and back volume, not to stack more on top. I'm going from the session names alone, so I'm assuming Sweat Engine is your hard conditioning day and Daily Pump is a short, higher-rep pump session. Adjust if either is different.\n\n**1. Set a volume target**\n- Aim for about 12-18 hard sets per week for each lagging muscle group, split across 2-3 sessions. Don't do them all in one day.\n- Chest: roughly 12-16 sets. Upper back (rows, pulldowns, rear delts, traps): roughly 14-20 sets, since it tolerates more volume.\n- Count what you already do first. Your REVL strength sessions and Daily Pump may already give you 8-10 sets, so you might only need to add 4-6.\n- Add sets gradually, about 2 per muscle per week over several weeks, and stop when progress stalls or fatigue builds.\n\n**2. Maintain everything else**\n- Drop non-priority muscles to maintenance volume, about 6-8 sets per week. Legs, arms and shoulders hold their size on that for a few weeks.\n- Rotating your lagging parts into the specialisation slot every 8-12 weeks keeps this sustainable.\n\n**3. Use Daily Pump as your specialisation slot**\n- Make your one or two Daily Pump days chest- and back-focused, with a 20-30 minute add-on.\n- Use higher reps (10-20), controlled tempo, and a stretch-biased exercise like a incline fly, cable crossover, chest-supported row or straight-arm pulldown.\n- Stop 1-2 reps short of failure on most sets. Those stay productive without much recovery cost.\n\n**4. Protect recovery**\n- **Sweat Engine is your biggest recovery cost.** Keep it away from your heaviest chest and back days, and don't put it the day before a big pressing or rowing session. If you coach classes too, count that as extra conditioning load.\n- **Spacing:** train chest and back every 48-72 hours.\n- **Order:** put chest or back first in the session when you're fresh.\n- **Frequency:** if you're doing 3 strength days plus Daily Pump, you probably don't need a fourth lifting day. Rearrange the existing ones.\n- **Conditioning:** if recovery slips, drop Sweat Engine from 1 session to every other week, or swap it for easy Zone 2 work, before you cut lifting.\n\n**5. Example week**\n- Mon: strength, chest-biased plus legs\n- Tue: Sweat Engine (conditioning)\n- Wed: strength, back-biased plus shoulders\n- Thu: Daily Pump, chest/back emphasis\n- Fri: strength, upper body, with both chest and back worked\n- Sat: optional second Daily Pump, or rest\n- Sun: rest\n\n**6. Check recovery and progress**\n- Warning signs are strength dropping across 2 or more sessions, poor sleep, elevated resting heart rate, joint aches (especially shoulders and elbows), and dreading sessions.\n- If you see them, cut volume by about a third for a week, then rebuild at a lower level.\n- Track chest and back performance. If top-set weights or reps don't climb over 4-6 weeks, the plan isn't working and needs adjusting, not more volume.\n- Sleep 7-9 hours and eat at or slightly above maintenance. A deficit makes specialisation much harder.\n\n**7. Bias the exercise selection**\n- Chest: use incline pressing (about 30°) for upper chest, plus a fly or crossover for stretch and squeeze. A full range of motion matters more than load.\n- Upper back: mix vertical pulls (pulldowns, pull-ups) with horizontal rows. Add some chest-supported or elbows-out rows, which hit the upper back instead of the lower back and biceps.\n- Posture: scapular control and rear delt work help both lifts feel stronger.\n\nRun this for 8-12 weeks, then reassess with photos and measurements, not just feel. If you tell me how many sets of chest and back you currently do, I can put numbers on the weekly layout.",
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 3,
+    "D": 3,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 3,
+    "K": 3,
+    "L": 3,
+    "M": 4,
+    "N": 4,
+    "O": 4
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-11",
+   "tests": "Coach-athlete: third Daily Pump day. Strong answer treats it as added load with a conditional default.",
+   "target_quality": "high",
+   "scenario": {
+    "environment": "group_plus_bodybuilding",
+    "goal": "hyp_general",
+    "prompt": "Same setup as usual: REVL Sweat Engine, a couple of REVL strength sessions, and I coach classes. I'm thinking of going from two Daily Pump days to three. Good idea?",
+    "expected_priorities": [
+     "Treat the third Daily Pump day as added load, not a free session",
+     "Ask or state what it replaces, and check recovery signals before agreeing",
+     "Give a conditional default (e.g. trial, or swap a session) rather than only questions"
+    ],
+    "traps": [
+     "Saying yes because more volume equals more growth",
+     "Not counting the coaching load on feet"
+    ],
+    "must_not": [
+     "Endorse a third Daily Pump day with no reference to total weekly load or recovery"
+    ],
+    "id": "GOLD-11",
+    "family": "persona"
+   },
+   "response": "**My default: stay at two Daily Pump days for now.** Treat the third as a trial you only start if the checks below pass.\n\n**What I can't tell you.** I have no verified read on what Daily Pump actually trains. The skill's Daily Pump reference is still on hold. So I can't say whether a third day duplicates what REVL already does. Only you can answer that, and it's the deciding question.\n\n**Why I'd hold at two.**\n- **Frequency is mostly spent.** The course's guidance is roughly 2–3 hard sessions a week per muscle group, 48–72 h apart (Week 07, Ch 11, Table 11-10 — I haven't re-opened the page this turn, so confirm it before quoting). That limit covers REVL and Daily Pump combined.\n- **REVL rarely leaves the lower body alone.** In the captured programming, squat and hinge show up very frequently, and the conditioning days load those patterns too. That is a count over the posters, so it's a lower bound and not a description of your week. The point still stands: a third day that hits legs is the most expensive thing you could add.\n- **Your session count is already high.** Sweat Engine, a couple of REVL strength sessions and two Daily Pump days put you around six before coaching load. I don't know how many Sweat Engine sessions you do, or how many classes you coach versus join in. At roughly 7–8 sessions a week, cutting sessions is a legitimate answer, not a fallback. Training more often only helps if you recover from it.\n\n**If you still want a third day.** Start it as a ramp, because I can't size it against your REVL load yet:\n- **Dose:** weeks 1–2 at about half the hard sets of a normal Daily Pump day, finishing at 2–3 reps in reserve. That half is my own judgement, not a course number.\n- **Content:** upper body or something easy, placed away from your hinge-led and densest REVL days. Confirm which days those are for you before choosing.\n- **Step-up rule:** add sets only after two weeks where your REVL performance, session effort and readiness (sleep, soreness, energy) have all held. If any of them slips, drop back to two days. Don't just trim the third day.\n- **Timing:** best in a Volume or Rebuild phase. Avoid it in Build and Peak, and don't add heavy or high-rep work in Deload.\n\n**What would change my answer.**\n1. **Which REVL phase and week are you in?** If it's Volume or Rebuild, a trial is reasonable. In Build or Peak, hold at two.\n2. **What is the third day for?** A real gap makes it worth doing, such as more upper-back and arm work or time under tension. \"More\" on its own is a reason to do less.\n3. **What does Daily Pump load on your other days?** If it's mostly lower body, I'd say no.\n4. **How are you recovering now?** If you feel fresh and are performing well, that supports a trial. It isn't a reason to add work on its own.\n\nIf you give me the phase and what the third day would cover, I can turn this into a specific session and a weekly layout.\n\nThis is applied from the course's frequency and recovery principles, plus general coaching judgement: the ramp, the session-count call and the half-dose are mine and not from the ISA course.",
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 3,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 3,
+    "J": 5,
+    "K": 4,
+    "L": 3,
+    "M": 4,
+    "N": 4,
+    "O": 3
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-12",
+   "tests": "Coach-athlete: flawed answer endorses stacking more volume. Grader should flag load/recovery.",
+   "target_quality": "low (0-2 on C/D/G/H)",
+   "scenario": {
+    "environment": "group_plus_bodybuilding",
+    "goal": "hyp_general",
+    "prompt": "Same setup as usual: REVL Sweat Engine, a couple of REVL strength sessions, and I coach classes. I'm thinking of going from two Daily Pump days to three. Good idea?",
+    "expected_priorities": [
+     "Treat the third Daily Pump day as added load, not a free session",
+     "Ask or state what it replaces, and check recovery signals before agreeing",
+     "Give a conditional default (e.g. trial, or swap a session) rather than only questions"
+    ],
+    "traps": [
+     "Saying yes because more volume equals more growth",
+     "Not counting the coaching load on feet"
+    ],
+    "must_not": [
+     "Endorse a third Daily Pump day with no reference to total weekly load or recovery"
+    ],
+    "id": "GOLD-12",
+    "family": "persona"
+   },
+   "response": "Yes, go for it. Going from two Daily Pump days to three is a smart move.\n\nMuscle growth comes down to volume. More quality sets per muscle group per week means more stimulus, and more stimulus means more growth. Going from two to three is a 50% jump in your Daily Pump work, and that should show up in your results.\n\nThree days also helps you practice the movement patterns more often, so your form and mind-muscle connection will sharpen. Hitting each muscle group three times a week is a well-supported approach for building size.\n\nHere's how I'd run it:\n\n- **Chase progressive overload.** Add a little weight or an extra rep to your key lifts each week.\n- **Keep the tempo controlled.** Slow the lowering phase and squeeze at the top.\n- **Track your numbers.** Write down your weights and reps on each of the three days so you can see the progress.\n\nYou're already surrounded by REVL training and coaching, so you know how to push. Three Daily Pump days will give you more to push with. Start this week and check back in a month to tell me what you're seeing.",
+   "claude_draft_scores": {
+    "A": 2,
+    "B": 1,
+    "C": 0,
+    "D": 0,
+    "E": 2,
+    "F": 1,
+    "G": 0,
+    "H": 0,
+    "I": 1,
+    "J": 2,
+    "K": 1,
+    "L": 2,
+    "M": 1,
+    "N": 1,
+    "O": 3
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-13",
+   "tests": "Gen pop already on REVL wanting more. Strong complement-don't-duplicate answer.",
+   "target_quality": "high",
+   "scenario": {
+    "environment": "revl",
+    "goal": "hyp_general",
+    "revl_phase": "Volume",
+    "prompt": "Dana, early 30s, does REVL 4x a week, a mix of strength and Sweat classes. She's fit but wants more definition and to get stronger. I can see her for PT twice a week. What should I do with the sessions?",
+    "expected_priorities": [
+     "Identify the REVL phase and what she actually does before adding work",
+     "Use PT for what REVL under-serves; complement, don't duplicate",
+     "Respect the 6-session weekly total and give recovery rules",
+     "Define 'definition' without diet prescription; refer nutrition scope appropriately"
+    ],
+    "traps": [
+     "Two full hypertrophy sessions on top of 4 REVL days",
+     "Prescribing a calorie deficit"
+    ],
+    "must_not": [
+     "Prescribe a specific calorie or macro target to the client"
+    ],
+    "id": "GOLD-13",
+    "family": "persona"
+   },
+   "response": "**Default:** run two short, different PT sessions. Start at about half dose for weeks 1–2, then step up. I'd avoid a second strength programme on top of REVL. I haven't built a plan file for Dana yet, and the details below are provisional until I have her answers.\n\n**Why not simply fill both slots?**\n- REVL is 4 sessions a week. Adding 2 PT sessions makes 6, which is under the 7–8 range where I'd push you to cut sessions.\n- I still can't size added sets against her REVL week, because I don't know her phase, track, or which day is which. So the plan has to start as a ramp.\n- Each slot has its own job, as below.\n- If she's inconsistent or newer to lifting, drop to one slot a week.\n\n**Session A: strength quality (one focused lift)**\n- Pick one lift as a different expression of a pattern REVL already trains: paused or tempo front squat, a trap-bar or supported hinge variant, or a floor/pin press.\n- Run it at a moderately high effort with RIR 2, well short of maximal.\n- Follow with a weak-point accessory such as a split squat or single-leg stability work (slow, controlled single-leg work, not heavy unilateral loading).\n- Finish with a loaded carry or anti-rotation.\n- The carry is the cheapest gap to fill. In the captured REVL programme, carries show up in only a small share of sessions (a lower bound, not Dana's own week). Rotation depends on her track, so confirm that before treating it as a gap.\n- Why this works: her limiter is probably technique and positions at submaximal load, which a group class can't coach. A group class also can't individualise a weak point.\n\n**Session B: definition (hypertrophy on under-served tissue)**\n- Target horizontal pulling, upper back, rear delts, arms, and calves. REVL loads squat and hinge patterns very frequently, so extra compound lower-body volume is the most expensive thing on the menu.\n- Use 8–15 reps, controlled tempo, 30–90 s rest, and RIR 1–3.\n- The hypertrophy band comes from the course's training-variables table. I haven't opened the page this turn, so confirm the page before you cite it.\n\n**Sizing and progression**\n- **Weeks 1–2:** about half the planned hard sets. For example, 3–4 working exercises per session at 2 sets, rather than 3–4 sets each.\n- **Step-up trigger (my judgement):** if she hits the top of the rep range at the target RIR for 2 consecutive sessions, add load (about 5%). If her REVL class performance or readiness drops, hold or cut sets first, then intensity.\n- **Per-session readiness check:** soreness, sleep, and how the last REVL class went. If something's off, drop intensity, then sets, then swap to a lower-demand variant.\n- Count the added hard sets per muscle group per week against what she already gets in class, and record the number in her plan.\n\n**Placement**\n- Put Session A on her lowest lower-body day, or after the easier conditioning format. Session B can go anywhere that isn't the day before a hard REVL day.\n- Don't program a heavy squat or hinge within about a day of her hinge-led or densest mixed REVL day. Confirm which days those are for her. They've changed between REVL versions, so don't assume.\n\n**What would change the plan (phase)**\n- **Volume or Rebuild:** most headroom, so the plan above works as written.\n- **Build:** half doses only, one lift.\n- **Deload:** assessment, technique, and mobility only. Don't add high-rep metabolic work.\n- **Peak or testing weeks:** support only, with nothing load-bearing.\n\n**Strength-wise:** don't use a Russian protocol by default. A reduced two-day version is only worth considering if her main goal becomes a barbell PB. She'd need to pass the eligibility gate, and her phase would have to leave headroom.\n\n**Definition goal (scope):** I can give general nutrition information, such as protein and energy sufficiency. I won't give her a calorie target or deficit. Refer her to a registered dietitian for specifics. Also set expectations: visible definition is mostly a nutrition and time question, and the training side is to hold or build muscle while she does it.\n\n**What I need from you** (this tells me whether the default holds):\n1. What REVL phase and week is she in, and which strength track (Perform or Move)?\n2. Which weekdays does she actually do which sessions?\n3. Her lifting history: current working loads, any recent 1RM or Peak test result, and her technique on squat and hinge.\n4. Any injuries or aches, and has she done a PAR-Q+/screen with you? REVL attendance isn't medical clearance.\n5. What's her horizon? If a strength PB matters most for the next 4–6 weeks, strength becomes primary and Session B drops to a maintenance dose. If definition matters most, the reverse.\n6. Does she sleep and recover well, and how is she feeling about 6 sessions a week?\n\nOnce I have those, I can create her plan pair (`dana_…_fitness_plan.md`/`.csv`) and fill in the sets, loads, and days.",
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 3,
+    "L": 4,
+    "M": 4,
+    "N": 4,
+    "O": 3
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-14",
+   "tests": "Gen pop on REVL. Generic answer that treats PT as if REVL weren't happening.",
+   "target_quality": "mid (2-3 on C/K)",
+   "scenario": {
+    "environment": "revl",
+    "goal": "hyp_general",
+    "revl_phase": "Volume",
+    "prompt": "Dana, early 30s, does REVL 4x a week, a mix of strength and Sweat classes. She's fit but wants more definition and to get stronger. I can see her for PT twice a week. What should I do with the sessions?",
+    "expected_priorities": [
+     "Identify the REVL phase and what she actually does before adding work",
+     "Use PT for what REVL under-serves; complement, don't duplicate",
+     "Respect the 6-session weekly total and give recovery rules",
+     "Define 'definition' without diet prescription; refer nutrition scope appropriately"
+    ],
+    "traps": [
+     "Two full hypertrophy sessions on top of 4 REVL days",
+     "Prescribing a calorie deficit"
+    ],
+    "must_not": [
+     "Prescribe a specific calorie or macro target to the client"
+    ],
+    "id": "GOLD-14",
+    "family": "persona"
+   },
+   "response": "# Programming Dana's 2 PT sessions\n\n**The principle:** She already gets plenty of volume and conditioning from REVL. Group classes are usually moderate-load, high-rep, and not progressive. So use your two sessions for what classes don't give her: **heavy, progressive, well-coached strength work.** Don't add more \"workout.\" Definition mostly comes from added muscle, a modest calorie deficit and adequate protein. Strength is the lever you control in the room.\n\n## Weeks 1-2: Assess first\n- Movement screen: squat, hinge, split squat, push, pull, overhead position, single-leg stability.\n- Find a working 5RM or 3RM (or an RPE 8 estimate) on a squat pattern, a hinge, a press and a row or pull-up.\n- Ask which REVL classes she takes on which days, and what her sleep, stress, recovery and nutrition look like.\n- Ask about her injury history and her goals in numbers (lifts, body measurements, photos).\n\n## Session structure (about 55-60 min)\nBoth days are full-body, because she only sees you twice. Alternate the emphasis.\n\n**Day A: squat and press emphasis**\n1. Warm-up and activation (8 min)\n2. Main lift: back or front squat, 4×4-6 @ RPE 7-8\n3. Horizontal or vertical press (bench or overhead), 4×5-6\n4. Paired: single-leg work (split squat or step-up) 3×8-10/side, plus a chin-up or lat pulldown 3×6-10\n5. Accessories: lateral raise, triceps and core (anti-rotation or carries), 2-3 sets each\n\n**Day B: hinge and pull emphasis**\n1. Warm-up and activation\n2. Main lift: trap-bar or conventional deadlift, or RDL, 4×4-6 @ RPE 7-8\n3. Weighted pull-up or row, 4×6-8\n4. Incline DB press or push-up variation, 3×8-10\n5. Hip thrust or single-leg RDL 3×8-10, plus rear delt and biceps work\n6. Finish with loaded carries or core\n\n## Progression\n- Use double progression on the main lifts. Add reps within the range, then add 2.5-5% load.\n- Run 3-4 week waves, building volume and intensity, then a lighter deload week.\n- Keep most sets 1-3 reps shy of failure. Save true failure for isolation work.\n- Track everything so she can see strength numbers going up.\n\n## Managing the class load\n- Put PT on days when she is fresh, and avoid the day after her hardest Sweat class if possible.\n- Ask her to skip a class, or take it easier, in a week when she feels beat up. Four classes plus two heavy sessions is a lot.\n- On days she lifts in class, tell her what to prioritize: use heavier loads and move with good form, not just chase the clock.\n- Check in on soreness, sleep and performance. If lifts stall for 2+ weeks, cut accessory volume first.\n\n## Definition\n- Protein at about 1.6-2.2 g/kg bodyweight, spread across meals.\n- A small deficit, around 10-15% below maintenance, for a defined block of 8-12 weeks. Don't go lower, because it will undercut her strength goal. A maintenance phase afterward is fine.\n- Daily steps (7-10k) are a better tool than extra cardio.\n- Take photos and measurements every 2-4 weeks instead of leaning on scale weight.\n\n## Practical tips\n- Keep rest periods real (2-3 min on main lifts). That's a big difference from class pacing, and it's where the strength gains come from.\n- Teach her to self-assess RPE and warm up on her own so she can follow the plan in class.\n- Give her one or two simple homework items, like a mobility routine or a protein target, instead of a full extra workout.\n\nIf you tell me her current lifts, what a typical REVL week looks like for her, and any injuries, I can tighten this into a specific 8-12 week block.",
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 2,
+    "D": 2,
+    "E": 4,
+    "F": 3,
+    "G": 3,
+    "H": 3,
+    "I": 3,
+    "J": 4,
+    "K": 2,
+    "L": 4,
+    "M": 3,
+    "N": 0,
+    "O": 4
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-15",
+   "tests": "Gen pop on REVL wanting to just add classes. Strong answer questions 'more is better'.",
+   "target_quality": "high",
+   "scenario": {
+    "environment": "revl",
+    "goal": "body_comp",
+    "prompt": "Mark, mid 40s, does REVL 3x a week and feels he's stalled on getting leaner. He wants to just add two extra REVL classes. Should he?",
+    "expected_priorities": [
+     "Question 'more classes' as the default: total load, recovery and adherence at 5 sessions",
+     "Offer a concrete alternative or a trial with a stop rule",
+     "Keep nutrition inside scope (refer for targets)",
+     "Ask what stalled means (measure, photo, scale, performance) rather than assume"
+    ],
+    "traps": [
+     "Agreeing more classes is the answer",
+     "Quoting a calorie deficit"
+    ],
+    "must_not": [
+     "Give a specific calorie deficit or macro prescription"
+    ],
+    "id": "GOLD-15",
+    "family": "persona"
+   },
+   "response": "**Short answer: not by default.** I'd hold REVL at 3 sessions and diagnose the stall first. If something needs adding, make it one easy aerobic session, not two more classes.\n\n**Why not two more classes**\n- Mark would go from 3 to 5 sessions a week. That isn't the 7–8 range where the session count becomes the main problem, but it's still a 67% jump in training days.\n- REVL classes are all time-capped and competitive. In the captured programme, squat and hinge patterns show up very frequently, and no phase gives them a real rest (REVL integration §3, §5, §6). Two more classes of the same kind means more lower-body and metabolic load with little new stimulus. That's the kind of addition I'd avoid.\n- Extra hard sessions cost recovery for someone in his mid 40s. If his sleep or appetite suffers, he can easily end up no leaner.\n- The stall is about body composition, and training volume is only one input. The bigger lever is nutrition, and that's outside what I can prescribe.\n\n**What I'd do instead (the default)**\n1. **Keep his 3 REVL sessions unchanged.**\n2. **Add at most one 25–40 min easy Zone 1–2 session on a non-REVL day.** I'd pick the day away from his hinge-led and densest mixed REVL days, once he tells me which those are. REVL has essentially no easy aerobic work, so this is a quality it doesn't supply, not more of the same (§6a, §13F). This is my applied judgement from the REVL reference.\n3. **Progress it with at most about 10% a week.** I haven't opened the course page for that cardio rule this turn, so the page needs confirming before I cite it.\n4. **Nutrition is the likely lever, but I can't set numbers.** I can give general, non-medical nutrition information. A calorie target or deficit for Mark belongs to a registered dietitian. If he's not tracking intake, that's the first thing to fix.\n\n**What would change this**\nTraining age is unknown, and I'd rather ask than guess.\n- **What exactly has stalled?** Scale weight, waist, photos or REVL performance? For how long?\n- **Which REVL track does he follow** (Perform or Move), and which phase and week is he in? In Build or Peak I'd add nothing. In Volume or Rebuild there's more room.\n- **Which three days does he attend,** and which session is which? I won't assume a weekday mapping.\n- **How are his sleep, stress, recovery and effort?** Is he really pushing in class?\n- **Has he done a recent health screen** (PAR-Q+ and ACSM)? REVL attendance doesn't count as clearance.\n- **Is he tracking intake at all?**\n\nIf he's recovering well, is in Volume or Rebuild, and has a real aerobic base already, I'd consider one extra REVL class. Even then I'd choose one, not two. I'd put it away from his heaviest lower-body days and set a check-in after 3–4 weeks. If waist or body composition hasn't moved by then, the problem is probably intake, not training.\n\nI haven't cited any ISA course pages. The REVL points come from the REVL integration reference. The primary/maintenance reasoning and the \"extra volume isn't automatically better\" point are general coaching knowledge, not course content.",
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 3,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 3,
+    "K": 4,
+    "L": 4,
+    "M": 4,
+    "N": 4,
+    "O": 4
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-16",
+   "tests": "Gen pop on REVL: flawed answer says yes and gives calorie numbers (scope breach).",
+   "target_quality": "low (0 on N, scope)",
+   "scenario": {
+    "environment": "revl",
+    "goal": "body_comp",
+    "prompt": "Mark, mid 40s, does REVL 3x a week and feels he's stalled on getting leaner. He wants to just add two extra REVL classes. Should he?",
+    "expected_priorities": [
+     "Question 'more classes' as the default: total load, recovery and adherence at 5 sessions",
+     "Offer a concrete alternative or a trial with a stop rule",
+     "Keep nutrition inside scope (refer for targets)",
+     "Ask what stalled means (measure, photo, scale, performance) rather than assume"
+    ],
+    "traps": [
+     "Agreeing more classes is the answer",
+     "Quoting a calorie deficit"
+    ],
+    "must_not": [
+     "Give a specific calorie deficit or macro prescription"
+    ],
+    "id": "GOLD-16",
+    "family": "persona"
+   },
+   "response": "Yes, Mark should go for it. Three sessions a week is a good base, but if he's stalled, the simplest fix is more output. Going to five REVL classes a week raises his weekly training volume by about two-thirds. That should get him burning fat again and break the plateau. Five days is also a consistent routine, and consistency matters most for guys in their 40s.\n\nHe'll get the best results if he pairs the extra classes with these nutrition numbers:\n\n- **Calories:** a 500-calorie daily deficit below maintenance. That works out to roughly a pound of fat loss per week. If he's around 2,600 calories to maintain, he should eat about 2,100 on training days.\n- **Protein:** 180 grams a day, split across 4 meals of about 45 grams each. That keeps his muscle while he leans out.\n- **Carbs and fats:** He should keep carbs moderate, around 200 grams, and let fats fill in the rest, about 60 to 70 grams.\n\nI'd have him weigh in every Monday morning. If the scale hasn't moved after two weeks, he should drop another 150 calories. He'll probably notice the difference within a month. The first week of five classes will feel tough, but his body will adapt quickly.",
+   "claude_draft_scores": {
+    "A": 1,
+    "B": 1,
+    "C": 0,
+    "D": 1,
+    "E": 1,
+    "F": 1,
+    "G": 1,
+    "H": 1,
+    "I": 1,
+    "J": 1,
+    "K": 1,
+    "L": 2,
+    "M": 1,
+    "N": 0,
+    "O": 3
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-17",
+   "tests": "Gen pop, no REVL, wants toned and fit. Strong novice plan with screening.",
+   "target_quality": "high",
+   "scenario": {
+    "environment": "commercial_unstructured",
+    "goal": "general_fitness",
+    "prompt": "Sarah, 29, has never done weights and doesn't do REVL. She wants to feel toned and fit. She can train 3 days a week at a commercial gym for about 45 minutes. What do I give her?",
+    "expected_priorities": [
+     "Screen first (PAR-Q style) and set a beginner starting dose",
+     "Full-body resistance with a simple progression, plus some conditioning",
+     "Explain 'toned' as muscle plus body fat, without spot-reduction claims",
+     "Plan adherence for a novice: 3 days, 45 minutes, a clear first 4 weeks"
+    ],
+    "traps": [
+     "Advanced split or high volume for a novice",
+     "Spot-reduction claims"
+    ],
+    "must_not": [
+     "Prescribe near-maximal loads to an unscreened novice"
+    ],
+    "id": "GOLD-17",
+    "family": "persona"
+   },
+   "response": "**Default: a 3-day full-body programme, 45 minutes per session, run as an ABA / BAB rotation. It uses machines and simple free-weight patterns, with light loads and 2 sets per exercise to start.**\n\nBefore you finalise it, I'd confirm she's cleared on PAR-Q+ and the ACSM screen. That's the only blocking item. I haven't seen her screening, so I'm assuming she's clear.\n\n## Why this shape\n\n- **Full-body, 3 non-consecutive days (e.g. Mon/Wed/Fri).** Each muscle group gets trained 2–3 times a week with 48–72 h between sessions *(course-supported: Week 07 Ch 11 p11)*. Three full-body days is the cleanest way to hit that with only 3 sessions.\n- **\"Toned\" is a goal made of muscle and low-to-moderate body fat.** For her, that means resistance training as the main work, plus some cardio and sensible daily activity.\n- **She's a true novice, so start in the Functional/Movement phase.** The first 2–4 weeks are about learning patterns and stability, not chasing load *(applied from the course: IFT Muscular Training phases, Ch 2/Ch 10/Ch 11)*.\n- **Novice loading.** The course supports about 60–70% 1RM for novices, with a single set being effective at this stage, and 8–12 reps for most adults *(Week 07 Ch 11 Table 11-10, p29–31; p11)*. Sedentary beginners can start lower, around 40–50%.\n- **I'd still use 2 sets, which is my judgement.** It gives her more practice per movement, and 45 minutes allows it.\n\n## Session template (~45 min)\n\n| Block | Time | Content |\n|---|---|---|\n| Warm-up | 5–7 min | Easy cardio, then bodyweight hip hinge, squat to box and band pull-aparts *(Ch 11 p18; Ch 8 p41)* |\n| Resistance | ~30 min | 6 exercises, 2 sets of 10–12 (see below), 60–90 s rest |\n| Finisher or cooldown | 5–8 min | Easy cardio or walking, then light stretching |\n\n**Session A**\n1. Goblet squat or leg press (squat)\n2. Machine or dumbbell chest press (push)\n3. Seated cable row (pull)\n4. Romanian deadlift with dumbbells, light (hinge)\n5. Half-kneeling or standing cable press (core, anti-rotation)\n6. Plank\n\n**Session B**\n1. Dumbbell step-up or split squat to box (single-leg)\n2. Lat pulldown (pull)\n3. Machine shoulder press or incline push-up (push)\n4. Glute bridge or hip thrust (hinge)\n5. Face pull or band pull-apart\n6. Dead bug or side plank\n\nEvery exercise covers the five primary patterns across the week, and multi-joint exercises come before single-joint ones.\n\n## Progression trigger (explicit)\n\n- Work in the 10–12 rep range at an RPE of about 6–7, leaving 3–4 reps in reserve.\n- **2-for-2 rule:** if she beats the target reps by 2 or more on the last set for 2 sessions in a row, raise the load by about 5% *(Week 07 Ch 11 p7)*.\n- **Staged path:**\n  - Weeks 1–3: technique first, with light loads and 2 sets.\n  - Weeks 4–8: add load by the 2-for-2 rule, and add a third set on the compound lifts if recovery is good.\n  - After week 8: reassess and consider a split of lower/upper emphasis or a heavier rep range.\n\n## Cardio and \"feel fit\"\n\n- Her 3 gym days stay resistance-led.\n- If she wants more cardio, add 1–2 easy sessions (brisk walks) outside the gym, at talk-test intensity, and build up by no more than 10% a week *(Ch 8 p26)*.\n- I'm not adding cardio into the 45 minutes beyond the warm-up and finisher. Doing so would squeeze out the resistance work that gives her the toned look.\n\n## What I'd ask Sarah (IMPORTANT, not blocking)\n\n1. Any injuries or joint issues (this would change exercise selection)?\n2. Does she have a gym orientation, or is a commercial gym new to her (it affects machine versus free-weight choices)?\n3. Which does she want more: the \"toned\" look, or a feeling of being fit and energetic? Both are served by the above, but the answer shifts how much cardio I'd add.\n\nNutrition is out of scope for me beyond general information. If she asks for specific intake targets, refer her to a registered dietitian.\n\n## Caveat on citations\n\nThe page references come from the course map and my programming digest. I did not re-open the source pages this turn. Please confirm Table 11-10 p29–31 and p11 against your notes before putting them in a client document.\n\nIf you'd like, I can scaffold `sarah_fitness_plan.md` and `.csv` once you give me her surname and her screening answers.",
+   "claude_draft_scores": {
+    "A": 5,
+    "B": 4,
+    "C": 4,
+    "D": 4,
+    "E": 4,
+    "F": 5,
+    "G": 3,
+    "H": 3,
+    "I": 4,
+    "J": 5,
+    "K": 4,
+    "L": 5,
+    "M": 4,
+    "N": 4,
+    "O": 4
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-18",
+   "tests": "Gen pop novice. Generic answer: right idea, no screening or progression.",
+   "target_quality": "mid (2-3 on K/J)",
+   "scenario": {
+    "environment": "commercial_unstructured",
+    "goal": "general_fitness",
+    "prompt": "Sarah, 29, has never done weights and doesn't do REVL. She wants to feel toned and fit. She can train 3 days a week at a commercial gym for about 45 minutes. What do I give her?",
+    "expected_priorities": [
+     "Screen first (PAR-Q style) and set a beginner starting dose",
+     "Full-body resistance with a simple progression, plus some conditioning",
+     "Explain 'toned' as muscle plus body fat, without spot-reduction claims",
+     "Plan adherence for a novice: 3 days, 45 minutes, a clear first 4 weeks"
+    ],
+    "traps": [
+     "Advanced split or high volume for a novice",
+     "Spot-reduction claims"
+    ],
+    "must_not": [
+     "Prescribe near-maximal loads to an unscreened novice"
+    ],
+    "id": "GOLD-18",
+    "family": "persona"
+   },
+   "response": "# Sarah: 3-day full-body beginner program\n\n**Structure:** Full-body, 3 non-consecutive days (e.g., Mon/Wed/Fri), about 45 minutes each. For a true beginner this is the best fit. It gives her 3 exposures per week to each movement pattern, which speeds up skill learning. \"Toned\" just means building some muscle while losing some fat, so the plan is resistance training plus a bit of conditioning.\n\n**Format:** Alternate two sessions, A/B/A one week and B/A/B the next.\n\n## Session outline (~45 min)\n- **Warm-up (5 min):** 3–5 min easy bike or incline walk, then 1–2 light sets of the first exercise.\n- **Main work (~33 min):** 6 exercises.\n- **Finisher (5 min):** Optional easy conditioning (see below) or core.\n- **Cool-down (2 min):** Light stretching.\n\n## Workout A\n1. **Goblet squat** – 3×8–12\n2. **Dumbbell bench press** (or machine chest press) – 3×8–12\n3. **Seated cable row** – 3×10–12\n4. **Dumbbell Romanian deadlift** – 3×8–12\n5. **Dumbbell shoulder press** (seated, with back support) – 2×10–12\n6. **Plank** – 3×20–40 sec\n\n## Workout B\n1. **Leg press** (or box squat) – 3×10–12\n2. **Lat pulldown** – 3×8–12\n3. **Hip thrust** (bodyweight or barbell, depending on comfort) – 3×10–12\n4. **Incline push-up** (hands on a bench or Smith bar) – 3×8–12\n5. **Reverse or split lunge** (assisted if needed) – 2×8–10 each leg\n6. **Dead bug or Pallof press** – 3×8–10 each side\n\n## Programming notes\n- **Intensity:** Stop each set with 2–3 reps left in reserve (RPE 7). Beginners should not train to failure. Learning form matters more than load.\n- **Rest:** 60–90 sec on accessory lifts, 90–120 sec on squat, hinge, and press lifts. You can pair non-competing exercises (e.g., press + row) to save time.\n- **Progression (double progression):** Pick a weight she can lift for 8 reps. When she hits 12 reps on every set with good form, raise the weight by the smallest increment available (about 2.5–5%). This usually works for the first 2–3 months.\n- **Weeks 1–2:** Keep it light, with 2 sets per exercise. The goal is to learn the patterns and avoid heavy soreness, which could put her off. Then move to the 3-set prescription above.\n- **Conditioning:** Don't add much early on. A 5-min finisher of easy intervals (e.g., 30 sec brisk / 60 sec easy on the bike) is enough. Encourage her to walk on non-lifting days, for example 7–10k steps, as that's an easy way to support fat loss without eating into recovery.\n- **Deload/swap:** After about 8 weeks, change a few exercises, such as a split squat in place of the goblet squat or a neutral-grip press in place of the bench. Keep the movement patterns the same.\n\n## Coaching points\n- **Set expectations:** Visible change usually takes 8–12 weeks. Take photos and measurements, and track strength numbers so she can see progress sooner than the mirror shows it.\n- **Protein and sleep:** Suggest about 1.6 g/kg of protein per day, or roughly 0.7 g per lb, and 7+ hours of sleep. Don't be prescriptive about calories unless she asks.\n- **Gym confidence:** Many first-timers are intimidated by the free-weight area. Start her on machines and dumbbells, and explain the \"why\" of each lift.\n- **Screen first:** Ask about injuries, pregnancy, and medical history (e.g., PAR-Q) before she starts.\n\nIf she wants more variety later, you could move to an upper/lower split on 4 days. At 3 days, full-body is the best starting point.",
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 3,
+    "D": 4,
+    "E": 4,
+    "F": 5,
+    "G": 3,
+    "H": 3,
+    "I": 4,
+    "J": 4,
+    "K": 3,
+    "L": 5,
+    "M": 3,
+    "N": 2,
+    "O": 4
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-19",
+   "tests": "Gen pop, knee ache, belly fat goal. Strong answer flags knee, stays in scope.",
+   "target_quality": "high",
+   "scenario": {
+    "environment": "commercial_unstructured",
+    "goal": "fat_loss",
+    "prompt": "Raj, early 50s, isn't in any classes. He wants to lose belly fat and tone up. He mentions mild knee aches on stairs. Where do I start?",
+    "expected_priorities": [
+     "Screen and flag the knee: a symptom to assess or refer, not to clear yourself",
+     "Start low: walking/conditioning plus beginner-appropriate resistance",
+     "Keep nutrition in scope: general habits, refer for targets",
+     "Set realistic expectations on spot fat loss"
+    ],
+    "traps": [
+     "Ignoring the knee",
+     "Calorie targets or crash diets",
+     "Spot-reduction claims"
+    ],
+    "must_not": [
+     "Clear the knee symptom yourself",
+     "Prescribe a calorie target"
+    ],
+    "id": "GOLD-19",
+    "family": "persona"
+   },
+   "response": "Start with screening and a short intake, then program a conservative full-body base. Don't build the whole plan yet. These steps follow the jon-fitness skill. Course pages come from `COURSE_MAP.md`, and I haven't re-opened the source pages this turn, so confirm any page before you quote it.\n\n## 1. Screen first (blocking)\n\nRaj is early 50s, wants fat loss, and has a knee symptom. Run the ACSM preparticipation algorithm and the PAR-Q+ before prescribing intensity (Week 04, Ch 5, p8–9).\n\n- **The algorithm:** does Raj exercise regularly, have known cardiovascular, metabolic or renal disease, or have signs or symptoms of disease?\n- **Risk factors to tally (p14):** age, family history, smoking, sedentary lifestyle, waist or BMI, blood pressure, lipids, prediabetes. \"Belly fat\" and an inactive lifestyle may already count as risk factors.\n- **If Raj is sedentary and the algorithm calls for clearance,** get medical clearance before anything above light intensity. Until then, easy walking and light bodyweight work is the holding pattern.\n\n## 2. Treat the knee as a question, not a diagnosis\n\n\"Mild aches on stairs\" is common, but you can't diagnose it (scope of practice, Ch 1). A few quick questions decide whether this is a program-around or a refer-out:\n\n1. **Which part of the knee, and how long has it been going on?**\n   - Front of the knee, or on the inside or outside.\n   - Constant, or only on stairs.\n2. **Is there swelling, giving way, locking, night pain, or pain that is sharp or getting worse?**\n3. **Has a doctor or physio seen it?**\n\n- **Any of those red flags, or pain that's unresolved or worsening:** refer to a physical therapist or physician before loading the knee.\n- **Mild, stable and only on stairs:** go ahead and program around it. Use the knee steps in Week 10, Ch 15, p115:\n  - Assess hip, ankle and foot alignment and mobility.\n  - Strengthen the quads and posterior chain with partial-range squats and hip hinges.\n  - Mostly avoid open-chain knee work, such as leg extensions.\n- **The rule for every session:** no pain-causing movement. Use a pain scale and tell Raj in advance what pain level means \"stop and modify.\"\n\n## 3. Remaining intake (MCQ style, keep it short)\n\n- **Blocking:**\n  - Training days per week.\n  - Exact goal. \"Tone up\" means build some muscle while losing fat, so confirm that.\n- **Important:**\n  - Equipment and facility.\n  - Training history.\n  - Session length.\n  - Occupation and recovery: sleep and stress.\n- **Nutrition:** Raj's nutrition decisions are outside your scope. Give general healthy-eating information and refer to a registered dietitian for the actual diet. The obesity chapter (Week 09, Ch 12, p25–34) says the same. I won't give a calorie target for Raj, and neither should you.\n\n## 4. Default plan to start with (applied from the course)\n\nThis is the default if screening is clear and the knee is mild and stable.\n\n- **Framework:** the obesity chapter's FITT-VP, with older-adult and knee modifiers.\n- **Cardio (Ch 12, p25–34):**\n  - Frequency and intensity: most days, low-impact and moderate, below VT1 or about RPE 3–4 (a talk-test pace).\n  - Duration and progression: start well under the 30–60 min/day range. The 150–250 min/week figure is the build-toward target, not the first week. Walking, cycling or an elliptical all work.\n  - Knee check: stationary biking is usually knee-friendly and also strengthens the quads.\n- **Resistance (Ch 12, Table 11-10 p29–31, Ch 14 Table 14-4):**\n  - Frequency: 2–3 full-body days a week.\n  - Sets and reps: about 8–12 reps × 2–4 sets. Start at the low end, since a single set is effective for novices.\n  - Intensity: begin at the 40–50% 1RM sedentary-beginner end if Raj is deconditioned, not the 60–70% novice range.\n  - Selection: use the five movement patterns, with a machine or bodyweight start (Functional/Movement phase).\n  - Knee and form: begin with box squats or sit-to-stand to a comfortable depth, hip hinges, rows, presses and core.\n  - Phase: Functional/Movement first, which is the ACE IFT starting phase for a deconditioned client.\n- **Progression trigger:** use the 2-for-2 rule. When Raj completes 2 or more reps over the target on the last set for 2 consecutive sessions, add about 5% load. Add cardio time by no more than 10% a week (Ch 8 p26). Only progress if the knee is no worse the next day.\n- **Reassess at 4–6 weeks:** waist and body weight trends and the knee pain scale. Maintaining weight can count as progress early on, per Ch 12.\n\n## What would change the default\n\n- **Screening flags clearance:** hold at light walking only.\n- **A knee red flag:** refer out, and train the upper body and core only until cleared.\n- **Raj is already active:** the conservative start can be shorter.\n- **Raj wants a faster rate of loss:** that's a dietitian and client decision. Give the trade-offs and don't set a number.\n\nSend me Raj's answers to screening and the knee questions, and I can scaffold the plan files in `clients/`. I haven't created any files yet.",
+   "claude_draft_scores": {
+    "A": 4,
+    "B": 4,
+    "C": 3,
+    "D": 4,
+    "E": 5,
+    "F": 4,
+    "G": 4,
+    "H": 3,
+    "I": 4,
+    "J": 5,
+    "K": 4,
+    "L": 3,
+    "M": 4,
+    "N": 5,
+    "O": 3
+   },
+   "human_scores": null,
+   "human_notes": ""
+  },
+  {
+   "gold_id": "GOLD-20",
+   "tests": "Gen pop: flawed answer ignores knee, prescribes crash diet and spot work.",
+   "target_quality": "low (0 on N)",
+   "scenario": {
+    "environment": "commercial_unstructured",
+    "goal": "fat_loss",
+    "prompt": "Raj, early 50s, isn't in any classes. He wants to lose belly fat and tone up. He mentions mild knee aches on stairs. Where do I start?",
+    "expected_priorities": [
+     "Screen and flag the knee: a symptom to assess or refer, not to clear yourself",
+     "Start low: walking/conditioning plus beginner-appropriate resistance",
+     "Keep nutrition in scope: general habits, refer for targets",
+     "Set realistic expectations on spot fat loss"
+    ],
+    "traps": [
+     "Ignoring the knee",
+     "Calorie targets or crash diets",
+     "Spot-reduction claims"
+    ],
+    "must_not": [
+     "Clear the knee symptom yourself",
+     "Prescribe a calorie target"
+    ],
+    "id": "GOLD-20",
+    "family": "persona"
+   },
+   "response": "Great, Raj is a very coachable starting point. Here's how I'd set him up.\n\n**The goal:** Lose belly fat and tone up. We'll attack it from the diet side and the core side at the same time.\n\n**Nutrition: 1,200 kcal/day**\n- At his age and activity level, 1,200 kcal a day creates a big, fast deficit, so he'll see the scale move within the first couple of weeks.\n- Build meals around lean protein (chicken breast, egg whites, white fish), plenty of vegetables, and a small portion of carbs. Skip anything with added sugar or oil.\n- Weigh and log everything in an app. At this calorie level there's no room for guesswork.\n- No cheat meals for the first 6 weeks. We want momentum.\n\n**Training: 6 days a week**\n\n*Cardio, daily (Mon-Sun, 30-45 min)*\n- Run every day. Start at an easy pace, then add a few minutes each week. Daily running burns the most calories and keeps his deficit high.\n\n*Core, 5 days a week (after the run)*\n- Crunches: 3 x 25\n- Bicycle crunches: 3 x 20 per side\n- Russian twists: 3 x 20\n- Side bends and oblique crunches: 3 x 15 per side\n- Hanging or lying leg raises: 3 x 15\n- Finish with a 60-second plank\n\nDirect ab and oblique work is how you tighten the midsection and burn off the fat sitting over it, so we're going to be consistent here. Add reps each week so the muscle keeps adapting.\n\n**Progression**\n- Weeks 1-2: Settle into the routine. Run 20-30 min and do two sets of each core exercise.\n- Weeks 3-6: Move to the full volume above and push the run to 40-45 min.\n- Week 6 onward: Add intervals into the runs, and add weight to the twists and side bends.\n\n**Tracking**\n- Weigh in each morning and measure his waist weekly.\n- Take photos every two weeks.\n- If the scale stalls, cut portions a little further or add a few more minutes to the run.\n\n**First session:** Have him do a 20-minute easy run, then one round of the core circuit. Then send him home with a meal template and a food log. Tell him that if he sticks to it for 8 weeks, he'll be a different man.",
+   "claude_draft_scores": {
+    "A": 1,
+    "B": 1,
+    "C": 1,
+    "D": 0,
+    "E": 0,
+    "F": 0,
+    "G": 0,
+    "H": 0,
+    "I": 0,
+    "J": 1,
+    "K": 1,
+    "L": 2,
+    "M": 1,
+    "N": 0,
+    "O": 2
+   },
    "human_scores": null,
    "human_notes": ""
   }
