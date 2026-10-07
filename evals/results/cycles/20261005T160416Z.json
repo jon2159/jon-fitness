@@ -1,0 +1,256 @@
+{
+ "ts": "20261005T160416Z",
+ "cycle": 35,
+ "label": "revl-scan-broad",
+ "runner": "claude",
+ "skill_version": {
+  "commit": "ab81a6e",
+  "skill_dirty": true,
+  "skill_hash": "2da17acabe6aeddb",
+  "skill_files": 25
+ },
+ "n_selected": 40,
+ "n_scored": 0,
+ "rows": [
+  {
+   "scenario_id": "ADV-001",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-002",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-003",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-004",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-005",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-006",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-007",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-008",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-009",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-010",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-011",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-012",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-013",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-014",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-015",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-016",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-017",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-018",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-019",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-020",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-021",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-022",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-023",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-024",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-025",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-026",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-027",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-028",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-029",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-030",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-031",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-032",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-033",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-034",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-035",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-036",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-037",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-038",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-039",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  },
+  {
+   "scenario_id": "ADV-040",
+   "error": "exit 1: ",
+   "cycle": 35,
+   "ts": "20261005T160416Z"
+  }
+ ]
+}

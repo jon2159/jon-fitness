@@ -1,0 +1,103 @@
+{
+ "ts": "20261006T163911Z",
+ "cycle": 35,
+ "label": "probe-c",
+ "runner": "claude",
+ "skill_version": {
+  "commit": "ab81a6e",
+  "skill_dirty": true,
+  "skill_hash": "2da17acabe6aeddb",
+  "skill_files": 25
+ },
+ "n_selected": 1,
+ "n_scored": 1,
+ "rows": [
+  {
+   "ts": "20261006T163911Z",
+   "cycle": 35,
+   "label": "probe-c",
+   "set": "benchmark",
+   "runner": "claude",
+   "commit": "ab81a6e",
+   "skill_hash": "2da17acabe6aeddb",
+   "skill_dirty": true,
+   "scenario_id": "ADV-001",
+   "family": "adversarial",
+   "environment": "revl",
+   "revl_phase": "Peak Wk 2",
+   "goal": "str_squat",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 5,
+    "B": 4,
+    "C": 5,
+    "D": 4,
+    "E": 5,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 3,
+    "J": 4,
+    "K": 4,
+    "L": 4,
+    "M": 5,
+    "N": 5,
+    "O": 4
+   },
+   "goal_alignment": 4.5,
+   "load_management": 4.5,
+   "recovery": 4,
+   "individualisation": 4,
+   "programming_quality": 3.5,
+   "long_term_planning": 5,
+   "safety": 5,
+   "overall": 4.267,
+   "skill_referenced": false,
+   "priorities_hit": [
+    "Refuse to stack a Russian wave on a testing week; protect the test",
+    "Propose starting the block in Rebuild, driven by the tested maxes",
+    "Run the russian-strength-program.md eligibility gate before agreeing to anything",
+    "Point out the test itself yields a current validated 1RM (partially: says a squat max in testing could satisfy G4, but notes captured test lifts don't include a squat)"
+   ],
+   "priorities_missed": [
+    "Does not firmly frame Peak Wk 2 as the squat 1RM/3RM test; says captured tests are deadlift and push press/jerk, so the squat test is treated as uncertain"
+   ],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Declines to start the wave on Monday and gives clear reasons: stacking a second strength peak on a testing week",
+    "REVL claims are stated with provenance (image-verified, studio-confirmed) and the dosing judgement is labelled as the answerer's own",
+    "Runs the G1-G7 gate and treats unconfirmed items as unmet, instead of accepting 'passes all screens'",
+    "Gives a concrete plan: support-only work during Peak weeks 2-3, then the Masters 2-day variant in Rebuild, with a progression trigger (two consecutive sessions at target RPE, hold or drop about 5% if RPE is 9 or higher twice)",
+    "Asks well-chosen clarifying questions, such as testing week content, track and Rebuild publication, and does not build generic plan files without a name",
+    "Acknowledges the alternative of replacing REVL strength days and leaves that priority call to the coach and client"
+   ],
+   "major_errors": [
+    "The 'light squat technique primer' and PT support session during the testing weeks adds load to a peak, though it is caveated",
+    "The Masters 60-70% starting figure and the 'drop about 5%' rule are presented without clear course or reference attribution, which risks being read as an unsupported protocol detail",
+    "The G7 'age?' question is somewhat gratuitous for an experienced, cleared lifter"
+   ],
+   "missed_opportunities": [
+    "Could state more firmly that the test week supplies fresh maxes, and that the Rebuild block should be programmed from them",
+    "Long and gate-table heavy for what is essentially a 'not now, start in Rebuild' answer",
+    "Could have given a short, concrete week-by-week outline of the first Rebuild weeks"
+   ],
+   "duplication_risk": "low - recommends no Russian work during testing weeks and cautions against adding sessions on top of REVL",
+   "recommended_improvement": "In russian-strength-program.md or revl-class-integration.md, add a one-line rule that Peak weeks 2-3 are testing weeks, so the Russian start defaults to Rebuild anchored on tested or estimated maxes. Also state which squat-test status the references support, so the answer doesn't hedge on whether a squat max is tested.",
+   "failure_category": "none",
+   "consistency_score": 4,
+   "contradictions": [
+    "\"Treat the full V5 4-day or Classic as a later option, and only if he drops REVL's strength days for the block\" sits awkwardly with \"If the squat PB outranks the REVL peak: the alternative is to replace his REVL strength days with the Russian wave\". The first reads as an option only after Peak, and the second offers the same swap now. It is partly reconciled by \"I'd still wait\".",
+    "\"Masters is normally the only Russian option that fits alongside full REVL attendance\" and \"anchored to his squat 1RM\" are stated without support. The Masters variant is recommended for an experienced lifter whose age is unknown (G7 'Unknown'). The recommendation is made before the G2 and G7 gates are confirmed, so it is a soft pre-commitment, though it is labelled as the default.",
+    "\"Rebuild, which has headroom similar to Volume\" is stated as fact. The same response says the Rebuild weeks were unpublished when last captured, so the claim cannot be verified.",
+    "\"A Masters-style wave starts at 60\u201370% on the anchor day\" and \"hold or drop about 5%\" are specific numbers given without course support or a source label. The response also says the client's 1RM may not be known, since the captured test lifts have no squat. The percentages are conditioned on an estimated 1RM, which softens this."
+   ],
+   "seconds": 49.8,
+   "response": "**Short answer: I wouldn't start the Russian programme on Monday, and I haven't built the plan files. Peak week 2 is the wrong window, and the gate isn't fully closed yet.**\n\n**Why not Monday**\n- In the captured REVL programming (image-verified), Peak week 2 is a strength-testing week with a 1RM barbell deadlift and a 1RM push press/jerk. The studio also confirmed that Peak weeks 2\u20133 are testing weeks. Check with the client what his own testing sessions are, since the captured test lifts don't include a squat.\n- The Russian wave opens at 80% for 6\u00d72, then 6\u00d73 and up. Placed on top of REVL's heaviest testing weeks, that is a second strength peak stacked on the first, with a near-maximal session landing next to maximal singles. This is my dosing judgement, from the REVL integration reference \u00a710 and \u00a714. In Peak the options are to support the peak or to replace REVL's strength days. Adding to it is not one of them.\n- His squat goal doesn't change this. The squat pattern is trained in REVL in every phase, so it isn't fresh just because he's testing other lifts.\n\n**Eligibility gate (G1\u2013G7)**\n\"Cleared and passes all screens\" covers G1 and perhaps G3. It says nothing about the other items, and anything unconfirmed counts as unmet.\n\n| Gate | Status |\n|---|---|\n| G1 Medical clearance | Pass (your report) |\n| G2 Experienced lifter | Likely pass, but I need his barbell training age |\n| G3 Movement screens | Pass (your report), but I need the date and any compensations |\n| G4 Loaded-testing contraindications (low-back/knee pain for squat) | Unknown |\n| G5 Barbell, rack, bench, pull-up bar | Unknown |\n| G6 Recovery context for REVL + the protocol combined | Unknown |\n| G7 Special-population override | Unknown (age?) |\n\n**Default recommendation**\n1. **This week and next (Peak wk 2\u20133):** no Russian work. If he wants a PT session, make it support only: mobility, activation and a light squat technique primer, nothing near-maximal. Avoid the day before and the day after his testing sessions. Don't add any other training on top.\n2. **After Peak:** when REVL moves into Rebuild, which has headroom similar to Volume, start the **Masters 2-day variant**, anchored to his squat 1RM. If REVL's testing included a squat max, his own result can satisfy G4 and spare him a separate test. If it didn't, use an estimated 1RM from a rep-max rather than a fresh true max. Masters is normally the only Russian option that fits alongside full REVL attendance. Treat the full V5 4-day or Classic as a later option, and only if he drops REVL's strength days for the block.\n3. **Progression trigger:** a Masters-style wave starts at 60\u201370% on the anchor day. Add load only when he hits all the prescribed reps in two consecutive sessions at the target RPE. If RPE reaches 9 or higher in two sessions running, hold or drop about 5%.\n\n**What would change this**\n- **If the squat PB outranks the REVL peak:** the alternative is to replace his REVL strength days with the Russian wave. Doing it now means abandoning a Peak he's already two weeks into, so I'd still wait. That's his priority call to make with you, not mine.\n- **Total weekly sessions:** with REVL plus PT, if he's heading toward 7 or more, I'd recommend fewer or shorter PT sessions rather than adding one.\n\n**What I need from you before building the plan**\n- His name, so I can scaffold the plan files. I don't create generic ones.\n- Answers for G2 and G4\u2013G7 above.\n- Which REVL track he follows, which weekday is which session for him, and what his testing week actually includes.\n- Whether the Rebuild weeks have published yet, since they were unpublished when I last captured the block.\n- Whether this is a goal for a specific date, or just the next PB.\n\nOnce I have those, I'll write the plan pair, generate the CSV, and run the validator."
+  }
+ ]
+}
