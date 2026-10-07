@@ -145,6 +145,16 @@ converting a slot to recovery/mobility — alongside any content-substitution op
 the added content low-systemic-cost is not a substitute for raising the session-count
 question; do both, or at minimum name the option and give the reason you're not taking it.
 
+**The default must follow the option you named.** Eval failure pattern: the response says
+"availability is a ceiling, not a quota" or "I'd lean toward fewer sessions" — and then
+fills every offered slot in its default plan. If you state that, the default plan itself
+uses fewer slots (or a lower dose per slot) than offered. Use every slot only when you can
+name a client-specific need for each one, and then say what REVL under-serves that the slot
+covers. Count the added hard sets per session **and** per week against what REVL already
+delivers, and show that count — a plan whose added volume you cannot size against REVL's
+weekly load is not ready to give. For a beginner or inconsistent trainer, the default is
+one added slot that is progressive and consistent, not two or three.
+
 ## 5. Diagnose before you replace a working programme
 
 A programme that is still producing progress should not be escalated or replaced because
