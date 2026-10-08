@@ -1,0 +1,104 @@
+{
+ "ts": "20261007T232502Z",
+ "cycle": 45,
+ "label": "probe-d",
+ "runner": "claude",
+ "skill_version": {
+  "commit": "c5c464b",
+  "skill_dirty": true,
+  "skill_hash": "4a0ee2cb1ee056ad",
+  "skill_files": 25
+ },
+ "n_selected": 1,
+ "n_scored": 1,
+ "rows": [
+  {
+   "ts": "20261007T232502Z",
+   "cycle": 45,
+   "label": "probe-d",
+   "set": "benchmark",
+   "runner": "claude",
+   "commit": "c5c464b",
+   "skill_hash": "4a0ee2cb1ee056ad",
+   "skill_dirty": true,
+   "scenario_id": "ADV-025",
+   "family": "adversarial",
+   "environment": "commercial_machines",
+   "revl_phase": null,
+   "goal": "performance",
+   "training_age": null,
+   "recovery_context": null,
+   "constraint": null,
+   "pt_frequency": null,
+   "benchmark": true,
+   "scores": {
+    "A": 4,
+    "B": 4,
+    "C": 3,
+    "D": 3,
+    "E": 4,
+    "F": 4,
+    "G": 4,
+    "H": 4,
+    "I": 4,
+    "J": 4,
+    "K": 4,
+    "L": 4,
+    "M": 5,
+    "N": 4,
+    "O": 4
+   },
+   "goal_alignment": 4,
+   "load_management": 3.5,
+   "recovery": 4,
+   "individualisation": 4,
+   "programming_quality": 4,
+   "long_term_planning": 5,
+   "safety": 4,
+   "overall": 3.933,
+   "skill_referenced": false,
+   "priorities_hit": [
+    "Respect the preference while explaining what machines can't provide for athleticism",
+    "Build a graded exposure path to free weights rather than demanding the switch",
+    "Athletic qualities need unilateral, multi-planar, and loaded-carry work",
+    "Use machines as a bridge, not a permanent ceiling",
+    "Address the intimidation directly \u2014 it's an adherence issue"
+   ],
+   "priorities_missed": [],
+   "traps_fallen_into": [],
+   "hard_failures": [],
+   "major_strengths": [
+    "Clear three-stage graded exposure path with explicit advance criteria that give the client a say",
+    "Treats intimidation as an adherence issue and asks what specifically intimidates her",
+    "Bridges via stable options (Smith/bench split squat, goblet squat) before loaded free weights",
+    "Includes unilateral, carry, rotational and power work, with power placed early in the session at low volume",
+    "Concrete progression trigger (2-for-2 / double progression) with honest page-verification labelling",
+    "Honest epistemic labelling and a screening caveat before jumping and power work",
+    "Weeks 1\u201312 forward plan and what-would-change-this section"
+   ],
+   "major_errors": [
+    "Machine-then-free-weight ordering line is contradictory: says machines come first while free weights are slotted early after the warm-up",
+    "Includes the 5% increment and the 2-for-2 rule as course-sourced without a verified page, which is weak provenance",
+    "Plyometrics and med ball throws begin in stages 1\u20132 while the screening status is unknown, and the screening caveat is only attached to Stage 3",
+    "Asks five questions at the end rather than a staged one or two"
+   ],
+   "missed_opportunities": [
+    "Did not give a per-day set/rep/RIR prescription for a typical session",
+    "Did not count total weekly load beyond asking about other classes",
+    "Could have offered an immediate low-stakes free-weight trial in week 1, such as an off-peak orientation session"
+   ],
+   "duplication_risk": "low - three full-body days with low-volume power work and stated RIR caps",
+   "recommended_improvement": "In the machine-only / free-weight-intimidation guidance, add a rule to attach screening to the first plyometric exposure (not just the heaviest stage) and to give a per-session set/rep/RIR template alongside the staged path.",
+   "failure_category": "none",
+   "consistency_score": 3,
+   "contradictions": [
+    "The machines paragraph says machines \"come first in the session while she's fresh and warm, and free-weight exposure is slotted in early in the session, after the warm-up\", but also says \"Put power work first in the session, right after the warm-up\". Machines, free weights and power work are all assigned the first slot, so the session order is unresolved.",
+    "Stage 1 has 'low-height box step-ups', 'carries' and 'med ball chest pass' as add-ons, and Day A includes 'a power or plyo element' from the first week. Yet the progression text says \"Don't add power work until her landing and hinge mechanics are clean\", and the screening note puts power and jumping at Stage 3. A power element in Day A is therefore scheduled before the gate that is supposed to allow it.",
+    "The plan is built around \"Wk 9 onward\" and gives a weekly structure that adds power, a conditioning finisher, throws, carries and loaded trunk work to each session. It never says how this fits a 3-day schedule's time, and it asks about other classes \"(REVL or others) that already add volume\" only afterwards, so the added work is not sized against concurrent training exposure.",
+    "The plan says to \"add about 5% load\" once she completes 2 or more reps over the target for two sessions. It also says to stop 2\u20133 reps short of failure in Stages 1\u20132, and it says she hits rep targets \"at a light load\". A rule that depends on reps over the target on the last set conflicts with a cap on effort, because she is not working near the point where extra reps appear. The rule is also given as course content while \"I haven't verified the page\"."
+   ],
+   "seconds": 7365.9,
+   "response": "**Default recommendation:** keep three full-body days. Make machines the starting point, not the ceiling, and add one new \"athletic\" element per stage. Machines alone can't deliver \"athletic,\" because she needs to train power, single-leg work, trunk control and multi-planar movement. So her fear is an adherence issue to work through, not a limit on the goal.\n\n## What her situation changes\n\n- **Machines-only:** most of the athletic qualities she wants don't come from fixed-path machines. The course's progression continuum runs bodyweight \u2192 machine \u2192 free weight, uniplanar \u2192 multiplanar, bilateral \u2192 unilateral, stable \u2192 unstable (programming-reference digest; I haven't opened the source slide, so I'm not giving a page number).\n- **2 years of training and good recovery:** she can handle moderate-to-hard effort and a real volume. Her strength is probably ahead of her movement skill, so I'd treat the free-weight patterns as new skills. The first sessions should be light and technique-focused, with reps left in reserve.\n- **Intimidation:** I'd ask what exactly intimidates her: the barbell, the free-weight area, being watched, or fear of getting hurt. The answer changes the fix. Scheduling off-peak, or using the studio floor, solves the \"being watched\" problem but not a fear of the lifts.\n\n## Staged path\n\n| Stage | Roughly | Lower body | Upper body | Athletic add-on | Advance when |\n|---|---|---|---|---|---|\n| **1. Build the base** | Wks 1\u20134 | Leg press, plus split squat to a bench or Smith machine (stable, so low intimidation) | Chest press, row, and cable pulls and presses | Cable anti-rotation (Pallof), carries, low-height box step-ups, med ball chest pass | She does the patterns cleanly at about 2\u20133 reps in reserve |\n| **2. Introduce free weights** | Wks 5\u20138 | Goblet squat with a light dumbbell, a deliberately easy first exposure; cable or dumbbell RDL | Dumbbell press and row, seated or supported | Low jumps and landings, med ball rotational throws, lateral step-downs | She hits the rep targets at a light load with solid form, and says she's comfortable (she gets a say) |\n| **3. Load and speed** | Wk 9 onward | Dumbbell or trap-bar hinge, rear-foot-elevated split squat, heavier goblet | Standing dumbbell or cable work, split-stance presses | Box jumps, bounds, short sprints or sled pushes, throws for intent | Ongoing, using the progression rule below |\n\nThe machines stay as a bridge. They come first in the session while she's fresh and warm, and free-weight exposure is slotted in early in the session, after the warm-up.\n\n**Progression trigger (applies to every stage):** use double progression, or the course's 2-for-2 rule. When she completes 2 or more reps over the target on the last set for two sessions in a row, add about 5% load. (The 2-for-2 rule and the roughly 5% increment are in the course's Ch 11 material, but I haven't verified the page this turn.) In Stage 1 and 2, stop 2\u20133 reps short of failure. Don't add power work until her landing and hinge mechanics are clean.\n\n## Weekly structure (3 full-body days)\n\n- **Day A:** lower-body push (leg press \u2192 split squat), horizontal pull, trunk anti-rotation, a power or plyo element\n- **Day B:** hinge pattern, vertical press or pull, carry, loaded trunk work\n- **Day C:** single-leg emphasis, rotational power (throws), upper-body mix, conditioning finisher\n\nPut power work first in the session, right after the warm-up. Keep it low-volume (for example 3\u00d73\u20135 of quality efforts) so it doesn't turn into fatigue.\n\n## What would change this plan\n\n- **Her actual goal:** a sport (court or field sport, running) shifts the emphasis toward change of direction, sprinting or jumping. \"Generally more athletic\" is a fine default.\n- **How fast Stage 2 goes:** if her form and confidence are quick, shorten Stage 1. If she dreads the sessions, stay on the previous stage longer. Her rep quality and how reluctant she is to start the session tell you more than the calendar.\n- **Screening:** I don't know her health history. Confirm she's cleared for vigorous activity before the power and jumping work in Stage 3. Any joint pain at landing, or any reported injury, means you stop that element and refer out rather than self-clear.\n\n## What I still need\n\n1. Screening or PAR-Q+ status, and any injuries\n2. The specific thing that intimidates her about free weights\n3. Her current machine loads, so I can set starting points\n4. Whether she has a specific sport or activity in mind\n5. Whether she does any other classes (REVL or others) that already add volume\n\nIf you give me her name, I can write this up as a plan file, with the CSV schedule and the evidence chain.\n\n**Labeling:** the staged structure, the exercise choices and the stage-advance criteria are my coaching judgment, applied from the course's progression principles. They aren't course text. The 2-for-2 rule and the roughly 5% load increment come from the course, but I haven't verified their page numbers."
+  }
+ ]
+}

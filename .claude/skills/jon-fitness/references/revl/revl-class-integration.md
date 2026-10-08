@@ -22,7 +22,7 @@ problem (see §0a).
 | **T2 Studio-confirmed** | Told to us by the studio; not printed on the posters (team-format rep totals are shared, not per person; Peak is three weeks, weeks 2–3 are testing) | State it, attributed to the studio confirmation |
 | **T3 OCR-counted** | A keyword count across OCR'd posters (§17). A *lower bound*, describing the programme as written, blind to what a member actually loaded | Default to the §0b bands. A figure is allowed only if you label it: *"keyword count over the captured posters, lower bound, programme as written — not your sessions."* Never build a decision that flips if the figure is 10 points off |
 | **T4 Inference** | A reasonable reading of REVL's intent, not stated by REVL | Say "inference" / "my reading" |
-| **T5 Not established** | Not established by supplied material or client confirmation: this client's schedule, track, loads or attendance; anything about 2026 Block 3 Rebuild (unpublished at capture); anything the posters don't show | Say the source doesn't establish it, and **ask the client** |
+| **T5 Not established** | Not established by supplied material or client confirmation: this client's schedule, track, loads or attendance; anything the posters don't show | Say the source doesn't establish it, and **ask the client** |
 
 **Unconfirmed client-specific claims are T5.** "REVL loads the hinge pattern very often"
 is a programme-level claim (T3). "Your Wednesday is Move Total" or "you'll be at 60% this
@@ -146,7 +146,7 @@ several weeks rather than one.
 | **Build** | Convert accumulated volume into force | Climbing toward high | Falling | **Limited** |
 | **Deload** | Shed fatigue before the heavy weeks | Low | Low | **Strength-only headroom** (see §4) |
 | **Peak** | Express maximal strength; re-test | Highest of the block | Lowest | **Minimal** |
-| **Rebuild** | Re-accumulate; bridge to the next block | Low-to-moderate, mostly effort-based (RIR/RPE) rather than fixed loading | Moderate | Moderate |
+| **Rebuild** | Re-accumulate; bridge to the next block | Low-to-moderate; explicit load prescription is sparse (about 13–14% of sessions each for %1RM, RIR and RPE), so loading is mostly cue- and format-driven | Moderate | Moderate |
 
 ### Peak contains testing weeks — protect them, then use them
 
@@ -560,7 +560,7 @@ day-of-week mapping without that confirmation.
 | &nbsp;&nbsp;↳ **The heavy-wave week of Peak** | Highest sustained neural demand. | Support only. No second heavy exposure. If their PB goal outranks the REVL peak, **replace** REVL strength days with the protocol (§10d) rather than adding. |
 | &nbsp;&nbsp;↳ **The strength-testing week of Peak** | True maximal singles under coaching. The highest-stakes week in the block. | **Add nothing load-bearing.** Session = activation, mobility, technique primer, recovery. Afterwards, **ask whether the test happened and what it produced** — a confirmed result can satisfy the current-1RM requirement for a PT strength block (`references/russian-strength/russian-strength-program.md` G4 / §7) without re-testing. |
 | &nbsp;&nbsp;↳ **The conditioning-baseline-testing week of Peak** | Maximal *metabolic* efforts being scored. | Don't blunt them: no added conditioning, no heavy legs the day before. Ask for the benchmark scores as the client's conditioning baseline once confirmed. |
-| **"I'm in Rebuild."** | Loads low-to-moderate, mostly effort-based; re-accumulating. | Similar headroom to Volume. Good time to start a new PT progression or a *reduced* strength block. |
+| **"I'm in Rebuild."** | Loads low-to-moderate with little explicit load prescription; re-accumulating. | Similar headroom to Volume. Good time to start a new PT progression or a *reduced* strength block. |
 | **"My legs are sore from REVL."** | Expected — no day leaves the lower body genuinely unloaded. | Train upper body, carries, anti-rotation, or do mobility/aerobic. Avoid loaded squat/hinge and high-eccentric lower work. Sore ≠ stop, but it does mean **change the pattern**, not just the load. |
 | **"My upper body is fatigued from REVL."** | Likely their upper-body-led or highest-total-work day. | Lower-body *stability* and mobility work, gentle unilateral, Zone 1–2 aerobic. Avoid pressing and heavy pulling. |
 | **"I feel fresh despite doing REVL."** | Genuine headroom **or** under-reporting. Verify: sleep, sessions actually attended, effort used, appetite, mood, last week's performance. | If genuinely fresh **and** in Volume/Rebuild/Deload → this is the window for the highest-value addition (a strength exposure, or starting a reduced protocol). **Freshness is not a reason to add work by default** — still pick the highest-value gap, not the biggest dose. |
@@ -649,14 +649,15 @@ never as a statement about a particular client's week.
 
 ## 17. The underlying counts
 
-Source: `source/extract_revl.py` → `source/revl_raw_data.md` (2026, 363 screenshots across
-Blocks 1–3) and `source/revl_raw_data_2025.md` (2025, 260 screenshots across Blocks 3–4) —
+Source: `source/extract_revl.py` → `source/revl_raw_data.md` (2026, 393 screenshots across
+Blocks 1–3, including Block 3's Rebuild weeks) and `source/revl_raw_data_2025.md` (2025, 260 screenshots across Blocks 3–4) —
 two independent OCR engines, disagreements flagged, a sample verified against the original
 images directly. Analysis: `source/analyze_revl.py` →
 `source/revl_programming_analysis.md` (2026) / `source/revl_programming_analysis_2025.md`
 (2025); cross-year synthesis in `source/revl_2025_vs_2026_analysis.md`. **2026 Block 3's
-Rebuild phase (3 weeks) had not been published by REVL when captured — treat that gap as a
-capture limitation, not a programming finding.**
+Rebuild phase (3 weeks) was published after the first capture and was captured on 2026-10-08;
+it is now included (393 screenshots).** One Block 3 page (Volume Wk 2) still has 9 posters, not
+the usual 10 — see §17e.
 
 **Evidence tiers used in the source analysis:** *[Observed]* — read directly off the
 screenshots or OCR; *[Pattern]* — repeated across many sessions, backed by the counts here;
@@ -665,26 +666,26 @@ describe **the programme as written**, not any individual member's week, and mov
 more than a few points when a third block of data was added — this is stable house style,
 not a block-specific artifact.
 
-### 17a. Overall movement-pattern exposure (share of all sessions, 2026, n=363; 2025 range shown where it differs)
+### 17a. Overall movement-pattern exposure (share of all sessions, 2026, n=393; 2025 range shown where it differs)
 
 | Pattern | 2026 | 2025–2026 range |
 |---|--:|--:|
 | Hinge (any implement) | 74% | 63–74% |
-| Squat (any implement) | 73% | 66–73% |
+| Squat (any implement) | 74% | 66–74% |
 | Erg / machine cardio | 68% | — |
 | Unilateral lower | 64% | 53–64% |
 | Olympic / ballistic | 56% | 56–63% |
 | Core / trunk | 55% | — |
 | Horizontal push | 53% | — |
 | Vertical push | 50% | — |
-| Vertical pull | 43% | — |
-| Horizontal pull | 39% | — |
+| Vertical pull | 44% | — |
+| Horizontal pull | 38% | — |
 | Running / locomotion | 34% | — |
 | Burpee / mixed metcon | 30% | — |
 | Rotation / anti-rotation | 15% (2026) | 33% in 2025's Move-track shape |
-| Carry / loaded hold | 11% | 8% (2025) |
+| Carry / loaded hold | 10% | 8% (2025) |
 
-### 17b. Barbell-specific exposure by weekday (2026, keyword-count lower bound)
+### 17b. Barbell-specific exposure by weekday (2026, keyword-count lower bound; computed at n=363 — not re-run after Block 3's Rebuild was added)
 
 | Movement | Mon | Tue | Wed | Thu | Fri | Sat | Sun | all |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -709,25 +710,25 @@ mapping applies to a given client without asking which track/year-style they're 
 | Build | 4–6 | 50–90% | 5–10 | 67–69% | 44–47% |
 | Deload | 7 | 30–55% | ~8 | 90% | 85–87% |
 | Peak | 8–10 | 60–95% (Block 1); ~92.5% ceiling (Block 2) | 1–5 | 49–51% | 43–47% |
-| Rebuild | 11–13 | mostly RPE/RIR, %-prescription in ~12% of sessions | moderate | 80% | 85% |
+| Rebuild | 11–13 | sparse explicit tokens: %1RM ~13%, RIR ~13%, RPE ~14% of sessions (tempo cues 47%) | moderate | 77% | 86% |
 
 ### 17d. Exposure by session type (2026)
 
 | Pattern | Hinge-led strength day | Densest mixed strength day | Upper-only strength day | Hybrid strength day | Conditioning format A | Conditioning format B | Team conditioning | High-total-work day |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|
-| Squat | 62% | 100% | 0% | 74% | 83% | 92% | 93% | 81% |
-| Hinge | 100% | 100% | 8% | 100% | 42% | 62% | 63% | 88% |
-| Unilateral lower | 81% | 100% | 0% | 76% | 33% | 42% | 63% | 69% |
-| Horizontal push | 73% | 4% | 100% | 72% | 21% | 25% | 26% | 77% |
-| Vertical push | 92% | 8% | 46% | 62% | 25% | 33% | 30% | 65% |
-| Horizontal pull | 62% | 0% | 96% | 49% | 4% | 8% | 0% | 85% |
-| Vertical pull | 58% | 38% | 81% | 44% | 38% | 46% | 11% | 15% |
-| Carry/hold | 19% | 23% | 8% | 17% | 8% | 8% | 7% | 0% |
-| Rotation/anti-rot. | 12% | 19% | 42% | 22% | 0% | 0% | 4% | 12% |
-| Core/trunk | 77% | 69% | 46% | 72% | 38% | 62% | 22% | 19% |
-| Olympic/ballistic | 58% | 96% | 4% | 47% | 79% | 62% | 70% | 35% |
-| Erg/machine | 12% | 15% | 4% | 85% | 100% | 100% | 100% | 100% |
-| Running | 0% | 0% | 0% | 9% | 100% | 75% | 70% | 54% |
+| Squat | 64% | 100% | 0% | 75% | 78% | 92% | 88% | 85% |
+| Hinge | 100% | 100% | 8% | 97% | 33% | 64% | 58% | 90% |
+| Unilateral lower | 79% | 100% | 0% | 79% | 33% | 47% | 68% | 74% |
+| Horizontal push | 72% | 3% | 100% | 71% | 17% | 31% | 25% | 79% |
+| Vertical push | 95% | 5% | 46% | 67% | 28% | 33% | 25% | 69% |
+| Horizontal pull | 59% | 0% | 95% | 50% | 3% | 6% | 2% | 74% |
+| Vertical pull | 54% | 42% | 82% | 44% | 28% | 56% | 15% | 18% |
+| Carry/hold | 18% | 16% | 8% | 13% | 6% | 6% | 5% | 8% |
+| Rotation/anti-rot. | 8% | 16% | 51% | 20% | 0% | 0% | 2% | 13% |
+| Core/trunk | 77% | 71% | 49% | 68% | 42% | 67% | 22% | 21% |
+| Olympic/ballistic | 64% | 97% | 3% | 49% | 86% | 61% | 70% | 36% |
+| Erg/machine | 15% | 13% | 3% | 83% | 100% | 100% | 100% | 100% |
+| Running | 0% | 0% | 0% | 10% | 100% | 75% | 72% | 54% |
 
 Session-type labels here follow `source/revl_programming_analysis.md`'s own categories —
 see that file for the literal 2026 poster names, and `source/revl_2025_vs_2026_analysis.md`
@@ -735,9 +736,10 @@ for how these map differs by year.
 
 ### 17e. Provenance and known data-quality issues
 
-- Raw extraction: **363 screenshots, Blocks 1–3 of 2026**; **260 screenshots, Blocks 3–4 of
-  2025**; two OCR engines, disagreements flagged. 2026 Block 3's Rebuild phase was unpublished
-  at capture time.
+- Raw extraction: **393 screenshots, Blocks 1–3 of 2026** (131 / 133 / 129); **260 screenshots,
+  Blocks 3–4 of 2025**; two OCR engines, disagreements flagged. Block 3's Rebuild weeks were
+  captured 2026-10-08. 17a, 17c (Rebuild row) and 17d were re-run at n=393; 17b (barbell
+  keyword table) was not, and its numbers still describe n=363.
 - A confirmed data-quality defect: one 2026 Block 3 page has a broken image reference in
   REVL's own CMS (an HTML-escaping bug), recovered by repairing the DOM before capture —
   documented in `source/revl_programming_analysis.md` §E for full detail.

@@ -1,22 +1,22 @@
 # jon-fitness — evaluation performance history
 
-_Auto-written by `evals/run_cycle.py`. 489 trained-distribution runs, 0 generalization, 0 wildcard, across 43 cycles._
+_Auto-written by `evals/run_cycle.py`. 530 trained-distribution runs, 0 generalization, 0 wildcard, across 46 cycles._
 
-## Scoreboard — cycle 43 vs 42
+## Scoreboard — cycle 46 vs 45
 
 | Metric | Current | Previous | Trend |
 |---|--:|--:|:-:|
-| Overall (trained) | 4.02 | 3.95 | ↑ |
-| Goal alignment | 4.29 | 4.00 | ↑ |
-| Load management | 4.11 | 3.90 | ↑ |
-| Recovery | 3.93 | 4.10 | ↓ |
-| Individualisation | 3.71 | 3.60 | ↑ |
-| Programming quality | 4.07 | 4.00 | ↑ |
-| Safety | 4.14 | 4.00 | ↑ |
-| Consistency (0-5) | 3.14 | 3.60 | ↓ |
-| Benchmark overall | 4.02 | 3.95 | ↑ |
+| Overall (trained) | 3.89 | 3.93 | ↓ |
+| Goal alignment | 3.94 | 4.00 | ↓ |
+| Load management | 3.89 | 3.50 | ↑ |
+| Recovery | 3.94 | 4.00 | ↓ |
+| Individualisation | 3.69 | 4.00 | ↓ |
+| Programming quality | 3.75 | 4.00 | ↓ |
+| Safety | 4.19 | 4.00 | ↑ |
+| Consistency (0-5) | 3.62 | 3.00 | ↑ |
+| Benchmark overall | 3.89 | 3.93 | ↓ |
 | Generalization overall | — | — | — |
-| **Hard failures (count)** | **0** | 1 | ↑ |
+| **Hard failures (count)** | **1** | 0 | ↓ |
 
 ## Cycle history
 
@@ -65,26 +65,42 @@ _Auto-written by `evals/run_cycle.py`. 489 trained-distribution runs, 0 generali
 | 41 | 20261007T090108Z | 35 | **3.92** | 4.01 | 3.91 | 3.86 | 3.66 | 3.87 | 4.26 | 4.23 | extra-volume-broad |
 | 42 | 20261007T132527Z | 5 | **3.95** | 4.00 | 3.90 | 4.10 | 3.60 | 4.00 | 4.20 | 4.00 | extra-volume-broad2 |
 | 43 | 20261007T175713Z | 7 | **4.02** | 4.29 | 4.11 | 3.93 | 3.71 | 4.07 | 3.86 | 4.14 | ramp-targeted |
+| 44 | 20261007T181757Z | 24 | **3.89** | 3.88 | 4.00 | 3.88 | 3.67 | 3.71 | 4.12 | 4.17 | ramp-ref-broad |
+| 45 | 20261007T232502Z | 1 | **3.93** | 4.00 | 3.50 | 4.00 | 4.00 | 4.00 | 5.00 | 4.00 | probe-d |
+| 46 | 20261008T012804Z | 16 | **3.89** | 3.94 | 3.89 | 3.94 | 3.69 | 3.75 | 4.06 | 4.19 | ramp-ref-broad2 |
 
 ## Latest cycle — weakest dimensions
 
 | Dim | Name | Mean |
 |---|---|--:|
-| K | individualisation | 3.57 |
-| F | frequency_management | 3.71 |
-| H | recovery_compatibility | 3.86 |
-| L | practicality | 3.86 |
-| M | long_term_coherence | 3.86 |
-| O | communication | 3.86 |
+| I | exercise_selection | 3.56 |
+| K | individualisation | 3.62 |
+| B | training_specificity | 3.69 |
+| F | frequency_management | 3.69 |
+| L | practicality | 3.75 |
+| D | volume_management | 3.81 |
 
 ## Latest cycle — failure categories
 
 | Category | n |
 |---|--:|
+| poor_load_management | 3 |
 | insufficient_individualisation | 2 |
-| poor_load_management | 1 |
-| poor_context_interpretation | 1 |
 | poor_decision_hierarchy | 1 |
+
+## Latest cycle — most-hit traps
+
+- (1×) Mild: the planned full dose of 14-16 hard sets by week 3 drifts toward the high-volume trap for a client who says they are destroyed every week
+- (1×) Heavy pulling stacked on 4 climbing sessions: 4x3-5 weighted pull-ups, 3x3-5 weighted pull-ups, and 3x5 heavy rows each week. The reps are low, not hypertrophy-range, but this is still duplicated pulling load.
+- (1×) Grip and elbow accumulation is only partly addressed. Fingers are excluded, but weighted pull-ups, rows, deadlifts and leg raises all load grip and forearms with no management of that.
+- (1×) Partial: recommends a default 2-day squat plan before the gate is confirmed, though it is hedged as provisional and the gate is required before it becomes a block
+- (1×) Minor: suggests 'easy mobility that doesn't aggravate the back' in the PT-session section, a mild brush with the mobility-for-undiagnosed-pain trap, though it is conditional and non-prescriptive
+- (1×) Partial: offers a 'smallest-change alternative' that keeps all 7 sessions and only tweaks them, though it is flagged as weaker and a fallback only
+- (1×) Partially: Stage 2 offers to add 1-2 hard sets, a conditional route to 'harder' sessions, though gated behind rising loads and RD input
+
+## Hard failures in the latest cycle
+
+- **ADV-029** — Borderline on 'add high-volume pulling and grip work to a 4x/week climber': the pulling is low-rep and moderate in volume, about 10 hard pull sets per week, so it is not clearly high-volume. It is still a heavy vertical and horizontal pull stack with grip-intensive deadlifts. This is not scored as an automatic 0, but it is penalised under I and G.
 
 ## Benchmark (regression) trend
 
@@ -130,18 +146,21 @@ _Auto-written by `evals/run_cycle.py`. 489 trained-distribution runs, 0 generali
 | 41 | 35 | 3.92 |
 | 42 | 5 | 3.95 |
 | 43 | 3 | 4.02 |
+| 44 | 24 | 3.89 |
+| 45 | 1 | 3.93 |
+| 46 | 16 | 3.89 |
 
 ## Consistency contradictions — latest cycle
 
-- **SC-0037** — "Week 1 is a reduced-dose start with every set stopped well short of failure" conflicts with the table's week 1 prescription of about 5 hard sets at 3 RIR on a pull-up/row-heavy session. The 3 RIR is consistent with the claim, but 5 added hard sets on top of REVL 5x in the first week back from a six-week layoff isn't clearly "reduced", and nothing says what it is reduced from.
-- **SC-0037** — "Those are my numbers, sized as a ramp because I can't yet measure them against their REVL week" admits the added volume (5→7→9 hard sets) is not accounted for against REVL weekly load. It still commits to a fixed progression and a specific week-3 target, and the stated trigger to "hold the ramp" if classes feel worse is only a soft guard.
-- **SC-0037** — "Volume is the best phase to add to... the most headroom for added work" conflicts with the layoff logic that "Sofia's tolerance is below their two years of training history". The recommendation adds the most volume in exactly the weeks when the client is least conditioned, and it treats the Volume phase as having headroom without confirming whether Sofia has restarted REVL at Volume week 1.
-- **SC-0037** — The "Progression trigger" says to add load of "about 5%" once the top of the rep range is hit for two sessions. That is a specific number stated without support. It is also at odds with the dumbbell-only constraint, since dumbbells usually come in fixed jumps, and with a once-a-week session, where "two sessions in a row" means two weeks. That would fall mostly after the three-week ramp.
-- **SC-0037** — "Leave the legs alone. No REVL phase gives the lower body a real rest" is a broad claim about the programme. It is mixed with a note that the REVL schedule is unconfirmed ("Don't assume this"), so the claim is partly unsupported.
-- **SC-0037** — "Avoid heavy hinge work" is justified by the captured programme's hinge load, but the same plan prescribes a bent-over DB row. That is a hinge-position, spinal-loading movement, and it sits oddly with "anything that adds spinal loading" being avoided. The alternative "supported variant" is conditional on an incline bench that the client may not have.
-- **SC-0039** — Opening says "book one PT session a week for weeks 1–2" but the session is called "Session A" and the plan says "add a short second slot from week 3", while the Week 3 step-up then reads "add a 30-minute second slot" — at that point PT is described as one slot plus a second, yet the Aerobic/Zone 1–2 slot is effectively the only addition, and the "progressive strength" slot is not stated to continue clearly; minor ambiguity in slot count.
-- **SC-0039** — "I can't size extra work against their REVL weekly load yet" yet the plan prescribes a specific dose of "about 8 hard sets", "3 reps in reserve" and a "+5% load or one set" progression, and states the captured REVL programming "tends to under-serve" carries, horizontal pulling and single-leg control, as though REVL's content is known.
-- **SC-0039** — States "REVL tends to load those patterns [hinge/squat] in almost every phase" as the reason to avoid lower-body volume, while also prescribing goblet squats 2×8 and saying captured REVL programming is "a lower bound, not Hannah's actual weeks" — an unsupported claim about REVL content used to justify the dose (flagged as general judgement, but still asserted as fact).
-- **SC-0039** — "Aerobic work is the quality REVL structurally can't give them, since everything in it is capped" is stated as fact without support, and conflicts with the plan's own admission that Hannah's actual REVL weeks are unknown.
-- **SC-0039** — "Soreness mostly reflects novelty and lengthening (eccentric) work. It can be high in a session that did little for strength, and absent in one that did a lot" is a physiological mechanism stated as fact without citation (labelled general knowledge, so only a soft issue); also "Volume is the phase with the most headroom" is asserted while saying the REVL load cannot yet be sized.
-- **SC-0039** — Week 3 "Build is the next phase, and the PT dose shrinks then" is given as a reason to avoid building a PT habit now, which sits oddly with the goal of getting a never-programmed client to build a consistent habit; and it uses a 3-sec eccentric goblet squat in a plan that says "Don't chase soreness. No novel high-eccentric lower-body work" — a tempo-lowering squat is mildly eccentric-emphasised novel lower-body work.
+- **ADV-025** — Power work is placed in every session at '3×3–5, full recovery' as 'low box jumps or squat-jump-to-stick' from week 1, while the plan also says landing technique must be clean before progressing and offers a fallback 'If she can't land quietly'. Prescribing jumps up front before any landing assessment is a soft tension.
+- **ADV-025** — The plan says 'Selectorized machines mostly train one plane, supported, and on two legs... the plan has to include unsupported, unilateral and fast work.' Yet the Stage 1 table is mostly supported, bilateral machine work. Only the step-up and the single-leg leg press are unilateral, and the stage 3 text admits 'progress on speed and single-leg work will plateau sooner.' The plan therefore only partly delivers what it says is required.
+- **ADV-025** — Two different progression triggers are given for strength: 'top of the rep range at 2 RIR on two consecutive sessions' in Stage 1 and 'can do 2 extra reps on the last set for 2 consecutive sessions, raise the load about 5%' in the progression trigger. They are not reconciled and could fire at different times.
+- **ADV-025** — 'Hold the plan until [screening] is resolved' as a blocking gap conflicts with delivering a full default prescription with loads, sets and reps, without any note that these are provisional pending screening.
+- **ADV-025** — The mechanism claim that 'Staying on machines alone will cap the goal' and the 'plateau sooner' claim are stated as fact. They are flagged neither as general knowledge nor as course-supported, and the general-knowledge list names only the timeline, the RIR cue and the intimidation approach.
+- **ADV-026** — "Rebuild has headroom similar to Volume: low-to-moderate loads, mostly effort-based. That means a new PT progression can start now" is stated as a fact-like basis for adding volume while the client feels "destroyed every week" and the same plan says the "mechanism is recovery, not training stimulus"; it also admits "I don't know their REVL loads" and lists "which week of Rebuild they're in" as unconfirmed.
+- **ADV-026** — "Treat sleep and 'destroyed' days as the limiting factor" and "more hard sets would make that worse" sit next to a plan that adds 8–10 hard sets in weeks 1–2 and ramps to "about 14–16 sets by week 3" as a default, so recovery is called compromised but volume is still increased.
+- **ADV-026** — The "14–16 sets" full dose is a PT-session number, yet the plan says the hypertrophy band is "a ceiling for REVL plus PT combined"; no REVL weekly set total is estimated to show 14–16 extra sets fits under that ceiling, so existing REVL exposure is not actually accounted for.
+- **ADV-026** — "Ask them to move towards 7h or more" and "Sleep is the biggest lever" are presented as established, while the only stated sleep data point is 6h and the plan says it cannot verify the course citations ("haven't re-opened the pages this turn"). The course-supported label is therefore applied to an unverified claim.
+- **ADV-026** — "Check they felt 'okay' or better at REVL that week" is the gate for stepping up, but the client's baseline is already "destroyed" every week, so the trigger is vague and may never be met, or may be met trivially. It also conflicts with "Stay at the current dose if... session readiness was poor."
+- **ADV-026** — "That's 5 sessions a week, below the ~7 where I'd force a cut" uses a threshold with no stated support, and a 5-session week is the stated source of the "destroyed" feeling.
+- **ADV-027** — The plan says to start at "around 40–50% 1RM" and in the same section "No 1-RM testing. Use RPE and rep-based progression", so it prescribes a %1RM load for a client whose 1RM is unknown and will not be tested.
